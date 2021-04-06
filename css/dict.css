@@ -1,0 +1,108 @@
+div.global {
+ font: 100% Lucida Sans Unicode;
+}
+.framed {
+ background: #F7F9FA;
+ border: 1px solid #8CACBB;
+ border-collapse: collapse;
+ padding: 0.25em 0.5em 0.25em 0.5em; 
+}
+.boxed {
+ background: white;
+ border: 1px solid #8CACBB;
+ border-collapse: collapse;
+ padding: 0.25em 0.5em 0.25em 0.5em;
+}
+.number {
+ color: #191970;
+}
+.hdr1 {
+ color: #006600;
+}
+.hdr2 {
+ color: #191970;
+}
+.milestone {
+ color: #191970;
+ border-bottom: 1px solid #191970;
+ page-break-after:avoid;
+}
+.unused {
+ font-size: 8pt;
+}
+.part {
+ font-size: 14pt;
+}
+.section1 {
+ font-size: 12pt;
+}
+.section2 {
+ font-size: 10pt;
+}
+.section3 {
+ font-size: 8pt;
+}
+legend {
+ background: transparent;
+ padding: 0.5em;
+ font-size: 8pt;
+ font-weight: bold;
+}
+p.annotate-xhtml {
+ border-width: 0;
+ padding-top: 1pt;
+ padding-bottom: 1pt;
+ margin-top: 0pt;
+ margin-bottom: 0pt;
+ font-size: 8pt;
+ line-height: 10pt;
+ text-align: justify;
+}
+p.annotate-pdf {
+ display: none;
+}
+p.sindict {
+ border-width: 0;
+ padding-top: 0;
+ padding-bottom: 0;
+ margin-top: 2pt;
+ margin-bottom: 0;
+ margin-left: 1.5em;
+ text-indent: -1.5em;
+ font-size: 8pt;
+ line-height: 10pt;
+ text-align: justify;
+}
+
+p.edition {
+ border-width: 0;
+ padding-top: 20pt;
+ padding-bottom: 0;
+ margin-top: 2pt;
+ margin-bottom: 0;
+ margin-left: 1.5em;
+ text-indent: -1.5em;
+ font-size: 8pt;
+ line-height: 10pt;
+ text-align: justify;
+}
+
+small {
+ font-size: 7pt;
+}
+div.styleswitcher {
+ font: 7pt Lucida Sans Unicode;
+ text-align: right;
+}
+
+span.trans-lang, span.note-lang {
+  border-radius: .3em;
+  padding-left: 2pt;
+  padding-right: 2pt;
+  font-weight: normal;
+  text-shadow: none;
+  font-size: 6pt;
+  background: darkgray;
+  color: white;
+  text-transform: uppercase;  
+}

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<abbr>
+  <defs lang='en' full="Symbols and abbreviations">
+    <def id="dual">dual</def>
+    <def id="excl.">exclusive</def>
+    <def id="incl.">inclusive</def>
+    <def id="fam.">familiar</def>
+    <def id="pol.">polite</def>
+    <def id="n.">noun</def>
+    <def id="pref.">prefix</def>
+    <def id="prep.">preposition</def>
+    <def id="conj.">conjunction</def>
+    <def id="by ext.">by extension</def>
+    <def id="by opp.">by opposition</def>
+    <def id="etym.">etymology</def>
+    <def id="pa. t.">past tense</def>
+    <def id="irreg. pa. t.">irregular past tense</def>
+    <def id="pl.">plural</def>
+    <def id="fut.">future tense</def>
+    <def id="pres.">present tense</def>
+    <def id="aor.">aorist</def>
+    <def id="class pl.">class plural</def>
+    <def id="coll.">collective plural</def>
+    <def id="dual pl.">dual</def>
+    <def id="nasal mut.">nasal mutation</def>
+    <def id="soft mut.">soft mutation (lenition)</def>
+    <def id="nasal assim.">nasal assimilation</def>
+    <def id="dim.">dimiminutive</def>
+    <def id="augm.">augmentative</def>
+    <def id="sing.">singulative</def>
+    <def id="1st">first person.</def>
+    <def id="2nd">second person</def>
+    <def id="3rd">third person</def>
+    <def id="hypo.">hypocoristic, affectionate diminutive</def>
+    <def id="interj.">interjective</def>
+    <def id="ger.">gerund</def>
+    <def id="pron.">pronoun</def>
+    <def id="rel.">relative (pronoun)</def>
+    <def id="adj.">adjective</def>
+    <def id="dem.">demonstrative</def>
+    <def id="poss.">possesive</def>
+    <def id="adj. num.">number, numerical adjective</def>
+    <def id="adv.">adverb</def>
+    <def id="inf.">infinitive</def>
+    <def id="pp.">past participle</def>
+    <def id="m.">masculine</def>
+    <def id="f.">feminine</def>
+    <def id="v.">verb</def>
+    <def id="imp.">imperative</def>
+    <def id="part.">participle</def>
+    <def id="art.">article</def>
+    <def id="aux.">auxiliary</def>
+    <def id="mut.">mutation</def>
+    <def id="v. impers.">impersonal verb</def>
+    <def id="unkn.">unknown part of speech</def>
+    <def id="invar.">invariable</def>
+    <def id="perf.">perfective</def>
+    <def id="Bot.">Botany</def>
+    <def id="Geol.">Geology</def>
+    <def id="Ling.">Linguitics</def>
+    <def id="Mil.">Military domain</def>
+    <def id="Orn.">Ornithology</def>
+    <def id="Theo.">Theology</def>
+    <def id="Zool.">Zoology</def>
+    <def id="Arch.">archaism</def>
+    <def id="Astron.">Astronomy</def>
+    <def id="Biol.">Biology</def>
+    <def id="Phil.">Philosophy</def>
+    <def id="Geog.">Geography</def>
+    <def id="Cal.">Calendar</def>
+    <def id="Pop.">People, name of a population</def>
+    <def id="Poet.">literary or poetic language</def>
+    <def id="Pej.">pejorative register</def>
+    <def id="Cf.">See also</def>
+    <def id="lit.">literally</def>
+    <def id="der.">derivative</def>
+    <def id="abst.">abstract form</def>
+    <def id="n. pr.">proprer name</def>
+    <def id="N.">Noldorin</def>
+    <def id="S.">Sindarin</def>
+    <def id="*S.">normalized (Neo-)Sindarin</def>
+    <def id="ord.">ordinal (number)</def>
+    <def id="card.">cardinal (number)</def>
+    <def id="quant.">quantitative (number)</def>
+    <mark id="*">deduced form</mark>
+    <mark id="&#x2217;">deleted form</mark>
+    <mark id="&#x2020;">normalized or reconstructed form</mark>
+    <mark id="&#x2021;">coined form</mark>  
+  </defs>	
+  <!-- Translations -->
+  <list lang="fr" full="Symboles et abréviations">
+    <item id="dual" full="duel">duel</item>
+    <item id="excl." full="exclusif">excl.</item>
+    <item id="incl." full="inclusif">incl.</item>
+    <item id="fam." full="familier">fam.</item>
+    <item id="pol." full="poli">pol.</item>
+    <item id="n." full="nom">n.</item>
+    <item id="n. and adj.">n. et adj.</item>
+    <item id="as a noun">comme nom</item>
+    <item id="as a proper noun">comme n. propre</item>
+    <item id="as an adverb">comme adv.</item>
+    <item id="as a coll. noun">comme n. collectif</item>
+    <item id="of">de</item>
+    <item id="pref." full="préfixe">préf.</item>
+    <item id="prep." full="préposition">prép.</item>
+    <item id="prep. and conj.">prép. et conj.</item>
+    <item id="conj." full="conjonction">conj.</item>
+    <item id="by ext." full="par extension">par ext.</item>
+    <item id="by opp." full="par opposition">par opp.</item>
+    <item id="etym." full="étymologie">étym.</item>
+    <item id="pa. t." full="passé">pas.</item>
+    <item id="fut." full="futur">fut.</item>
+    <item id="pres." full="présent">prés.</item>
+    <item id="aor." full="aoriste">aor.</item>
+    <item id="irreg. pa. t." full="passé de forme irrégulière">pas. irrég.</item>
+    <item id="pl." full="pluriel">pl.</item>
+    <item id="class pl." full="pluriel de classe">pl. de classe</item>
+    <item id="coll." full="pluriel collectif">coll.</item>
+    <item id="dual pl." full="duel">pl. duel</item>
+    <item id="nasal mut." full="mutation nasale">mut. nasale</item>
+    <item id="soft mut." full="mutation douce (lénition)">mut. douce</item>
+    <item id="nasal assim." full="assimilation nasale">assim. nasale</item>
+    <item id="dim." full="diminutif">dim.</item>
+    <item id="augm." full="augmentatif">augm.</item>
+    <item id="sing." full="singulatif">sing.</item>
+    <item id="1st" full="première personne">1e pers.</item>
+    <item id="2nd" full="deuxième personne">2e pers.</item>
+    <item id="3rd" full="troisième personne">3e pers.</item>
+    <item id="hypo." full="hypocoristique, diminutif affectueux">hypo.</item>
+    <item id="interj." full="interjectif">interj.</item>
+    <item id="ger." full="gérondif">gér.</item>
+    <item id="pron." full="pronom">pron.</item>
+    <item id="rel." full="(pronom) relatif">rel.</item>
+    <item id="adj." full="adjectif">adj.</item>
+    <item id="poss." full="possessif">poss.</item>
+    <item id="dem." full="démonstratif">dém.</item>
+    <item id="adj. num." full="nombre, adjectif numéral">adj. num.</item>
+    <item id="adj. or adv.">adj. ou adv.</item>
+    <item id="adv." full="adverbe">adv.</item>
+    <item id="inf." full="infinitif">inf.</item>
+    <item id="pp." full="participe passé">pp.</item>
+    <item id="m." full="masculin">m.</item>
+    <item id="f." full="féminin">f.</item>
+    <item id="v." full="verbe">v.</item>
+    <item id="imp."  full="mode impératif">imp.</item>
+    <item id="part." full="participe">part.</item>
+    <item id="art." full="article">art.</item>
+    <item id="art. and pron.">art. et pron.</item>
+    <item id="aux." full="auxiliaire">aux.</item>
+    <item id="mut." full="mutation">mut.</item>
+    <item id="v. impers." full="verbe impersonnel">v. impers.</item>
+    <item id="esp. in the pl.">sp. au pl.</item>
+    <item id="unkn." full="partie du discours inconnue">inc.</item>
+    <item id="invar." full="invariable">invar.</item>
+    <item id="perf." full="perfectif">perf.</item>
+    <item id="Bot." full="Botanique">Bot.</item>
+    <item id="Geol." full="Géologie">Géol.</item>
+    <item id="Ling." full="Linguistique">Ling.</item>
+    <item id="Mil." full="domaine militaire">Mil.</item>
+    <item id="Orn." full="Ornithologie">Orn.</item>
+    <item id="Theo." full="Théologie">Théo.</item>
+    <item id="Zool." full="Zoologie">Zool.</item>
+    <item id="Arch." full="archaïsme">Arch.</item>
+    <item id="Astron." full="Astronomie">Astron.</item>
+    <item id="Biol." full="Biologie">Biol.</item>
+    <item id="Phil." full="Philosophie">Phil.</item>
+    <item id="Geog." full="Géographie">Géog.</item>
+    <item id="Cal." full="Calendrier">Cal.</item>
+    <item id="Pop." full="Population, nom de peuple">Pop.</item>
+    <item id="Poet." full="langage poétique ou littéraire">Poét.</item>
+    <item id="Arch., Poet.">Arch., Poét.</item>
+    <item id="Pej." full="registre péjoratif">Péj.</item>
+    <item id="Cf." full="Voir aussi">Cf.</item>
+    <item id="lit." full="littéralement">lit.</item>
+    <item id="der." full="dérivatif">dér.</item>
+    <item id="abst." full="forme abstraite">abst.</item>
+    <item id="n. pr." full="nom propre">n. pr.</item>
+    <item id="N." full="noldorin">N.</item>
+    <item id="S." full="sindarin">S.</item>
+    <item id="*S." full="(néo-)sindarin normalisé">*S.</item>
+    <item id="*" full="forme déduite">*</item>
+    <item id="&#x2217;" full="forme rayée">&#x2217;</item>
+    <item id="&#x2020;" full="forme normalisée ou reconstruite">&#x2020;</item>
+    <item id="&#x2021;" full="forme inventée">&#x2021;</item>
+    <item id="ord." full="(nombre) ordinal">ord.</item>
+    <item id="card." full="(nombre) cardinal">card.</item>
+    <item id="quant." full="(nombre) quantitatif">quant.</item>
+  </list>	
+  <list lang="de" full="Zeichen und Abkürzungen">
+    <item id="dual" full="Dual">dual</item>
+    <item id="excl." full="exklusiv">exkl.</item>
+    <item id="incl." full="inklusiv">inkl.</item>
+    <item id="fam." full="familiär">fam.</item>
+    <item id="pol." full="höflich">höf.</item>  
+    <item id="n." full="Substantiv">s.</item>
+    <item id="n. and adj.">s. und adj.</item>
+    <item id="as a noun">als subst.</item>
+    <item id="as a proper noun">als Eigenname</item>
+    <item id="as an adverb">als adverb</item>
+    <item id="as a coll. noun">als koll. subst.</item>
+    <item id="of">von</item>
+    <item id="pref." full="Präfix">präf.</item>
+    <item id="prep." full="Präposition">präp.</item>
+    <item id="prep. and conj.">präp. und konj.</item>
+    <item id="conj." full="Konjunktion">konj.</item>
+    <item id="by ext." full="auch konkret">auch konkret</item>
+    <item id="by opp." full="durch Opposition (umgekehrt)">durch opp.</item>
+    <item id="etym." full="Etymologie">etym.</item>
+    <item id="pa. t." full="Imperfekt">imperf.</item>
+    <item id="irreg. pa. t." full="unregelmäßiges Imperfekt">unreg. imperf.</item>
+    <item id="fut." full="Futur">fut.</item>
+    <item id="pres." full="Präsens">präs.</item>
+    <item id="aor." full="Aorist">aor.</item>
+    <item id="pl." full="Plural">pl.</item>
+    <item id="class pl." full="Klassenplural">klass pl.</item>
+    <item id="coll." full="Kollektivplural">koll.</item>
+    <item id="dual pl." full="Dual">dual pl.</item>
+    <item id="nasal mut." full="nasal Mutation">nasal mut.</item>
+    <item id="soft mut." full="weiche Mutation (Lenition)">weiche mut.</item>
+    <item id="nasal assim." full="nasal Assimilation">nasal assim.</item>
+    <item id="dim." full="Diminutiv, Verkleinerungsform">dim.</item>
+    <item id="augm." full="Augmentativ">augm.</item>
+    <item id="sing." full="Singulativ">sing.</item>
+    <item id="1st" full="erste Person">1. pers.</item>
+    <item id="2nd" full="zweite Person">2. pers.</item>
+    <item id="3rd" full="dritte Person">3. pers.</item>
+    <item id="hypo." full="Koseform">kosef.</item>
+    <item id="interj." full="Interjektion">interj.</item>
+    <item id="ger." full="Gerund">ger.</item>
+    <item id="pron." full="Pronomen">pron.</item>
+    <item id="rel." full="Relativpronomen">rel.</item>
+    <item id="adj." full="Adjectiv">adj.</item>
+    <item id="poss." full="Possessiv">poss.</item>
+    <item id="dem." full="Demonstrativ">dem.</item>
+    <item id="adj. num." full="Zahlwort, numerisches Adjektiv">adj. num.</item>
+    <item id="adv." full="Adverb">adv.</item>
+    <item id="adj. or adv.">adj. oder adv.</item>
+    <item id="inf." full="Infinitiv">inf.</item>
+    <item id="pp." full="Partizip Perfekt">pp.</item>
+    <item id="m." full="Maskulinum">m.</item>
+    <item id="f." full="Femininum">f.</item>
+    <item id="v." full="Verb">v.</item>
+    <item id="imp." full="Imperativ">imp.</item>
+    <item id="part." full="Partizip">part.</item>
+    <item id="art." full="Artikel">art.</item>
+    <item id="art. and pron.">art. und pron.</item>
+    <item id="aux." full="Hilfsverb">hilfsv.</item>
+    <item id="mut." full="Mutation">mut.</item>
+    <item id="v. impers." full="unpersönliches Verb">v. unpers.</item>
+    <item id="esp. in the pl." full="besonders im Plural">bes. im pl.</item>
+    <item id="unkn." full="unbekannt">unbek.</item>
+    <item id="invar." full="unveränderlich">unver.</item>
+    <item id="perf." full="Perfektiv">perf.</item>
+    <item id="Bot." full="Botanik">Bot.</item>
+    <item id="Geol." full="Geologie">Geol.</item>
+    <item id="Ling." full="Linguistik">Ling.</item>
+    <item id="Mil." full="Militär">Mil.</item>
+    <item id="Orn." full="Ornithologie, Vogelkunde">Orn.</item>
+    <item id="Theo." full="Theologie">Theo.</item>
+    <item id="Zool." full="Zoologie">Zool.</item>
+    <item id="Arch." full="Archaismus">Arch.</item>
+    <item id="Astron." full="Astronomie">Astron.</item>
+    <item id="Biol." full="Biologie">Biol.</item>
+    <item id="Phil." full="Philosophie">Phil.</item>
+    <item id="Geog." full="Geographie">Geog.</item>
+    <item id="Cal." full="Kalender">Kal.</item>
+    <item id="Pop." full="Bevölkerung">Volk.</item>
+    <item id="Poet." full="poetisch">Poet.</item>
+    <item id="Arch., Poet.">Arch., Poet.</item>
+    <item id="Pej." full="pejorativ, abwertend">Pej.</item>
+    <item id="Cf." full="Siehe auch">Cf.</item>
+    <item id="lit." full="buchstäblich">buch.</item>
+    <item id="der." full="derivativ">der.</item>
+    <item id="n. pr." full="Eigenname">eign.</item>
+    <item id="N." full="Noldorin">N.</item>
+    <item id="S." full="Sindarin">S.</item>
+    <item id="*S." full="normalisiert (Neo-)Sindarin">*S.</item>
+    <item id="*" full="abgeleitete Form">*</item>
+    <item id="&#x2217;" full="gestrichen Form">&#x2217;</item>
+    <item id="&#x2020;" full="normalisierte oder rekonstruierte Form">&#x2020;</item>
+    <item id="&#x2021;" full="geprägte Form">&#x2021;</item>
+    <item id="ord." full="Ordinalzahl">ord.</item>
+    <item id="card." full="Kardinalzahl">kard.</item>
+    <item id="quant." full="quantitative Zahl">quant.</item>
+  </list>	
+</abbr>

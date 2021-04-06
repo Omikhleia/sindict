@@ -1,0 +1,6439 @@
+<!-- XML DTD for the Sindarin dictionary -->
+
+<!-- Subset of the TEI P3 recommendation, generated automatically 
+     (with PizzaChef 1.3 for pid pizza19587 on 6 Feb 2001) and
+     modified manually by Didier Willis on 7 Feb 2001:
+     - Removed -(entry) in <hom>
+     - Removed +(anchor) in <entry>
+     - Replaced <entryFree> by an empty definition
+     - Replaced <eg> by an empty definition
+-->
+
+<!ELEMENT TEI.2 
+	(teiHeader, text) >
+
+
+<!ATTLIST TEI.2 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "TEI.2" >
+
+
+<!ELEMENT teiCorpus.2 
+	(teiHeader, TEI.2+) >
+
+
+<!ATTLIST teiCorpus.2 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "teiCorpus.2" >
+
+
+<!ELEMENT cit 
+	(q | quote | bibl | biblFull | biblStruct | ptr | ref | 
+	xptr | xref | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)+ >
+
+
+<!ATTLIST cit 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "cit" >
+
+
+<!ELEMENT respStmt 
+	(resp | name | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)+ >
+
+
+<!ATTLIST respStmt 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "respStmt" >
+
+<!ELEMENT publicationStmt 
+	((p, (alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+ | ((publisher | distributor | authority 
+	| pubPlace | address | idno | availability | date), (alt 
+	| altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)*)+) >
+
+
+<!ATTLIST publicationStmt 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "publicationStmt" >
+
+
+<!ELEMENT sense 
+	(#PCDATA | sense | def | eg | etym | form | gramGrp | note 
+	| re | trans | usg | xr | abbr | address | date | dateRange 
+	| expan | lang | measure | name | num | rs | time | timeRange 
+	| add | corr | damage | del | orig | reg | restore | sic 
+	| space | supplied | unclear | oRef | oVar | pRef | pVar 
+	| distinct | emph | foreign | gloss | hi | mentioned | soCalled 
+	| term | title | ptr | ref | xptr | xref | seg | fw | handShift 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST sense 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	level NMTOKEN #IMPLIED
+	TEIform CDATA "sense" >
+
+
+<!ELEMENT re 
+	(#PCDATA | sense | def | eg | etym | form | gramGrp | note 
+	| re | trans | usg | xr | abbr | address | date | dateRange 
+	| expan | lang | measure | name | num | rs | time | timeRange 
+	| add | corr | damage | del | orig | reg | restore | sic 
+	| space | supplied | unclear | oRef | oVar | pRef | pVar 
+	| distinct | emph | foreign | gloss | hi | mentioned | soCalled 
+	| term | title | ptr | ref | xptr | xref | seg | fw | handShift 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST re 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	type CDATA #IMPLIED
+	TEIform CDATA "re" >
+
+
+<!ELEMENT dateline 
+	(#PCDATA | date | time | name | address | alt | altGrp | 
+	index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST dateline 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "dateline" >
+
+
+<!ELEMENT docImprint 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | pubPlace 
+	| docDate | publisher | alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST docImprint 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "docImprint" >
+
+
+<!ELEMENT catDesc 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift)* >
+
+
+<!ATTLIST catDesc 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "catDesc" >
+
+
+<!ELEMENT byline 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | docAuthor 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST byline 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "byline" >
+
+
+<!ELEMENT opener 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | argument 
+	| byline | epigraph | signed | dateline | salute | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST opener 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "opener" >
+
+
+<!ELEMENT closer 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | signed 
+	| dateline | salute | alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST closer 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "closer" >
+
+
+<!ELEMENT form 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | case | gen | gram | itype 
+	| mood | number | per | tns | form | hyph | lbl | orth | 
+	pron | syll | usg | alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST form 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	type CDATA #IMPLIED
+	TEIform CDATA "form" >
+
+
+<!ELEMENT gramGrp 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | case | gen | gram | itype 
+	| mood | number | per | tns | colloc | gramGrp | lbl | pos 
+	| subc | usg | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)* >
+
+
+<!ATTLIST gramGrp 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "gramGrp" >
+
+
+<!ELEMENT trans 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | case | colloc | def | 
+	eg | etym | form | gen | gramGrp | hom | hyph | itype | 
+	lbl | mood | number | orth | per | pos | pron | re | sense 
+	| stress | subc | superentry | syll | tns | tr | trans | 
+	usg | xr | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)* >
+
+
+<!ATTLIST trans 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "trans" >
+
+
+<!ELEMENT etym 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | usg | lbl | def | trans 
+	| tr | case | gen | gram | itype | mood | number | per | 
+	tns | eg | xr | alt | altGrp | index | join | joinGrp | 
+	link | linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)* >
+
+
+<!ATTLIST etym 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "etym" >
+
+
+<!ELEMENT xr 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | usg | lbl | alt | altGrp 
+	| index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST xr 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	type CDATA #IMPLIED
+	TEIform CDATA "xr" >
+
+
+<!ELEMENT speaker 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST speaker 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "speaker" >
+
+
+<!ELEMENT stage 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | ab | l | lg | p | sp 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST stage 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA "mix"
+	TEIform CDATA "stage" >
+
+
+<!ELEMENT idno 
+	(#PCDATA | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)* >
+
+
+<!ATTLIST idno 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "idno" >
+
+
+<!ELEMENT postBox 
+	(#PCDATA | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)* >
+
+
+<!ATTLIST postBox 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "postBox" >
+
+
+<!ELEMENT postCode 
+	(#PCDATA | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)* >
+
+
+<!ATTLIST postCode 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "postCode" >
+
+
+<!ELEMENT address 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, ((addrLine, (alt | altGrp | index | join 
+	| joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)+ | ((name | postBox 
+	| postCode | street), (alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*)*)) >
+
+
+<!ATTLIST address 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "address" >
+
+
+<!ELEMENT analytic 
+	(author | editor | respStmt | title | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST analytic 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "analytic" >
+
+
+<!ELEMENT bibl 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | analytic 
+	| author | biblScope | edition | editor | extent | idno 
+	| imprint | monogr | note | publisher | pubPlace | respStmt 
+	| series | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)* >
+
+
+<!ATTLIST bibl 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "bibl" >
+
+
+<!ELEMENT biblFull 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, titleStmt, (alt | altGrp | index | join 
+	| joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*, (editionStmt, 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)?, (extent, (alt | altGrp | index | join 
+	| joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)?, publicationStmt, 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (seriesStmt, (alt | altGrp | index | join 
+	| joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)?, (notesStmt, 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)?, (sourceDesc, (alt | altGrp | index | 
+	join | joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST biblFull 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "biblFull" >
+
+
+<!ELEMENT biblStruct 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (analytic, (alt | altGrp | index | join 
+	| joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)?, (monogr, (alt 
+	| altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)*, 
+	(series, (alt | altGrp | index | join | joinGrp | link | 
+	linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)*)+, ((note | idno), (alt | altGrp 
+	| index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST biblStruct 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "biblStruct" >
+
+
+<!ELEMENT imprint 
+	(pubPlace | publisher | date | biblScope | alt | altGrp 
+	| index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST imprint 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "imprint" >
+
+
+<!ELEMENT lg 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, (l 
+	| lg), (l | lg | alt | altGrp | index | join | joinGrp | 
+	link | linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*, ((byline | closer | dateline 
+	| epigraph | salute | signed | trailer), (alt | altGrp | 
+	index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST lg 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	sample (initial | medial | final | unknown | complete) "complete"
+	part (Y | N | I | M | F) "N"
+	type CDATA #IMPLIED
+	org (composite | uniform) "uniform"
+	real CDATA #IMPLIED
+	met CDATA #IMPLIED
+	rhyme CDATA #IMPLIED
+	TEIform CDATA "lg" >
+
+
+<!ELEMENT list 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (head, (alt | altGrp | index | join | 
+	joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)?, ((item, (alt 
+	| altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)*)* 
+	| ((headLabel, (alt | altGrp | index | join | joinGrp | 
+	link | linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)?, (headItem, (alt | altGrp | 
+	index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)*)?, 
+	(label, (alt | altGrp | index | join | joinGrp | link | 
+	linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*, item, (alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*)+))) >
+
+
+<!ATTLIST list 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA "simple"
+	TEIform CDATA "list" >
+
+
+<!ELEMENT listBibl 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (head, (alt | altGrp | index | join | 
+	joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)?, (bibl | biblStruct 
+	| biblFull), (bibl | biblStruct | biblFull | alt | altGrp 
+	| index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)*, 
+	(trailer, (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)?) >
+
+
+<!ATTLIST listBibl 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "listBibl" >
+
+
+<!ELEMENT monogr 
+	(((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (((author | editor | respStmt), (author 
+	| editor | respStmt | alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*, (title, (alt | altGrp 
+	| index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)*)+, 
+	((editor | respStmt), (alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*)*) | ((title, (alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)*)+, 
+	((author | editor | respStmt), (alt | altGrp | index | join 
+	| joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)*)))?, ((note 
+	| meeting), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)*, (edition, (editor | respStmt 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)*, imprint, (imprint | extent | biblScope 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*) >
+
+
+<!ATTLIST monogr 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "monogr" >
+
+
+<!ELEMENT series 
+	(title | editor | respStmt | biblScope | alt | altGrp | 
+	index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST series 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "series" >
+
+
+<!ELEMENT sp 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (speaker, (alt | altGrp | index | join 
+	| joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)?, ((p | l | lg 
+	| seg | ab | stage), (alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*)+) >
+
+
+<!ATTLIST sp 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	who IDREFS #IMPLIED
+	TEIform CDATA "sp" >
+
+
+<!ELEMENT argument 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (head, ((bibl | biblFull | biblStruct 
+	| ab | l | lg | p | sp | cit | q | quote | label | list 
+	| listBibl | note | stage | entry | entryFree | superentry), 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)*)?) >
+
+
+<!ATTLIST argument 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "argument" >
+
+
+<!ELEMENT back 
+	((divGen | titlePage | alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*, (((argument | byline 
+	| dateline | docAuthor | docDate | epigraph | head | opener 
+	| salute | signed), (argument | byline | dateline | docAuthor 
+	| docDate | epigraph | head | opener | salute | signed | 
+	titlePage | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*) | (div, (div | divGen | titlePage 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*) | (div1, (div1 | divGen | titlePage | 
+	alt | altGrp | index | join | joinGrp | link | linkGrp | 
+	timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*))?) >
+
+
+<!ATTLIST back 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	TEIform CDATA "back" >
+
+
+<!ELEMENT body 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, ((((bibl 
+	| biblFull | biblStruct | ab | l | lg | p | sp | cit | q 
+	| quote | label | list | listBibl | note | stage | entry 
+	| entryFree | superentry), (alt | altGrp | index | join 
+	| joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)+, (divGen, (alt 
+	| altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)*)*, 
+	((div, (div | divGen | alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*) | (div0, (div0 | divGen 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*) | (div1, (div1 | divGen | alt | altGrp 
+	| index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)*))?) 
+	| ((divGen, (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)*, ((div, (div | divGen | alt 
+	| altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)*) 
+	| (div0, (div0 | divGen | alt | altGrp | index | join | 
+	joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*) | (div1, (div1 
+	| divGen | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)))), ((byline | closer | dateline 
+	| epigraph | salute | signed | trailer), (alt | altGrp | 
+	index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST body 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	TEIform CDATA "body" >
+
+
+<!ELEMENT div 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, (((div 
+	| divGen), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)+ | (((bibl | biblFull | biblStruct 
+	| ab | l | lg | p | sp | cit | q | quote | label | list 
+	| listBibl | note | stage | entry | entryFree | superentry), 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+, ((div | divGen), (alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*)*)), 
+	((byline | closer | dateline | epigraph | salute | signed 
+	| trailer), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST div 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	sample (initial | medial | final | unknown | complete) "complete"
+	part (Y | N | I | M | F) "N"
+	type CDATA #IMPLIED
+	org (composite | uniform) "uniform"
+	TEIform CDATA "div" >
+
+
+<!ELEMENT div0 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, (((div1 
+	| divGen), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)+ | (((bibl | biblFull | biblStruct 
+	| ab | l | lg | p | sp | cit | q | quote | label | list 
+	| listBibl | note | stage | entry | entryFree | superentry), 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+, ((div1 | divGen), (alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*)*)), 
+	((byline | closer | dateline | epigraph | salute | signed 
+	| trailer), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST div0 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	sample (initial | medial | final | unknown | complete) "complete"
+	part (Y | N | I | M | F) "N"
+	type CDATA #IMPLIED
+	org (composite | uniform) "uniform"
+	TEIform CDATA "div0" >
+
+
+<!ELEMENT div1 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, (((div2 
+	| divGen), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)+ | (((bibl | biblFull | biblStruct 
+	| ab | l | lg | p | sp | cit | q | quote | label | list 
+	| listBibl | note | stage | entry | entryFree | superentry), 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+, ((div2 | divGen), (alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*)*)), 
+	((byline | closer | dateline | epigraph | salute | signed 
+	| trailer), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST div1 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	sample (initial | medial | final | unknown | complete) "complete"
+	part (Y | N | I | M | F) "N"
+	type CDATA #IMPLIED
+	org (composite | uniform) "uniform"
+	TEIform CDATA "div1" >
+
+
+<!ELEMENT div2 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, (((div3 
+	| divGen), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)+ | (((bibl | biblFull | biblStruct 
+	| ab | l | lg | p | sp | cit | q | quote | label | list 
+	| listBibl | note | stage | entry | entryFree | superentry), 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+, ((div3 | divGen), (alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*)*)), 
+	((byline | closer | dateline | epigraph | salute | signed 
+	| trailer), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST div2 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	sample (initial | medial | final | unknown | complete) "complete"
+	part (Y | N | I | M | F) "N"
+	type CDATA #IMPLIED
+	org (composite | uniform) "uniform"
+	TEIform CDATA "div2" >
+
+
+<!ELEMENT div3 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, (((div4 
+	| divGen), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)+ | (((bibl | biblFull | biblStruct 
+	| ab | l | lg | p | sp | cit | q | quote | label | list 
+	| listBibl | note | stage | entry | entryFree | superentry), 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+, ((div4 | divGen), (alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*)*)), 
+	((byline | closer | dateline | epigraph | salute | signed 
+	| trailer), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST div3 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	sample (initial | medial | final | unknown | complete) "complete"
+	part (Y | N | I | M | F) "N"
+	type CDATA #IMPLIED
+	org (composite | uniform) "uniform"
+	TEIform CDATA "div3" >
+
+
+<!ELEMENT div4 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, (((div5 
+	| divGen), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)+ | (((bibl | biblFull | biblStruct 
+	| ab | l | lg | p | sp | cit | q | quote | label | list 
+	| listBibl | note | stage | entry | entryFree | superentry), 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+, ((div5 | divGen), (alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*)*)), 
+	((byline | closer | dateline | epigraph | salute | signed 
+	| trailer), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST div4 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	sample (initial | medial | final | unknown | complete) "complete"
+	part (Y | N | I | M | F) "N"
+	type CDATA #IMPLIED
+	org (composite | uniform) "uniform"
+	TEIform CDATA "div4" >
+
+
+<!ELEMENT div5 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, (((div6 
+	| divGen), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)+ | (((bibl | biblFull | biblStruct 
+	| ab | l | lg | p | sp | cit | q | quote | label | list 
+	| listBibl | note | stage | entry | entryFree | superentry), 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+, ((div6 | divGen), (alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*)*)), 
+	((byline | closer | dateline | epigraph | salute | signed 
+	| trailer), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST div5 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	sample (initial | medial | final | unknown | complete) "complete"
+	part (Y | N | I | M | F) "N"
+	type CDATA #IMPLIED
+	org (composite | uniform) "uniform"
+	TEIform CDATA "div5" >
+
+
+<!ELEMENT div6 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, (((div7 
+	| divGen), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)+ | (((bibl | biblFull | biblStruct 
+	| ab | l | lg | p | sp | cit | q | quote | label | list 
+	| listBibl | note | stage | entry | entryFree | superentry), 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+, ((div7 | divGen), (alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*)*)), 
+	((byline | closer | dateline | epigraph | salute | signed 
+	| trailer), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST div6 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	sample (initial | medial | final | unknown | complete) "complete"
+	part (Y | N | I | M | F) "N"
+	type CDATA #IMPLIED
+	org (composite | uniform) "uniform"
+	TEIform CDATA "div6" >
+
+
+<!ELEMENT div7 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, ((bibl 
+	| biblFull | biblStruct | ab | l | lg | p | sp | cit | q 
+	| quote | label | list | listBibl | note | stage | entry 
+	| entryFree | superentry), (alt | altGrp | index | join 
+	| joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)+, ((byline | 
+	closer | dateline | epigraph | salute | signed | trailer), 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)*) >
+
+
+<!ATTLIST div7 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	sample (initial | medial | final | unknown | complete) "complete"
+	part (Y | N | I | M | F) "N"
+	type CDATA #IMPLIED
+	org (composite | uniform) "uniform"
+	TEIform CDATA "div7" >
+
+
+<!ELEMENT group 
+	((argument | byline | dateline | docAuthor | docDate | epigraph 
+	| head | opener | salute | signed | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*, (text 
+	| group), (text | group | alt | altGrp | index | join | 
+	joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*, ((byline | closer 
+	| dateline | epigraph | salute | signed | trailer), (alt 
+	| altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST group 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	TEIform CDATA "group" >
+
+
+<!ELEMENT text 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (front, (alt | altGrp | index | join | 
+	joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)?, (body | group), 
+	(alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (back, (alt | altGrp | index | join | 
+	joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)?) >
+
+
+<!ATTLIST text 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	TEIform CDATA "text" >
+
+
+<!ELEMENT front 
+	((divGen | titlePage | alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*, (((argument | byline 
+	| docAuthor | docDate | docEdition | docImprint | docTitle 
+	| epigraph | head | titlePart), (argument | byline | docAuthor 
+	| docDate | docEdition | docImprint | docTitle | epigraph 
+	| head | titlePart | titlePage | alt | altGrp | index | 
+	join | joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*) | (div, (div 
+	| divGen | titlePage | alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*) | (div1, (div1 | divGen 
+	| titlePage | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*))?) >
+
+
+<!ATTLIST front 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	decls IDREFS #IMPLIED
+	TEIform CDATA "front" >
+
+
+<!ELEMENT titlePage 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (byline | docAuthor | docDate | docEdition 
+	| docImprint | docTitle | epigraph | imprimatur | titlePart), 
+	(byline | docAuthor | docDate | docEdition | docImprint 
+	| docTitle | epigraph | imprimatur | titlePart | alt | altGrp 
+	| index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)*) >
+
+
+<!ATTLIST titlePage 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "titlePage" >
+
+
+<!ELEMENT docTitle 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (titlePart, (alt | altGrp | index | join 
+	| joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)+) >
+
+
+<!ATTLIST docTitle 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "docTitle" >
+
+
+<!ELEMENT availability 
+	(p | alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST availability 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	status (free | unknown | restricted) #IMPLIED
+	TEIform CDATA "availability" >
+
+
+<!ELEMENT broadcast 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, ((p, (alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*)+ | ((bibl | biblStruct 
+	| biblFull | recording), (alt | altGrp | index | join | 
+	joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*))) >
+
+
+<!ATTLIST broadcast 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "broadcast" >
+
+
+<!ELEMENT editionStmt 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, ((edition, (respStmt | alt | altGrp | 
+	index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)*) 
+	| (p, (alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+)) >
+
+
+<!ATTLIST editionStmt 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "editionStmt" >
+
+
+<!ELEMENT equipment 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (p, (alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*)+) >
+
+
+<!ATTLIST equipment 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "equipment" >
+
+
+<!ELEMENT notesStmt 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (note, (alt | altGrp | index | join | 
+	joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)+) >
+
+
+<!ATTLIST notesStmt 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "notesStmt" >
+
+
+<!ELEMENT recording 
+	(((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (p, (alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*)+) | ((respStmt | equipment 
+	| broadcast | date), (alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST recording 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	type (audio | video) "audio"
+	dur CDATA #IMPLIED
+	TEIform CDATA "recording" >
+
+
+<!ELEMENT recordingStmt 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, ((p, (alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*)+ | (recording, (alt 
+	| altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)*)+)) >
+
+
+<!ATTLIST recordingStmt 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "recordingStmt" >
+
+
+<!ELEMENT scriptStmt 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, ((p, (alt | altGrp | index | join | joinGrp 
+	| link | linkGrp | timeline | cb | lb | milestone | pb | 
+	addSpan | delSpan | gap | anchor)*)+ | ((bibl | biblStruct 
+	| biblFull), (alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)*))) >
+
+
+<!ATTLIST scriptStmt 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "scriptStmt" >
+
+
+<!ELEMENT seriesStmt 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, ((title, (idno | respStmt | alt | altGrp 
+	| index | join | joinGrp | link | linkGrp | timeline | cb 
+	| lb | milestone | pb | addSpan | delSpan | gap | anchor)*) 
+	| (p, (alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+)) >
+
+
+<!ATTLIST seriesStmt 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "seriesStmt" >
+
+
+<!ELEMENT sourceDesc 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, ((p | bibl | biblFull | biblStruct | listBibl 
+	| scriptStmt | recordingStmt), (alt | altGrp | index | join 
+	| joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)+) >
+
+
+<!ATTLIST sourceDesc 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "sourceDesc" >
+
+
+<!ELEMENT titleStmt 
+	((alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*, (title, (alt | altGrp | index | join | 
+	joinGrp | link | linkGrp | timeline | cb | lb | milestone 
+	| pb | addSpan | delSpan | gap | anchor)*)+, ((author | 
+	editor | sponsor | funder | principal | respStmt), (alt 
+	| altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)*)*) >
+
+
+<!ATTLIST titleStmt 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "titleStmt" >
+
+
+<!ELEMENT altGrp 
+	(ptr | xptr | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)* >
+
+
+<!ATTLIST altGrp 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	evaluate (all | one | none) #IMPLIED
+	resp CDATA #IMPLIED
+	targOrder (Y | N | U) "U"
+	type CDATA #IMPLIED
+	targType NMTOKENS #IMPLIED
+	targFunc NMTOKENS #IMPLIED
+	domains IDREFS #IMPLIED
+	mode (excl | incl) "excl"
+	wScale (perc | real) "perc"
+	TEIform CDATA "altGrp" >
+
+
+<!ELEMENT joinGrp 
+	(ptr | xptr | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)* >
+
+
+<!ATTLIST joinGrp 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	evaluate (all | one | none) #IMPLIED
+	resp CDATA #IMPLIED
+	targOrder (Y | N | U) "U"
+	type CDATA #IMPLIED
+	targType NMTOKENS #IMPLIED
+	targFunc NMTOKENS #IMPLIED
+	domains IDREFS #IMPLIED
+	result CDATA #IMPLIED
+	desc CDATA #IMPLIED
+	TEIform CDATA "joinGrp" >
+
+
+<!ELEMENT linkGrp 
+	(ptr | xptr | alt | altGrp | index | join | joinGrp | link 
+	| linkGrp | timeline | cb | lb | milestone | pb | addSpan 
+	| delSpan | gap | anchor)* >
+
+
+<!ATTLIST linkGrp 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	evaluate (all | one | none) #IMPLIED
+	resp CDATA #IMPLIED
+	targOrder (Y | N | U) "U"
+	type CDATA #IMPLIED
+	targType NMTOKENS #IMPLIED
+	targFunc NMTOKENS #IMPLIED
+	domains IDREFS #IMPLIED
+	TEIform CDATA "linkGrp" >
+
+
+<!ELEMENT timeline 
+	(when, (alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)*)+ >
+
+
+<!ATTLIST timeline 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	origin IDREF #REQUIRED
+	unit NMTOKEN #IMPLIED
+	interval NMTOKEN #IMPLIED
+	TEIform CDATA "timeline" >
+
+
+<!ELEMENT teiHeader 
+	(fileDesc, encodingDesc*, profileDesc*, revisionDesc?) >
+
+
+<!ATTLIST teiHeader 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	creator CDATA #IMPLIED
+	date.created CDATA #IMPLIED
+	status (new | update) "new"
+	type CDATA "text"
+	date.updated CDATA #IMPLIED
+	TEIform CDATA "teiHeader" >
+
+
+<!ELEMENT fileDesc 
+	(titleStmt, editionStmt?, extent?, publicationStmt, seriesStmt?, 
+	notesStmt?, sourceDesc+) >
+
+
+<!ATTLIST fileDesc 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "fileDesc" >
+
+
+<!ELEMENT sponsor 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST sponsor 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "sponsor" >
+
+
+<!ELEMENT funder 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST funder 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "funder" >
+
+
+<!ELEMENT principal 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST principal 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "principal" >
+
+
+<!ELEMENT edition 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST edition 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "edition" >
+
+
+<!ELEMENT extent 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST extent 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "extent" >
+
+
+<!ELEMENT distributor 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST distributor 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "distributor" >
+
+
+<!ELEMENT authority 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST authority 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "authority" >
+
+
+<!ELEMENT encodingDesc 
+	(projectDesc*, samplingDecl*, editorialDecl*, tagsDecl?, 
+	refsDecl*, classDecl*, metDecl*, fsdDecl*, variantEncoding*, 
+	p*) >
+
+
+<!ATTLIST encodingDesc 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "encodingDesc" >
+
+
+<!ELEMENT projectDesc 
+	(p)+ >
+
+
+<!ATTLIST projectDesc 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "projectDesc" >
+
+
+<!ELEMENT samplingDecl 
+	(p)+ >
+
+
+<!ATTLIST samplingDecl 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "samplingDecl" >
+
+
+<!ELEMENT editorialDecl 
+	(p+ | ((correction | normalization | quotation | hyphenation 
+	| interpretation | segmentation | stdVals)+, p*)) >
+
+
+<!ATTLIST editorialDecl 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "editorialDecl" >
+
+
+<!ELEMENT correction 
+	(p)+ >
+
+
+<!ATTLIST correction 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	method (silent | tags) "silent"
+	status (high | medium | low | unknown) "unknown"
+	TEIform CDATA "correction" >
+
+
+<!ELEMENT normalization 
+	(p)+ >
+
+
+<!ATTLIST normalization 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	source CDATA #IMPLIED
+	method (silent | tags) "silent"
+	TEIform CDATA "normalization" >
+
+
+<!ELEMENT quotation 
+	(p)+ >
+
+
+<!ATTLIST quotation 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	form (data | rend | std | nonstd | unknown) "unknown"
+	marks (none | some | all) "all"
+	TEIform CDATA "quotation" >
+
+
+<!ELEMENT hyphenation 
+	(p)+ >
+
+
+<!ATTLIST hyphenation 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	eol (all | some | none) "some"
+	TEIform CDATA "hyphenation" >
+
+
+<!ELEMENT segmentation 
+	(p)+ >
+
+
+<!ATTLIST segmentation 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "segmentation" >
+
+
+<!ELEMENT stdVals 
+	(p)+ >
+
+
+<!ATTLIST stdVals 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "stdVals" >
+
+
+<!ELEMENT interpretation 
+	(p)+ >
+
+
+<!ATTLIST interpretation 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "interpretation" >
+
+
+<!ELEMENT tagsDecl 
+	(rendition*, tagUsage*) >
+
+
+<!ATTLIST tagsDecl 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "tagsDecl" >
+
+
+<!ELEMENT tagUsage 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST tagUsage 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	gi NMTOKEN #REQUIRED
+	occurs NMTOKEN #IMPLIED
+	ident NMTOKEN #IMPLIED
+	render IDREF #IMPLIED
+	TEIform CDATA "tagUsage" >
+
+
+<!ELEMENT rendition 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST rendition 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "rendition" >
+
+
+<!ELEMENT refsDecl 
+	(p+ | step+ | state+) >
+
+
+<!ATTLIST refsDecl 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	doctype NMTOKEN "TEI.2"
+	TEIform CDATA "refsDecl" >
+
+
+<!ELEMENT step 
+	EMPTY >
+
+
+<!ATTLIST step 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	refunit CDATA #IMPLIED
+	to CDATA "DITTO"
+	from CDATA #REQUIRED
+	length NMTOKEN #IMPLIED
+	delim CDATA #IMPLIED
+	TEIform CDATA "step" >
+
+
+<!ELEMENT state 
+	EMPTY >
+
+
+<!ATTLIST state 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	ed CDATA #IMPLIED
+	length NMTOKEN #IMPLIED
+	unit CDATA #REQUIRED
+	delim CDATA #IMPLIED
+	TEIform CDATA "state" >
+
+
+<!ELEMENT classDecl 
+	(taxonomy)+ >
+
+
+<!ATTLIST classDecl 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "classDecl" >
+
+
+<!ELEMENT taxonomy 
+	(category+ | ((bibl | biblStruct | biblFull), category*)) >
+
+
+<!ATTLIST taxonomy 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "taxonomy" >
+
+
+<!ELEMENT category 
+	(catDesc, category*) >
+
+
+<!ATTLIST category 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "category" >
+
+
+<!ELEMENT fsdDecl 
+	EMPTY >
+
+
+<!ATTLIST fsdDecl 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA #REQUIRED
+	fsd ENTITY #REQUIRED
+	TEIform CDATA "fsdDecl" >
+
+
+<!ELEMENT metDecl 
+	(((bibl | biblFull | biblStruct | ab | l | lg | p | sp | 
+	cit | q | quote | label | list | listBibl | note | stage 
+	| entry | entryFree | superentry), (alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*)* | 
+	symbol+) >
+
+
+<!ATTLIST metDecl 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	pattern CDATA #IMPLIED
+	type NMTOKENS "MET REAL"
+	TEIform CDATA "metDecl" >
+
+
+<!ELEMENT symbol 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST symbol 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	value CDATA #REQUIRED
+	terminal (Y | N) "Y"
+	TEIform CDATA "symbol" >
+
+
+<!ELEMENT variantEncoding 
+	EMPTY >
+
+
+<!ATTLIST variantEncoding 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	location (internal | external) #REQUIRED
+	method (location-referenced | double-end-point | parallel-segmentation) #REQUIRED
+	TEIform CDATA "variantEncoding" >
+
+
+<!ELEMENT profileDesc 
+	(creation?, langUsage*, handList*, textClass*) >
+
+
+<!ATTLIST profileDesc 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "profileDesc" >
+
+
+<!ELEMENT creation 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST creation 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "creation" >
+
+
+<!ELEMENT langUsage 
+	(p | language)+ >
+
+
+<!ATTLIST langUsage 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "langUsage" >
+
+
+<!ELEMENT language 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST language 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	id ID #IMPLIED
+	wsd ENTITY #IMPLIED
+	usage NMTOKEN #IMPLIED
+	TEIform CDATA "language" >
+
+
+<!ELEMENT textClass 
+	(classCode | catRef | keywords)* >
+
+
+<!ATTLIST textClass 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "textClass" >
+
+
+<!ELEMENT keywords 
+	(term+ | list) >
+
+
+<!ATTLIST keywords 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	scheme IDREF #IMPLIED
+	TEIform CDATA "keywords" >
+
+
+<!ELEMENT classCode 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST classCode 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	scheme IDREF #IMPLIED
+	TEIform CDATA "classCode" >
+
+
+<!ELEMENT catRef 
+	EMPTY >
+
+
+<!ATTLIST catRef 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	scheme IDREF #IMPLIED
+	target IDREFS #REQUIRED
+	TEIform CDATA "catRef" >
+
+
+<!ELEMENT revisionDesc 
+	(list | change+) >
+
+
+<!ATTLIST revisionDesc 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "revisionDesc" >
+
+
+<!ELEMENT change 
+	(date, respStmt+, item) >
+
+
+<!ATTLIST change 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "change" >
+
+
+<!ELEMENT p 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST p 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "p" >
+
+
+<!ELEMENT foreign 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST foreign 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	TEIform CDATA "foreign" >
+
+
+<!ELEMENT emph 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST emph 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "emph" >
+
+
+<!ELEMENT hi 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST hi 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	n CDATA #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "hi" >
+
+
+<!ELEMENT distinct 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST distinct 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	social CDATA #IMPLIED
+	space CDATA #IMPLIED
+	time CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "distinct" >
+
+
+<!ELEMENT q 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | ab | l | lg | p | sp 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST q 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	who CDATA #IMPLIED
+	type CDATA #IMPLIED
+	direct (y | n | unspecified) "unspecified"
+	TEIform CDATA "q" >
+
+
+<!ELEMENT quote 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | ab | l | lg | p | sp 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST quote 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "quote" >
+
+
+<!ELEMENT soCalled 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST soCalled 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "soCalled" >
+
+
+<!ELEMENT term 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST term 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "term" >
+
+
+<!ELEMENT mentioned 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST mentioned 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "mentioned" >
+
+
+<!ELEMENT gloss 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST gloss 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	target IDREF #IMPLIED
+	TEIform CDATA "gloss" >
+
+
+<!ELEMENT name 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST name 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	reg CDATA #IMPLIED
+	key CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "name" >
+
+
+<!ELEMENT rs 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST rs 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	reg CDATA #IMPLIED
+	key CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "rs" >
+
+
+<!ELEMENT num 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST num 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	value CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "num" >
+
+
+<!ELEMENT measure 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST measure 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	reg CDATA #IMPLIED
+	key CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "measure" >
+
+
+<!ELEMENT date 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST date 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	value CDATA #IMPLIED
+	calendar CDATA #IMPLIED
+	certainty CDATA #IMPLIED
+	TEIform CDATA "date" >
+
+
+<!ELEMENT dateRange 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST dateRange 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	to CDATA #IMPLIED
+	exact (to | from | both | none) #IMPLIED
+	from CDATA #IMPLIED
+	calendar CDATA #IMPLIED
+	TEIform CDATA "dateRange" >
+
+
+<!ELEMENT time 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST time 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	value CDATA #IMPLIED
+	type (am | pm | 24hour | descriptive) #IMPLIED
+	zone CDATA #IMPLIED
+	TEIform CDATA "time" >
+
+
+<!ELEMENT timeRange 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST timeRange 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	to CDATA #IMPLIED
+	exact (to | from | both | none) #IMPLIED
+	from CDATA #IMPLIED
+	TEIform CDATA "timeRange" >
+
+
+<!ELEMENT abbr 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST abbr 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	expan CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "abbr" >
+
+
+<!ELEMENT expan 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST expan 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	abbr CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "expan" >
+
+
+<!ELEMENT sic 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | ab | l | lg | p | sp 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST sic 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	corr CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	TEIform CDATA "sic" >
+
+
+<!ELEMENT corr 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | ab | l | lg | p | sp 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST corr 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	sic CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	TEIform CDATA "corr" >
+
+
+<!ELEMENT reg 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST reg 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	TEIform CDATA "reg" >
+
+
+<!ELEMENT orig 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST orig 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	reg CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	TEIform CDATA "orig" >
+
+
+<!ELEMENT gap 
+	EMPTY >
+
+
+<!ATTLIST gap 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	desc CDATA #IMPLIED
+	extent CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	hand IDREF #IMPLIED
+	reason CDATA #IMPLIED
+	agent CDATA #IMPLIED
+	TEIform CDATA "gap" >
+
+
+<!ELEMENT add 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | ab | l | lg | p | sp 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST add 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	place CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	hand IDREF #IMPLIED
+	TEIform CDATA "add" >
+
+
+<!ELEMENT del 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST del 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	n CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	hand IDREF #IMPLIED
+	status CDATA "unremarkable"
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "del" >
+
+
+<!ELEMENT unclear 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST unclear 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	hand IDREF #IMPLIED
+	reason CDATA #IMPLIED
+	agent CDATA #IMPLIED
+	TEIform CDATA "unclear" >
+
+
+<!ELEMENT addrLine 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST addrLine 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "addrLine" >
+
+
+<!ELEMENT street 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST street 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "street" >
+
+
+<!ELEMENT ptr 
+	EMPTY >
+
+
+<!ATTLIST ptr 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	evaluate (all | one | none) #IMPLIED
+	resp CDATA #IMPLIED
+	targOrder (Y | N | U) "U"
+	type CDATA #IMPLIED
+	targType NMTOKENS #IMPLIED
+	target IDREFS #REQUIRED
+	TEIform CDATA "ptr" >
+
+
+<!ELEMENT ref 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST ref 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	evaluate (all | one | none) #IMPLIED
+	resp CDATA #IMPLIED
+	targOrder (Y | N | U) "U"
+	type CDATA #IMPLIED
+	targType NMTOKENS #IMPLIED
+	target IDREFS #IMPLIED
+	TEIform CDATA "ref" >
+
+
+<!ELEMENT item 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | ab | l | lg | p | sp 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST item 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "item" >
+
+
+<!ELEMENT label 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST label 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "label" >
+
+
+<!ELEMENT head 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST head 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "head" >
+
+
+<!ELEMENT headLabel 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST headLabel 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "headLabel" >
+
+
+<!ELEMENT headItem 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST headItem 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "headItem" >
+
+
+<!ELEMENT note 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | ab | l | lg | p | sp 
+	| alt | altGrp | index | join | joinGrp | link | linkGrp 
+	| timeline | cb | lb | milestone | pb | addSpan | delSpan 
+	| gap | anchor)* >
+
+
+<!ATTLIST note 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	target IDREFS #IMPLIED
+	place CDATA "unspecified"
+	targetEnd IDREFS #IMPLIED
+	resp CDATA #IMPLIED
+	anchored (yes | no) "yes"
+	n CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "note" >
+
+
+<!ELEMENT index 
+	EMPTY >
+
+
+<!ATTLIST index 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	level1 CDATA #REQUIRED
+	index CDATA #IMPLIED
+	level3 CDATA #IMPLIED
+	level4 CDATA #IMPLIED
+	level2 CDATA #IMPLIED
+	TEIform CDATA "index" >
+
+
+<!ELEMENT divGen 
+	EMPTY >
+
+
+<!ATTLIST divGen 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "divGen" >
+
+
+<!ELEMENT milestone 
+	EMPTY >
+
+
+<!ATTLIST milestone 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	ed CDATA #IMPLIED
+	n CDATA #IMPLIED
+	unit CDATA #REQUIRED
+	TEIform CDATA "milestone" >
+
+
+<!ELEMENT pb 
+	EMPTY >
+
+
+<!ATTLIST pb 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	ed CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "pb" >
+
+
+<!ELEMENT lb 
+	EMPTY >
+
+
+<!ATTLIST lb 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	ed CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "lb" >
+
+
+<!ELEMENT cb 
+	EMPTY >
+
+
+<!ATTLIST cb 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	ed CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "cb" >
+
+
+<!ELEMENT author 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST author 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "author" >
+
+
+<!ELEMENT editor 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST editor 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	role CDATA "editor"
+	TEIform CDATA "editor" >
+
+
+<!ELEMENT resp 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST resp 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "resp" >
+
+
+<!ELEMENT title 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST title 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	level (a | m | j | s | u) #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "title" >
+
+
+<!ELEMENT meeting 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST meeting 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "meeting" >
+
+
+<!ELEMENT publisher 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST publisher 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "publisher" >
+
+
+<!ELEMENT biblScope 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST biblScope 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "biblScope" >
+
+
+<!ELEMENT pubPlace 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST pubPlace 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	reg CDATA #IMPLIED
+	key CDATA #IMPLIED
+	TEIform CDATA "pubPlace" >
+
+
+<!ELEMENT l 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST l 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	enjamb CDATA #IMPLIED
+	real CDATA #IMPLIED
+	met CDATA #IMPLIED
+	rhyme CDATA #IMPLIED
+	part (Y | N | I | M | F) "N"
+	TEIform CDATA "l" >
+
+
+<!ELEMENT trailer 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST trailer 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "trailer" >
+
+
+<!ELEMENT epigraph 
+	((bibl | biblFull | biblStruct | ab | l | lg | p | sp | 
+	cit | q | quote | label | list | listBibl | note | stage 
+	| entry | entryFree | superentry), (alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)*)* >
+
+
+<!ATTLIST epigraph 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "epigraph" >
+
+
+<!ELEMENT salute 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST salute 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "salute" >
+
+
+<!ELEMENT signed 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST signed 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "signed" >
+
+
+<!ELEMENT titlePart 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST titlePart 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA "main"
+	TEIform CDATA "titlePart" >
+
+
+<!ELEMENT docAuthor 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST docAuthor 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "docAuthor" >
+
+
+<!ELEMENT imprimatur 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST imprimatur 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "imprimatur" >
+
+
+<!ELEMENT docEdition 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST docEdition 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "docEdition" >
+
+
+<!ELEMENT docDate 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST docDate 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	value CDATA #IMPLIED
+	TEIform CDATA "docDate" >
+
+
+<!ELEMENT superentry 
+	(form?, entry+) >
+
+
+<!ATTLIST superentry 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	key CDATA #IMPLIED
+	type CDATA "main"
+	TEIform CDATA "superentry" >
+
+
+<!ELEMENT entry 
+	(hom | sense | def | eg | etym | form | gramGrp | note | 
+	re | trans | usg | xr)+  >
+
+
+<!-- DW 07/02/01 Removed +(anchor) in entry -->
+<!ATTLIST entry 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	key CDATA #IMPLIED
+	type CDATA "main"
+	TEIform CDATA "entry" >
+
+<!-- DW 07/02/01 Replaced entryFree by an empty definition -->
+<!ELEMENT entryFree EMPTY >
+
+<!-- DW 07/02/01 Removed -(entry) in hom -->
+<!ELEMENT hom 
+	(sense | def | eg | etym | form | gramGrp | note | re | 
+	trans | usg | xr)* >
+
+
+<!ATTLIST hom 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "hom" >
+
+
+<!ELEMENT orth 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST orth 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	extent CDATA "full"
+	type CDATA #IMPLIED
+	TEIform CDATA "orth" >
+
+
+<!ELEMENT pron 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST pron 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	notation CDATA #IMPLIED
+	extent CDATA "full"
+	TEIform CDATA "pron" >
+
+
+<!ELEMENT hyph 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST hyph 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "hyph" >
+
+
+<!ELEMENT syll 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST syll 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "syll" >
+
+
+<!ELEMENT stress 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST stress 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "stress" >
+
+
+<!ELEMENT gram 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST gram 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	type CDATA #IMPLIED
+	TEIform CDATA "gram" >
+
+
+<!ELEMENT gen 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST gen 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "gen" >
+
+
+<!ELEMENT number 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST number 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "number" >
+
+
+<!ELEMENT case 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST case 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "case" >
+
+
+<!ELEMENT per 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST per 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "per" >
+
+
+<!ELEMENT tns 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST tns 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "tns" >
+
+
+<!ELEMENT mood 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST mood 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "mood" >
+
+
+<!ELEMENT itype 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST itype 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	type CDATA #IMPLIED
+	TEIform CDATA "itype" >
+
+
+<!ELEMENT pos 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST pos 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "pos" >
+
+
+<!ELEMENT subc 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST subc 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "subc" >
+
+
+<!ELEMENT colloc 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST colloc 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	type CDATA #IMPLIED
+	TEIform CDATA "colloc" >
+
+
+<!ELEMENT def 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST def 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "def" >
+
+
+<!ELEMENT tr 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST tr 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "tr" >
+
+
+<!ELEMENT lang 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST lang 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	TEIform CDATA "lang" >
+
+
+<!-- DW 07/02/01 Replaced eg by an empty definition -->
+<!ELEMENT eg EMPTY >
+
+
+<!ELEMENT usg 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST usg 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	type CDATA #IMPLIED
+	TEIform CDATA "usg" >
+
+
+<!ELEMENT lbl 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST lbl 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	type CDATA #IMPLIED
+	TEIform CDATA "lbl" >
+
+
+<!ELEMENT oRef 
+	EMPTY >
+
+
+<!ATTLIST oRef 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	target IDREF #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "oRef" >
+
+
+<!ELEMENT oVar 
+	(#PCDATA | oRef)* >
+
+
+<!ATTLIST oVar 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	target IDREF #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "oVar" >
+
+
+<!ELEMENT pRef 
+	EMPTY >
+
+
+<!ATTLIST pRef 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	target IDREF #IMPLIED
+	TEIform CDATA "pRef" >
+
+
+<!ELEMENT pVar 
+	(#PCDATA | pRef)* >
+
+
+<!ATTLIST pVar 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	mergedin IDREF #IMPLIED
+	expand CDATA #IMPLIED
+	location IDREF #IMPLIED
+	value CDATA #IMPLIED
+	norm CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	split CDATA #IMPLIED
+	opt (y | n) "n"
+	target IDREF #IMPLIED
+	TEIform CDATA "pVar" >
+
+
+<!ELEMENT link 
+	EMPTY >
+
+
+<!ATTLIST link 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	evaluate (all | one | none) #IMPLIED
+	resp CDATA #IMPLIED
+	targOrder (Y | N | U) "U"
+	targType NMTOKENS #IMPLIED
+	targets IDREFS #REQUIRED
+	type CDATA #IMPLIED
+	TEIform CDATA "link" >
+
+
+<!ELEMENT xref 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST xref 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	evaluate (all | one | none) #IMPLIED
+	resp CDATA #IMPLIED
+	targOrder (Y | N | U) "U"
+	type CDATA #IMPLIED
+	targType NMTOKENS #IMPLIED
+	to CDATA "DITTO"
+	doc ENTITY #IMPLIED
+	from CDATA "ROOT"
+	TEIform CDATA "xref" >
+
+
+<!ELEMENT xptr 
+	EMPTY >
+
+
+<!ATTLIST xptr 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	evaluate (all | one | none) #IMPLIED
+	resp CDATA #IMPLIED
+	targOrder (Y | N | U) "U"
+	type CDATA #IMPLIED
+	targType NMTOKENS #IMPLIED
+	to CDATA "DITTO"
+	doc ENTITY #IMPLIED
+	from CDATA "ROOT"
+	TEIform CDATA "xptr" >
+
+
+<!ELEMENT anchor 
+	EMPTY >
+
+
+<!ATTLIST anchor 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA #IMPLIED
+	subtype CDATA #IMPLIED
+	id ID #REQUIRED
+	TEIform CDATA "anchor" >
+
+
+<!ELEMENT seg 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST seg 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	function CDATA #IMPLIED
+	type CDATA #IMPLIED
+	part (Y | N | I | M | F) "N"
+	subtype CDATA #IMPLIED
+	TEIform CDATA "seg" >
+
+
+<!ELEMENT ab 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST ab 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	type CDATA #IMPLIED
+	subtype CDATA #IMPLIED
+	part (Y | N | I | M | F) "N"
+	TEIform CDATA "ab" >
+
+
+<!ELEMENT when 
+	EMPTY >
+
+
+<!ATTLIST when 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	absolute CDATA #IMPLIED
+	interval CDATA #IMPLIED
+	id ID #REQUIRED
+	since IDREF #IMPLIED
+	unit NMTOKEN #IMPLIED
+	TEIform CDATA "when" >
+
+
+<!ELEMENT join 
+	EMPTY >
+
+
+<!ATTLIST join 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	evaluate (all | one | none) #IMPLIED
+	resp CDATA #IMPLIED
+	type CDATA #IMPLIED
+	targType NMTOKENS #IMPLIED
+	targets IDREFS #REQUIRED
+	scope (root | branches) "root"
+	desc CDATA #IMPLIED
+	result NMTOKEN #IMPLIED
+	targOrder (Y | N | U) "Y"
+	TEIform CDATA "join" >
+
+
+<!ELEMENT alt 
+	EMPTY >
+
+
+<!ATTLIST alt 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	evaluate (all | one | none) #IMPLIED
+	resp CDATA #IMPLIED
+	type CDATA #IMPLIED
+	targType NMTOKENS #IMPLIED
+	targets IDREFS #REQUIRED
+	weights NMTOKENS #IMPLIED
+	wScale (perc | real) #IMPLIED
+	mode (excl | incl) #IMPLIED
+	targOrder (Y | N) "N"
+	TEIform CDATA "alt" >
+
+
+<!ELEMENT addSpan 
+	EMPTY >
+
+
+<!ATTLIST addSpan 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	to IDREF #REQUIRED
+	place CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	hand IDREF #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "addSpan" >
+
+
+<!ELEMENT delSpan 
+	EMPTY >
+
+
+<!ATTLIST delSpan 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	to IDREF #REQUIRED
+	resp IDREF #IMPLIED
+	hand IDREF #IMPLIED
+	status CDATA "unremarkable"
+	type CDATA #IMPLIED
+	TEIform CDATA "delSpan" >
+
+
+<!ELEMENT restore 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST restore 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	wit CDATA #IMPLIED
+	cause CDATA #IMPLIED
+	varSeq NMTOKEN #IMPLIED
+	cert CDATA #IMPLIED
+	desc CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	hand IDREF #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "restore" >
+
+
+<!ELEMENT supplied 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST supplied 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	source CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	hand IDREF #IMPLIED
+	reason CDATA #IMPLIED
+	agent CDATA #IMPLIED
+	TEIform CDATA "supplied" >
+
+
+<!ELEMENT hand 
+	EMPTY >
+
+
+<!ATTLIST hand 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	first CDATA #IMPLIED
+	scribe CDATA #IMPLIED
+	id ID #REQUIRED
+	style CDATA #IMPLIED
+	lang CDATA #IMPLIED
+	hand CDATA #IMPLIED
+	character CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	ink CDATA #IMPLIED
+	TEIform CDATA "hand" >
+
+
+<!ELEMENT handShift 
+	EMPTY >
+
+
+<!ATTLIST handShift 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	style CDATA #IMPLIED
+	new IDREF #IMPLIED
+	old IDREF #IMPLIED
+	character CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	ink CDATA #IMPLIED
+	TEIform CDATA "handShift" >
+
+
+<!ELEMENT handList 
+	(hand)* >
+
+
+<!ATTLIST handList 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	TEIform CDATA "handList" >
+
+
+<!ELEMENT damage 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | bibl 
+	| biblFull | biblStruct | cit | q | quote | label | list 
+	| listBibl | note | stage | text | alt | altGrp | index 
+	| join | joinGrp | link | linkGrp | timeline | cb | lb | 
+	milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST damage 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	extent CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	hand IDREF #IMPLIED
+	type CDATA #IMPLIED
+	agent CDATA #IMPLIED
+	degree CDATA #IMPLIED
+	TEIform CDATA "damage" >
+
+
+<!ELEMENT space 
+	EMPTY >
+
+
+<!ATTLIST space 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	extent CDATA #IMPLIED
+	dim (horizontal | vertical) #IMPLIED
+	resp CDATA #IMPLIED
+	TEIform CDATA "space" >
+
+
+<!ELEMENT fw 
+	(#PCDATA | abbr | address | date | dateRange | expan | lang 
+	| measure | name | num | rs | time | timeRange | add | corr 
+	| damage | del | orig | reg | restore | sic | space | supplied 
+	| unclear | oRef | oVar | pRef | pVar | distinct | emph 
+	| foreign | gloss | hi | mentioned | soCalled | term | title 
+	| ptr | ref | xptr | xref | seg | fw | handShift | alt | 
+	altGrp | index | join | joinGrp | link | linkGrp | timeline 
+	| cb | lb | milestone | pb | addSpan | delSpan | gap | anchor)* >
+
+
+<!ATTLIST fw 
+	copyOf IDREF #IMPLIED
+	corresp IDREFS #IMPLIED
+	sameAs IDREF #IMPLIED
+	select IDREFS #IMPLIED
+	synch IDREFS #IMPLIED
+	next IDREF #IMPLIED
+	exclude IDREFS #IMPLIED
+	prev IDREF #IMPLIED
+	id ID #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	n CDATA #IMPLIED
+	place CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "fw" >
+
