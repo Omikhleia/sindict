@@ -23,8 +23,8 @@ div.global {
  color: #191970;
 }
 .milestone {
- color: #191970;
- border-bottom: 1px solid #191970;
+ color: #002828;
+ border-bottom: 1px solid #002828;
  page-break-after:avoid;
 }
 .unused {
@@ -32,6 +32,7 @@ div.global {
 }
 .part {
  font-size: 14pt;
+ font-weight: bold;
 }
 .section1 {
  font-size: 12pt;
@@ -65,7 +66,7 @@ p.sindict {
  border-width: 0;
  padding-top: 0;
  padding-bottom: 0;
- margin-top: 2pt;
+ margin-top: 4pt;
  margin-bottom: 0;
  margin-left: 1.5em;
  text-indent: -1.5em;
@@ -96,13 +97,13 @@ div.styleswitcher {
 }
 
 span.trans-lang, span.note-lang {
-  border-radius: .3em;
+  border-radius: 1em;
   padding-left: 2pt;
   padding-right: 2pt;
   font-weight: normal;
   text-shadow: none;
-  font-size: 6pt;
-  background: darkgray;
-  color: white;
+  font-size: 5pt;
+  border: 1px solid #5d7088;
+  color: #5d7088;
   text-transform: uppercase;  
 }

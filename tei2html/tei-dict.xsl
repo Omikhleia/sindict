@@ -79,7 +79,7 @@
 <xsl:template match="trans">
 <xsl:if test="contains($translations,@lang)">
    <xsl:if test="preceding-sibling::trans"><xsl:text>&#x2014; </xsl:text></xsl:if>
-   <!-- <span class="trans-lang"><xsl:value-of select="@lang"/></span> --><xsl:apply-templates/>
+   <span class="trans-lang"><xsl:value-of select="@lang"/></span><xsl:apply-templates/>
 </xsl:if>
 </xsl:template>
 
@@ -205,9 +205,9 @@
 <xsl:template match="note">
   <xsl:choose>
     <xsl:when test="@type ='source'">
-      &#x25C7; <small><font color="red"><xsl:apply-templates/></font></small></xsl:when>
+      &#x25C7; <small><font color="#336699"><xsl:apply-templates/></font></small></xsl:when>
     <xsl:when test="@type ='source,deduced'">
-      &#x2190; <small><font color="blue"><xsl:apply-templates/></font></small></xsl:when>
+      &#x2190; <small><font color="#002828"><xsl:apply-templates/></font></small></xsl:when>
     <xsl:when test="@type ='comment'">
       <xsl:if test="contains($translations,@lang)">
       &#x25C8; <small><xsl:apply-templates/></small></xsl:if></xsl:when>
