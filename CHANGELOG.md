@@ -16,3 +16,18 @@
 ## Older
 
 The last public version of the _Hiswelokë's Sindarin Dictionary_ on which this work is based was edition 1.9.1 (lexicon 0.9952) in May 2008.
+
+Older revisions history:
+- May 2008 (edition 1.9, lexicon 0.995) quickly superseded by edition 1.9.1.
+- April 2007 (edition 1.8-rc1, lexicon 0.99499), there was no 'final' 1.8 beyond that release candidate, as the work on 1.9 immediately started.
+- June 2006 (edition 1.8-beta, lexicon 0.9949) - introduced German and French translations.
+- June 2005 (edition 1.8-alpha, lexicon 0.994821).
+- July 2004 (edition 1.7, lexicon 0.994) - on the occasion of the release of the Hesperides application.
+- December 2003 (edition 1.6, lexicon 0.993) - on the occasion of the release of Dragon Flame 2.0.
+- December 2002 (edition 1.6-alpha, lexicon 0.99).
+- June 2002 (edition 1.5, lexicon 0.98).
+- May 2002 (edition 1.4, lexicon 0.97) - XML TEI P3 format.
+- August? 2001 (edition 1.3, lexicon 0.96) - perhaps unreleased.
+- February 2001 (edition 1.2, lexicon 0.95) - First public PDF version (a.k.a "Cabor" release).
+- January 2001 - Preliminary PDF version (a.k.a. "Mellon" release)
+- Earlier history from Oct. 1999 to Dec. 2000 details not recovered.
