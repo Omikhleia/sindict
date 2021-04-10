@@ -2,7 +2,7 @@
 <!DOCTYPE TEI.2 SYSTEM "xmldict.dtd">
 <!--
      1999-2011 The Sindarin Dictionary Project. 
-     2014, 2017, 2019 Omikhleia.
+     2014, 2017, 2019, 2021 Omikhleia et al.
      For the full copyright information and details, refer to the TEI header below.
 -->
 <TEI.2>
@@ -17,7 +17,7 @@
     </titleStmt>
 
     <editionStmt>
-      <edition n="2.0a5">Lexicon 1.0-alpha5</edition>
+      <edition n="2.0a5">Lexicon 1.0-alpha6</edition>
     </editionStmt>
 
     <publicationStmt>
@@ -14881,6 +14881,27 @@
     </trans>
   </sense>
   <note type="source">Ety/354, Ety/352</note>
+</entry>
+
+<entry id="dirbedui"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>dirbedui</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:154</bibl>
+      <pron>d"irbEduj</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>dur à énoncer, difficile à prononcer</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:154</bibl> hard to utter, difficult to pronounce</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry type="xref" id="diriel">
@@ -48791,47 +48812,44 @@
      <xr type="see"><ptr target="nogoth"/></xr>
 </entry>
 
-<entry id="nor-">
+<entry id="nor-"><!-- C0421 -->
   <form type="regular">
-    <form type="deduced">
+    <form>
       <orth>nor-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:168</bibl>
       <pron>n"Or</pron>
     </form>
   </form>
-  <sense n="1">
+  <form type="inflected">
+    <tns>pa. t.</tns>
+    <form>
+      <orth>onur</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:168</bibl>
+      <pron>"Onur</pron>
+    </form>
+  </form>
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
     <usg type="cat" norm="10.46"/>
     <trans lang="fr">
       <def><index lang="fr" level1="courir"/>courir</def>
+        <usg type="hint">ou bondir; à propos d'animaux, d'hommes etc.</usg>
     </trans>
     <trans lang="de">
-      <def><index lang="de" level1="rennen"/>rennen</def>
+      <def><index lang="de" level1="rennen"/>rennen ...</def>
     </trans>
     <trans lang="en">
-      <def>to <index level1="run" lang="en"/>run</def>
-    </trans>
-  </sense>
-  <sense n="2">
-    <gramGrp>
-      <pos>v.</pos>
-    </gramGrp>
-    <usg type="ext">by ext.</usg>
-    <trans lang="fr">
-      <def><index lang="fr" level1="galoper"/>galoper</def>
-    </trans>
-    <trans lang="de">
-      <def><index lang="de" level1="reiten"/>reiten</def>
-    </trans>
-    <trans lang="en">
-      <def>to <index level1="ride" lang="en"/>ride</def>
+      <def><bibl>PE/17:168</bibl> to <index level1="run" lang="en"/>run</def>
+        <usg type="hint">or leap; of animals, men etc.</usg>
     </trans>
   </sense>
   <re>
     <form>
       <orth>noro</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -48990,6 +49008,52 @@
   "ride on" in RS/196 (not a literal translation) and later translated as "run swift" in RC/195.
   A verb <ptr target="nor-"/> is attested in the old <hi>Gnomish 
   lexicon</hi>, PE/11:61, with the meaning "to run, roll"</note>
+</entry>
+
+<entry id="north"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>north</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:168</bibl>
+      <pron>n"OrT</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>course</def> <usg type="hint">à propos de personnes qui courent</usg>,
+        <def>charge ou galop</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:168-169</bibl> riding,
+        race</def> <usg type="hint">of people running</usg>,
+        <def>charge or gallop</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="northa-"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>northa-</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:168</bibl>
+      <pron>n"OrTa</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>faire courir</def> <usg type="hint">spécialement, dans le cas de courses de chevaux
+      ou d'autres animaux</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:168</bibl> to make run</def> <usg type="hint">specially used of riding horses or other animals</usg>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="nórui">
@@ -50871,6 +50935,28 @@
     </trans>
   </sense>
   <etym>orod+rim</etym>
+</entry>
+
+<entry id="oroth"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>oroth</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE:17/183, PE:17/188</bibl>
+      <pron>"OrOT</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>rage, colère</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE:17/183, PE/17:188</bibl> rage,
+           <bibl>PE/17:188</bibl> anger</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry type="xref">
@@ -57714,12 +57800,16 @@
   </sense>
 </entry>
 
-<entry id="rûth">
+<entry id="rûth"><!--C0421-->
   <form type="regular">
     <form>
       <orth>rûth</orth><usg type="lang" norm="S."/>
-      <bibl>S/436</bibl>
+      <bibl>S/436, PE/17:188</bibl>
       <pron>r"u:T</pron>
+    </form>
+    <form>
+      <orth>rúth</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:183</bibl>
     </form>
   </form>
   <sense>
@@ -57733,7 +57823,29 @@
       <def><index lang="de" level1="Wut"/>Wut, <index lang="de" level1="Zorn"/>Zorn</def>
     </trans>
     <trans lang="en">
-      <def><bibl>S/436</bibl> <index level1="anger" lang="en"/>anger</def>
+      <def><bibl>S/436, PE/17:188</bibl> <index level1="anger" lang="en"/>anger,
+           <bibl>PE/17:183</bibl> wrath</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="ruthra-"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>ruthra-</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:188</bibl>
+      <pron>r"uTrA</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>enrager</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:188</bibl> to rage</def>
     </trans>
   </sense>
 </entry>
@@ -58477,6 +58589,29 @@
     </trans>
     <trans lang="en">
       <def><bibl>LR/406</bibl> <index level1="cairn" lang="en"/>cairn, pile of <index level1="stone" lang="en"/>stones</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="saur"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>saur</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:183</bibl>
+      <pron>s"Aur</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>mauvais</def> <usg type="hint">à propos d'une nourriture, etc.</usg>,
+      <def>putride</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:183</bibl> bad</def> <usg type="hint">of food, etc.</usg>,
+      <def>putrid</def>
     </trans>
   </sense>
 </entry>
@@ -64041,6 +64176,53 @@
   <note type="source">S/387, S/438</note>
 </entry>
 
+<entry id="thorn"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>thorn</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:113</bibl>
+      <pron>T"Orn</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>fidèle, constant</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:113</bibl> steadfast</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="thos"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>thoss</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:87</bibl>
+      <pron>T"Oss</pron>
+    </form>
+    <form>
+      <orth>thos</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:87</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>peur</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:87</bibl> fear</def>
+    </trans>
+  </sense>
+  <xr type="see"><ptr target="guruthos"/></xr>
+</entry>
+
 <entry id="thost">
   <form type="regular">
     <form>
@@ -66956,7 +67138,28 @@
   </sense>
 </entry>
 
-<entry id="úgarth">
+<entry id="úgarol"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>úgarol</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:144</bibl>
+      <pron>"ugArOl</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>qui en train de ne rien faire, au repos</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:144</bibl> not now doing or making, idling</def>
+    </trans>
+  </sense>
+</entry>
+
+  <entry id="úgarth">
   <form type="regular">
     <form type="deduced">
       <orth>úgarth</orth><usg type="lang" norm="S."/>
