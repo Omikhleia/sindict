@@ -14239,17 +14239,24 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">
-     Donné sans indication de langue dans les <hi>Etymologies</hi>, 
-     mais clairement noldorin, tant par le contexte que
-     par raisonnement phonologique
+     Ce mot est donné sans indication de langue dans les <hi>Etymologies</hi>, 
+     mais il pourrait être noldorin, tant par le contexte (l'élément <hi>dimb</hi> est
+     indiqué comme étant ilkorin) que par raisonnement phonologique 
+     (une racine *<hi>dimba</hi> donnerait <hi>dem</hi> en noldorin). Paul Stark (Eldamo)
+     note cependant que ce mot peut aussi être ilkorin, les mêmes changements phologiques
+     clefs aboutissant aussi à <hi>dem</hi> dans cette langue.
    </note>
    <note type="comment" lang="de">
     In <hi>Etymologies</hi> ist hier keine konkrete Angabe zur Sprache gemacht, 
     doch ist vom Kontext her Noldorin (&gt;Sindarin) wahrscheinlich 
+    ...
   </note>
   <note type="comment" lang="en">
-    No language indication in the <hi>Etymologies</hi>, but Noldorin from context and
-    phonological evidence
+    There is no language indication in the <hi>Etymologies</hi>, but it could Noldorin from context
+    (the element <hi>dimb</hi> "sad" is marked as Ilkorin) and phonological evidence (a primitive
+    *<hi>dimba</hi> would develop into Noldorin <hi>dem</hi>). Paul Stark (Eldamo) however notes
+    that the word could rather be Ilkorin, as the same key phonological changes would also yield 
+    <hi>dem</hi> in that language.
   </note>
 </entry>
 
@@ -24522,6 +24529,18 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Gelir</mentioned> SD/129-31</note>
+    <note type="comment" lang="fr">
+      Traduction sindarine du nom du fils de Sam, Merry, apparaissant dans l'épilogue inédit du 
+      <hi>Seigneur des Anneaux</hi> et dans la <hi>Lettre du Roi</hi>, SD/126-129. Ce pourrait être
+      un adjectif (cf. <hi>gell</hi>), mais nous le comprenons comme un nom (c-à-d. une formation
+      agentale).
+   </note>
+   <note type="comment" lang="de">
+    ...
+  </note>
+  <note type="comment" lang="en">
+    Sindarin translation of the name of Sam's son Merry, appearing in the unpublished epilogue to <hi>The Lord of the Rings</hi> and in the <hi>King's Letter</hi>, SD/126-129. It could be an adjective (cf. <hi>gell</hi>), but we understand it as a noun (sc. an agental formation).
+  </note>
 </entry>
 
 <entry id="gell">
@@ -67977,7 +67996,7 @@
       <def><index lang="de" level1="zwölf"/>zwölf</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/47:41, VT/48:6,8,12</bibl><index level1="twelve" lang="en"/>twelve</def>
+      <def><bibl>VT/47:41, VT/48:6,8,12</bibl> <index level1="twelve" lang="en"/>twelve</def>
     </trans>
   </sense>
   <etym>Dual of *enek "six", CE yûneke, Q. yunke, T. yûnece</etym>

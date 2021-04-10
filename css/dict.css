@@ -49,19 +49,7 @@ legend {
  font-size: 8pt;
  font-weight: bold;
 }
-p.annotate-xhtml {
- border-width: 0;
- padding-top: 1pt;
- padding-bottom: 1pt;
- margin-top: 0pt;
- margin-bottom: 0pt;
- font-size: 8pt;
- line-height: 10pt;
- text-align: justify;
-}
-p.annotate-pdf {
- display: none;
-}
+
 p.sindict {
  border-width: 0;
  padding-top: 0;
