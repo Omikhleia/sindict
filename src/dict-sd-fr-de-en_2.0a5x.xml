@@ -17,7 +17,7 @@
     </titleStmt>
 
     <editionStmt>
-      <edition n="2.0a5">Lexicon 1.0-alpha6</edition>
+      <edition n="2.0a5">Lexicon 1.0-alpha7</edition>
     </editionStmt>
 
     <publicationStmt>
@@ -59,7 +59,7 @@
            direct attestations or based on deductions and conclusions drawn from these texts
            by careful comparisons.</p>
       </availability>
-      <date>1999-2008, 2010-2011, 2014, 2019</date>
+      <date>1999-2008, 2010-2011, 2014, 2019, 2021</date>
     </publicationStmt>
 
     <notesStmt>
@@ -1981,6 +1981,31 @@
     "those who trespass against us" VT/44:21,30</note>
 </entry>
 
+<entry id="air"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>air</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:28</bibl>
+      <pron>"Ajr</pron>
+    </form>
+    <form>
+      <orth>eir</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:28</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>solitaire</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:28</bibl> lonely</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="aith">
   <form type="regular">
     <form>
@@ -2059,6 +2084,28 @@
     Bedeutung ungewiss, doch vgl. mit Quenya <hi>ela!</hi> "imperativer Ausruf, der 
     die Aufmerksamkeit auf etwas Sichtbares lenken soll" (WJ/362)
   </note><note type="comment" lang="en">Uncertain meaning, but compare with Quenya <hi>ela!</hi> "imperative exclamation directing sight to an actually visible object" (WJ/362)</note>
+</entry>
+
+<entry id="alaf"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>alaf</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:153</bibl>
+      <pron>"AlAv</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <usg type="dom">Bot.</usg>
+    <trans lang="fr">
+      <def>orme</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:153</bibl> elm</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="alag"><!-- A0106 -->
@@ -2232,6 +2279,40 @@
   <note type="source">Ety/348, S/427, LotR/E, VT/42:6-7</note>
 </entry>
 
+<entry id="alu"><!--C0421-->
+  <form type="regular">
+    <form type="normalized">
+      <orth>alu</orth><usg type="lang" norm="*S."/>
+      <bibl>X/W</bibl>
+      <pron>"Alu</pron>
+    </form>
+    <form>
+      <orth>alw</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:146</bibl>
+      <pron>"Alw</pron>
+    </form>
+  </form>
+  <form type="inflected">
+    <number>pl.</number>
+    <form>
+      <orth>ely</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:146</bibl>
+      <pron>"Ely</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>sain</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:146</bibl> wholesome</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="alwed"><!-- A0106 -->
   <form type="regular">
     <form>
@@ -2338,6 +2419,27 @@
     </trans>
   </sense>
   <note type="source">Ety/372, S/427, LotR/A(i), TC/183</note>
+</entry>
+
+<entry id="amartha-"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>amartha-</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:104-105</bibl>
+      <pron>Am"ArTa</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>définir, décréter, destiner</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:104</bibl> to define, decree, destine</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="amarthan">
@@ -3208,7 +3310,32 @@
   <etym>an+*íra- or *níra- (?) OS *anîra-</etym>
 </entry>
 
-<entry type="xref">
+<entry id="ann.1"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>ann</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:90</bibl>
+      <pron>"Ann</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def><index lang="fr" level1="don"/>don</def>
+    </trans>
+    <trans lang="de">
+      <def><index lang="de" level1="Geschenk"/>Geschenk</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:90</bibl> <index level1="gift" lang="en"/>gift</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="anu.2"/>, <ptr target="ant"/></xr>
+</entry>
+
+<entry type="xref"><!-- ann.2 -->
      <form>
       <orth>ann</orth>
       <usg type="lang" norm="N."/>
@@ -3570,7 +3697,7 @@
       <def><bibl>Ety/348</bibl> <index level1="gift" lang="en"/>gift</def>
     </trans>
   </sense>
-  <xr type="analogy"><ptr target="anu.2"/></xr>
+  <xr type="analogy"><ptr target="anu.2"/>, <ptr target="ann.1"/></xr>
 </entry>
 
 <entry id="anu.1" n="1">
@@ -3652,6 +3779,7 @@
       <def><bibl>PE/22:163</bibl> <index level1="gift" lang="en"/>gift</def>
     </trans>
   </sense>
+  <xr type="analogy"><ptr target="ant"/>, <ptr target="ann.1"/></xr>
 </entry>
 
 <entry type="xref">
@@ -4753,6 +4881,48 @@
     </trans>
   </sense>
   <etym>*athea "benefical, helpful" + CS las "leaf"</etym>
+</entry>
+
+<entry id="athgar"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>athgar</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:148</bibl>
+      <pron>"ATgAr</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>facile</def> <usg type="hint">à faire</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:148</bibl> easy</def> <usg type="hint">sc. easy to do</usg>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="athgen"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>athgen</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:148</bibl>
+      <pron>"ATgEn</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>aisément visible, facile à voir</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:148</bibl> easily seen</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="athon"><!-- A0131 -->
@@ -9955,6 +10125,27 @@
   <xr type="analogy"><ptr target="úgarth"/></xr>
 </entry>
 
+<entry id="carweg"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>carweg</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:144</bibl>
+      <pron>k"ArwEg</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>actif, occupé</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:144</bibl> active, busy</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="cast"><!-- A0127 -->
   <form type="regular">
     <form type="deduced">
@@ -13466,7 +13657,7 @@
     en remplacement de <ptr target="dangweth"/>, de signification légèrement différente.
     Cependant, nous pouvons présumer que ce terme reste valide <hi>per se</hi> 
     (bien que nous puissions arguer que ce mot composé ne présente peut-être pas
-    la mutation or assimilation qui aurait été attendue)
+    la mutation ou assimilation qui aurait été attendue)
   </note>
   <note type="comment" lang="de">&#8230;</note>
   <note type="comment" lang="en">
@@ -13915,7 +14106,7 @@
   <form type="regular">
     <form>
       <orth>daur</orth><usg type="lang" norm="S."/>
-      <bibl>Letter/448, LotR/II:VI, PE17/102</bibl>
+      <bibl>Letter/448, LotR/II:VI, PE/17:102</bibl>
       <pron>d"Aur</pron>
     </form>
   </form>
@@ -14252,10 +14443,11 @@
     ...
   </note>
   <note type="comment" lang="en">
-    There is no language indication in the <hi>Etymologies</hi>, but it could Noldorin from context
-    (the element <hi>dimb</hi> "sad" is marked as Ilkorin) and phonological evidence (a primitive
-    *<hi>dimba</hi> would develop into Noldorin <hi>dem</hi>). Paul Stark (Eldamo) however notes
-    that the word could rather be Ilkorin, as the same key phonological changes would also yield 
+    There is no language indication in the <hi>Etymologies</hi>, but it could be Noldorin
+    from context (the element <hi>dimb</hi> "sad" is marked as Ilkorin)
+    and phonological evidence (a primitive *<hi>dimba</hi> would develop into
+    Noldorin <hi>dem</hi>). Paul Stark (Eldamo) however notes
+    that the word could rather be Ilkorin, as the same key phonological changes would also yield
     <hi>dem</hi> in that language.
   </note>
 </entry>
@@ -14902,6 +15094,7 @@
       <def><bibl>PE/17:154</bibl> hard to utter, difficult to pronounce</def>
     </trans>
   </sense>
+  <xr type="analogy"><ptr target="gorbedui"/></xr>
 </entry>
 
 <entry type="xref" id="diriel">
@@ -20397,6 +20590,28 @@
   </sense>
   <note type="source">UT/436, LotR/B</note>
   <etym>OS *oroni- (?), "trees", plural noun, used as a singular.</etym>
+</entry>
+
+<entry id="esbin"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>esbin</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:17, PE/17:119</bibl>
+      <pron>"Esbin</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>fil fin, tresse</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:17</bibl> thin thread,
+           <bibl>PE/17:119</bibl> tress</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="esgal">
@@ -26930,6 +27145,28 @@
   <note type="source">Ety/378, Ety/399, VT/46:6</note>
 </entry>
 
+<entry id="gorbedui"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>gorbedui</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:154</bibl>
+      <pron>g"OrbEduj</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>qui ne peut se dire qu'avec horreur ou chagrin, lamentable à dire</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:154</bibl> only to be said with horror or grief, lamentable to tell</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="dirbedui"/></xr>
+</entry>
+
 <entry id="gorf">
   <form type="regular">
     <form>
@@ -32734,6 +32971,27 @@
   <etym>hîth+lain</etym>
 </entry>
 
+<entry id="hithren"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>hithren</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:140</bibl>
+      <pron>h"iTrEn</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>gris</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:140</bibl> grey</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="hithu">
   <form type="regular">
     <form type="normalized">
@@ -32933,10 +33191,41 @@
   </sense>
 </entry>
 
+<entry id="hol-"><!--C0421-->
+  <form type="regular">
+    <form type="deduced">
+      <orth>hol-</orth><usg type="lang" norm="S."></usg>
+      <pron>h"Ol</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="en">
+      <def><bibl>PE/17:98, PE/17:157</bibl> to shut, to close</def>
+    </trans>
+  </sense>
+  <note type="source,deduced"><mentioned>Fen Hollen</mentioned> LotR/V:IV, RC/550,
+    <mentioned>KHOL-, SKOL-</mentioned> PE/17:98, PE/17:157,
+    <mentioned>SKOL-</mentioned> PE/17:184,
+  </note>
+  <re>
+    <form>
+      <orth>hollen</orth><usg type="lang" norm="S."/>
+      <bibl>LotR/V:IV, RC/550, PE/17:98</bibl>
+    </form>
+    <gramGrp>
+      <tns>pp.</tns>
+    </gramGrp>
+  </re>
+</entry>
+
 <entry id="hollen">
   <form type="regular">
     <form>
       <orth>hollen</orth><usg type="lang" norm="S."/>
+      <bibl>LotR/V:IV, RC/550, PE/17:98</bibl>
       <pron>h"OllEn</pron>
     </form>
   </form>
@@ -32944,14 +33233,16 @@
     <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
+    <xr type="of"><ptr target="hol-"/></xr>
     <trans lang="fr">
-      <def><index lang="fr" level1="fermé"/>fermé</def>
+      <def><index lang="fr" level1="fermé"/>fermé, <index lang="fr" level1="clos"/>clos</def>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="geschlossen"/>geschlossen</def>
     </trans>
     <trans lang="en">
-      <def><index level1="closed" lang="en"/>closed</def>
+      <def><bibl>RC/550</bibl> <index level1="closed" lang="en"/>closed,
+           <bibl>LotR/V:IV, PE/17:98</bibl> <index level1="shut" lang="en"/>shut</def>
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Fen Hollen</mentioned> LotR/V:IV, RC/550</note>
@@ -34933,7 +35224,7 @@
       <def><bibl>VT/44:21,26</bibl> <index level1="will" lang="en"/>will</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>caro den i innas lin</mentioned> "thy will be done" VT44/21</note>
+  <note type="source,deduced"><mentioned>caro den i innas lin</mentioned> "thy will be done" VT/44:21</note>
 </entry>
 
 <entry id="inu">
@@ -39272,40 +39563,45 @@
   <note type="source,deduced"><mentioned>molif</mentioned> <gloss>"hand-link"</gloss> VT/47:6</note>
 </entry>
 
-<entry id="lim.1" n="1">
+<entry id="lim.1" n="1"><!-- C0421 -->
   <form type="regular">
     <form>
       <orth>lim</orth><usg type="lang" norm="S."/>
+      <bibl>LotR/I:XII, RS/196, RC/195, PE/17:18, PE/17:147</bibl>
       <pron>l"im</pron>
   </form>
   </form>
   <sense>
     <gramGrp>
       <pos>adv.</pos>
+      <pos>adj.</pos>
     </gramGrp>
     <usg type="cat" norm="14.21"/>
     <trans lang="fr">
       <def><index lang="fr" level1="vite"/>vite, <index lang="fr" level1="rapidement"/>rapidement</def>
     </trans>
     <trans lang="de">
-      <def>(?) <index lang="de" level1="weiter"/>weiter</def>
+      <def>(?) <index lang="de" level1="weiter"/>weiter ...</def>
     </trans>
     <trans lang="en">
-      <def>swift, <index level1="swiftly" lang="en"/>swiftly</def>
+      <def><bibl>RC/195, PE/17:18</bibl> <index level1="swift" lang="en"/>swift,
+           <bibl>PE/17:18</bibl> <index level1="quick" lang="en"/>quick</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>noro lim</mentioned> LotR/I:XII, RS/196, RC/195</note>
+  <note type="source,deduced"><mentioned>noro lim</mentioned> LotR/I:XII, RS/196, RC/195, PE/17:18</note>
   <note type="comment" lang="fr">
-    Sans traduction dans le SdA, mais transcrit <hi>nora-lim</hi> et traduit en anglais par "ride on" 
-    dans RS/196 (bien que cette traduction ne soit visiblement pas littérale),
+    Sans traduction dans le SdA, mais transcrit <hi>nora-lim</hi> et
+    traduit en anglais par "ride on" dans RS/196 (bien que cette traduction ne soit visiblement
+    pas littérale),
     puis plus tard par "run swift" dans RC/195. Avant que cette dernière
     indication ne soit publiée (confirmant la traduction exacte de
     cet adverbe), Helios de Rosario Martinez en avait produit une
-    analyse détaillée (aboutissant sensiblement aux mêmes conclusions) dans 
-    son article "Musings on Limlight" (Tengwestie/20050107)
+    analyse détaillée (aboutissant sensiblement aux mêmes conclusions) dans
+    son article "Musings on Limlight" (Tengwestie/20050107).
+    Ultérieurement confirmé par PE/17:18, comme adjectif utilisé ici adverbialement.
   </note>
   <note type="comment" lang="de">
-    Siehe <ref target="noro">noro</ref>	 für eine Diskussion dessen 
+    Siehe <ref target="noro">noro</ref> für eine Diskussion dessen ...
   </note>
   <note type="comment" lang="en">
     Untranslated in LotR, but written <hi>nora-lim</hi> and 
@@ -39313,7 +39609,8 @@
     as "run swift" in RC/195. Before the latter was published (confirming the exact 
     translation of this adverb), Helios de Rosario Martinez had provided a thorough 
     analysis of this word in his article "Musings on <hi>Limlight</hi>" 
-    (Tengwestie/20050107)
+    (Tengwestie/20050107).
+    Later confirmed by PE/17:18, as an adjective used adverbially here.
   </note>
 </entry>
 
@@ -40148,6 +40445,55 @@
   </sense>
 </entry>
 
+<entry id="lonnas"><!--C0421-->
+  <form type="regular">
+    <form type="deduced">
+      <orth>lonnas</orth><usg type="lang" norm="S."></usg>
+      <pron>l"OnnAs</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos> <usg type="reg">abst.</usg>
+    </gramGrp>
+    <xr type="of"><ptr target="lond"/></xr>
+    <trans lang="fr">
+      <def>havre</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:28</bibl> harbourage</def>
+    </trans>
+  </sense>
+  <note type="source,deduced"><mentioned>Arthor na Forlonnas, Arthor na Challonnas</mentioned>
+    PE/17:28 ("Realm of the North-harbourage, ~ of the South-harbourage")
+  </note>
+</entry>
+
+<entry id="lonnath">
+  <form type="regular">
+    <form>
+      <orth>lonnath</orth><usg type="lang" norm="S."/>
+      <bibl>WR/294, WR/370</bibl>
+      <pron>l"OnnAT</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos> <number>coll.</number>
+    </gramGrp>
+    <xr type="of"><ptr target="lond"/></xr>
+    <trans lang="fr">
+      <def><index lang="fr" level1="havre"/>havres</def>
+    </trans>
+    <trans lang="de">
+      <def><index lang="de" level1="Hafen"/>Häfen</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>WR/294, WR/370</bibl> <index level1="haven" lang="en"/>havens</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="lond">
   <form type="regular">
     <form>
@@ -40236,31 +40582,6 @@
       <usg type="lang" norm="S., N."/>
      </form>
      <xr type="see"><ptr target="lond"/></xr>
-</entry>
-
-<entry id="lonnath">
-  <form type="regular">
-    <form>
-      <orth>lonnath</orth><usg type="lang" norm="S."/>
-      <bibl>WR/294, WR/370</bibl>
-      <pron>l"OnnAT</pron>
-    </form>
-  </form>
-  <sense>
-    <gramGrp>
-      <pos>n.</pos> <number>coll.</number>
-    </gramGrp>
-    <xr type="of"><ptr target="lond"/></xr>
-    <trans lang="fr">
-      <def><index lang="fr" level1="havre"/>havres</def>
-    </trans>
-    <trans lang="de">
-      <def><index lang="de" level1="Hafen"/>Häfen</def>
-    </trans>
-    <trans lang="en">
-      <def><bibl>WR/294, WR/370</bibl> <index level1="haven" lang="en"/>havens</def>
-    </trans>
-  </sense>
 </entry>
 
 <entry id="lorn">
@@ -40940,6 +41261,27 @@
     </trans>
     <trans lang="en">
       <def><bibl>PE/19:101</bibl> <index level1="mud" lang="en"/>mud</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="madweg"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>madweg</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:144</bibl>
+      <pron>m"AdwEg</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>glouton</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:144</bibl> gluttonous</def>
     </trans>
   </sense>
 </entry>
@@ -44087,8 +44429,9 @@
 
 <entry id="mithren">
   <form type="regular">
-    <form type="deduced">
+    <form type="deleted">
       <orth>mithren</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:140</bibl>
       <pron>m"iTrEn</pron>
     </form>
   </form>
@@ -44111,9 +44454,15 @@
       <def><index lang="de" level1="gau"/>grau</def>
     </trans>
     <trans lang="en">
-      <def><bibl>UT/436</bibl> <index level1="grey" lang="en"/>grey</def>
+      <def><bibl>UT/436, PE/17:140</bibl> <index level1="grey" lang="en"/>grey</def>
     </trans>
   </sense>
+  <note type="comment" lang="fr">
+    Dans PE/17:140, <hi>mithren</hi> est rejeté au profit de <ptr target="hithren"/>.
+  </note>
+  <note type="comment" lang="en">
+    In PE/17:140, <hi>mithren</hi> is rejected in favor of <ptr target="hithren"/>.
+  </note>
 </entry>
 
 <entry id="mithril">
@@ -48816,12 +49165,12 @@
   <form type="regular">
     <form>
       <orth>nor-</orth><usg type="lang" norm="S."/>
-      <bibl>PE/17:168</bibl>
+      <bibl>PE/17:18, PE/17:168</bibl>
       <pron>n"Or</pron>
     </form>
   </form>
   <form type="inflected">
-    <tns>pa. t.</tns>
+    <tns>irreg. pa. t.</tns>
     <form>
       <orth>onur</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:168</bibl>
@@ -48835,7 +49184,8 @@
     <usg type="cat" norm="10.46"/>
     <trans lang="fr">
       <def><index lang="fr" level1="courir"/>courir</def>
-        <usg type="hint">ou bondir; à propos d'animaux, d'hommes etc.</usg>
+        <usg type="hint">ou bondir; à propos d'hommes ou d'animaux etc. possédant
+        des langues, jamais pour un liquide etc.</usg>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="rennen"/>rennen ...</def>
@@ -48843,11 +49193,13 @@
     <trans lang="en">
       <def><bibl>PE/17:168</bibl> to <index level1="run" lang="en"/>run</def>
         <usg type="hint">or leap; of animals, men etc.</usg>
+        <bibl>PE/17:18</bibl> <usg type="hint">of men and animals using legs, not of fluids etc.</usg>
     </trans>
   </sense>
   <re>
     <form>
       <orth>noro</orth><usg type="lang" norm="S."/>
+      <bibl>LotR/I:XII, RS/196, RC/195, PE/17:18</bibl>
     </form>
     <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
@@ -48971,6 +49323,7 @@
   <form type="regular">
     <form>
       <orth>noro</orth><usg type="lang" norm="S."/>
+      <bibl>LotR/I:XII, RS/196, RC/195, PE/17:18</bibl>
       <pron>n"OrO</pron>
     </form>
   </form>
@@ -48986,7 +49339,7 @@
       <def>reite!</def>
     </trans>
     <trans lang="en">
-      <def>run! ride!</def>
+      <def><bibl>RS/196</bibl> ride! <bibl>RC/195, PE/17:18</bibl> run!</def>
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>noro lim</mentioned> LotR/I:XII, RS/196, RC/195</note>
@@ -48994,7 +49347,7 @@
     Sans traduction dans le SdA, mais 
     transcrit <hi>nora-lim</hi> et traduit en anglais par "ride on" 
     dans RS/196 (bien que cette traduction ne soit visiblement pas littérale),
-    puis plus tard par "run swift" dans RC/195.
+    puis plus tard par "run swift" dans RC/195 et PE/17:18.
     Un verbe <ref>nor-</ref> est attesté dans le vieux <hi>Gnomish 
     lexicon</hi>, PE/11:61, avec pour signification "courir, rouler"
   </note>
@@ -49005,7 +49358,8 @@
     mit der Bedeutung "rennen, rollen" belegt 
   </note>
   <note type="comment" lang="en">Untranslated in LotR, but written <hi>nora-lim</hi> and rendered as 
-  "ride on" in RS/196 (not a literal translation) and later translated as "run swift" in RC/195.
+  "ride on" in RS/196 (not a literal translation) and later translated as "run swift" in RC/195
+  and PE/17:18.
   A verb <ptr target="nor-"/> is attested in the old <hi>Gnomish 
   lexicon</hi>, PE/11:61, with the meaning "to run, roll"</note>
 </entry>
@@ -63584,16 +63938,16 @@
   <form type="regular">
     <form>
       <orth>thind</orth><usg type="lang" norm="S., N."/>
-      <bibl>Ety/392, S/438, PE17/72,112,141</bibl>
+      <bibl>Ety/392, S/438, PE/17:72,112,141</bibl>
       <pron>T"ind</pron>
     </form>
     <form>
       <orth>thinn</orth><usg type="lang" norm="S., N."/>
-      <bibl>Ety/392, PE17/72,112,141</bibl>
+      <bibl>Ety/392, PE/17:72,112,141</bibl>
     </form>
     <form>
       <orth>thin</orth><usg type="lang" norm="S."/>
-      <bibl>PE17/72,112</bibl>
+      <bibl>PE/17:72,112</bibl>
     </form>
   </form>
   <sense>
@@ -63607,7 +63961,7 @@
       <def><index lang="de" level1="blass"/>blass, <index lang="de" level1="grau"/>grau</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/392, S/438, PE17/72,112,140-141</bibl> <index level1="grey" lang="en"/>grey, 
+      <def><bibl>Ety/392, S/438, PE/17:72,112,140-141</bibl> <index level1="grey" lang="en"/>grey,
            <bibl>Ety/392</bibl> <index level1="pale" lang="en"/>pale</def>
     </trans>
   </sense>
