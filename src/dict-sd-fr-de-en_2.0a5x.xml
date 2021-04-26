@@ -17091,17 +17091,20 @@
   <form type="regular">
     <form>
       <orth>eblaer</orth><usg type="lang" norm="S."/>
+      <bibl>PM/136</bibl>
       <pron>"EblAEr</pron>
     </form>
     <form>
       <orth>ebloer</orth><usg type="lang" norm="N."/>
+      <bibl>PM/136</bibl>
       <pron>"EblOEr</pron>
     </form>
   </form>
   <sense>
     <gramGrp>
-      <pos>pref.</pos>
+      <pos>n.</pos>
     </gramGrp>
+    <usg type="dom">Cal.</usg><usg type="cat" norm="14.72"/>
     <trans lang="fr">
       <def><index lang="fr" level1="Juin"/>Juin</def>
     </trans>
@@ -51594,7 +51597,7 @@
       <def>(any large) <index level1="tree" lang="en"/>tree</def>
     </trans>
   </sense>
-  <note type="source">Ety/379, S/435, Letters/426, SD/302, SD/302</note>
+  <note type="source">Ety/379, S/435, Letters/426, SD/302</note>
 </entry>
 
 <entry id="orod">
@@ -52595,6 +52598,7 @@
   <form type="regular">
     <form>
       <orth>paeth</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:126</bibl>
       <pron>p"AET</pron>
     </form>
   </form>
