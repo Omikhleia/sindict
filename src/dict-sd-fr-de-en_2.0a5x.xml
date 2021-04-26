@@ -17,7 +17,7 @@
     </titleStmt>
 
     <editionStmt>
-      <edition n="2.0a5">Lexicon 1.0-alpha7</edition>
+      <edition n="2.0a5">Lexicon 1.0-alpha8</edition>
     </editionStmt>
 
     <publicationStmt>
@@ -90,6 +90,7 @@
         <name>Per Lindberg</name>,
         <name>Elena Liria</name>,
         <name>Javier Lorenzo</name>,
+        <name>Gábor Lorinczi</name>,
         <name>Sébastien Mallet</name>,
         <name>David Salo</name>,
         <name>Dorothea Salo</name>, 
@@ -584,7 +585,7 @@
     <form type="normalized">  
       <orth>edaib</orth><usg type="lang" norm="*S."/>
       <pron>"EdAjb</pron>
-    </form>  
+    </form>
     <form>
       <orth>edeb</orth><usg type="lang" norm="N."/>
       <bibl>Ety/390, WR/379-80</bibl>
@@ -1006,7 +1007,7 @@
       <orth>adlegi</orth><usg type="lang" norm="N."/>
       <bibl>VT/45:27</bibl>
       <pron>"AdlEgi</pron>
-    </form>    
+    </form>
   </form>
   <form type="inflected">
     <tns>pa. t.</tns>
@@ -1522,7 +1523,7 @@
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="heilig"/>heilig,
-           <index lang="geheiligt" level1="geheiligt"/>geheiligt</def>
+           <index lang="de" level1="geheiligt"/>geheiligt</def>
     </trans>
     <trans lang="en">
       <def><index level1="holy" lang="en"/>holy, 
@@ -2013,7 +2014,7 @@
       <bibl>Ety/355</bibl>
       <pron>"AjT</pron>
     </form>
-  </form> 
+  </form>
   <sense>
     <gramGrp>
       <pos>n.</pos>
@@ -2176,7 +2177,7 @@
       <def>...</def>
     </trans>
     <trans lang="en">
-      <def> <bibl>PE/17:146</bibl> (word of) good <index level1="omen" lang="en"/>omen</def>
+      <def><bibl>PE/17:146</bibl> (word of) good <index level1="omen" lang="en"/>omen</def>
     </trans>
   </sense>
 </entry>
@@ -2876,7 +2877,7 @@
       <orth>andeith</orth><usg type="lang" norm="N."/>
       <bibl>Ety/391, PE/22:31</bibl>
     </form>
-  </form>  
+  </form>
   <sense>
     <gramGrp>
       <pos>n.</pos>
@@ -3146,7 +3147,6 @@
       <def><bibl>SD/129-31</bibl> (he) will approach</def>
     </trans>
   </sense>
-  <bibl>SD/129-31</bibl>
 </entry>
 
 <entry id="angol.1" n="1">
@@ -3390,7 +3390,7 @@
     <form>
       <orth>anta-</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:147</bibl>
-    </form>    
+    </form>
   </form>
   <form type="inflected">
     <mood>inf.</mood>
@@ -3440,7 +3440,7 @@
     <form>
       <orth>&#333;nen</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:117</bibl>
-    </form>    
+    </form>
     <form>
       <orth>onen</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:93</bibl>
@@ -4233,10 +4233,9 @@
       <def>...</def>
     </trans>
     <trans lang="en">
-      <def><index lang="en" level1="knight"/>knight</def>
+      <def> <bibl>PE/17:147</bibl> <index lang="en" level1="knight"/>knight</def>
     </trans>
   </sense>
-  <bibl>PE/17:147</bibl>
   <etym>ar-+pen</etym>
   <xr type="analogy"><ptr target="arphen"/></xr>
 </entry>
@@ -4944,7 +4943,7 @@
       <orth>athob</orth><usg type="lang" norm="S."/>
       <bibl>PE/22:167</bibl>
     </form>
-  </form>  
+  </form>
   <sense>
     <gramGrp>
       <pos>interj.</pos>
@@ -5110,7 +5109,7 @@
       <orth>athragared</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:14</bibl>
       <pron>ATr"AgArEd</pron>
-    </form>  
+    </form>
   </form>
   <sense>
     <gramGrp>
@@ -5259,7 +5258,7 @@
     <trans lang="en">
       <def>will not</def>
     </trans>
-  </sense>  
+  </sense>
   <re>
     <form>
       <orth>avad</orth><usg type="lang" norm="S."/>
@@ -6725,8 +6724,8 @@
     <form>
       <orth>feleg</orth><usg type="lang" norm="N"/>
       <bibl>PE/22:31</bibl>
+      <itype type="sm">soft mut.</itype>
     </form>
-    <itype type="sm">soft mut.</itype>
     <note type="source,deduced"><mentioned>Cûl Veleg</mentioned> RC/536</note>
   </re>
 </entry>
@@ -7741,6 +7740,30 @@
     </trans>
     <trans lang="en">
       <def><bibl>Ety/352</bibl> <index level1="violence" lang="en"/>violence, <index level1="suddenness" lang="en"/>suddenness</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="bregedur">
+  <form type="regular">
+    <form>
+      <orth>bregedur</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/352</bibl>
+      <pron>br"EgEdur</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>incendie, feu brusque et soundain</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>Ety/352</bibl> wild fire</def>
     </trans>
   </sense>
 </entry>
@@ -9655,7 +9678,7 @@
     <form>
       <orth>cerint</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:22</bibl>
-    </form>    
+    </form>
     <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>2nd</per> <number>pl.</number> <usg type="reg">pol.</usg>
     </gramGrp>
@@ -9668,7 +9691,7 @@
     <form>
       <orth>cerithir</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:22</bibl>
-    </form>    
+    </form>
     <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>2nd</per> <number>pl.</number> <usg type="reg">pol.</usg>
     </gramGrp>
@@ -9995,7 +10018,21 @@
       <def><index level1="city" lang="en"/>city</def> <usg type="hint">built above ground</usg>
     </trans>
   </sense>
-  <note type="source">Ety/362, LotR/II:VII, RC/311</note>
+  <sense n="3">
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>forteresse entourée de douves</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>UT/257</bibl> moated fortress</def>
+    </trans>
+  </sense>
+  <note type="source">Ety/362, LotR/II:VII, RC/311, UT/257</note>
 </entry>
 
 <entry id="carch">
@@ -10098,12 +10135,12 @@
 
 <entry id="carth">
   <form type="regular">
-    <form>
+    <form type="deleted">
       <orth>carth</orth><usg type="lang" norm="N."/>
       <bibl>Ety/362</bibl>
       <pron>k"ArT</pron>
     </form>
-    <form>
+    <form type="deleted">
       <orth>cardh</orth><usg type="lang" norm="N."/>
       <bibl>Ety/362</bibl>
     </form>
@@ -10734,6 +10771,30 @@
      <xr type="see"><ptr target="calardan"/></xr>
    </entry>
 
+<entry id="celeth">
+  <form type="regular">
+    <form>
+      <orth>celeth</orth><usg type="lang" norm="N."/>
+      <bibl>VT/45:19</bibl>
+      <pron>k"ElET</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>cours d'eau</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/45:19</bibl> stream</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="celevon">
   <form type="regular">
     <form>
@@ -10838,6 +10899,30 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Celon</mentioned> <gloss>(name)</gloss> Ety/363</note>
+</entry>
+
+<entry id="celos">
+  <form type="regular">
+    <form>
+      <orth>celos</orth><usg type="lang" norm="S."/>
+      <bibl>UT/426</bibl>
+      <pron>k"ElOs</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>rivière</def> <usg type="hint">eau jaillissant rapidement d'une source rocheuse</usg>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>UT/425</bibl> river</def> <usg type="hint">water flowing out swiftly from a rocky spring</usg>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="celu">
@@ -11385,7 +11470,7 @@
      <xr type="see"><ptr target="hwind"/></xr>
    </entry>
    
-<entry id="cîl.1" n="1">
+<entry id="cîl">
   <form type="regular">
     <form>
       <orth>cîl</orth><usg type="lang" norm="N."/>
@@ -11406,58 +11491,6 @@
     </trans>
     <trans lang="en">
       <def><bibl>Ety/365</bibl> <index level1="cleft" lang="en"/>cleft, <index level1="pass" lang="en"/>pass between hills, <index level1="gorge" lang="en"/>gorge</def>
-    </trans>
-  </sense>
-</entry>
-
-<entry id="cîl.2" n="2">
-  <form type="regular">
-    <form>
-      <orth>cîl</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:8</bibl>
-      <pron>k"i:l</pron>
-    </form>
-  </form>
-  <sense>
-    <gramGrp>
-      <pos>n.</pos>
-    </gramGrp>
-    <trans lang="fr">
-      <def>(?) <index lang="fr" level1="renouvellement"/>renouvellement</def>
-    </trans>
-    <trans lang="de">
-      <def>(?) <index lang="de" level1="Erneuerung"/>Erneuerung</def>
-    </trans>
-    <trans lang="en">
-      <def>(?) <index level1="renewal" lang="en"/>renewal</def>
-    </trans>
-  </sense>
-</entry>
-
-<entry id="cîr">
-  <form type="regular">
-    <form>
-      <orth>cîr</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:7-8</bibl>
-      <pron>k"i:r</pron>
-    </form>
-    <form>
-      <orth>cýr</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:7-8</bibl>
-    </form>
-  </form>
-  <sense>
-    <gramGrp>
-      <pos>adj.</pos>
-    </gramGrp>
-    <trans lang="fr">
-      <def><index lang="fr" level1="nouveau"/>renouvelé</def>
-    </trans>
-    <trans lang="de">
-      <def><index lang="de" level1="erneuert"/>erneuert</def>
-    </trans>
-    <trans lang="en">
-      <def><bibl>VT/48:7-8</bibl> <index level1="new" lang="en"/>renewed</def>
     </trans>
   </sense>
 </entry>
@@ -11760,7 +11793,7 @@
 
 <entry id="côl">
   <form type="regular">
-    <form>
+    <form type="deleted">
       <orth>côl</orth><usg type="lang" norm="N."/>
       <bibl>Ety/365</bibl>
       <pron>k"O:l</pron>
@@ -11929,7 +11962,7 @@
        <gramGrp>
         <number>pl.</number>
        </gramGrp>
-     <xr type="see"><ptr target="4"/></xr>
+     <xr type="see"><ptr target="caun.3"/></xr>
    </entry>
    
 <entry id="conui">
@@ -12414,6 +12447,30 @@
   </sense>
 </entry>
 
+<entry id="crumguru">
+  <form type="regular">
+    <form>
+      <orth>crumguru</orth><usg type="lang" norm="N."/>
+      <bibl>VT/45:24</bibl>
+      <pron>kr"umguru</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>vil, sinistre, criminel</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/45:24</bibl> wiley, sinister, guilty</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="crumui">
   <form type="regular">
     <form>
@@ -12480,7 +12537,7 @@
 
 <entry id="cuen">
   <form type="regular">
-    <form>  
+    <form>
       <orth>cuen</orth><usg type="lang" norm="N."/>
       <bibl>VT/45:24</bibl>      
       <pron>k"uEn</pron>
@@ -12886,6 +12943,14 @@
       <bibl>Ety/366</bibl>
     </form>
   </form>
+  <form type="inflected">
+    <number>pl.</number>
+    <form>
+      <orth>cyry</orth><usg type="lang" norm="N."/>
+      <bibl>VT/45:24</bibl>
+      <pron>k"yry</pron>
+    </form>
+  </form>
   <sense>
     <gramGrp>
       <pos>n.</pos>
@@ -12893,7 +12958,7 @@
     <usg type="cat" norm="9.41"/>
     <trans lang="fr">
       <def><index lang="fr" level1="art"/>art, <index lang="fr" level1="compétence"/>compétence,
-           habileté manuelle,
+           habileté manuelle, ruse,
            talent</def> <usg type="hint">appliqué à toutes choses relevant de la ruse, en part.
            lorsqu'elles ont des visées mystérieuses ou secrètes</usg>,
            <def><index lang="fr" level1="pouvoir"/>pouvoir,
@@ -12904,7 +12969,8 @@
       <def><index lang="de" level1="Geschick"/>Geschick, <index lang="de" level1="Handwerk"/>Handwerk</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/366</bibl> <index level1="craft" lang="en"/>craft, <index level1="skill" lang="en"/>skill
+      <def><bibl>Ety/366</bibl> <index level1="craft" lang="en"/>craft, <index level1="skill" lang="en"/>skill,
+           <bibl>VT/45:24</bibl> cunning,
            <bibl>VT/41:10</bibl> skill of the hand,
            <bibl>PE/17:83</bibl> craft</def> <usg type="hint">applied to all cunning things, esp. when
            intended as mysterious or secret</usg>,
@@ -12983,12 +13049,64 @@
   <note type="source,deduced"><mentioned>Taengyl, Tengyl</mentioned> MR/385</note>
 </entry>
 
+<entry id="cÿl">
+  <form type="regular">
+    <form>
+      <orth>c&#375;l</orth><usg type="lang" norm="S."/>
+      <bibl>VT/48:8</bibl>
+      <pron>k"y:l</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>(?) <index lang="fr" level1="renouvellement"/>renouvellement</def>
+    </trans>
+    <trans lang="de">
+      <def>(?) <index lang="de" level1="Erneuerung"/>Erneuerung</def>
+    </trans>
+    <trans lang="en">
+      <def>(?) <index level1="renewal" lang="en"/>renewal</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="cÿr">
+  <form type="regular">
+    <form>
+      <orth>c&#375;r</orth><usg type="lang" norm="S."/>
+      <bibl>VT/48:7-8</bibl>
+      <pron>k"y:r</pron>
+    </form>
+    <form>
+      <orth>cýr</orth><usg type="lang" norm="S."/>
+      <bibl>VT/48:7-8</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def><index lang="fr" level1="nouveau"/>renouvelé</def>
+    </trans>
+    <trans lang="de">
+      <def><index lang="de" level1="erneuert"/>erneuert</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/48:7-8</bibl> <index level1="new" lang="en"/>renewed</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry type="xref">
      <form>
       <orth>cýr</orth>
       <usg type="lang" norm="S."/>
      </form>
-     <xr type="see"><ptr target="cîr"/></xr>
+     <xr type="see"><ptr target="cÿr"/></xr>
 </entry>
 
 <entry type="xref">
@@ -13591,18 +13709,17 @@
      <xr type="see"><ptr target="damma-"/></xr>
  </entry>
  
- <entry id="dan">
+<entry id="dan">
   <form type="regular">
-  <form>
-    <orth>dan</orth><usg type="lang" norm="S."/>
-    <pron>dAn</pron>
+    <form>
+      <orth>dan</orth><usg type="lang" norm="S."/>
+      <pron>dAn</pron>
+    </form>
   </form>
-  </form>
-  
   <sense n="1">
-  <gramGrp>
-    <pos>prep.</pos>
-  </gramGrp>
+    <gramGrp>
+      <pos>prep.</pos>
+    </gramGrp>
     <trans lang="fr">
       <def><index lang="fr" level1="contre"/>contre</def>
     </trans>
@@ -13614,9 +13731,9 @@
     </trans>
   </sense>
   <sense n="2">
-  <gramGrp>
-    <pos>prep.</pos>
-  </gramGrp>
+    <gramGrp>
+      <pos>prep.</pos>
+    </gramGrp>
     <trans lang="fr">
       <def>au <index lang="fr" level1="dos"/>dos de, à <index lang="fr" level1="arrière"/>l'arrière de, <index lang="fr" level1="derrière"/>derrière</def>
     </trans>
@@ -13629,6 +13746,47 @@
     </trans>
   </sense>
   <note type="source">LotR/II:IV, PE/17:38</note>
+</entry>
+
+<entry id="dân">
+  <form type="regular">
+    <form>
+      <orth>dân</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/375</bibl>
+      <pron>d"A:n</pron>
+    </form>
+  </form>
+  <form type="inflected">
+    <number>pl.</number>
+    <form>
+      <orth>dein</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/375</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <usg type="dom">Pop.</usg>
+    <trans lang="fr">
+      <def>Elfe Vert</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def>Green-<index level1="against" lang="elf"/>Elf</def>
+    </trans>
+  </sense>
+  <re>
+    <form>
+      <orth>danath</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/353</bibl>
+    </form>
+    <gramGrp>
+      <pos>n.</pos> <number>class pl.</number>
+    </gramGrp>
+  </re>
 </entry>
 
 <entry id="danbeth"><!-- A0105 -->
@@ -14221,14 +14379,16 @@
       <pos>n.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def>délicat, beau et fin, <index lang="fr" level1="beau"/>beau <usg type="hint">à propos d'une forme générale plutôt que de ses détails</usg>, de belle forme</def>
+      <def>délicat, beau et fin, <index lang="fr" level1="beau"/>beau</def> <usg type="hint">à propos d'une forme générale plutôt que de ses détails</usg>,
+      <def>de belle forme</def>
     </trans>
     <trans lang="de">
       <def>...</def>
     </trans>
     <trans lang="en">
       <def><bibl>PE/17:139</bibl> delicate, beautiful and fine,
-        <bibl>PE/17:151</bibl> fine, <index level1="beautiful" lang="en"/>beautiful <usg type="hint">applied to general shape rather than to details</usg>, of lovely shape or form</def>
+        <bibl>PE/17:151</bibl> fine, <index level1="beautiful" lang="en"/>beautiful</def> <usg type="hint">applied to general shape rather than to details</usg>,
+        <def>of lovely shape or form</def>
     </trans>
   </sense>
 </entry> 
@@ -14298,7 +14458,7 @@
     <form>
       <orth>d&#339;lio</orth><usg type="lang" norm="N."/>
       <bibl>Ety/355</bibl>
-    </form>        
+    </form>
   </form>
   <sense>
     <gramGrp>
@@ -15435,7 +15595,7 @@
       <bibl>PE/22:153</bibl>
       <pron>d"ym</pron>
     </form>
-  </form>  
+  </form>
   <sense>
     <gramGrp>
       <pos>adj.</pos>
@@ -15723,32 +15883,36 @@
      <xr type="see"><ptr target="dortha-"/></xr>
 </entry>
 
-<entry id="draf-">
+<entry id="drava-">
   <form type="regular">
     <form type="deduced">
-      <orth>draf-</orth><usg type="lang" norm="N."/>
-      <pron>dr"Av</pron>
+      <orth>drava-</orth><usg type="lang" norm="N."/>
+      <pron>dr"AvA</pron>
     </form>
   </form>
   <form type="inflected">
     <mood>inf.</mood>
     <form>
       <orth>dravo</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/354, VT/45:8</bibl>
       <pron>dr"AvO</pron>     
     </form>
   </form>
   <form type="inflected">
     <tns>pa. t.</tns>
     <form>
-      <orth>drammen</orth><usg type="lang" norm="N."/>
-      <pron>dr"AmmEn</pron>
-    </form>
-    <form>
       <orth>dravant</orth><usg type="lang" norm="N."/>
+      <bibl>VT/45:8</bibl>
     </form>
     <form>
       <usg type="reg">Arch.</usg>
+      <bibl>Ety/354, VT/45:8</bibl>
       <orth>dramp</orth><usg type="lang" norm="N."/>
+    </form>
+    <form>
+      <per>1st</per>
+      <orth>drammen</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/354, VT/45:8</bibl>
     </form>
   </form>
   <sense>
@@ -15762,10 +15926,9 @@
       <def><index lang="de" level1="hauen"/>hauen, <index lang="de" level1="schlagen"/>schlagen, <index lang="de" level1="hacken"/>hacken</def>
     </trans>
     <trans lang="en">
-      <def>to <index level1="hew" lang="en"/>hew</def>
+      <def><bibl>Ety/354, VT/45:8</bibl> to <index level1="hew" lang="en"/>hew</def>
     </trans>
   </sense>
-  <note type="source">Ety/354, VT/45:8</note>
 </entry>
 
 <entry id="drafn">
@@ -15893,7 +16056,7 @@
         <tns>pa. t.</tns>
        </gramGrp>
      
-     <xr type="see"><ptr target="draf-"/></xr>
+     <xr type="see"><ptr target="drava-"/></xr>
 </entry>
 
 <entry type="xref">
@@ -15907,7 +16070,7 @@
         <tns>pa. t.</tns>
        </gramGrp>
      
-     <xr type="see"><ptr target="draf-"/></xr>
+     <xr type="see"><ptr target="drava-"/></xr>
 </entry>
 
 <entry type="xref" id="drann">
@@ -15966,7 +16129,7 @@
         <tns>pa. t.</tns>
        </gramGrp>
      
-     <xr type="see"><ptr target="draf-"/></xr>
+     <xr type="see"><ptr target="drava-"/></xr>
 </entry>
 
 <entry type="xref">
@@ -15979,7 +16142,7 @@
         <mood>inf.</mood>
        </gramGrp>
      
-     <xr type="see"><ptr target="draf-"/></xr>
+     <xr type="see"><ptr target="drava-"/></xr>
 </entry>
 
 <entry id="drega-">
@@ -16358,7 +16521,7 @@
       <def><index level1="nightfall" lang="en"/>nightfall, late <index level1="evening" lang="en"/>evening, <index level1="night" lang="en"/>night, <index level1="dimness" lang="en"/>dimness</def>
     </trans>
   </sense>
-  <note type="source">Ety/354, S/430, VT/45:9</note>
+  <note type="source">Ety/354, S/430, VT/45:9, SD/302</note>
   <re>
     <form>
       <orth>dúath</orth><usg type="lang" norm="S., N."/>
@@ -16933,7 +17096,8 @@
     <form>
       <orth>ebloer</orth><usg type="lang" norm="N."/>
       <pron>"EblOEr</pron>
-    </form>  </form>
+    </form>
+  </form>
   <sense>
     <gramGrp>
       <pos>pref.</pos>
@@ -17293,7 +17457,7 @@
       <def>...</def>
     </trans>
     <trans lang="en">
-      <def><index level1="it" lang="it"/>it,
+      <def><index level1="it" lang="en"/>it,
            <index level1="that" lang="en"/>that</def>
     </trans>
   </sense>
@@ -17836,7 +18000,7 @@
       <bibl>PE/17:45</bibl>
       <pron>"EdrA</pron>
     </form>
-  </form>  
+  </form>
   <sense>
     <gramGrp>
       <pos>v.</pos>
@@ -22081,7 +22245,7 @@
     <trans lang="en">
       <def><bibl>Ety/387</bibl> <index level1="hunter" lang="en"/>hunter</def>
     </trans>
-  </sense>  
+  </sense>
   <etym>farad+dîr</etym>
   <re>
     <form>
@@ -23508,7 +23672,7 @@
       <bibl>PE/17:131</bibl>
       <usg type="reg">Arch.</usg>
     </form>
-  </form>  
+  </form>
   <sense>
     <gramGrp>
       <pos>v.</pos>
@@ -23716,7 +23880,7 @@
       <def><index level1="tree" lang="en"/>tree</def>
     </trans>
   </sense>
-  <note type="source">Ety/357, S/427, LotR/E, LB/354, RGEO/73, Letters/426</note>
+  <note type="source">Ety/357, S/427, LotR/E, LB/354, RGEO/73, Letters/426, SD/302</note>
   <re>
     <form type="deduced">
       <orth>galadhad</orth><usg type="lang" norm="S."/>
@@ -26911,6 +27075,35 @@
   <xr type="analogy"><ptr target="silevril"/>, <ptr target="mirion"/></xr>
 </entry>
 
+<entry id="golw">
+  <form type="regular">
+    <form type="normalized">
+      <orth>golu</orth><usg type="lang" norm="*S."/>
+      <bibl>X/W</bibl>
+      <pron>g"Olu</pron>
+    </form>
+    <form>
+      <orth>golw</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/377</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <usg type="reg">Arch., Poet.</usg>
+    <trans lang="fr">
+      <def>tradition</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>Ety/377</bibl> <index level1="lore" lang="en"/>lore</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="golwen">
   <form type="regular">
     <form>
@@ -27259,18 +27452,17 @@
       <pos>n. and adj.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="crainte"/>crainte
+      <def><index lang="fr" level1="crainte"/>crainte</def>
            <usg type="hint">en impliquant un sens de révérence ou de majesté</usg>,
-           vénéré,
-      <index lang="fr" level1="valeur"/>valeur</def>
+      <def>vénéré, <index lang="fr" level1="valeur"/>valeur</def>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="Mut"/>Mut ...</def>
     </trans>
     <trans lang="en">
-      <def><bibl>PE/17:113</bibl> <index level1="dread" lang="en"/>dread
+      <def><bibl>PE/17:113</bibl> <index level1="dread" lang="en"/>dread</def>
            <usg type="hint">used in sense of reverence, majesty</usg>,
-           revered,
+      <def>revered,
            <bibl>PM/xii</bibl> <index level1="valour" lang="en"/>valor</def>
     </trans>
   </sense>
@@ -27616,6 +27808,30 @@
   <etym>go-+gwest</etym>
 </entry>
 
+<entry id="grau">
+  <form type="regular">
+    <form>
+      <orth>grau</orth><usg type="lang" norm="N."/>
+      <bibl>VT/45:16</bibl>
+      <pron>gr"Au</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>foncé, basané</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/45:16</bibl> dark, swart</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry type="xref">
      <form>
       <orth>graug</orth>
@@ -27624,6 +27840,32 @@
      </form>
      
      <xr type="see"><ptr target="raug"/></xr>
+</entry>
+
+<entry id="graurim">
+  <form type="regular">
+    <form>
+      <orth>graurim</orth><usg type="lang" norm="N."/>
+      <bibl>VT/45:16</bibl>
+      <pron>gr"Au</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos> <number>class pl.</number>
+    </gramGrp>
+    <xr type="of"><ptr target="grau"/></xr>
+    <usg type="dom">Pop.</usg>
+    <trans lang="fr">
+      <def>(?) un peuple à la peau foncée</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def>(?) a people of a dark or swart men</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="graw">
@@ -27673,7 +27915,6 @@
       <def><bibl>WJ/415</bibl> to feel <index level1="terror" lang="en"/>terror</def>
     </trans>
   </sense>
-  <bibl>WJ/415</bibl>
 </entry>
 
 <entry id="grond">
@@ -27786,7 +28027,6 @@
       <def><bibl>WJ/415</bibl> to <index level1="terrify" lang="en"/>terrify</def>
     </trans>
   </sense>
-  <bibl>WJ/415</bibl>
 </entry>
 
 <entry id="gûd">
@@ -28890,7 +29130,7 @@
       <def><index level1="stain" lang="en"/>stain</def>
     </trans>
   </sense>
-  <note type="source">Ety/397, S/432</note>
+  <note type="source">Ety/397, VT/42:9, S/432</note>
   <re>
     <form type="deduced">
       <orth>gwethion</orth><usg type="lang" norm="N."/>
@@ -29845,6 +30085,54 @@
   </re>
 </entry>
 
+<entry id="gwîn.2" n="3">
+  <form type="regular">
+    <form>
+      <orth>gwîn</orth><usg type="lang" norm="N."/>
+      <bibl>VT/46:22</bibl>
+      <pron>gw"i:n</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>nouveau</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/46:22</bibl> new</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="gwîn.3" n="4">
+  <form type="regular">
+    <form>
+      <orth>gwîn</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:191</bibl>
+      <pron>gw"i:n</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>jeunesse</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:191</bibl> youth</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="gwing">
   <form type="regular">
     <form>
@@ -30322,7 +30610,16 @@
   <form type="regular">
     <form>
       <orth>hae</orth><usg type="lang" norm="S., N."/>
+      <bibl>VT/45:21</bibl>
       <pron>h"AE</pron>
+    </form>
+    <form>
+      <orth>hoe</orth><usg type="lang" norm="N."/>
+      <bibl>VT/45:21</bibl>
+    </form>
+    <form>
+      <orth>haen</orth><usg type="lang" norm="N."/>
+      <bibl>VT/45:21</bibl>
     </form>
   </form>
   <sense>
@@ -30339,7 +30636,7 @@
       <def><index level1="far" lang="en"/>far, <index level1="remote" lang="en"/>remote, <index level1="distant" lang="en"/>distant</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>Gwahaedir</mentioned> PM/186, VT/45:21</note>
+  <note type="source,deduced"><mentioned>Gwahaedir</mentioned> PM/186</note>
 </entry>
 
 <entry id="haedh"><!-- A0105 -->
@@ -31276,11 +31573,11 @@
 
 <entry id="harven">
   <form type="regular">
-    <form>  
+    <form>
       <orth>harven</orth><usg type="lang" norm="S."/>
       <bibl>VT/45:23</bibl>
       <pron>h"ArvEn</pron>
-    </form>  
+    </form>
     <form>
       <orth>harfen</orth><usg type="lang" norm="N."/>
       <bibl>VT/45:23</bibl>
@@ -31288,11 +31585,11 @@
   </form>
   <form type="inflected">
     <number>pl.</number>
-    <form>  
+    <form>
       <orth>hervin</orth><usg type="lang" norm="S."/>
       <bibl>VT/45:23</bibl>
       <pron>h"Ervin</pron>
-    </form>  
+    </form>
     <form>
       <orth>herfin</orth><usg type="lang" norm="N."/>
       <bibl>VT/45:23</bibl>
@@ -31830,10 +32127,10 @@
   </form>
   <sense>
     <gramGrp>
-      <pos>n.</pos>
+      <pos>adj.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="froid"/>froid mordant</def>
+      <def>d'un <index lang="fr" level1="froid"/>froid mordant</def>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="Eiseskälte"/>Eiseskälte</def>
@@ -32876,6 +33173,10 @@
 
 <entry id="hiril">
   <form type="regular">
+    <form type="deduced">
+      <orth>híril</orth><usg type="lang" norm="S."/>
+      <pron>h"iril,</pron>
+    </form>
     <form>
       <orth>hiril</orth><usg type="lang" norm="N."/>
       <bibl>Ety/364</bibl>
@@ -32897,6 +33198,7 @@
       <def><bibl>Ety/364</bibl> <index level1="lady" lang="en"/>lady</def>
     </trans>
   </sense>
+  <note type="source,deduced"><mentioned>Hírilorn</mentioned> S/403</note>
 </entry>
 
 <entry type="xref" id="hirion">
@@ -34168,31 +34470,6 @@
      <xr type="see"><ptr target="ianu"/></xr>
 </entry>
 
-<entry id="iâr">
-  <form type="regular">
-    <form>
-      <orth>iâr</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/400</bibl>
-      <pron>j"A:r</pron>
-    </form>
-  </form>
-  <sense>
-    <gramGrp>
-      <pos>n.</pos>
-    </gramGrp>
-    <usg type="cat" norm="4.15"/>
-    <trans lang="fr">
-      <def><index lang="fr" level1="sang"/>sang</def>
-    </trans>
-    <trans lang="de">
-      <def><index lang="de" level1="Blut"/>Blut</def>
-    </trans>
-    <trans lang="en">
-      <def><bibl>Ety/400</bibl> <index level1="blood" lang="en"/>blood</def>
-    </trans>
-  </sense>
-</entry>
-
 <entry id="iarwain">
   <form type="regular">
     <form>
@@ -34336,7 +34613,7 @@
     <number>pl.</number>
     <form>
       <orth>iui</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/399</bibl>
+      <bibl>Ety/399, VT/46:22</bibl>
       <pron>j"uj</pron>
     </form>
   </form>
@@ -35371,7 +35648,7 @@
     <trans lang="en">
       <def><index level1="scion" lang="en"/>scion, male <index level1="descendant" lang="en"/>descendant</def>
     </trans>
-  </sense>  
+  </sense>
   <note type="comment" lang="fr">
     Pour le second sens, cf. <hi>Hadorion</hi>, un épithète de Húrin dans WJ/294, 
     tandis que <hi>Hurinionath</hi> s'applique à la maisonnée de Húrin l'Intendant 
@@ -35976,6 +36253,34 @@
   </note>
 </entry>
 
+<entry id="iûr">
+  <form type="regular">
+    <form>
+      <orth>iûr</orth><usg type="lang" norm="N."/>
+      <bibl>VT/46:22</bibl>
+    </form>
+    <form type="deleted">
+      <orth>iâr</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/400</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <usg type="cat" norm="4.15"/>
+    <trans lang="fr">
+      <def><index lang="fr" level1="sang"/>sang</def>
+    </trans>
+    <trans lang="de">
+      <def><index lang="de" level1="Blut"/>Blut</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>Ety/400</bibl> <index level1="blood" lang="en"/>blood</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="ivanneth">
   <form type="regular">
     <form>
@@ -36401,7 +36706,7 @@
     <form>
       <orth>lhoeg</orth><usg type="lang" norm="N."/>
       <bibl>VT/45:25</bibl>
-    </form>    
+    </form>
   </form>
   <sense>
     <gramGrp>
@@ -37415,9 +37720,9 @@
 
 <entry id="lasbelin">
   <form type="regular">
-    <form type="normalized">
-      <orth>lasbelin</orth><usg type="lang" norm="*S."/>
-      <bibl>X/LH</bibl>
+    <form>
+      <orth>lasbelin</orth><usg type="lang" norm="N."/>
+      <bibl>PM/136</bibl>
       <pron>l"AsbElin</pron>
     </form>
     <form>
@@ -37437,7 +37742,7 @@
       <def><index lang="de" level1="Herbst"/>Herbst</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/366-367</bibl> <index level1="season" lang="en"/>season of <index level1="autumn" lang="en"/>autumn</def>
+      <def><bibl>Ety/366-367, PM/136</bibl> <index level1="season" lang="en"/>season of <index level1="autumn" lang="en"/>autumn</def>
     </trans>
   </sense>
   <etym>lass+pelin "leaf withering"</etym>
@@ -39784,7 +40089,7 @@
      <form>
       <orth>lin</orth>
       <usg type="lang" norm="S."/>
-     </form>     
+     </form>
      <xr type="see"><ptr target="lín"/></xr>
    </entry>
    
@@ -40853,6 +41158,30 @@
     </trans>
   </sense>
   <xr type="analogy"><ptr target="lotheg"/></xr>
+</entry>
+
+<entry id="lothren">
+  <form type="regular">
+    <form>
+      <orth>lothren</orth><usg type="lang" norm="N."/>
+      <bibl>VT/45:29</bibl>
+      <pron>l"OTrEn</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n. and adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>sauvage, désolation</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/45:29</bibl> wild, waste</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="lothron">
@@ -42152,7 +42481,7 @@
       <orth>malu</orth><usg type="lang" norm="*S."/>
       <bibl>X/W</bibl>
       <pron>m"Alu</pron>
-    </form>    
+    </form>
     <form>
       <orth>malw</orth><usg type="lang" norm="N."/>
       <bibl>Ety/386</bibl>
@@ -42655,7 +42984,7 @@
       <orth>melant</orth><usg type="lang" norm="N."/>
       <bibl>VT/45:34</bibl>
       <pron>m"ElAnt</pron>
-    </form>    
+    </form>
   </form>
   <sense>
     <gramGrp>
@@ -43319,8 +43648,16 @@
       <pron>m"Eril%in</pron>
     </form>
     <form>
+      <orth>merilinn</orth><usg type="lang" norm="N."/>
+      <bibl>VT/46:19</bibl>
+    </form>
+    <form>
       <orth>m&#339;rilind</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/394</bibl>
+      <bibl>Ety/394, VT/46:19</bibl>
+    </form>
+    <form>
+      <orth>m&#339;rilinn</orth><usg type="lang" norm="N."/>
+      <bibl>VT/46:19</bibl>
     </form>
   </form>
   <sense>
@@ -44882,7 +45219,7 @@
       <bibl>Ety/373</bibl>
       <pron>m"udAs</pron>
     </form>
-  </form>    
+  </form>
   <sense>
     <gramGrp>
       <pos>v.</pos>
@@ -45530,6 +45867,31 @@
     </trans>
     <trans lang="en">
       <def><bibl>PM/362</bibl> woeful <index level1="lament" lang="en"/>lament</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="naes">
+  <form type="regular">
+    <form>
+      <orth>naes</orth><usg type="lang" norm="N."/>
+      <bibl>VT/45:36</bibl>
+      <pron>n"AEs</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <usg type="dom">Biol.</usg><usg type="cat" norm="4.27"/>
+    <trans lang="fr">
+      <def><index lang="fr" level1="dent"/>dent</def>
+    </trans>
+    <trans lang="de">
+      <def><index lang="de" level1="Zahn"/>Zahn</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/45:36</bibl> <index level1="tooth" lang="en"/>tooth</def>
     </trans>
   </sense>
 </entry>
@@ -46579,7 +46941,7 @@
       <orth>nauglin</orth><usg type="lang" norm="N."/>
       <bibl>Ety/375</bibl>
       <pron>n"auglin</pron>
-    </form>  
+    </form>
   </form>
   <sense>
     <gramGrp>
@@ -49364,6 +49726,30 @@
   lexicon</hi>, PE/11:61, with the meaning "to run, roll"</note>
 </entry>
 
+<entry id="noroth">
+  <form type="regular">
+    <form>
+      <orth>noroth</orth><usg type="lang" norm="N."/>
+      <bibl>VT/46:6</bibl>
+      <pron>n"OrOT</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>géant</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/46:6</bibl> géant</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="north"><!--C0421-->
   <form type="regular">
     <form>
@@ -49632,7 +50018,32 @@
      </form>
      
      <xr type="see"><ptr target="nod-"/></xr>
-   </entry><entry type="xref">
+</entry>
+
+<entry id="nûd">
+  <form type="regular">
+    <form>
+      <orth>nûd</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/378</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>lien</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>Ety/378</bibl> bond</def>
+    </trans>
+  </sense>
+</entry>
+
+   <entry type="xref">
      <form>
       <orth>nui</orth>
       <usg type="lang" norm="N."/>
@@ -49768,8 +50179,8 @@
   <note type="comment" lang="fr">
     Voir Klockzo, 4ème volume, p. 160 §147: La signification de <hi>Núrnen</hi> 
     est longtemps restée très hypothétique. La définition ci-contre 
-    est basée sur l'index de Christopher Tolkien's dans les <i>Contes et
-    légendes inachevés</i>, ainsi que sur l'index inachevé de Tolkien publié 
+    est basée sur l'index de Christopher Tolkien's dans les <hi>Contes et
+    légendes inachevés</hi>, ainsi que sur l'index inachevé de Tolkien publié
     dans RC. Le <hi>Gnomish Lexicon</hi> liste <hi>nur-</hi> (<hi>nauri</hi>) 
     "grogner, grommeler", <hi>nurn</hi> "se plaindre, se lamenter, une complainte"
     et <hi>nurna-</hi> "geindre, se lamenter, se plaindre de" (PE/11:61).
@@ -50255,7 +50666,7 @@
      <form>
       <orth>oeruil</orth>
       <usg type="lang" norm="N."/>
-     </form>     
+     </form>
      <xr type="see"><ptr target="gaeruil"/></xr>
 </entry>
 
@@ -50363,7 +50774,7 @@
       <def><bibl>PE/18:88</bibl> <index level1="gloomy" lang="en"/>gloomy, 
            <index level1="gloom" lang="en"/>gloom</def>
     </trans>
-  </sense>  
+  </sense>
 </entry>
 
 <entry id="ogron"><!-- A0131 -->
@@ -50494,7 +50905,7 @@
     <form>
       <orth>&#333;nen</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:117</bibl>
-    </form>    
+    </form>
     <form>
       <orth>onen</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:93</bibl>
@@ -50540,7 +50951,7 @@
       <orth>oneth</orth><usg type="lang" norm="S."/>
       <pron>"OnET</pron>
     </form>
-  </form>  
+  </form>
   <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
@@ -51183,7 +51594,7 @@
       <def>(any large) <index level1="tree" lang="en"/>tree</def>
     </trans>
   </sense>
-  <note type="source">Ety/379, S/435, Letters/426</note>
+  <note type="source">Ety/379, S/435, Letters/426, SD/302, SD/302</note>
 </entry>
 
 <entry id="orod">
@@ -52186,7 +52597,7 @@
       <orth>paeth</orth><usg type="lang" norm="S."/>
       <pron>p"AET</pron>
     </form>
-  </form>  
+  </form>
   <sense>
     <gramGrp>
       <pos>n.</pos>
@@ -53184,7 +53595,6 @@
       <def><bibl>Ety/380</bibl> to <index level1="spread" lang="en"/>spread</def>
     </trans>
   </sense>
-  <bibl>Ety/380</bibl>
 </entry>
 
 <entry id="pelin">
@@ -53365,7 +53775,7 @@
     </form>
     <form>
       <orth>pinn</orth><usg type="lang" norm="N."/>
-    </form>   
+    </form>
   </form>
   <sense>
     <gramGrp>
@@ -53524,13 +53934,13 @@
     </gramGrp>
     <xr type="of"><ptr target="pen-"/></xr>
     <trans lang="fr">
-      <def>nous n'avons pas, nous manquons de <usg type="hint">qqch.</usg></def>
+      <def>nous n'avons pas, nous manquons de</def> <usg type="hint">qqch.</usg>
     </trans>
     <trans lang="de">
       <def>...</def>
     </trans>
     <trans lang="en">
-      <def>we lack, we have no <usg type="hint">something</usg></def>
+      <def>we lack, we have no</def> <usg type="hint">something</usg>
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>penim vast</mentioned> PE/17:144</note>
@@ -54861,7 +55271,7 @@
     </form>
     <form>
       <orth>rhein</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/383H</bibl>
+      <bibl>Ety/383</bibl>
     </form>
   </form>
   <sense>
@@ -55874,7 +56284,37 @@
      </form>
      
      <xr type="see"><ptr target="rafn"/></xr>
-   </entry><entry type="xref">
+   </entry>
+
+<entry id="rhain">
+  <form type="regular">
+    <form>
+      <orth>rhain</orth><usg type="lang" norm="N."/>
+      <bibl>VT/46:10</bibl>
+      <pron>r\_0"Ajn</pron>
+    </form>
+    <form>
+      <orth>rhein</orth><usg type="lang" norm="N."/>
+      <bibl>VT/46:10</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>libre</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/46:10</bibl> free</def>
+    </trans>
+  </sense>
+</entry>
+
+   <entry type="xref">
      <form>
       <orth>rhain</orth>
       <usg type="lang" norm="N."/>
@@ -56541,7 +56981,7 @@
     </form>
     <form>
       <orth>rhosc</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/385</bibl>
+      <bibl>Ety/385, VT/45:7</bibl>
     </form>
   </form>
   <sense>
@@ -56549,13 +56989,14 @@
       <pos>adj.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="brun"/>brun, <index lang="fr" level1="marron"/>marron</def>
+      <def><index lang="fr" level1="brun"/>brun, <index lang="fr" level1="marron"/>marron, roux</def>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="braun"/>braun</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/385Z</bibl> <index level1="brown" lang="en"/>brown</def>
+      <def><bibl>Ety/385</bibl> <index level1="brown" lang="en"/>brown
+           <bibl>VT/45:7</bibl> roux</def>
     </trans>
   </sense>
 </entry>
@@ -59170,7 +59611,7 @@
       <orth>sel</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:18</bibl>
       <pron>s"El,</pron>
-    </form>    
+    </form>
   </form>
   <sense n="1">
     <gramGrp>
@@ -60473,7 +60914,7 @@
      <form>
       <orth>sunc</orth>
       <usg type="lang" norm="N."/>
-     </form>   
+     </form>
        <gramGrp>
         <tns>pa. t.</tns>
        </gramGrp>
@@ -60659,8 +61100,8 @@
     <form>
       <orth>dadol</orth><usg type="lang" norm="N."/>
       <bibl>PE/22:31</bibl>
+      <itype type="sm">soft mut.</itype>
     </form>
-    <itype type="sm">soft mut.</itype>
   </re>  
 </entry>
 
@@ -62854,7 +63295,7 @@
       <def>(?) <index lang="de" level1="es"/>es</def> <usg type="hint">als Objekt</usg>
     </trans>
     <trans lang="en">
-      <def>(?) <index level1="it" lang="en"/>it</def> <usg type="hint">as object</usg>
+      <def>(?) <index level1="en" lang="en"/>it</def> <usg type="hint">as object</usg>
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>caro den</mentioned> VT/44:21,25-6</note>
@@ -64248,25 +64689,45 @@
   <form type="regular">
     <form>
       <orth>thond</orth><usg type="lang" norm="S."/>
+      <bibl>LotR/E, Letters/178, PE/17:121</bibl>
       <pron>T"Ond</pron>
     </form>
+    <form>
+      <orth>thonn</orth><usg type="lang" norm="N."/>
+      <bibl>VT/46:16</bibl>
+      <pron>T"Onn</pron>
+    </form>
   </form>
-  <sense>
+  <sense n="1">
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
-    <usg type="dom">Bot.</usg><usg type="cat" norm="8.54"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="racine"/>racine</def>
+      <def><index lang="fr" level1="racine"/>racine, base</def>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="Wurzel"/>Wurzel</def>
     </trans>
     <trans lang="en">
-      <def><index level1="root" lang="en"/>root</def>
+      <def><bibl>LotR/E, Letters/178, PE/17:121, VT/46:16</bibl> <index level1="root" lang="en"/>root
+      </def>
     </trans>
   </sense>
-  <note type="source">LotR/E, Letters/178, PE/17:121</note>
+  <sense n="2">
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def><index lang="fr" level1="racine"/>racine, base</def> <usg type="hint">d'un mot</usg>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/46:16</bibl> base, root-word
+      </def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="thoniel"><!-- A0110 -->
@@ -64310,6 +64771,31 @@
     <xr type="of"><ptr target="thôn"/></xr>
   </sense>
   <note type="source,deduced"><mentioned>Dorthonion</mentioned> S/390, S/438, Ety/392</note>
+</entry>
+
+<entry id="thonnas">
+  <form type="regular">
+    <form>
+      <orth>thonnas</orth><usg type="lang" norm="N."/>
+      <pron>T"OnnAs</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos> <usg type="reg">abst.</usg>
+    </gramGrp>
+    <xr type="of"><ptr target="thond"/></xr>
+    <usg type="dom">Ling.</usg>
+    <trans lang="fr">
+      <def>base, <index lang="fr" level1="racine"/>racine</def> <usg type="hint">d'un mot</usg>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/46:16</bibl> base, root, root-word</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="thôr.1" n="1">
@@ -64744,7 +65230,7 @@
       <bibl>Ety/393</bibl>
       <pron>T"u:l</pron>
     </form>
-  </form>  
+  </form>
   <sense>
     <gramGrp>
       <pos>n.</pos>
@@ -65651,8 +66137,8 @@
     <form>
       <orth>dithen</orth><usg type="lang" norm="N."/>
       <bibl>PE/22:31</bibl>
+      <itype type="sm">soft mut.</itype>
     </form>
-    <itype type="sm">soft mut.</itype>
   </re>
 </entry>
 
@@ -66922,7 +67408,7 @@
   <form type="regular">
     <form>
       <orth>trîw</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/392</bibl>
+      <bibl>Ety/392, VT/46:18</bibl>
       <pron>tr"i:w</pron>
     </form>
   </form>
@@ -66931,13 +67417,13 @@
       <pos>adj.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="fin"/>fin, <index lang="fr" level1="mince"/>mince</def>
+      <def><index lang="fr" level1="fin"/>fin, très <index lang="fr" level1="mince"/>mince</def>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="zart"/>zart, <index lang="de" level1="schlank"/>schlank</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/392</bibl> <index level1="fine" lang="en"/>fine, <index level1="slender" lang="en"/>slender</def>
+      <def><bibl>Ety/392, VT/46:18</bibl> <index level1="fine" lang="en"/>fine, very <index level1="slender" lang="en"/>slender</def>
     </trans>
   </sense>
 </entry>
@@ -68414,7 +68900,7 @@
      <form>
       <orth>whinn</orth>
       <usg type="lang" norm="S."/>
-     </form>     
+     </form>
      <xr type="see"><ptr target="hwind.2"/></xr>
 </entry>
 
@@ -68507,7 +68993,7 @@
     <trans lang="en">
       <def><bibl>VT/48:8</bibl> <index level1="twelve" lang="en"/>twelve</def>
     </trans>
-  </sense>  
+  </sense>
   <xr type="see"><ptr target="ýneg"/></xr>
 </entry>
    
