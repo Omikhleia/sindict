@@ -72,7 +72,7 @@
         to the <hi>Vinyar Tengwar</hi> &amp; <hi>Parma Eldalamberon</hi> 
         editorial staffs, whose efforts to publish
         <name>J.R.R. Tolkien</name>'s linguistic papers have made such a dictionary 
-        possible.</note>        
+        possible.</note>
       <note>The editors address their thanks to:        
         <name>Jim Allan</name>,
         <name>Benjamin Babut</name>,
@@ -119,7 +119,7 @@
          that the dictionary is not as perfect or complete as it might be. Nevertheless, it seems 
          better to encourage the study of Sindarin by the provision of a working dictionary rather 
          than delay the publication perhaps for years, until the editors' ideals are satisfied 
-         &#8212; a condition which might never be attained.</p>         
+         &#8212; a condition which might never be attained.</p>
     </sourceDesc>
   </fileDesc>
 
@@ -582,7 +582,7 @@
   </form>
   <form type="inflected">
     <number>pl.</number>
-    <form type="normalized">  
+    <form type="normalized">
       <orth>edaib</orth><usg type="lang" norm="*S."/>
       <pron>"EdAjb</pron>
     </form>
@@ -780,7 +780,7 @@
    </form><gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
-  </re>  
+  </re>
 </entry>
 
 <entry id="adbed-"><!-- A0101 -->
@@ -1810,7 +1810,7 @@
      <def><bibl>PE/18:87</bibl> <index level1="brilliant" lang="en"/>brilliant, <index level1="glorious" lang="en"/>glorious</def>
     </trans>
   </sense>
-  <xr type="analogy"><ptr target="aglareb"/></xr>  
+  <xr type="analogy"><ptr target="aglareb"/></xr>
 </entry>
 
 <entry type="xref" n="1">
@@ -2137,7 +2137,7 @@
   <form type="regular">
     <form>
       <orth>alagos</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/348</bibl>     
+      <bibl>Ety/348</bibl>
       <pron>"AlAgOs</pron>
     </form>
   </form>
@@ -2899,7 +2899,7 @@
 <entry type="xref">
      <form>
       <orth>andeith</orth>
-      <usg type="lang" norm="N."/>     
+      <usg type="lang" norm="N."/>
      </form>
      <xr type="see"><ptr target="andaith"/></xr>
 </entry>
@@ -2941,7 +2941,7 @@
      Helge Fauskanger merkte an, dass das Element <hi>and</hi> "lang" normalerweise 
      vor <hi>r-</hi> erhalten bliebe, doch das <hi>-d</hi> geht auf Grund eines weiteren 
      <hi>d</hi> im Wort verloren (VT/41:9); dies jedoch verschwand später wegen der 
-     normalen Veränderung von <hi>-nd</hi>  zu <hi>-nn</hi>, und es ist nicht klar, ob 
+     normalen Veränderung von <hi>-nd</hi> zu <hi>-nn</hi>, und es ist nicht klar, ob
      <hi>an-</hi> dann wieder zu <hi>and-</hi> würde
   </note>
   <note type="comment" lang="en">Helge Fauskanger noted that the element <hi>and</hi> "long" would normally be preserved before <hi>r-</hi>, but the <hi>-d</hi> is lost because there is another <hi>d</hi> in the word (VT/41:9); however, this second <hi>d</hi> later disappeared in the change from <hi>-nd</hi> to <hi>-nn</hi>, and it is unclear whether or not <hi>an-</hi> would then revert to <hi>and-</hi>
@@ -4706,12 +4706,17 @@
   </sense>
 </entry>
 
-<entry id="astor"><!-- A0101 -->
+<entry id="astor"><!-- A0101 --><!-- C0421 -->
   <form type="regular">
     <form>
       <orth>astor</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:183</bibl>
-      <pron>"AsTOr</pron>
+      <pron>"AstOr</pron>
+    </form>
+    <form>
+      <orth>astorad</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:183</bibl>
+      <pron>"AstOrAd</pron>
     </form>
   </form>
   <sense>
@@ -5084,7 +5089,7 @@
       <def><bibl>Ety/383</bibl> to <index level1="cross" lang="en"/>cross, <index level1="traverse" lang="en"/>traverse</def>
     </trans>
   </sense>
-  <etym>ath-+rada-</etym>  
+  <etym>ath-+rada-</etym>
 </entry>
 
 <entry type="xref">
@@ -6489,7 +6494,7 @@
     <form>
       <orth>bauglo</orth><usg type="lang" norm="N."/>
       <bibl>Ety/372</bibl>
-      <pron>b"AuglO</pron>   
+      <pron>b"AuglO</pron>
     </form>
   </form>
   <sense>
@@ -7006,7 +7011,7 @@
     <form>
       <orth>berio</orth><usg type="lang" norm="N."/>
       <bibl>Ety/351</bibl>
-      <pron>b"Eri.O</pron>  
+      <pron>b"Eri.O</pron>
     </form>
   </form>
   <sense>
@@ -7048,7 +7053,7 @@
     <form>
       <orth>bertho</orth><usg type="lang" norm="N."/>
       <bibl>Ety/352</bibl>
-      <pron>b"ErTO</pron>     
+      <pron>b"ErTO</pron>
     </form>
   </form>
   <sense>
@@ -7244,7 +7249,7 @@
     <form>
       <orth>blebi</orth><usg type="lang" norm="N."/>
       <bibl>Ety/380</bibl>
-      <pron>bl"Ebi</pron>   
+      <pron>bl"Ebi</pron>
     </form>
   </form>
   <sense>
@@ -7843,8 +7848,8 @@
     <mood>inf.</mood>
     <form>
       <orth>breitho</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/352</bibl>  
-      <pron>br"EjTO</pron>     
+      <bibl>Ety/352</bibl>
+      <pron>br"EjTO</pron>
     </form>
   </form>
   <sense>
@@ -7885,7 +7890,7 @@
     <mood>inf.</mood>
     <form>
       <orth>brenio</orth><usg type="lang" norm="N."/>
-      <pron>br"Eni.O</pron>      
+      <pron>br"Eni.O</pron>
     </form>
   </form>
   <sense>
@@ -7902,7 +7907,7 @@
       <def>to <index level1="endure" lang="en"/>endure</def>
     </trans>
   </sense>
-  <note type="source">Ety/353, VT/45:7</note>  
+  <note type="source">Ety/353, VT/45:7</note>
   <note type="comment" lang="fr">
     La forme <hi>brenio</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon VT/45:7
@@ -8060,8 +8065,8 @@
     <mood>inf.</mood>
     <form>
       <orth>brono</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/353</bibl>  
-      <pron>br"OnO</pron>     
+      <bibl>Ety/353</bibl>
+      <pron>br"OnO</pron>
     </form>
   </form>
   <sense>
@@ -8265,7 +8270,7 @@
     <form>
       <orth>buio</orth><usg type="lang" norm="N."/>
       <bibl>Ety/353</bibl>
-      <pron>b"uj.O</pron>     
+      <pron>b"uj.O</pron>
     </form>
   </form>
   <sense>
@@ -8514,6 +8519,47 @@
       <usg type="lang" norm="N."/>
      </form>
      <xr type="see"><ptr target="cabor"/></xr>
+</entry>
+
+<entry id="cadhad"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>cadhad</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:45</bibl>
+      <pron>k"ADAd</pron>
+    </form>
+  </form>
+  <form type="inflected">
+    <number>pl.</number>
+    <form>
+      <orth>cedhaid</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:45</bibl>
+      <pron>k"EDAjd</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>Nain</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:45</bibl> Dwarf</def>
+    </trans>
+  </sense>
+  <re>
+    <form>
+      <orth>cadhadrim</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:45</bibl>
+    </form>
+    <gramGrp>
+      <pos>n.</pos> <number>coll.</number>
+    </gramGrp>
+  </re>
 </entry>
 
 <entry id="cadu">
@@ -9616,7 +9662,7 @@
     <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>2nd</per> <number>sing.</number> <usg type="reg">fam.</usg>
     </gramGrp>
-  </re>  
+  </re>
   <re>
     <form>
       <orth>câr</orth><usg type="lang" norm="S."/>
@@ -9695,7 +9741,7 @@
     <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>2nd</per> <number>pl.</number> <usg type="reg">pol.</usg>
     </gramGrp>
-  </re>   
+  </re>
   <re>
     <form>
       <orth>ceridhir</orth><usg type="lang" norm="S."/>
@@ -9718,7 +9764,7 @@
     <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>2nd</per> <number>pl.</number> <usg type="reg">fam.</usg>
     </gramGrp>
-  </re>  
+  </re>
   <re>
     <form>
       <orth>cerir</orth><usg type="lang" norm="S."/>
@@ -9830,7 +9876,7 @@
     <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per> <number>dual</number>
     </gramGrp>
-  </re>  
+  </re>
   <re>
     <form>
       <orth>cared</orth><usg type="lang" norm="S., N."/>
@@ -10208,6 +10254,32 @@
   <note type="source,deduced"><mentioned>Angast</mentioned> "Long Cape" VT/42:28</note>
 </entry>
 
+<entry id="castol"><!-- C0421 -->
+  <form type="regular">
+    <form>
+      <orth>castol</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:186, PE/17:188</bibl>
+      <pron>k"AstOl</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <usg type="dom">Mil.</usg><usg type="cat" norm="20.33"/>
+    <trans lang="fr">
+      <def><index lang="fr" level1="heaume"/>heaume</def>
+    </trans>
+    <trans lang="de">
+      <def><index lang="de" level1="Helm"/>Helm</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:186,188</bibl> helmet</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="thôl"/></xr>
+</entry>
+
 <entry id="cathrae">
   <form type="regular">
     <form>
@@ -10415,7 +10487,7 @@
     <gramGrp>
       <pos>v.</pos> <tns>pa. t.</tns>
     </gramGrp>
-  </re>  
+  </re>
   <re>
     <form>
       <orth>caw</orth><usg type="lang" norm="S."/>
@@ -11469,7 +11541,63 @@
      
      <xr type="see"><ptr target="hwind"/></xr>
    </entry>
-   
+
+<entry id="ci"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>ci</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:17</bibl>
+      <pron>ki</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>pron.</pos> <per>2nd</per> <usg type="reg">pol.</usg>
+    </gramGrp>
+    <trans lang="fr">
+      <def>tu</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:17</bibl> thou</def>
+    </trans>
+  </sense>
+  <re>
+    <form>
+      <orth>gi</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:17</bibl>
+      <itype type="sm">soft mut.</itype>
+    </form>
+  </re>
+</entry>
+
+<entry id="cidinn"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>cidinn</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:157</bibl>
+      <pron>k"idinn</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>petit</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:157</bibl> small</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="cinnog"/></xr>
+</entry>
+
 <entry id="cîl">
   <form type="regular">
     <form>
@@ -11493,6 +11621,31 @@
       <def><bibl>Ety/365</bibl> <index level1="cleft" lang="en"/>cleft, <index level1="pass" lang="en"/>pass between hills, <index level1="gorge" lang="en"/>gorge</def>
     </trans>
   </sense>
+</entry>
+
+<entry id="cinnog"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>cinnog</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:157</bibl>
+      <pron>k"innOg</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>petit</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:157</bibl> small</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="cidinn"/></xr>
 </entry>
 
 <entry type="xref">
@@ -11580,7 +11733,7 @@
   <form type="regular">
     <form>
       <orth>ciriaeth</orth><usg type="lang" norm="N."/>
-      <bibl>PE/18:62</bibl>      
+      <bibl>PE/18:62</bibl>
       <pron>k"iri.AET</pron>
     </form>
   </form>
@@ -12204,6 +12357,63 @@
   </sense>
 </entry>
 
+<entry id="covad-"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>covad-</orth><usg type="lang" norm="S."></usg>
+      <bibl>PE/17:15, PE/17:158</bibl>
+      <pron>k"OvAd</pron>
+    </form>
+  </form>
+  <form type="inflected">
+    <tns>pa. t.</tns>
+    <form>
+      <orth>covant</orth><usg type="lang" norm="N."/>
+      <bibl>PE/17:15</bibl>
+      <pron>k"OvAnt</pron>
+    </form>
+  </form>
+  <form type="inflected">
+    <tns>pp.</tns>
+    <form>
+      <orth>covannen</orth><usg type="lang" norm="N."/>
+      <bibl>PE/17:15</bibl>
+      <pron>kOv"AnnEn</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>recueillir, réunir, rassembler, faire rencontrer</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:15</bibl> to collect, assemble,
+           <bibl>PE/17:15, PE:158</bibl> tobring together,
+           <bibl>PE/17:158</bibl> to make meet</def>
+    </trans>
+  </sense>
+  <note type="comment" lang="fr">
+    Tolkien semble avoir considéré, à une époque tardive, que <hi>mae govannen</hi> dans le SdA ne pouvait
+    contenir <ptr target="govad-"/> (des <hi>Etymologies</hi> antérieures) ou même <hi>govan-</hi> (PE/17:16),
+    car le participe aurait dû subir une mutation initiale. Il envisagea par conséquent une autre interprétation.
+    Voir aussi PE/17:158, avec un verbe faible intransitif <hi>cova-</hi> "venir ensemble, rencontrer" à côté
+    de <hi>covad-</hi>.
+  </note>
+  <note type="comment" lang="de">
+  </note>
+  <note type="comment" lang="en">
+    Tolkien seem to have considered, at a late stage, that <hi>mae govannen</hi> in LotR could not
+    contain <ptr target="govad-"/> (from the older <hi>Etymologies</hi>) or even <hi>govan-</hi> (PE/17:16),
+    because the participle should have been mutated. He therefore tried another interpretation. See also
+    PE/17:158, with also a weak intransitive verb <hi>cova-</hi> "come together, meet" besides <hi>covad-</hi>.
+  </note>
+</entry>
+
 <entry id="craban">
   <form type="regular">
     <form>
@@ -12368,7 +12578,7 @@
     <form>
       <orth>critho</orth><usg type="lang" norm="N."/>
       <bibl>Ety/365</bibl>
-      <pron>kr"iTO</pron>     
+      <pron>kr"iTO</pron>
     </form>
   </form>
   <sense>
@@ -12539,12 +12749,12 @@
   <form type="regular">
     <form>
       <orth>cuen</orth><usg type="lang" norm="N."/>
-      <bibl>VT/45:24</bibl>      
+      <bibl>VT/45:24</bibl>
       <pron>k"uEn</pron>
     </form>
     <form>
       <orth>cuén</orth><usg type="lang" norm="N."/>
-      <bibl>PE/22:32</bibl>      
+      <bibl>PE/22:32</bibl>
     </form>
   </form>
   <sense>
@@ -12685,7 +12895,7 @@
     <form>
       <orth>cuino</orth><usg type="lang" norm="N."/>
       <bibl>Ety/366</bibl>
-      <pron>k"ujnO</pron>     
+      <pron>k"ujnO</pron>
     </form>
   </form>
   <sense>
@@ -13665,7 +13875,7 @@
     <tns>pa. t.</tns>
     <form>
       <orth>dammant</orth><usg type="lang" norm="N."/>
-      <pron>d"Ammant</pron>      
+      <pron>d"Ammant</pron>
     </form>
   </form>
   
@@ -13784,7 +13994,7 @@
       <bibl>Ety/353</bibl>
     </form>
     <gramGrp>
-      <pos>n.</pos> <number>class pl.</number>
+      <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
 </entry>
@@ -15895,7 +16105,7 @@
     <form>
       <orth>dravo</orth><usg type="lang" norm="N."/>
       <bibl>Ety/354, VT/45:8</bibl>
-      <pron>dr"AvO</pron>     
+      <pron>dr"AvO</pron>
     </form>
   </form>
   <form type="inflected">
@@ -16247,7 +16457,7 @@
     <form>
       <orth>dringo</orth><usg type="lang" norm="N."/>
       <bibl>Ety/355</bibl>
-      <pron>dr"iNgO</pron>      
+      <pron>dr"iNgO</pron>
     </form>
   </form>
   <sense>
@@ -17203,7 +17413,7 @@
     <mood>inf.</mood>
     <form>
       <orth>echedi</orth><usg type="lang" norm="N."/>
-      <pron>"ExEdi</pron>    
+      <pron>"ExEdi</pron>
     </form>
   </form>
   <form type="inflected">
@@ -20159,7 +20369,7 @@
   <form type="regular">
     <form type="deduced">
       <orth>erchion</orth><usg type="lang" norm="N."/>
-      <pron>"Erxi.On</pron>  
+      <pron>"Erxi.On</pron>
     </form>
   </form>
   <sense>
@@ -20327,7 +20537,7 @@
   <form type="regular">
     <form>
       <orth>eregion</orth><usg type="lang" norm="S., N."/>
-      <pron>Er"Egi.On</pron>  
+      <pron>Er"Egi.On</pron>
     </form>
   </form>
   <sense>
@@ -23665,7 +23875,7 @@
     </form>
   </form>
   <form type="inflected">
-    <tns>pa. t.</tns>  
+    <tns>pa. t.</tns>
     <form>
       <orth>angol</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:131</bibl>
@@ -23833,7 +24043,7 @@
     <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
-  </re>  
+  </re>
 </entry>
     
 <entry id="galad">
@@ -23938,7 +24148,7 @@
   <form type="regular">
     <form>
       <orth>galadhon</orth><usg type="lang" norm="S."/>
-      <pron>g"AlADOn</pron>  
+      <pron>g"AlADOn</pron>
     </form>
   </form>
   <sense>
@@ -24885,7 +25095,7 @@
     </trans>
   </sense>
   <note type="source">Ety/358, VT/45:15</note>
-  <xr type="analogy"><ptr target="gil"/></xr>  
+  <xr type="analogy"><ptr target="gil"/></xr>
   <re>
     <form>
       <orth>giliath</orth><usg type="lang" norm="S., N."/>
@@ -25350,7 +25560,7 @@
   <form type="regular">
     <form type="deduced">
       <orth>gilion</orth><usg type="lang" norm="S."/>
-      <pron>g"ili.On</pron>  
+      <pron>g"ili.On</pron>
     </form>
   </form>
   <sense>
@@ -25711,7 +25921,7 @@
     <gramGrp>
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
-    <xr type="of"><ptr target="glam"/></xr>  
+    <xr type="of"><ptr target="glam"/></xr>
     <usg type="dom">Pop.</usg>
     <trans lang="fr">
       <def>un <index lang="fr" level1="Orque"/>Orque, "un de ceux qui beuglent"</def>
@@ -27759,6 +27969,7 @@
       <tns>pp.</tns>
     </gramGrp>
   </re>
+  <xr type="analogy"><ptr target="covad-"/></xr>
 </entry>
 
 <entry id="govannen">
@@ -29869,7 +30080,7 @@
   <form type="regular">
     <form type="deduced">
       <orth>gwethion</orth><usg type="lang" norm="N."/>
-      <pron>gw"ETi.On</pron>  
+      <pron>gw"ETi.On</pron>
     </form>
   </form>
   <sense>
@@ -30217,7 +30428,7 @@
   <form type="regular">
     <form type="deduced">
       <orth>gwinion</orth><usg type="lang" norm="S., N."/>
-      <pron>gw"ini.On</pron>  
+      <pron>gw"ini.On</pron>
     </form>
   </form>
   <sense>
@@ -32412,7 +32623,7 @@
 <entry type="xref">
      <form>
       <orth>hen</orth>
-      <usg type="lang" norm="N."/>     
+      <usg type="lang" norm="N."/>
      </form>
      <xr type="see"><ptr target="he"/></xr>
 </entry>
@@ -36207,7 +36418,7 @@
   <note type="comment" lang="de">&#8230;</note>
   <note type="comment" lang="en">
     The gloss was hardly legible and Christopher Tolkien read "to enjoy" in Ety/400, but the meaning "to employ", much more probable (Cf. <ptr target="iuith"/>), was later confirmed in VT/45:23
-  </note>  
+  </note>
 </entry>
 
 <entry type="xref">
@@ -38756,7 +38967,7 @@
   </form>
   <sense>
     <gramGrp>
-      <pos>n.</pos>  <gen>f.</gen>
+      <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
     <trans lang="fr">
       <def><index lang="fr" level1="auditrice"/>auditrice, <index lang="fr" level1="oreille"/>oreille indiscrète</def>
@@ -42850,7 +43061,7 @@
   <re>
     <form>
       <orth>vedui</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
-      <bibl>LotR/I:XII, PE/17:16</bibl>  
+      <bibl>LotR/I:XII, PE/17:16</bibl>
    </form>
   </re>
 </entry>
@@ -45587,7 +45798,7 @@
     </form><gramGrp>
       <pos>v.</pos> <tns>fut.</tns> <number>pl.</number>
     </gramGrp>
-  </re>  
+  </re>
 </entry>
 
 <entry id="nad">
@@ -48447,7 +48658,7 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>nidhin mened</mentioned> "I have a mind to go,
-    I intend to go" PE/22:165</note>  
+    I intend to go" PE/22:165</note>
   <re>
     <form>
       <orth>nidhin</orth><usg type="lang" norm="S."/>
@@ -48952,7 +49163,7 @@
   <form type="regular">
     <form type="deduced">
       <orth>ningloron</orth><usg type="lang" norm="S."/>
-      <pron>n"iNglOrOn</pron>  
+      <pron>n"iNglOrOn</pron>
     </form>
   </form>
   <sense>
@@ -50630,7 +50841,7 @@
      </form>
        <gramGrp>
         <number>pl.</number>
-       </gramGrp>     
+       </gramGrp>
      <xr type="see"><ptr target="ael"/></xr>
 </entry>
 
@@ -51782,7 +51993,7 @@
   <re>
     <form>
       <orth>orthad</orth><usg type="lang" norm="S."/>
-      <bibl>MR/373</bibl>      
+      <bibl>MR/373</bibl>
     </form>
     <gramGrp>
       <pos>ger.</pos>
@@ -51791,12 +52002,12 @@
   <re>
     <form>
       <orth>orthannen</orth><usg type="lang" norm="N."/>
-      <bibl>PE/22:31</bibl>      
+      <bibl>PE/22:31</bibl>
     </form>
     <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
-  </re>  
+  </re>
 </entry>
 
 <entry id="orthad">
@@ -52539,7 +52750,7 @@
 
 <entry id="poen">
   <form type="regular">
-    <form type="normalized">  
+    <form type="normalized">
       <orth>paen</orth><usg type="lang" norm="*S."/>
       <bibl>X/OE</bibl>
       <pron>p"AEn</pron>
@@ -57082,7 +57293,7 @@
   <form type="regular">
     <form>
       <orth>rhovanion</orth><usg type="lang" norm="S."/>
-      <pron>r\_0Ov"Ani.On</pron>  
+      <pron>r\_0Ov"Ani.On</pron>
     </form>
   </form>
   <sense>
@@ -60448,7 +60659,7 @@
   <form type="regular">
     <form type="deduced">
       <orth>sirion</orth><usg type="lang" norm="S."/>
-      <pron>siri.On</pron>  
+      <pron>siri.On</pron>
     </form>
   </form>
   <sense>
@@ -61106,7 +61317,7 @@
       <bibl>PE/22:31</bibl>
       <itype type="sm">soft mut.</itype>
     </form>
-  </re>  
+  </re>
 </entry>
 
 <entry id="tadui">
@@ -64628,12 +64839,27 @@
      <xr type="see"><ptr target="lhoss"/></xr>
 </entry>
 
-<entry id="thôl">
+<entry id="thôl"><!-- C0421 -->
   <form type="regular">
     <form>
       <orth>thôl</orth><usg type="lang" norm="S."/>
-      <bibl>S/438</bibl>
+      <bibl>S/438, PE/17:186</bibl>
       <pron>T"O:l</pron>
+    </form>
+    <form>
+      <orth>thol</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:188</bibl>
+    </form>
+  </form>
+  <form type="inflected">
+    <number>pl.</number>
+    <form>
+      <orth>thely</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:188</bibl>
+    </form>
+    <form>
+      <orth>thuil</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:188</bibl>
     </form>
   </form>
   <sense>
@@ -64648,9 +64874,11 @@
       <def><index lang="de" level1="Helm"/>Helm</def>
     </trans>
     <trans lang="en">
-      <def><bibl>S/438</bibl> <index level1="helm" lang="en"/>helm</def>
+      <def><bibl>S/438</bibl> <index level1="helm" lang="en"/>helm,
+           <bibl>PE/17:186,188</bibl> helmet</def>
     </trans>
   </sense>
+  <xr type="analogy"><ptr target="castol"/></xr>
 </entry>
 
 <entry id="thôn">
@@ -64764,7 +64992,7 @@
   <form type="regular">
     <form type="deduced">
       <orth>thonion</orth><usg type="lang" norm="S., N."/>
-      <pron>TOni.On</pron>  
+      <pron>TOni.On</pron>
     </form>
   </form>
   <sense>
@@ -66491,7 +66719,7 @@
     <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
-  </re>  
+  </re>
   <re>
     <form>
       <orth>tolen</orth><usg type="lang" norm="S."/>
@@ -66500,7 +66728,7 @@
     <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per>
     </gramGrp>
-  </re>  
+  </re>
   <re>
     <form>
       <orth>tôl</orth><usg type="lang" norm="S., N."/>
@@ -68818,7 +69046,7 @@
   <form type="mutated">
     <form>
       <orth>vedui</orth><usg type="lang" norm="S."/>
-      <bibl>LotR/I:XII, PE/17:16</bibl>  
+      <bibl>LotR/I:XII, PE/17:16</bibl>
       <itype type="sm">soft mut.</itype>
    </form>
   </form>
@@ -68975,7 +69203,7 @@
   <form type="regular">
     <form>
       <orth>yneb</orth>
-      <usg type="lang" norm="S."/>  
+      <usg type="lang" norm="S."/>
       <bibl>VT/48:8</bibl>
     </form>
     <form>
