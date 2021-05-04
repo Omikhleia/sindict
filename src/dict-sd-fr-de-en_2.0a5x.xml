@@ -27417,10 +27417,12 @@
   <form type="regular">
     <form>
       <orth>gond</orth><usg type="lang" norm="S."/>
+      <bibl>S/431, WJ/201, PE/17:29, PE/22:36</bibl>
       <pron>g"Ond</pron>
     </form>
     <form>
       <orth>gonn</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/359, PE/17:29, PE/22:36</bibl>
     </form>
   </form>
   <sense>
@@ -27429,16 +27431,17 @@
     </gramGrp>
     <usg type="cat" norm="1.44"/>
     <trans lang="fr">
-      <def>grande <index lang="fr" level1="pierre"/>pierre, <index lang="fr" level1="roc"/>roc</def>
+      <def>pierre, grande <index lang="fr" level1="pierre"/>pierre, <index lang="fr" level1="roc"/>roc</def>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="Fels"/>Fels, groﬂer <index lang="de" level1="Stein"/>Stein</def>
     </trans>
     <trans lang="en">
-      <def>great <index level1="stone" lang="en"/>stone, <index level1="rock" lang="en"/>rock</def>
+      <def><bibl>S/431</bibl> stone,
+           <bibl>Ety/359</bibl> great <index level1="stone" lang="en"/>stone,
+           <bibl>Ety/359, WJ/201, PE/17:29, PE/22:36</bibl> <index level1="rock" lang="en"/>rock</def>
     </trans>
   </sense>
-  <note type="source">Ety/359, S/431</note>
 </entry>
 
 <entry id="gondrafn">
