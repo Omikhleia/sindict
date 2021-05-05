@@ -1985,12 +1985,12 @@
 <entry id="air"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>air</orth><usg type="lang" norm="S."></usg>
+      <orth>air</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:28</bibl>
       <pron>"Ajr</pron>
     </form>
     <form>
-      <orth>eir</orth><usg type="lang" norm="S."></usg>
+      <orth>eir</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:28</bibl>
     </form>
   </form>
@@ -2090,7 +2090,7 @@
 <entry id="alaf"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>alaf</orth><usg type="lang" norm="S."></usg>
+      <orth>alaf</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:153</bibl>
       <pron>"AlAv</pron>
     </form>
@@ -2288,7 +2288,7 @@
       <pron>"Alu</pron>
     </form>
     <form>
-      <orth>alw</orth><usg type="lang" norm="S."></usg>
+      <orth>alw</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:146</bibl>
       <pron>"Alw</pron>
     </form>
@@ -2296,7 +2296,7 @@
   <form type="inflected">
     <number>pl.</number>
     <form>
-      <orth>ely</orth><usg type="lang" norm="S."></usg>
+      <orth>ely</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:146</bibl>
       <pron>"Ely</pron>
     </form>
@@ -2425,7 +2425,7 @@
 <entry id="amartha-"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>amartha-</orth><usg type="lang" norm="S."></usg>
+      <orth>amartha-</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:104-105</bibl>
       <pron>Am"ArTa</pron>
     </form>
@@ -3313,7 +3313,7 @@
 <entry id="ann.1"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>ann</orth><usg type="lang" norm="S."></usg>
+      <orth>ann</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:90</bibl>
       <pron>"Ann</pron>
     </form>
@@ -4891,7 +4891,7 @@
 <entry id="athgar"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>athgar</orth><usg type="lang" norm="S."></usg>
+      <orth>athgar</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:148</bibl>
       <pron>"ATgAr</pron>
     </form>
@@ -4912,7 +4912,7 @@
 <entry id="athgen"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>athgen</orth><usg type="lang" norm="S."></usg>
+      <orth>athgen</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:148</bibl>
       <pron>"ATgEn</pron>
     </form>
@@ -8525,7 +8525,7 @@
 <entry id="cadhad"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>cadhad</orth><usg type="lang" norm="S."></usg>
+      <orth>cadhad</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:45</bibl>
       <pron>k"ADAd</pron>
     </form>
@@ -8533,7 +8533,7 @@
   <form type="inflected">
     <number>pl.</number>
     <form>
-      <orth>cedhaid</orth><usg type="lang" norm="S."></usg>
+      <orth>cedhaid</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:45</bibl>
       <pron>k"EDAjd</pron>
     </form>
@@ -10212,7 +10212,7 @@
 <entry id="carweg"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>carweg</orth><usg type="lang" norm="S."></usg>
+      <orth>carweg</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:144</bibl>
       <pron>k"ArwEg</pron>
     </form>
@@ -11546,7 +11546,7 @@
 <entry id="ci"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>ci</orth><usg type="lang" norm="S."></usg>
+      <orth>ci</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:17</bibl>
       <pron>ki</pron>
     </form>
@@ -11577,7 +11577,7 @@
 <entry id="cidinn"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>cidinn</orth><usg type="lang" norm="S."></usg>
+      <orth>cidinn</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:157</bibl>
       <pron>k"idinn</pron>
     </form>
@@ -11627,7 +11627,7 @@
 <entry id="cinnog"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>cinnog</orth><usg type="lang" norm="S."></usg>
+      <orth>cinnog</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:157</bibl>
       <pron>k"innOg</pron>
     </form>
@@ -12361,7 +12361,7 @@
 <entry id="covad-"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>covad-</orth><usg type="lang" norm="S."></usg>
+      <orth>covad-</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:15, PE/17:158</bibl>
       <pron>k"OvAd</pron>
     </form>
@@ -15449,7 +15449,7 @@
 <entry id="dirbedui"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>dirbedui</orth><usg type="lang" norm="S."></usg>
+      <orth>dirbedui</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:154</bibl>
       <pron>d"irbEduj</pron>
     </form>
@@ -20973,7 +20973,7 @@
 <entry id="esbin"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>esbin</orth><usg type="lang" norm="S."></usg>
+      <orth>esbin</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:17, PE/17:119</bibl>
       <pron>"Esbin</pron>
     </form>
@@ -27558,7 +27558,7 @@
 <entry id="gorbedui"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>gorbedui</orth><usg type="lang" norm="S."></usg>
+      <orth>gorbedui</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:154</bibl>
       <pron>g"OrbEduj</pron>
     </form>
@@ -33494,7 +33494,7 @@
 <entry id="hithren"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>hithren</orth><usg type="lang" norm="S."></usg>
+      <orth>hithren</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:140</bibl>
       <pron>h"iTrEn</pron>
     </form>
@@ -33714,7 +33714,7 @@
 <entry id="hol-"><!--C0421-->
   <form type="regular">
     <form type="deduced">
-      <orth>hol-</orth><usg type="lang" norm="S."></usg>
+      <orth>hol-</orth><usg type="lang" norm="S."/>
       <pron>h"Ol</pron>
     </form>
   </form>
@@ -40971,7 +40971,7 @@
 <entry id="lonnas"><!--C0421-->
   <form type="regular">
     <form type="deduced">
-      <orth>lonnas</orth><usg type="lang" norm="S."></usg>
+      <orth>lonnas</orth><usg type="lang" norm="S."/>
       <pron>l"OnnAs</pron>
     </form>
   </form>
@@ -41815,7 +41815,7 @@
 <entry id="madweg"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>madweg</orth><usg type="lang" norm="S."></usg>
+      <orth>madweg</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:144</bibl>
       <pron>m"AdwEg</pron>
     </form>
@@ -49971,7 +49971,7 @@
 <entry id="north"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>north</orth><usg type="lang" norm="S."></usg>
+      <orth>north</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:168</bibl>
       <pron>n"OrT</pron>
     </form>
@@ -49995,7 +49995,7 @@
 <entry id="northa-"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>northa-</orth><usg type="lang" norm="S."></usg>
+      <orth>northa-</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:168</bibl>
       <pron>n"OrTa</pron>
     </form>
@@ -51923,7 +51923,7 @@
 <entry id="oroth"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>oroth</orth><usg type="lang" norm="S."></usg>
+      <orth>oroth</orth><usg type="lang" norm="S."/>
       <bibl>PE:17/183, PE:17/188</bibl>
       <pron>"OrOT</pron>
     </form>
@@ -58900,7 +58900,7 @@
 <entry id="ruthra-"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>ruthra-</orth><usg type="lang" norm="S."></usg>
+      <orth>ruthra-</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:188</bibl>
       <pron>r"uTrA</pron>
     </form>
@@ -59664,7 +59664,7 @@
 <entry id="saur"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>saur</orth><usg type="lang" norm="S."></usg>
+      <orth>saur</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:183</bibl>
       <pron>s"Aur</pron>
     </form>
@@ -65309,7 +65309,7 @@
 <entry id="thorn"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>thorn</orth><usg type="lang" norm="S."></usg>
+      <orth>thorn</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:113</bibl>
       <pron>T"Orn</pron>
     </form>
@@ -65330,12 +65330,12 @@
 <entry id="thos"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>thoss</orth><usg type="lang" norm="S."></usg>
+      <orth>thoss</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:87</bibl>
       <pron>T"Oss</pron>
     </form>
     <form>
-      <orth>thos</orth><usg type="lang" norm="S."></usg>
+      <orth>thos</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:87</bibl>
     </form>
   </form>
@@ -68271,7 +68271,7 @@
 <entry id="úgarol"><!--C0421-->
   <form type="regular">
     <form>
-      <orth>úgarol</orth><usg type="lang" norm="S."></usg>
+      <orth>úgarol</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:144</bibl>
       <pron>"ugArOl</pron>
     </form>
