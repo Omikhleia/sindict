@@ -2446,23 +2446,23 @@
 <entry id="amarthan">
   <form type="regular">
     <form>
-      <orth>amarthan</orth><usg type="lang" norm="N."/>
+      <orth>amarthan</orth><usg type="lang" norm="S."/>
       <bibl>VT/41:10</bibl>
       <pron>Am"ArTAn</pron>
     </form>
   </form>
   <sense>
     <gramGrp>
-      <pos>adj.</pos>
+      <pos>n.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="destiné"/>destiné, <index lang="fr" level1="condamné"/>condamné</def>
+      <def>un <index lang="fr" level1="destiné"/>destiné, <index lang="fr" level1="condamné"/>condamné</def>
     </trans>
     <trans lang="de">
-      <def>vom Schicksal beherrscht</def>
+      <def>...</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/41:10</bibl> <index level1="fated" lang="en"/>fated</def>
+      <def><bibl>VT/41:10</bibl> <index level1="fated" lang="en"/>fated one</def>
     </trans>
   </sense>
 </entry>
@@ -47671,27 +47671,29 @@
   <note type="source,deduced"><mentioned>Neithan</mentioned> UT/456</note>
 </entry>
 
-<entry id="neithan">
+<entry id="neithan"><!-- C0421 -->
   <form type="regular">
     <form>
       <orth>neithan</orth><usg type="lang" norm="S."/>
-      <bibl>UT/456</bibl>
+      <bibl>S/412, UT/456, PE/17:167</bibl>
       <pron>n"EjTAn</pron>
     </form>
   </form>
-  <sense>
+  <sense n="1">
     <gramGrp>
-      <pos>adj.</pos>
+      <pos>n.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="outragé"/>outragé, <index lang="fr" level1="dépossédé"/>dépossédé</def>
+      <def>un <index lang="fr" level1="outragé"/>outragé, <index lang="fr" level1="dépossédé"/>dépossédé
+           un déshérité, un exilé dont les droits et les biens ont été confisqués</def>
     </trans>
     <trans lang="de">
-      <def>unrecht <index lang="de" level1="behandelt"/>behandelt</def>
+      <def>...</def>
     </trans>
     <trans lang="en">
-      <def><bibl>UT/456</bibl> <index level1="deprived" lang="en"/>deprived,
-           <index level1="wronged" lang="en"/>wronged</def>
+      <def><bibl>UT/456, S/412</bibl> a wronged one,
+           <bibl>S/412, PE/17:167</bibl> one (who is) deprived,
+           <bibl>S/412, PE/17:167</bibl> an exile whose rights and goods have been confiscated</def>
     </trans>
   </sense>
 </entry>
@@ -55550,7 +55552,87 @@
      
      <xr type="see"><ptr target="ras"/></xr>
    </entry>
-   
+
+<entry id="raitha-"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>raitha-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:167</bibl>
+      <pron>r"AjTA</pron>
+    </form>
+    <form type="deleted">
+      <orth>reitha-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:167</bibl>
+    </form>
+  </form>
+  <form type="inflected">
+    <tns>pa. t.</tns>
+    <form>
+      <orth>rithant</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:167</bibl>
+      <pron>r"iTAnt</pron>
+    </form>
+    <form>
+      <orth>rithas</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:167</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>s'efforcer</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:167</bibl> to <index level1="strive" lang="en"/>strive</def>
+    </trans>
+  </sense>
+  <re>
+    <form>
+      <form>
+        <orth>rithanen</orth><usg type="lang" norm="S."/>
+        <bibl>PE/17:167</bibl>
+      </form>
+      <form>
+        <orth>rithessin</orth><usg type="lang" norm="S."/>
+        <bibl>PE/17:167</bibl>
+      </form>
+    </form>
+    <gramGrp>
+      <pos>v.</pos> <tns>pa. t.</tns> <per>1st</per> <number>sing.</number>
+    </gramGrp>
+  </re>
+  <re>
+    <form>
+      <form type="deleted">
+        <orth>rithantem</orth><usg type="lang" norm="S."/>
+        <bibl>PE/17:167</bibl>
+      </form>
+    </form>
+    <gramGrp>
+      <pos>v.</pos> <tns>pa. t.</tns> <per>1st</per> <number>pl.</number> <per>excl.</per>
+    </gramGrp>
+  </re>
+  <re>
+    <form>
+      <form type="deleted">
+        <orth>rithantin</orth><usg type="lang" norm="S."/>
+        <bibl>PE/17:167</bibl>
+      </form>
+    </form>
+    <gramGrp>
+      <pos>v.</pos> <tns>pa. t.</tns> <per>1st</per> <number>sing.</number>
+    </gramGrp>
+  </re>
+  <note type="comment" lang="fr">Les formes sindarines ne sont pas entièrement certaines.</note>
+  <note type="comment" lang="de">...</note>
+  <note type="comment" lang="en">The Sindarin forms are not entirely certain.</note>
+</entry>
+
 <entry id="ram">
   <form type="regular">
     <form>
