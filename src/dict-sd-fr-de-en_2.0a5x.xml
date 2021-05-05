@@ -17,7 +17,7 @@
     </titleStmt>
 
     <editionStmt>
-      <edition n="2.0a5">Lexicon 1.0-alpha8</edition>
+      <edition n="2.0a5">Lexicon 1.0-alpha9</edition>
     </editionStmt>
 
     <publicationStmt>
@@ -2241,7 +2241,7 @@
       <def>also used for another small white flower</def>
     </trans>
   </sense>
-  <note type="source">LotR/V:IX, Letters/402, UT/55, UT/303, UT/316, UT/417, PE:17:100, PE/22:153,156</note>
+  <note type="source">LotR/V:IX, Letters/402, UT/55, UT/303, UT/316, UT/417, PE/17:100, PE/22:153,156</note>
   <etym>al-+firin</etym>
 </entry>
 
@@ -4343,7 +4343,7 @@
   <form type="regular">
     <form>
       <orth>arnad</orth><usg type="lang" norm="S."/>
-      <bibl>VT:44:21,25</bibl>
+      <bibl>VT/44:21,25</bibl>
       <pron>"ArnAd</pron>
     </form>
   </form>
@@ -4358,7 +4358,7 @@
       <def><index lang="de" level1="Königreich"/>Königreich</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT:44:21,25</bibl> <index level1="kingdom" lang="en"/>kingdom</def>
+      <def><bibl>VT/44:21,25</bibl> <index level1="kingdom" lang="en"/>kingdom</def>
     </trans>
   </sense>
 </entry>
@@ -12362,7 +12362,7 @@
   <form type="regular">
     <form>
       <orth>covad-</orth><usg type="lang" norm="S."/>
-      <bibl>PE/17:15, PE/17:158</bibl>
+      <bibl>PE/17:16, PE/17:158</bibl>
       <pron>k"OvAd</pron>
     </form>
   </form>
@@ -12370,7 +12370,7 @@
     <tns>pa. t.</tns>
     <form>
       <orth>covant</orth><usg type="lang" norm="N."/>
-      <bibl>PE/17:15</bibl>
+      <bibl>PE/17:16</bibl>
       <pron>k"OvAnt</pron>
     </form>
   </form>
@@ -12378,7 +12378,7 @@
     <tns>pp.</tns>
     <form>
       <orth>covannen</orth><usg type="lang" norm="N."/>
-      <bibl>PE/17:15</bibl>
+      <bibl>PE/17:16</bibl>
       <pron>kOv"AnnEn</pron>
     </form>
   </form>
@@ -12393,8 +12393,8 @@
       <def>...</def>
     </trans>
     <trans lang="en">
-      <def><bibl>PE/17:15</bibl> to collect, assemble,
-           <bibl>PE/17:15, PE:158</bibl> tobring together,
+      <def><bibl>PE/17:16</bibl> to collect, assemble,
+           <bibl>PE/17:16,158</bibl> to bring together,
            <bibl>PE/17:158</bibl> to make meet</def>
     </trans>
   </sense>
@@ -39819,7 +39819,7 @@
   <form type="regular">
     <form>
       <orth>lhoew</orth><usg type="lang" norm="S."/>
-      <bibl>PE:17:185</bibl>
+      <bibl>PE/17:185</bibl>
       <pron>K"OEw</pron>
     </form>
   </form>
@@ -39834,7 +39834,7 @@
       <def><index level1="Gift" lang="de"/>Gift</def>
     </trans>
     <trans lang="en">
-      <def><bibl>PE:17:185</bibl> <index level1="poison" lang="en"/>poison, poisonous substance</def>
+      <def><bibl>PE/17:185</bibl> <index level1="poison" lang="en"/>poison, poisonous substance</def>
     </trans>
   </sense>
 </entry>
@@ -51571,7 +51571,7 @@
     bezieht, dass das <hi>e</hi> unklar ist. Jedoch muss dies nicht heißen, dass <hi>orchel</hi>
     wirklich falsch ist, obwohl sogar <hi>orchal</hi> in WJ/305 belegt ist. Es könnte durch 
     Analogie entstanden sein, wie <ref target="hathol">hathol</ref> "Axt" (aus WJ/234 und 
-    dem Namen eines Númenórers, <hi>Hatholdir</hi>, UT:444), welches auch als <hi>hathal</hi>
+    dem Namen eines Númenórers, <hi>Hatholdir</hi>, UT/444), welches auch als <hi>hathal</hi>
     auftaucht (in <hi>Hathaldir</hi>, dem Namen eines Gefährten von Barahir, LR/433, nicht 
     übersetzt aber wahrscheinlich verwandt), sowie als <hi>hathel</hi> (LR/389). Ohne sich 
     in Details zu verlieren: solche Wörter enden mit einem silbischen Konsonanten 
@@ -51584,7 +51584,7 @@
     legitime dialektale Variante darstellt 
   </note>
   <note type="comment" lang="en">In his article <hi>Probable errors in the Etymologies</hi>, Helge Fauskanger lists <hi>orchel</hi> as a misreading, following Christopher Tolkien's note admitting that the e is uncertain.
-  However, though <hi>orchal</hi> is  attested in WJ/305, it does not necessarily mean that the form <hi>orchel</hi> is incorrect. It might be constructed by analogy with words such as <ptr target="hathol"/> "axe" (from WJ/234 and the name of a Númenórean, Hatholdir, UT:444), which is also found as <hi>hathal</hi> (in Hathaldir, name of a companion of Barahir, LR/433, untranslated but conceivably cognate) and <hi>hathel</hi> (LR/389). 
+  However, though <hi>orchal</hi> is  attested in WJ/305, it does not necessarily mean that the form <hi>orchel</hi> is incorrect. It might be constructed by analogy with words such as <ptr target="hathol"/> "axe" (from WJ/234 and the name of a Númenórean, Hatholdir, UT/444), which is also found as <hi>hathal</hi> (in Hathaldir, name of a companion of Barahir, LR/433, untranslated but conceivably cognate) and <hi>hathel</hi> (LR/389).
   Without entering into the details, such words end with a syllabic consonant (as in English "people"), and several vocalizations
   are apparently possible in Sindarin. The epenthetical vowel is generally o, but it seems that a or e are also allowed. 
   Regarding <hi>orchal</hi>, its origin is of course different, as it is a compound word where the second element clearly derives
@@ -51924,7 +51924,7 @@
   <form type="regular">
     <form>
       <orth>oroth</orth><usg type="lang" norm="S."/>
-      <bibl>PE:17/183, PE:17/188</bibl>
+      <bibl>PE/17:183, PE/17:188</bibl>
       <pron>"OrOT</pron>
     </form>
   </form>
@@ -51936,7 +51936,7 @@
       <def>rage, colère</def>
     </trans>
     <trans lang="en">
-      <def><bibl>PE:17/183, PE/17:188</bibl> rage,
+      <def><bibl>PE/17:183,188</bibl> rage,
            <bibl>PE/17:188</bibl> anger</def>
     </trans>
   </sense>
@@ -53882,7 +53882,7 @@
   <form type="regular">
     <form>
       <orth>pen-</orth><usg type="lang" norm="S."/>
-      <bibl>PE:17/144,171,173</bibl>
+      <bibl>PE/17:144,171,173</bibl>
       <pron>p"En</pron>
     </form>
   </form>
@@ -53897,7 +53897,7 @@
       <def>...</def>
     </trans>
     <trans lang="en">
-      <def><bibl>PE:17/144</bibl> to <index level1="have" lang="en"/>have not</def>
+      <def><bibl>PE/17:144</bibl> to <index level1="have" lang="en"/>have not</def>
     </trans>
   </sense>
   <re>
@@ -56004,6 +56004,30 @@
     </trans>
     <trans lang="en">
       <def><bibl>Ety/383</bibl> <index level1="errant" lang="en"/>errant</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="ravaed"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>ravaed</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:162</bibl>
+      <pron>r"AvAEd</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>adroit</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:162</bibl> skilful</def>
     </trans>
   </sense>
 </entry>
@@ -59983,7 +60007,7 @@
       <def><bibl>PE/17:44</bibl> <index level1="this" lang="en"/>this</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>i thiw hin</mentioned> LotR/II:IV, PE:17/44</note>
+  <note type="source,deduced"><mentioned>i thiw hin</mentioned> LotR/II:IV, PE/17:44</note>
   <note type="comment" lang="fr">
     Cet adjectif démonstratif est probablement enclitique. 
     Nous avons suggéré que cela pourrait expliquer pourquoi la forme
