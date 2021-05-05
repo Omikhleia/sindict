@@ -4465,6 +4465,7 @@
   <form type="regular">
     <form>
       <orth>arod</orth><usg type="lang" norm="S."/>
+      <bibl>PM/363, VT/41:9, PE/17:39, PE/17:49,147,182,186</bibl>
       <pron>"ArOd</pron>
     </form>
   </form>
@@ -4479,10 +4480,10 @@
       <def><index lang="de" level1="edel"/>edel</def>
     </trans>
     <trans lang="en">
-      <def><index level1="noble" lang="en"/>noble</def>
+      <def><bibl>PM/363, PE/17:49,147,182,186</bibl> <index level1="noble" lang="en"/>noble</def>
     </trans>
   </sense>
-  <note type="source">PM/363, VT/41:9</note>
+  <xr type="analogy"><ptr target="raud.1"/></xr>
 </entry>
 
 <entry id="aronoded">
@@ -13985,7 +13986,7 @@
       <def>...</def>
     </trans>
     <trans lang="en">
-      <def>Green-<index level1="against" lang="elf"/>Elf</def>
+      <def>Green-<index level1="elf" lang="en"/>Elf</def>
     </trans>
   </sense>
   <re>
@@ -55861,7 +55862,37 @@
   <note type="source">Ety/383, LotR/Index, RC/523,551, PE/17:96,98</note>
 </entry>
 
-<entry id="raud">
+<entry id="raud.1" n="1"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>raud</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:49,118,147,186</bibl>
+      <pron>r"Aud</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>haut, élevé, noble, grand, éminent, excellent</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:49,118</bibl> high,
+           <bibl>PE/17:49,118,186</bibl> lofty,
+           <bibl>PE/17:49,147</bibl> noble,
+           <bibl>PE/17:118</bibl> tall,
+           <bibl>PE/17:118,147</bibl> eminent,
+           <bibl>PE/17:147</bibl> excellent</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="arod"/></xr>
+</entry>
+
+<entry id="raud.2" n="2">
   <form type="regular">
     <form type="normalized">
       <orth>raud</orth><usg type="lang" norm="*S."/>
@@ -56621,7 +56652,7 @@
       
      </form>
      
-     <xr type="see"><ptr target="raud"/></xr>
+     <xr type="see"><ptr target="raud.2"/></xr>
    </entry><entry type="xref">
      <form>
       <orth>rhaudh</orth>
@@ -58267,6 +58298,30 @@
     </trans>
     <trans lang="en">
       <def><bibl>UT/463</bibl> (horse) <index level1="rider" lang="en"/>rider</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="rodel">
+  <form type="regular">
+    <form>
+      <orth>rodel</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:49</bibl>
+      <pron>r"OdEl,</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>dame, haute dame</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:49</bibl> <index level1="lady" lang="en"/>lady, high lady</def>
     </trans>
   </sense>
 </entry>
