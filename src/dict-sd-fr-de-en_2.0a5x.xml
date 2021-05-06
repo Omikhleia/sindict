@@ -14052,6 +14052,30 @@
      <xr type="see"><ptr target="dag-"/></xr>
 </entry>
 
+<entry id="dangar"><!-- C0421 -->
+  <form type="regular">
+    <form>
+      <orth>dangar-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:166</bibl>
+      <pron>d"ANgAr</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>défaire</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:166</bibl> to undo</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="dangen">
   <form type="regular">
    <form>
@@ -22353,7 +22377,7 @@
       <def><index level1="door" lang="en"/>door, <index level1="threshold" lang="en"/>threshold</def>
     </trans>
   </sense>
-  <note type="source">Ety/381, LotR/V:IV, WR/341, RC/550, PE/17:181</note>
+  <note type="source">Ety/381, LotR/V:IV, WR/341, RC/550, PE/17:45,98,181</note>
   <re>
     <form>
       <orth>fennas</orth><usg type="lang" norm="S."/>
@@ -22471,6 +22495,78 @@
   </re>
 </entry>
 
+<entry id="fergar"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>fergar</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:181</bibl>
+      <pron>f"ErgAr</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>bientôt prêt</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:181</bibl> soon done</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="fergenol"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>fergenol</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:181</bibl>
+      <pron></pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="en" >
+      <def>qui est prompt à voir ou percevoir qqch., clairvoyant (ou à l'esprit vif)</def>
+    </trans>
+    <trans lang="de" >
+      <def>...</def>
+    </trans>
+    <trans lang="en" >
+      <def><bibl>PE/17:181</bibl> quick to see or perceive, sharp-sighted (or witted)</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="feria-"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>feria-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:181</bibl>
+      <pron>f"Eri.A</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>se préparer (rapidement)</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:181</bibl> to make ready (promptly)</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry type="xref">
      <form>
       <orth>ferin</orth>
@@ -22529,6 +22625,30 @@
     </trans>
     <trans lang="en">
       <def>dead person</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="ferui"><!-- C0421 -->
+  <form type="regular">
+    <form>
+      <orth>ferui</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:181</bibl>
+      <pron>f"Eruj</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>à portée de main, (rapidement) disponible</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:181</bibl> ready to hand, (quickly) available</def>
     </trans>
   </sense>
 </entry>
@@ -22722,6 +22842,30 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Finglas</mentioned> <gloss>"Leaflock"</gloss> RC/386</note>
+</entry>
+
+<entry id="fineg">
+  <form type="regular">
+    <form>
+      <orth>fineg</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:17</bibl>
+      <pron>f"inEg</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos> <number>sing.</number>
+    </gramGrp>
+    <trans lang="fr">
+      <def>(?) cheveu</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def>(?) hair of head</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry type="xref">
