@@ -21851,10 +21851,11 @@
   </sense>
 </entry>
 
-<entry id="fanui">
+<entry id="fanui"><!-- C0421 -->
   <form type="regular">
     <form>
       <orth>fanui</orth><usg type="lang" norm="S."/>
+      <bibl>RGEO/74, RC/268, PE/17:26,36,173</bibl>
       <pron>f"Anuj</pron>
     </form>
   </form>
@@ -21863,16 +21864,16 @@
       <pos>adj.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="nuageux"/>nuageux</def>
+      <def><index lang="fr" level1="nuageux"/>nuageux, chargé de nuages</def>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="wolkig"/>wolkig</def>
     </trans>
     <trans lang="en">
-      <def><index level1="cloudy" lang="en"/>cloudy</def>
+      <def><bibl>RGEO/74, RC/268, PE/17:26,36,173</bibl> <index level1="cloudy" lang="en"/>cloudy,
+           <bibl>PE/17:173</bibl> having much clouds</def>
     </trans>
   </sense>
-  <note type="source">RGEO/74, RC/268</note>
 </entry>
 
 <entry id="far">
@@ -58236,6 +58237,33 @@
   </sense>
 </entry>
 
+<entry type="affix" id="ro-"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>ro-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:147</bibl>
+    </form>
+    <form>
+      <orth>rau-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:147</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>pref.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>(?)</def> <usg type="hint">superlatif ou comparatif ?</usg>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def>(?)</def> <usg type="hint">superlative or comparative?</usg>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="roch">
   <form type="regular">
     <form>
@@ -58716,7 +58744,35 @@
        </gramGrp>
      
      <xr type="see"><ptr target="rosta-"/></xr>
-   </entry><entry type="xref">
+   </entry>
+
+<entry id="rovaed"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>rovaed</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:147</bibl>
+      <pron>r"OvAEd</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>(?)</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def>(?)</def>
+    </trans>
+  </sense>
+  <etym>ro- + maed ?</etym>
+  <xr type="analogy"><ptr target="ravaed"/></xr>
+</entry>
+
+   <entry type="xref">
      <form type="normalized">
       <orth>rovail</orth>
       <usg type="lang" norm="*S."/>
