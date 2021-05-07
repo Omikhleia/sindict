@@ -12,10 +12,9 @@
 
 <!-- XHTML 1.0 output, UTF-8 -->
 <xsl:output
-    method="xml"
+    method="html" version="5"
     encoding="utf-8" indent="no"
-    doctype-public = "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    doctype-system = "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
+/>
 
 <!-- PARAMETERS
  "print" can be set to 'yes' for printable quality,
@@ -47,7 +46,7 @@
 <!-- CONVERSION RULES -->
 
 <xsl:template match="TEI.2">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title><xsl:value-of select="//titleStmt/title"/></title>
@@ -56,9 +55,6 @@
   <body>
     <div class="global">
       <xsl:apply-templates/>
-      <p class="edition"><i><xsl:value-of select="//titleStmt/title"/></i>,
-           <xsl:value-of select="//publicationStmt/date"/>
-          (Edition <xsl:value-of select="//editionStmt/edition/@n"/> - <xsl:value-of select="//editionStmt/edition/text()"/>)</p>
     </div>
   </body>
 </html>

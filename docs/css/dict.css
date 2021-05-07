@@ -8,7 +8,7 @@ div.global {
  padding: 0.25em 0.5em 0.25em 0.5em; 
 }
 .boxed {
- background: white;
+ background: #eff4f5;
  border: 1px solid #8CACBB;
  border-collapse: collapse;
  padding: 0.25em 0.5em 0.25em 0.5em;
@@ -52,28 +52,14 @@ legend {
 
 p.sindict {
  border-width: 0;
- padding-top: 0;
- padding-bottom: 0;
  margin-top: 4pt;
  margin-bottom: 0;
  margin-left: 1.5em;
  text-indent: -1.5em;
- font-size: 8pt;
- line-height: 10pt;
+ font-size: 10pt;
+ line-height: 12pt;
  text-align: justify;
-}
-
-p.edition {
- border-width: 0;
- padding-top: 20pt;
- padding-bottom: 0;
- margin-top: 2pt;
- margin-bottom: 0;
- margin-left: 1.5em;
- text-indent: -1.5em;
- font-size: 8pt;
- line-height: 10pt;
- text-align: justify;
+ padding: 0 2em 0 2em;
 }
 
 small {
@@ -94,4 +80,67 @@ span.trans-lang, span.note-lang {
   border: 1px solid #5d7088;
   color: #5d7088;
   text-transform: uppercase;  
+}
+
+/* Hide/Show detailed information CSS toggle */
+
+label {
+ cursor: pointer;
+ text-indent: -9999px;
+ width: 40px;
+ height: 20px;
+ background: grey;
+ display: inline-block;
+ border-radius: 20px;
+ position: relative;
+ vertical-align: middle;
+ margin-right: 10px;
+}
+label:after {
+ content: '';
+ position: absolute;
+ top: 5px;
+ left: 5px;
+ width: 10px;
+ height: 10px;
+ background: #fff;
+ border-radius: 10px;
+ transition: 0.3s;
+}
+label:active:after {
+ width: 15px;
+}
+
+input[type=checkbox]{
+ height: 0;
+ width: 0;
+ display: none;
+}
+input:checked + label {
+ background: #bada55;
+}
+input:checked + label:after {
+ left: calc(100% - 5px);
+ transform: translateX(-100%);
+}
+input[type="checkbox"]:checked ~ .hide-show {
+ display: block;
+}
+input[type="checkbox"]:checked ~ .show-hide {
+ opacity: 0;
+ transition: 0.5s;
+}
+
+.show-hide {
+ display: inline-block;
+ vertical-align: middle;
+ font-size: 18px;
+ line-height: 20px;
+ opacity: 1;
+ transition: 0.5;
+}
+
+.hide-show {
+ display: none;
+ font-size: 8pt;
 }

@@ -10,20 +10,20 @@
 
 <xsl:template match="teiHeader">
 <xsl:if test="$header = 'yes'">
-<div id="teiHeader">
-<small>
-  <xsl:apply-templates/>
-  <br/>
-</small>
+<div>
+  <input type="checkbox" id="switch" />
+  <label for="switch"></label>
+  <span class="show-hide"><i><xsl:value-of select="//titleStmt/title"/></i> -
+    <xsl:value-of select="//editionStmt/edition/text()"/></span>
+  <div class="hide-show" >
+    <xsl:apply-templates/>
+  </div>
 </div>
 </xsl:if>
 </xsl:template>
 
 <xsl:template match="fileDesc">
-  <!-- fieldset class="framed">
-    <legend>Description</legend -->
     <xsl:apply-templates/>
-  <!-- /fieldset -->
 </xsl:template>
 
 <xsl:template match="titleStmt">
