@@ -147,16 +147,16 @@
 <!-- Numbering -->
 <xsl:choose>
   <xsl:when test="$isheadword and ancestor::entry/@n"><xsl:text> </xsl:text>
-     <small><b><font face="helvetica" class="number"><xsl:number format="I" value="ancestor::entry/@n"/></font></b></small>
+     <span class="number"><xsl:number format="I" value="ancestor::entry/@n"/></span>
   </xsl:when>
 <!-- Numbering for related entries -->
   <xsl:when test="ancestor::re/@n and $islemma"><xsl:text> </xsl:text>
-     <small><b><font face="helvetica" class="number"><xsl:number format="I" value="ancestor::re/@n"/></font></b></small>
+     <span class="number"><xsl:number format="I" value="ancestor::re/@n"/></span>
   </xsl:when>
 </xsl:choose>
 <!-- Misreadings and corrections -->
 <xsl:if test="corr/@sic">
-<xsl:text> </xsl:text>(<small><i>corr.</i><xsl:text> </xsl:text></small><font color="#777777"><xsl:value-of select="corr/@sic"/></font>)
+<xsl:text> </xsl:text>(<small><i>corr.</i><xsl:text> </xsl:text></small><span class="corr"><xsl:value-of select="corr/@sic"/></span>)
 </xsl:if>
 </xsl:template>
 
@@ -196,7 +196,7 @@
 -->
 
 <xsl:template match="bibl">
-  <small><xsl:apply-templates/></small>
+  <span class="bibl"><xsl:apply-templates/></span>
   <!-- xsl:if test="following-sibling::bibl">, </xsl:if -->
 </xsl:template>
 
@@ -205,12 +205,12 @@
 <xsl:template match="note">
   <xsl:choose>
     <xsl:when test="@type ='source'">
-      &#x25C7; <small><font color="#336699"><xsl:apply-templates/></font></small></xsl:when>
+      &#x25C7; <span class="bibl-legacy"><xsl:apply-templates/></span></xsl:when>
     <xsl:when test="@type ='source,deduced'">
-      &#x2190; <small><font color="#002828"><xsl:apply-templates/></font></small></xsl:when>
+      &#x2190; <span class="bibl-mention"><xsl:apply-templates/></span></xsl:when>
     <xsl:when test="@type ='comment'">
       <xsl:if test="contains($translations,@lang)">
-      &#x25C8; <small><xsl:apply-templates/></small></xsl:if></xsl:when>
+      &#x25C8; <span class="comment"><xsl:apply-templates/></span></xsl:if></xsl:when>
     <xsl:when test="@type ='info'">
       <!-- Used in Ladon's Breath -->
       <p class="comment"><xsl:apply-templates/></p></xsl:when>
@@ -247,7 +247,7 @@
  <xsl:when test="key('entry',string(@target))/descendant::form[1]/descendant::orth[1]">
   <b><xsl:value-of select="key('entry',string(@target))/descendant::form[1]/descendant::orth[1]" /></b>
   <xsl:if test="key('entry',string(@target))[@n]">
-  <xsl:text> </xsl:text><small><b><font face="helvetica" class="number"><xsl:number format="I" value="key('entry',string(@target))/@n"/></font></b></small>
+  <xsl:text> </xsl:text><span class="number"><xsl:number format="I" value="key('entry',string(@target))/@n"/></span>
   </xsl:if>
  </xsl:when>
  <xsl:when test="key('entry',string(@target))">
@@ -266,7 +266,7 @@
 <xsl:template match="ref">
 <xsl:choose>
  <xsl:when test='@n'>
-  <b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');"--><xsl:apply-templates/><!-- /a --></b><xsl:text> </xsl:text><small><b><font face="helvetica" class="number"><xsl:number format="I" value="@n"/></font></b></small>
+  <b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');"--><xsl:apply-templates/><!-- /a --></b><xsl:text> </xsl:text><span class="number"><xsl:number format="I" value="@n"/></span>
  </xsl:when>
  <xsl:otherwise>
   <b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');" --><xsl:apply-templates/><!-- /a --></b>
