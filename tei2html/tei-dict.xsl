@@ -9,6 +9,7 @@
 <!-- STYLE SHEET FOR TEI P4 DICTIONARY ENTRIES -->
 
 <xsl:template match="div0[@type='dictionary']">
+<div class="dictionary">
 <xsl:choose>
   <!-- GENERATE A SINGLE ENTRY -->
   <xsl:when test="$search">
@@ -26,6 +27,7 @@
 <xsl:apply-templates/>
 </xsl:otherwise>
 </xsl:choose>
+</div>
 </xsl:template>
 
 <xsl:template match="milestone">
