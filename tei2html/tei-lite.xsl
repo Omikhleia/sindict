@@ -58,7 +58,9 @@
       <div class="toggle-popup">
         <input type="checkbox" id="popupChk" />
         <label for="popupChk"></label>
-        <div id="popup" class="fixed-popup hide-show"></div>
+        <div id="popup" class="fixed-popup hide-show">
+          <div class="rounded">Click a word...</div>
+        </div>
       </div>
       <xsl:apply-templates/>
     </div>

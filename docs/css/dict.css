@@ -57,6 +57,16 @@ p.sindict {
  text-align: justify;
  padding: 0 2em 0 2em;
 }
+p.elddict {
+ border-width: 0;
+ margin-top: 2pt;
+ margin-bottom: 0;
+ margin-left: 1em;
+ text-indent: -1em;
+ text-align: left;
+ padding: 0 1em 0 1em;
+}
+
 .corr {
  color: #777777;
 }
@@ -99,28 +109,28 @@ span.trans-lang, span.note-lang {
 label {
  cursor: pointer;
  text-indent: -9999px;
- width: 40px;
- height: 20px;
+ width: 35pt;
+ height: 18pt;
  background: grey;
  display: inline-block;
- border-radius: 20px;
+ border-radius: 18pt;
  position: relative;
  vertical-align: middle;
- margin-right: 10px;
+ margin-right: 10pt;
 }
 label:after {
  content: '';
  position: absolute;
- top: 5px;
- left: 5px;
- width: 10px;
- height: 10px;
+ top: 4pt;
+ left: 4pt;
+ width: 10pt;
+ height: 10pt;
  background: #fff;
- border-radius: 10px;
+ border-radius: 10pt;
  transition: 0.3s;
 }
 label:active:after {
- width: 15px;
+ width: 15pt;
 }
 
 input[type=checkbox]{
@@ -132,7 +142,7 @@ input:checked + label {
  background: #bada55;
 }
 input:checked + label:after {
- left: calc(100% - 5px);
+ left: calc(100% - 4pt);
  transform: translateX(-100%);
 }
 input[type="checkbox"]:checked ~ .hide-show {
@@ -146,8 +156,8 @@ input[type="checkbox"]:checked ~ .show-hide {
 .show-hide {
  display: inline-block;
  vertical-align: middle;
- font-size: 18px;
- line-height: 20px;
+ font-size: 16pt;
+ line-height: 18pt;
  opacity: 1;
  transition: 0.5;
 }
@@ -172,7 +182,13 @@ input[type="checkbox"]:checked ~ .show-hide {
  right: 0;
  width: 20vw;
  margin: 10px 20px;
+}
+
+.rounded {
+ max-height: 33vh;
+ overflow-y: auto;
  padding: 4px;
+ margin-bottom: 4px;
  border: 1px solid black;
  border-radius: 5px;
  background: white;
