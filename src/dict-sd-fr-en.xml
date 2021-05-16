@@ -17,7 +17,7 @@
     </titleStmt>
 
     <editionStmt>
-      <edition n="2.0a6">Lexicon 1.0-alpha9</edition>
+      <edition n="2.0a7">Lexicon 1.0-alpha10</edition>
     </editionStmt>
 
     <publicationStmt>
@@ -5908,6 +5908,7 @@
   <form type="regular">
     <form>
       <orth>bar</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:163, PE/17:164</bibl>
       <pron>b"Ar</pron>
     </form>
   </form>
@@ -5915,6 +5916,7 @@
     <number>pl.</number>
     <form>
       <orth>bair</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:164</bibl>
       <pron>b"Ajr</pron>
     </form>
   </form>
@@ -5930,7 +5932,10 @@
       <def><index lang="de" level1="Heim"/>Heim, <index lang="de" level1="Heimat"/>Heimat</def>
     </trans>
     <trans lang="en">
-      <def><index level1="dwelling" lang="en"/>dwelling, <index level1="home" lang="en"/>home</def>
+      <def><bibl>PE/17:163</bibl> house</def> <usg type="hint">as a family dwelling</usg>,
+      <def><bibl>PE/17:164</bibl> single house or dwelling</def> <usg type="hint">especially of the larger and more permanent sort</usg>,
+      <def>
+      <index level1="dwelling" lang="en"/>dwelling, <index level1="home" lang="en"/>home</def>
     </trans>
   </sense>
   <sense n="2">
@@ -5945,7 +5950,8 @@
       <def><index lang="de" level1="Land"/>Land (bewohnt)</def>
     </trans>
     <trans lang="en">
-      <def>inhabited land</def>
+      <def>inhabited land,
+           <bibl>PE/17:164</bibl> a region inhabited by a people</def> <usg type="hint">as suffix in old names only</usg>
     </trans>
   </sense>
   <note type="source">S/428, WR/379-80, SD/129-31</note>
@@ -16066,6 +16072,7 @@
     </trans>
   </sense>
   <note type="source">Ety/355, VT/45:11</note>
+  <xr type="analogy"><ptr target="nordh.2"/></xr>
 </entry>
 
 <entry id="dortha-">
@@ -42230,7 +42237,7 @@
   </sense>
 </entry>
 
-<entry id="maen">
+<entry id="maen.1" n="1">
   <form type="regular">
     <form>
       <orth>maen</orth><usg type="lang" norm="N."/>
@@ -42261,6 +42268,30 @@
   </re>
 </entry>
 
+<entry id="maen.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>maen</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:163</bibl>
+      <pron>m"AEn</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>trésor</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:163</bibl> treasure</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="maenas">
   <form type="regular">
     <form>
@@ -42273,7 +42304,7 @@
     <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
-    <xr type="of"><ptr target="maen"/></xr>
+    <xr type="of"><ptr target="maen.1"/></xr>
     <usg type="cat" norm="9.41"/>
     <trans lang="fr">
       <def><index lang="fr" level1="art"/>art, <index lang="fr" level1="artisanat"/>artisanat</def>
@@ -42335,7 +42366,7 @@
   </sense>
 </entry>
 
-<entry id="maeth">
+<entry id="maeth.1" n="1">
   <form type="regular">
     <form>
       <orth>maeth</orth><usg type="lang" norm="N."/>
@@ -42356,6 +42387,30 @@
     </trans>
     <trans lang="en">
       <def><bibl>Ety/371</bibl> <index level1="battle" lang="en"/>battle, <index level1="fight" lang="en"/>fight</def> <usg type="hint">not of general host but of two or a few</usg>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="maeth.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>maeth</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:161</bibl>
+      <pron>m"AET</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>gestion</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:161</bibl> management</def>
     </trans>
   </sense>
 </entry>
@@ -42389,7 +42444,7 @@
   <form type="regular">
     <form>
       <orth>maetha-</orth><usg type="lang" norm="S."/>
-      <bibl>VT/47:6</bibl>
+      <bibl>VT/47:6, PE/17:69,161,162</bibl>
       <pron>m"AETA</pron>
     </form>
   </form>
@@ -42398,13 +42453,19 @@
       <pos>v.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="tenir"/>tenir, <index lang="fr" level1="supporter"/>supporter, <index lang="fr" level1="gérer"/>gérer, <index lang="fr" level1="traiter"/>traiter</def>
+      <def><index lang="fr" level1="tenir"/>tenir, <index lang="fr" level1="supporter"/>supporter, <index lang="fr" level1="gérer"/>gérer, <index lang="fr" level1="traiter"/>traiter, utiliser</def>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="handhaben"/>handhaben, <index lang="de" level1="gebrauchen"/>gebrauchen, <index lang="de" level1="umgehen"/>umgehen mit</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/47:6</bibl> to <index level1="handle" lang="en"/>handle, <index level1="wield" lang="en"/>wield, <index level1="manage" lang="en"/>manage, <index level1="deal" lang="en"/>deal with</def>
+      <def><bibl>VT/47:6, PE/17:69, PE/17:161</bibl> to <index level1="handle" lang="en"/>handle,
+           <bibl>VT/47:6, PE/17:162</bibl> <index level1="wield" lang="en"/>wield,
+           <bibl>VT/47:6, PE/17:161</bibl> <index level1="manage" lang="en"/>manage,
+           <bibl>VT/47:6</bibl> <index level1="deal" lang="en"/>deal with,
+           <bibl>PE/17:162</bibl> use,
+           <bibl>PE/17:162</bibl> treat
+      </def>
     </trans>
   </sense>
 </entry>
@@ -43036,7 +43097,7 @@
   <form type="regular">
     <form>
       <orth>maw</orth><usg type="lang" norm="S."/>
-      <bibl>VT/47:6</bibl>
+      <bibl>VT/47:6, PE/17:162</bibl>
       <pron>m"Aw</pron>
     </form>
   </form>
@@ -43053,7 +43114,7 @@
       <def><index lang="de" level1="Hand"/>Hand</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/47:6</bibl> <index level1="hand" lang="en"/>hand</def>
+      <def><bibl>VT/47:6, PE/17:162</bibl> <index level1="hand" lang="en"/>hand</def>
     </trans>
   </sense>
 </entry>
@@ -43186,8 +43247,9 @@
 
 <entry id="medui">
   <form type="regular">
-    <form type="deduced">
+    <form>
       <orth>medui</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:16</bibl>
       <pron>m"Eduj</pron>
     </form>
   </form>
@@ -43197,13 +43259,13 @@
     </gramGrp>
     <usg type="cat" norm="13.35"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="dernier"/>dernier</def>
+      <def>final, <index lang="fr" level1="dernier"/>dernier</def>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="letzter"/>letzter(r/s)</def>
     </trans>
     <trans lang="en">
-      <def><index level1="last" lang="en"/>last</def>
+      <def><bibl>PE/17:16</bibl> end, final, <index level1="last" lang="en"/>last</def>
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>na vedui, Arvedui</mentioned> LotR/I:XII, LotR/A(iv)</note>
@@ -44873,6 +44935,30 @@
   <etym>mîr+tân</etym>
 </entry>
 
+<entry id="míria-">
+  <form type="regular">
+    <form>
+      <orth>míria-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:24</bibl>
+      <pron>m"i:ri.A</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>briller comme un joyau, étinceller comme des joyaux</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:24</bibl> to shine like a jewel, to sparkle like jewels</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="mirian">
   <form type="regular">
     <form>
@@ -44911,6 +44997,7 @@
     <gramGrp>
       <tns>part.</tns>
     </gramGrp>
+    <xr type="of"><ptr target="míria-"/></xr>
     <trans lang="fr">
       <def><index lang="fr" level1="étincellant"/>étincellant comme un joyau</def>
     </trans>
@@ -44921,7 +45008,7 @@
       <def><index level1="sparkling" lang="en"/>sparkling like a jewel</def>
     </trans>
   </sense>
-  <note type="source">RGEO/64, LotR/II:I</note>
+  <note type="source">RGEO/64, LotR/II:I, PE/17:24</note>
 </entry>
 
 <entry id="mirion">
@@ -46441,6 +46528,9 @@
       <orth>naith</orth><usg type="lang" norm="S., N."/>
       <pron>n"AjT</pron>
     </form>
+    <form>
+      <orth>neith</orth><usg type="lang" norm="S."/>
+    </form>
   </form>
   <sense>
     <gramGrp>
@@ -46453,10 +46543,10 @@
       <def><index lang="de" level1="Keil"/>Keil, <index lang="de" level1="Spieß"/>Spieß, <index lang="de" level1="Spitze"/>Spitze, <index lang="de" level1="Zuspitzung"/>Zuspitzung, <index lang="de" level1="Dreieck"/>Dreieck</def>
     </trans>
     <trans lang="en">
-      <def>any formation or projection tapering to a point: a <index level1="spearhead" lang="en"/>spearhead, <index level1="triangle" lang="en"/>triangle <index level1="gore" lang="en"/>gore, <index level1="wedge" lang="en"/>wedge, narrow <index level1="promontory" lang="en"/>promontory</def>
+      <def>any formation or projection tapering to a point: a <index level1="spearhead" lang="en"/>spearhead, <index level1="triangle" lang="en"/>triangle <index level1="gore" lang="en"/>gore, <index level1="wedge" lang="en"/>wedge, narrow <index level1="promontory" lang="en"/>promontory, angle</def>
     </trans>
   </sense>
-  <note type="source">Ety/387, UT/282, RC/307</note>
+  <note type="source">Ety/387, UT/282, RC/307, PE/17:55</note>
   <note type="comment" lang="fr">
     L'entrée dans Ety/387 donne une forme pluriel curieuse, <hi>natsai</hi>, suivie d'un point 
     d'interrogation (et d'un dessin évoquant une pointe de flèche). Il a parfois été considéré
@@ -47748,6 +47838,34 @@
     </trans>
   </sense>
   <note type="source">LotR/II:I, RGEO/72</note>
+</entry>
+
+<entry id="negen">
+  <form type="regular">
+    <form>
+      <orth>negen</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:55</bibl>
+      <pron>n"EgEn</pron>
+    </form>
+    <form>
+      <orth>negn</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:55</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>pointu, anguleux</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:55</bibl> sharp, angular</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry type="xref">
@@ -49738,8 +49856,15 @@
   <form type="regular">
     <form>
       <orth>noen</orth><usg type="lang" norm="N."/>
-      <bibl>VT/46:9</bibl>
+      <bibl>VT/46:9, PE/22:40</bibl>
       <pron>n"OEn</pron>
+    </form>
+  </form>
+  <form type="inflected">
+    <number>pl.</number>
+    <form>
+      <orth>n&#339;in</orth><usg type="lang" norm="N."/>
+      <bibl>PE/22:40</bibl>
     </form>
   </form>
   <sense>
@@ -49934,7 +50059,7 @@
   </re>
 </entry>
 
-<entry id="nordh">
+<entry id="nordh.1" n="1">
   <form type="regular">
     <form>
       <orth>nordh</orth><usg type="lang" norm="N."/>
@@ -49956,6 +50081,31 @@
       <def><bibl>Ety/387</bibl> <index level1="cord" lang="en"/>cord</def>
     </trans>
   </sense>
+</entry>
+
+<entry id="nordh.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>nordh</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:25</bibl>
+      <pron>n"OrD</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def><index lang="fr" level1="chêne"/>chêne</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:25</bibl> <index level1="oak" lang="en"/>oak</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="doron"/></xr>
 </entry>
 
 <entry id="norn">
@@ -56760,6 +56910,57 @@
   </re>
 </entry>
 
+<entry id="rhae">
+  <form type="regular">
+    <form>
+      <orth>rhae</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:172</bibl>
+      <pron>r\_0"AE</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>facile, aisé</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:172</bibl> easy</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="rhaed">
+  <form type="regular">
+    <form>
+      <orth>rhaed</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:185</bibl>
+      <pron>r\_0"AEd</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>teinte particulière, façon (spéciale)</def> <usg type="hint">employé pour tous ces détails et ces
+      caractéristiques spéficique appartenant à un type d'individu; ou à une subdivision d'un genre</usg>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:185</bibl> peculiar hue, (special) fashion</def> <usg type="hint">used of all those
+      details and special characteristics belonging to an individual of a sort; or to a subdivision of a kind</usg>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="rhîd"/></xr>
+</entry>
+
 <entry type="xref">
      <form>
       <orth>rhaen</orth>
@@ -57258,6 +57459,34 @@
        </gramGrp>
      <xr type="see"><ptr target="rhib-.2"/></xr>
    </entry>
+
+<entry id="rhîd">
+  <form type="regular">
+    <form>
+      <orth>rhîd</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:185</bibl>
+      <pron>r\_0"i:d</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>teinte particulière, façon (spéciale)</def> <usg type="hint">employé pour tous ces détails et ces
+      caractéristiques spéficique appartenant à un type d'individu; ou à une subdivision d'un genre</usg>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:185</bibl> peculiar hue, (special) fashion</def> <usg type="hint">used of all those
+      details and special characteristics belonging to an individual of a sort; or to a subdivision of a kind</usg>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="rhaed"/></xr>
+</entry>
+
    <entry type="xref">
      <form>
       <orth>rhien</orth>
@@ -57936,7 +58165,7 @@
       <def><index level1="crowd" lang="en"/>crowd, <index level1="host" lang="en"/>host, great number</def>
     </trans>
   </sense>
-  <note type="source">Ety/383, S/436, Letters/178, Letters/382H</note>
+  <note type="source">Ety/383, S/436, Letters/178, Letters/382</note>
 </entry>
 
 <entry id="rim.2" n="2">
@@ -58606,8 +58835,9 @@
 
 <entry id="rodon">
   <form type="regular">
-    <form type="deduced">
+    <form>
       <orth>rodon</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:33,118</bibl>
       <pron>r"OdOn</pron>
     </form>
   </form>
@@ -58615,7 +58845,7 @@
     <number>pl.</number>
     <form>
       <orth>rodyn</orth><usg type="lang" norm="S."/>
-      <bibl>LotR/D</bibl>
+      <bibl>LotR/D, MR/200, PE/17:33,118,186</bibl>
       <pron>r"Odyn</pron>
     </form>
   </form>
@@ -58625,16 +58855,17 @@
     </gramGrp>
     <usg type="dom">Theo.</usg>
     <trans lang="fr">
-      <def>Vala, <index lang="fr" level1="divinité"/>divinité</def>
+      <def>Vala, l'un des Puissants</def>
     </trans>
     <trans lang="de">
       <def>Vala, <index lang="de" level1="Gottheit"/>Gottheit</def>
     </trans>
     <trans lang="en">
-      <def><bibl>LotR/D</bibl> Vala, <index level1="divinity" lang="en"/>divinity</def>
+      <def><bibl>LotR/D, PE/17:33,118,186</bibl> Vala,
+           <bibl>PE/17:118</bibl> one of the High</def>
     </trans>
   </sense>
-  <etym>OS *(a)råto(ndo) "noble one", CE *arâtô</etym>
+  <xr type="analogy"><ptr target="raud.1"/></xr>
 </entry>
 
 <entry id="rodwen">
@@ -60038,14 +60269,18 @@
   <re>
     <form>
       <orth>sevin</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+      <bibl>PE/17:173</bibl>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>aor.</tns> <per>1st</per>
     </gramGrp>
   </re>
   <re>
     <form>
       <orth>aw</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+      <bibl>PE/17:173</bibl>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pa. t.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -64196,6 +64431,7 @@
   <form type="regular">
   <form>
     <orth>thanc</orth><usg type="lang" norm="S., N."/>
+    <bibl>Ety/388</bibl>
     <pron>T"ANk</pron>
   </form>
   </form>
@@ -64210,10 +64446,11 @@
       <def><index lang="de" level1="gespalten"/>gespalten, <index lang="de" level1="geteilt"/>geteilt</def>
     </trans>
     <trans lang="en">
-      <def><index level1="cleft" lang="en"/>cleft, <index level1="split" lang="en"/>split, <index level1="forked" lang="en"/>forked</def>
+      <def><bibl>Ety/388</bibl> <index level1="cleft" lang="en"/>cleft, <index level1="split" lang="en"/>split,
+           <bibl>S/415, UT/400</bibl> <index level1="forked" lang="en"/>forked</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>Orthanc</mentioned> S/415, Ety/388</note>
+  <note type="source,deduced"><mentioned>Orthanc</mentioned> S/415, UT/400</note>
 </entry>
 
 <entry id="thand.1" n="1">
@@ -64492,7 +64729,7 @@
   <form type="regular">
     <form>
       <orth>thaur</orth><usg type="lang" norm="S."/>
-      <bibl>S/438</bibl>
+      <bibl>S/438, PE/17:172</bibl>
       <pron>T"Aur</pron>
     </form>
   </form>
@@ -64501,13 +64738,16 @@
       <pos>adj.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="abominable"/>abominable, <index lang="fr" level1="répugnant"/>répugnant</def>
+      <def><index lang="fr" level1="abominable"/>abominable, <index lang="fr" level1="répugnant"/>répugnant,
+        mauvais, malsain, malade, vil</def>
     </trans>
     <trans lang="de">
       <def><index lang="de" level1="abscheulich"/>abscheulich, <index lang="de" level1="schrecklich"/>schrecklich</def>
     </trans>
     <trans lang="en">
-      <def><bibl>S/438</bibl> <index level1="abominable" lang="en"/>abominable, <index level1="abhorrent" lang="en"/>abhorrent</def>
+      <def><bibl>S/438</bibl> <index level1="abominable" lang="en"/>abominable, <index level1="abhorrent" lang="en"/>abhorrent,
+           <bibl>PE/17:172</bibl> bad, unhealthy, ill, wretched
+      </def>
     </trans>
   </sense>
 </entry>
@@ -65248,11 +65488,25 @@
 <entry id="thôn">
   <form type="regular">
     <form>
-      <orth>thôn</orth><usg type="lang" norm="S."/>
+      <orth>thôn</orth><usg type="lang" norm="S., N."/>
+      <bibl>S/438, Ety/392, RC/384, PE/17:81-82</bibl>
       <pron>T"O:n</pron>
     </form>
     <form>
       <orth>thaun</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/392</bibl>
+    </form>
+  </form>
+  <form type="inflected">
+    <number>pl.</number>
+    <form>
+      <orth>thuin</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/392, PE/17:81</bibl>
+      <pron>T"uj:n</pron>
+    </form>
+    <form type="deleted">
+      <orth>thoen</orth><usg type="lang" norm="N."/>
+      <bibl>PE/17:81</bibl>
     </form>
   </form>
   <sense>
@@ -65267,10 +65521,10 @@
       <def><index lang="de" level1="Kiefer"/>Kiefer, <index lang="de" level1="Föhre"/>Föhre</def>
     </trans>
     <trans lang="en">
-      <def><index level1="pine" lang="en"/>pine-<index level1="tree" lang="en"/>tree</def>
+      <def><bibl>S/438, Ety/392, RC/384</bibl> <index level1="pine" lang="en"/>pine-<index level1="tree" lang="en"/>tree,
+           <bibl>PE/17:82</bibl> pine</def>
     </trans>
   </sense>
-  <note type="source">Ety/392, S/438, RC/384</note>
   <re>
     <form type="deduced">
       <orth>thonion</orth><usg type="lang" norm="S., N."/>
@@ -65752,7 +66006,7 @@
      <xr type="see"><ptr target="rhoss.2"/></xr>
    </entry>
    
- <entry id="thû">
+ <entry id="thû.1" n="1">
   <form type="regular">
     <form>
       <orth>thû</orth><usg type="lang" norm="N."/>
@@ -65772,6 +66026,30 @@
     </trans>
     <trans lang="en">
       <def><bibl>Ety/393</bibl> <index level1="stench" lang="en"/>stench</def>
+    </trans>
+  </sense>
+</entry>
+
+ <entry id="thû.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>thû</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:393</bibl>
+      <pron>T"u:</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>horrible obscurité, brume noire</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:393</bibl> horrible darkness, black mist</def>
     </trans>
   </sense>
 </entry>
@@ -65965,10 +66243,10 @@
       <def><index lang="de" level1="Horn"/>Horn, <index lang="de" level1="Spitze"/>Spitze</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/393</bibl> <index level1="horn" lang="en"/>horn
+      <def><bibl>Ety/393</bibl> <index level1="horn" lang="en"/>horn,
            <bibl>PE/17:36</bibl> <index level1="tine" lang="en"/>tine,
-           <index level1="spike" lang="en"/>spike,
-           <index level1="point" lang="en"/>point</def>
+             <index level1="spike" lang="en"/>spike,
+             <index level1="point" lang="en"/>point</def>
     </trans>
   </sense>
 </entry>
@@ -66812,10 +67090,10 @@
 
 <entry id="toba-">
   <form type="regular">
-  <form type="deduced">
-    <orth>toba-</orth><usg type="lang" norm="N."/>
-    <pron>t"ObA</pron>
-  </form>
+    <form type="deduced">
+      <orth>toba-</orth><usg type="lang" norm="N."/>
+      <pron>t"ObA</pron>
+    </form>
   </form>
   <form type="inflected">
     <mood>inf.</mood>
@@ -66842,7 +67120,8 @@
   <re>
     <form>
       <orth>tobas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -67329,7 +67608,7 @@
 
 <entry id="tolothen">
   <form type="regular">
-    <form>
+    <form type="deduced">
       <orth>tolothen</orth><usg type="lang" norm="S."/>
       <pron>t"OlOTEn</pron>
     </form>
@@ -67348,11 +67627,13 @@
       <def><index level1="eighth" lang="en"/>eighth</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>erin dolothen</mentioned> SD/129-31</note>
+  <note type="source,deduced"><mentioned>erin dolothen Ethuil</mentioned> SD/129-31</note>
   <xr type="analogy"><ptr target="tollui"/></xr>
   <re>
     <form>
-      <orth>dolothen</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
+      <orth>dolothen</orth><usg type="lang" norm="S."/>
+      <bibl>SD/129</bibl>
+      <itype type="sm">soft mut.</itype>
     </form>
   </re>
 </entry>
