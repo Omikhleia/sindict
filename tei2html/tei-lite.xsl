@@ -51,9 +51,17 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title><xsl:value-of select="//titleStmt/title"/></title>
     <link rel="stylesheet" type="text/css" href="css/dict.css"/>
+    <script src="https://unpkg.com/mustache@latest"></script>
   </head>
   <body>
     <div class="global">
+      <div class="toggle-popup">
+        <input type="checkbox" id="popupChk" />
+        <label for="popupChk"></label>
+        <div id="popup" class="fixed-popup hide-show">
+          <div class="rounded">Click a word...</div>
+        </div>
+      </div>
       <xsl:apply-templates/>
     </div>
   </body>
@@ -67,6 +75,7 @@
 <xsl:template match="body">
 <xsl:if test="$body != 'no'">
   <xsl:apply-templates/>
+  <script src="scripts/dict.js"></script>
 </xsl:if>
 </xsl:template>
 
