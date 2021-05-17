@@ -9606,7 +9606,6 @@
       <def>to <index level1="do" lang="en"/>do</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>avo garo</mentioned> WJ/371</note>
   <re>
     <form>
       <orth>caro</orth><usg type="lang" norm="S."/>
@@ -9622,6 +9621,7 @@
       <bibl>WJ/371</bibl>
     </form>
     <gramGrp>
+      <pos>v.</pos> <mood>imp.</mood>
       <itype type="sm">soft mut.</itype>
     </gramGrp>
   </re>
@@ -9787,6 +9787,7 @@
       <bibl>VT/44:21,30</bibl>
     </form>
     <gramGrp>
+      <pos>v.</pos> <tns>pres.</tns> <per>3rd</per> <number>pl.</number>
       <itype type="sm">soft mut.</itype>
     </gramGrp>
   </re>
@@ -10160,6 +10161,30 @@
   </sense>
 </entry>
 
+<entry id="carn">
+  <form type="regular">
+    <form type="deduced">
+      <orth>carn</orth><usg type="lang" norm="S."/>
+      <pron>k"Arn</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>acte</def>
+    </trans>
+    <trans lang="de">
+      <def></def>
+    </trans>
+    <trans lang="en">
+      <def>deed</def>
+    </trans>
+    <note type="source,deduced"><mentioned>othgarn</mentioned> "misdeed" PE/17:151</note>
+  </sense>
+</entry>
+
 <entry id="caro">
   <form type="regular">
     <form>
@@ -10182,7 +10207,8 @@
     <trans lang="en">
       <def><bibl>VT/44:21,25</bibl> <index level1="do" lang="en"/>do! <index level1="make" lang="en"/>make!</def>
     </trans>
-    <note type="source,deduced"><mentioned>avo garo</mentioned> WJ/371</note>
+    <note type="source,deduced"><mentioned>avo garo</mentioned> "don't do it" WJ/371,
+                                <mentioned>caro den i innas lin</mentioned> "thy will be done" VT/44:21</note>
   </sense>
 </entry>
 
@@ -12364,6 +12390,33 @@
   </sense>
 </entry>
 
+<entry id="cova-"><!--C0421-->
+  <form type="regular">
+    <form>
+      <orth>cova-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:157,158</bibl>
+      <pron>k"OvA</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v. intrans.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>se réunir, s'assembler, venir à un même endroit, venir ensemble, se rencontrer</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:157</bibl> gather, assemble, come to same place,
+           <bibl>PE/17:158</bibl> come together,
+           <bibl>PE/17:175,158</bibl> meet</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="covad-"/></xr>
+</entry>
+
 <entry id="covad-"><!--C0421-->
   <form type="regular">
     <form>
@@ -12406,18 +12459,18 @@
   </sense>
   <note type="comment" lang="fr">
     Tolkien semble avoir considéré, à une époque tardive, que <hi>mae govannen</hi> dans le SdA ne pouvait
-    contenir <ptr target="govad-"/> (des <hi>Etymologies</hi> antérieures) ou même <hi>govan-</hi> (PE/17:16),
+    contenir <ptr target="govad-"/> ni même <hi>govan-</hi> (PE/17:16),
     car le participe aurait dû subir une mutation initiale. Il envisagea par conséquent une autre interprétation.
-    Voir aussi PE/17:158, avec un verbe faible intransitif <hi>cova-</hi> "venir ensemble, rencontrer" à côté
+    Voir aussi PE/17:157-158, avec un verbe faible intransitif <ptr target="cova-"/> "venir ensemble, rencontrer" à côté
     de <hi>covad-</hi>.
   </note>
   <note type="comment" lang="de">
   </note>
   <note type="comment" lang="en">
-    Tolkien seem to have considered, at a late stage, that <hi>mae govannen</hi> in LotR could not
-    contain <ptr target="govad-"/> (from the older <hi>Etymologies</hi>) or even <hi>govan-</hi> (PE/17:16),
+    Tolkien seem to have considered, at a late stage, that <hi>mae govannen</hi> in LotR could neither
+    contain <ptr target="govad-"/> nor even <hi>govan-</hi> (PE/17:16),
     because the participle should have been mutated. He therefore tried another interpretation. See also
-    PE/17:158, with also a weak intransitive verb <hi>cova-</hi> "come together, meet" besides <hi>covad-</hi>.
+    PE/17:157-158, with also a weak intransitive verb <ptr target="cova-"/> "come together, meet" besides <hi>covad-</hi>.
   </note>
 </entry>
 
@@ -13443,6 +13496,34 @@
   <etym>dad+pend</etym>
 </entry>
 
+<entry id="dadwen-">
+  <form type="regular">
+    <form type="deduced">
+      <orth>dadwen-</orth><usg type="lang" norm="S."/>
+      <pron>d"AdwEn</pron>
+    </form>
+    <form>
+      <orth>dadwen</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:166</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>s'en retourner, revenir</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:166</bibl> to return</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="dandol-"/></xr>
+</entry>
+
 <entry id="dae">
   <form type="regular">
     <form>
@@ -14042,6 +14123,34 @@
     is valid <hi>per se</hi> (although it may be argued that this compound word does not
     show the regular mutation or assimilation that one would have expected)</note>
   <etym>dan+peth "back word"</etym>
+</entry>
+
+<entry id="dandol-">
+  <form type="regular">
+    <form type="deduced">
+      <orth>dandol-</orth><usg type="lang" norm="S."/>
+      <pron>d"AndOl</pron>
+    </form>
+    <form type="deduced">
+      <orth>dandol</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:166</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>s'en retourner, revenir</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def>to go / come back</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="dadwen-"/></xr>
 </entry>
 
 <entry type="xref">
@@ -14941,6 +15050,58 @@
        </gramGrp>
      
      <xr type="see"><ptr target="dar-"/></xr>
+</entry>
+
+<entry id="dern">
+  <form type="regular">
+    <form>
+      <orth>dern</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:46, PE/17:154</bibl>
+      <pron>d"Ern</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>solide, raide, dur</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:46</bibl> hard, thrawn,
+           <bibl>PE/17:154</bibl> tough
+      </def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="dernlir">
+  <form type="regular">
+    <form>
+      <orth>dernlir</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:46</bibl>
+      <pron>d"Ernlir</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos> <number>class pl.</number>
+    </gramGrp>
+    <xr type="of"><ptr target="dern"/></xr>
+    <usg type="dom">Pop.</usg>
+    <trans lang="fr">
+      <def>les <index lang="fr" level1="Nain"/>Nains</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:46</bibl> the <index level1="dwarf" lang="en"/>Dwarves</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="dess">
@@ -17201,6 +17362,44 @@
      <xr type="see"><ptr target="dúath"/></xr>
 </entry>
 
+<entry id="dýgar">
+  <form type="regular">
+    <form>
+      <orth>dýgar</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:151</bibl>
+      <pron>d"y:gAr</pron>
+    </form>
+  </form>
+  <sense n="1">
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>un acte erroné</def>
+     </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:151</bibl> a mistaken act</def>
+    </trans>
+  </sense>
+  <sense n="2">
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>qui fait une mauvaise action</def>
+     </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:151</bibl> doing a thing wrong</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="dÿl">
   <form type="regular">
     <form>
@@ -19230,6 +19429,30 @@
     </trans>
   </sense>
   <note type="source">LotR/II:I, RGEO/73-75, WJ/363</note>
+</entry>
+
+<entry id="elia-">
+  <form type="regular">
+    <form>
+      <orth>elia-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:146</bibl>
+      <pron>"Eli.a</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>faire prospérer, accorder sa bénédiction (à un travail), aider quelqu'un</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:146</bibl> to cause to prosper, bless (a work), help one</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry type="xref">
@@ -22531,7 +22754,7 @@
     <form>
       <orth>fergenol</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:181</bibl>
-      <pron></pron>
+      <pron>f"ErgEnOl</pron>
     </form>
   </form>
   <sense>
@@ -27729,6 +27952,30 @@
   <xr type="analogy"><ptr target="dirbedui"/></xr>
 </entry>
 
+<entry id="gordh">
+  <form type="regular">
+    <form>
+      <orth>gordh</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:154</bibl>
+      <pron>g"OrD</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>difficile, laborieux</def>
+    </trans>
+    <trans lang="de">
+      <def>....</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:154</bibl> difficult, laborious</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="gorf">
   <form type="regular">
     <form>
@@ -27836,6 +28083,107 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Aragorn</mentioned> "Kingly Valour" PM/xii, "Revered King" PE/17:113</note>
+</entry>
+
+<entry id="gorn.3" n="3">
+  <form type="regular">
+    <form>
+      <orth>gorn</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:46, PE/17:154</bibl>
+      <pron>g"Orn</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>dur, raide, obstiné</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:46, PE/17:154</bibl> hard, thrawn,
+           <bibl>PE/17:154</bibl> stiff
+      </def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="gornhoth">
+  <form type="regular">
+    <form>
+      <orth>gornhoth</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:46</bibl>
+      <pron>g"Orn.hOT</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos> <number>class pl.</number>
+    </gramGrp>
+    <xr type="of"><ptr target="gorn.3"/></xr>
+    <usg type="dom">Pop.</usg>
+    <usg type="reg">Pej.</usg>
+    <trans lang="fr">
+      <def>les <index lang="fr" level1="Nain"/>Nains (lit. les roides ou têtus)</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:46</bibl> the <index level1="dwarf" lang="en"/>Dwarves (lit. hard or thrawn)</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="gornod">
+  <form type="regular">
+    <form>
+      <orth>gornod</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:154</bibl>
+      <pron>g"OrnOduj</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos> <tns>part.</tns>
+    </gramGrp>
+    <trans lang="fr">
+      <def>difficile à dénombrer</def>
+    </trans>
+    <trans lang="de">
+      <def>....</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:154</bibl> hard to count</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="gornodui">
+  <form type="regular">
+    <form>
+      <orth>gornodui</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:172</bibl>
+      <pron>g"OrnOduj</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>difficile à dénombrer</def>
+    </trans>
+    <trans lang="de">
+      <def>....</def>
+    </trans>
+    <trans lang="en">
+      <def>hard to count</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="gorog">
@@ -28117,14 +28465,21 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>mae govannen</mentioned> LotR/I:XII, Letters/308</note>
-  <etym>Etym. "to walk together"</etym>
-  <re>
-    <form>
-      <orth>govannen</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
-      <tns>pp.</tns>
-    </gramGrp>
-  </re>
+  <etym>Etym. "to walk together" go + pat(a)-</etym>
+  <note type="comment" lang="fr">
+    La plupart des experts firent cette supposition avant la publication de PE/17.
+    Il se peut que cela ait été l'intention de Tolkien lorsqu'il imagina cette formule, mais il
+    considéra plus tard que le participe devait ici être muté, et par conséquent expliqué
+    autrement.
+  </note>
+  <note type="comment" lang="de">
+  </note>
+  <note type="comment" lang="en">
+    This was an early guess by most experts before PE/17 was published.
+    It may have been Tolkien's intention when he devised this formula, but he later
+    considered that the participle here should be lenited, and therefore explained
+    otherwise.
+  </note>
   <xr type="analogy"><ptr target="covad-"/></xr>
 </entry>
 
@@ -44301,6 +44656,32 @@
   </sense>
 </entry>
 
+<entry id="milbar">
+  <form type="regular">
+    <form>
+      <orth>milbar</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:109, PE/17:164</bibl>
+      <pron>m"ilbAr</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>'demeure bien-aimée'</def> <usg type="hint">appliqué aux lieux les plus connus et les plus fréquentés</usg>,
+      <def>'chère maison'</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:109</bibl> 'beloved dwelling'</def> <usg type="hint">applied to the places best known and most frequented</usg>,
+      <def><bibl>PE/17:164</bibl> 'dear home'</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="milui">
   <form type="regular">
     <form>
@@ -52738,6 +53119,72 @@
   <etym>ost+râd</etym>
 </entry>
 
+<entry id="othgarn">
+  <form type="regular">
+    <form>
+      <orth>othgarn</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:151</bibl>
+      <pron>"OTgArn</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>un méfait</def>
+    </trans>
+    <trans lang="de">
+      <def></def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:151</bibl> a misdeed</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="othgared">
+  <form type="regular">
+    <form>
+      <orth>othgared</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:151</bibl>
+      <pron>"OTgArEd</pron>
+    </form>
+    <form>
+      <orth>othgar</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:151</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>mauvaise conduite</def>
+    </trans>
+    <trans lang="de">
+      <def></def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:151</bibl> doing wrong</def>
+    </trans>
+  </sense>
+  <note type="comment" lang="fr">
+    La glose de Tolkien "doing wrong" pour <hi>othgar(ed)</hi> est étrange, et la partie du discours est incertaine
+    (et du coup la traduction française aussi).
+    La forme la plus longue pourrait être un gérondif, et la plus courte une racine verbale, éventuellement utilisée de manière adjectivale ou nominale, cf. <ptr target="rhudol"/> et <ptr target="rhugar"/> de forme semblable,
+    tous deux étant notés "adjectif ou substantif" (PE/17:170).
+  </note>
+  <note type="comment" lang="de">
+  </note>
+  <note type="comment" lang="en">
+    Tolkien's gloss "doing wrong" for <hi>othgar(ed)</hi> is weird, and the part of speech is uncertain.
+    The longer form could be a gerund, and the shorter one a verbal stem, possibly used adjectivally,
+    cf. <ptr target="rhudol"/> and <ptr target="rhugar"/> of a similar shape, both noted as "adjective or
+    substantive" (PE/17:170).
+  </note>
+</entry>
+
 <entry type="xref">
      <form>
       <orth>othlon</orth>
@@ -55095,6 +55542,30 @@
   <xr type="analogy"><ptr target="penneth"/></xr>
 </entry>
 
+<entry id="pirin">
+  <form type="regular">
+    <form>
+      <orth>pirin</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:146</bibl>
+      <pron>p"irin</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>une fleur qui s'ouvrait et se fermait rapidement à tout changement de lumière</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:146</bibl> a flower that opened and shut quickly with any change of light</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="plad">
   <form type="regular">
     <form>
@@ -56043,10 +56514,16 @@
   <form type="regular">
     <form>
       <orth>randír</orth><usg type="lang" norm="S."/>
+      <bibl>VT/42:13</bibl>
       <pron>r"Andi:r</pron>
     </form>
     <form>
+      <orth>randir</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:60</bibl>
+    </form>
+    <form>
       <orth>rhandir</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/383</bibl>
     </form>
   </form>
   <sense>
@@ -56060,10 +56537,11 @@
       <def><index lang="de" level1="Wanderer"/>Wanderer, <index lang="de" level1="Pilger"/>Pilger</def>
     </trans>
     <trans lang="en">
-      <def><index level1="wanderer" lang="en"/>wanderer, <index level1="pilgrim" lang="en"/>pilgrim</def>
+      <def><bibl>Ety/383, VT/42:13</bibl> <index level1="wanderer" lang="en"/>wanderer,
+           <bibl>PE/17:60</bibl> wandering man,
+           <bibl>Ety/383, PE/17:60</bibl> <index level1="pilgrim" lang="en"/>pilgrim</def>
     </trans>
   </sense>
-  <note type="source">Ety/383, VT/42:13</note>
 </entry>
 
 <entry id="rant">
@@ -56817,6 +57295,45 @@
   </sense>
 </entry>
 
+<entry id="reth-">
+  <form type="regular">
+    <form>
+      <orth>reth-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:182</bibl>
+      <pron>r"ET</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>rester</def> <usg type="hint">à la même place</usg>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:182</bibl> to remain</def> <usg type="hint">in same place</usg>
+    </trans>
+  </sense>
+  <sense n="2">
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <usg type="ext">by ext.</usg>
+    <trans lang="fr">
+      <def>conserver son calme, être patient</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:182</bibl> to be unmoved, patient</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="revia-">
   <form type="regular">
     <form type="normalized">
@@ -57039,7 +57556,33 @@
      </form>
      
      <xr type="see"><ptr target="ram"/></xr>
-   </entry><entry type="xref">
+   </entry>
+
+<entry id="rhanc">
+  <form type="regular">
+    <form>
+      <orth>rhanc</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:154</bibl>
+      <pron>r\_0"ANk</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>maladroit</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:154</bibl> awry, awkward</def>
+    </trans>
+  </sense>
+</entry>
+
+   <entry type="xref">
      <form>
       <orth>rhanc</orth>
       <usg type="lang" norm="N."/>
