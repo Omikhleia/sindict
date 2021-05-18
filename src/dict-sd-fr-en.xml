@@ -12467,7 +12467,7 @@
   <note type="comment" lang="de">
   </note>
   <note type="comment" lang="en">
-    Tolkien seem to have considered, at a late stage, that <hi>mae govannen</hi> in LotR could neither
+    Tolkien seems to have considered, at a late stage, that <hi>mae govannen</hi> in LotR could neither
     contain <ptr target="govad-"/> nor even <hi>govan-</hi> (PE/17:16),
     because the participle should have been mutated. He therefore tried another interpretation. See also
     PE/17:157-158, with also a weak intransitive verb <ptr target="cova-"/> "come together, meet" besides <hi>covad-</hi>.
@@ -13598,6 +13598,30 @@
   <etym>dae+telu</etym>
 </entry>
 
+<entry id="dael">
+  <form type="regular">
+    <form>
+      <orth>dael</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:151</bibl>
+      <pron>d"AEl</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>horreur</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:151</bibl> horror</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="daen"><!-- A0105 -->
   <form type="regular">
     <form>
@@ -13648,6 +13672,30 @@
 </entry>
 
 <entry id="daer.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>daer</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:151</bibl>
+      <pron>d"AEr</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>affreux, horrible, effrayant</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:151</bibl> dreadful, horrible, ghastly</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="daer.3" n="3">
   <form type="regular">
     <form type="normalized">
       <orth>daer</orth><usg type="lang" norm="*S."/>
@@ -15744,7 +15792,7 @@
       
      </form>
      
-     <xr type="see"><ptr target="daer.2"/></xr>
+     <xr type="see"><ptr target="daer.3"/></xr>
 </entry>
 
 <entry id="dofn">
@@ -22257,6 +22305,35 @@
   <etym>farad+rim</etym>
 </entry>
 
+<entry id="faran">
+  <form type="regular">
+    <form>
+      <orth>faran</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:83</bibl>
+      <pron>f"ArAn</pron>
+    </form>
+    <form>
+      <orth>farn-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:83</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <usg type="dom">Bot.</usg>
+    <trans lang="fr">
+      <def>sorbier</def>
+    </trans>
+    <trans lang="de">
+      <def></def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:83</bibl> rowan</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="faras">
   <form type="regular">
     <form>
@@ -27047,6 +27124,10 @@
       <orth>gloss</orth><usg type="lang" norm="S., N."/>
       <pron>gl"Oss</pron>
     </form>
+    <form>
+      <orth>glos</orth><usg type="lang" norm="S."/>
+      <pron>gl"Os</pron>
+    </form>
   </form>
   <sense>
     <gramGrp>
@@ -27062,7 +27143,31 @@
       <def><index level1="snow" lang="en"/>snow-<index level1="white" lang="en"/>white, dazzling-white</def>
     </trans>
   </sense>
-  <note type="source">Ety/359, RGEO/70, VT/42:18</note>
+  <note type="source">Ety/359, RGEO/70, VT/42:18, PE/17:161</note>
+</entry>
+
+<entry id="glosui">
+  <form type="regular">
+    <form>
+      <orth>glosui</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:161</bibl>
+      <pron>gl"Osuj</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def><index lang="fr" level1="blanc"/>blanc comme la neige</def>
+    </trans>
+    <trans lang="de">
+      <def><index lang="de" level1="weiß"/>schneeweiß, schillernd weiß</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:161</bibl> <index level1="snow" lang="en"/>snow-<index level1="white" lang="en"/>white</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="glûdh">
@@ -28465,7 +28570,6 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>mae govannen</mentioned> LotR/I:XII, Letters/308</note>
-  <etym>Etym. "to walk together" go + pat(a)-</etym>
   <note type="comment" lang="fr">
     La plupart des experts firent cette supposition avant la publication de PE/17.
     Il se peut que cela ait été l'intention de Tolkien lorsqu'il imagina cette formule, mais il
@@ -53422,7 +53526,7 @@
 
 <milestone n="P" unit="part"/>
 
-<entry id="pâd">
+<entry id="pâd.1" n="1">
   <form type="regular">
     <form type="deduced">
       <orth>pâd</orth><usg type="lang" norm="S."/>
@@ -53444,6 +53548,55 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Aphadon (*ap-pata), Tharbad (*thara-pata)</mentioned> WJ/387, S/438</note>
+</entry>
+
+<entry id="pâd.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>pâd</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:34</bibl>
+      <pron>p"A:d</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>un pas</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:34</bibl> a <index lang="en" level1="step"/>step (action)</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="pad-">
+  <form type="regular">
+    <form>
+      <orth>pad-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:34</bibl>
+      <pron>p"Ad</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <usg type="cat" norm="10.45"/>
+    <trans lang="fr">
+      <def><index lang="fr" level1="marcher"/>marcher, faire un pas</def>
+    </trans>
+    <trans lang="de">
+       <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:34</bibl> to <index level1="walk" lang="en"/>walk, step</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="pada-">
@@ -53469,6 +53622,31 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Aphadon (*ap-pata), Tharbad (*thara-pata)</mentioned> WJ/387, S/438</note>
+</entry>
+
+<entry id="padra-">
+  <form type="regular">
+    <form>
+      <orth>padra-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:34</bibl>
+      <pron>p"AdrA</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <usg type="cat" norm="10.45"/>
+    <trans lang="fr">
+      <def><index lang="fr" level1="marcher"/>marcher</def>
+    </trans>
+    <trans lang="de">
+       <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:34</bibl> to <index level1="walk" lang="en"/>walk</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="pae">
@@ -54674,7 +54852,7 @@
       <def><index level1="without" lang="en"/>without, <index level1="lacking" lang="en"/>lacking, -less</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>Iarwain ben-adar</mentioned> LotR/II:II, PE/17:144</note>
+  <note type="source,deduced"><mentioned>Iarwain ben-adar</mentioned> LotR/II:II, PE/17:144-145</note>
   <re>
     <form>
       <orth>ben</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
@@ -54718,6 +54896,30 @@
       <orth>ben</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
     </form>
   </re>
+</entry>
+
+<entry id="pen-bed">
+  <form type="regular">
+    <form>
+      <orth>pen-bed</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:145</bibl>
+      <pron>pEn.bEd</pron>
+    </form>
+  </form>
+  <sense>
+  <gramGrp>
+    <pos>adj.</pos>
+  </gramGrp>
+    <trans lang="fr">
+      <def>qui n'est pas prononçable</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:145</bibl> not pronounceable</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="pend">
@@ -55032,6 +55234,54 @@
     </trans>
   </sense>
   <etym>pant+în+aur</etym>
+</entry>
+
+<entry id="pen-nod">
+  <form type="regular">
+    <form>
+      <orth>pen-nod</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:145</bibl>
+      <pron>pEn.nOd</pron>
+    </form>
+  </form>
+  <sense>
+  <gramGrp>
+    <pos>adj.</pos>
+  </gramGrp>
+    <trans lang="fr">
+      <def>sans nombre</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:145</bibl> without count</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="pen-noediad">
+  <form type="regular">
+    <form>
+      <orth>pen-n&#339;diad</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:145</bibl>
+      <pron>pEn.nEdi.Ad</pron>
+    </form>
+  </form>
+  <sense>
+  <gramGrp>
+    <pos>adj.</pos>
+  </gramGrp>
+    <trans lang="fr">
+      <def>innombrable</def>
+    </trans>
+    <trans lang="de">
+      <def>...</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:145</bibl> innumberable</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry type="xref" n="1">
