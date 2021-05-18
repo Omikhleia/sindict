@@ -6920,7 +6920,7 @@
       <orth>beor</orth>
       <usg type="lang" norm="N."/>
      </form>
-     <xr type="see"><ptr target="bÿr"/></xr>
+     <xr type="see"><ptr target="bŷr"/></xr>
 </entry>
 
 <entry type="xref">
@@ -7207,7 +7207,7 @@
       <orth>bior</orth>
       <usg type="lang" norm="N."/>
      </form>
-     <xr type="see"><ptr target="bÿr"/></xr>
+     <xr type="see"><ptr target="bŷr"/></xr>
 </entry>
 
 <entry id="blâb">
@@ -8370,7 +8370,7 @@
      <xr type="see"><ptr target="bôr"/></xr>
 </entry>
 
-<entry id="bÿr" n="2">
+<entry id="bŷr" n="2">
   <form type="regular">
     <form type="normalized">
       <orth>bŷr</orth><usg type="lang" norm="*S."/>
@@ -13318,7 +13318,7 @@
   <note type="source,deduced"><mentioned>Taengyl, Tengyl</mentioned> MR/385</note>
 </entry>
 
-<entry id="cÿl">
+<entry id="cŷl">
   <form type="regular">
     <form>
       <orth>cŷl</orth><usg type="lang" norm="S."/>
@@ -13342,7 +13342,7 @@
   </sense>
 </entry>
 
-<entry id="cÿr">
+<entry id="cŷr">
   <form type="regular">
     <form>
       <orth>cŷr</orth><usg type="lang" norm="S."/>
@@ -13375,7 +13375,7 @@
       <orth>cýr</orth>
       <usg type="lang" norm="S."/>
      </form>
-     <xr type="see"><ptr target="cÿr"/></xr>
+     <xr type="see"><ptr target="cŷr"/></xr>
 </entry>
 
 <entry type="xref">
@@ -17447,7 +17447,7 @@
   </sense>
 </entry>
 
-<entry id="dÿl">
+<entry id="dŷl">
   <form type="regular">
     <form>
       <orth>dŷl</orth><usg type="lang" norm="S."/>
@@ -17485,7 +17485,7 @@
      <xr type="see"><ptr target="dolt.2"/></xr>
 </entry>
 
-<entry id="dÿr">
+<entry id="dŷr">
   <form type="regular">
     <form>
       <orth>dŷr</orth><usg type="lang" norm="S."/>
@@ -34248,7 +34248,7 @@
       
      </form>
      
-     <xr type="see"><ptr target="nÿw"/></xr>
+     <xr type="see"><ptr target="nŷw"/></xr>
    </entry>
    
 <entry id="ho">
@@ -36576,7 +36576,7 @@
       <orth>iôr</orth>
       <usg type="lang" norm="N."/>
      </form>
-     <xr type="see"><ptr target="ÿr"/></xr>
+     <xr type="see"><ptr target="ŷr"/></xr>
 </entry>
 
 <entry id="iphant">
@@ -42301,7 +42301,7 @@
   </sense>
 </entry>
 
-<entry id="lÿg">
+<entry id="lŷg">
   <form type="regular">
   <form>
     <orth><corr sic="lyg" resp="ed">lŷg</corr></orth><usg type="lang" norm="S."/>
@@ -46393,7 +46393,7 @@
   </sense>
 </entry>
 
-<entry id="mÿl">
+<entry id="mŷl">
   <form type="regular">
     <form>
       <orth>mŷl</orth><usg type="lang" norm="S."/>
@@ -51234,7 +51234,7 @@
      <xr type="see"><ptr target="norn"/></xr>
    </entry>
    
-<entry id="nÿw">
+<entry id="nŷw">
   <form type="regular">
     <form type="normalized">
       <orth>nŷw</orth><usg type="lang" norm="*S."/>
@@ -58809,7 +58809,7 @@
       
      </form>
      
-     <xr type="see"><ptr target="rÿn"/></xr>
+     <xr type="see"><ptr target="rŷn"/></xr>
    </entry>
 
 <entry id="rî"><!-- A0116 -->
@@ -60247,7 +60247,7 @@
   </sense>
 </entry>
 
-<entry id="rÿn">
+<entry id="rŷn">
   <form type="regular">
     <form type="normalized">
       <orth>rŷn</orth><usg type="lang" norm="*S."/>
@@ -70714,7 +70714,7 @@
   <etym>Dual of *enek "six", CE yûneke, Q. yunke, T. yûnece</etym>
 </entry>
 
-<entry id="ÿr">
+<entry id="ŷr">
   <form type="regular">
     <form type="normalized">
       <orth>ŷr</orth><usg type="lang" norm="*S."/>
