@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE TEI.2 SYSTEM "xmldict.dtd">
+<TEI.2>
 <!--
      1999-2011 The Sindarin Dictionary Project. 
      2014, 2017, 2019, 2021 Omikhleia et al.
      For the full copyright information and details, refer to the TEI header below.
 -->
-<TEI.2>
 
 <teiHeader>
   <fileDesc>
