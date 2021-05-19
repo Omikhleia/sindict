@@ -16,7 +16,7 @@
     </titleStmt>
 
     <editionStmt>
-      <edition n="2.0a7">Lexicon 1.0-alpha10</edition>
+      <edition n="2.0-RC">Lexicon 1.0-RC</edition>
     </editionStmt>
 
     <publicationStmt>
@@ -327,7 +327,7 @@
   <form type="regular">
     <form>
       <orth>ach</orth><usg type="lang" norm="S."/>
-      <bibl>VT/15-18</bibl>
+      <bibl>VT/50:15-18</bibl>
       <pron>"Ax</pron>
     </form>
   </form>
@@ -9006,7 +9006,7 @@
       <def>rivière</def> <usg type="hint">eau jaillissant rapidement d'une source rocheuse</usg>
     </trans>
     <trans lang="en">
-      <def><bibl>UT/425</bibl> river</def> <usg type="hint">water flowing out swiftly from a rocky spring</usg>
+      <def><bibl>UT/426</bibl> river</def> <usg type="hint">water flowing out swiftly from a rocky spring</usg>
     </trans>
   </sense>
 </entry>
