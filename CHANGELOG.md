@@ -1,6 +1,23 @@
 # Changes
 
-## Edition 2.0-a6 (lexicon 1.0-alpha9) - May 2021
+## Edition 2.0-RC (lexicon 1.0-RC) - May 19, 2021
+
+_Release Candidate_
+
+Target: repair the post-processing steps.
+
+- Lexicon content updates:
+  - Several bunches of updates from PE/17 and other minor fixes
+- Lexicon structure overhaul:
+  - Removal of old generated elements (artifacts from the recovered lexicon)
+  - Switch to UTF8 encoding and LF end-of-lines
+  - Removal of the outdated German translation and notes
+- Tooling:
+  - Recovered post-processing scripts, so expansion of cross-references,
+    entry sorting, homograph (re-)numbering, sectioning are all back into
+    action.
+
+## Edition 2.0-a6 (lexicon 1.0-alpha9) - May 16, 2021
 
 Target: make it look nice again.
 
@@ -18,7 +35,7 @@ Target: make it look nice again.
     - GitHub integration for easier issue reporting
     - Eldamo integration, just because.
 
-## Edition 2.0-a5x (lexicon 1.0-alpha5) - 2019 recovery
+## Edition 2.0-a5x (lexicon 1.0-alpha5) - April 2020 (from 2019 recovery)
 
 Target: assemble a working lexicon again.
 
@@ -50,4 +67,4 @@ Older revisions history:
 - August? 2001 (edition 1.3, lexicon 0.96) - perhaps unreleased.
 - February 2001 (edition 1.2, lexicon 0.95) - First public PDF version (a.k.a "Cabor" release).
 - January 2001 - Preliminary PDF version (a.k.a. "Mellon" release)
-- Earlier history from Oct. 1999 to Dec. 2000 details not recovered.
+- Earlier history from Oct. 1999 to Dec. 2000: details not recovered.
