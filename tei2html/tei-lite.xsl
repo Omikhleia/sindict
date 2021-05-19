@@ -24,8 +24,6 @@
  "search" can be set to some 'entry id' to output a single entry 
  "language" sets the language for abbreviations, parts of speech etc. ('en', 'fr' or 'de')
  "translations" is a list of included languages. Defaults to 'fr,en' with 'de' left out.
- "xref" can be set to 'yes' or 'no', whether entries marked as cross-reference links should
-        be included or not.
 -->
 <xsl:param name="print">yes</xsl:param>
 <xsl:param name="header">yes</xsl:param>
@@ -33,7 +31,6 @@
 <xsl:param name="search"/>
 <xsl:param name="language">en</xsl:param>
 <xsl:param name="translations">fr,en</xsl:param>
-<xsl:param name="xref">no</xsl:param>
 
 <!-- SPACES 
      Handling correct spacing can't be done easily in XSLT, as the

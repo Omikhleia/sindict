@@ -52,6 +52,7 @@
     <def id="aux.">auxiliary</def>
     <def id="mut.">mutation</def>
     <def id="v. impers.">impersonal verb</def>
+    <def id="v. intrans.">intransitive verb</def>
     <def id="unkn.">unknown part of speech</def>
     <def id="invar.">invariable</def>
     <def id="perf.">perfective</def>
@@ -149,6 +150,7 @@
     <item id="aux." full="auxiliaire">aux.</item>
     <item id="mut." full="mutation">mut.</item>
     <item id="v. impers." full="verbe impersonnel">v. impers.</item>
+    <item id="v. intrans." full="verbe intransitif">v. intrans.</item>
     <item id="esp. in the pl.">sp. au pl.</item>
     <item id="unkn." full="partie du discours inconnue">inc.</item>
     <item id="invar." full="invariable">invar.</item>
@@ -247,6 +249,7 @@
     <item id="aux." full="Hilfsverb">hilfsv.</item>
     <item id="mut." full="Mutation">mut.</item>
     <item id="v. impers." full="unpersönliches Verb">v. unpers.</item>
+    <item id="v. intrans." full="intransitives Verb">v. intrans.</item>
     <item id="esp. in the pl." full="besonders im Plural">bes. im pl.</item>
     <item id="unkn." full="unbekannt">unbek.</item>
     <item id="invar." full="unveränderlich">unver.</item>

@@ -83,33 +83,39 @@
   </fieldset>
 </xsl:template>
 
+<!-- Keys for clever Muenchian form counting, see below -->
+<xsl:key name="orths" match="//orth" use="." />
+<xsl:key name="orthDeduced" match="//orth[parent::form/@type = 'deduced']" use="." />
+<xsl:key name="orthNormlzd" match="//orth[parent::form/@type = 'normalized']" use="." />
+
 <xsl:template match="edition">
   <p>Edition <xsl:value-of select="@n"/></p>
   <p><xsl:apply-templates/></p>
-  <xsl:choose>
-  <xsl:when test="$xref != 'no'">
-    <xsl:choose>
-    <xsl:when test="count(//entry[@type='xref']) = 0">
-      <p><xsl:value-of select="count(//entry)"/> entries.</p>
-    </xsl:when>
-    <xsl:otherwise>
-      <p><xsl:value-of select="count(//entry)"/> entries 
-         (<xsl:value-of select="count(//entry) - count(//entry[@type='xref'])"/> unique entries).</p>
-    </xsl:otherwise>     
-    </xsl:choose>
-  </xsl:when>
-  <xsl:otherwise>
-    <p><xsl:value-of select="count(//entry) - count(//entry[@type='xref'])"/> entries.</p>
-  </xsl:otherwise>
-  </xsl:choose>
-  <xsl:if test="count(//entry) != count(//orth[not(ancestor::re) and (ancestor::entry[not(@type)] or ancestor::entry[@type != 'xref'])])">
-      <!-- This does not work well with reversed lexicons (indices), so we only add it if applicable -->
-      <p>~ <xsl:value-of select="count(//form[not(form)][not(ancestor::re) and (ancestor::entry[not(@type)] or ancestor::entry[@type != 'xref'])])"/> word forms
-         (<xsl:value-of select="count(//form[not(ancestor::re) and (ancestor::entry[not(@type)] or ancestor::entry[@type != 'xref']) and contains( @type, 'deduced' )])"/> deduced,
-         <xsl:value-of select="count(//form[not(ancestor::re) and (ancestor::entry[not(@type)] or ancestor::entry[@type != 'xref']) and contains( @type, 'normalized' )])"/> normalized,
-         <xsl:value-of select="count(//form[not(ancestor::re) and (ancestor::entry[not(@type)] or ancestor::entry[@type != 'xref']) and contains( @type, 'coined' )])"/> coined).
-         </p>
-  </xsl:if>
+
+  <!-- Better counters
+    headwords = entry count, including cross-references to alternative forms (variants, etc.)   
+    main headwords = same but without the cross-references
+    word forms = orth count, so all reference words incl. variants, etc.
+  -->
+  <!-- Didier fix: show prevalence of deduced and normalized forms in headwords, as some users were
+       once concerned with it... -->
+  <p><xsl:value-of select="count(//entry)"/> headwords
+    (<xsl:value-of select="count(//entry[descendant::form[1]/@type = 'deduced' or descendant::form[1]/form[1]/@type = 'deduced'])"/> deduced,
+    <xsl:value-of select="count(//entry[descendant::form[1]/@type = 'normalized' or descendant::form[1]/form[1]/@type = 'normalized'])"/> normalized).</p>
+  <!-- Omikhleia fix: same but withount counting the cross references -->
+  <p><xsl:value-of select="count(//entry[@type != 'xref'])"/> main headwords
+     (<xsl:value-of select="count(//entry[@type != 'xref'][descendant::form[1]/@type = 'deduced' or descendant::form[1]/form[1]/@type = 'deduced'])"/> deduced,
+    <xsl:value-of select="count(//entry[@type != 'xref'][descendant::form[1]/@type = 'normalized' or descendant::form[1]/form[1]/@type = 'normalized'])"/> normalized).</p>
+  <!-- Omikhleia fix: Earlier word form counters where somehow broken (not counting re tags, failing to properly count
+       alternatives at the top form level...)
+       Fixed by using a Muenchian method (http://www.jenitennison.com/xslt/grouping/muenchian.html)
+       and operating on orth nodes directly
+       For the record, the unique form count doesn't distinguish the type (deduced, normalized)
+  -->
+  <p><xsl:value-of select="count(//orth)"/> word forms
+     (<xsl:value-of select="count(//orth[generate-id(.) = generate-id(key('orths', .)[1])])"/> unique,
+      <xsl:value-of select="count(//orth[generate-id(.) = generate-id(key('orthDeduced', .)[1])])"/> deduced,
+      <xsl:value-of select="count(//orth[generate-id(.) = generate-id(key('orthNormlzd', .)[1])])"/> normalized).</p>
 </xsl:template>
 
 <xsl:template match="sourceDesc">
