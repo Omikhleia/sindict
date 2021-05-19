@@ -3,7 +3,7 @@
      Copyright (c) 2021 Omikhleia
      License: MIT
      
-     One-shot removal of german.     
+     One-shot removal of german.
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="xml" 
@@ -15,9 +15,9 @@
 
   <!-- Identity transformation -->
   <xsl:template match="@* | node()">
-      <xsl:copy>
-          <xsl:apply-templates select="@* | node()"/>
-      </xsl:copy>
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
   </xsl:template>
 
   <!-- Remove german translations, and kill the empty lines it leaves -->

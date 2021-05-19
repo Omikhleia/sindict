@@ -2,7 +2,7 @@
 <!--
      Copyright (c) 2021 Omikhleia
      License: MIT
-     
+
      One-shot attribute conversion, with output in UTF-8
      In old lexicon, entry id and ref. target attributes used y-umlaut for y-circumflex
 -->
@@ -16,9 +16,9 @@
 
   <!-- Identity transformation -->
   <xsl:template match="@* | node()">
-      <xsl:copy>
-          <xsl:apply-templates select="@* | node()"/>
-      </xsl:copy>
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
   </xsl:template>
   
   <!-- Rewrite id and target attributes -->
