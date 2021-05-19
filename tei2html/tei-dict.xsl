@@ -38,32 +38,15 @@
 
 <xsl:template match="entry">
 <xsl:choose>
-<xsl:when test="not(@type) or (@type != 'xref' or $xref != 'no')">  
+<xsl:when test="not(@type) or (@type != 'xref')">  
     <p id="{@id}" class="sindict"><xsl:apply-templates/>
-<!-- ENRICH EXPERIMENTAL    
-    <small>
-    <xsl:variable name="id" select="@id"/>
-    <xsl:for-each select="descendant::index">
-     <xsl:variable name="idx" select="@level1"/>
-      <xsl:for-each select="//entry[descendant::index/@level1 = $idx][@id != $id]">
-        <xsl:if test="position() = 1">
-          <br />&#x21DD;
-          <a href="" class="link" onclick="return sdLookUpIdx('{$idx}');"><xsl:value-of select="$idx"/></a> :
-        </xsl:if>
-        <xsl:if test="position() &gt; 1">, </xsl:if>
-        <xsl:apply-templates select="descendant::orth[1]"/>
-      </xsl:for-each>
-    </xsl:for-each>
-    </small>
--->
     </p><xsl:text>
 </xsl:text>
 </xsl:when>
 <xsl:otherwise>
-<xsl:if test="descendant::bibl or contains(descendant::note/@type,'source')">
-<xsl:message>CHECK <xsl:value-of select="descendant::orth[1]"/></xsl:message>
-<!-- The CHECK warning here, as the migration from notes to bibl was never fully completed? -->
-</xsl:if>
+    <p id="{@id}" class="sindict xref"><xsl:apply-templates/>
+    </p><xsl:text>
+</xsl:text>
 </xsl:otherwise>
 </xsl:choose>
 </xsl:template>
@@ -86,7 +69,7 @@
 </xsl:template>
 
 <xsl:template match="index">
-<!-- a href="" class="link" onclick="return sdLookUpIdx('{@level1}');">_</a -->
+<!-- NoOp -->
 </xsl:template>
 
 <xsl:template match="pos|tns|mood|per|gen|number|subc|itype|lbl">
@@ -95,8 +78,7 @@
     </xsl:call-template></i></small>
 </xsl:template>
 
-<!-- <xsl:template match="gloss"><xsl:text>\gloss{</xsl:text>
-<xsl:apply-templates/><xsl:text>} </xsl:text>
+<!-- <xsl:template match="gloss">
 </xsl:template> -->
 
 <xsl:template match="gramGrp">
@@ -151,7 +133,7 @@
   <xsl:when test="$isheadword and ancestor::entry/@n"><xsl:text> </xsl:text>
      <span class="number"><xsl:number format="I" value="ancestor::entry/@n"/></span>
   </xsl:when>
-<!-- Numbering for related entries -->
+  <!-- Numbering for related entries. NOT SURE WE USE IT -->
   <xsl:when test="ancestor::re/@n and $islemma"><xsl:text> </xsl:text>
      <span class="number"><xsl:number format="I" value="ancestor::re/@n"/></span>
   </xsl:when>

@@ -67,6 +67,10 @@ p.elddict {
  padding: 0 1em 0 1em;
 }
 
+.xref {
+  color: #6f4734;
+}
+
 .corr {
  color: #777777;
 }
