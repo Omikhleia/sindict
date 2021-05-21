@@ -4,7 +4,7 @@
 
      NEED REVIEW
      This style-sheet is used to expand the cross-references
-     in the dictionary (step 1 = variants in entries).
+     in the dictionary (step 2 = related entries)
 -->
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -26,22 +26,14 @@
   <div0 type="dictionary">
 <!-- An xref entry is created when the following conditions are satisfied:
 
-     The form does not contain other forms
+     The form does not contain other form
      (= its not a nesting structure)
      AND
-       The form is not below a related entry (processed in another step)
-       AND
-         The form has preceding siblings
-         (= its not the first form in that nesting structure)
-         OR
-         The parent form has preceding siblings
-         (= its not the first nesting structure)
-         OR
-         The form itself as a type='inflected' attribute (= loose nesting)
+       The form is below a related entry without correspondance
+       (= There is no main entry corresponding to this form)
 -->
-    <xsl:for-each select="descendant::form[not(form) and not(ancestor::re)]">
-      <xsl:if test="preceding-sibling::form[1] or parent::form[preceding-sibling::form[1]] or (@type='inflected')">
-       <entry id="generated-{generate-id()}-{ancestor::entry/@id}" type="xref">
+    <xsl:for-each select="descendant::form[not(form) and ancestor::re and not(ancestor::re/@corresp)]">
+      <entry id="generated-{generate-id()}-{ancestor::entry/@id}" type="xref" rend="re">
          <form>
           <xsl:apply-templates select="orth|@*"/>
           <xsl:text> </xsl:text><xsl:apply-templates select="bibl"/>
@@ -64,10 +56,15 @@
             <mood><xsl:value-of select="preceding-sibling::mood"/></mood>
            </gramGrp>
          </xsl:when>
+         <xsl:when test="itype">
+           <xsl:copy-of select="itype"/>
+         </xsl:when>
+         <xsl:when test="following-sibling::gramGrp">
+           <xsl:copy-of select="following-sibling::gramGrp"/>
+         </xsl:when>
          </xsl:choose>
          <xr type="see"><ptr target="{ancestor::entry/@id}"/></xr>
        </entry>
-      </xsl:if>
     </xsl:for-each>
     <xsl:apply-templates/>
   </div0>

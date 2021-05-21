@@ -32,6 +32,7 @@
   <entry>
    <xsl:if test="@type"><xsl:attribute name="type"><xsl:value-of select="@type"/></xsl:attribute></xsl:if>
    <xsl:if test="@id"><xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute></xsl:if>
+   <xsl:if test="@rend"><xsl:attribute name="rend"><xsl:value-of select="@rend"/></xsl:attribute></xsl:if>
    <xsl:attribute name="n"><xsl:value-of select="$prec + 1"/></xsl:attribute>
    <xsl:apply-templates/>
    <!-- xsl:call-template name="relate"/-->
@@ -42,6 +43,7 @@
   <entry>
    <xsl:if test="@type"><xsl:attribute name="type"><xsl:value-of select="@type"/></xsl:attribute></xsl:if>
    <xsl:if test="@id"><xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute></xsl:if>
+   <xsl:if test="@rend"><xsl:attribute name="rend"><xsl:value-of select="@rend"/></xsl:attribute></xsl:if>
    <xsl:attribute name="n"><xsl:value-of select="$prec + 1"/></xsl:attribute>
    <xsl:apply-templates/> 
    <!-- xsl:call-template name="relate"/ -->
@@ -51,6 +53,7 @@
   <entry>
    <xsl:if test="@type"><xsl:attribute name="type"><xsl:value-of select="@type"/></xsl:attribute></xsl:if>
    <xsl:if test="@id"><xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute></xsl:if>
+   <xsl:if test="@rend"><xsl:attribute name="rend"><xsl:value-of select="@rend"/></xsl:attribute></xsl:if>
    <!-- xsl:call-template name="relate"/-->
    <xsl:apply-templates/> 
   </entry>

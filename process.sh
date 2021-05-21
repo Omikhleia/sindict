@@ -1,6 +1,7 @@
 #!/bin/bash
 
 xsltproc --novalid xslt/process/expand-xref.xsl src/dict-sd-fr-en.xml \
+  | xsltproc --novalid xslt/process/expand-xref-2.xsl - \
   | xsltproc --novalid xslt/process/sort.xsl - \
   | xsltproc --novalid xslt/process/expand-renum.xsl - \
   | xsltproc --novalid xslt/process/add-sections.xsl - \

@@ -44,7 +44,7 @@
 </xsl:text>
 </xsl:when>
 <xsl:otherwise>
-    <p id="{@id}" class="sindict xref"><xsl:apply-templates/>
+    <p id="{@id}" class="sindict xref{@rend}"><xsl:apply-templates/>
     </p><xsl:text>
 </xsl:text>
 </xsl:otherwise>
