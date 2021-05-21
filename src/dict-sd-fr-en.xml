@@ -215,7 +215,7 @@
   </note>
 </entry>
 
-<entry type="affix" id="ab-"><!-- A0105 -->
+<entry type="affix" id="ab-">
   <form type="regular">
     <form type="deduced">
       <orth>ab-</orth><usg type="lang" norm="S."/>
@@ -237,7 +237,7 @@
                               <mentioned>aphad-</mentioned> "follow" WJ/387</note>
 </entry>
 
-<entry id="ablad"><!-- A0105 -->
+<entry id="ablad">
   <form type="regular">
     <form>
       <orth>ablad</orth><usg type="lang" norm="S."/>
@@ -260,7 +260,7 @@
   </sense>
 </entry>
 
-<entry id="abonnen"><!-- A0105 -->
+<entry id="abonnen">
   <form type="regular">
     <form>
       <orth>abonnen</orth><usg type="lang" norm="S."/>
@@ -301,7 +301,7 @@
   <etym>ab-+onnen "after-born"</etym>
 </entry>
 
-<entry id="ach.1" n="1"><!-- A0101 -->
+<entry id="ach.1" n="1">
   <form type="regular">
     <form>
       <orth>ach</orth><usg type="lang" norm="S."/>
@@ -323,7 +323,7 @@
   <xr type="analogy"><ptr target="iaeth"/>, <ptr target="achad"/></xr>
 </entry>
 
-<entry id="ach.2" n="2"><!-- A0101 -->
+<entry id="ach.2" n="2">
   <form type="regular">
     <form>
       <orth>ach</orth><usg type="lang" norm="S."/>
@@ -345,7 +345,7 @@
   <note type="source,deduced"><mentioned>ach hí in Ellath îr ed epholar</mentioned> *"but now the Elves alone (?remember) it" VT/50:15</note>
 </entry>
 
-<entry id="achad"><!-- A0101 -->
+<entry id="achad">
   <form type="regular">
     <form>
       <orth>achad</orth><usg type="lang" norm="S."/>
@@ -381,7 +381,7 @@
   <xr type="analogy"><ptr target="ach.1"/></xr>
 </entry>
 
-<entry id="achar-"><!-- A0101 -->
+<entry id="achar-">
   <form type="regular">
     <form type="deduced">
       <orth>achar-</orth><usg type="lang" norm="S."/>
@@ -410,7 +410,7 @@
   </re>
 </entry>
 
-<entry id="achared"><!-- A0101 -->
+<entry id="achared">
   <form type="regular">
     <form>
       <orth>achared</orth><usg type="lang" norm="S."/>
@@ -431,7 +431,7 @@
   </sense>
 </entry>
 
-<entry id="acharn"><!-- A0101 -->
+<entry id="acharn">
   <form type="regular">
     <form>
       <orth>acharn</orth><usg type="lang" norm="S."/>
@@ -453,7 +453,7 @@
   </sense>
 </entry>
 
-<entry id="achas"><!-- A0105 -->
+<entry id="achas">
   <form type="regular">
     <form type="deduced">
       <orth>achas</orth><usg type="lang" norm="S."/>
@@ -497,7 +497,7 @@
   <note type="source">Ety/349, VT/45:6</note>
 </entry>
 
-<entry id="ada"><!-- A0105 -->
+<entry id="ada">
   <form type="regular">
     <form>
       <orth>ada</orth><usg type="lang" norm="N."/>
@@ -520,7 +520,7 @@
   </sense>
 </entry>
 
-<entry id="adab"><!-- A0105 -->
+<entry id="adab">
   <form type="regular">
     <form>
       <orth>adab</orth><usg type="lang" norm="N."/>
@@ -591,7 +591,7 @@
   </re>
 </entry>
 
-<entry id="adanadar"><!-- A0105 -->
+<entry id="adanadar">
   <form type="regular">
     <form type="deduced">
       <orth>adanadar</orth><usg type="lang" norm="S."/>
@@ -620,7 +620,7 @@
   <etym>adan+adar</etym>
 </entry>
 
-<entry id="adanath"><!-- A0105 -->
+<entry id="adanath">
   <form type="regular">
     <form>
       <orth>adanath</orth><usg type="lang" norm="S."/>
@@ -642,7 +642,7 @@
   </sense>
 </entry>
 
-<entry id="adaneth"><!-- A0101 -->
+<entry id="adaneth">
   <form type="regular">
     <form>
       <orth>adaneth</orth><usg type="lang" norm="S."/>
@@ -664,7 +664,7 @@
   <etym>adan+-eth</etym>
 </entry>
 
-<entry id="adar"><!-- A0101 -->
+<entry id="adar">
   <form type="regular">
     <form>
       <orth>adar</orth><usg type="lang" norm="S., N."/>
@@ -718,7 +718,7 @@
   </re>
 </entry>
 
-<entry id="adbed-"><!-- A0101 -->
+<entry id="adbed-">
   <form type="regular">
     <form>
       <orth>adbed-</orth><usg type="lang" norm="S."/>
@@ -761,7 +761,7 @@
   </sense>
 </entry>
 
-<entry id="adertha-"><!-- A0101 -->
+<entry id="adertha-">
   <form type="regular">
     <form type="deduced">
       <orth>adertha-</orth><usg type="lang" norm="S."/>
@@ -812,7 +812,7 @@
   </sense>
 </entry>
 
-<entry id="adlann"><!-- A0106 -->
+<entry id="adlann">
   <form type="regular">
     <form type="normalized">
       <orth>adlann</orth><usg type="lang" norm="*S."/>
@@ -838,7 +838,7 @@
   </sense>
 </entry>
 
-<entry id="adlanna-"><!-- A0106 -->
+<entry id="adlanna-">
   <form type="regular">
     <form type="normalized">
       <orth>adlanna-</orth><usg type="lang" norm="*S."/>
@@ -935,7 +935,7 @@
   </sense>
 </entry>
 
-<entry id="aduial"><!-- A0106 -->
+<entry id="aduial">
   <form type="regular">
     <form>
       <orth>aduial</orth><usg type="lang" norm="S."/>
@@ -958,7 +958,7 @@
   <etym>ad + uial "second twilight"</etym>
 </entry>
 
-<entry id="advir"><!-- A0101 -->
+<entry id="advir">
   <form type="regular">
     <form>
       <orth>advir</orth><usg type="lang" norm="S."/>
@@ -979,7 +979,7 @@
   </sense>
 </entry>
 
-<entry id="ae.1"><!-- A0106 -->
+<entry id="ae.1">
   <form type="regular">
     <form>
       <orth>ae</orth><usg type="lang" norm="S."/>
@@ -1209,7 +1209,7 @@
   <etym>aeg+loss</etym>
 </entry>
 
-<entry id="ael"><!-- A0117 -->
+<entry id="ael">
   <form type="regular">
     <form type="normalized">
       <orth>ael</orth><usg type="lang" norm="*S."/>
@@ -1253,7 +1253,7 @@
       <mentioned>Aeluin</mentioned> *"Blue lake" S/162</note>
 </entry>
 
-<entry id="aen"><!-- A0106 -->
+<entry id="aen">
   <form type="regular">
     <form>
       <orth>aen</orth><usg type="lang" norm="S."/>
@@ -1311,7 +1311,7 @@
   </note>
 </entry>
 
-<entry id="aer.2" n="2"><!-- A0106 -->
+<entry id="aer.2" n="2">
   <form type="regular">
     <form>
       <orth>aer</orth><usg type="lang" norm="S."/>
@@ -1336,7 +1336,7 @@
   </sense>
 </entry>
 
-<entry id="aerlinn"><!-- A0106 -->
+<entry id="aerlinn">
   <form type="regular">
     <form>
       <orth>aerlinn</orth><usg type="lang" norm="S."/>
@@ -1380,7 +1380,7 @@
   </sense>
 </entry>
 
-<entry id="aew"><!-- A0201 -->
+<entry id="aew">
   <form type="regular">
     <form>
       <orth>aew</orth><usg type="lang" norm="N."/>
@@ -1402,7 +1402,7 @@
   </sense>
 </entry>
 
-<entry id="aewen"><!-- A0201 -->
+<entry id="aewen">
   <form type="regular">
     <form type="deduced">
       <orth>aewen</orth><usg type="lang" norm="S."/>
@@ -1423,7 +1423,7 @@
   <note type="source,deduced"><mentioned>Linaewen</mentioned> S/434</note>
 </entry>
 
-<entry id="agar"><!-- A0106 -->
+<entry id="agar">
   <form type="regular">
     <form type="deduced">
       <orth>agar</orth><usg type="lang" norm="S."/>
@@ -1445,7 +1445,7 @@
   <note type="source,deduced"><mentioned>Agarwaen</mentioned> S/378</note>
 </entry>
 
-<entry id="agarwaen"><!-- A0106 -->
+<entry id="agarwaen">
   <form type="regular">
     <form>
       <orth>agarwaen</orth><usg type="lang" norm="S."/>
@@ -1509,7 +1509,7 @@
   <note type="source">Ety/348, S/427, WJ/412</note>
 </entry>
 
-<entry id="aglonn"><!-- A0106 -->
+<entry id="aglonn">
   <form type="regular">
     <form type="normalized">
       <orth>aglonn</orth><usg type="lang" norm="*S."/>
@@ -1539,7 +1539,7 @@
   </sense>
 </entry>
 
-<entry id="aglor"><!-- A0105 -->
+<entry id="aglor">
   <form type="regular">
     <form>
       <orth>aglor</orth><usg type="lang" norm="N."/>
@@ -1628,7 +1628,7 @@
   </note>
 </entry>
 
-<entry id="ai.1" n="1"><!-- A0106 -->
+<entry id="ai.1" n="1">
   <form type="regular">
     <form>
       <orth>ai</orth><usg type="lang" norm="S."/>
@@ -1659,7 +1659,7 @@
   </note>
 </entry>
 
-<entry id="ai.2" n="2"><!-- A0106 -->
+<entry id="ai.2" n="2">
   <form type="regular">
     <form>
       <orth>ai</orth><usg type="lang" norm="S."/>
@@ -1682,7 +1682,7 @@
     "those who trespass against us" VT/44:21,30</note>
 </entry>
 
-<entry id="air"><!--C0421-->
+<entry id="air">
   <form type="regular">
     <form>
       <orth>air</orth><usg type="lang" norm="S."/>
@@ -1749,7 +1749,7 @@
   </sense>
 </entry>
 
-<entry id="alae"><!-- A0106 -->
+<entry id="alae">
   <form type="regular">
     <form>
       <orth>alae</orth><usg type="lang" norm="S."/>
@@ -1777,7 +1777,7 @@
   </note>
 </entry>
 
-<entry id="alaf"><!--C0421-->
+<entry id="alaf">
   <form type="regular">
     <form>
       <orth>alaf</orth><usg type="lang" norm="S."/>
@@ -1799,7 +1799,7 @@
   </sense>
 </entry>
 
-<entry id="alag"><!-- A0106 -->
+<entry id="alag">
   <form type="regular">
     <form>
       <orth>alag</orth><usg type="lang" norm="N."/>
@@ -1820,7 +1820,7 @@
   </sense>
 </entry>
 
-<entry id="alagos"><!-- A0106 -->
+<entry id="alagos">
   <form type="regular">
     <form>
       <orth>alagos</orth><usg type="lang" norm="N."/>
@@ -1842,7 +1842,7 @@
   </sense>
 </entry>
 
-<entry id="albeth"><!-- A0101 -->
+<entry id="albeth">
   <form type="regular">
     <form>
       <orth>albeth</orth><usg type="lang" norm="S."/>
@@ -1941,7 +1941,7 @@
   <note type="source">Ety/348, S/427, LotR/E, VT/42:6-7</note>
 </entry>
 
-<entry id="alu"><!--C0421-->
+<entry id="alu">
   <form type="regular">
     <form type="normalized">
       <orth>alu</orth><usg type="lang" norm="*S."/>
@@ -1975,7 +1975,7 @@
   </sense>
 </entry>
 
-<entry id="alwed"><!-- A0106 -->
+<entry id="alwed">
   <form type="regular">
     <form>
       <orth>alwed</orth><usg type="lang" norm="S."/>
@@ -2071,7 +2071,7 @@
   <note type="source">Ety/372, S/427, LotR/A(i), TC/183</note>
 </entry>
 
-<entry id="amartha-"><!--C0421-->
+<entry id="amartha-">
   <form type="regular">
     <form>
       <orth>amartha-</orth><usg type="lang" norm="S."/>
@@ -2166,7 +2166,7 @@
   <etym>am+pend</etym>
 </entry>
 
-<entry id="amdir"><!-- A0106 -->
+<entry id="amdir">
   <form type="regular">
     <form>
       <orth>amdir</orth><usg type="lang" norm="S."/>
@@ -2188,7 +2188,7 @@
   <etym>am+tîr "looking up"</etym>
 </entry>
 
-<entry id="amloth"><!-- A0106 -->
+<entry id="amloth">
   <form type="regular">
     <form>
       <orth>amloth</orth><usg type="lang" norm="S."/>
@@ -2424,7 +2424,7 @@
   <note type="source">Ety/348, S/427</note>
 </entry>
 
-<entry id="andaith"><!-- A0101 -->
+<entry id="andaith">
   <form type="regular">
     <form>
       <orth>andaith</orth><usg type="lang" norm="S."/>
@@ -2490,7 +2490,7 @@
   <etym>and+*rand "long cycle"</etym>
 </entry>
 
-<entry id="andreth"><!-- A0101 -->
+<entry id="andreth">
   <form type="regular">
     <form>
       <orth>andreth</orth><usg type="lang" norm="S."/>
@@ -2814,7 +2814,7 @@
   <etym>an+*íra- or *níra- (?) OS *anîra-</etym>
 </entry>
 
-<entry id="ann.1"><!--C0421-->
+<entry id="ann.1">
   <form type="regular">
     <form>
       <orth>ann</orth><usg type="lang" norm="S."/>
@@ -2866,7 +2866,7 @@
   </note>
 </entry>
 
-<entry id="anna-"><!-- A0131 -->
+<entry id="anna-">
   <form type="regular">
     <form type="deduced">
       <orth>anna-</orth><usg type="lang" norm="S., N."/>
@@ -3033,7 +3033,7 @@
   <note type="source">Ety/348, S/428, LotR/II:IV, TAI/150, PE/17:45</note>
 </entry>
 
-<entry id="annui"><!-- A0106 -->
+<entry id="annui">
   <form type="regular">
     <form>
       <orth>annui</orth><usg type="lang" norm="S."/>
@@ -3076,7 +3076,7 @@
   <note type="source">Ety/376, S/428, LotR/VI:IV, LotR/E, LB/354, Letters/308</note>
 </entry>
 
-<entry id="annúnaid"><!-- A0105 -->
+<entry id="annúnaid">
   <form type="regular">
     <form>
       <orth>annúnaid</orth><usg type="lang" norm="S."/>
@@ -3183,7 +3183,7 @@
   </note>
 </entry>
 
-<entry id="anu.2" n="2"><!-- A0131 -->
+<entry id="anu.2" n="2">
   <form type="regular">
     <form type="normalized">
       <orth>anu</orth><usg type="lang" norm="*S."/>
@@ -3567,7 +3567,7 @@
   </sense>
 </entry>
 
-<entry id="arben"><!-- A0106 -->
+<entry id="arben">
   <form type="regular">
   <form>
     <orth>arben</orth><usg type="lang" norm="S."/>
@@ -3817,7 +3817,7 @@
   <xr type="analogy"><ptr target="arnediad"/></xr>
 </entry>
 
-<entry id="arphen"><!-- A0106 -->
+<entry id="arphen">
   <form type="regular">
     <form>
       <orth>arphen</orth><usg type="lang" norm="S."/>
@@ -3892,7 +3892,7 @@
   <etym>Q arta or OS *artʰa, CE *arâtâ</etym>
 </entry>
 
-<entry id="arthor"><!-- A0101 -->
+<entry id="arthor">
   <form type="regular">
     <form>
       <orth>arthor</orth><usg type="lang" norm="S."/>
@@ -3983,7 +3983,7 @@
   </sense>
 </entry>
 
-<entry id="astor"><!-- A0101 --><!-- C0421 -->
+<entry id="astor">
   <form type="regular">
     <form>
       <orth>astor</orth><usg type="lang" norm="S."/>
@@ -4144,7 +4144,7 @@
   <etym>*athea "benefical, helpful" + CS las "leaf"</etym>
 </entry>
 
-<entry id="athgar"><!--C0421-->
+<entry id="athgar">
   <form type="regular">
     <form>
       <orth>athgar</orth><usg type="lang" norm="S."/>
@@ -4165,7 +4165,7 @@
   </sense>
 </entry>
 
-<entry id="athgen"><!--C0421-->
+<entry id="athgen">
   <form type="regular">
     <form>
       <orth>athgen</orth><usg type="lang" norm="S."/>
@@ -4186,7 +4186,7 @@
   </sense>
 </entry>
 
-<entry id="athon"><!-- A0131 -->
+<entry id="athon">
   <form type="regular">
     <form>
       <orth>athon</orth><usg type="lang" norm="S."/>
@@ -4250,7 +4250,7 @@
   <note type="source,deduced"><mentioned>Athrabeth</mentioned> MR/329</note>
 </entry>
 
-<entry id="athrabeth"><!-- A0105 -->
+<entry id="athrabeth">
   <form type="regular">
     <form>
       <orth>athrabeth</orth><usg type="lang" norm="S."/>
@@ -4333,7 +4333,7 @@
   <etym>ath-+rada-</etym>
 </entry>
 
-<entry id="athragardh"><!-- A0101 -->
+<entry id="athragardh">
   <form type="regular">
     <form>
       <orth>athragardh</orth><usg type="lang" norm="S."/>
@@ -4404,7 +4404,7 @@
   <note type="source">Ety/365, Ety/379, VT/45:23</note>
 </entry>
 
-<entry id="auth.2" n="2"><!-- A0106 -->
+<entry id="auth.2" n="2">
   <form type="regular">
     <form>
       <orth>auth</orth><usg type="lang" norm="S."/>
@@ -4652,7 +4652,7 @@
   </note>
 </entry>
 
-<entry id="avras"><!-- A0101 -->
+<entry id="avras">
   <form type="regular">
     <form>
       <orth>avras</orth><usg type="lang" norm="S."/>
@@ -4673,7 +4673,7 @@
   </sense>
 </entry>
 
-<entry id="aw"><!-- A0112 -->
+<entry id="aw">
   <form type="regular">
     <form>
       <orth>aw</orth><usg type="lang" norm="S."/>
@@ -4848,7 +4848,7 @@
   <xr type="analogy"><ptr target="badhor"/></xr>
 </entry>
 
-<entry id="bain"><!-- A0117 -->
+<entry id="bain">
   <form type="regular">
     <form>
       <orth>bain</orth><usg type="lang" norm="S."/>
@@ -5169,7 +5169,7 @@
   <note type="source">Ety/351, LotR/F, TC/179, RC/343</note>
 </entry>
 
-<entry id="bardh"><!-- A0101 -->
+<entry id="bardh">
   <form type="regular">
     <form>
       <orth>bardh</orth><usg type="lang" norm="S."/>
@@ -5190,7 +5190,7 @@
   </sense>
 </entry>
 
-<entry id="bardor"><!-- A0101 -->
+<entry id="bardor">
   <form type="regular">
     <form>
       <orth>bardor</orth><usg type="lang" norm="S."/>
@@ -5239,7 +5239,7 @@
   </sense>
 </entry>
 
-<entry id="barthan"><!-- A0101 -->
+<entry id="barthan">
   <form type="regular">
     <form>
       <orth>barthan</orth><usg type="lang" norm="S."/>
@@ -5569,7 +5569,7 @@
   <note type="source">WJ/371, PE/17:143</note>
 </entry>
 
-<entry id="baw.2" n="2"><!-- A0105 -->
+<entry id="baw.2" n="2">
   <form type="regular">
     <form>
       <orth>baw</orth><usg type="lang" norm="S."/>
@@ -5590,7 +5590,7 @@
   </sense>
 </entry>
 
-<entry id="belaith"><!-- A0105 -->
+<entry id="belaith">
   <form type="regular">
     <form>
       <orth>belaith</orth><usg type="lang" norm="S."/>
@@ -6014,7 +6014,7 @@
   </sense>
 </entry>
 
-<entry id="boda-"><!-- A0105 -->
+<entry id="boda-">
   <form type="regular">
     <form>
       <orth>boda-</orth><usg type="lang" norm="S."/>
@@ -6279,7 +6279,7 @@
   </sense>
 </entry>
 
-<entry id="brass.1" n="1"><!-- A0105 -->
+<entry id="brass.1" n="1">
   <form type="regular">
     <form>
       <orth>brass</orth><usg type="lang" norm="N."/>
@@ -6308,7 +6308,7 @@
   </re>
 </entry>
 
-<entry id="brass.2" n="2"><!-- A0105 -->
+<entry id="brass.2" n="2">
   <form type="regular">
     <form>
       <orth>brass</orth><usg type="lang" norm="S."/>
@@ -6329,7 +6329,7 @@
   </sense>
 </entry>
 
-<entry id="brassen"><!-- A0105 -->
+<entry id="brassen">
   <form type="regular">
     <form>
       <orth>brassen</orth><usg type="lang" norm="N."/>
@@ -6350,7 +6350,7 @@
   </sense>
 </entry>
 
-<entry id="brasta-"><!-- A0105 -->
+<entry id="brasta-">
   <form type="regular">
     <form>
       <orth>brasta-</orth><usg type="lang" norm="S."/>
@@ -6742,7 +6742,7 @@
   <note type="source,deduced"><mentioned>Bruinen</mentioned> LotR/Index</note>
 </entry>
 
-<entry id="brûn"><!-- A0105 -->
+<entry id="brûn">
   <form type="regular">
     <form>
       <orth>brûn</orth><usg type="lang" norm="N."/>
@@ -6764,7 +6764,7 @@
   </sense>
 </entry>
 
-<entry id="budhu"><!-- A0105 -->
+<entry id="budhu">
   <form type="regular">
     <form>
       <orth>budhu</orth><usg type="lang" norm="S."/>
@@ -6983,7 +6983,7 @@
   <etym>MS *kabr, OS *kapro "leaper"</etym>
 </entry>
 
-<entry id="cadhad"><!--C0421-->
+<entry id="cadhad">
   <form type="regular">
     <form>
       <orth>cadhad</orth><usg type="lang" norm="S."/>
@@ -7237,7 +7237,7 @@
   <xr type="analogy"><ptr target="cae.2"/>, <ptr target="pae"/></xr>
 </entry>
 
-<entry id="caer.2" n="2"><!-- A0131 -->
+<entry id="caer.2" n="2">
   <form type="regular">
     <form>
       <orth>caer</orth><usg type="lang" norm="N."/>
@@ -7823,7 +7823,7 @@
   </sense>
 </entry>
 
-<entry id="car-"><!-- A0131 -->
+<entry id="car-">
   <form type="regular">
     <form type="deduced">
       <orth>car-</orth><usg type="lang" norm="S."/>
@@ -8429,7 +8429,7 @@
   <xr type="analogy"><ptr target="úgarth"/></xr>
 </entry>
 
-<entry id="carweg"><!--C0421-->
+<entry id="carweg">
   <form type="regular">
     <form>
       <orth>carweg</orth><usg type="lang" norm="S."/>
@@ -8450,7 +8450,7 @@
   </sense>
 </entry>
 
-<entry id="cast"><!-- A0127 -->
+<entry id="cast">
   <form type="regular">
     <form type="deduced">
       <orth>cast</orth><usg type="lang" norm="S."/>
@@ -8472,7 +8472,7 @@
   <note type="source,deduced"><mentioned>Angast</mentioned> "Long Cape" VT/42:28</note>
 </entry>
 
-<entry id="castol"><!-- C0421 -->
+<entry id="castol">
   <form type="regular">
     <form>
       <orth>castol</orth><usg type="lang" norm="S."/>
@@ -8537,7 +8537,7 @@
   </sense>
 </entry>
 
-<entry id="caun.1" n="1"><!-- A0127 -->
+<entry id="caun.1" n="1">
   <form type="regular">
     <form>
       <orth>caun</orth><usg type="lang" norm="S."/>
@@ -8589,7 +8589,7 @@
   </sense>
 </entry>
 
-<entry id="caun.3" n="3"><!-- A0127 -->
+<entry id="caun.3" n="3">
   <form type="regular">
     <form>
       <orth>caun</orth><usg type="lang" norm="S."/>
@@ -9395,7 +9395,7 @@
   </sense>
 </entry>
 
-<entry id="ci"><!--C0421-->
+<entry id="ci">
   <form type="regular">
     <form>
       <orth>ci</orth><usg type="lang" norm="S."/>
@@ -9423,7 +9423,7 @@
   </re>
 </entry>
 
-<entry id="cidinn"><!--C0421-->
+<entry id="cidinn">
   <form type="regular">
     <form>
       <orth>cidinn</orth><usg type="lang" norm="S."/>
@@ -9467,7 +9467,7 @@
   </sense>
 </entry>
 
-<entry id="cinnog"><!--C0421-->
+<entry id="cinnog">
   <form type="regular">
     <form>
       <orth>cinnog</orth><usg type="lang" norm="S."/>
@@ -9544,7 +9544,7 @@
   <etym>cair+tân</etym>
 </entry>
 
-<entry id="ciriaeth"><!-- A0105 -->
+<entry id="ciriaeth">
   <form type="regular">
     <form>
       <orth>ciriaeth</orth><usg type="lang" norm="N."/>
@@ -9632,7 +9632,7 @@
   </sense>
 </entry>
 
-<entry id="claur"><!-- A0105 -->
+<entry id="claur">
   <form type="regular">
     <form>
       <orth>claur</orth><usg type="lang" norm="N."/>
@@ -10056,7 +10056,7 @@
   </sense>
 </entry>
 
-<entry id="cova-"><!--C0421-->
+<entry id="cova-">
   <form type="regular">
     <form>
       <orth>cova-</orth><usg type="lang" norm="S."/>
@@ -10080,7 +10080,7 @@
   <xr type="analogy"><ptr target="covad-"/></xr>
 </entry>
 
-<entry id="covad-"><!--C0421-->
+<entry id="covad-">
   <form type="regular">
     <form>
       <orth>covad-</orth><usg type="lang" norm="S."/>
@@ -10721,7 +10721,7 @@
   <etym>cû+raun</etym>
 </entry>
 
-<entry id="curu"><!-- A0127 -->
+<entry id="curu">
   <form type="regular">
     <form>
       <orth>curu</orth><usg type="lang" norm="N."/>
@@ -10992,7 +10992,7 @@
   <note type="source">Ety/354, S/430</note>
 </entry>
 
-<entry id="daebeth"><!-- A0105 -->
+<entry id="daebeth">
   <form type="regular">
     <form>
       <orth>daebeth</orth><usg type="lang" norm="S."/>
@@ -11013,7 +11013,7 @@
   </sense>
 </entry>
 
-<entry id="daedelu"><!-- A0105 -->
+<entry id="daedelu">
   <form type="regular">
     <form>
       <orth>daedelu</orth><usg type="lang" norm="N."/>
@@ -11056,7 +11056,7 @@
   </sense>
 </entry>
 
-<entry id="daen"><!-- A0105 -->
+<entry id="daen">
   <form type="regular">
     <form>
       <orth>daen</orth><usg type="lang" norm="N."/>
@@ -11210,7 +11210,7 @@
     </gramGrp></re>
 </entry>
 
-<entry id="dagnir"><!-- A0105 -->
+<entry id="dagnir">
   <form type="regular">
     <form>
       <orth>dagnir</orth><usg type="lang" norm="S."/>
@@ -11277,7 +11277,7 @@
   </re>
 </entry>
 
-<entry id="dagorath"><!-- A0105 -->
+<entry id="dagorath">
   <form type="regular">
     <form>
       <orth>dagorath</orth><usg type="lang" norm="S."/>
@@ -11457,7 +11457,7 @@
   </re>
 </entry>
 
-<entry id="danbeth"><!-- A0105 -->
+<entry id="danbeth">
   <form type="regular">
     <form type="deleted">
       <orth>danbeth</orth><usg type="lang" norm="S."/>
@@ -11516,7 +11516,7 @@
   <xr type="analogy"><ptr target="dadwen-"/></xr>
 </entry>
 
-<entry id="dangar"><!-- C0421 -->
+<entry id="dangar">
   <form type="regular">
     <form>
       <orth>dangar-</orth><usg type="lang" norm="S."/>
@@ -11559,7 +11559,7 @@
   </sense>
 </entry>
 
-<entry id="dangweth"><!-- A0105 -->
+<entry id="dangweth">
   <form type="regular">
     <form>
       <orth>dangweth</orth><usg type="lang" norm="S."/>
@@ -11707,7 +11707,7 @@
   <etym>dan+gwaith</etym>
 </entry>
 
-<entry id="danwedh"><!-- A0105 -->
+<entry id="danwedh">
   <form type="regular">
     <form>
       <orth>danwedh</orth><usg type="lang" norm="S."/>
@@ -11730,7 +11730,7 @@
   <etym>dan+gwedh</etym>
 </entry>
 
-<entry id="dar-"><!-- A0105 -->
+<entry id="dar-">
   <form type="regular">
     <form type="deduced">
       <orth>dar-</orth><usg type="lang" norm="N."/>
@@ -11766,7 +11766,7 @@
   </re>
 </entry>
 
-<entry id="daro"><!-- A0501 -->
+<entry id="daro">
   <form type="regular">
     <form>
       <orth>daro</orth><usg type="lang" norm="S., N."/>
@@ -11788,7 +11788,7 @@
   </sense>
 </entry>
 
-<entry id="dartha-"><!-- A0105 -->
+<entry id="dartha-">
   <form type="regular">
     <form>
       <orth>dartha-</orth><usg type="lang" norm="N."/>
@@ -11809,7 +11809,7 @@
   </sense>
 </entry>
 
-<entry id="dath"><!-- A0501 -->
+<entry id="dath">
   <form type="regular">
     <form>
       <orth>dath</orth><usg type="lang" norm="N."/>
@@ -11831,7 +11831,7 @@
   </sense>
 </entry>
 
-<entry id="daug"><!-- A0105 -->
+<entry id="daug">
   <form type="regular">
     <form>
       <orth>daug</orth><usg type="lang" norm="N."/>
@@ -11853,7 +11853,7 @@
   </sense>
 </entry>
 
-<entry id="daur.1" n="1"><!-- A0105 -->
+<entry id="daur.1" n="1">
   <form type="regular">
     <form>
       <orth>daur</orth><usg type="lang" norm="S."/>
@@ -11887,7 +11887,7 @@
   </sense>
 </entry>
 
-<entry id="daur.2" n="2"><!-- A0112 -->
+<entry id="daur.2" n="2">
   <form type="regular">
     <form>
       <orth>daur</orth><usg type="lang" norm="S."/>
@@ -11920,7 +11920,7 @@
   <xr type="analogy"><ptr target="sael"/></xr>
 </entry>
 
-<entry id="daw"><!-- A0105 -->
+<entry id="daw">
   <form type="regular">
     <form>
       <orth>daw</orth><usg type="lang" norm="N."/>
@@ -11942,7 +11942,7 @@
   </sense>
 </entry>
 
- <entry id="dail"><!-- A0105 -->
+ <entry id="dail">
   <form type="regular">
     <form>
       <orth>dail</orth><usg type="lang" norm="S."/>
@@ -12624,7 +12624,7 @@
   <note type="source">Ety/354, Ety/352</note>
 </entry>
 
-<entry id="dirbedui"><!--C0421-->
+<entry id="dirbedui">
   <form type="regular">
     <form>
       <orth>dirbedui</orth><usg type="lang" norm="S."/>
@@ -12860,7 +12860,7 @@
   </re>
 </entry>
 
-<entry id="dom"><!-- A0127 -->
+<entry id="dom">
   <form type="regular">
     <form>
       <orth>dom</orth><usg type="lang" norm="S."/>
@@ -13943,7 +13943,7 @@
     a way of formal address expressing the wishes or the will of the King</note>
 </entry>
 
-<entry type="affix" id="eb-"><!-- A0105 -->
+<entry type="affix" id="eb-">
   <form type="regular">
     <form type="deduced">
       <orth>eb-</orth><usg type="lang" norm="S., N."/>
@@ -13964,7 +13964,7 @@
   <note type="source,deduced"><mentioned>Eblaer</mentioned> "June, (?) Before-summer" PM/136</note>
 </entry>
 
-<entry id="eblaer"><!-- A0105 -->
+<entry id="eblaer">
   <form type="regular">
     <form>
       <orth>eblaer</orth><usg type="lang" norm="S."/>
@@ -14395,7 +14395,7 @@
   <etym>ad+în+aur</etym>
 </entry>
 
- <entry id="edledhia-"><!-- A0117 -->
+ <entry id="edledhia-">
   <form type="regular">
     <form type="normalized">
       <orth>edledhia-</orth><usg type="lang" norm="*S."/>
@@ -15489,7 +15489,7 @@
   </sense>
 </entry>
 
-<entry id="emel"><!-- A0117 -->
+<entry id="emel">
   <form type="regular">
     <form>
       <orth>emel</orth><usg type="lang" norm="S."/>
@@ -15654,7 +15654,7 @@
   <xr type="analogy"><ptr target="aen"/></xr>
 </entry>
 
-<entry id="enchui"><!-- A0126 -->
+<entry id="enchui">
   <form type="regular">
     <form>
       <orth>enchui</orth><usg type="lang" norm="S."/>
@@ -16406,7 +16406,7 @@
   <note type="source">LotR/VI:IV, Letters/308, UT/428, RGEO/75</note>
 </entry>
 
-<entry id="ero"><!-- A0127 -->
+<entry id="ero">
   <form type="regular">
     <form>
       <orth>ero</orth><usg type="lang" norm="S."/>
@@ -16567,7 +16567,7 @@
   <etym>OS *oroni- (?), "trees", plural noun, used as a singular.</etym>
 </entry>
 
-<entry id="esbin"><!--C0421-->
+<entry id="esbin">
   <form type="regular">
     <form>
       <orth>esbin</orth><usg type="lang" norm="S."/>
@@ -17298,7 +17298,7 @@
   </sense>
 </entry>
 
-<entry id="fanui"><!-- C0421 -->
+<entry id="fanui">
   <form type="regular">
     <form>
       <orth>fanui</orth><usg type="lang" norm="S."/>
@@ -17805,7 +17805,7 @@
   </re>
 </entry>
 
-<entry id="fergar"><!--C0421-->
+<entry id="fergar">
   <form type="regular">
     <form>
       <orth>fergar</orth><usg type="lang" norm="S."/>
@@ -17826,7 +17826,7 @@
   </sense>
 </entry>
 
-<entry id="fergenol"><!--C0421-->
+<entry id="fergenol">
   <form type="regular">
     <form>
       <orth>fergenol</orth><usg type="lang" norm="S."/>
@@ -17847,7 +17847,7 @@
   </sense>
 </entry>
 
-<entry id="feria-"><!--C0421-->
+<entry id="feria-">
   <form type="regular">
     <form>
       <orth>feria-</orth><usg type="lang" norm="S."/>
@@ -17910,7 +17910,7 @@
   </sense>
 </entry>
 
-<entry id="ferui"><!-- C0421 -->
+<entry id="ferui">
   <form type="regular">
     <form>
       <orth>ferui</orth><usg type="lang" norm="S."/>
@@ -18296,7 +18296,7 @@
   <note type="source,deduced"><mentioned>Fladrif</mentioned> LotR/E, TC/169, TC/173</note>
 </entry>
 
-<entry id="flinc"><!-- A0127 -->
+<entry id="flinc">
   <form type="regular">
     <form>
       <orth>flinc</orth><usg type="lang" norm="S., N."/>
@@ -20492,7 +20492,7 @@
   </note>
 </entry>
 
-<entry id="glaew"><!-- A0127 -->
+<entry id="glaew">
   <form type="regular">
     <form>
       <orth>glaew</orth><usg type="lang" norm="N."/>
@@ -21024,7 +21024,7 @@
   <note type="source">WJ/337, S/431</note>
 </entry>
 
-<entry id="glind"><!-- A0127 -->
+<entry id="glind">
   <form type="regular">
     <form>
       <orth>glind</orth><usg type="lang" norm="S."/>
@@ -21951,7 +21951,7 @@
   <note type="source">Ety/378, Ety/399, VT/46:6</note>
 </entry>
 
-<entry id="gorbedui"><!--C0421-->
+<entry id="gorbedui">
   <form type="regular">
     <form>
       <orth>gorbedui</orth><usg type="lang" norm="S."/>
@@ -22060,7 +22060,7 @@
   </sense>
 </entry>
 
-<entry id="gorn.2" n="2"><!-- A0426 -->
+<entry id="gorn.2" n="2">
   <form type="regular">
     <form>
       <orth>gorn</orth><usg type="lang" norm="S."/>
@@ -22727,7 +22727,7 @@
   <etym>gûl+dûr</etym>
 </entry>
 
-<entry id="gûr.1" n="1"><!-- A0110 -->
+<entry id="gûr.1" n="1">
   <form type="regular">
     <form>
       <orth>gûr</orth><usg type="lang" norm="S."/>
@@ -22749,7 +22749,7 @@
   </sense>
 </entry>
 
-<entry id="gûr.2" n="2"><!-- A0110 -->
+<entry id="gûr.2" n="2">
   <form type="regular">
     <form>
       <orth>gûr</orth><usg type="lang" norm="N."/>
@@ -22770,7 +22770,7 @@
   </sense>
 </entry>
 
-<entry id="guren"><!-- A0110 -->
+<entry id="guren">
   <form type="regular">
     <form>
       <orth>guren</orth><usg type="lang" norm="S."/>
@@ -22800,7 +22800,7 @@
   <etym>gûr+-en</etym>
 </entry>
 
-<entry id="gurgof"><!-- A0127 -->
+<entry id="gurgof">
   <form type="regular">
     <form>
       <orth>gurgof</orth><usg type="lang" norm="S."/>
@@ -24707,7 +24707,7 @@
   <note type="source,deduced"><mentioned>Gwahaedir</mentioned> PM/186</note>
 </entry>
 
-<entry id="haedh"><!-- A0105 -->
+<entry id="haedh">
   <form type="regular">
     <form>
       <orth>haedh</orth><usg type="lang" norm="S."/>
@@ -26003,7 +26003,7 @@
   <note type="comment" lang="en">The form <hi>helta-</hi> in the <hi>Etymologies</hi> is a misreading according to VT/46:14</note>
 </entry>
 
-<entry id="hen.2"><!-- A0117 -->
+<entry id="hen.2">
   <form type="regular">
     <form>
       <orth>hen</orth><usg type="lang" norm="S."/>
@@ -26055,7 +26055,7 @@
   </re>
 </entry>
 
-<entry id="hên.2"><!-- A0127 -->
+<entry id="hên.2">
   <form type="regular">
     <form>
       <orth>hên</orth><usg type="lang" norm="S."/>
@@ -26327,7 +26327,7 @@
   </sense>
 </entry>
 
-<entry id="hervenn"><!-- A013 -->
+<entry id="hervenn">
   <form type="regular">
     <form>
       <orth>hervenn</orth><usg type="lang" norm="N."/>
@@ -26624,7 +26624,7 @@
   <etym>hîth+lain</etym>
 </entry>
 
-<entry id="hithren"><!--C0421-->
+<entry id="hithren">
   <form type="regular">
     <form>
       <orth>hithren</orth><usg type="lang" norm="S."/>
@@ -26790,7 +26790,7 @@
   </sense>
 </entry>
 
-<entry id="hol-"><!--C0421-->
+<entry id="hol-">
   <form type="regular">
     <form type="deduced">
       <orth>hol-</orth><usg type="lang" norm="S."/>
@@ -27882,7 +27882,7 @@
   </sense>
 </entry>
 
-<entry id="idhrinn"><!-- A0113 -->
+<entry id="idhrinn">
   <form type="regular">
     <form type="normalized">
       <orth>idhrinn</orth><usg type="lang" norm="*S."/>
@@ -27980,7 +27980,7 @@
   </sense>
 </entry>
 
-<entry id="il"><!-- A0127 -->
+<entry id="il">
   <form type="regular">
     <form>
       <orth>il</orth><usg type="lang" norm="S."/>
@@ -28279,7 +28279,7 @@
   </sense>
 </entry>
 
-<entry id="ind"><!-- A0126 -->
+<entry id="ind">
   <form type="regular">
     <form>
       <orth>ind</orth><usg type="lang" norm="S., N."/>
@@ -28369,7 +28369,7 @@
   </sense>
 </entry>
 
-<entry id="innas"><!-- A0127 -->
+<entry id="innas">
   <form type="regular">
     <form>
       <orth>innas</orth><usg type="lang" norm="S."/>
@@ -28596,7 +28596,7 @@
   <etym>în+pant "year-full"</etym>
 </entry>
 
-<entry id="ir"><!-- A0127 -->
+<entry id="ir">
   <form type="regular">
     <form>
       <orth>ir</orth><usg type="lang" norm="S."/>
@@ -28645,7 +28645,7 @@
   </note>
 </entry>
 
-<entry id="îr.1" n="1"><!-- A0127 -->
+<entry id="îr.1" n="1">
   <form type="regular">
     <form>
       <orth>îr</orth><usg type="lang" norm="N."/>
@@ -28666,7 +28666,7 @@
   </sense>
 </entry>
 
-<entry id="îr.2" n="2"><!-- A0127 -->
+<entry id="îr.2" n="2">
   <form type="regular">
     <form>
       <orth>îr</orth><usg type="lang" norm="S."/>
@@ -28688,7 +28688,7 @@
   <xr type="analogy"><ptr target="ero"/></xr>
 </entry>
 
-<entry id="írui"><!-- A0127 -->
+<entry id="írui">
   <form type="regular">
     <form>
       <orth>írui</orth><usg type="lang" norm="S."/>
@@ -29295,7 +29295,7 @@
   </sense>
 </entry>
 
-<entry id="laeb"><!-- A0127 -->
+<entry id="laeb">
   <form type="regular">
     <form type="normalized">
       <orth>laeb</orth><usg type="lang" norm="*S."/>
@@ -29324,7 +29324,7 @@
   </sense>
 </entry>
 
-<entry id="laeg.1" n="1"><!-- A0127 -->
+<entry id="laeg.1" n="1">
   <form type="regular">
     <form type="normalized">
       <orth>laeg</orth><usg type="lang" norm="*S."/>
@@ -29357,7 +29357,7 @@
   </sense>
 </entry>
 
-<entry id="laeg.2" n="2"><!-- A0127 -->
+<entry id="laeg.2" n="2">
   <form type="regular">
     <form>
       <orth>laeg</orth><usg type="lang" norm="S."/>
@@ -29854,7 +29854,7 @@
   </sense>
 </entry>
 
-<entry id="lam.1" n="1"><!-- A0110 -->
+<entry id="lam.1" n="1">
   <form type="regular">
     <form>
       <orth>lam</orth><usg type="lang" norm="S."/>
@@ -29902,7 +29902,7 @@
   </re>
 </entry>
 
-<entry id="lam.2" n="2"><!-- A0110 -->
+<entry id="lam.2" n="2">
   <form type="regular">
     <form>
       <orth>lam</orth><usg type="lang" norm="S."/>
@@ -29953,7 +29953,7 @@
   </sense>
 </entry>
 
-<entry id="lammas"><!-- A0127 -->
+<entry id="lammas">
   <form type="regular">
     <form>
       <orth>lammas</orth><usg type="lang" norm="S., N."/>
@@ -29981,7 +29981,7 @@
   </sense>
 </entry>
 
-<entry id="lammen"><!-- A0110 -->
+<entry id="lammen">
   <form type="regular">
     <form>
       <orth>lammen</orth><usg type="lang" norm="S."/>
@@ -30333,7 +30333,7 @@
   <note type="source">LotR/II:IV, RS/463, LB/354, PE/17:46</note>
 </entry>
 
-<entry id="lath"><!-- A0113 -->
+<entry id="lath">
   <form type="regular">
     <form type="normalized">
       <orth>lath</orth><usg type="lang" norm="*S."/>
@@ -31514,7 +31514,7 @@
   <note type="source,deduced"><mentioned>molif</mentioned> <gloss>"hand-link"</gloss> VT/47:6</note>
 </entry>
 
-<entry id="lim.1" n="1"><!-- C0421 -->
+<entry id="lim.1" n="1">
   <form type="regular">
     <form>
       <orth>lim</orth><usg type="lang" norm="S."/>
@@ -32268,7 +32268,7 @@
   </sense>
 </entry>
 
-<entry id="lonnas"><!--C0421-->
+<entry id="lonnas">
   <form type="regular">
     <form type="deduced">
       <orth>lonnas</orth><usg type="lang" norm="S."/>
@@ -32981,7 +32981,7 @@
   </sense>
 </entry>
 
-<entry id="madha"><!-- A0105 -->
+<entry id="madha">
   <form type="regular">
     <form>
       <orth>madha</orth><usg type="lang" norm="S."/>
@@ -33002,7 +33002,7 @@
   </sense>
 </entry>
 
-<entry id="madweg"><!--C0421-->
+<entry id="madweg">
   <form type="regular">
     <form>
       <orth>madweg</orth><usg type="lang" norm="S."/>
@@ -33088,7 +33088,7 @@
   </sense>
 </entry>
 
-<entry id="maed.2" n="2"><!-- A0115 -->
+<entry id="maed.2" n="2">
   <form type="regular">
     <form>
       <orth>maed</orth><usg type="lang" norm="S."/>
@@ -33197,7 +33197,7 @@
   </sense>
 </entry>
 
-<entry id="maelig"><!-- A0127 -->
+<entry id="maelig">
   <form type="regular">
     <form>
       <orth>maelig</orth><usg type="lang" norm="S."/>
@@ -33495,7 +33495,7 @@
   </sense>
 </entry>
 
-<entry id="mâf"><!-- A0131 -->
+<entry id="mâf">
   <form type="regular">
     <form>
       <orth>mâf</orth><usg type="lang" norm="S."/>
@@ -34298,7 +34298,7 @@
   </sense>
 </entry>
 
-<entry id="mell"><!-- A0201 -->
+<entry id="mell">
   <form type="regular">
     <form>
       <orth>mell</orth><usg type="lang" norm="S., N."/>
@@ -34380,7 +34380,7 @@
   <note type="comment" lang="en">This word only occurs in the place name <hi>Imloth Melui</hi>, a vale where roses grew</note>
 </entry>
 
-<entry id="men-"><!-- A0131 -->
+<entry id="men-">
   <form type="regular">
     <form type="deduced">
       <orth>men-</orth><usg type="lang" norm="S."/>
@@ -34432,7 +34432,7 @@
   <note type="source,deduced"><mentioned>ammen</mentioned> LotR/II:IV, LB/354, <mentioned>tiro men</mentioned> VT/45:37</note>
 </entry>
 
-<entry id="men.2" n="2"><!-- A0131 -->
+<entry id="men.2" n="2">
   <form type="regular">
     <form>
       <orth>men</orth><usg type="lang" norm="S."/>
@@ -34773,7 +34773,7 @@
   </sense>
 </entry>
 
-<entry id="methen"><!-- A0127 -->
+<entry id="methen">
   <form type="regular">
     <form>
       <orth>methen</orth><usg type="lang" norm="N."/>
@@ -34795,7 +34795,7 @@
   </sense>
 </entry>
 
-<entry id="mi"><!-- A0127 -->
+<entry id="mi">
   <form type="regular">
     <form type="deleted">
       <orth>mi</orth><usg type="lang" norm="S."/>
@@ -34817,7 +34817,7 @@
   <xr type="analogy"><ptr target="vi"/></xr>
 </entry>
 
-<entry id="mîdh"><!-- A0127 -->
+<entry id="mîdh">
   <form type="regular">
     <form>
       <orth>mîdh</orth><usg type="lang" norm="S., N."/>
@@ -34973,7 +34973,7 @@
   </sense>
 </entry>
 
-<entry id="mín.2" n="2"><!-- A0127 -->
+<entry id="mín.2" n="2">
   <form type="regular">
     <form>
       <orth>mín</orth><usg type="lang" norm="S."/>
@@ -35061,7 +35061,7 @@
   </sense>
 </entry>
 
-<entry id="minas"><!-- A0127 -->
+<entry id="minas">
   <form type="regular">
     <form>
       <orth>minas</orth><usg type="lang" norm="S."/>
@@ -35101,7 +35101,7 @@
   </sense>
 </entry>
 
-<entry id="mindon"><!-- A0127 -->
+<entry id="mindon">
   <form type="regular">
     <form>
       <orth>mindon</orth><usg type="lang" norm="N."/>
@@ -35657,7 +35657,7 @@
   <etym>mith+rill "grey brilliance"</etym>
 </entry>
 
- <entry id="mîw"><!-- A0127 -->
+ <entry id="mîw">
   <form type="regular">
     <form>
       <orth>mîw</orth><usg type="lang" norm="N."/>
@@ -35813,7 +35813,7 @@
   <etym>morn+pen, altered from OS *moripende</etym>
 </entry>
 
-<entry id="morchant"><!-- A0127 -->
+<entry id="morchant">
   <form type="regular">
     <form type="deduced">
       <orth>morchant</orth><usg type="lang" norm="S."/>
@@ -36229,7 +36229,7 @@
   </sense>
 </entry>
 
-<entry id="nadha"><!-- A0105 -->
+<entry id="nadha">
   <form type="regular">
     <form>
       <orth>nadha</orth><usg type="lang" norm="S."/>
@@ -36323,7 +36323,7 @@
   </sense>
 </entry>
 
-<entry id="naedh"><!-- A0105 -->
+<entry id="naedh">
   <form type="regular">
     <form>
       <orth>naedh</orth><usg type="lang" norm="S."/>
@@ -37154,7 +37154,7 @@
   </sense>
 </entry>
 
-<entry id="natha-"><!-- A0127 -->
+<entry id="natha-">
   <form type="regular">
     <form>
       <orth>natha-</orth><usg type="lang" norm="S."/>
@@ -37179,7 +37179,7 @@
   </sense>
 </entry>
 
-<entry id="nathal"><!-- A0127 -->
+<entry id="nathal">
   <form type="regular">
     <form>
       <orth>nathal</orth><usg type="lang" norm="S."/>
@@ -37744,7 +37744,7 @@
   <note type="source,deduced"><mentioned>Neithan</mentioned> UT/456</note>
 </entry>
 
-<entry id="neithan"><!-- C0421 -->
+<entry id="neithan">
   <form type="regular">
     <form>
       <orth>neithan</orth><usg type="lang" norm="S."/>
@@ -38446,7 +38446,7 @@
   </sense>
 </entry>
 
-<entry id="nidh-"><!-- A0131 -->
+<entry id="nidh-">
   <form type="regular">
     <form type="deduced">
       <orth>nidh-</orth><usg type="lang" norm="S."/>
@@ -38491,7 +38491,7 @@
 </entry>
 
 
-<entry id="nîdh.1" n="1"><!-- A0105 -->
+<entry id="nîdh.1" n="1">
   <form type="regular">
     <form>
       <orth>nîdh</orth><usg type="lang" norm="N."/>
@@ -38525,7 +38525,7 @@
   </sense>
 </entry>
 
-<entry id="nîdh.2" n="2"><!-- A0131 -->
+<entry id="nîdh.2" n="2">
   <form type="regular">
     <form>
       <orth>nîdh</orth><usg type="lang" norm="S."/>
@@ -38548,7 +38548,7 @@
   </sense>
 </entry>
 
-<entry id="nidha-"><!-- A0131 -->
+<entry id="nidha-">
   <form type="regular">
     <form>
       <orth>nídha-</orth><usg type="lang" norm="S."/>
@@ -38571,7 +38571,7 @@
   </sense>
 </entry>
 
-<entry id="nîf"><!-- A0105 -->
+<entry id="nîf">
   <form type="regular">
     <form>
       <orth>nîf</orth><usg type="lang" norm="N."/>
@@ -38592,7 +38592,7 @@
   </sense>
 </entry>
 
-<entry id="niged"><!-- A0105 -->
+<entry id="niged">
   <form type="regular">
     <form>
       <orth>niged</orth><usg type="lang" norm="S."/>
@@ -39313,7 +39313,7 @@
   <etym>nogoth+rim</etym>
 </entry>
 
-<entry id="nor-"><!-- C0421 -->
+<entry id="nor-">
   <form type="regular">
     <form>
       <orth>nor-</orth><usg type="lang" norm="S."/>
@@ -39535,7 +39535,7 @@
   </sense>
 </entry>
 
-<entry id="north"><!--C0421-->
+<entry id="north">
   <form type="regular">
     <form>
       <orth>north</orth><usg type="lang" norm="S."/>
@@ -39559,7 +39559,7 @@
   </sense>
 </entry>
 
-<entry id="northa-"><!--C0421-->
+<entry id="northa-">
   <form type="regular">
     <form>
       <orth>northa-</orth><usg type="lang" norm="S."/>
@@ -40181,7 +40181,7 @@
   <xr type="analogy"><ptr target="othui"/></xr>
 </entry>
 
-<entry id="oer"><!-- A0131 -->
+<entry id="oer">
   <form type="regular">
     <form>
       <orth>oer</orth><usg type="lang" norm="S."/>
@@ -40202,7 +40202,7 @@
   </sense>
 </entry>
 
-<entry id="oew"><!-- A0131 -->
+<entry id="oew">
   <form type="regular">
     <form>
       <orth>oew</orth><usg type="lang" norm="S."/>
@@ -40224,7 +40224,7 @@
   </sense>
 </entry>
 
-<entry id="ogol"><!-- A0105 -->
+<entry id="ogol">
   <form type="regular">
     <form>
       <orth>ogol</orth><usg type="lang" norm="S., N."/>
@@ -40281,7 +40281,7 @@
   </sense>
 </entry>
 
-<entry id="ogron"><!-- A0131 -->
+<entry id="ogron">
   <form type="regular">
     <form>
       <orth>ogron</orth><usg type="lang" norm="S."/>
@@ -41065,7 +41065,7 @@
   <etym>orod+rim</etym>
 </entry>
 
-<entry id="oroth"><!--C0421-->
+<entry id="oroth">
   <form type="regular">
     <form>
       <orth>oroth</orth><usg type="lang" norm="S."/>
@@ -41274,7 +41274,7 @@
   </re>
 </entry>
 
-<entry id="os"><!-- A0127 -->
+<entry id="os">
   <form type="regular">
     <form>
       <orth>os</orth><usg type="lang" norm="S."/>
@@ -42191,7 +42191,7 @@
   <note type="source">Ety/366, SD/129-31</note>
 </entry>
 
-<entry id="paran"><!-- A0113 -->
+<entry id="paran">
   <form type="regular">
     <form>
       <orth>paran</orth><usg type="lang" norm="S."/>
@@ -42535,7 +42535,7 @@
   <note type="source">LotR/II:IV, Letters/424, PE/17:40</note>
 </entry>
 
-<entry id="pedweg"><!-- A0127 -->
+<entry id="pedweg">
   <form type="regular">
     <form>
       <orth>pedweg</orth><usg type="lang" norm="S."/>
@@ -42699,7 +42699,7 @@
   </sense>
 </entry>
 
-<entry id="pen-"><!-- A0126 -->
+<entry id="pen-">
   <form type="regular">
     <form>
       <orth>pen-</orth><usg type="lang" norm="S."/>
@@ -43308,7 +43308,7 @@
   </re>
 </entry>
 
-<entry id="pethron"><!-- A0127 -->
+<entry id="pethron">
   <form type="regular">
     <form>
       <orth>pethron</orth><usg type="lang" norm="S., N."/>
@@ -43381,7 +43381,7 @@
   </sense>
 </entry>
 
-<entry id="pîn"><!-- A0113 -->
+<entry id="pîn">
   <form type="regular">
     <form type="deduced">
       <orth>pîn</orth><usg type="lang" norm="S."/>
@@ -44026,7 +44026,7 @@
   </sense>
 </entry>
 
-<entry id="raitha-"><!--C0421-->
+<entry id="raitha-">
   <form type="regular">
     <form>
       <orth>raitha-</orth><usg type="lang" norm="S."/>
@@ -44386,7 +44386,7 @@
   <note type="source">Ety/383, LotR/Index, RC/523,551, PE/17:96,98</note>
 </entry>
 
-<entry id="raud.1" n="1"><!--C0421-->
+<entry id="raud.1" n="1">
   <form type="regular">
     <form>
       <orth>raud</orth><usg type="lang" norm="S."/>
@@ -44517,7 +44517,7 @@
   </sense>
 </entry>
 
-<entry id="ravaed"><!--C0421-->
+<entry id="ravaed">
   <form type="regular">
     <form>
       <orth>ravaed</orth><usg type="lang" norm="S."/>
@@ -45333,7 +45333,7 @@
   <note type="source,deduced"><mentioned>Rhovanion</mentioned> LotR/Map</note>
 </entry>
 
-<entry id="rhudol"><!-- A0131 -->
+<entry id="rhudol">
   <form type="regular">
     <form>
       <orth>rhudol</orth><usg type="lang" norm="S."/>
@@ -45355,7 +45355,7 @@
   </sense>
 </entry>
 
-<entry id="rhugar"><!-- A0131 -->
+<entry id="rhugar">
   <form type="regular">
     <form>
       <orth>rhugar</orth><usg type="lang" norm="S."/>
@@ -45376,7 +45376,7 @@
   </sense>
 </entry>
 
-<entry id="rhugarol"><!-- A0131 -->
+<entry id="rhugarol">
   <form type="regular">
     <form>
       <orth>rhugarol</orth><usg type="lang" norm="S."/>
@@ -45466,7 +45466,7 @@
   </sense>
 </entry>
 
-<entry id="rî"><!-- A0116 -->
+<entry id="rî">
   <form type="regular">
     <form>
       <orth>rî</orth><usg type="lang" norm="S."/>
@@ -45627,7 +45627,7 @@
   </sense>
 </entry>
 
-<entry id="rîn.1" n="1"><!-- A0116 -->
+<entry id="rîn.1" n="1">
   <form type="regular">
     <form type="normalized">
       <orth>rîn</orth><usg type="lang" norm="*S."/>
@@ -45967,7 +45967,7 @@
   </sense>
 </entry>
 
-<entry type="affix" id="ro-"><!--C0421-->
+<entry type="affix" id="ro-">
   <form type="regular">
     <form>
       <orth>ro-</orth><usg type="lang" norm="S."/>
@@ -46194,7 +46194,7 @@
   </sense>
 </entry>
 
-<entry id="rom"><!-- A0116 -->
+<entry id="rom">
   <form type="regular">
     <form>
       <orth>rom</orth><usg type="lang" norm="S."/>
@@ -46220,7 +46220,7 @@
   </sense>
 </entry>
 
-<entry id="romru"><!-- A0116 -->
+<entry id="romru">
   <form type="regular">
     <form type="normalized">
       <orth>romru</orth><usg type="lang" norm="*S."/>
@@ -46246,7 +46246,7 @@
   <etym>rom+rû</etym>
 </entry>
 
-<entry id="rond"><!-- A0116 -->
+<entry id="rond">
   <form type="regular">
     <form>
       <orth>rond</orth><usg type="lang" norm="S., N."/>
@@ -46364,7 +46364,7 @@
   </sense>
 </entry>
 
-<entry id="rovaed"><!--C0421-->
+<entry id="rovaed">
   <form type="regular">
     <form>
       <orth>rovaed</orth><usg type="lang" norm="S."/>
@@ -46522,7 +46522,7 @@
   </sense>
 </entry>
 
-<entry id="ruist"><!-- A0101 -->
+<entry id="ruist">
   <form type="regular">
     <form>
       <orth>ruist</orth><usg type="lang" norm="S."/>
@@ -46608,7 +46608,7 @@
   </sense>
 </entry>
 
-<entry id="rûth"><!--C0421-->
+<entry id="rûth">
   <form type="regular">
     <form>
       <orth>rûth</orth><usg type="lang" norm="S."/>
@@ -46634,7 +46634,7 @@
   </sense>
 </entry>
 
-<entry id="ruthra-"><!--C0421-->
+<entry id="ruthra-">
   <form type="regular">
     <form>
       <orth>ruthra-</orth><usg type="lang" norm="S."/>
@@ -46768,7 +46768,7 @@
   </sense>
 </entry>
 
-<entry id="sadar"><!-- A0112 -->
+<entry id="sadar">
   <form type="regular">
     <form>
       <orth>sadar</orth><usg type="lang" norm="S."/>
@@ -46803,7 +46803,7 @@
   <xr type="analogy"><ptr target="sadron"/></xr>
 </entry>
 
-<entry id="sador"><!-- A0112 -->
+<entry id="sador">
   <form type="regular">
     <form>
       <orth>sador</orth><usg type="lang" norm="S."/>
@@ -46840,7 +46840,7 @@
   </note>
 </entry>
 
-<entry id="sadron"><!-- A0112 -->
+<entry id="sadron">
   <form type="regular">
   <form>
     <orth>sadron</orth><usg type="lang" norm="S."/>
@@ -47275,7 +47275,7 @@
   </re>
 </entry>
 
-<entry id="sarnas"><!-- A0112 -->
+<entry id="sarnas">
   <form type="regular">
     <form>
       <orth>sarnas</orth><usg type="lang" norm="N."/>
@@ -47297,7 +47297,7 @@
   </sense>
 </entry>
 
-<entry id="saur"><!--C0421-->
+<entry id="saur">
   <form type="regular">
     <form>
       <orth>saur</orth><usg type="lang" norm="S."/>
@@ -47341,7 +47341,7 @@
   </sense>
 </entry>
 
-<entry id="sav-"><!-- A0112 -->
+<entry id="sav-">
   <form type="regular">
     <form type="deduced">
       <orth>sav-</orth><usg type="lang" norm="S."/>
@@ -47379,7 +47379,7 @@
   </re>
 </entry>
 
-<entry id="saw.1" n="1"><!-- A0112 -->
+<entry id="saw.1" n="1">
   <form type="regular">
     <form>
       <orth>saw</orth><usg type="lang" norm="S."/>
@@ -47584,7 +47584,7 @@
   </re>
 </entry>
 
-<entry id="send"><!-- A0112 -->
+<entry id="send">
   <form type="regular">
     <form type="deduced">
       <orth>send</orth><usg type="lang" norm="S."/>
@@ -47615,7 +47615,7 @@
   </re>
 </entry>
 
-<entry id="sennas"><!-- A0112 -->
+<entry id="sennas">
   <form type="regular">
     <form>
       <orth>sennas</orth><usg type="lang" norm="S."/>
@@ -47638,7 +47638,7 @@
   <etym>"resting place", from <hi>*send, *senn</hi> (SED) ?</etym>
 </entry>
 
-<entry id="sennui"><!-- A0112 -->
+<entry id="sennui">
   <form type="regular">
     <form>
       <orth>sennui</orth><usg type="lang" norm="S."/>
@@ -47659,7 +47659,7 @@
   </sense>
 </entry>
 
-<entry id="sereg"><!-- A0112 -->
+<entry id="sereg">
   <form type="regular">
     <form>
       <orth>sereg</orth><usg type="lang" norm="S."/>
@@ -47681,7 +47681,7 @@
   </sense>
 </entry>
 
-<entry id="seregon"><!-- A0112 -->
+<entry id="seregon">
   <form type="regular">
     <form>
       <orth>seregon</orth><usg type="lang" norm="S."/>
@@ -47725,7 +47725,7 @@
   </sense>
 </entry>
 
-<entry id="sevin"><!-- A0112 -->
+<entry id="sevin">
   <form type="regular">
     <form>
       <orth>sevin</orth><usg type="lang" norm="S."/>
@@ -47875,7 +47875,7 @@
   <note type="source,deduced"><mentioned>Sigil Elu-naeth</mentioned> WJ/258</note>
 </entry>
 
-<entry id="síla"><!-- A0112 -->
+<entry id="síla">
   <form type="regular">
     <form>
       <orth>síla</orth><usg type="lang" norm="N."/>
@@ -47897,7 +47897,7 @@
   </sense>
 </entry>
 
-<entry id="síla-"><!-- A0112 -->
+<entry id="síla-">
   <form type="regular">
     <form type="deduced">
       <orth>síla-</orth><usg type="lang" norm="N."/>
@@ -47924,7 +47924,7 @@
   </re>
 </entry>
 
-<entry id="silef"><!-- A0112 -->
+<entry id="silef">
   <form type="regular">
     <form>
       <orth>silef</orth><usg type="lang" norm="S."/>
@@ -47947,7 +47947,7 @@
   </sense>
 </entry>
 
-<entry id="silevril"><!-- A0112 -->
+<entry id="silevril">
   <form type="regular">
     <form>
       <orth>silevril</orth><usg type="lang" norm="N."/>
@@ -47976,7 +47976,7 @@
   <xr type="analogy"><ptr target="golovir"/>, <ptr target="mirion"/></xr>
 </entry>
 
-<entry id="silivren"><!-- A0112 -->
+<entry id="silivren">
   <form type="regular">
     <form>
       <orth>silivren</orth><usg type="lang" norm="S."/>
@@ -48500,7 +48500,7 @@
   </sense>
 </entry>
 
-<entry id="sûl.1" n="1"><!-- A0112 -->
+<entry id="sûl.1" n="1">
   <form type="regular">
     <form>
       <orth>sûl</orth><usg type="lang" norm="S."/>
@@ -48545,7 +48545,7 @@
   </sense>
 </entry>
 
-<entry id="tachol"><!-- A0112 -->
+<entry id="tachol">
   <form type="regular">
     <form>
       <orth>tachol</orth><usg type="lang" norm="S, N."/>
@@ -48808,7 +48808,7 @@
   <note type="comment" lang="en">Written <hi>tær</hi> (with ae-ligature) in the <hi>Etymologies</hi>, rectified here according to VT/46:18 (which also lists the ligature)</note>
 </entry>
 
-<entry id="taer.2" n="2"><!-- A0112 -->
+<entry id="taer.2" n="2">
   <form type="regular">
     <form>
       <orth>taer</orth><usg type="lang" norm="S."/>
@@ -48968,7 +48968,7 @@
   </sense>
 </entry>
 
- <entry id="taith"><!-- A0112 -->
+ <entry id="taith">
   <form type="regular">
     <form>
       <orth>taith</orth><usg type="lang" norm="S."/>
@@ -49201,7 +49201,7 @@
   </sense>
 </entry>
 
-<entry id="talf.2" n="2"><!-- A0112 -->
+<entry id="talf.2" n="2">
   <form type="regular">
     <form>
       <orth>talf</orth><usg type="lang" norm="S."/>
@@ -49454,7 +49454,7 @@
   <note type="source">Ety/391, VT/46:17</note>
 </entry>
 
-<entry id="tarch"><!-- A0112 -->
+<entry id="tarch">
   <form type="regular">
     <form>
       <orth>tarch</orth><usg type="lang" norm="S."/>
@@ -49543,7 +49543,7 @@
   </sense>
 </entry>
 
-<entry id="tathar"><!-- A0112 -->
+<entry id="tathar">
   <form type="regular">
     <form>
       <orth>tathar</orth><usg type="lang" norm="S."/>
@@ -49569,7 +49569,7 @@
   </sense>
 </entry>
 
-<entry id="tathren"><!-- A0112 -->
+<entry id="tathren">
   <form type="regular">
     <form>
       <orth>tathren</orth><usg type="lang" norm="S., N."/>
@@ -49590,7 +49590,7 @@
   </sense>
 </entry>
 
-<entry id="taug"><!-- A0112 -->
+<entry id="taug">
   <form type="regular">
     <form>
       <orth>taug</orth><usg type="lang" norm="S."/>
@@ -49611,7 +49611,7 @@
   </sense>
 </entry>
 
-<entry id="taur.1" n="1"><!-- A0112 -->
+<entry id="taur.1" n="1">
   <form type="regular">
     <form>
       <orth>taur</orth><usg type="lang" norm="N."/>
@@ -49634,7 +49634,7 @@
   <xr type="analogy"><ptr target="aran"/></xr>
 </entry>
 
-<entry id="taur.2" n="2"><!-- A0112 -->
+<entry id="taur.2" n="2">
   <form type="regular">
     <form>
       <orth>taur</orth><usg type="lang" norm="S., N."/>
@@ -49656,7 +49656,7 @@
   </sense>
 </entry>
 
-<entry id="taur.3" n="3"><!-- A0112 -->
+<entry id="taur.3" n="3">
   <form type="regular">
     <form>
       <orth>taur</orth><usg type="lang" norm="N."/>
@@ -49719,7 +49719,7 @@
   </sense>
 </entry>
 
-<entry id="tavn"><!-- A0112 -->
+<entry id="tavn">
   <form type="regular">
     <form>
       <orth>tavn</orth><usg type="lang" norm="S."/>
@@ -49794,7 +49794,7 @@
   </sense>
 </entry>
 
-<entry id="taw.2" n="2"><!-- A0105 -->
+<entry id="taw.2" n="2">
   <form type="regular">
     <form>
       <orth>taw</orth><usg type="lang" norm="S."/>
@@ -49827,7 +49827,7 @@
  </re>
 </entry>
 
-<entry id="taw.3" n="3"><!-- A0112 -->
+<entry id="taw.3" n="3">
   <form type="regular">
     <form>
       <orth>taw</orth><usg type="lang" norm="S."/>
@@ -49943,7 +49943,7 @@
   <etym>tawar+gwaith "forest-elves"</etym>
 </entry>
 
-<entry id="tawen"><!-- A0112 -->
+<entry id="tawen">
   <form type="regular">
     <form>
       <orth>tawen</orth><usg type="lang" norm="S."/>
@@ -50079,7 +50079,7 @@
   <note type="comment" lang="en">It is stated in PM/318 that "<ptr target="tegil"/> was a Sindarized form of Quenya <hi>tekil</hi> "pen", not known to the Sindar until the coming of the Ñoldor". It must be assumed therefore that <hi>tegol</hi> was either rejected by Tolkien, or that it may perhaps have been considered as a dialectal variant. For a similar case where both a true Sindarin/Noldorin word and a Sindarized form conceivably coexist, see <ptr target="magol"/> and <ptr target="megil"/> "sword" (it is unlikely that weapons were not known to the Sindar before the coming of the Ñoldor)</note>
 </entry>
 
-<entry id="teitha-"><!-- A0112 -->
+<entry id="teitha-">
   <form type="regular">
     <form>
       <orth>teitha-</orth><usg type="lang" norm="S."/>
@@ -50375,7 +50375,7 @@
   </re>
 </entry>
 
-<entry id="terch"><!-- A0113 -->
+<entry id="terch">
   <form type="regular">
     <form>
       <orth>terch</orth><usg type="lang" norm="N."/>
@@ -50762,7 +50762,7 @@
   <note type="source">Ety/388, S/438, PE/17:34</note>
 </entry>
 
-<entry id="tharan"><!-- A0113 -->
+<entry id="tharan">
   <form type="regular">
     <form>
       <orth>tharan</orth><usg type="lang" norm="S."/>
@@ -51027,7 +51027,7 @@
   <xr type="analogy"><ptr target="thent"/>, <ptr target="estent"/></xr>
 </entry>
 
-<entry id="then.2" n="2"><!-- A0127 -->
+<entry id="then.2" n="2">
   <form type="regular">
     <form type="deleted">
       <orth>then</orth><usg type="lang" norm="S."/>
@@ -51216,7 +51216,7 @@
   <note type="source">Ety/392, VT/46:18</note>
 </entry>
 
-<entry id="thind"><!-- A0113 -->
+<entry id="thind">
   <form type="regular">
     <form>
       <orth>thind</orth><usg type="lang" norm="S., N."/>
@@ -51319,7 +51319,7 @@
   <note type="source">Ety/392, VT/41:10</note>
 </entry>
 
-<entry id="thôl"><!-- C0421 -->
+<entry id="thôl">
   <form type="regular">
     <form>
       <orth>thôl</orth><usg type="lang" norm="S."/>
@@ -51445,7 +51445,7 @@
   </sense>
 </entry>
 
-<entry id="thoniel"><!-- A0110 -->
+<entry id="thoniel">
   <form type="regular">
     <form>
       <orth>thoniel</orth><usg type="lang" norm="S."/>
@@ -51694,7 +51694,7 @@
   <note type="source">S/387, S/438</note>
 </entry>
 
-<entry id="thorn"><!--C0421-->
+<entry id="thorn">
   <form type="regular">
     <form>
       <orth>thorn</orth><usg type="lang" norm="S."/>
@@ -51715,7 +51715,7 @@
   </sense>
 </entry>
 
-<entry id="thos"><!--C0421-->
+<entry id="thos">
   <form type="regular">
     <form>
       <orth>thoss</orth><usg type="lang" norm="S."/>
@@ -51951,7 +51951,7 @@
   </sense>
 </entry>
 
-<entry id="till"><!-- A0112 -->
+<entry id="till">
   <form type="regular">
     <form>
       <orth>till</orth><usg type="lang" norm="S, N."/>
@@ -52991,7 +52991,7 @@
   </sense>
 </entry>
 
-<entry id="tolod"><!-- A0113 -->
+<entry id="tolod">
   <form type="regular">
     <form>
       <orth>tolod</orth><usg type="lang" norm="S."/>
@@ -53212,7 +53212,7 @@
   </note>
 </entry>
 
-<entry id="torech"><!-- A0113 -->
+<entry id="torech">
   <form type="regular">
     <form>
       <orth>torech</orth><usg type="lang" norm="S."/>
@@ -53260,7 +53260,7 @@
   </sense>
 </entry>
 
-<entry id="torn.1" n="1"><!-- A0113 -->
+<entry id="torn.1" n="1">
   <form type="regular">
     <form>
       <orth>torn</orth><usg type="lang" norm="S."/>
@@ -53293,7 +53293,7 @@
   <note type="comment" lang="en"><hi>Tyrn Gorthad</hi> "the Barrow-downs"</note>
 </entry>
 
-<entry id="torn.2" n="2"><!-- A0113 -->
+<entry id="torn.2" n="2">
   <form type="regular">
     <form>
       <orth>torn</orth><usg type="lang" norm="S."/>
@@ -53967,7 +53967,7 @@
   </sense>
 </entry>
 
-<entry id="ubed"><!-- A0131 -->
+<entry id="ubed">
   <form type="regular">
     <form>
       <orth>ubed</orth><usg type="lang" norm="N."/>
@@ -53988,7 +53988,7 @@
   </sense>
 </entry>
 
-<entry id="úbedui"><!-- A0101 -->
+<entry id="úbedui">
   <form type="regular">
     <form>
       <orth>úbedui</orth><usg type="lang" norm="S."/>
@@ -54030,7 +54030,7 @@
   </sense>
 </entry>
 
-<entry id="úgarol"><!--C0421-->
+<entry id="úgarol">
   <form type="regular">
     <form>
       <orth>úgarol</orth><usg type="lang" norm="S."/>
