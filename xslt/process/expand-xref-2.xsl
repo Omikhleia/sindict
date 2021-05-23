@@ -63,7 +63,7 @@
            <xsl:copy-of select="following-sibling::gramGrp"/>
          </xsl:when>
          </xsl:choose>
-         <xr type="see"><ptr target="{ancestor::entry/@id}"/></xr>
+         <xsl:text> </xsl:text><xr type="see"><ptr target="{ancestor::entry/@id}"/></xr>
        </entry>
     </xsl:for-each>
     <xsl:apply-templates/>
