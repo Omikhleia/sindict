@@ -1,5 +1,5 @@
 div.global {
- font: 100% Lucida Sans Unicode;
+ font-family: Lucida Sans Unicode;
 }
 .framed {
  background: #F7F9FA;
@@ -111,6 +111,39 @@ span.trans-lang, span.note-lang {
  text-transform: uppercase;
 }
 
+/* Search box with CSS delete cross */
+
+form.search-box {
+ display: inline-block;
+ border: 1pt solid #68349b;
+ border-radius: 12pt;
+ padding: 0pt 8pt;
+ margin-right: 0.8em;
+ background-color: white;
+ vertical-align: middle;
+}
+
+form.search-box input[type=text] {
+ border: none;
+ outline: none;
+ padding: 0;
+}
+
+.close-icon {
+ cursor: pointer;
+ border: none;
+ background-color: transparent;
+ display: inline-block;
+ outline: 0;
+ padding: 0;
+ text-align: center;
+ color: #68349b;
+}
+
+form.search-box input[type="text"]:not(:valid) ~ .close-icon {
+ visibility: hidden;
+}
+
 /* Hide/Show detailed information CSS toggle */
 
 label {
@@ -203,6 +236,6 @@ input[type="checkbox"]:checked ~ .show-hide {
  font-size: 10pt;
 }
 
-/* For Me On Github banner from https://codepo8.github.io/css-fork-on-github-ribbon/ */
+/* Fork Me On Github banner from https://codepo8.github.io/css-fork-on-github-ribbon/ */
 
 #forkongithub a{background:#000;color:#fff;text-decoration:none;font-family:arial,sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:1rem;line-height:2rem;position:relative;transition:0.5s;}#forkongithub a:hover{background:#c11;color:#fff;}#forkongithub a::before,#forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:#fff;}#forkongithub a::after{bottom:1px;top:auto;}@media screen and (min-width:800px){#forkongithub{position:absolute;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;z-index:9999;}#forkongithub a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}}

@@ -53,7 +53,11 @@
   <body>
     <div class="global">
       <div class="toggle-popup">
-        <input type="checkbox" id="popupChk" />
+        <form class="search-box" onsubmit="return false;">
+          <input type="text" required="required" spellcheck="false" autocomplete="off" placeholder="Search entry..." id="search"/>
+          <button class="close-icon" type="reset">×</button>
+        </form>
+        <input type="checkbox" id="popupChk"/>
         <label for="popupChk"></label>
         <div id="popup" class="fixed-popup hide-show">
           <div class="rounded">Click a word...</div>

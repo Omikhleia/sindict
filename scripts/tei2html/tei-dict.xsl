@@ -259,10 +259,10 @@
 <xsl:template match="ref">
 <xsl:choose>
  <xsl:when test='@n'>
-  <b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');"--><xsl:apply-templates/><!-- /a --></b><xsl:text> </xsl:text><span class="number"><xsl:number format="I" value="@n"/></span>
+  <b><xsl:apply-templates/></b><xsl:text> </xsl:text><span class="number"><xsl:number format="I" value="@n"/></span>
  </xsl:when>
  <xsl:otherwise>
-  <b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');" --><xsl:apply-templates/><!-- /a --></b>
+  <b><xsl:apply-templates/></b>
  </xsl:otherwise>
 </xsl:choose>
 </xsl:template>

@@ -1,3 +1,19 @@
+/* Search */
+
+function escapeRegExp(string){
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
+}
+
+function onSearch(event) {
+  if (event.target && event.target.value) {
+    const searched = event.target.value
+    const entry = sindict && sindict.find(e => compare(searched, e.textContent) <= 0)
+    if (entry) {
+      entry.scrollIntoView()
+    }
+  }
+}
+
 /* Text under cursor */
 /* Derived from https://stackoverflow.com/questions/7563169/detect-which-word-has-been-clicked-on-within-a-text */
 /* MIT-licensed */
@@ -169,11 +185,6 @@ function onClick(event) {
   }
 }
 
-const dict = document.getElementsByClassName('dictionary')
-if (dict.length) {
-  dict[0].addEventListener("click", onClick)
-}
-
 /* GitHub integration - open issue */
 /* Derived from https://github.com/sindresorhus/new-github-issue-url/blob/main/index.js */
 /* MIT-licensed */
@@ -216,3 +227,17 @@ function GitHubIssueUrl(options) {
   return url
 }
 
+/* On Load bootstrapping */
+
+let sindict
+window.onload = () => {
+  const dict = document.getElementsByClassName('dictionary')
+  if (dict.length) {
+    dict[0].addEventListener("click", onClick)
+  }
+  const searchBox = document.getElementById("search")
+  if (searchBox) {
+    searchBox.addEventListener("input", onSearch)
+  }
+  sindict = Array.from(document.querySelectorAll("p.sindict span.entry b:first-child"))
+}
