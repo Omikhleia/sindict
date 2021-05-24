@@ -2329,7 +2329,7 @@
   <note type="source">LotR/II:IV, UT/39, SD/129-31</note>
   <note type="comment" lang="fr">
     Avec article suffixé et élision dans <hi>aglar'ni Pheriannath</hi>
-   </note>
+  </note>
   <note type="comment" lang="en">
     With suffixed article and elision in <hi>aglar'ni Pheriannath</hi>
   </note>
@@ -2475,12 +2475,12 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">
-     Helge Fauskanger note que l'élément <hi>and</hi> "long" devrait normalement être
-     préservé devant <hi>r-</hi>, mais son <hi>-d</hi> est tombé parce qu'il y a un
-     autre <hi>d</hi> dans le mot (VT/41:9); cependant, ce second <hi>d</hi> disparut plus tard
-     dans le changement de <hi>-nd</hi> en <hi>-nn</hi> en finale des mots, et il est difficile
-     de dire si <hi>an-</hi> devrait ou non être rétabli en <hi>and-</hi>
-   </note>
+    Helge Fauskanger note que l'élément <hi>and</hi> "long" devrait normalement être
+    préservé devant <hi>r-</hi>, mais son <hi>-d</hi> est tombé parce qu'il y a un
+    autre <hi>d</hi> dans le mot (VT/41:9); cependant, ce second <hi>d</hi> disparut plus tard
+    dans le changement de <hi>-nd</hi> en <hi>-nn</hi> en finale des mots, et il est difficile
+    de dire si <hi>an-</hi> devrait ou non être rétabli en <hi>and-</hi>
+  </note>
   <note type="comment" lang="en">
     Helge Fauskanger noted that the element <hi>and</hi> "long" would normally be preserved before <hi>r-</hi>,
     but the <hi>-d</hi> is lost because there is another <hi>d</hi> in the word (VT/41:9); however,
@@ -3304,7 +3304,8 @@
   <re corresp="aphadrim">
     <form>
       <orth>aphadrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -3613,7 +3614,8 @@
   <re corresp="ardhon">
     <form>
       <orth>ardhon</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">augm.</usg>
     </gramGrp>
   </re>
@@ -4219,8 +4221,8 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">D'un ancien verbe <hi>atha-</hi> qui ne s'emploie plus sous forme libre
-   mais que l'on retrouve agglutiné à un verbe pour former un type de "futur" exprimant l'intention du sujet,
-   cf. <hi>linnathon</hi> etc.
+    mais que l'on retrouve agglutiné à un verbe pour former un type de "futur" exprimant l'intention du sujet,
+    cf. <hi>linnathon</hi> etc.
   </note>
   <note type="comment" lang="en">
     From an older verb <hi>atha-</hi> no longer used freely, but otherwise
@@ -4463,14 +4465,16 @@
   <re corresp="avo">
     <form>
       <orth>avo</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
   <re corresp="avon">
     <form>
       <orth>avon</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per>
     </gramGrp>
   </re>
@@ -5693,7 +5697,8 @@
   <re corresp="bellas">
     <form>
       <orth>bellas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -5987,7 +5992,8 @@
   <re corresp="blâb">
     <form>
       <orth>blâb</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -6220,7 +6226,9 @@
     La forme <hi>brerg</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon VT/45:34
   </note>
-  <note type="comment" lang="en">The form <hi>brerg</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:34</note>
+  <note type="comment" lang="en">
+    The form <hi>brerg</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:34
+  </note>
 </entry>
 
 <entry id="brand">
@@ -6436,7 +6444,8 @@
   <re corresp="bregolas">
     <form>
       <orth>bregolas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -6522,7 +6531,9 @@
     La forme <hi>brenio</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon VT/45:7
   </note>
-  <note type="comment" lang="en">The form <hi>bronio</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:7</note>
+  <note type="comment" lang="en">
+    The form <hi>bronio</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:7
+  </note>
 </entry>
 
 <entry id="brennil">
@@ -6651,7 +6662,8 @@
   <re corresp="bronad">
     <form type="deduced">
       <orth>bronad</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -6903,7 +6915,8 @@
   <re corresp="cabed">
     <form>
       <orth>cabed</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -7098,7 +7111,9 @@
   <note type="comment" lang="fr">
     Ce mot est "indéclinable" selon les <hi>Etymologies</hi>
   </note>
-  <note type="comment" lang="en">This word is indeclinable, according to the <hi>Etymologies</hi></note>
+  <note type="comment" lang="en">
+    This word is indeclinable, according to the <hi>Etymologies</hi>
+  </note>
 </entry>
 
 <entry id="cae.2" n="2">
@@ -7393,7 +7408,9 @@
   <note type="comment" lang="fr">
     Attesté dans la première édition du SdA, mais omis à partir de la seconde
   </note>
-  <note type="comment" lang="en">Attested in the first edition of LotR, but omitted from the second.</note>
+  <note type="comment" lang="en">
+    Attested in the first edition of LotR, but omitted from the second.
+  </note>
   <xr type="analogy"><ptr target="aur"/></xr>
 </entry>
 
@@ -7764,7 +7781,8 @@
   <re corresp="cannas">
     <form type="deduced">
       <orth>cannas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -8141,7 +8159,8 @@
     <form>
       <orth>agorech</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:21</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pa. t.</tns> <per>1st</per> <number>pl.</number>
     </gramGrp>
   </re>
@@ -8149,7 +8168,8 @@
     <form>
       <orth>agorer</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:14,18</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pa. t.</tns> <number>pl.</number>
     </gramGrp>
   </re>
@@ -11378,12 +11398,15 @@
   </sense>
   <note type="source">Ety/375, VT/45:37</note>
   <note type="comment" lang="fr">
-            On a longtemps supposé que <hi>damna-, dammint</hi> dans les <hi>Etymologies</hi>
-            était une erreur de lecture. VT/45:37 le confirme, bien que le déchiffrage
-            des formes de ce mot soit encore incertain
-          </note><note type="comment" lang="en">It was long considered that <hi>damna-, dammint</hi>
-     in the <hi>Etymologies</hi> might have been misreadings. VT/45:37 confirms this, though
-     the exact reading actually remains rather uncertain</note>
+    On a longtemps supposé que <hi>damna-, dammint</hi> dans les <hi>Etymologies</hi>
+    était une erreur de lecture. VT/45:37 le confirme, bien que le déchiffrage
+    des formes de ce mot soit encore incertain
+  </note>
+  <note type="comment" lang="en">
+    It was long considered that <hi>damna-, dammint</hi>
+    in the <hi>Etymologies</hi> might have been misreadings. VT/45:37 confirms this, though
+    the exact reading actually remains rather uncertain
+  </note>
 </entry>
 
 <entry id="dan">
@@ -11487,7 +11510,8 @@
     replacement for <ptr target="dangweth"/>,
     with a slightly different meaning. However, it may possibly be assumed that the word
     is valid <hi>per se</hi> (although it may be argued that this compound word does not
-    show the regular mutation or assimilation that one would have expected)</note>
+    show the regular mutation or assimilation that one would have expected)
+  </note>
   <etym>dan+peth "back word"</etym>
 </entry>
 
@@ -11606,7 +11630,9 @@
   <note type="comment" lang="fr">
     Transcrit <hi>dant-</hi> dans les <hi>Etymologies</hi>
   </note>
-  <note type="comment" lang="en">Written <hi>dant-</hi> in the <hi>Etymologies</hi></note>
+  <note type="comment" lang="en">
+    Written <hi>dant-</hi> in the <hi>Etymologies</hi>
+  </note>
   <re corresp="dannen.1">
     <form>
       <orth>dannen</orth><usg type="lang" norm="N."/>
@@ -12319,10 +12345,13 @@
   </sense>
   <note type="source,deduced"><mentioned>di-nguruthos</mentioned> LotR/IV:X, RGEO/72, Letters/278, VT/45:37</note>
   <note type="comment" lang="fr">
-            Le seul usage attesté de ce mot est en tant que préfixe, mais
-            VT/45:37 le donne comme un mot unitaire <hi>di</hi>
-          </note><note type="comment" lang="en">The only known usage of this word is as prefix, but VT/45:37
-    lists it as a unitary word <hi>di</hi></note>
+    Le seul usage attesté de ce mot est en tant que préfixe, mais
+    VT/45:37 le donne comme un mot unitaire <hi>di</hi>
+  </note>
+  <note type="comment" lang="en">
+    The only known usage of this word is as prefix, but VT/45:37
+    lists it as a unitary word <hi>di</hi>
+  </note>
 </entry>
 
 <entry id="díhena-">
@@ -12390,8 +12419,10 @@
     Dans le manuscrit de Tolkien, la forme <hi>dihenam</hi>
     a été rejetée en faveur de <ptr target="gohenam"/>
   </note>
-  <note type="comment" lang="en">In Tolkien's manuscript, the form <hi>dihenam</hi> was
-  rejected in favor of <ptr target="gohenam"/></note>
+  <note type="comment" lang="en">
+    In Tolkien's manuscript, the form <hi>dihenam</hi> was
+    rejected in favor of <ptr target="gohenam"/>
+  </note>
 </entry>
 
 <entry id="díheno">
@@ -12492,25 +12523,25 @@
   </sense>
   <note type="source">S/430, LB/354</note>
   <note type="comment" lang="fr">
-            Un usage adjectival semble s'observer dans plusieurs toponymes
-            (<hi>Amon Dín</hi> "Colline Silencieuse", etc.), bien qu'un
-            adjectif <ptr target="dínen"/> soit aussi attesté (<hi>Rath Dínen</hi>
-            "Silent Street"). Comparées à d'autres toponymes présentant une lénition
-            (<hi>Taur-na-Chardhîn</hi> "Forêt du Silence Méridionnal" dans WJ/185,193
-            et <hi>Dor Dhínen</hi> dans WJ/333,338), les formes <hi>dîn</hi> et
-            <hi>dínen</hi> semblent ne pas être mutées. Aussi, certains ont tenté
-            d'expliquer cette absence de lénition par une résistance à la mutation
-            (comme dans <hi>Nan Tathren</hi>, <hi>Ered Mithrin</hi>).
-            Cependant, Tolkien changea apparemment d'avis dans son index inachevé des
-            noms du SdA, où il expliqua ces deux mots comme des adjectifs mutés, dont
-            les formes non mutées sont respectivement <ptr target="tîn.2"/>
-            et <ptr target="tínen"/>. De telles hésitations entre des formes
-            mutées et non mutées ne sont pas inhabituelles. Un cas semblable
-            s'observe par exemple avec <ptr target="gaear"/> et
-            <ptr target="aear"/>. Evidemment, <hi>Taur-na-Chardhîn</hi> et
-            <hi>Dor Dhínen</hi> deviennent difficiles à expliquer dans cet autre
-            scénario
-          </note>
+    Un usage adjectival semble s'observer dans plusieurs toponymes
+    (<hi>Amon Dín</hi> "Colline Silencieuse", etc.), bien qu'un
+    adjectif <ptr target="dínen"/> soit aussi attesté (<hi>Rath Dínen</hi>
+    "Silent Street"). Comparées à d'autres toponymes présentant une lénition
+    (<hi>Taur-na-Chardhîn</hi> "Forêt du Silence Méridionnal" dans WJ/185,193
+    et <hi>Dor Dhínen</hi> dans WJ/333,338), les formes <hi>dîn</hi> et
+    <hi>dínen</hi> semblent ne pas être mutées. Aussi, certains ont tenté
+    d'expliquer cette absence de lénition par une résistance à la mutation
+    (comme dans <hi>Nan Tathren</hi>, <hi>Ered Mithrin</hi>).
+    Cependant, Tolkien changea apparemment d'avis dans son index inachevé des
+    noms du SdA, où il expliqua ces deux mots comme des adjectifs mutés, dont
+    les formes non mutées sont respectivement <ptr target="tîn.2"/>
+    et <ptr target="tínen"/>. De telles hésitations entre des formes
+    mutées et non mutées ne sont pas inhabituelles. Un cas semblable
+    s'observe par exemple avec <ptr target="gaear"/> et
+    <ptr target="aear"/>. Evidemment, <hi>Taur-na-Chardhîn</hi> et
+    <hi>Dor Dhínen</hi> deviennent difficiles à expliquer dans cet autre
+    scénario
+  </note>
   <note type="comment" lang="en">
     Adjectival use seems to be attested in several
     place names (<hi>Amon Dín</hi> "Silent Hill", etc.),
@@ -12854,7 +12885,8 @@
   <re corresp="dolen">
     <form>
       <orth>dolen</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
@@ -12961,13 +12993,15 @@
   </sense>
   <note type="source">Ety/376, S/430, WJ/413, Letters/417, VT/45:38, RC/384</note>
   <note type="comment" lang="fr">
-            La forme <hi>dor</hi> dans les <hi>Etymologies</hi> est une
-            erreur de lecture, voir VT/45. En composition et dans les toponymes,
-            le mot se réduit néanmoins à <hi>Dor</hi>
+    La forme <hi>dor</hi> dans les <hi>Etymologies</hi> est une
+    erreur de lecture, voir VT/45. En composition et dans les toponymes,
+    le mot se réduit néanmoins à <hi>Dor</hi>
   </note>
-  <note type="comment" lang="en">The form <hi>dor</hi> in the <hi>Etymologies</hi> is
+  <note type="comment" lang="en">
+    The form <hi>dor</hi> in the <hi>Etymologies</hi> is
     a misreading, see VT/45. In composition and in toponyms, the word is nevertheless
-    reduced to <hi>Dor</hi></note>
+    reduced to <hi>Dor</hi>
+  </note>
 </entry>
 
 <entry id="dorn">
@@ -13257,10 +13291,13 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">
-            Seul l'impératif <hi>drego</hi> est attesté.
-            Aussi, le verbe pourrait aussi bien être <hi>dreg-</hi> (inf. <hi>dregi</hi>)
+    Seul l'impératif <hi>drego</hi> est attesté.
+    Aussi, le verbe pourrait aussi bien être <hi>dreg-</hi> (inf. <hi>dregi</hi>)
   </note>
-  <note type="comment" lang="en">Only the imperative <hi>drego</hi> is attested. Therefore, the verb may also be <hi>dreg-</hi> (inf. <hi>dregi</hi>)</note>
+  <note type="comment" lang="en">
+    Only the imperative <hi>drego</hi> is attested.
+    Therefore, the verb may also be <hi>dreg-</hi> (inf. <hi>dregi</hi>)
+  </note>
   <re corresp="drego">
     <form>
       <orth>drego</orth><usg type="lang" norm="S."/>
@@ -13372,27 +13409,32 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">
-            Dans PE/11:31, une ancienne forme gnomique <hi>drû, drui</hi> signifie
-            "bois, forêt". Dans PE/13:142, <hi>drú</hi> en noldorin primitif prenait
-            le sens de "sombre". <hi>Drû</hi> pl. <hi>Drúin</hi> vint plus tard à être
-            employé pour désigner les Woses ou Hommes Sauvages, avec d'autres dérivatifs
-            (<hi>Drúadan</hi>, etc.). "Wose" est en fait une modernisation de
-            l'anglo-saxon <hi>wasa</hi>, qui ne se rencontre que dans l'expression
-            <hi>wudu-wasa</hi> "homme sauvage des bois", cf. UT/385 sq.
-            Dans les brouillons de "La Chevauchée des Rohirrim" dans WR/343-346, les
-            Woses apparaissent d'abord comme des "hommes sombres d'Eilenach".
-            Bien que Tolkien le fasse par la suite dériver, sur le plan interne,
-            de <hi>drughu</hi> dans leur propre langue, son choix pour le nom sindarin
-            des Woses a visiblement été influencé par les diverses significations
-            antérieures que ce mot a pu prendre au gré des étapes successives de
-            son invention linguistique.
+    Dans PE/11:31, une ancienne forme gnomique <hi>drû, drui</hi> signifie
+    "bois, forêt". Dans PE/13:142, <hi>drú</hi> en noldorin primitif prenait
+    le sens de "sombre". <hi>Drû</hi> pl. <hi>Drúin</hi> vint plus tard à être
+    employé pour désigner les Woses ou Hommes Sauvages, avec d'autres dérivatifs
+    (<hi>Drúadan</hi>, etc.). "Wose" est en fait une modernisation de
+    l'anglo-saxon <hi>wasa</hi>, qui ne se rencontre que dans l'expression
+    <hi>wudu-wasa</hi> "homme sauvage des bois", cf. UT/385 sq.
+    Dans les brouillons de "La Chevauchée des Rohirrim" dans WR/343-346, les
+    Woses apparaissent d'abord comme des "hommes sombres d'Eilenach".
+    Bien que Tolkien le fasse par la suite dériver, sur le plan interne,
+    de <hi>drughu</hi> dans leur propre langue, son choix pour le nom sindarin
+    des Woses a visiblement été influencé par les diverses significations
+    antérieures que ce mot a pu prendre au gré des étapes successives de
+    son invention linguistique.
   </note>
-  <note type="comment" lang="en">In PE/11:31, an older Gnomish word <hi>drû, drui</hi> meant "wood, forest", and in PE/13:142, the early Noldorin word <hi>drú</hi> was assigned the meaning "dark".
-     <hi>Drû</hi> pl. <hi>Drúin</hi> later came to be used for the name of the Woses, with other derivatives (<hi>Drúadan</hi>, etc.).
-     "Wose" is actually the modernization of an Anglo-Saxon word <hi>wasa</hi> only found in the compound <hi>wudu-wasa</hi> "wild man of
-     the woods", cf. UT/385 sq. In the drafts of the "Ride of the Rohirrim" in WR/343-346, the Woses first appeared as "the dark men of Eilenach".
-     Though internally said to derive from <hi>drughu</hi> in their own tongue, Tolkien's choice for the Sindarin name of the Woses was
-     apparently influenced by earlier meanings assigned to this word
+  <note type="comment" lang="en">
+    In PE/11:31, an older Gnomish word <hi>drû, drui</hi> meant "wood, forest", and in PE/13:142, 
+    the early Noldorin word <hi>drú</hi> was assigned the meaning "dark".
+    <hi>Drû</hi> pl. <hi>Drúin</hi> later came to be used for the name of the Woses, with other 
+    derivatives (<hi>Drúadan</hi>, etc.).
+    "Wose" is actually the modernization of an Anglo-Saxon word <hi>wasa</hi> only found in the 
+    compound <hi>wudu-wasa</hi> "wild man of the woods", cf. UT/385 sq.
+    In the drafts of the "Ride of the Rohirrim" in WR/343-346, the Woses first appeared as
+    "the dark men of Eilenach".
+    Though internally said to derive from <hi>drughu</hi> in their own tongue, Tolkien's choice for
+    the Sindarin name of the Woses was apparently influenced by earlier meanings assigned to this word.
   </note>
   <etym>MS *druγ, Dr druγu</etym>
   <re corresp="drúath">
@@ -13932,15 +13974,18 @@
   </sense>
   <note type="source">SD/129-31</note>
   <note type="comment" lang="fr">
-            Le sens "il" est déduit de la fonction apparente de ce mot dans
-            la "Lettre du Roi", mais il serait tout aussi possible de l'interpréter
-            par "en effet" (comme pour le quenya <hi>e</hi>, LR/63, VT/45:11),
-            employé ici, par usage formel, pour exprimer les souhaits ou la
-            volonté du Roi
-          </note><note type="comment" lang="en">The meaning "he" is deduced from the apparent function
+    Le sens "il" est déduit de la fonction apparente de ce mot dans
+    la "Lettre du Roi", mais il serait tout aussi possible de l'interpréter
+    par "en effet" (comme pour le quenya <hi>e</hi>, LR/63, VT/45:11),
+    employé ici, par usage formel, pour exprimer les souhaits ou la
+    volonté du Roi
+  </note>
+  <note type="comment" lang="en">
+    The meaning "he" is deduced from the apparent function
     of this word in the so-called "King's Letter", but it also seems possible to
     interpret it as "indeed" (as in Q. <hi>e</hi>, LR/63, VT/45:11), used here in
-    a way of formal address expressing the wishes or the will of the King</note>
+    a way of formal address expressing the wishes or the will of the King
+  </note>
 </entry>
 
 <entry type="affix" id="eb-">
@@ -14016,8 +14061,10 @@
     publiée, donnent "lance" comme définition de ce mot, mais la lecture
     correcte de cette entrée a depuis été rectifiée dans VT/45
   </note>
-  <note type="comment" lang="en">The <hi>Etymologies</hi> as published gloss this
-    word as "spear", but the correct reading is provided in VT/45</note>
+  <note type="comment" lang="en">
+    The <hi>Etymologies</hi> as published gloss this
+    word as "spear", but the correct reading is provided in VT/45
+  </note>
   <xr type="analogy"><ptr target="egnas"/></xr>
 </entry>
 
@@ -14569,7 +14616,10 @@
     à en croire David Salo qui a consulté le manuscrit original à Marquette rapporte que
     sa lecture est sans aucun doute <hi>edlothiad</hi>
   </note>
-  <note type="comment" lang="en">Actually, <hi>edlothiand</hi> might be a misreading, according to David Salo who checked the original manuscript at Marquette and reported that his reading was unmistakably <hi>edlothiad</hi></note>
+  <note type="comment" lang="en">
+    Actually, <hi>edlothiand</hi> might be a misreading, according to David Salo who checked
+    the original manuscript at Marquette and reported that his reading was unmistakably <hi>edlothiad</hi>
+  </note>
 </entry>
 
 <entry id="edonna-">
@@ -15748,7 +15798,8 @@
     (most) definitive form. See also the possibly related preposition
     <ptr target="ned"/>, which has sometimes been suggested to mean "in"
     (while again a prefix <ptr target="nedh-"/> is seen in the
-    <hi>Etymologies</hi>)</note>
+    <hi>Etymologies</hi>)
+  </note>
 </entry>
 
 <entry id="eneg">
@@ -15979,7 +16030,8 @@
     <form>
       <orth>epholar</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:15-19</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <number>pl.</number>
     </gramGrp>
   </re>
@@ -16741,9 +16793,11 @@
     constituées de deux demi-vers en allitération, voir
     <hi>Tolkien's Legendarium</hi> p. 122
   </note>
-  <note type="comment" lang="en">The slash sign in <hi>minlamad thent/estent</hi> might indicate either variant
-  forms of an adjective, or a sequence of two short verse units, possibly of
-  alliterating half-lines, see <hi>Tolkien's Legendarium</hi> p. 122</note>
+  <note type="comment" lang="en">
+    The slash sign in <hi>minlamad thent/estent</hi> might indicate either variant
+    forms of an adjective, or a sequence of two short verse units, possibly of
+    alliterating half-lines, see <hi>Tolkien's Legendarium</hi> p. 122
+  </note>
   <xr type="analogy"><ptr target="then.1"/>, <ptr target="thent"/></xr>
 </entry>
 
@@ -20008,12 +20062,12 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Gelir</mentioned> SD/129-31</note>
-    <note type="comment" lang="fr">
-      Traduction sindarine du nom du fils de Sam, Merry, apparaissant dans l'épilogue inédit du
-      <hi>Seigneur des Anneaux</hi> et dans la <hi>Lettre du Roi</hi>, SD/126-129. Ce pourrait être
-      un adjectif (cf. <hi>gell</hi>), mais nous le comprenons comme un nom (c-à-d. une formation
-      agentale).
-   </note>
+  <note type="comment" lang="fr">
+    Traduction sindarine du nom du fils de Sam, Merry, apparaissant dans l'épilogue inédit du
+    <hi>Seigneur des Anneaux</hi> et dans la <hi>Lettre du Roi</hi>, SD/126-129. Ce pourrait être
+    un adjectif (cf. <hi>gell</hi>), mais nous le comprenons comme un nom (c-à-d. une formation
+    agentale).
+  </note>
   <note type="comment" lang="en">
     Sindarin translation of the name of Sam's son Merry, appearing in the unpublished epilogue to <hi>The Lord of the Rings</hi> and in the <hi>King's Letter</hi>, SD/126-129. It could be an adjective (cf. <hi>gell</hi>), but we understand it as a noun (sc. an agental formation).
   </note>
@@ -20716,7 +20770,7 @@
     et en noldorin primitif (PE/13:144, <hi>glann</hi> "propre").
     Enfin, la similarité avec le gallois <hi>glan</hi> (où la voyelle, d'ailleurs,
     est aussi longue, bien que ce fait soit masqué par les conventions
-    orthographiques du gallois) est remarquable
+    orthographiques du gallois) est remarquable.
   </note><note type="comment" lang="en">The word is deduced from its mutated form, but
     it is worth mentioning that a stem GALÁN "bright", with <hi>glan</hi>
     "daylight" (and later "clear") as derivative, is listed in the <hi>Etymologies</hi>
@@ -20728,7 +20782,8 @@
     (<hi>glan</hi> "clean, pure", from "bright" originally) and in Early
     Noldorin (PE/13:144, <hi>glann</hi> "clean"). The similarity with
     Welsh <hi>glan</hi> (where the vowel, incidentally, is also long, though this
-    is concealed by Welsh orthographic convention) is also striking</note>
+    is concealed by Welsh orthographic convention) is also striking.
+  </note>
 </entry>
 
 <entry id="glân.2" n="2">
@@ -20975,7 +21030,9 @@
     Nous devrions peut-être lire <hi>gleinia-</hi> pour cette entrée,
     cf. VT/42:28, note 13
   </note>
-  <note type="comment" lang="en">This entry should perhaps read <hi>gleinia-</hi>, cf. VT/42:28, note 13</note>
+  <note type="comment" lang="en">
+    This entry should perhaps read <hi>gleinia-</hi>, cf. VT/42:28, note 13
+  </note>
 </entry>
 
 <entry id="glî">
@@ -21178,7 +21235,9 @@
     La forme <hi>glin</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon VT/45:15
   </note>
-  <note type="comment" lang="en">The form <hi>glin</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:15</note>
+  <note type="comment" lang="en">
+    The form <hi>glin</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:15
+  </note>
 </entry>
 
 <entry id="glithui">
@@ -24222,7 +24281,7 @@
     Difficile de voir une coïncidence dans le fait que <hi>gwin</hi>
     soit précisément le mot gallois - et aussi breton - pour
     "vin", emprunt au latin <hi>vinum</hi> de même que l'anglais "wine"
-    lui-même
+    lui-même.
   </note>
   <note type="comment" lang="en">The wine of Dor-Winion occurs in the <hi>Lay of the children of Húrin</hi>
     and a place located either in the "burning South" in the first version, or probably
@@ -24239,11 +24298,13 @@
     contained in this word. Then we would segment <hi>gwin-ion</hi> "of <hi>gwin</hi>".
     The context calls for "wine", "vine" or something similar. It can hardly be a coincidence that
     <hi>gwin</hi> is precisely the Welsh word for "wine", a loan from the Latin <hi>vinum</hi>,
-    as the English "wine" itself</note>
+    as the English "wine" itself.
+  </note>
   <re corresp="gwinion">
     <form type="deduced">
       <orth>gwinion</orth><usg type="lang" norm="S., N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -24491,9 +24552,12 @@
     Le sens de "shore" ("rivage") dans Ety/386 est une erreur de
     lecture pour "shoe" ("chaussure"), voir VT/Errata et Lambengolmor/735.
     Comparer aussi avec le qenya <hi>hyapa</hi> (PE/13:41) et le gnomique
-    <hi>habin</hi> (PE/11:47), de même sens
+    <hi>habin</hi> (PE/11:47), de même sens.
   </note>
-  <note type="comment" lang="en">The meaning "shore" in Ety/386 should actually read "shoe", see VT/Errata and Lambengolmor/735. Compare also with Early Qenya <hi>hyapa</hi> (PE/13:41) and Gnomish <hi>habin</hi> (PE/11:47), both glossed as "shoe"</note>
+  <note type="comment" lang="en">
+    The meaning "shore" in Ety/386 should actually read "shoe", see VT/Errata and Lambengolmor/735.
+    Compare also with Early Qenya <hi>hyapa</hi> (PE/13:41) and Gnomish <hi>habin</hi> (PE/11:47), both glossed as "shoe".
+  </note>
 </entry>
 
 <entry id="had-">
@@ -24578,7 +24642,8 @@
   <re corresp="hadhodrim">
     <form>
       <orth>hadhodrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -24798,7 +24863,9 @@
   <note type="comment" lang="fr">
     Sous la graphie <hi>hæw</hi> (avec ligature) dans les <hi>Etymologies</hi>
   </note>
-  <note type="comment" lang="en">Written <hi>hæw</hi> (with ae-ligature) in the <hi>Etymologies</hi>, rectified here according to VT/45:22</note>
+  <note type="comment" lang="en">
+    Written <hi>hæw</hi> (with ae-ligature) in the <hi>Etymologies</hi>, rectified here according to VT/45:22
+  </note>
 </entry>
 
 <entry id="haf-">
@@ -25052,11 +25119,14 @@
     La forme <hi>hamnia-</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon VT/45:21
   </note>
-  <note type="comment" lang="en">The form <hi>hamnia-</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:21</note>
+  <note type="comment" lang="en">
+    The form <hi>hamnia-</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:21
+  </note>
   <re corresp="hammad">
     <form>
       <orth>hammad</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -25154,7 +25224,8 @@
   <re corresp="hannas">
     <form>
       <orth>hannas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -25204,7 +25275,8 @@
   <re corresp="haradrim">
     <form>
       <orth>haradrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -25392,7 +25464,8 @@
   <re corresp="harthad">
     <form>
       <orth>harthad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -25716,7 +25789,8 @@
   <re corresp="honeg">
     <form>
       <orth>honeg</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
   </re>
@@ -25781,7 +25855,8 @@
   <re corresp="hebin">
     <form type="deduced">
       <orth>hebin</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per>
     </gramGrp>
   </re>
@@ -25812,7 +25887,12 @@
     La racine <hi>KHEP</hi> donnée dans VT/41:6 indique cependant que <hi>heb-</hi>
     est apparemment la forme correcte
   </note>
-  <note type="comment" lang="en">Because of the mutation triggered by the first person pronominal ending, it is impossible to guess whether the stem of this should be <hi>heb-</hi>, <hi>*hab-</hi> or <hi>*hob-</hi>. The root <hi>KHEP</hi> listed in VT/41:6 apparently implies that <hi>heb-</hi> is the correct form</note>
+  <note type="comment" lang="en">
+    Because of the mutation triggered by the first person pronominal ending,
+    it is impossible to guess whether the stem of this should be <hi>heb-</hi>,
+    <hi>*hab-</hi> or <hi>*hob-</hi>. The root <hi>KHEP</hi> listed in VT/41:6
+    apparently implies that <hi>heb-</hi> is the correct form
+  </note>
   <re>
     <form>
       <orth>chebin</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
@@ -26000,7 +26080,9 @@
     La forme <hi>helta-</hi> dans les <hi>Etymologies</hi> est une erreur
     de lecture selon VT/46:14
   </note>
-  <note type="comment" lang="en">The form <hi>helta-</hi> in the <hi>Etymologies</hi> is a misreading according to VT/46:14</note>
+  <note type="comment" lang="en">
+    The form <hi>helta-</hi> in the <hi>Etymologies</hi> is a misreading according to VT/46:14
+  </note>
 </entry>
 
 <entry id="hen.2">
@@ -26049,7 +26131,8 @@
   <re corresp="hent">
     <form>
       <orth>hent</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>dual pl.</number>
     </gramGrp>
   </re>
@@ -26142,7 +26225,8 @@
   <re corresp="heniad">
     <form>
       <orth>heniad</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -26279,7 +26363,10 @@
     Les formes <hi>heno, hœno</hi> dans les <hi>Etymologies</hi> sont des erreurs de
     lecture, selon VT/45:22
   </note>
-  <note type="comment" lang="en">The forms <hi>heno</hi>, <hi>hœno</hi> in the <hi>Etymologies</hi> are misreadings according to VT/45:22</note>
+  <note type="comment" lang="en">
+    The forms <hi>heno</hi>, <hi>hœno</hi> in the <hi>Etymologies</hi> are misreadings
+    according to VT/45:22
+  </note>
 </entry>
 
 <entry id="heron">
@@ -26879,9 +26966,11 @@
   <note type="comment" lang="fr">
     Le manuscrit initial dans VT/47:14 donnait <hi>honig</hi>,
     mais se référer tout particulièrement à VT/48:17 n. 13 pour une discussion
-    des formes diminutives en sindarin
+    des formes diminutives en sindarin.
   </note>
-  <note type="comment" lang="en">Given as <hi>honig</hi> in VT/47:14, but see VT/48:17 n. 13 for discussion</note>
+  <note type="comment" lang="en">
+    Given as <hi>honig</hi> in VT/47:14, but see VT/48:17 n. 13 for discussion.
+  </note>
   <xr type="analogy"><ptr target="toleg"/></xr>
 </entry>
 
@@ -27019,7 +27108,8 @@
   <re corresp="hobas">
     <form>
       <orth>hobas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -27288,7 +27378,8 @@
   <re corresp="hwiniol">
     <form type="normalized">
       <orth>hwiniol</orth><usg type="lang" norm="*S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>part.</tns>
     </gramGrp>
   </re>
@@ -27600,22 +27691,23 @@
     Cette analyse a ensuite été confirmée par RC/128, citant un brouillon de lettre de Tolkien (encore)
     inédit datant de 1968, où il est indiqué: "Iarwain = vieux-jeune, probablement parce que,
     pour autant que quiconque puisse s'en souvenir, il était toujours apparu de la même
-    manière, vieux mais très vigoureux"
+    manière, vieux mais très vigoureux".
   </note>
   <note type="comment" lang="en">Elvish name of Tom Bombadil, rendered as "oldest" in LotR,
-     which made some people interpret this word as a superlative form (of <ptr target="iaur"/>).
-     However this theory was later controversed. While no other superlatives in <hi>*-wain</hi>
-     are known, <ptr target="einior"/>, attested in PM/358 (where it is rendered
-     as "eldest"), makes a much better candidate for a superlative construct
-     (conceivably built from the intensive prefix <hi>an-</hi> and <hi>iaur</hi> shortened
-     in final position). Moreover, comparing <hi>iarwain</hi> to <ptr target="narwain"/>,
-     Bertrand Bellet noted in Lambengolmor/642 that <hi>iarwain</hi> could as well be
-     interpreted as an old compound construct, of the primitive <hi>*jâra</hi> (Q. <hi>yára</hi>,
-     S. <ptr target="iaur"/>) and <hi>*winjâ</hi> (Q. <hi>vinya</hi>, S. <ptr target="gwain"/>).
-     He thus suggested that <hi>iarwain</hi> could actually mean "old-new". This analysis
-     was afterwards confirmed by RC/128, quoting a (yet) unpublished draft letter from
-     Tolkien dated from 1968, which states: "Iarwain = old-young, presumably as far as
-     anybody remembered, he had always looked much the same, old but very vigorous"</note>
+    which made some people interpret this word as a superlative form (of <ptr target="iaur"/>).
+    However this theory was later controversed. While no other superlatives in <hi>*-wain</hi>
+    are known, <ptr target="einior"/>, attested in PM/358 (where it is rendered
+    as "eldest"), makes a much better candidate for a superlative construct
+    (conceivably built from the intensive prefix <hi>an-</hi> and <hi>iaur</hi> shortened
+    in final position). Moreover, comparing <hi>iarwain</hi> to <ptr target="narwain"/>,
+    Bertrand Bellet noted in Lambengolmor/642 that <hi>iarwain</hi> could as well be
+    interpreted as an old compound construct, of the primitive <hi>*jâra</hi> (Q. <hi>yára</hi>,
+    S. <ptr target="iaur"/>) and <hi>*winjâ</hi> (Q. <hi>vinya</hi>, S. <ptr target="gwain"/>).
+    He thus suggested that <hi>iarwain</hi> could actually mean "old-new". This analysis
+    was afterwards confirmed by RC/128, quoting a (yet) unpublished draft letter from
+    Tolkien dated from 1968, which states: "Iarwain = old-young, presumably as far as
+    anybody remembered, he had always looked much the same, old but very vigorous".
+  </note>
   <etym>iaur+*gwain</etym>
 </entry>
 
@@ -27644,7 +27736,8 @@
   <re corresp="iathrim">
     <form>
       <orth>iathrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -27705,7 +27798,8 @@
   <re corresp="iavas">
     <form>
       <orth>iavas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -28047,7 +28141,9 @@
     Dans ses écrits tardifs (voir en particulier VT/47:37-38), Tolkien
     réinterpréta cette forme comme un pronom réflexif (= "moi-même", "lui-même", etc.)
   </note>
-  <note type="comment" lang="en">In late writings (see esp. VT/47:37-38), Tolkien reinterpreted this form as a reflexive pronoun (= "self").</note>
+  <note type="comment" lang="en">
+    In late writings (see esp. VT/47:37-38), Tolkien reinterpreted this form as a reflexive pronoun (= "self").
+  </note>
 </entry>
 
 <entry id="im.2" n="2">
@@ -28133,7 +28229,9 @@
     Ce mot apparaît uniquement dans le toponyme <hi>Imloth Melui</hi>,
     une vallée où poussaient des roses
   </note>
-  <note type="comment" lang="en">This word only occurs in the place name <hi>Imloth Melui</hi>, a vale where roses grew</note>
+  <note type="comment" lang="en">
+    This word only occurs in the place name <hi>Imloth Melui</hi>, a vale where roses grew
+  </note>
   <etym>im+loth</etym>
 </entry>
 
@@ -28251,7 +28349,8 @@
   <re corresp="ínias">
     <form>
       <orth>ínias</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -28314,7 +28413,8 @@
   <re corresp="innas">
     <form>
       <orth>innas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -28343,7 +28443,9 @@
   <note type="comment" lang="fr">
      Mot inventé par les Elfes après qu'ils aient rencontré les Hommes
   </note>
-  <note type="comment" lang="en">New word coined by the Elves after meeting with Men</note>
+  <note type="comment" lang="en">
+    New word coined by the Elves after meeting with Men
+  </note>
   <etym>în+gem "year-sick"</etym>
 </entry>
 
@@ -28515,11 +28617,19 @@
     <hi>Isildurioni</hi> et <hi>Anárioni</hi> en quenya plus tardif, "Héritiers
     d'Isildur (resp. Anárion)" dans PM/192,196
   </note>
-  <note type="comment" lang="en">For the second meaning, cf. <hi>Hadorion</hi>, a Húrin's epithet in WJ/294, <hi>Hurinionath</hi> referring to the house of Húrin the Steward in PM/202-3,218, and Gil-Galad's epithet <hi>Ereinion</hi>, cf. also the gloss of the old Qenya cognate <hi>yondo</hi> "descendant of" in PE/12:106, or the use of the same suffix in later Quenya names such as <hi>Isildurioni</hi> and <hi>Anárioni</hi> "Heirs of Isildur (resp. Anárion)" in PM/192,196</note>
+  <note type="comment" lang="en">
+    For the second meaning, cf. <hi>Hadorion</hi>, a Húrin's epithet in WJ/294,
+    <hi>Hurinionath</hi> referring to the house of Húrin the Steward in PM/202-3,218,
+    and Gil-Galad's epithet <hi>Ereinion</hi>, cf. also the gloss of the old Qenya
+    cognate <hi>yondo</hi> "descendant of" in PE/12:106, or the use of the same
+    suffix in later Quenya names such as <hi>Isildurioni</hi> and <hi>Anárioni</hi>
+    "Heirs of Isildur (resp. Anárion)" in PM/192,196
+  </note>
   <re corresp="ionnath">
     <form>
       <orth>ionnath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -29093,7 +29203,10 @@
     Cette entrée est interpolée à partir du surnom de Sador, <hi>Labadal</hi>, qui est
     traduit par "Hopafoot" ("Cloche-Pied") dans le texte en anglais
   </note>
-  <note type="comment" lang="en">This entry is interpolated from Sador's nickname, <hi>Labadal</hi>, which is rendered as "Hopafoot" in the text</note>
+  <note type="comment" lang="en">
+    This entry is interpolated from Sador's nickname, <hi>Labadal</hi>, which is
+    rendered as "Hopafoot" in the text
+  </note>
 </entry>
 
 <entry id="lach">
@@ -29144,7 +29257,8 @@
   <re corresp="lacho">
     <form>
       <orth>lacho</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -29421,7 +29535,8 @@
   <re corresp="laegrim">
     <form>
       <orth>laegrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -29889,14 +30004,16 @@
   <re corresp="lamath">
     <form>
       <orth>lamath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
   <re corresp="lammen">
    <form>
       <orth>lammen</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <subc>poss.</subc> <per>1st</per>
     </gramGrp>
   </re>
@@ -29925,7 +30042,8 @@
   <re corresp="lammas">
     <form>
      <orth>lammas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -30305,7 +30423,8 @@
   <re corresp="lasto">
     <form>
       <orth>lasto</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -30535,7 +30654,8 @@
   <re corresp="lâf">
     <form type="normalized">
       <orth>lâf</orth><usg type="lang" norm="*S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -30808,7 +30928,11 @@
     "doigt + chêne", correspondant à un arbre réel, le "chêne de doigt"
     (<hi>Quercus digitata</hi>)
   </note>
-  <note type="comment" lang="en">In the original manuscript, one of the earlier (rejected) form of this name was <hi>lebendron</hi>. Didier Willis proposed the etymology lebed+doron "finger-oak", actually a real tree name (Finger Oak or <hi>Quercus digitata</hi>)</note>
+  <note type="comment" lang="en">
+    In the original manuscript, one of the earlier (rejected) form of this name was <hi>lebendron</hi>.
+    Didier Willis proposed the etymology lebed+doron "finger-oak", actually a real tree name (Finger Oak
+    or <hi>Quercus digitata</hi>)
+  </note>
 </entry>
 
 <entry id="lebig">
@@ -31490,7 +31614,8 @@
     meaning (as <ptr target="luin"/> was already used in that sense). He
     then proposed several explanations for it, including the possible adaptation of a
     Dwarvish name into Sindarin, but he apparently never reached a definitive
-    solution.</note>
+    solution.
+  </note>
 </entry>
 
 <entry id="lif">
@@ -31750,7 +31875,8 @@
   <re corresp="liniath">
     <form type="deduced">
       <orth>liniath</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -31844,14 +31970,16 @@
   <re corresp="linnathon">
     <form>
      <orth>linnathon</orth><usg type="lang" norm="S."/>
-   </form><gramGrp>
+   </form>
+   <gramGrp>
       <pos>v.</pos> <tns>fut.</tns> <per>1st</per>
     </gramGrp>
   </re>
   <re corresp="linnon">
     <form>
      <orth>linnon</orth><usg type="lang" norm="S."/>
-   </form><gramGrp>
+   </form>
+   <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per>
     </gramGrp>
   </re>
@@ -32194,7 +32322,8 @@
   <re corresp="lôd">
     <form type="normalized">
       <orth>lôd</orth><usg type="lang" norm="*S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -32356,7 +32485,8 @@
   <re corresp="lonnath">
     <form>
       <orth>lonnath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -32448,7 +32578,8 @@
   <re corresp="Lossoth">
     <form>
       <orth>Lossoth</orth><usg type="lang" norm="S."/>
-   </form><gramGrp>
+   </form>
+   <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -32557,21 +32688,24 @@
   <re corresp="elloth">
     <form>
       <orth>elloth</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
   </re>
   <re corresp="lotheg">
     <form>
       <orth>lotheg</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
   </re>
   <re corresp="lothod">
     <form>
       <orth>lothod</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
   </re>
@@ -32749,7 +32883,8 @@
   <re corresp="luithiad">
     <form type="deduced">
       <orth>luithiad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -33267,7 +33402,8 @@
   <re corresp="maenas">
     <form>
       <orth>maenas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -34377,7 +34513,10 @@
     Ce mot apparaît uniquement dans le toponyme <hi>Imloth Melui</hi>,
     une vallée où poussaient des roses
   </note>
-  <note type="comment" lang="en">This word only occurs in the place name <hi>Imloth Melui</hi>, a vale where roses grew</note>
+  <note type="comment" lang="en">
+    This word only occurs in the place name <hi>Imloth Melui</hi>,
+    a vale where roses grew
+  </note>
 </entry>
 
 <entry id="men-">
@@ -34583,7 +34722,8 @@
   <re corresp="menniath">
     <form type="deduced">
       <orth>menniath</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -34615,7 +34755,7 @@
   <note type="comment" lang="en">
     The word was changed to <hi>beren</hi> in the <hi>Etymologies</hi>,
     but <hi>meren</hi> would be restored together with <ptr target="mereth"/>
-    </note>
+  </note>
 </entry>
 
 <entry id="mereth">
@@ -34642,7 +34782,10 @@
     mais il ne fut cependant jamais rectifié dans les textes (cf. Mereth Aderthad
     et le nom composé Merethrond)
   </note>
-  <note type="comment" lang="en">The word was changed to <hi>bereth</hi> in the <hi>Etymologies</hi>, but was never changed in the texts (cf. Mereth Aderthad and the compound Merethrond)</note>
+  <note type="comment" lang="en">
+    The word was changed to <hi>bereth</hi> in the <hi>Etymologies</hi>,
+    but was never changed in the texts (cf. Mereth Aderthad and the compound Merethrond)
+  </note>
 </entry>
 
 <entry id="meril">
@@ -35004,7 +35147,8 @@
     <form>
       <orth>vin</orth><usg type="lang" norm="S."/>
       <bibl>VT/44:21,22</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <itype type="sm">soft mut.</itype>
     </gramGrp>
   </re>
@@ -35213,8 +35357,10 @@
     Ce terme n'est pas traduit par Tolkien. Pour une discussion de sa signification
     probable, se référer à <hi>Tolkien's Legendarium</hi> p. 121-122
   </note>
-  <note type="comment" lang="en">The word is not translated by Tolkien. For a discussion of its probable meaning,
-  refer to <hi>Tolkien's Legendarium</hi> p. 121-122</note>
+  <note type="comment" lang="en">
+    The word is not translated by Tolkien. For a discussion of its probable meaning,
+    refer to <hi>Tolkien's Legendarium</hi> p. 121-122
+  </note>
 </entry>
 
 <entry id="minna-">
@@ -35240,7 +35386,8 @@
   <re corresp="minno">
     <form>
       <orth>minno</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -35336,7 +35483,8 @@
   <re corresp="mirion">
     <form>
       <orth>mirion</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">augm.</usg>
     </gramGrp>
   </re>
@@ -35553,7 +35701,11 @@
     commentateurs l'avaient parfois supposé), mais qu'elle pourrait éventuellement être
     lue comme <hi>mistiad</hi>
   </note>
-  <note type="comment" lang="en">Carl Hostetter has noted on Sindict/372 that the form in the manuscript is certainly not a misreading for **<hi>mistad</hi> (as it was sometimes thought by other commentators), but that it could perhaps be read as <hi>mistiad</hi></note>
+  <note type="comment" lang="en">
+    Carl Hostetter has noted on Sindict/372 that the form in the manuscript is certainly
+    not a misreading for **<hi>mistad</hi> (as it was sometimes thought by other
+    commentators), but that it could perhaps be read as <hi>mistiad</hi>
+  </note>
 </entry>
 
 <entry id="mith.1" n="1">
@@ -35705,7 +35857,8 @@
   <re corresp="moeas">
     <form>
       <orth>moeas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -36185,7 +36338,8 @@
     <form>
       <orth>no</orth><usg type="lang" norm="S."/>
       <bibl>VT/44:21,24</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -36193,7 +36347,8 @@
     <form type="deleted">
       <orth>natho</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:23</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>fut.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -36201,7 +36356,8 @@
     <form>
       <orth>thor</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:23</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>fut.</tns> <number>pl.</number>
     </gramGrp>
   </re>
@@ -36273,7 +36429,8 @@
   <re corresp="nadhras">
     <form>
       <orth>nadhras</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -36592,7 +36749,8 @@
   <re corresp="naglath">
     <form>
       <orth>naglath</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -36696,7 +36854,8 @@
   <re corresp="nallon">
     <form>
      <orth>nallon</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per>
     </gramGrp>
   </re>
@@ -37286,14 +37445,16 @@
   <re corresp="naugol">
     <form>
       <orth>naugol</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
   </re>
   <re corresp="naugrim">
     <form>
       <orth>naugrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -37522,7 +37683,8 @@
   <re corresp="nobad">
     <form>
       <orth>nobad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>dual pl.</number>
     </gramGrp>
   </re>
@@ -37552,7 +37714,8 @@
     (à comparer au Q. <hi>net(e)</hi>), voir VT/47:40
   </note>
   <note type="comment" lang="en">
-    Another possible interpretation: "another, one more" (related to Q. <hi>net(e)</hi>), VT/47:40</note>
+    Another possible interpretation: "another, one more" (related to Q. <hi>net(e)</hi>), VT/47:40
+  </note>
 </entry>
 
 <entry id="neder">
@@ -38179,7 +38342,8 @@
   <re corresp="nestad">
     <form>
       <orth>nestad</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -38335,7 +38499,8 @@
   <re corresp="nethig">
     <form>
       <orth>nethig</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <gen>f.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
   </re>
@@ -38376,9 +38541,13 @@
   <note type="comment" lang="fr">
     Le manuscrit initial dans VT/47:14-15 donnait <hi>netheg</hi>,
     mais se référer tout particulièrement à VT/48:17 n. 13 pour une discussion
-    des formes diminutives en sindarin
+    des formes diminutives en sindarin.
   </note>
-  <note type="comment" lang="en">First given in the manuscript as <hi>netheg</hi> in VT/47:14-15, but see especially VT/48:17 n. 13 for discussion</note>
+  <note type="comment" lang="en">
+    First given in the manuscript as <hi>netheg</hi> in VT/47:14-15,
+    but see especially VT/48:17 n. 13 for discussion on diminutive forms
+    in sindarin.
+  </note>
 </entry>
 
 <entry id="niben">
@@ -38848,7 +39017,8 @@
   <re corresp="ningloron">
     <form type="deduced">
       <orth>ningloron</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -39111,7 +39281,8 @@
   <re corresp="neth.1">
     <form>
       <orth>neth</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
   </re>
@@ -39253,14 +39424,16 @@
   <re corresp="nogotheg">
     <form>
       <orth>nogotheg</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
   </re>
   <re corresp="nogothrim">
     <form>
       <orth>nogothrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -39446,7 +39619,8 @@
   <re corresp="nornwaith">
     <form>
       <orth>nornwaith</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -39668,7 +39842,8 @@
   <re corresp="nothrim">
     <form>
       <orth>nothrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -39909,7 +40084,8 @@
     See also Q. <hi>nurrula</hi> "mumbling" (from <hi>nurru-</hi> "murmur, grumble") in the final version of the poem <hi>The Last Ark</hi> (MC/222-23).
     Patrick Wynne therefore noted: S. *<hi>nûr</hi> in <hi>Núrnen</hi> "Sad Water"
     is apparently "sad" in the sense "bewailing, lamenting, complaining, grumbling", no doubt a reference to the general mood of
-    the hapless laborers in "the great slave-worked fields" beside the lake. (See Lambengolmor/856-860)</note>
+    the hapless laborers in "the great slave-worked fields" beside the lake. (See Lambengolmor/856-860)
+  </note>
 </entry>
 
 <entry id="nŷw">
@@ -40061,7 +40237,8 @@
   <re corresp="ódhellim">
     <form>
      <orth>ódhellim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -40412,10 +40589,12 @@
     phonologiques que celles observées dans d'autres mots, cela conduirait
     en effet à <hi>onen</hi> en sindarin, voir PE/12:31 et TT/14:48-49
   </note>
-  <note type="comment" lang="en">Written <hi>onen</hi> in some editions of LotR.
-  In the <hi>Qenyaqetsa</hi>, Qenya <hi>anta-</hi> is marked as having an irregular
-  past tense <hi>áne</hi>. Assuming the same sound-shifts as observed in other
-  words, this would indeed lead to <hi>onen</hi> in Sindarin, see PE/12:31 and TT/14:48-49</note>
+  <note type="comment" lang="en">
+    Written <hi>onen</hi> in some editions of LotR.
+    In the <hi>Qenyaqetsa</hi>, Qenya <hi>anta-</hi> is marked as having an irregular
+    past tense <hi>áne</hi>. Assuming the same sound-shifts as observed in other
+    words, this would indeed lead to <hi>onen</hi> in Sindarin, see PE/12:31 and TT/14:48-49
+  </note>
 </entry>
 
 <entry id="oneth">
@@ -40461,7 +40640,8 @@
   <re corresp="onnen">
     <form type="deduced">
       <orth>onnen</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
@@ -40526,7 +40706,8 @@
   <re corresp="onodrim">
     <form>
       <orth>onodrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -40707,7 +40888,8 @@
   <re corresp="erchion">
     <form type="deduced">
       <orth>erchion</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -40715,7 +40897,8 @@
   <re corresp="orchoth">
     <form>
       <orth>orchoth</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -40838,7 +41021,9 @@
   <note type="comment" lang="fr">
     Ce jour était auparavant dénommé <ptr target="orgaladhad"/> dans le calendrier elfique
   </note>
-  <note type="comment" lang="en">This day was formerly called <ptr target="orgaladhad"/> in the Elvish calendar</note>
+  <note type="comment" lang="en">
+    This day was formerly called <ptr target="orgaladhad"/> in the Elvish calendar
+  </note>
   <etym>aur+galadh</etym>
 </entry>
 
@@ -41005,7 +41190,8 @@
   <re corresp="orodrim">
     <form>
       <orth>orodrim</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -41268,7 +41454,8 @@
   <re corresp="orthor">
     <form>
       <orth>orthor</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -41372,7 +41559,8 @@
   <re corresp="osgar">
     <form>
       <orth>osgar</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -41623,7 +41811,8 @@
   <re corresp="ovras">
     <form>
       <orth>ovras</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -41993,7 +42182,8 @@
   <re corresp="panas">
     <form>
       <orth>panas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -42473,14 +42663,16 @@
   <re corresp="pêd">
     <form type="deduced">
       <orth>pêd</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
   <re corresp="pedo">
     <form>
      <orth>pedo</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -42721,7 +42913,8 @@
   <re corresp="penim">
     <form>
       <orth>penim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per> <number>pl.</number>
     </gramGrp>
   </re>
@@ -42841,14 +43034,16 @@
   <re corresp="penneth">
     <form>
       <orth>penneth</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
   <re corresp="pinnath">
     <form>
       <orth>pinnath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -43112,7 +43307,8 @@
   <re corresp="pennas">
     <form>
       <orth>pennas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -43198,7 +43394,8 @@
   <re corresp="periannath">
     <form>
       <orth>periannath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -43600,7 +43797,8 @@
   <re corresp="prestannen">
     <form>
       <orth>prestannen</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
@@ -43748,7 +43946,8 @@
     sa forme non mutée est incertaine. Elle pourrait aussi être *<hi>grach</hi> ou
     *<hi>rhach</hi>
   </note>
-  <note type="comment" lang="en">Since this word is attested in a compound only, its
+  <note type="comment" lang="en">
+    Since this word is attested in a compound only, its
     unmutated form is uncertain. It could also be <hi>*grach</hi> or <hi>*rhach</hi>
   </note>
 </entry>
@@ -44133,7 +44332,8 @@
   <re corresp="rammas">
     <form>
       <orth>rammas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -44324,7 +44524,9 @@
     La forme <hi>rhaes</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon VT/46.10
   </note>
-  <note type="comment" lang="en">The form <hi>rhaes</hi> in the <hi>Etymologies</hi> is a misreading according to VT/46:10</note>
+  <note type="comment" lang="en">
+    The form <hi>rhaes</hi> in the <hi>Etymologies</hi> is a misreading according to VT/46:10
+  </note>
 </entry>
 
 <entry id="rasg">
@@ -45127,7 +45329,9 @@
   <note type="comment" lang="fr">
     Signification rectifiée conformément à VT/46:10
   </note>
-  <note type="comment" lang="en">Meaning rectified according to VT/46:10</note>
+  <note type="comment" lang="en">
+    Meaning rectified according to VT/46:10
+  </note>
 </entry>
 
 <entry id="rhaw.2" n="2">
@@ -45309,7 +45513,8 @@
   <re corresp="rhovanion">
     <form>
       <orth>rhovanion</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -45521,7 +45726,9 @@
   <note type="comment" lang="fr">
     Des incertitudes subsistent quant au déchiffrage de la signification de ce mot
   </note>
-  <note type="comment" lang="en">The reading of the gloss is uncertain</note>
+  <note type="comment" lang="en">
+    The reading of the gloss is uncertain
+  </note>
 </entry>
 
 <entry id="rîdh">
@@ -46070,7 +46277,8 @@
   <re corresp="rochirrim">
     <form>
       <orth>rochirrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -47093,7 +47301,8 @@
   <re corresp="sammath">
     <form>
       <orth>sammath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -47149,7 +47358,8 @@
   <re corresp="samarad">
     <form>
       <orth>samarad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>dual pl.</number>
     </gramGrp>
   </re>
@@ -47259,7 +47469,9 @@
   <note type="comment" lang="fr">
     <hi>Sern</hi> dans UT/463 est une coquille d'impression, voir VT/42:11
   </note>
-  <note type="comment" lang="en"><hi>Sern</hi> in UT/463 is a misprint, see VT/42:11</note>
+  <note type="comment" lang="en">
+    <hi>Sern</hi> in UT/463 is a misprint, see VT/42:11
+  </note>
   <re corresp="harn.1">
     <form type="deduced">
       <orth>harn</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
@@ -47269,7 +47481,8 @@
   <re corresp="sarnas">
     <form>
       <orth>sarnas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -47497,7 +47710,8 @@
   <re corresp="sellath">
     <form>
       <orth>sellath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -47609,7 +47823,8 @@
   <re corresp="sennas">
     <form>
       <orth>sennas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -47918,7 +48133,8 @@
   <re corresp="síla">
     <form>
       <orth>síla</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -48096,14 +48312,16 @@
   <re corresp="sirion.1">
     <form>
       <orth>sirion</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">augm.</usg>
     </gramGrp>
   </re>
   <re corresp="sirion.1">
     <form type="deduced">
       <orth>sirion</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -48267,14 +48485,16 @@
   <re corresp="sôg">
     <form>
       <orth>sôg</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
   <re corresp="sogannen">
     <form>
       <orth><corr sic="sogennen" resp="ed">sogannen</corr></orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
@@ -48397,7 +48617,8 @@
   <re corresp="suilad">
     <form>
       <orth>suilad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -48447,7 +48668,8 @@
   <re corresp="suilannad">
     <form>
       <orth>suilannad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -48805,7 +49027,10 @@
   <note type="comment" lang="fr">
     Sous la graphie <hi>tær</hi> (avec ligature) dans les <hi>Etymologies</hi>
   </note>
-  <note type="comment" lang="en">Written <hi>tær</hi> (with ae-ligature) in the <hi>Etymologies</hi>, rectified here according to VT/46:18 (which also lists the ligature)</note>
+  <note type="comment" lang="en">
+    Written <hi>tær</hi> (with ae-ligature) in the <hi>Etymologies</hi>,
+    rectified here according to VT/46:18 (which also lists the ligature)
+  </note>
 </entry>
 
 <entry id="taer.2" n="2">
@@ -48923,7 +49148,9 @@
   <note type="comment" lang="fr">
     Orthographe normalisée en <hi>tafnen</hi>, comme dans <hi>lefnui</hi>
   </note>
-  <note type="comment" lang="en">Orthography normalized to <hi>tafnen</hi>, as in <hi>lefnui</hi></note>
+  <note type="comment" lang="en">
+    Orthography normalized to <hi>tafnen</hi>, as in <hi>lefnui</hi>
+  </note>
 </entry>
 
 <entry id="tagol">
@@ -49813,8 +50040,14 @@
       <def><bibl>PE/19:104</bibl> <index level1="thither" lang="en"/>thither</def>
     </trans>
   </sense>
-  <note type="comment" lang="fr">Dérivant de *<hi>tad</hi>, raccourci en *<hi>tō</hi> voir PE/19:52; et apparemment surtout employé sous forme mutée (<hi>daw</hi>, <hi>do</hi>)</note>
-  <note type="comment" lang="en">Etymologically from *<hi>tad</hi>, shortened *<hi>tō</hi> see PE/19:52, and apparently mostly used in mutated form (<hi>daw</hi>, <hi>do</hi>)</note>
+  <note type="comment" lang="fr">
+    Dérivant de *<hi>tad</hi>, raccourci en *<hi>tō</hi> voir PE/19:52; et apparemment
+    surtout employé sous forme mutée (<hi>daw</hi>, <hi>do</hi>)
+  </note>
+  <note type="comment" lang="en">
+    Etymologically from *<hi>tad</hi>, shortened *<hi>tō</hi> see PE/19:52, and apparently
+    mostly used in mutated form (<hi>daw</hi>, <hi>do</hi>)
+  </note>
   <re corresp="daw">
     <form>
       <orth>daw</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
@@ -49884,7 +50117,8 @@
   <re corresp="tawarwaith">
     <form>
       <orth>tawarwaith</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -50017,7 +50251,10 @@
     Forme sindarinisée du quenya <hi>tekil</hi>, object inconnu des Sindar jusqu'à l'arrivée
     des Ñoldor (mais voir néanmoins <ptr target="tegol"/> pour une éventuelle variante
     dialectale)</note>
-  <note type="comment" lang="en">Sindarized form of Quenya <hi>tekil</hi>, not known to the Sindar until the coming of the Ñoldor (but see however <ptr target="tegol"/> for a possible dialectal variant)</note>
+  <note type="comment" lang="en">
+    Sindarized form of Quenya <hi>tekil</hi>, not known to the Sindar until the coming
+    of the Ñoldor (but see however <ptr target="tegol"/> for a possible dialectal variant)
+  </note>
   <etym>Q tekil</etym>
 </entry>
 
@@ -50076,7 +50313,15 @@
     et <ptr target="megil"/> "épée" (il est peu probable que les armes n'aient pas été connues
     des Sindar avant l'arrivée des Ñoldor)
   </note>
-  <note type="comment" lang="en">It is stated in PM/318 that "<ptr target="tegil"/> was a Sindarized form of Quenya <hi>tekil</hi> "pen", not known to the Sindar until the coming of the Ñoldor". It must be assumed therefore that <hi>tegol</hi> was either rejected by Tolkien, or that it may perhaps have been considered as a dialectal variant. For a similar case where both a true Sindarin/Noldorin word and a Sindarized form conceivably coexist, see <ptr target="magol"/> and <ptr target="megil"/> "sword" (it is unlikely that weapons were not known to the Sindar before the coming of the Ñoldor)</note>
+  <note type="comment" lang="en">
+    It is stated in PM/318 that "<ptr target="tegil"/> was a Sindarized form of Quenya
+    <hi>tekil</hi> "pen", not known to the Sindar until the coming of the Ñoldor".
+    It must be assumed therefore that <hi>tegol</hi> was either rejected by Tolkien,
+    or that it may perhaps have been considered as a dialectal variant. For a similar
+    case where both a true Sindarin/Noldorin word and a Sindarized form conceivably coexist,
+    see <ptr target="magol"/> and <ptr target="megil"/> "sword" (it is unlikely that
+    weapons were not known to the Sindar before the coming of the Ñoldor)
+  </note>
 </entry>
 
 <entry id="teitha-">
@@ -50208,7 +50453,8 @@
   <re corresp="telerrim">
     <form>
       <orth>telerrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -50569,7 +50815,8 @@
   <re corresp="thamas">
     <form>
      <orth>thamas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -50672,7 +50919,9 @@
     L'erreur de lecture <hi>thenid, thenin</hi> dans les <hi>Etymologies</hi>
     est ici rectifiée conformément à VT/46:16
   </note>
-  <note type="comment" lang="en">Misreading <hi>thenid, thenin</hi> rectified according to VT/46:16</note>
+  <note type="comment" lang="en">
+    Misreading <hi>thenid, thenin</hi> rectified according to VT/46:16
+  </note>
 </entry>
 
 <entry id="thang">
@@ -51082,7 +51331,8 @@
   <re corresp="thinnas">
     <form>
       <orth>thinnas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -51160,7 +51410,8 @@
   <re corresp="thia">
     <form>
       <orth>thia</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -51269,7 +51520,10 @@
     La ponctuation dans les <hi>Etymologies</hi> est a priori incorrecte
     (le point après ce mot devrait vraisemblablement être une virgule)
   </note>
-  <note type="comment" lang="en">The punctuation in <hi>The Etymologies</hi> is considered incorrect (the full dot after this word should conceivably be a comma)</note>
+  <note type="comment" lang="en">
+    The punctuation in <hi>The Etymologies</hi> is considered incorrect
+    (the full dot after this word should conceivably be a comma)
+  </note>
 </entry>
 
 <entry id="thinnas">
@@ -52316,14 +52570,16 @@
   <re corresp="tirnen">
     <form type="deduced">
     <orth>tirnen</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
   <re corresp="tiro">
     <form>
       <orth>tiro</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -52351,7 +52607,8 @@
   <re corresp="tírad">
     <form>
       <orth>tírad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -52416,14 +52673,16 @@
   <re corresp="tiriel">
     <form>
       <orth>tiriel</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>part.</tns>
     </gramGrp>
   </re>
   <re corresp="tíriel">
     <form>
       <orth>tíriel</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>perf.</tns>
     </gramGrp>
   </re>
@@ -52781,7 +53040,8 @@
   <re corresp="tôg">
     <form>
       <orth>tôg</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -52898,7 +53158,8 @@
     <form>
       <orth>tôl</orth><usg type="lang" norm="S., N."/>
       <bibl>Ety/395, WJ/254, PE/17:166</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -54173,7 +54434,9 @@
   <note type="comment" lang="fr">
     Orthographe normalisée en <hi>uidafnen</hi>, comme dans <hi>lefnui</hi>
   </note>
-  <note type="comment" lang="en">Normalized to <hi>uidafnen</hi>, as in <hi>lefnui</hi></note>
+  <note type="comment" lang="en">
+    Normalized to <hi>uidafnen</hi>, as in <hi>lefnui</hi>
+  </note>
   <etym>ui+tafnen "ever-blocked"</etym>
 </entry>
 
@@ -54759,7 +55022,10 @@
     Ce mot est classé comme vieux noldorin (ON) dans les <hi>Etymologies</hi>,
     mais il semble plutôt être noldorin
   </note>
-  <note type="comment" lang="en">The word is classed as Old Noldorin (ON) in the <hi>Etymologies</hi>, but rather seems to be Noldorin</note>
+  <note type="comment" lang="en">
+    The word is classed as Old Noldorin (ON) in the <hi>Etymologies</hi>,
+    but rather seems to be Noldorin
+  </note>
 </entry>
 
 <entry id="ylf.2" n="2">
