@@ -44,7 +44,7 @@
 </xsl:text>
 </xsl:when>
 <xsl:otherwise>
-    <p id="{@id}" class="sindict xref"><xsl:apply-templates/>
+    <p id="{@id}" class="sindict xref{@rend}"><xsl:apply-templates/>
     </p><xsl:text>
 </xsl:text>
 </xsl:otherwise>
@@ -102,6 +102,20 @@
 </xsl:choose>
 </xsl:template>
 
+<xsl:template name="format-orth">
+<xsl:choose>
+  <xsl:when test="contains(parent::form/@type,'deduced')">#<b><xsl:apply-templates/></b></xsl:when>
+  <xsl:when test="contains(parent::form/@type,'normalized')">^<b><xsl:apply-templates/></b></xsl:when>
+  <xsl:when test="contains(parent::form/@type,'deleted')">&#xD7;<b><del><xsl:apply-templates/></del></b></xsl:when>
+  <xsl:when test="contains(parent::form/@type,'coined')">&#x2021;<b><xsl:apply-templates/></b></xsl:when>
+  <xsl:otherwise><b><xsl:apply-templates/></b></xsl:otherwise>
+</xsl:choose>
+</xsl:template>
+
+<xsl:template match="orth" mode="ref">
+  <xsl:call-template name="format-orth"/>
+</xsl:template>
+
 <xsl:template match="orth">
 <xsl:variable name="islemma" select="not(parent::form/preceding-sibling::form[1] or parent::form/parent::form/preceding-sibling::form[1])"/>
 <xsl:variable name="isheadword" select="not(ancestor::re) and $islemma"/>
@@ -120,13 +134,7 @@
      entries such as variants, references, etc.
   -->
 <span class="{$class}">
-<xsl:choose>
-  <xsl:when test="contains(parent::form/@type,'deduced')">#<b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');" --><xsl:apply-templates/><!-- /a --></b></xsl:when>
-  <xsl:when test="contains(parent::form/@type,'normalized')">^<!-- &#x2020; --><b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');" --><xsl:apply-templates/><!-- /a --></b></xsl:when>
-  <xsl:when test="contains(parent::form/@type,'deleted')">&#xD7;<!-- &#x2217; --><b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');" --><del><xsl:apply-templates/></del><!-- /a --></b></xsl:when>
-  <xsl:when test="contains(parent::form/@type,'coined')">&#x2021;<b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');" --><xsl:apply-templates/><!-- /a --></b></xsl:when>
-  <xsl:otherwise><b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');" --><xsl:apply-templates/><!-- /a --></b></xsl:otherwise>
-</xsl:choose>
+  <xsl:call-template name="format-orth"/>
 </span>
 <!-- Numbering -->
 <xsl:choose>
@@ -227,14 +235,15 @@
 
 <xsl:key name="entry" match="//entry" use="@id" />
 <xsl:template match="ptr">
+ <xsl:variable name="refEntry" select="key('entry',string(@target))"/>
  <xsl:choose>
- <xsl:when test="key('entry',string(@target))/descendant::form[1]/descendant::orth[1]">
-  <b><xsl:value-of select="key('entry',string(@target))/descendant::form[1]/descendant::orth[1]" /></b>
-  <xsl:if test="key('entry',string(@target))[@n]">
-  <xsl:text> </xsl:text><span class="number"><xsl:number format="I" value="key('entry',string(@target))/@n"/></span>
+ <xsl:when test="$refEntry/descendant::form[1]/descendant::orth[1]">
+  <xsl:apply-templates select="$refEntry/descendant::form[1]/descendant::orth[1]" mode="ref"/>
+  <xsl:if test="$refEntry[@n]">
+  <xsl:text> </xsl:text><span class="number"><xsl:number format="I" value="$refEntry/@n"/></span>
   </xsl:if>
  </xsl:when>
- <xsl:when test="key('entry',string(@target))">
+ <xsl:when test="$refEntry">
   <!-- Ooops, we failed find an orth form for expanding the pointer reference -->
   <xsl:message>WARNING: Unexpected exception handling reference <xsl:value-of select="@target"/></xsl:message>
   <b style="color:red">{UNRESOLVED PTR}</b>
@@ -250,10 +259,10 @@
 <xsl:template match="ref">
 <xsl:choose>
  <xsl:when test='@n'>
-  <b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');"--><xsl:apply-templates/><!-- /a --></b><xsl:text> </xsl:text><span class="number"><xsl:number format="I" value="@n"/></span>
+  <b><xsl:apply-templates/></b><xsl:text> </xsl:text><span class="number"><xsl:number format="I" value="@n"/></span>
  </xsl:when>
  <xsl:otherwise>
-  <b><!-- a href="" class="link" onclick="return sdLookUp('{text()}');" --><xsl:apply-templates/><!-- /a --></b>
+  <b><xsl:apply-templates/></b>
  </xsl:otherwise>
 </xsl:choose>
 </xsl:template>

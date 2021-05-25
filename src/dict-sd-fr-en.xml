@@ -16,7 +16,7 @@
     </titleStmt>
 
     <editionStmt>
-      <edition n="2.0-RC">Lexicon 1.0-RC</edition>
+      <edition n="2.0-RC2">Lexicon 1.0-RC</edition>
     </editionStmt>
 
     <publicationStmt>
@@ -215,7 +215,7 @@
   </note>
 </entry>
 
-<entry type="affix" id="ab-"><!-- A0105 -->
+<entry type="affix" id="ab-">
   <form type="regular">
     <form type="deduced">
       <orth>ab-</orth><usg type="lang" norm="S."/>
@@ -237,7 +237,7 @@
                               <mentioned>aphad-</mentioned> "follow" WJ/387</note>
 </entry>
 
-<entry id="ablad"><!-- A0105 -->
+<entry id="ablad">
   <form type="regular">
     <form>
       <orth>ablad</orth><usg type="lang" norm="S."/>
@@ -260,7 +260,7 @@
   </sense>
 </entry>
 
-<entry id="abonnen"><!-- A0105 -->
+<entry id="abonnen">
   <form type="regular">
     <form>
       <orth>abonnen</orth><usg type="lang" norm="S."/>
@@ -301,7 +301,7 @@
   <etym>ab-+onnen "after-born"</etym>
 </entry>
 
-<entry id="ach.1" n="1"><!-- A0101 -->
+<entry id="ach.1" n="1">
   <form type="regular">
     <form>
       <orth>ach</orth><usg type="lang" norm="S."/>
@@ -323,7 +323,7 @@
   <xr type="analogy"><ptr target="iaeth"/>, <ptr target="achad"/></xr>
 </entry>
 
-<entry id="ach.2" n="2"><!-- A0101 -->
+<entry id="ach.2" n="2">
   <form type="regular">
     <form>
       <orth>ach</orth><usg type="lang" norm="S."/>
@@ -345,7 +345,7 @@
   <note type="source,deduced"><mentioned>ach hí in Ellath îr ed epholar</mentioned> *"but now the Elves alone (?remember) it" VT/50:15</note>
 </entry>
 
-<entry id="achad"><!-- A0101 -->
+<entry id="achad">
   <form type="regular">
     <form>
       <orth>achad</orth><usg type="lang" norm="S."/>
@@ -381,7 +381,7 @@
   <xr type="analogy"><ptr target="ach.1"/></xr>
 </entry>
 
-<entry id="achar-"><!-- A0101 -->
+<entry id="achar-">
   <form type="regular">
     <form type="deduced">
       <orth>achar-</orth><usg type="lang" norm="S."/>
@@ -400,17 +400,17 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>achared, acharn</mentioned> WJ/254, PE/17:166-167</note>
-  <re>
+  <re corresp="achared">
     <form>
-       <orth>achared</orth><usg type="lang" norm="S."/>
+      <orth>achared</orth><usg type="lang" norm="S."/>
     </form>
     <gramGrp>
-       <pos>ger.</pos>
+      <pos>ger.</pos>
     </gramGrp>
   </re>
 </entry>
 
-<entry id="achared"><!-- A0101 -->
+<entry id="achared">
   <form type="regular">
     <form>
       <orth>achared</orth><usg type="lang" norm="S."/>
@@ -431,7 +431,7 @@
   </sense>
 </entry>
 
-<entry id="acharn"><!-- A0101 -->
+<entry id="acharn">
   <form type="regular">
     <form>
       <orth>acharn</orth><usg type="lang" norm="S."/>
@@ -453,7 +453,7 @@
   </sense>
 </entry>
 
-<entry id="achas"><!-- A0105 -->
+<entry id="achas">
   <form type="regular">
     <form type="deduced">
       <orth>achas</orth><usg type="lang" norm="S."/>
@@ -497,7 +497,7 @@
   <note type="source">Ety/349, VT/45:6</note>
 </entry>
 
-<entry id="ada"><!-- A0105 -->
+<entry id="ada">
   <form type="regular">
     <form>
       <orth>ada</orth><usg type="lang" norm="N."/>
@@ -520,7 +520,7 @@
   </sense>
 </entry>
 
-<entry id="adab"><!-- A0105 -->
+<entry id="adab">
   <form type="regular">
     <form>
       <orth>adab</orth><usg type="lang" norm="N."/>
@@ -581,16 +581,17 @@
   </sense>
   <note type="source">LotR/A(v), S/427, PM/324, WJ/387, Letters/282, PE/17:89,127, VT/50:14,18</note>
   <etym>Q. atan</etym>
-  <re>
+  <re corresp="adanath">
     <form>
       <orth>adanath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
 </entry>
 
-<entry id="adanadar"><!-- A0105 -->
+<entry id="adanadar">
   <form type="regular">
     <form type="deduced">
       <orth>adanadar</orth><usg type="lang" norm="S."/>
@@ -619,7 +620,7 @@
   <etym>adan+adar</etym>
 </entry>
 
-<entry id="adanath"><!-- A0105 -->
+<entry id="adanath">
   <form type="regular">
     <form>
       <orth>adanath</orth><usg type="lang" norm="S."/>
@@ -641,7 +642,7 @@
   </sense>
 </entry>
 
-<entry id="adaneth"><!-- A0101 -->
+<entry id="adaneth">
   <form type="regular">
     <form>
       <orth>adaneth</orth><usg type="lang" norm="S."/>
@@ -663,7 +664,7 @@
   <etym>adan+-eth</etym>
 </entry>
 
-<entry id="adar"><!-- A0101 -->
+<entry id="adar">
   <form type="regular">
     <form>
       <orth>adar</orth><usg type="lang" norm="S., N."/>
@@ -699,20 +700,25 @@
       <def><bibl>Ety/349, PM/324, VT/44:22</bibl> <index level1="father" lang="en"/>father</def>
     </trans>
   </sense>
-  <re>
-   <form>
-     <orth>ada</orth><usg type="lang" norm="N."/>
-   </form><gramGrp>
+  <re corresp="ada">
+    <form>
+      <orth>ada</orth><usg type="lang" norm="N."/>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">hypo.</usg>
-    </gramGrp></re><re><form>
-     <orth>atheg</orth><usg type="lang" norm="S."/>
-   </form><gramGrp>
+    </gramGrp>
+  </re>
+  <re corresp="atheg">
+    <form>
+      <orth>atheg</orth><usg type="lang" norm="S."/>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
   </re>
 </entry>
 
-<entry id="adbed-"><!-- A0101 -->
+<entry id="adbed-">
   <form type="regular">
     <form>
       <orth>adbed-</orth><usg type="lang" norm="S."/>
@@ -755,7 +761,7 @@
   </sense>
 </entry>
 
-<entry id="adertha-"><!-- A0101 -->
+<entry id="adertha-">
   <form type="regular">
     <form type="deduced">
       <orth>adertha-</orth><usg type="lang" norm="S."/>
@@ -775,10 +781,11 @@
   </sense>
   <note type="source,deduced"><mentioned>Aderthad</mentioned> S/134, S/409</note>
   <etym>ad- + ertʰa- "to make one again"</etym>
-  <re>
-   <form>
-     <orth>aderthad</orth><usg type="lang" norm="S."/>
-   </form><gramGrp>
+  <re corresp="aderthad">
+    <form>
+      <orth>aderthad</orth><usg type="lang" norm="S."/>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -805,7 +812,7 @@
   </sense>
 </entry>
 
-<entry id="adlann"><!-- A0106 -->
+<entry id="adlann">
   <form type="regular">
     <form type="normalized">
       <orth>adlann</orth><usg type="lang" norm="*S."/>
@@ -831,7 +838,7 @@
   </sense>
 </entry>
 
-<entry id="adlanna-"><!-- A0106 -->
+<entry id="adlanna-">
   <form type="regular">
     <form type="normalized">
       <orth>adlanna-</orth><usg type="lang" norm="*S."/>
@@ -928,7 +935,7 @@
   </sense>
 </entry>
 
-<entry id="aduial"><!-- A0106 -->
+<entry id="aduial">
   <form type="regular">
     <form>
       <orth>aduial</orth><usg type="lang" norm="S."/>
@@ -951,7 +958,7 @@
   <etym>ad + uial "second twilight"</etym>
 </entry>
 
-<entry id="advir"><!-- A0101 -->
+<entry id="advir">
   <form type="regular">
     <form>
       <orth>advir</orth><usg type="lang" norm="S."/>
@@ -972,7 +979,7 @@
   </sense>
 </entry>
 
-<entry id="ae.1"><!-- A0106 -->
+<entry id="ae.1">
   <form type="regular">
     <form>
       <orth>ae</orth><usg type="lang" norm="S."/>
@@ -1024,10 +1031,11 @@
   <note type="comment" lang="en">
     Tolkien changed this word several times, see <ptr target="gaear"/>
   </note>
-  <re>
+  <re corresp="aearon">
     <form>
       <orth>aearon</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">augm.</usg>
     </gramGrp>
   </re>
@@ -1090,10 +1098,11 @@
   <note type="comment" lang="en">
     The adjective <hi>oeg</hi> "sharp, pointed, piercing" from Ety/349 is perhaps rejected: Tolkien later decided that no cognate of Quenya <hi>aica</hi> "fell, terrible, dire" was used in Sindarin, "though <hi>aeg</hi> would have been its form if it had occurred" (PM/347). On the other hand, we have words such as <ptr target="aeglos"/> and <ptr target="aeglir"/>, so there must be a noun <hi>aeg</hi> "point"
   </note>
-  <re>
+  <re corresp="aegas">
     <form type="normalized">
       <orth>aegas</orth><usg type="lang" norm="*S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -1200,7 +1209,7 @@
   <etym>aeg+loss</etym>
 </entry>
 
-<entry id="ael"><!-- A0117 -->
+<entry id="ael">
   <form type="regular">
     <form type="normalized">
       <orth>ael</orth><usg type="lang" norm="*S."/>
@@ -1244,7 +1253,7 @@
       <mentioned>Aeluin</mentioned> *"Blue lake" S/162</note>
 </entry>
 
-<entry id="aen"><!-- A0106 -->
+<entry id="aen">
   <form type="regular">
     <form>
       <orth>aen</orth><usg type="lang" norm="S."/>
@@ -1302,7 +1311,7 @@
   </note>
 </entry>
 
-<entry id="aer.2" n="2"><!-- A0106 -->
+<entry id="aer.2" n="2">
   <form type="regular">
     <form>
       <orth>aer</orth><usg type="lang" norm="S."/>
@@ -1327,7 +1336,7 @@
   </sense>
 </entry>
 
-<entry id="aerlinn"><!-- A0106 -->
+<entry id="aerlinn">
   <form type="regular">
     <form>
       <orth>aerlinn</orth><usg type="lang" norm="S."/>
@@ -1371,7 +1380,7 @@
   </sense>
 </entry>
 
-<entry id="aew"><!-- A0201 -->
+<entry id="aew">
   <form type="regular">
     <form>
       <orth>aew</orth><usg type="lang" norm="N."/>
@@ -1393,7 +1402,7 @@
   </sense>
 </entry>
 
-<entry id="aewen"><!-- A0201 -->
+<entry id="aewen">
   <form type="regular">
     <form type="deduced">
       <orth>aewen</orth><usg type="lang" norm="S."/>
@@ -1414,7 +1423,7 @@
   <note type="source,deduced"><mentioned>Linaewen</mentioned> S/434</note>
 </entry>
 
-<entry id="agar"><!-- A0106 -->
+<entry id="agar">
   <form type="regular">
     <form type="deduced">
       <orth>agar</orth><usg type="lang" norm="S."/>
@@ -1436,7 +1445,7 @@
   <note type="source,deduced"><mentioned>Agarwaen</mentioned> S/378</note>
 </entry>
 
-<entry id="agarwaen"><!-- A0106 -->
+<entry id="agarwaen">
   <form type="regular">
     <form>
       <orth>agarwaen</orth><usg type="lang" norm="S."/>
@@ -1500,7 +1509,7 @@
   <note type="source">Ety/348, S/427, WJ/412</note>
 </entry>
 
-<entry id="aglonn"><!-- A0106 -->
+<entry id="aglonn">
   <form type="regular">
     <form type="normalized">
       <orth>aglonn</orth><usg type="lang" norm="*S."/>
@@ -1530,7 +1539,7 @@
   </sense>
 </entry>
 
-<entry id="aglor"><!-- A0105 -->
+<entry id="aglor">
   <form type="regular">
     <form>
       <orth>aglor</orth><usg type="lang" norm="N."/>
@@ -1619,7 +1628,7 @@
   </note>
 </entry>
 
-<entry id="ai.1" n="1"><!-- A0106 -->
+<entry id="ai.1" n="1">
   <form type="regular">
     <form>
       <orth>ai</orth><usg type="lang" norm="S."/>
@@ -1650,7 +1659,7 @@
   </note>
 </entry>
 
-<entry id="ai.2" n="2"><!-- A0106 -->
+<entry id="ai.2" n="2">
   <form type="regular">
     <form>
       <orth>ai</orth><usg type="lang" norm="S."/>
@@ -1673,7 +1682,7 @@
     "those who trespass against us" VT/44:21,30</note>
 </entry>
 
-<entry id="air"><!--C0421-->
+<entry id="air">
   <form type="regular">
     <form>
       <orth>air</orth><usg type="lang" norm="S."/>
@@ -1740,7 +1749,7 @@
   </sense>
 </entry>
 
-<entry id="alae"><!-- A0106 -->
+<entry id="alae">
   <form type="regular">
     <form>
       <orth>alae</orth><usg type="lang" norm="S."/>
@@ -1768,7 +1777,7 @@
   </note>
 </entry>
 
-<entry id="alaf"><!--C0421-->
+<entry id="alaf">
   <form type="regular">
     <form>
       <orth>alaf</orth><usg type="lang" norm="S."/>
@@ -1790,7 +1799,7 @@
   </sense>
 </entry>
 
-<entry id="alag"><!-- A0106 -->
+<entry id="alag">
   <form type="regular">
     <form>
       <orth>alag</orth><usg type="lang" norm="N."/>
@@ -1811,7 +1820,7 @@
   </sense>
 </entry>
 
-<entry id="alagos"><!-- A0106 -->
+<entry id="alagos">
   <form type="regular">
     <form>
       <orth>alagos</orth><usg type="lang" norm="N."/>
@@ -1833,7 +1842,7 @@
   </sense>
 </entry>
 
-<entry id="albeth"><!-- A0101 -->
+<entry id="albeth">
   <form type="regular">
     <form>
       <orth>albeth</orth><usg type="lang" norm="S."/>
@@ -1932,7 +1941,7 @@
   <note type="source">Ety/348, S/427, LotR/E, VT/42:6-7</note>
 </entry>
 
-<entry id="alu"><!--C0421-->
+<entry id="alu">
   <form type="regular">
     <form type="normalized">
       <orth>alu</orth><usg type="lang" norm="*S."/>
@@ -1966,7 +1975,7 @@
   </sense>
 </entry>
 
-<entry id="alwed"><!-- A0106 -->
+<entry id="alwed">
   <form type="regular">
     <form>
       <orth>alwed</orth><usg type="lang" norm="S."/>
@@ -2062,7 +2071,7 @@
   <note type="source">Ety/372, S/427, LotR/A(i), TC/183</note>
 </entry>
 
-<entry id="amartha-"><!--C0421-->
+<entry id="amartha-">
   <form type="regular">
     <form>
       <orth>amartha-</orth><usg type="lang" norm="S."/>
@@ -2157,7 +2166,7 @@
   <etym>am+pend</etym>
 </entry>
 
-<entry id="amdir"><!-- A0106 -->
+<entry id="amdir">
   <form type="regular">
     <form>
       <orth>amdir</orth><usg type="lang" norm="S."/>
@@ -2179,7 +2188,7 @@
   <etym>am+tîr "looking up"</etym>
 </entry>
 
-<entry id="amloth"><!-- A0106 -->
+<entry id="amloth">
   <form type="regular">
     <form>
       <orth>amloth</orth><usg type="lang" norm="S."/>
@@ -2320,7 +2329,7 @@
   <note type="source">LotR/II:IV, UT/39, SD/129-31</note>
   <note type="comment" lang="fr">
     Avec article suffixé et élision dans <hi>aglar'ni Pheriannath</hi>
-   </note>
+  </note>
   <note type="comment" lang="en">
     With suffixed article and elision in <hi>aglar'ni Pheriannath</hi>
   </note>
@@ -2415,7 +2424,7 @@
   <note type="source">Ety/348, S/427</note>
 </entry>
 
-<entry id="andaith"><!-- A0101 -->
+<entry id="andaith">
   <form type="regular">
     <form>
       <orth>andaith</orth><usg type="lang" norm="S."/>
@@ -2466,12 +2475,12 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">
-     Helge Fauskanger note que l'élément <hi>and</hi> "long" devrait normalement être
-     préservé devant <hi>r-</hi>, mais son <hi>-d</hi> est tombé parce qu'il y a un
-     autre <hi>d</hi> dans le mot (VT/41:9); cependant, ce second <hi>d</hi> disparut plus tard
-     dans le changement de <hi>-nd</hi> en <hi>-nn</hi> en finale des mots, et il est difficile
-     de dire si <hi>an-</hi> devrait ou non être rétabli en <hi>and-</hi>
-   </note>
+    Helge Fauskanger note que l'élément <hi>and</hi> "long" devrait normalement être
+    préservé devant <hi>r-</hi>, mais son <hi>-d</hi> est tombé parce qu'il y a un
+    autre <hi>d</hi> dans le mot (VT/41:9); cependant, ce second <hi>d</hi> disparut plus tard
+    dans le changement de <hi>-nd</hi> en <hi>-nn</hi> en finale des mots, et il est difficile
+    de dire si <hi>an-</hi> devrait ou non être rétabli en <hi>and-</hi>
+  </note>
   <note type="comment" lang="en">
     Helge Fauskanger noted that the element <hi>and</hi> "long" would normally be preserved before <hi>r-</hi>,
     but the <hi>-d</hi> is lost because there is another <hi>d</hi> in the word (VT/41:9); however,
@@ -2481,7 +2490,7 @@
   <etym>and+*rand "long cycle"</etym>
 </entry>
 
-<entry id="andreth"><!-- A0101 -->
+<entry id="andreth">
   <form type="regular">
     <form>
       <orth>andreth</orth><usg type="lang" norm="S."/>
@@ -2530,10 +2539,11 @@
   </sense>
   <note type="source">Ety/348, Ety/387, WJ/322</note>
   <etym>and+fang</etym>
-  <re>
+  <re corresp="anfangrim">
     <form>
       <orth>anfangrim</orth><usg type="lang" norm="S."/>
-   </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -2629,10 +2639,11 @@
   </sense>
   <note type="source,deduced"><mentioned>anglennatha</mentioned> SD/129-31</note>
   <etym>an+*glenna-, OS *añglenna-, CE *angledna-</etym>
-  <re>
+  <re corresp="anglennatha">
     <form>
       <orth>anglennatha</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>fut.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -2803,7 +2814,7 @@
   <etym>an+*íra- or *níra- (?) OS *anîra-</etym>
 </entry>
 
-<entry id="ann.1"><!--C0421-->
+<entry id="ann.1">
   <form type="regular">
     <form>
       <orth>ann</orth><usg type="lang" norm="S."/>
@@ -2855,7 +2866,7 @@
   </note>
 </entry>
 
-<entry id="anna-"><!-- A0131 -->
+<entry id="anna-">
   <form type="regular">
     <form type="deduced">
       <orth>anna-</orth><usg type="lang" norm="S., N."/>
@@ -2898,7 +2909,7 @@
            <bibl>PE/17:147</bibl> to <index level1="add" lang="en"/>add to</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="anno">
     <form>
       <orth>anno</orth><usg type="lang" norm="S."/>
       <bibl>VT/44:21,27</bibl>
@@ -2907,7 +2918,7 @@
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="ónen">
     <form>
       <orth>ónen</orth><usg type="lang" norm="S."/>
       <bibl>LotR/A(v), PE/17:147, PE/22:163</bibl>
@@ -2924,7 +2935,7 @@
       <tns>irreg. pa. t.</tns> <per>1st</per>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="anno">
     <form>
       <orth>anno</orth><usg type="lang" norm="S."/>
       <bibl>VT/44:21,27</bibl>
@@ -3022,7 +3033,7 @@
   <note type="source">Ety/348, S/428, LotR/II:IV, TAI/150, PE/17:45</note>
 </entry>
 
-<entry id="annui"><!-- A0106 -->
+<entry id="annui">
   <form type="regular">
     <form>
       <orth>annui</orth><usg type="lang" norm="S."/>
@@ -3065,7 +3076,7 @@
   <note type="source">Ety/376, S/428, LotR/VI:IV, LotR/E, LB/354, Letters/308</note>
 </entry>
 
-<entry id="annúnaid"><!-- A0105 -->
+<entry id="annúnaid">
   <form type="regular">
     <form>
       <orth>annúnaid</orth><usg type="lang" norm="S."/>
@@ -3172,7 +3183,7 @@
   </note>
 </entry>
 
-<entry id="anu.2" n="2"><!-- A0131 -->
+<entry id="anu.2" n="2">
   <form type="regular">
     <form type="normalized">
       <orth>anu</orth><usg type="lang" norm="*S."/>
@@ -3290,10 +3301,11 @@
       <def><bibl>WJ/387</bibl> <index level1="man" lang="en"/>man</def> <usg type="hint">elvish name for men</usg>
     </trans>
   </sense>
-  <re>
+  <re corresp="aphadrim">
     <form>
       <orth>aphadrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -3556,7 +3568,7 @@
   </sense>
 </entry>
 
-<entry id="arben"><!-- A0106 -->
+<entry id="arben">
   <form type="regular">
   <form>
     <orth>arben</orth><usg type="lang" norm="S."/>
@@ -3599,10 +3611,11 @@
       <def><bibl>Ety/360</bibl> <index level1="realm" lang="en"/>realm, <index level1="region" lang="en"/>region</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="ardhon">
     <form>
       <orth>ardhon</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">augm.</usg>
     </gramGrp>
   </re>
@@ -3806,7 +3819,7 @@
   <xr type="analogy"><ptr target="arnediad"/></xr>
 </entry>
 
-<entry id="arphen"><!-- A0106 -->
+<entry id="arphen">
   <form type="regular">
     <form>
       <orth>arphen</orth><usg type="lang" norm="S."/>
@@ -3881,7 +3894,7 @@
   <etym>Q arta or OS *artʰa, CE *arâtâ</etym>
 </entry>
 
-<entry id="arthor"><!-- A0101 -->
+<entry id="arthor">
   <form type="regular">
     <form>
       <orth>arthor</orth><usg type="lang" norm="S."/>
@@ -3972,7 +3985,7 @@
   </sense>
 </entry>
 
-<entry id="astor"><!-- A0101 --><!-- C0421 -->
+<entry id="astor">
   <form type="regular">
     <form>
       <orth>astor</orth><usg type="lang" norm="S."/>
@@ -4044,10 +4057,11 @@
     </trans>
   </sense>
   <note type="source">PE/17:49, PE/17:148</note>
-  <re>
+  <re corresp="athelas">
     <form>
       <orth>athelas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos>
     </gramGrp>
   </re>
@@ -4132,7 +4146,7 @@
   <etym>*athea "benefical, helpful" + CS las "leaf"</etym>
 </entry>
 
-<entry id="athgar"><!--C0421-->
+<entry id="athgar">
   <form type="regular">
     <form>
       <orth>athgar</orth><usg type="lang" norm="S."/>
@@ -4153,7 +4167,7 @@
   </sense>
 </entry>
 
-<entry id="athgen"><!--C0421-->
+<entry id="athgen">
   <form type="regular">
     <form>
       <orth>athgen</orth><usg type="lang" norm="S."/>
@@ -4174,7 +4188,7 @@
   </sense>
 </entry>
 
-<entry id="athon"><!-- A0131 -->
+<entry id="athon">
   <form type="regular">
     <form>
       <orth>athon</orth><usg type="lang" norm="S."/>
@@ -4207,8 +4221,8 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">D'un ancien verbe <hi>atha-</hi> qui ne s'emploie plus sous forme libre
-   mais que l'on retrouve agglutiné à un verbe pour former un type de "futur" exprimant l'intention du sujet,
-   cf. <hi>linnathon</hi> etc.
+    mais que l'on retrouve agglutiné à un verbe pour former un type de "futur" exprimant l'intention du sujet,
+    cf. <hi>linnathon</hi> etc.
   </note>
   <note type="comment" lang="en">
     From an older verb <hi>atha-</hi> no longer used freely, but otherwise
@@ -4238,7 +4252,7 @@
   <note type="source,deduced"><mentioned>Athrabeth</mentioned> MR/329</note>
 </entry>
 
-<entry id="athrabeth"><!-- A0105 -->
+<entry id="athrabeth">
   <form type="regular">
     <form>
       <orth>athrabeth</orth><usg type="lang" norm="S."/>
@@ -4321,7 +4335,7 @@
   <etym>ath-+rada-</etym>
 </entry>
 
-<entry id="athragardh"><!-- A0101 -->
+<entry id="athragardh">
   <form type="regular">
     <form>
       <orth>athragardh</orth><usg type="lang" norm="S."/>
@@ -4392,7 +4406,7 @@
   <note type="source">Ety/365, Ety/379, VT/45:23</note>
 </entry>
 
-<entry id="auth.2" n="2"><!-- A0106 -->
+<entry id="auth.2" n="2">
   <form type="regular">
     <form>
       <orth>auth</orth><usg type="lang" norm="S."/>
@@ -4432,31 +4446,35 @@
       <def>will not</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="avad">
     <form>
       <orth>avad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="avam">
     <form>
       <orth>avam</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per> <number>pl.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="avo">
     <form>
       <orth>avo</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="avon">
     <form>
       <orth>avon</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per>
     </gramGrp>
   </re>
@@ -4638,7 +4656,7 @@
   </note>
 </entry>
 
-<entry id="avras"><!-- A0101 -->
+<entry id="avras">
   <form type="regular">
     <form>
       <orth>avras</orth><usg type="lang" norm="S."/>
@@ -4659,7 +4677,7 @@
   </sense>
 </entry>
 
-<entry id="aw"><!-- A0112 -->
+<entry id="aw">
   <form type="regular">
     <form>
       <orth>aw</orth><usg type="lang" norm="S."/>
@@ -4834,7 +4852,7 @@
   <xr type="analogy"><ptr target="badhor"/></xr>
 </entry>
 
-<entry id="bain"><!-- A0117 -->
+<entry id="bain">
   <form type="regular">
     <form>
       <orth>bain</orth><usg type="lang" norm="S."/>
@@ -5155,7 +5173,7 @@
   <note type="source">Ety/351, LotR/F, TC/179, RC/343</note>
 </entry>
 
-<entry id="bardh"><!-- A0101 -->
+<entry id="bardh">
   <form type="regular">
     <form>
       <orth>bardh</orth><usg type="lang" norm="S."/>
@@ -5176,7 +5194,7 @@
   </sense>
 </entry>
 
-<entry id="bardor"><!-- A0101 -->
+<entry id="bardor">
   <form type="regular">
     <form>
       <orth>bardor</orth><usg type="lang" norm="S."/>
@@ -5225,7 +5243,7 @@
   </sense>
 </entry>
 
-<entry id="barthan"><!-- A0101 -->
+<entry id="barthan">
   <form type="regular">
     <form>
       <orth>barthan</orth><usg type="lang" norm="S."/>
@@ -5555,7 +5573,7 @@
   <note type="source">WJ/371, PE/17:143</note>
 </entry>
 
-<entry id="baw.2" n="2"><!-- A0105 -->
+<entry id="baw.2" n="2">
   <form type="regular">
     <form>
       <orth>baw</orth><usg type="lang" norm="S."/>
@@ -5576,7 +5594,7 @@
   </sense>
 </entry>
 
-<entry id="belaith"><!-- A0105 -->
+<entry id="belaith">
   <form type="regular">
     <form>
       <orth>belaith</orth><usg type="lang" norm="S."/>
@@ -5613,7 +5631,8 @@
       <def><index lang="fr" level1="grand"/>grand, <index lang="fr" level1="puissant"/>puissant</def>
     </trans>
     <trans lang="en">
-      <def><index level1="great" lang="en"/>great, <index level1="mighty" lang="en"/>mighty</def>
+      <def><index level1="great" lang="en"/>great, <index level1="mighty" lang="en"/>mighty
+           <bibl>PE/22:30,31,35</bibl> large</def>
     </trans>
   </sense>
   <note type="source">Ety/352, S/428</note>
@@ -5624,9 +5643,11 @@
     </form>
     <form>
       <orth>feleg</orth><usg type="lang" norm="N"/>
-      <bibl>PE/22:31</bibl>
-      <itype type="sm">soft mut.</itype>
+      <bibl>PE/22:30,31,35</bibl>
     </form>
+    <gramGrp>
+      <itype type="sm">soft mut.</itype>
+    </gramGrp>
     <note type="source,deduced"><mentioned>Cûl Veleg</mentioned> RC/536</note>
   </re>
 </entry>
@@ -5673,10 +5694,11 @@
     </trans>
   </sense>
   <note type="source">Ety/352, Tengwestie/20031207</note>
-  <re>
+  <re corresp="bellas">
     <form>
       <orth>bellas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -5967,10 +5989,11 @@
       <def><bibl>Ety/380</bibl> to <index level1="beat" lang="en"/>beat, <index level1="batter" lang="en"/>batter, <index level1="flap" lang="en"/>flap</def> <usg type="hint">wings, etc.</usg>
     </trans>
   </sense>
-  <re>
+  <re corresp="blâb">
     <form>
       <orth>blâb</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -5997,7 +6020,7 @@
   </sense>
 </entry>
 
-<entry id="boda-"><!-- A0105 -->
+<entry id="boda-">
   <form type="regular">
     <form>
       <orth>boda-</orth><usg type="lang" norm="S."/>
@@ -6203,7 +6226,9 @@
     La forme <hi>brerg</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon VT/45:34
   </note>
-  <note type="comment" lang="en">The form <hi>brerg</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:34</note>
+  <note type="comment" lang="en">
+    The form <hi>brerg</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:34
+  </note>
 </entry>
 
 <entry id="brand">
@@ -6262,7 +6287,7 @@
   </sense>
 </entry>
 
-<entry id="brass.1" n="1"><!-- A0105 -->
+<entry id="brass.1" n="1">
   <form type="regular">
     <form>
       <orth>brass</orth><usg type="lang" norm="N."/>
@@ -6281,7 +6306,7 @@
       <def><bibl>Ety/351</bibl> white <index level1="heat" lang="en"/>heat</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="brassen">
     <form>
       <orth>brassen</orth><usg type="lang" norm="N."/>
     </form>
@@ -6291,7 +6316,7 @@
   </re>
 </entry>
 
-<entry id="brass.2" n="2"><!-- A0105 -->
+<entry id="brass.2" n="2">
   <form type="regular">
     <form>
       <orth>brass</orth><usg type="lang" norm="S."/>
@@ -6312,7 +6337,7 @@
   </sense>
 </entry>
 
-<entry id="brassen"><!-- A0105 -->
+<entry id="brassen">
   <form type="regular">
     <form>
       <orth>brassen</orth><usg type="lang" norm="N."/>
@@ -6333,7 +6358,7 @@
   </sense>
 </entry>
 
-<entry id="brasta-"><!-- A0105 -->
+<entry id="brasta-">
   <form type="regular">
     <form>
       <orth>brasta-</orth><usg type="lang" norm="S."/>
@@ -6416,10 +6441,11 @@
     </trans>
   </sense>
   <note type="source">Ety/352, Ety/373</note>
-  <re>
+  <re corresp="bregolas">
     <form>
       <orth>bregolas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -6505,7 +6531,9 @@
     La forme <hi>brenio</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon VT/45:7
   </note>
-  <note type="comment" lang="en">The form <hi>bronio</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:7</note>
+  <note type="comment" lang="en">
+    The form <hi>bronio</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:7
+  </note>
 </entry>
 
 <entry id="brennil">
@@ -6631,10 +6659,11 @@
       <def><bibl>Ety/353</bibl> to <index level1="last" lang="en"/>last, to <index level1="survive" lang="en"/>survive</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="bronad">
     <form type="deduced">
       <orth>bronad</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -6725,7 +6754,7 @@
   <note type="source,deduced"><mentioned>Bruinen</mentioned> LotR/Index</note>
 </entry>
 
-<entry id="brûn"><!-- A0105 -->
+<entry id="brûn">
   <form type="regular">
     <form>
       <orth>brûn</orth><usg type="lang" norm="N."/>
@@ -6747,7 +6776,7 @@
   </sense>
 </entry>
 
-<entry id="budhu"><!-- A0105 -->
+<entry id="budhu">
   <form type="regular">
     <form>
       <orth>budhu</orth><usg type="lang" norm="S."/>
@@ -6883,10 +6912,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>cabed</mentioned> S/386, WJ/100</note>
-  <re>
+  <re corresp="cabed">
     <form>
       <orth>cabed</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -6966,7 +6996,7 @@
   <etym>MS *kabr, OS *kapro "leaper"</etym>
 </entry>
 
-<entry id="cadhad"><!--C0421-->
+<entry id="cadhad">
   <form type="regular">
     <form>
       <orth>cadhad</orth><usg type="lang" norm="S."/>
@@ -7081,7 +7111,9 @@
   <note type="comment" lang="fr">
     Ce mot est "indéclinable" selon les <hi>Etymologies</hi>
   </note>
-  <note type="comment" lang="en">This word is indeclinable, according to the <hi>Etymologies</hi></note>
+  <note type="comment" lang="en">
+    This word is indeclinable, according to the <hi>Etymologies</hi>
+  </note>
 </entry>
 
 <entry id="cae.2" n="2">
@@ -7220,7 +7252,7 @@
   <xr type="analogy"><ptr target="cae.2"/>, <ptr target="pae"/></xr>
 </entry>
 
-<entry id="caer.2" n="2"><!-- A0131 -->
+<entry id="caer.2" n="2">
   <form type="regular">
     <form>
       <orth>caer</orth><usg type="lang" norm="N."/>
@@ -7376,7 +7408,9 @@
   <note type="comment" lang="fr">
     Attesté dans la première édition du SdA, mais omis à partir de la seconde
   </note>
-  <note type="comment" lang="en">Attested in the first edition of LotR, but omitted from the second.</note>
+  <note type="comment" lang="en">
+    Attested in the first edition of LotR, but omitted from the second.
+  </note>
   <xr type="analogy"><ptr target="aur"/></xr>
 </entry>
 
@@ -7744,10 +7778,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>morchaint</mentioned> S/432, Ety/362, VT/42:28</note>
-  <re>
+  <re corresp="cannas">
     <form type="deduced">
       <orth>cannas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -7806,7 +7841,7 @@
   </sense>
 </entry>
 
-<entry id="car-"><!-- A0131 -->
+<entry id="car-">
   <form type="regular">
     <form type="deduced">
       <orth>car-</orth><usg type="lang" norm="S."/>
@@ -7832,7 +7867,7 @@
       <def>to <index level1="do" lang="en"/>do</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="caro">
     <form>
       <orth>caro</orth><usg type="lang" norm="S."/>
       <bibl>VT/44:21,25</bibl>
@@ -7851,7 +7886,7 @@
       <itype type="sm">soft mut.</itype>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="cerin">
     <form>
       <orth>cerin</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:22, PE/17:132</bibl>
@@ -7998,7 +8033,7 @@
       <pos>v.</pos> <tns>pres.</tns> <per>2nd</per> <number>pl.</number> <usg type="reg">fam.</usg>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="cerir">
     <form>
       <orth>cerir</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:22, VT/44:22, PE/17:132</bibl>
@@ -8124,7 +8159,8 @@
     <form>
       <orth>agorech</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:21</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pa. t.</tns> <per>1st</per> <number>pl.</number>
     </gramGrp>
   </re>
@@ -8132,7 +8168,8 @@
     <form>
       <orth>agorer</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:14,18</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pa. t.</tns> <number>pl.</number>
     </gramGrp>
   </re>
@@ -8412,7 +8449,7 @@
   <xr type="analogy"><ptr target="úgarth"/></xr>
 </entry>
 
-<entry id="carweg"><!--C0421-->
+<entry id="carweg">
   <form type="regular">
     <form>
       <orth>carweg</orth><usg type="lang" norm="S."/>
@@ -8433,7 +8470,7 @@
   </sense>
 </entry>
 
-<entry id="cast"><!-- A0127 -->
+<entry id="cast">
   <form type="regular">
     <form type="deduced">
       <orth>cast</orth><usg type="lang" norm="S."/>
@@ -8455,7 +8492,7 @@
   <note type="source,deduced"><mentioned>Angast</mentioned> "Long Cape" VT/42:28</note>
 </entry>
 
-<entry id="castol"><!-- C0421 -->
+<entry id="castol">
   <form type="regular">
     <form>
       <orth>castol</orth><usg type="lang" norm="S."/>
@@ -8520,7 +8557,7 @@
   </sense>
 </entry>
 
-<entry id="caun.1" n="1"><!-- A0127 -->
+<entry id="caun.1" n="1">
   <form type="regular">
     <form>
       <orth>caun</orth><usg type="lang" norm="S."/>
@@ -8541,10 +8578,11 @@
            <index level1="clamor" lang="en"/>clamor</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="conath">
     <form>
       <orth>conath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -8571,7 +8609,7 @@
   </sense>
 </entry>
 
-<entry id="caun.3" n="3"><!-- A0127 -->
+<entry id="caun.3" n="3">
   <form type="regular">
     <form>
       <orth>caun</orth><usg type="lang" norm="S."/>
@@ -9086,10 +9124,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>cenedril</mentioned> TI/184</note>
-  <re>
+  <re corresp="cened">
     <form type="deduced">
       <orth>cened</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -9298,10 +9337,11 @@
   </sense>
   <note type="source">WJ/396, LotR/E</note>
   <etym>Etym. "cutting"</etym>
-  <re>
+  <re corresp="certhas">
     <form>
       <orth>certhas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -9375,7 +9415,7 @@
   </sense>
 </entry>
 
-<entry id="ci"><!--C0421-->
+<entry id="ci">
   <form type="regular">
     <form>
       <orth>ci</orth><usg type="lang" norm="S."/>
@@ -9403,7 +9443,7 @@
   </re>
 </entry>
 
-<entry id="cidinn"><!--C0421-->
+<entry id="cidinn">
   <form type="regular">
     <form>
       <orth>cidinn</orth><usg type="lang" norm="S."/>
@@ -9447,7 +9487,7 @@
   </sense>
 </entry>
 
-<entry id="cinnog"><!--C0421-->
+<entry id="cinnog">
   <form type="regular">
     <form>
       <orth>cinnog</orth><usg type="lang" norm="S."/>
@@ -9524,7 +9564,7 @@
   <etym>cair+tân</etym>
 </entry>
 
-<entry id="ciriaeth"><!-- A0105 -->
+<entry id="ciriaeth">
   <form type="regular">
     <form>
       <orth>ciriaeth</orth><usg type="lang" norm="N."/>
@@ -9612,7 +9652,7 @@
   </sense>
 </entry>
 
-<entry id="claur"><!-- A0105 -->
+<entry id="claur">
   <form type="regular">
     <form>
       <orth>claur</orth><usg type="lang" norm="N."/>
@@ -10036,7 +10076,7 @@
   </sense>
 </entry>
 
-<entry id="cova-"><!--C0421-->
+<entry id="cova-">
   <form type="regular">
     <form>
       <orth>cova-</orth><usg type="lang" norm="S."/>
@@ -10060,7 +10100,7 @@
   <xr type="analogy"><ptr target="covad-"/></xr>
 </entry>
 
-<entry id="covad-"><!--C0421-->
+<entry id="covad-">
   <form type="regular">
     <form>
       <orth>covad-</orth><usg type="lang" norm="S."/>
@@ -10449,10 +10489,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>cuio</mentioned> LotR/VI:IV, Letters/308</note>
-  <re>
+  <re corresp="cuio">
     <form>
      <orth>cuio</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -10526,10 +10567,11 @@
       <def><bibl>Ety/366</bibl> to be <index level1="alive" lang="en"/>alive</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="cuinar">
     <form type="deduced">
       <orth>cuinar</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per> <number>pl.</number>
     </gramGrp>
   </re>
@@ -10699,7 +10741,7 @@
   <etym>cû+raun</etym>
 </entry>
 
-<entry id="curu"><!-- A0127 -->
+<entry id="curu">
   <form type="regular">
     <form>
       <orth>curu</orth><usg type="lang" norm="N."/>
@@ -10970,7 +11012,7 @@
   <note type="source">Ety/354, S/430</note>
 </entry>
 
-<entry id="daebeth"><!-- A0105 -->
+<entry id="daebeth">
   <form type="regular">
     <form>
       <orth>daebeth</orth><usg type="lang" norm="S."/>
@@ -10991,7 +11033,7 @@
   </sense>
 </entry>
 
-<entry id="daedelu"><!-- A0105 -->
+<entry id="daedelu">
   <form type="regular">
     <form>
       <orth>daedelu</orth><usg type="lang" norm="N."/>
@@ -11034,7 +11076,7 @@
   </sense>
 </entry>
 
-<entry id="daen"><!-- A0105 -->
+<entry id="daen">
   <form type="regular">
     <form>
       <orth>daen</orth><usg type="lang" norm="N."/>
@@ -11180,14 +11222,15 @@
     </trans>
   </sense>
   <note type="source">Ety/375, VT/45:37</note>
-  <re><form>
+  <re corresp="dangen"><form>
      <orth>dangen</orth><usg type="lang" norm="N."/>
-   </form><gramGrp>
+   </form>
+   <gramGrp>
       <tns>pp.</tns>
     </gramGrp></re>
 </entry>
 
-<entry id="dagnir"><!-- A0105 -->
+<entry id="dagnir">
   <form type="regular">
     <form>
       <orth>dagnir</orth><usg type="lang" norm="S."/>
@@ -11244,13 +11287,17 @@
     </trans>
   </sense>
   <note type="source">Ety/375, S/430</note>
-  <re><form>
-     <orth>dagorath</orth><usg type="lang" norm="S."/>
-   </form><gramGrp>
+  <re corresp="dagorath">
+    <form>
+      <orth>dagorath</orth><usg type="lang" norm="S."/>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
-    </gramGrp></re></entry>
+    </gramGrp>
+  </re>
+</entry>
 
-<entry id="dagorath"><!-- A0105 -->
+<entry id="dagorath">
   <form type="regular">
     <form>
       <orth>dagorath</orth><usg type="lang" norm="S."/>
@@ -11351,12 +11398,15 @@
   </sense>
   <note type="source">Ety/375, VT/45:37</note>
   <note type="comment" lang="fr">
-            On a longtemps supposé que <hi>damna-, dammint</hi> dans les <hi>Etymologies</hi>
-            était une erreur de lecture. VT/45:37 le confirme, bien que le déchiffrage
-            des formes de ce mot soit encore incertain
-          </note><note type="comment" lang="en">It was long considered that <hi>damna-, dammint</hi>
-     in the <hi>Etymologies</hi> might have been misreadings. VT/45:37 confirms this, though
-     the exact reading actually remains rather uncertain</note>
+    On a longtemps supposé que <hi>damna-, dammint</hi> dans les <hi>Etymologies</hi>
+    était une erreur de lecture. VT/45:37 le confirme, bien que le déchiffrage
+    des formes de ce mot soit encore incertain
+  </note>
+  <note type="comment" lang="en">
+    It was long considered that <hi>damna-, dammint</hi>
+    in the <hi>Etymologies</hi> might have been misreadings. VT/45:37 confirms this, though
+    the exact reading actually remains rather uncertain
+  </note>
 </entry>
 
 <entry id="dan">
@@ -11430,7 +11480,7 @@
   </re>
 </entry>
 
-<entry id="danbeth"><!-- A0105 -->
+<entry id="danbeth">
   <form type="regular">
     <form type="deleted">
       <orth>danbeth</orth><usg type="lang" norm="S."/>
@@ -11460,7 +11510,8 @@
     replacement for <ptr target="dangweth"/>,
     with a slightly different meaning. However, it may possibly be assumed that the word
     is valid <hi>per se</hi> (although it may be argued that this compound word does not
-    show the regular mutation or assimilation that one would have expected)</note>
+    show the regular mutation or assimilation that one would have expected)
+  </note>
   <etym>dan+peth "back word"</etym>
 </entry>
 
@@ -11489,7 +11540,7 @@
   <xr type="analogy"><ptr target="dadwen-"/></xr>
 </entry>
 
-<entry id="dangar"><!-- C0421 -->
+<entry id="dangar">
   <form type="regular">
     <form>
       <orth>dangar-</orth><usg type="lang" norm="S."/>
@@ -11532,7 +11583,7 @@
   </sense>
 </entry>
 
-<entry id="dangweth"><!-- A0105 -->
+<entry id="dangweth">
   <form type="regular">
     <form>
       <orth>dangweth</orth><usg type="lang" norm="S."/>
@@ -11579,11 +11630,14 @@
   <note type="comment" lang="fr">
     Transcrit <hi>dant-</hi> dans les <hi>Etymologies</hi>
   </note>
-  <note type="comment" lang="en">Written <hi>dant-</hi> in the <hi>Etymologies</hi></note>
-  <re>
+  <note type="comment" lang="en">
+    Written <hi>dant-</hi> in the <hi>Etymologies</hi>
+  </note>
+  <re corresp="dannen.1">
     <form>
       <orth>dannen</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
@@ -11679,7 +11733,7 @@
   <etym>dan+gwaith</etym>
 </entry>
 
-<entry id="danwedh"><!-- A0105 -->
+<entry id="danwedh">
   <form type="regular">
     <form>
       <orth>danwedh</orth><usg type="lang" norm="S."/>
@@ -11702,7 +11756,7 @@
   <etym>dan+gwedh</etym>
 </entry>
 
-<entry id="dar-"><!-- A0105 -->
+<entry id="dar-">
   <form type="regular">
     <form type="deduced">
       <orth>dar-</orth><usg type="lang" norm="N."/>
@@ -11728,7 +11782,7 @@
       <def><bibl>Ety/353</bibl> to <index level1="stay" lang="en"/>stay, <index level1="wait" lang="en"/>wait, <index level1="stop" lang="en"/>stop, <index level1="remain" lang="en"/>remain</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="daro">
     <form>
       <orth>daro</orth><usg type="lang" norm="S., N."/>
     </form>
@@ -11738,7 +11792,7 @@
   </re>
 </entry>
 
-<entry id="daro"><!-- A0501 -->
+<entry id="daro">
   <form type="regular">
     <form>
       <orth>daro</orth><usg type="lang" norm="S., N."/>
@@ -11760,7 +11814,7 @@
   </sense>
 </entry>
 
-<entry id="dartha-"><!-- A0105 -->
+<entry id="dartha-">
   <form type="regular">
     <form>
       <orth>dartha-</orth><usg type="lang" norm="N."/>
@@ -11781,7 +11835,7 @@
   </sense>
 </entry>
 
-<entry id="dath"><!-- A0501 -->
+<entry id="dath">
   <form type="regular">
     <form>
       <orth>dath</orth><usg type="lang" norm="N."/>
@@ -11803,7 +11857,7 @@
   </sense>
 </entry>
 
-<entry id="daug"><!-- A0105 -->
+<entry id="daug">
   <form type="regular">
     <form>
       <orth>daug</orth><usg type="lang" norm="N."/>
@@ -11825,7 +11879,7 @@
   </sense>
 </entry>
 
-<entry id="daur.1" n="1"><!-- A0105 -->
+<entry id="daur.1" n="1">
   <form type="regular">
     <form>
       <orth>daur</orth><usg type="lang" norm="S."/>
@@ -11859,7 +11913,7 @@
   </sense>
 </entry>
 
-<entry id="daur.2" n="2"><!-- A0112 -->
+<entry id="daur.2" n="2">
   <form type="regular">
     <form>
       <orth>daur</orth><usg type="lang" norm="S."/>
@@ -11892,7 +11946,7 @@
   <xr type="analogy"><ptr target="sael"/></xr>
 </entry>
 
-<entry id="daw"><!-- A0105 -->
+<entry id="daw">
   <form type="regular">
     <form>
       <orth>daw</orth><usg type="lang" norm="N."/>
@@ -11914,7 +11968,7 @@
   </sense>
 </entry>
 
- <entry id="dail"><!-- A0105 -->
+ <entry id="dail">
   <form type="regular">
     <form>
       <orth>dail</orth><usg type="lang" norm="S."/>
@@ -12291,10 +12345,13 @@
   </sense>
   <note type="source,deduced"><mentioned>di-nguruthos</mentioned> LotR/IV:X, RGEO/72, Letters/278, VT/45:37</note>
   <note type="comment" lang="fr">
-            Le seul usage attesté de ce mot est en tant que préfixe, mais
-            VT/45:37 le donne comme un mot unitaire <hi>di</hi>
-          </note><note type="comment" lang="en">The only known usage of this word is as prefix, but VT/45:37
-    lists it as a unitary word <hi>di</hi></note>
+    Le seul usage attesté de ce mot est en tant que préfixe, mais
+    VT/45:37 le donne comme un mot unitaire <hi>di</hi>
+  </note>
+  <note type="comment" lang="en">
+    The only known usage of this word is as prefix, but VT/45:37
+    lists it as a unitary word <hi>di</hi>
+  </note>
 </entry>
 
 <entry id="díhena-">
@@ -12317,17 +12374,19 @@
     </trans>
   </sense>
   <xr type="analogy"><ptr target="gohena-"/></xr>
-  <re>
+  <re corresp="díhenam">
     <form type="normalized">
       <orth>díhenam</orth><usg type="lang" norm="*S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per> <number>pl.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="díheno">
     <form>
       <orth>díheno</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -12360,8 +12419,10 @@
     Dans le manuscrit de Tolkien, la forme <hi>dihenam</hi>
     a été rejetée en faveur de <ptr target="gohenam"/>
   </note>
-  <note type="comment" lang="en">In Tolkien's manuscript, the form <hi>dihenam</hi> was
-  rejected in favor of <ptr target="gohenam"/></note>
+  <note type="comment" lang="en">
+    In Tolkien's manuscript, the form <hi>dihenam</hi> was
+    rejected in favor of <ptr target="gohenam"/>
+  </note>
 </entry>
 
 <entry id="díheno">
@@ -12462,25 +12523,25 @@
   </sense>
   <note type="source">S/430, LB/354</note>
   <note type="comment" lang="fr">
-            Un usage adjectival semble s'observer dans plusieurs toponymes
-            (<hi>Amon Dín</hi> "Colline Silencieuse", etc.), bien qu'un
-            adjectif <ptr target="dínen"/> soit aussi attesté (<hi>Rath Dínen</hi>
-            "Silent Street"). Comparées à d'autres toponymes présentant une lénition
-            (<hi>Taur-na-Chardhîn</hi> "Forêt du Silence Méridionnal" dans WJ/185,193
-            et <hi>Dor Dhínen</hi> dans WJ/333,338), les formes <hi>dîn</hi> et
-            <hi>dínen</hi> semblent ne pas être mutées. Aussi, certains ont tenté
-            d'expliquer cette absence de lénition par une résistance à la mutation
-            (comme dans <hi>Nan Tathren</hi>, <hi>Ered Mithrin</hi>).
-            Cependant, Tolkien changea apparemment d'avis dans son index inachevé des
-            noms du SdA, où il expliqua ces deux mots comme des adjectifs mutés, dont
-            les formes non mutées sont respectivement <ptr target="tîn.2"/>
-            et <ptr target="tínen"/>. De telles hésitations entre des formes
-            mutées et non mutées ne sont pas inhabituelles. Un cas semblable
-            s'observe par exemple avec <ptr target="gaear"/> et
-            <ptr target="aear"/>. Evidemment, <hi>Taur-na-Chardhîn</hi> et
-            <hi>Dor Dhínen</hi> deviennent difficiles à expliquer dans cet autre
-            scénario
-          </note>
+    Un usage adjectival semble s'observer dans plusieurs toponymes
+    (<hi>Amon Dín</hi> "Colline Silencieuse", etc.), bien qu'un
+    adjectif <ptr target="dínen"/> soit aussi attesté (<hi>Rath Dínen</hi>
+    "Silent Street"). Comparées à d'autres toponymes présentant une lénition
+    (<hi>Taur-na-Chardhîn</hi> "Forêt du Silence Méridionnal" dans WJ/185,193
+    et <hi>Dor Dhínen</hi> dans WJ/333,338), les formes <hi>dîn</hi> et
+    <hi>dínen</hi> semblent ne pas être mutées. Aussi, certains ont tenté
+    d'expliquer cette absence de lénition par une résistance à la mutation
+    (comme dans <hi>Nan Tathren</hi>, <hi>Ered Mithrin</hi>).
+    Cependant, Tolkien changea apparemment d'avis dans son index inachevé des
+    noms du SdA, où il expliqua ces deux mots comme des adjectifs mutés, dont
+    les formes non mutées sont respectivement <ptr target="tîn.2"/>
+    et <ptr target="tínen"/>. De telles hésitations entre des formes
+    mutées et non mutées ne sont pas inhabituelles. Un cas semblable
+    s'observe par exemple avec <ptr target="gaear"/> et
+    <ptr target="aear"/>. Evidemment, <hi>Taur-na-Chardhîn</hi> et
+    <hi>Dor Dhínen</hi> deviennent difficiles à expliquer dans cet autre
+    scénario
+  </note>
   <note type="comment" lang="en">
     Adjectival use seems to be attested in several
     place names (<hi>Amon Dín</hi> "Silent Hill", etc.),
@@ -12594,7 +12655,7 @@
   <note type="source">Ety/354, Ety/352</note>
 </entry>
 
-<entry id="dirbedui"><!--C0421-->
+<entry id="dirbedui">
   <form type="regular">
     <form>
       <orth>dirbedui</orth><usg type="lang" norm="S."/>
@@ -12821,16 +12882,17 @@
       <def><bibl>Ety/355</bibl> to <index level1="conceal" lang="en"/>conceal</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="dolen">
     <form>
       <orth>dolen</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
 </entry>
 
-<entry id="dom"><!-- A0127 -->
+<entry id="dom">
   <form type="regular">
     <form>
       <orth>dom</orth><usg type="lang" norm="S."/>
@@ -12931,13 +12993,15 @@
   </sense>
   <note type="source">Ety/376, S/430, WJ/413, Letters/417, VT/45:38, RC/384</note>
   <note type="comment" lang="fr">
-            La forme <hi>dor</hi> dans les <hi>Etymologies</hi> est une
-            erreur de lecture, voir VT/45. En composition et dans les toponymes,
-            le mot se réduit néanmoins à <hi>Dor</hi>
+    La forme <hi>dor</hi> dans les <hi>Etymologies</hi> est une
+    erreur de lecture, voir VT/45. En composition et dans les toponymes,
+    le mot se réduit néanmoins à <hi>Dor</hi>
   </note>
-  <note type="comment" lang="en">The form <hi>dor</hi> in the <hi>Etymologies</hi> is
+  <note type="comment" lang="en">
+    The form <hi>dor</hi> in the <hi>Etymologies</hi> is
     a misreading, see VT/45. In composition and in toponyms, the word is nevertheless
-    reduced to <hi>Dor</hi></note>
+    reduced to <hi>Dor</hi>
+  </note>
 </entry>
 
 <entry id="dorn">
@@ -12959,10 +13023,11 @@
       <def><bibl>WJ/413</bibl> <index level1="stiff" lang="en"/>stiff, <index level1="tough" lang="en"/>tough</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="dornhoth">
     <form>
       <orth>dornhoth</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -13226,14 +13291,18 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">
-            Seul l'impératif <hi>drego</hi> est attesté.
-            Aussi, le verbe pourrait aussi bien être <hi>dreg-</hi> (inf. <hi>dregi</hi>)
+    Seul l'impératif <hi>drego</hi> est attesté.
+    Aussi, le verbe pourrait aussi bien être <hi>dreg-</hi> (inf. <hi>dregi</hi>)
   </note>
-  <note type="comment" lang="en">Only the imperative <hi>drego</hi> is attested. Therefore, the verb may also be <hi>dreg-</hi> (inf. <hi>dregi</hi>)</note>
-  <re>
+  <note type="comment" lang="en">
+    Only the imperative <hi>drego</hi> is attested.
+    Therefore, the verb may also be <hi>dreg-</hi> (inf. <hi>dregi</hi>)
+  </note>
+  <re corresp="drego">
     <form>
       <orth>drego</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -13340,40 +13409,47 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">
-            Dans PE/11:31, une ancienne forme gnomique <hi>drû, drui</hi> signifie
-            "bois, forêt". Dans PE/13:142, <hi>drú</hi> en noldorin primitif prenait
-            le sens de "sombre". <hi>Drû</hi> pl. <hi>Drúin</hi> vint plus tard à être
-            employé pour désigner les Woses ou Hommes Sauvages, avec d'autres dérivatifs
-            (<hi>Drúadan</hi>, etc.). "Wose" est en fait une modernisation de
-            l'anglo-saxon <hi>wasa</hi>, qui ne se rencontre que dans l'expression
-            <hi>wudu-wasa</hi> "homme sauvage des bois", cf. UT/385 sq.
-            Dans les brouillons de "La Chevauchée des Rohirrim" dans WR/343-346, les
-            Woses apparaissent d'abord comme des "hommes sombres d'Eilenach".
-            Bien que Tolkien le fasse par la suite dériver, sur le plan interne,
-            de <hi>drughu</hi> dans leur propre langue, son choix pour le nom sindarin
-            des Woses a visiblement été influencé par les diverses significations
-            antérieures que ce mot a pu prendre au gré des étapes successives de
-            son invention linguistique.
+    Dans PE/11:31, une ancienne forme gnomique <hi>drû, drui</hi> signifie
+    "bois, forêt". Dans PE/13:142, <hi>drú</hi> en noldorin primitif prenait
+    le sens de "sombre". <hi>Drû</hi> pl. <hi>Drúin</hi> vint plus tard à être
+    employé pour désigner les Woses ou Hommes Sauvages, avec d'autres dérivatifs
+    (<hi>Drúadan</hi>, etc.). "Wose" est en fait une modernisation de
+    l'anglo-saxon <hi>wasa</hi>, qui ne se rencontre que dans l'expression
+    <hi>wudu-wasa</hi> "homme sauvage des bois", cf. UT/385 sq.
+    Dans les brouillons de "La Chevauchée des Rohirrim" dans WR/343-346, les
+    Woses apparaissent d'abord comme des "hommes sombres d'Eilenach".
+    Bien que Tolkien le fasse par la suite dériver, sur le plan interne,
+    de <hi>drughu</hi> dans leur propre langue, son choix pour le nom sindarin
+    des Woses a visiblement été influencé par les diverses significations
+    antérieures que ce mot a pu prendre au gré des étapes successives de
+    son invention linguistique.
   </note>
-  <note type="comment" lang="en">In PE/11:31, an older Gnomish word <hi>drû, drui</hi> meant "wood, forest", and in PE/13:142, the early Noldorin word <hi>drú</hi> was assigned the meaning "dark".
-     <hi>Drû</hi> pl. <hi>Drúin</hi> later came to be used for the name of the Woses, with other derivatives (<hi>Drúadan</hi>, etc.).
-     "Wose" is actually the modernization of an Anglo-Saxon word <hi>wasa</hi> only found in the compound <hi>wudu-wasa</hi> "wild man of
-     the woods", cf. UT/385 sq. In the drafts of the "Ride of the Rohirrim" in WR/343-346, the Woses first appeared as "the dark men of Eilenach".
-     Though internally said to derive from <hi>drughu</hi> in their own tongue, Tolkien's choice for the Sindarin name of the Woses was
-     apparently influenced by earlier meanings assigned to this word
+  <note type="comment" lang="en">
+    In PE/11:31, an older Gnomish word <hi>drû, drui</hi> meant "wood, forest", and in PE/13:142, 
+    the early Noldorin word <hi>drú</hi> was assigned the meaning "dark".
+    <hi>Drû</hi> pl. <hi>Drúin</hi> later came to be used for the name of the Woses, with other 
+    derivatives (<hi>Drúadan</hi>, etc.).
+    "Wose" is actually the modernization of an Anglo-Saxon word <hi>wasa</hi> only found in the 
+    compound <hi>wudu-wasa</hi> "wild man of the woods", cf. UT/385 sq.
+    In the drafts of the "Ride of the Rohirrim" in WR/343-346, the Woses first appeared as
+    "the dark men of Eilenach".
+    Though internally said to derive from <hi>drughu</hi> in their own tongue, Tolkien's choice for
+    the Sindarin name of the Woses was apparently influenced by earlier meanings assigned to this word.
   </note>
   <etym>MS *druγ, Dr druγu</etym>
-  <re>
+  <re corresp="drúath">
     <form>
       <orth>drúath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="drúwaith">
     <form>
       <orth>drúwaith</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -13498,10 +13574,11 @@
     </trans>
   </sense>
   <note type="source">Ety/354, S/430, VT/45:9, SD/302</note>
-  <re>
+  <re corresp="dúath">
     <form>
       <orth>dúath</orth><usg type="lang" norm="S., N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -13897,18 +13974,21 @@
   </sense>
   <note type="source">SD/129-31</note>
   <note type="comment" lang="fr">
-            Le sens "il" est déduit de la fonction apparente de ce mot dans
-            la "Lettre du Roi", mais il serait tout aussi possible de l'interpréter
-            par "en effet" (comme pour le quenya <hi>e</hi>, LR/63, VT/45:11),
-            employé ici, par usage formel, pour exprimer les souhaits ou la
-            volonté du Roi
-          </note><note type="comment" lang="en">The meaning "he" is deduced from the apparent function
+    Le sens "il" est déduit de la fonction apparente de ce mot dans
+    la "Lettre du Roi", mais il serait tout aussi possible de l'interpréter
+    par "en effet" (comme pour le quenya <hi>e</hi>, LR/63, VT/45:11),
+    employé ici, par usage formel, pour exprimer les souhaits ou la
+    volonté du Roi
+  </note>
+  <note type="comment" lang="en">
+    The meaning "he" is deduced from the apparent function
     of this word in the so-called "King's Letter", but it also seems possible to
     interpret it as "indeed" (as in Q. <hi>e</hi>, LR/63, VT/45:11), used here in
-    a way of formal address expressing the wishes or the will of the King</note>
+    a way of formal address expressing the wishes or the will of the King
+  </note>
 </entry>
 
-<entry type="affix" id="eb-"><!-- A0105 -->
+<entry type="affix" id="eb-">
   <form type="regular">
     <form type="deduced">
       <orth>eb-</orth><usg type="lang" norm="S., N."/>
@@ -13929,7 +14009,7 @@
   <note type="source,deduced"><mentioned>Eblaer</mentioned> "June, (?) Before-summer" PM/136</note>
 </entry>
 
-<entry id="eblaer"><!-- A0105 -->
+<entry id="eblaer">
   <form type="regular">
     <form>
       <orth>eblaer</orth><usg type="lang" norm="S."/>
@@ -13981,8 +14061,10 @@
     publiée, donnent "lance" comme définition de ce mot, mais la lecture
     correcte de cette entrée a depuis été rectifiée dans VT/45
   </note>
-  <note type="comment" lang="en">The <hi>Etymologies</hi> as published gloss this
-    word as "spear", but the correct reading is provided in VT/45</note>
+  <note type="comment" lang="en">
+    The <hi>Etymologies</hi> as published gloss this
+    word as "spear", but the correct reading is provided in VT/45
+  </note>
   <xr type="analogy"><ptr target="egnas"/></xr>
 </entry>
 
@@ -14360,7 +14442,7 @@
   <etym>ad+în+aur</etym>
 </entry>
 
- <entry id="edledhia-"><!-- A0117 -->
+ <entry id="edledhia-">
   <form type="regular">
     <form type="normalized">
       <orth>edledhia-</orth><usg type="lang" norm="*S."/>
@@ -14499,10 +14581,11 @@
   <note type="comment" lang="en">
     The sentence from WR/293 is hardly legible and is not translated, but this word is however a plausible form
   </note>
-  <re>
+  <re corresp="edlothiad">
     <form type="deduced">
       <orth><corr sic="edlothiand" resp="ed">edlothiad</corr></orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -14533,7 +14616,10 @@
     à en croire David Salo qui a consulté le manuscrit original à Marquette rapporte que
     sa lecture est sans aucun doute <hi>edlothiad</hi>
   </note>
-  <note type="comment" lang="en">Actually, <hi>edlothiand</hi> might be a misreading, according to David Salo who checked the original manuscript at Marquette and reported that his reading was unmistakably <hi>edlothiad</hi></note>
+  <note type="comment" lang="en">
+    Actually, <hi>edlothiand</hi> might be a misreading, according to David Salo who checked
+    the original manuscript at Marquette and reported that his reading was unmistakably <hi>edlothiad</hi>
+  </note>
 </entry>
 
 <entry id="edonna-">
@@ -14577,10 +14663,11 @@
       <def><bibl>PE/17:45</bibl> to <index level1="open" lang="en"/>open</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="edro">
     <form>
       <orth>edro</orth><usg type="lang" norm="S., N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -14781,10 +14868,11 @@
     </trans>
   </sense>
   <note type="source">WJ/365, WJ/379-380</note>
-  <re>
+  <re corresp="egladhrim">
     <form>
       <orth>egladhrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -14832,10 +14920,11 @@
       <def>to <index level1="glorify" lang="en"/>glorify, to <index level1="praise" lang="en"/>praise</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="eglerio">
     <form>
       <orth>eglerio</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -14937,10 +15026,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Eglath</mentioned> WJ/189, WJ/344</note>
-  <re>
+  <re corresp="eglath">
     <form>
-     <orth>eglath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+      <orth>eglath</orth><usg type="lang" norm="S."/>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -15078,10 +15168,11 @@
       <def><bibl>WJ/365</bibl> to treat with <index level1="scorn" lang="en"/>scorn, <index level1="insult" lang="en"/>insult</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="eithad">
     <form>
       <orth>eithad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -15211,10 +15302,11 @@
     </trans>
   </sense>
   <note type="source">WJ/363, MR/373, RGEO/73, Letters/281</note>
-  <re>
+  <re corresp="elenath">
     <form>
       <orth>elenath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -15447,7 +15539,7 @@
   </sense>
 </entry>
 
-<entry id="emel"><!-- A0117 -->
+<entry id="emel">
   <form type="regular">
     <form>
       <orth>emel</orth><usg type="lang" norm="S."/>
@@ -15472,10 +15564,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Emeldir</mentioned> S/155</note>
-  <re>
+  <re corresp="emig">
     <form>
      <orth>emig</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <gen>f.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
   </re>
@@ -15611,7 +15704,7 @@
   <xr type="analogy"><ptr target="aen"/></xr>
 </entry>
 
-<entry id="enchui"><!-- A0126 -->
+<entry id="enchui">
   <form type="regular">
     <form>
       <orth>enchui</orth><usg type="lang" norm="S."/>
@@ -15705,7 +15798,8 @@
     (most) definitive form. See also the possibly related preposition
     <ptr target="ned"/>, which has sometimes been suggested to mean "in"
     (while again a prefix <ptr target="nedh-"/> is seen in the
-    <hi>Etymologies</hi>)</note>
+    <hi>Etymologies</hi>)
+  </note>
 </entry>
 
 <entry id="eneg">
@@ -15837,10 +15931,11 @@
       <def><bibl>LotR/E</bibl> central land, middle-<index level1="earth" lang="en"/>earth</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="ennorath">
     <form>
       <orth>ennorath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -15935,7 +16030,8 @@
     <form>
       <orth>epholar</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:15-19</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <number>pl.</number>
     </gramGrp>
   </re>
@@ -16198,10 +16294,11 @@
     </trans>
   </sense>
   <note type="source">Ety/356, S/431, PE/17:42</note>
-  <re>
+  <re corresp="eregion">
     <form>
       <orth>eregion</orth><usg type="lang" norm="S., N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -16361,7 +16458,7 @@
   <note type="source">LotR/VI:IV, Letters/308, UT/428, RGEO/75</note>
 </entry>
 
-<entry id="ero"><!-- A0127 -->
+<entry id="ero">
   <form type="regular">
     <form>
       <orth>ero</orth><usg type="lang" norm="S."/>
@@ -16402,10 +16499,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Aderthad</mentioned> S/409</note>
-  <re>
+  <re corresp="erthad">
     <form type="deduced">
      <orth>erthad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -16521,7 +16619,7 @@
   <etym>OS *oroni- (?), "trees", plural noun, used as a singular.</etym>
 </entry>
 
-<entry id="esbin"><!--C0421-->
+<entry id="esbin">
   <form type="regular">
     <form>
       <orth>esbin</orth><usg type="lang" norm="S."/>
@@ -16606,11 +16704,12 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>estathar</mentioned> SD/129-31</note>
-  <re>
+  <re corresp="estathar">
     <form>
       <orth>estathar</orth><usg type="lang" norm="S."/>
       <bibl>SD/129-31</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>fut.</tns> <per>3rd</per> <number>pl.</number>
     </gramGrp>
   </re>
@@ -16618,7 +16717,8 @@
     <form>
       <orth>estar</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:12</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per> <number>pl.</number>
     </gramGrp>
   </re>
@@ -16693,9 +16793,11 @@
     constituées de deux demi-vers en allitération, voir
     <hi>Tolkien's Legendarium</hi> p. 122
   </note>
-  <note type="comment" lang="en">The slash sign in <hi>minlamad thent/estent</hi> might indicate either variant
-  forms of an adjective, or a sequence of two short verse units, possibly of
-  alliterating half-lines, see <hi>Tolkien's Legendarium</hi> p. 122</note>
+  <note type="comment" lang="en">
+    The slash sign in <hi>minlamad thent/estent</hi> might indicate either variant
+    forms of an adjective, or a sequence of two short verse units, possibly of
+    alliterating half-lines, see <hi>Tolkien's Legendarium</hi> p. 122
+  </note>
   <xr type="analogy"><ptr target="then.1"/>, <ptr target="thent"/></xr>
 </entry>
 
@@ -16969,10 +17071,11 @@
   </sense>
   <note type="source">Ety/381, WJ/387</note>
   <etym>Q firya</etym>
-  <re>
+  <re corresp="firiath">
     <form>
       <orth>firiath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -17050,10 +17153,11 @@
     </trans>
   </sense>
   <note type="source">Ety/381, S/431, RC/18</note>
-  <re>
+  <re corresp="falathrim">
     <form>
       <orth>falathrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -17248,7 +17352,7 @@
   </sense>
 </entry>
 
-<entry id="fanui"><!-- C0421 -->
+<entry id="fanui">
   <form type="regular">
     <form>
       <orth>fanui</orth><usg type="lang" norm="S."/>
@@ -17322,17 +17426,19 @@
       <def><bibl>Ety/387</bibl> to <index level1="hunt" lang="en"/>hunt</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="farad">
     <form type="deduced">
       <orth>farad</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="faras">
     <form>
      <orth>faras</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -17661,10 +17767,11 @@
     </trans>
   </sense>
   <note type="source">Ety/381, LotR/V:IV, WR/341, RC/550, PE/17:45,98,181</note>
-  <re>
+  <re corresp="fennas">
     <form>
       <orth>fennas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -17742,16 +17849,17 @@
     </trans>
   </sense>
   <etym>farad+dîr</etym>
-  <re>
+  <re corresp="faradrim">
     <form>
       <orth>faradrim</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
 </entry>
 
-<entry id="fergar"><!--C0421-->
+<entry id="fergar">
   <form type="regular">
     <form>
       <orth>fergar</orth><usg type="lang" norm="S."/>
@@ -17772,7 +17880,7 @@
   </sense>
 </entry>
 
-<entry id="fergenol"><!--C0421-->
+<entry id="fergenol">
   <form type="regular">
     <form>
       <orth>fergenol</orth><usg type="lang" norm="S."/>
@@ -17793,7 +17901,7 @@
   </sense>
 </entry>
 
-<entry id="feria-"><!--C0421-->
+<entry id="feria-">
   <form type="regular">
     <form>
       <orth>feria-</orth><usg type="lang" norm="S."/>
@@ -17856,7 +17964,7 @@
   </sense>
 </entry>
 
-<entry id="ferui"><!-- C0421 -->
+<entry id="ferui">
   <form type="regular">
     <form>
       <orth>ferui</orth><usg type="lang" norm="S."/>
@@ -17906,10 +18014,11 @@
     </trans>
   </sense>
   <etym>Singular formed by analogy</etym>
-  <re>
+  <re corresp="filigod">
     <form>
       <orth>filigod</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
   </re>
@@ -18241,7 +18350,7 @@
   <note type="source,deduced"><mentioned>Fladrif</mentioned> LotR/E, TC/169, TC/173</note>
 </entry>
 
-<entry id="flinc"><!-- A0127 -->
+<entry id="flinc">
   <form type="regular">
     <form>
       <orth>flinc</orth><usg type="lang" norm="S., N."/>
@@ -18329,17 +18438,19 @@
     </trans>
   </sense>
   <note type="source">Ety/382, S/431, LotR/E</note>
-  <re>
+  <re corresp="forodrim">
     <form>
       <orth>forodrim</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="forodwaith">
     <form>
       <orth>forodwaith</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -18683,10 +18794,11 @@
     </trans>
   </sense>
   <note type="source">Ety/349, PM/363, RGEO/73</note>
-  <re>
+  <re corresp="gaearon">
     <form>
       <orth>gaearon</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">augm.</usg>
     </gramGrp>
   </re>
@@ -18922,7 +19034,7 @@
       <def><bibl>Ety/357, PE/17:131-132</bibl> to <index level1="grow" lang="en"/>grow</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="galas">
     <form>
       <orth>galas</orth><usg type="lang" norm="N."/>
       <bibl>Ety/357</bibl>
@@ -19110,25 +19222,28 @@
     </trans>
   </sense>
   <note type="source">Ety/357, S/427, LotR/E, LB/354, RGEO/73, Letters/426, SD/302</note>
-  <re>
+  <re corresp="galadhad">
     <form type="deduced">
       <orth>galadhad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>dual pl.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="galadhon">
     <form>
       <orth>galadhon</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="galadhrim">
     <form>
       <orth>galadhrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -19363,10 +19478,11 @@
     </trans>
   </sense>
   <note type="source">Ety/357, VT/47:20</note>
-  <re>
+  <re corresp="gammas">
     <form>
       <orth>gammas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -19480,10 +19596,11 @@
            <index level1="have" lang="en"/>have</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="gerin">
     <form>
       <orth>gerin</orth><usg type="lang" norm="N."/>
-   </form><gramGrp>
+   </form>
+   <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per>
     </gramGrp>
   </re>
@@ -19746,17 +19863,19 @@
     </trans>
   </sense>
   <note type="source">Ety/377, PE/19:107</note>
-  <re>
+  <re corresp="gaurhoth">
     <form>
       <orth>gaurhoth</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="gaurwaith">
     <form>
       <orth>gaurwaith</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -19854,10 +19973,11 @@
       <def>to <index level1="howl" lang="en"/>howl</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="gawad">
     <form>
       <orth>gawad</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -19912,10 +20032,11 @@
   </sense>
   <note type="source">Ety/358, VT/45:15</note>
   <xr type="analogy"><ptr target="gil"/></xr>
-  <re>
+  <re corresp="giliath">
     <form>
       <orth>giliath</orth><usg type="lang" norm="S., N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -19941,12 +20062,12 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Gelir</mentioned> SD/129-31</note>
-    <note type="comment" lang="fr">
-      Traduction sindarine du nom du fils de Sam, Merry, apparaissant dans l'épilogue inédit du
-      <hi>Seigneur des Anneaux</hi> et dans la <hi>Lettre du Roi</hi>, SD/126-129. Ce pourrait être
-      un adjectif (cf. <hi>gell</hi>), mais nous le comprenons comme un nom (c-à-d. une formation
-      agentale).
-   </note>
+  <note type="comment" lang="fr">
+    Traduction sindarine du nom du fils de Sam, Merry, apparaissant dans l'épilogue inédit du
+    <hi>Seigneur des Anneaux</hi> et dans la <hi>Lettre du Roi</hi>, SD/126-129. Ce pourrait être
+    un adjectif (cf. <hi>gell</hi>), mais nous le comprenons comme un nom (c-à-d. une formation
+    agentale).
+  </note>
   <note type="comment" lang="en">
     Sindarin translation of the name of Sam's son Merry, appearing in the unpublished epilogue to <hi>The Lord of the Rings</hi> and in the <hi>King's Letter</hi>, SD/126-129. It could be an adjective (cf. <hi>gell</hi>), but we understand it as a noun (sc. an agental formation).
   </note>
@@ -20062,10 +20183,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>genediad</mentioned> SD/129-31</note>
-  <re>
+  <re corresp="genediad">
     <form>
       <orth>genediad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -20183,17 +20305,19 @@
     singular (with no hints in the sources of what the plural would be, besides the collective
     plural <ptr target="giliath"/>)
   </note>
-  <re>
+  <re corresp="giliath">
     <form>
      <orth>giliath</orth><usg type="lang" norm="S., N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="gilion">
     <form type="deduced">
       <orth>gilion</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -20422,7 +20546,7 @@
   </note>
 </entry>
 
-<entry id="glaew"><!-- A0127 -->
+<entry id="glaew">
   <form type="regular">
     <form>
       <orth>glaew</orth><usg type="lang" norm="N."/>
@@ -20499,17 +20623,19 @@
     </trans>
   </sense>
   <note type="source">Ety/358, Ety/377, WJ/390, WJ/416</note>
-  <re>
+  <re corresp="glamhoth">
     <form>
       <orth>glamhoth</orth><usg type="lang" norm="S., N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="glamog">
     <form>
       <orth>glamog</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
   </re>
@@ -20644,7 +20770,7 @@
     et en noldorin primitif (PE/13:144, <hi>glann</hi> "propre").
     Enfin, la similarité avec le gallois <hi>glan</hi> (où la voyelle, d'ailleurs,
     est aussi longue, bien que ce fait soit masqué par les conventions
-    orthographiques du gallois) est remarquable
+    orthographiques du gallois) est remarquable.
   </note><note type="comment" lang="en">The word is deduced from its mutated form, but
     it is worth mentioning that a stem GALÁN "bright", with <hi>glan</hi>
     "daylight" (and later "clear") as derivative, is listed in the <hi>Etymologies</hi>
@@ -20656,7 +20782,8 @@
     (<hi>glan</hi> "clean, pure", from "bright" originally) and in Early
     Noldorin (PE/13:144, <hi>glann</hi> "clean"). The similarity with
     Welsh <hi>glan</hi> (where the vowel, incidentally, is also long, though this
-    is concealed by Welsh orthographic convention) is also striking</note>
+    is concealed by Welsh orthographic convention) is also striking.
+  </note>
 </entry>
 
 <entry id="glân.2" n="2">
@@ -20805,10 +20932,11 @@
       <def><bibl>Ety/358</bibl> to <index level1="babble" lang="en"/>babble</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="glavrol">
     <form>
       <orth>glavrol</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
         <tns>part.</tns>
     </gramGrp>
   </re>
@@ -20902,7 +21030,9 @@
     Nous devrions peut-être lire <hi>gleinia-</hi> pour cette entrée,
     cf. VT/42:28, note 13
   </note>
-  <note type="comment" lang="en">This entry should perhaps read <hi>gleinia-</hi>, cf. VT/42:28, note 13</note>
+  <note type="comment" lang="en">
+    This entry should perhaps read <hi>gleinia-</hi>, cf. VT/42:28, note 13
+  </note>
 </entry>
 
 <entry id="glî">
@@ -20951,7 +21081,7 @@
   <note type="source">WJ/337, S/431</note>
 </entry>
 
-<entry id="glind"><!-- A0127 -->
+<entry id="glind">
   <form type="regular">
     <form>
       <orth>glind</orth><usg type="lang" norm="S."/>
@@ -21105,7 +21235,9 @@
     La forme <hi>glin</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon VT/45:15
   </note>
-  <note type="comment" lang="en">The form <hi>glin</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:15</note>
+  <note type="comment" lang="en">
+    The form <hi>glin</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:15
+  </note>
 </entry>
 
 <entry id="glithui">
@@ -21315,10 +21447,11 @@
   </sense>
   <note type="source">WJ/364, WJ/379</note>
   <etym>go(lodh)+ódhel, or OS *wådelo</etym>
-  <re>
+  <re corresp="gódhellim">
     <form>
       <orth>gódhellim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -21438,10 +21571,11 @@
     </trans>
   </sense>
   <xr type="analogy"><ptr target="díhena-"/></xr>
-  <re>
+  <re corresp="gohenam">
     <form>
       <orth>gohenam</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per> <number>pl.</number>
     </gramGrp>
   </re>
@@ -21575,10 +21709,11 @@
            lit. loremaster, sage</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="golodhrim">
     <form>
       <orth>golodhrim</orth><usg type="lang" norm="S., N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -21727,10 +21862,11 @@
            <index level1="enmesh" lang="en"/>enmesh</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="gonathras">
     <form>
       <orth>gonathras</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -21874,7 +22010,7 @@
   <note type="source">Ety/378, Ety/399, VT/46:6</note>
 </entry>
 
-<entry id="gorbedui"><!--C0421-->
+<entry id="gorbedui">
   <form type="regular">
     <form>
       <orth>gorbedui</orth><usg type="lang" norm="S."/>
@@ -21983,7 +22119,7 @@
   </sense>
 </entry>
 
-<entry id="gorn.2" n="2"><!-- A0426 -->
+<entry id="gorn.2" n="2">
   <form type="regular">
     <form>
       <orth>gorn</orth><usg type="lang" norm="S."/>
@@ -22189,10 +22325,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>[Raith &gt;] Fui 'Ngorthrim</mentioned> RC/526, <mentioned>gyrth</mentioned> Letters/417</note>
-  <re>
+  <re corresp="gorthrim">
     <form type="deduced">
       <orth>gorthrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -22649,7 +22786,7 @@
   <etym>gûl+dûr</etym>
 </entry>
 
-<entry id="gûr.1" n="1"><!-- A0110 -->
+<entry id="gûr.1" n="1">
   <form type="regular">
     <form>
       <orth>gûr</orth><usg type="lang" norm="S."/>
@@ -22671,7 +22808,7 @@
   </sense>
 </entry>
 
-<entry id="gûr.2" n="2"><!-- A0110 -->
+<entry id="gûr.2" n="2">
   <form type="regular">
     <form>
       <orth>gûr</orth><usg type="lang" norm="N."/>
@@ -22692,7 +22829,7 @@
   </sense>
 </entry>
 
-<entry id="guren"><!-- A0110 -->
+<entry id="guren">
   <form type="regular">
     <form>
       <orth>guren</orth><usg type="lang" norm="S."/>
@@ -22722,7 +22859,7 @@
   <etym>gûr+-en</etym>
 </entry>
 
-<entry id="gurgof"><!-- A0127 -->
+<entry id="gurgof">
   <form type="regular">
     <form>
       <orth>gurgof</orth><usg type="lang" norm="S."/>
@@ -23328,10 +23465,11 @@
       <def><bibl>WJ/367</bibl> a pair of <index level1="twin" lang="en"/>twins</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="gwanunig">
     <form>
       <orth>gwanunig</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
   </re>
@@ -23486,10 +23624,11 @@
     </trans>
   </sense>
   <note type="source">Ety/397, VT/42:9, S/432</note>
-  <re>
+  <re corresp="gwethion">
     <form type="deduced">
       <orth>gwethion</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -23629,10 +23768,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Gwathuirim</mentioned> PM/330</note>
-  <re>
+  <re corresp="gwathuirim">
     <form>
       <orth>gwathuirim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -24141,7 +24281,7 @@
     Difficile de voir une coïncidence dans le fait que <hi>gwin</hi>
     soit précisément le mot gallois - et aussi breton - pour
     "vin", emprunt au latin <hi>vinum</hi> de même que l'anglais "wine"
-    lui-même
+    lui-même.
   </note>
   <note type="comment" lang="en">The wine of Dor-Winion occurs in the <hi>Lay of the children of Húrin</hi>
     and a place located either in the "burning South" in the first version, or probably
@@ -24158,11 +24298,13 @@
     contained in this word. Then we would segment <hi>gwin-ion</hi> "of <hi>gwin</hi>".
     The context calls for "wine", "vine" or something similar. It can hardly be a coincidence that
     <hi>gwin</hi> is precisely the Welsh word for "wine", a loan from the Latin <hi>vinum</hi>,
-    as the English "wine" itself</note>
-  <re>
+    as the English "wine" itself.
+  </note>
+  <re corresp="gwinion">
     <form type="deduced">
       <orth>gwinion</orth><usg type="lang" norm="S., N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -24410,9 +24552,12 @@
     Le sens de "shore" ("rivage") dans Ety/386 est une erreur de
     lecture pour "shoe" ("chaussure"), voir VT/Errata et Lambengolmor/735.
     Comparer aussi avec le qenya <hi>hyapa</hi> (PE/13:41) et le gnomique
-    <hi>habin</hi> (PE/11:47), de même sens
+    <hi>habin</hi> (PE/11:47), de même sens.
   </note>
-  <note type="comment" lang="en">The meaning "shore" in Ety/386 should actually read "shoe", see VT/Errata and Lambengolmor/735. Compare also with Early Qenya <hi>hyapa</hi> (PE/13:41) and Gnomish <hi>habin</hi> (PE/11:47), both glossed as "shoe"</note>
+  <note type="comment" lang="en">
+    The meaning "shore" in Ety/386 should actually read "shoe", see VT/Errata and Lambengolmor/735.
+    Compare also with Early Qenya <hi>hyapa</hi> (PE/13:41) and Gnomish <hi>habin</hi> (PE/11:47), both glossed as "shoe".
+  </note>
 </entry>
 
 <entry id="had-">
@@ -24494,10 +24639,11 @@
   </sense>
   <note type="source">WJ/388, WJ/414</note>
   <etym>Kh khazâd</etym>
-  <re>
+  <re corresp="hadhodrim">
     <form>
       <orth>hadhodrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -24626,7 +24772,7 @@
   <note type="source,deduced"><mentioned>Gwahaedir</mentioned> PM/186</note>
 </entry>
 
-<entry id="haedh"><!-- A0105 -->
+<entry id="haedh">
   <form type="regular">
     <form>
       <orth>haedh</orth><usg type="lang" norm="S."/>
@@ -24717,7 +24863,9 @@
   <note type="comment" lang="fr">
     Sous la graphie <hi>hæw</hi> (avec ligature) dans les <hi>Etymologies</hi>
   </note>
-  <note type="comment" lang="en">Written <hi>hæw</hi> (with ae-ligature) in the <hi>Etymologies</hi>, rectified here according to VT/45:22</note>
+  <note type="comment" lang="en">
+    Written <hi>hæw</hi> (with ae-ligature) in the <hi>Etymologies</hi>, rectified here according to VT/45:22
+  </note>
 </entry>
 
 <entry id="haf-">
@@ -24971,11 +25119,14 @@
     La forme <hi>hamnia-</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon VT/45:21
   </note>
-  <note type="comment" lang="en">The form <hi>hamnia-</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:21</note>
-  <re>
+  <note type="comment" lang="en">
+    The form <hi>hamnia-</hi> in the <hi>Etymologies</hi> is a misreading according to VT/45:21
+  </note>
+  <re corresp="hammad">
     <form>
       <orth>hammad</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -25070,10 +25221,11 @@
       <def><bibl>Ety/363</bibl> <index level1="intelligent" lang="en"/>intelligent</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="hannas">
     <form>
       <orth>hannas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -25120,10 +25272,11 @@
     </trans>
   </sense>
   <note type="source">Ety/365, S/432, LotR/E</note>
-  <re>
+  <re corresp="haradrim">
     <form>
       <orth>haradrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -25308,10 +25461,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Harthad</mentioned> SD/62</note>
-  <re>
+  <re corresp="harthad">
     <form>
       <orth>harthad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -25632,10 +25786,11 @@
     </trans>
   </sense>
   <xr type="analogy"><ptr target="hanar"/></xr>
-  <re>
+  <re corresp="honeg">
     <form>
       <orth>honeg</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
   </re>
@@ -25697,10 +25852,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>*khep</mentioned> VT/41:6</note>
-  <re>
+  <re corresp="hebin">
     <form type="deduced">
       <orth>hebin</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per>
     </gramGrp>
   </re>
@@ -25731,7 +25887,12 @@
     La racine <hi>KHEP</hi> donnée dans VT/41:6 indique cependant que <hi>heb-</hi>
     est apparemment la forme correcte
   </note>
-  <note type="comment" lang="en">Because of the mutation triggered by the first person pronominal ending, it is impossible to guess whether the stem of this should be <hi>heb-</hi>, <hi>*hab-</hi> or <hi>*hob-</hi>. The root <hi>KHEP</hi> listed in VT/41:6 apparently implies that <hi>heb-</hi> is the correct form</note>
+  <note type="comment" lang="en">
+    Because of the mutation triggered by the first person pronominal ending,
+    it is impossible to guess whether the stem of this should be <hi>heb-</hi>,
+    <hi>*hab-</hi> or <hi>*hob-</hi>. The root <hi>KHEP</hi> listed in VT/41:6
+    apparently implies that <hi>heb-</hi> is the correct form
+  </note>
   <re>
     <form>
       <orth>chebin</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
@@ -25919,10 +26080,12 @@
     La forme <hi>helta-</hi> dans les <hi>Etymologies</hi> est une erreur
     de lecture selon VT/46:14
   </note>
-  <note type="comment" lang="en">The form <hi>helta-</hi> in the <hi>Etymologies</hi> is a misreading according to VT/46:14</note>
+  <note type="comment" lang="en">
+    The form <hi>helta-</hi> in the <hi>Etymologies</hi> is a misreading according to VT/46:14
+  </note>
 </entry>
 
-<entry id="hen.2"><!-- A0117 -->
+<entry id="hen.2">
   <form type="regular">
     <form>
       <orth>hen</orth><usg type="lang" norm="S."/>
@@ -25965,16 +26128,17 @@
       <def><bibl>Ety/364, WJ/337, LotR/II:IX, WR/128</bibl> <index level1="eye" lang="en"/>eye</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="hent">
     <form>
       <orth>hent</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>dual pl.</number>
     </gramGrp>
   </re>
 </entry>
 
-<entry id="hên.2"><!-- A0127 -->
+<entry id="hên.2">
   <form type="regular">
     <form>
       <orth>hên</orth><usg type="lang" norm="S."/>
@@ -26058,10 +26222,11 @@
       <def><bibl>Ety/363</bibl> to <index level1="understand" lang="en"/>understand</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="heniad">
     <form>
       <orth>heniad</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -26198,7 +26363,10 @@
     Les formes <hi>heno, hœno</hi> dans les <hi>Etymologies</hi> sont des erreurs de
     lecture, selon VT/45:22
   </note>
-  <note type="comment" lang="en">The forms <hi>heno</hi>, <hi>hœno</hi> in the <hi>Etymologies</hi> are misreadings according to VT/45:22</note>
+  <note type="comment" lang="en">
+    The forms <hi>heno</hi>, <hi>hœno</hi> in the <hi>Etymologies</hi> are misreadings
+    according to VT/45:22
+  </note>
 </entry>
 
 <entry id="heron">
@@ -26246,7 +26414,7 @@
   </sense>
 </entry>
 
-<entry id="hervenn"><!-- A013 -->
+<entry id="hervenn">
   <form type="regular">
     <form>
       <orth>hervenn</orth><usg type="lang" norm="N."/>
@@ -26543,7 +26711,7 @@
   <etym>hîth+lain</etym>
 </entry>
 
-<entry id="hithren"><!--C0421-->
+<entry id="hithren">
   <form type="regular">
     <form>
       <orth>hithren</orth><usg type="lang" norm="S."/>
@@ -26709,7 +26877,7 @@
   </sense>
 </entry>
 
-<entry id="hol-"><!--C0421-->
+<entry id="hol-">
   <form type="regular">
     <form type="deduced">
       <orth>hol-</orth><usg type="lang" norm="S."/>
@@ -26728,7 +26896,7 @@
     <mentioned>KHOL-, SKOL-</mentioned> PE/17:98, PE/17:157,
     <mentioned>SKOL-</mentioned> PE/17:184,
   </note>
-  <re>
+  <re corresp="hollen">
     <form>
       <orth>hollen</orth><usg type="lang" norm="S."/>
       <bibl>LotR/V:IV, RC/550, PE/17:98</bibl>
@@ -26798,9 +26966,11 @@
   <note type="comment" lang="fr">
     Le manuscrit initial dans VT/47:14 donnait <hi>honig</hi>,
     mais se référer tout particulièrement à VT/48:17 n. 13 pour une discussion
-    des formes diminutives en sindarin
+    des formes diminutives en sindarin.
   </note>
-  <note type="comment" lang="en">Given as <hi>honig</hi> in VT/47:14, but see VT/48:17 n. 13 for discussion</note>
+  <note type="comment" lang="en">
+    Given as <hi>honig</hi> in VT/47:14, but see VT/48:17 n. 13 for discussion.
+  </note>
   <xr type="analogy"><ptr target="toleg"/></xr>
 </entry>
 
@@ -26935,10 +27105,11 @@
            small land-locked <index level1="bay" lang="en"/>bay</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="hobas">
     <form>
       <orth>hobas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -27204,10 +27375,11 @@
            <index level1="eddy" lang="en"/>eddy</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="hwiniol">
     <form type="normalized">
       <orth>hwiniol</orth><usg type="lang" norm="*S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>part.</tns>
     </gramGrp>
   </re>
@@ -27519,22 +27691,23 @@
     Cette analyse a ensuite été confirmée par RC/128, citant un brouillon de lettre de Tolkien (encore)
     inédit datant de 1968, où il est indiqué: "Iarwain = vieux-jeune, probablement parce que,
     pour autant que quiconque puisse s'en souvenir, il était toujours apparu de la même
-    manière, vieux mais très vigoureux"
+    manière, vieux mais très vigoureux".
   </note>
   <note type="comment" lang="en">Elvish name of Tom Bombadil, rendered as "oldest" in LotR,
-     which made some people interpret this word as a superlative form (of <ptr target="iaur"/>).
-     However this theory was later controversed. While no other superlatives in <hi>*-wain</hi>
-     are known, <ptr target="einior"/>, attested in PM/358 (where it is rendered
-     as "eldest"), makes a much better candidate for a superlative construct
-     (conceivably built from the intensive prefix <hi>an-</hi> and <hi>iaur</hi> shortened
-     in final position). Moreover, comparing <hi>iarwain</hi> to <ptr target="narwain"/>,
-     Bertrand Bellet noted in Lambengolmor/642 that <hi>iarwain</hi> could as well be
-     interpreted as an old compound construct, of the primitive <hi>*jâra</hi> (Q. <hi>yára</hi>,
-     S. <ptr target="iaur"/>) and <hi>*winjâ</hi> (Q. <hi>vinya</hi>, S. <ptr target="gwain"/>).
-     He thus suggested that <hi>iarwain</hi> could actually mean "old-new". This analysis
-     was afterwards confirmed by RC/128, quoting a (yet) unpublished draft letter from
-     Tolkien dated from 1968, which states: "Iarwain = old-young, presumably as far as
-     anybody remembered, he had always looked much the same, old but very vigorous"</note>
+    which made some people interpret this word as a superlative form (of <ptr target="iaur"/>).
+    However this theory was later controversed. While no other superlatives in <hi>*-wain</hi>
+    are known, <ptr target="einior"/>, attested in PM/358 (where it is rendered
+    as "eldest"), makes a much better candidate for a superlative construct
+    (conceivably built from the intensive prefix <hi>an-</hi> and <hi>iaur</hi> shortened
+    in final position). Moreover, comparing <hi>iarwain</hi> to <ptr target="narwain"/>,
+    Bertrand Bellet noted in Lambengolmor/642 that <hi>iarwain</hi> could as well be
+    interpreted as an old compound construct, of the primitive <hi>*jâra</hi> (Q. <hi>yára</hi>,
+    S. <ptr target="iaur"/>) and <hi>*winjâ</hi> (Q. <hi>vinya</hi>, S. <ptr target="gwain"/>).
+    He thus suggested that <hi>iarwain</hi> could actually mean "old-new". This analysis
+    was afterwards confirmed by RC/128, quoting a (yet) unpublished draft letter from
+    Tolkien dated from 1968, which states: "Iarwain = old-young, presumably as far as
+    anybody remembered, he had always looked much the same, old but very vigorous".
+  </note>
   <etym>iaur+*gwain</etym>
 </entry>
 
@@ -27560,10 +27733,11 @@
     </trans>
   </sense>
   <note type="source">S/433, WJ/370, WJ/378</note>
-  <re>
+  <re corresp="iathrim">
     <form>
       <orth>iathrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -27621,10 +27795,11 @@
       <def><bibl>Ety/399</bibl> <index level1="corn" lang="en"/>corn</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="iavas">
     <form>
       <orth>iavas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -27801,7 +27976,7 @@
   </sense>
 </entry>
 
-<entry id="idhrinn"><!-- A0113 -->
+<entry id="idhrinn">
   <form type="regular">
     <form type="normalized">
       <orth>idhrinn</orth><usg type="lang" norm="*S."/>
@@ -27899,7 +28074,7 @@
   </sense>
 </entry>
 
-<entry id="il"><!-- A0127 -->
+<entry id="il">
   <form type="regular">
     <form>
       <orth>il</orth><usg type="lang" norm="S."/>
@@ -27966,7 +28141,9 @@
     Dans ses écrits tardifs (voir en particulier VT/47:37-38), Tolkien
     réinterpréta cette forme comme un pronom réflexif (= "moi-même", "lui-même", etc.)
   </note>
-  <note type="comment" lang="en">In late writings (see esp. VT/47:37-38), Tolkien reinterpreted this form as a reflexive pronoun (= "self").</note>
+  <note type="comment" lang="en">
+    In late writings (see esp. VT/47:37-38), Tolkien reinterpreted this form as a reflexive pronoun (= "self").
+  </note>
 </entry>
 
 <entry id="im.2" n="2">
@@ -28052,7 +28229,9 @@
     Ce mot apparaît uniquement dans le toponyme <hi>Imloth Melui</hi>,
     une vallée où poussaient des roses
   </note>
-  <note type="comment" lang="en">This word only occurs in the place name <hi>Imloth Melui</hi>, a vale where roses grew</note>
+  <note type="comment" lang="en">
+    This word only occurs in the place name <hi>Imloth Melui</hi>, a vale where roses grew
+  </note>
   <etym>im+loth</etym>
 </entry>
 
@@ -28167,10 +28346,11 @@
       <def><bibl>Ety/400</bibl> <index level1="year" lang="en"/>year</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="ínias">
     <form>
       <orth>ínias</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -28198,7 +28378,7 @@
   </sense>
 </entry>
 
-<entry id="ind"><!-- A0126 -->
+<entry id="ind">
   <form type="regular">
     <form>
       <orth>ind</orth><usg type="lang" norm="S., N."/>
@@ -28230,10 +28410,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Saelind</mentioned> "Wise-heart" MR/305</note>
-  <re>
+  <re corresp="innas">
     <form>
       <orth>innas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -28262,7 +28443,9 @@
   <note type="comment" lang="fr">
      Mot inventé par les Elfes après qu'ils aient rencontré les Hommes
   </note>
-  <note type="comment" lang="en">New word coined by the Elves after meeting with Men</note>
+  <note type="comment" lang="en">
+    New word coined by the Elves after meeting with Men
+  </note>
   <etym>în+gem "year-sick"</etym>
 </entry>
 
@@ -28288,7 +28471,7 @@
   </sense>
 </entry>
 
-<entry id="innas"><!-- A0127 -->
+<entry id="innas">
   <form type="regular">
     <form>
       <orth>innas</orth><usg type="lang" norm="S."/>
@@ -28434,11 +28617,19 @@
     <hi>Isildurioni</hi> et <hi>Anárioni</hi> en quenya plus tardif, "Héritiers
     d'Isildur (resp. Anárion)" dans PM/192,196
   </note>
-  <note type="comment" lang="en">For the second meaning, cf. <hi>Hadorion</hi>, a Húrin's epithet in WJ/294, <hi>Hurinionath</hi> referring to the house of Húrin the Steward in PM/202-3,218, and Gil-Galad's epithet <hi>Ereinion</hi>, cf. also the gloss of the old Qenya cognate <hi>yondo</hi> "descendant of" in PE/12:106, or the use of the same suffix in later Quenya names such as <hi>Isildurioni</hi> and <hi>Anárioni</hi> "Heirs of Isildur (resp. Anárion)" in PM/192,196</note>
-  <re>
+  <note type="comment" lang="en">
+    For the second meaning, cf. <hi>Hadorion</hi>, a Húrin's epithet in WJ/294,
+    <hi>Hurinionath</hi> referring to the house of Húrin the Steward in PM/202-3,218,
+    and Gil-Galad's epithet <hi>Ereinion</hi>, cf. also the gloss of the old Qenya
+    cognate <hi>yondo</hi> "descendant of" in PE/12:106, or the use of the same
+    suffix in later Quenya names such as <hi>Isildurioni</hi> and <hi>Anárioni</hi>
+    "Heirs of Isildur (resp. Anárion)" in PM/192,196
+  </note>
+  <re corresp="ionnath">
     <form>
       <orth>ionnath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -28515,7 +28706,7 @@
   <etym>în+pant "year-full"</etym>
 </entry>
 
-<entry id="ir"><!-- A0127 -->
+<entry id="ir">
   <form type="regular">
     <form>
       <orth>ir</orth><usg type="lang" norm="S."/>
@@ -28564,7 +28755,7 @@
   </note>
 </entry>
 
-<entry id="îr.1" n="1"><!-- A0127 -->
+<entry id="îr.1" n="1">
   <form type="regular">
     <form>
       <orth>îr</orth><usg type="lang" norm="N."/>
@@ -28585,7 +28776,7 @@
   </sense>
 </entry>
 
-<entry id="îr.2" n="2"><!-- A0127 -->
+<entry id="îr.2" n="2">
   <form type="regular">
     <form>
       <orth>îr</orth><usg type="lang" norm="S."/>
@@ -28607,7 +28798,7 @@
   <xr type="analogy"><ptr target="ero"/></xr>
 </entry>
 
-<entry id="írui"><!-- A0127 -->
+<entry id="írui">
   <form type="regular">
     <form>
       <orth>írui</orth><usg type="lang" norm="S."/>
@@ -29012,7 +29203,10 @@
     Cette entrée est interpolée à partir du surnom de Sador, <hi>Labadal</hi>, qui est
     traduit par "Hopafoot" ("Cloche-Pied") dans le texte en anglais
   </note>
-  <note type="comment" lang="en">This entry is interpolated from Sador's nickname, <hi>Labadal</hi>, which is rendered as "Hopafoot" in the text</note>
+  <note type="comment" lang="en">
+    This entry is interpolated from Sador's nickname, <hi>Labadal</hi>, which is
+    rendered as "Hopafoot" in the text
+  </note>
 </entry>
 
 <entry id="lach">
@@ -29060,10 +29254,11 @@
       <def>to <index level1="flame" lang="en"/>flame</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="lacho">
     <form>
       <orth>lacho</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -29214,7 +29409,7 @@
   </sense>
 </entry>
 
-<entry id="laeb"><!-- A0127 -->
+<entry id="laeb">
   <form type="regular">
     <form type="normalized">
       <orth>laeb</orth><usg type="lang" norm="*S."/>
@@ -29243,7 +29438,7 @@
   </sense>
 </entry>
 
-<entry id="laeg.1" n="1"><!-- A0127 -->
+<entry id="laeg.1" n="1">
   <form type="regular">
     <form type="normalized">
       <orth>laeg</orth><usg type="lang" norm="*S."/>
@@ -29276,7 +29471,7 @@
   </sense>
 </entry>
 
-<entry id="laeg.2" n="2"><!-- A0127 -->
+<entry id="laeg.2" n="2">
   <form type="regular">
     <form>
       <orth>laeg</orth><usg type="lang" norm="S."/>
@@ -29337,10 +29532,11 @@
     </trans>
   </sense>
   <etym>laeg+-el</etym>
-  <re>
+  <re corresp="laegrim">
     <form>
       <orth>laegrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -29773,7 +29969,7 @@
   </sense>
 </entry>
 
-<entry id="lam.1" n="1"><!-- A0110 -->
+<entry id="lam.1" n="1">
   <form type="regular">
     <form>
       <orth>lam</orth><usg type="lang" norm="S."/>
@@ -29805,23 +30001,25 @@
       <def><bibl>Ety/367, PE/17:46, PE/22:35</bibl> tongue, <bibl>WJ/394</bibl> physical <index level1="tongue" lang="en"/>tongue</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="lamath">
     <form>
       <orth>lamath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="lammen">
    <form>
       <orth>lammen</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <subc>poss.</subc> <per>1st</per>
     </gramGrp>
   </re>
 </entry>
 
-<entry id="lam.2" n="2"><!-- A0110 -->
+<entry id="lam.2" n="2">
   <form type="regular">
     <form>
       <orth>lam</orth><usg type="lang" norm="S."/>
@@ -29841,10 +30039,11 @@
       <def><bibl>WJ/394</bibl> <index level1="language" lang="en"/>language</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="lammas">
     <form>
      <orth>lammas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -29872,7 +30071,7 @@
   </sense>
 </entry>
 
-<entry id="lammas"><!-- A0127 -->
+<entry id="lammas">
   <form type="regular">
     <form>
       <orth>lammas</orth><usg type="lang" norm="S., N."/>
@@ -29900,7 +30099,7 @@
   </sense>
 </entry>
 
-<entry id="lammen"><!-- A0110 -->
+<entry id="lammen">
   <form type="regular">
     <form>
       <orth>lammen</orth><usg type="lang" norm="S."/>
@@ -30221,10 +30420,11 @@
       <def><bibl>PE/17:46</bibl> to give ear, <index level1="listen" lang="en"/>listen</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="lasto">
     <form>
       <orth>lasto</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -30252,7 +30452,7 @@
   <note type="source">LotR/II:IV, RS/463, LB/354, PE/17:46</note>
 </entry>
 
-<entry id="lath"><!-- A0113 -->
+<entry id="lath">
   <form type="regular">
     <form type="normalized">
       <orth>lath</orth><usg type="lang" norm="*S."/>
@@ -30451,10 +30651,11 @@
       <def><bibl>Ety/367</bibl> to <index level1="lick" lang="en"/>lick</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="lâf">
     <form type="normalized">
       <orth>lâf</orth><usg type="lang" norm="*S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -30727,7 +30928,11 @@
     "doigt + chêne", correspondant à un arbre réel, le "chêne de doigt"
     (<hi>Quercus digitata</hi>)
   </note>
-  <note type="comment" lang="en">In the original manuscript, one of the earlier (rejected) form of this name was <hi>lebendron</hi>. Didier Willis proposed the etymology lebed+doron "finger-oak", actually a real tree name (Finger Oak or <hi>Quercus digitata</hi>)</note>
+  <note type="comment" lang="en">
+    In the original manuscript, one of the earlier (rejected) form of this name was <hi>lebendron</hi>.
+    Didier Willis proposed the etymology lebed+doron "finger-oak", actually a real tree name (Finger Oak
+    or <hi>Quercus digitata</hi>)
+  </note>
 </entry>
 
 <entry id="lebig">
@@ -31107,17 +31312,16 @@
   </sense>
   <note type="source">Ety/368, LotR/II:IX, PE/17:62</note>
   <etym>OS *λåhu, CE *slâsû (dual)</etym>
-  <re>
-    <form>
-      <orth>lheweg</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
-      <pos>n.</pos> <number>sing.</number>
-    </gramGrp>
-  </re>
-  <re>
-    <form>
-     <orth>lhewig</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+  <re corresp="lhewig">
+    <form type="regular">
+      <form>
+        <orth>lheweg</orth><usg type="lang" norm="S."/>
+      </form>
+      <form>
+        <orth>lhewig</orth><usg type="lang" norm="N."/>
+      </form>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
   </re>
@@ -31410,7 +31614,8 @@
     meaning (as <ptr target="luin"/> was already used in that sense). He
     then proposed several explanations for it, including the possible adaptation of a
     Dwarvish name into Sindarin, but he apparently never reached a definitive
-    solution.</note>
+    solution.
+  </note>
 </entry>
 
 <entry id="lif">
@@ -31434,7 +31639,7 @@
   <note type="source,deduced"><mentioned>molif</mentioned> <gloss>"hand-link"</gloss> VT/47:6</note>
 </entry>
 
-<entry id="lim.1" n="1"><!-- C0421 -->
+<entry id="lim.1" n="1">
   <form type="regular">
     <form>
       <orth>lim</orth><usg type="lang" norm="S."/>
@@ -31667,10 +31872,11 @@
       <def><bibl>Ety/369</bibl> <index level1="pool" lang="en"/>pool</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="liniath">
     <form type="deduced">
       <orth>liniath</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -31761,17 +31967,19 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>linnathon</mentioned> LotR/II:I, PE/17:27</note>
-  <re>
+  <re corresp="linnathon">
     <form>
      <orth>linnathon</orth><usg type="lang" norm="S."/>
-   </form><gramGrp>
+   </form>
+   <gramGrp>
       <pos>v.</pos> <tns>fut.</tns> <per>1st</per>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="linnon">
     <form>
      <orth>linnon</orth><usg type="lang" norm="S."/>
-   </form><gramGrp>
+   </form>
+   <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per>
     </gramGrp>
   </re>
@@ -32111,10 +32319,11 @@
       <def><bibl>Ety/370</bibl> to <index level1="float" lang="en"/>float</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="lôd">
     <form type="normalized">
       <orth>lôd</orth><usg type="lang" norm="*S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -32188,7 +32397,7 @@
   </sense>
 </entry>
 
-<entry id="lonnas"><!--C0421-->
+<entry id="lonnas">
   <form type="regular">
     <form type="deduced">
       <orth>lonnas</orth><usg type="lang" norm="S."/>
@@ -32273,10 +32482,11 @@
     </trans>
   </sense>
   <note type="source">Ety/348, Ety/370, S/434, UT/450, VT/42:10</note>
-  <re>
+  <re corresp="lonnath">
     <form>
       <orth>lonnath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -32365,10 +32575,11 @@
     </trans>
   </sense>
   <note type="source">S/434, VT/42:18, RGEO/70</note>
-  <re>
+  <re corresp="Lossoth">
     <form>
       <orth>Lossoth</orth><usg type="lang" norm="S."/>
-   </form><gramGrp>
+   </form>
+   <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -32474,24 +32685,27 @@
   <note type="comment" lang="en">
     The noun is collective, a single flower being <ptr target="lotheg"/>
   </note>
-  <re>
+  <re corresp="elloth">
     <form>
       <orth>elloth</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="lotheg">
     <form>
       <orth>lotheg</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="lothod">
     <form>
       <orth>lothod</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
   </re>
@@ -32666,10 +32880,11 @@
     Perhaps compare with Q. <hi>luita-</hi> "to flood, inundate, drench" and the
     root LUY - See VT/48:31
   </note>
-  <re>
+  <re corresp="luithiad">
     <form type="deduced">
       <orth>luithiad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -32901,7 +33116,7 @@
   </sense>
 </entry>
 
-<entry id="madha"><!-- A0105 -->
+<entry id="madha">
   <form type="regular">
     <form>
       <orth>madha</orth><usg type="lang" norm="S."/>
@@ -32922,7 +33137,7 @@
   </sense>
 </entry>
 
-<entry id="madweg"><!--C0421-->
+<entry id="madweg">
   <form type="regular">
     <form>
       <orth>madweg</orth><usg type="lang" norm="S."/>
@@ -33008,7 +33223,7 @@
   </sense>
 </entry>
 
-<entry id="maed.2" n="2"><!-- A0115 -->
+<entry id="maed.2" n="2">
   <form type="regular">
     <form>
       <orth>maed</orth><usg type="lang" norm="S."/>
@@ -33117,7 +33332,7 @@
   </sense>
 </entry>
 
-<entry id="maelig"><!-- A0127 -->
+<entry id="maelig">
   <form type="regular">
     <form>
       <orth>maelig</orth><usg type="lang" norm="S."/>
@@ -33184,10 +33399,11 @@
       <def><bibl>Ety/371</bibl> <index level1="skilled" lang="en"/>skilled, <index level1="clever" lang="en"/>clever</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="maenas">
     <form>
       <orth>maenas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -33415,7 +33631,7 @@
   </sense>
 </entry>
 
-<entry id="mâf"><!-- A0131 -->
+<entry id="mâf">
   <form type="regular">
     <form>
       <orth>mâf</orth><usg type="lang" norm="S."/>
@@ -34218,7 +34434,7 @@
   </sense>
 </entry>
 
-<entry id="mell"><!-- A0201 -->
+<entry id="mell">
   <form type="regular">
     <form>
       <orth>mell</orth><usg type="lang" norm="S., N."/>
@@ -34297,10 +34513,13 @@
     Ce mot apparaît uniquement dans le toponyme <hi>Imloth Melui</hi>,
     une vallée où poussaient des roses
   </note>
-  <note type="comment" lang="en">This word only occurs in the place name <hi>Imloth Melui</hi>, a vale where roses grew</note>
+  <note type="comment" lang="en">
+    This word only occurs in the place name <hi>Imloth Melui</hi>,
+    a vale where roses grew
+  </note>
 </entry>
 
-<entry id="men-"><!-- A0131 -->
+<entry id="men-">
   <form type="regular">
     <form type="deduced">
       <orth>men-</orth><usg type="lang" norm="S."/>
@@ -34352,7 +34571,7 @@
   <note type="source,deduced"><mentioned>ammen</mentioned> LotR/II:IV, LB/354, <mentioned>tiro men</mentioned> VT/45:37</note>
 </entry>
 
-<entry id="men.2" n="2"><!-- A0131 -->
+<entry id="men.2" n="2">
   <form type="regular">
     <form>
       <orth>men</orth><usg type="lang" norm="S."/>
@@ -34500,10 +34719,11 @@
       <def><bibl>Ety/373</bibl> <index level1="point" lang="en"/>point</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="menniath">
     <form type="deduced">
       <orth>menniath</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -34535,7 +34755,7 @@
   <note type="comment" lang="en">
     The word was changed to <hi>beren</hi> in the <hi>Etymologies</hi>,
     but <hi>meren</hi> would be restored together with <ptr target="mereth"/>
-    </note>
+  </note>
 </entry>
 
 <entry id="mereth">
@@ -34562,7 +34782,10 @@
     mais il ne fut cependant jamais rectifié dans les textes (cf. Mereth Aderthad
     et le nom composé Merethrond)
   </note>
-  <note type="comment" lang="en">The word was changed to <hi>bereth</hi> in the <hi>Etymologies</hi>, but was never changed in the texts (cf. Mereth Aderthad and the compound Merethrond)</note>
+  <note type="comment" lang="en">
+    The word was changed to <hi>bereth</hi> in the <hi>Etymologies</hi>,
+    but was never changed in the texts (cf. Mereth Aderthad and the compound Merethrond)
+  </note>
 </entry>
 
 <entry id="meril">
@@ -34693,7 +34916,7 @@
   </sense>
 </entry>
 
-<entry id="methen"><!-- A0127 -->
+<entry id="methen">
   <form type="regular">
     <form>
       <orth>methen</orth><usg type="lang" norm="N."/>
@@ -34715,7 +34938,7 @@
   </sense>
 </entry>
 
-<entry id="mi"><!-- A0127 -->
+<entry id="mi">
   <form type="regular">
     <form type="deleted">
       <orth>mi</orth><usg type="lang" norm="S."/>
@@ -34737,7 +34960,7 @@
   <xr type="analogy"><ptr target="vi"/></xr>
 </entry>
 
-<entry id="mîdh"><!-- A0127 -->
+<entry id="mîdh">
   <form type="regular">
     <form>
       <orth>mîdh</orth><usg type="lang" norm="S., N."/>
@@ -34893,7 +35116,7 @@
   </sense>
 </entry>
 
-<entry id="mín.2" n="2"><!-- A0127 -->
+<entry id="mín.2" n="2">
   <form type="regular">
     <form>
       <orth>mín</orth><usg type="lang" norm="S."/>
@@ -34924,7 +35147,8 @@
     <form>
       <orth>vin</orth><usg type="lang" norm="S."/>
       <bibl>VT/44:21,22</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <itype type="sm">soft mut.</itype>
     </gramGrp>
   </re>
@@ -34981,7 +35205,7 @@
   </sense>
 </entry>
 
-<entry id="minas"><!-- A0127 -->
+<entry id="minas">
   <form type="regular">
     <form>
       <orth>minas</orth><usg type="lang" norm="S."/>
@@ -35021,7 +35245,7 @@
   </sense>
 </entry>
 
-<entry id="mindon"><!-- A0127 -->
+<entry id="mindon">
   <form type="regular">
     <form>
       <orth>mindon</orth><usg type="lang" norm="N."/>
@@ -35133,8 +35357,10 @@
     Ce terme n'est pas traduit par Tolkien. Pour une discussion de sa signification
     probable, se référer à <hi>Tolkien's Legendarium</hi> p. 121-122
   </note>
-  <note type="comment" lang="en">The word is not translated by Tolkien. For a discussion of its probable meaning,
-  refer to <hi>Tolkien's Legendarium</hi> p. 121-122</note>
+  <note type="comment" lang="en">
+    The word is not translated by Tolkien. For a discussion of its probable meaning,
+    refer to <hi>Tolkien's Legendarium</hi> p. 121-122
+  </note>
 </entry>
 
 <entry id="minna-">
@@ -35157,10 +35383,11 @@
       <def><bibl>PE/17:41</bibl> to <index level1="enter" lang="en"/>enter, go in</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="minno">
     <form>
       <orth>minno</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -35253,10 +35480,11 @@
     </trans>
   </sense>
   <note type="source">Ety/373, LotR/E, S/434, PM/348, LB/354, RGEO/73, PE/17:121</note>
-  <re>
+  <re corresp="mirion">
     <form>
       <orth>mirion</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">augm.</usg>
     </gramGrp>
   </re>
@@ -35473,7 +35701,11 @@
     commentateurs l'avaient parfois supposé), mais qu'elle pourrait éventuellement être
     lue comme <hi>mistiad</hi>
   </note>
-  <note type="comment" lang="en">Carl Hostetter has noted on Sindict/372 that the form in the manuscript is certainly not a misreading for **<hi>mistad</hi> (as it was sometimes thought by other commentators), but that it could perhaps be read as <hi>mistiad</hi></note>
+  <note type="comment" lang="en">
+    Carl Hostetter has noted on Sindict/372 that the form in the manuscript is certainly
+    not a misreading for **<hi>mistad</hi> (as it was sometimes thought by other
+    commentators), but that it could perhaps be read as <hi>mistiad</hi>
+  </note>
 </entry>
 
 <entry id="mith.1" n="1">
@@ -35577,7 +35809,7 @@
   <etym>mith+rill "grey brilliance"</etym>
 </entry>
 
- <entry id="mîw"><!-- A0127 -->
+ <entry id="mîw">
   <form type="regular">
     <form>
       <orth>mîw</orth><usg type="lang" norm="N."/>
@@ -35622,10 +35854,11 @@
       <def><bibl>Ety/371</bibl> <index level1="soft" lang="en"/>soft</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="moeas">
     <form>
       <orth>moeas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -35733,7 +35966,7 @@
   <etym>morn+pen, altered from OS *moripende</etym>
 </entry>
 
-<entry id="morchant"><!-- A0127 -->
+<entry id="morchant">
   <form type="regular">
     <form type="deduced">
       <orth>morchant</orth><usg type="lang" norm="S."/>
@@ -36101,11 +36334,12 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>no aer i eneth lín</mentioned> VT/44:21,24</note>
-  <re>
+  <re corresp="no">
     <form>
       <orth>no</orth><usg type="lang" norm="S."/>
       <bibl>VT/44:21,24</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -36113,7 +36347,8 @@
     <form type="deleted">
       <orth>natho</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:23</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>fut.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -36121,7 +36356,8 @@
     <form>
       <orth>thor</orth><usg type="lang" norm="S."/>
       <bibl>VT/50:23</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>fut.</tns> <number>pl.</number>
     </gramGrp>
   </re>
@@ -36149,7 +36385,7 @@
   </sense>
 </entry>
 
-<entry id="nadha"><!-- A0105 -->
+<entry id="nadha">
   <form type="regular">
     <form>
       <orth>nadha</orth><usg type="lang" norm="S."/>
@@ -36190,10 +36426,11 @@
       <def><bibl>Ety/374</bibl> <index level1="pasture" lang="en"/>pasture</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="nadhras">
     <form>
       <orth>nadhras</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -36243,7 +36480,7 @@
   </sense>
 </entry>
 
-<entry id="naedh"><!-- A0105 -->
+<entry id="naedh">
   <form type="regular">
     <form>
       <orth>naedh</orth><usg type="lang" norm="S."/>
@@ -36509,10 +36746,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>naglath</mentioned> WR/122</note>
-  <re>
+  <re corresp="naglath">
     <form>
       <orth>naglath</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -36613,10 +36851,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>nallon</mentioned> LotR/IV:X, RGEO/72, Letters/278</note>
-  <re>
+  <re corresp="nallon">
     <form>
      <orth>nallon</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per>
     </gramGrp>
   </re>
@@ -37074,7 +37313,7 @@
   </sense>
 </entry>
 
-<entry id="natha-"><!-- A0127 -->
+<entry id="natha-">
   <form type="regular">
     <form>
       <orth>natha-</orth><usg type="lang" norm="S."/>
@@ -37099,7 +37338,7 @@
   </sense>
 </entry>
 
-<entry id="nathal"><!-- A0127 -->
+<entry id="nathal">
   <form type="regular">
     <form>
       <orth>nathal</orth><usg type="lang" norm="S."/>
@@ -37203,17 +37442,19 @@
     </trans>
   </sense>
   <note type="source">Ety/375, WJ/388, UT/100, UT/148</note>
-  <re>
+  <re corresp="naugol">
     <form>
       <orth>naugol</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="naugrim">
     <form>
       <orth>naugrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -37439,10 +37680,11 @@
       <def><bibl>VT/48:5</bibl> <index level1="thumb" lang="en"/>thumb</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="nobad">
     <form>
       <orth>nobad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>dual pl.</number>
     </gramGrp>
   </re>
@@ -37472,7 +37714,8 @@
     (à comparer au Q. <hi>net(e)</hi>), voir VT/47:40
   </note>
   <note type="comment" lang="en">
-    Another possible interpretation: "another, one more" (related to Q. <hi>net(e)</hi>), VT/47:40</note>
+    Another possible interpretation: "another, one more" (related to Q. <hi>net(e)</hi>), VT/47:40
+  </note>
 </entry>
 
 <entry id="neder">
@@ -37664,7 +37907,7 @@
   <note type="source,deduced"><mentioned>Neithan</mentioned> UT/456</note>
 </entry>
 
-<entry id="neithan"><!-- C0421 -->
+<entry id="neithan">
   <form type="regular">
     <form>
       <orth>neithan</orth><usg type="lang" norm="S."/>
@@ -38096,10 +38339,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>nestad</mentioned> WR/379-380</note>
-  <re>
+  <re corresp="nestad">
     <form>
       <orth>nestad</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -38252,10 +38496,11 @@
     </trans>
   </sense>
   <note type="source">VT/47:14-16,33, VT/48:6</note>
-  <re>
+  <re corresp="nethig">
     <form>
       <orth>nethig</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <gen>f.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
   </re>
@@ -38296,9 +38541,13 @@
   <note type="comment" lang="fr">
     Le manuscrit initial dans VT/47:14-15 donnait <hi>netheg</hi>,
     mais se référer tout particulièrement à VT/48:17 n. 13 pour une discussion
-    des formes diminutives en sindarin
+    des formes diminutives en sindarin.
   </note>
-  <note type="comment" lang="en">First given in the manuscript as <hi>netheg</hi> in VT/47:14-15, but see especially VT/48:17 n. 13 for discussion</note>
+  <note type="comment" lang="en">
+    First given in the manuscript as <hi>netheg</hi> in VT/47:14-15,
+    but see especially VT/48:17 n. 13 for discussion on diminutive forms
+    in sindarin.
+  </note>
 </entry>
 
 <entry id="niben">
@@ -38366,7 +38615,7 @@
   </sense>
 </entry>
 
-<entry id="nidh-"><!-- A0131 -->
+<entry id="nidh-">
   <form type="regular">
     <form type="deduced">
       <orth>nidh-</orth><usg type="lang" norm="S."/>
@@ -38411,7 +38660,7 @@
 </entry>
 
 
-<entry id="nîdh.1" n="1"><!-- A0105 -->
+<entry id="nîdh.1" n="1">
   <form type="regular">
     <form>
       <orth>nîdh</orth><usg type="lang" norm="N."/>
@@ -38445,7 +38694,7 @@
   </sense>
 </entry>
 
-<entry id="nîdh.2" n="2"><!-- A0131 -->
+<entry id="nîdh.2" n="2">
   <form type="regular">
     <form>
       <orth>nîdh</orth><usg type="lang" norm="S."/>
@@ -38468,7 +38717,7 @@
   </sense>
 </entry>
 
-<entry id="nidha-"><!-- A0131 -->
+<entry id="nidha-">
   <form type="regular">
     <form>
       <orth>nídha-</orth><usg type="lang" norm="S."/>
@@ -38491,7 +38740,7 @@
   </sense>
 </entry>
 
-<entry id="nîf"><!-- A0105 -->
+<entry id="nîf">
   <form type="regular">
     <form>
       <orth>nîf</orth><usg type="lang" norm="N."/>
@@ -38512,7 +38761,7 @@
   </sense>
 </entry>
 
-<entry id="niged"><!-- A0105 -->
+<entry id="niged">
   <form type="regular">
     <form>
       <orth>niged</orth><usg type="lang" norm="S."/>
@@ -38765,10 +39014,11 @@
   </sense>
   <note type="source">UT/280-81, UT/450</note>
   <etym>nîn+glaur "water gold"</etym>
-  <re>
+  <re corresp="ningloron">
     <form type="deduced">
       <orth>ningloron</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -39028,10 +39278,11 @@
       <def><bibl>VT/47:14</bibl> <index level1="sister" lang="en"/>sister</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="neth.1">
     <form>
       <orth>neth</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
   </re>
@@ -39170,17 +39421,19 @@
     </trans>
   </sense>
   <note type="source">S/435, WJ/338, WJ/388, WJ/408, WJ/413</note>
-  <re>
+  <re corresp="nogotheg">
     <form>
       <orth>nogotheg</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="nogothrim">
     <form>
       <orth>nogothrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -39233,7 +39486,7 @@
   <etym>nogoth+rim</etym>
 </entry>
 
-<entry id="nor-"><!-- C0421 -->
+<entry id="nor-">
   <form type="regular">
     <form>
       <orth>nor-</orth><usg type="lang" norm="S."/>
@@ -39265,7 +39518,7 @@
         <bibl>PE/17:18</bibl> <usg type="hint">of men and animals using legs, not of fluids etc.</usg>
     </trans>
   </sense>
-  <re>
+  <re corresp="noro">
     <form>
       <orth>noro</orth><usg type="lang" norm="S."/>
       <bibl>LotR/I:XII, RS/196, RC/195, PE/17:18</bibl>
@@ -39363,10 +39616,11 @@
       <def><bibl>Ety/387</bibl> <index level1="hard" lang="en"/>hard</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="nornwaith">
     <form>
       <orth>nornwaith</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -39455,7 +39709,7 @@
   </sense>
 </entry>
 
-<entry id="north"><!--C0421-->
+<entry id="north">
   <form type="regular">
     <form>
       <orth>north</orth><usg type="lang" norm="S."/>
@@ -39479,7 +39733,7 @@
   </sense>
 </entry>
 
-<entry id="northa-"><!--C0421-->
+<entry id="northa-">
   <form type="regular">
     <form>
       <orth>northa-</orth><usg type="lang" norm="S."/>
@@ -39585,10 +39839,11 @@
     </trans>
   </sense>
   <xr type="analogy"><ptr target="noss"/></xr>
-  <re>
+  <re corresp="nothrim">
     <form>
       <orth>nothrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -39829,7 +40084,8 @@
     See also Q. <hi>nurrula</hi> "mumbling" (from <hi>nurru-</hi> "murmur, grumble") in the final version of the poem <hi>The Last Ark</hi> (MC/222-23).
     Patrick Wynne therefore noted: S. *<hi>nûr</hi> in <hi>Núrnen</hi> "Sad Water"
     is apparently "sad" in the sense "bewailing, lamenting, complaining, grumbling", no doubt a reference to the general mood of
-    the hapless laborers in "the great slave-worked fields" beside the lake. (See Lambengolmor/856-860)</note>
+    the hapless laborers in "the great slave-worked fields" beside the lake. (See Lambengolmor/856-860)
+  </note>
 </entry>
 
 <entry id="nŷw">
@@ -39978,10 +40234,11 @@
     </trans>
   </sense>
   <note type="source">WJ/364, WJ/366, WJ/378-379</note>
-  <re>
+  <re corresp="ódhellim">
     <form>
      <orth>ódhellim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -40101,7 +40358,7 @@
   <xr type="analogy"><ptr target="othui"/></xr>
 </entry>
 
-<entry id="oer"><!-- A0131 -->
+<entry id="oer">
   <form type="regular">
     <form>
       <orth>oer</orth><usg type="lang" norm="S."/>
@@ -40122,7 +40379,7 @@
   </sense>
 </entry>
 
-<entry id="oew"><!-- A0131 -->
+<entry id="oew">
   <form type="regular">
     <form>
       <orth>oew</orth><usg type="lang" norm="S."/>
@@ -40144,7 +40401,7 @@
   </sense>
 </entry>
 
-<entry id="ogol"><!-- A0105 -->
+<entry id="ogol">
   <form type="regular">
     <form>
       <orth>ogol</orth><usg type="lang" norm="S., N."/>
@@ -40201,7 +40458,7 @@
   </sense>
 </entry>
 
-<entry id="ogron"><!-- A0131 -->
+<entry id="ogron">
   <form type="regular">
     <form>
       <orth>ogron</orth><usg type="lang" norm="S."/>
@@ -40332,10 +40589,12 @@
     phonologiques que celles observées dans d'autres mots, cela conduirait
     en effet à <hi>onen</hi> en sindarin, voir PE/12:31 et TT/14:48-49
   </note>
-  <note type="comment" lang="en">Written <hi>onen</hi> in some editions of LotR.
-  In the <hi>Qenyaqetsa</hi>, Qenya <hi>anta-</hi> is marked as having an irregular
-  past tense <hi>áne</hi>. Assuming the same sound-shifts as observed in other
-  words, this would indeed lead to <hi>onen</hi> in Sindarin, see PE/12:31 and TT/14:48-49</note>
+  <note type="comment" lang="en">
+    Written <hi>onen</hi> in some editions of LotR.
+    In the <hi>Qenyaqetsa</hi>, Qenya <hi>anta-</hi> is marked as having an irregular
+    past tense <hi>áne</hi>. Assuming the same sound-shifts as observed in other
+    words, this would indeed lead to <hi>onen</hi> in Sindarin, see PE/12:31 and TT/14:48-49
+  </note>
 </entry>
 
 <entry id="oneth">
@@ -40378,10 +40637,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Abonnen, Eboennin</mentioned> WJ/387</note>
-  <re>
+  <re corresp="onnen">
     <form type="deduced">
       <orth>onnen</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
@@ -40443,10 +40703,11 @@
     </trans>
   </sense>
   <note type="source">LotR/F, Letters/224</note>
-  <re>
+  <re corresp="onodrim">
     <form>
       <orth>onodrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -40624,18 +40885,20 @@
     </trans>
   </sense>
   <note type="source">Ety/379, LR/406, WJ/390, LotR/II:VI, LotR/F, Letters/178</note>
-  <re>
+  <re corresp="erchion">
     <form type="deduced">
       <orth>erchion</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="orchoth">
     <form>
       <orth>orchoth</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -40758,7 +41021,9 @@
   <note type="comment" lang="fr">
     Ce jour était auparavant dénommé <ptr target="orgaladhad"/> dans le calendrier elfique
   </note>
-  <note type="comment" lang="en">This day was formerly called <ptr target="orgaladhad"/> in the Elvish calendar</note>
+  <note type="comment" lang="en">
+    This day was formerly called <ptr target="orgaladhad"/> in the Elvish calendar
+  </note>
   <etym>aur+galadh</etym>
 </entry>
 
@@ -40922,10 +41187,11 @@
     </trans>
   </sense>
   <note type="source">Ety/379, S/435, Letters/263, TC/178, RC/621</note>
-  <re>
+  <re corresp="orodrim">
     <form>
       <orth>orodrim</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -40985,7 +41251,7 @@
   <etym>orod+rim</etym>
 </entry>
 
-<entry id="oroth"><!--C0421-->
+<entry id="oroth">
   <form type="regular">
     <form>
       <orth>oroth</orth><usg type="lang" norm="S."/>
@@ -41042,7 +41308,7 @@
     </trans>
   </sense>
   <xr type="analogy"><ptr target="eria-"/></xr>
-  <re>
+  <re corresp="orthad">
     <form>
       <orth>orthad</orth><usg type="lang" norm="S."/>
       <bibl>MR/373</bibl>
@@ -41185,16 +41451,17 @@
            <index level1="conquer" lang="en"/>conquer</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="orthor">
     <form>
       <orth>orthor</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
 </entry>
 
-<entry id="os"><!-- A0127 -->
+<entry id="os">
   <form type="regular">
     <form>
       <orth>os</orth><usg type="lang" norm="S."/>
@@ -41289,10 +41556,11 @@
            to <index level1="amputate" lang="en"/>amputate</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="osgar">
     <form>
       <orth>osgar</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -41540,10 +41808,11 @@
       <def><bibl>Ety/396</bibl> <index level1="abundant" lang="en"/>abundant</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="ovras">
     <form>
       <orth>ovras</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -41910,10 +42179,11 @@
       <def><bibl>Ety/380</bibl> <index level1="plank" lang="en"/>plank, fixed <index level1="board" lang="en"/>board</def> <usg type="hint">especially in <index level1="floor" lang="en"/>floor</usg>
     </trans>
   </sense>
-  <re>
+  <re corresp="panas">
     <form>
       <orth>panas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -42111,7 +42381,7 @@
   <note type="source">Ety/366, SD/129-31</note>
 </entry>
 
-<entry id="paran"><!-- A0113 -->
+<entry id="paran">
   <form type="regular">
     <form>
       <orth>paran</orth><usg type="lang" norm="S."/>
@@ -42139,7 +42409,7 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Dol Baran</mentioned> RC/433, PE/17:86,171</note>
-  <re>
+  <re corresp="baran.1">
     <form>
      <orth>baran</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
      <bibl>RC/433, PE/17:86,171</bibl>
@@ -42390,17 +42660,19 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>pedo, arphent</mentioned> LotR/II:IV, VT/50:20</note>
-  <re>
+  <re corresp="pêd">
     <form type="deduced">
       <orth>pêd</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="pedo">
     <form>
      <orth>pedo</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -42455,7 +42727,7 @@
   <note type="source">LotR/II:IV, Letters/424, PE/17:40</note>
 </entry>
 
-<entry id="pedweg"><!-- A0127 -->
+<entry id="pedweg">
   <form type="regular">
     <form>
       <orth>pedweg</orth><usg type="lang" norm="S."/>
@@ -42619,7 +42891,7 @@
   </sense>
 </entry>
 
-<entry id="pen-"><!-- A0126 -->
+<entry id="pen-">
   <form type="regular">
     <form>
       <orth>pen-</orth><usg type="lang" norm="S."/>
@@ -42638,10 +42910,11 @@
       <def><bibl>PE/17:144</bibl> to <index level1="have" lang="en"/>have not</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="penim">
     <form>
       <orth>penim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per> <number>pl.</number>
     </gramGrp>
   </re>
@@ -42666,7 +42939,7 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Iarwain ben-adar</mentioned> LotR/II:II, PE/17:144-145</note>
-  <re>
+  <re corresp="ben">
     <form>
       <orth>ben</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
     </form>
@@ -42698,7 +42971,7 @@
   <note type="comment" lang="en">
     Usually enclitic and mutated as <hi>ben</hi>.
   </note>
-  <re>
+  <re corresp="ben">
     <form>
       <orth>ben</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
     </form>
@@ -42758,17 +43031,19 @@
     </trans>
   </sense>
   <note type="source">Ety/380, RC/525</note>
-  <re>
+  <re corresp="penneth">
     <form>
       <orth>penneth</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="pinnath">
     <form>
       <orth>pinnath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -43029,10 +43304,11 @@
       <def><bibl>Ety/366</bibl> <index level1="tale" lang="en"/>tale</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="pennas">
     <form>
       <orth>pennas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -43115,10 +43391,11 @@
   </sense>
   <note type="source">LotR/VI:IV, LotR/E, RGEO/75, Letters/308</note>
   <etym>per+-ian</etym>
-  <re>
+  <re corresp="periannath">
     <form>
       <orth>periannath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -43228,7 +43505,7 @@
   </re>
 </entry>
 
-<entry id="pethron"><!-- A0127 -->
+<entry id="pethron">
   <form type="regular">
     <form>
       <orth>pethron</orth><usg type="lang" norm="S., N."/>
@@ -43301,7 +43578,7 @@
   </sense>
 </entry>
 
-<entry id="pîn"><!-- A0113 -->
+<entry id="pîn">
   <form type="regular">
     <form type="deduced">
       <orth>pîn</orth><usg type="lang" norm="S."/>
@@ -43517,10 +43794,11 @@
            <index level1="disturb" lang="en"/>disturb</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="prestannen">
     <form>
       <orth>prestannen</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
@@ -43668,7 +43946,8 @@
     sa forme non mutée est incertaine. Elle pourrait aussi être *<hi>grach</hi> ou
     *<hi>rhach</hi>
   </note>
-  <note type="comment" lang="en">Since this word is attested in a compound only, its
+  <note type="comment" lang="en">
+    Since this word is attested in a compound only, its
     unmutated form is uncertain. It could also be <hi>*grach</hi> or <hi>*rhach</hi>
   </note>
 </entry>
@@ -43946,7 +44225,7 @@
   </sense>
 </entry>
 
-<entry id="raitha-"><!--C0421-->
+<entry id="raitha-">
   <form type="regular">
     <form>
       <orth>raitha-</orth><usg type="lang" norm="S."/>
@@ -44050,10 +44329,11 @@
       <def><bibl>Ety/382, S/436</bibl> <index level1="wall" lang="en"/>wall</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="rammas">
     <form>
       <orth>rammas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -44244,7 +44524,9 @@
     La forme <hi>rhaes</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon VT/46.10
   </note>
-  <note type="comment" lang="en">The form <hi>rhaes</hi> in the <hi>Etymologies</hi> is a misreading according to VT/46:10</note>
+  <note type="comment" lang="en">
+    The form <hi>rhaes</hi> in the <hi>Etymologies</hi> is a misreading according to VT/46:10
+  </note>
 </entry>
 
 <entry id="rasg">
@@ -44306,7 +44588,7 @@
   <note type="source">Ety/383, LotR/Index, RC/523,551, PE/17:96,98</note>
 </entry>
 
-<entry id="raud.1" n="1"><!--C0421-->
+<entry id="raud.1" n="1">
   <form type="regular">
     <form>
       <orth>raud</orth><usg type="lang" norm="S."/>
@@ -44437,7 +44719,7 @@
   </sense>
 </entry>
 
-<entry id="ravaed"><!--C0421-->
+<entry id="ravaed">
   <form type="regular">
     <form>
       <orth>ravaed</orth><usg type="lang" norm="S."/>
@@ -44874,7 +45156,7 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Narn e-'Rach Morgoth</mentioned> "Tale of the Curse of Morgoth" MR/373</note>
-  <re>
+  <re corresp="rach">
     <form>
       <orth>rach</orth><usg type="lang" norm="S."/><itype type="mm">mut.</itype>
       <note type="source,deduced"><mentioned>e-'Rach</mentioned> MR/373</note>
@@ -45047,7 +45329,9 @@
   <note type="comment" lang="fr">
     Signification rectifiée conformément à VT/46:10
   </note>
-  <note type="comment" lang="en">Meaning rectified according to VT/46:10</note>
+  <note type="comment" lang="en">
+    Meaning rectified according to VT/46:10
+  </note>
 </entry>
 
 <entry id="rhaw.2" n="2">
@@ -45226,10 +45510,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Rhovanion</mentioned> LotR/Map, VT/46:10</note>
-  <re>
+  <re corresp="rhovanion">
     <form>
       <orth>rhovanion</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -45253,7 +45538,7 @@
   <note type="source,deduced"><mentioned>Rhovanion</mentioned> LotR/Map</note>
 </entry>
 
-<entry id="rhudol"><!-- A0131 -->
+<entry id="rhudol">
   <form type="regular">
     <form>
       <orth>rhudol</orth><usg type="lang" norm="S."/>
@@ -45275,7 +45560,7 @@
   </sense>
 </entry>
 
-<entry id="rhugar"><!-- A0131 -->
+<entry id="rhugar">
   <form type="regular">
     <form>
       <orth>rhugar</orth><usg type="lang" norm="S."/>
@@ -45296,7 +45581,7 @@
   </sense>
 </entry>
 
-<entry id="rhugarol"><!-- A0131 -->
+<entry id="rhugarol">
   <form type="regular">
     <form>
       <orth>rhugarol</orth><usg type="lang" norm="S."/>
@@ -45386,7 +45671,7 @@
   </sense>
 </entry>
 
-<entry id="rî"><!-- A0116 -->
+<entry id="rî">
   <form type="regular">
     <form>
       <orth>rî</orth><usg type="lang" norm="S."/>
@@ -45441,7 +45726,9 @@
   <note type="comment" lang="fr">
     Des incertitudes subsistent quant au déchiffrage de la signification de ce mot
   </note>
-  <note type="comment" lang="en">The reading of the gloss is uncertain</note>
+  <note type="comment" lang="en">
+    The reading of the gloss is uncertain
+  </note>
 </entry>
 
 <entry id="rîdh">
@@ -45547,7 +45834,7 @@
   </sense>
 </entry>
 
-<entry id="rîn.1" n="1"><!-- A0116 -->
+<entry id="rîn.1" n="1">
   <form type="regular">
     <form type="normalized">
       <orth>rîn</orth><usg type="lang" norm="*S."/>
@@ -45887,7 +46174,7 @@
   </sense>
 </entry>
 
-<entry type="affix" id="ro-"><!--C0421-->
+<entry type="affix" id="ro-">
   <form type="regular">
     <form>
       <orth>ro-</orth><usg type="lang" norm="S."/>
@@ -45987,10 +46274,11 @@
   </sense>
   <note type="source">Letters/178, Letters/282</note>
   <etym>roch+hîr</etym>
-  <re>
+  <re corresp="rochirrim">
     <form>
       <orth>rochirrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -46114,7 +46402,7 @@
   </sense>
 </entry>
 
-<entry id="rom"><!-- A0116 -->
+<entry id="rom">
   <form type="regular">
     <form>
       <orth>rom</orth><usg type="lang" norm="S."/>
@@ -46140,7 +46428,7 @@
   </sense>
 </entry>
 
-<entry id="romru"><!-- A0116 -->
+<entry id="romru">
   <form type="regular">
     <form type="normalized">
       <orth>romru</orth><usg type="lang" norm="*S."/>
@@ -46166,7 +46454,7 @@
   <etym>rom+rû</etym>
 </entry>
 
-<entry id="rond"><!-- A0116 -->
+<entry id="rond">
   <form type="regular">
     <form>
       <orth>rond</orth><usg type="lang" norm="S., N."/>
@@ -46284,7 +46572,7 @@
   </sense>
 </entry>
 
-<entry id="rovaed"><!--C0421-->
+<entry id="rovaed">
   <form type="regular">
     <form>
       <orth>rovaed</orth><usg type="lang" norm="S."/>
@@ -46442,7 +46730,7 @@
   </sense>
 </entry>
 
-<entry id="ruist"><!-- A0101 -->
+<entry id="ruist">
   <form type="regular">
     <form>
       <orth>ruist</orth><usg type="lang" norm="S."/>
@@ -46528,7 +46816,7 @@
   </sense>
 </entry>
 
-<entry id="rûth"><!--C0421-->
+<entry id="rûth">
   <form type="regular">
     <form>
       <orth>rûth</orth><usg type="lang" norm="S."/>
@@ -46554,7 +46842,7 @@
   </sense>
 </entry>
 
-<entry id="ruthra-"><!--C0421-->
+<entry id="ruthra-">
   <form type="regular">
     <form>
       <orth>ruthra-</orth><usg type="lang" norm="S."/>
@@ -46688,7 +46976,7 @@
   </sense>
 </entry>
 
-<entry id="sadar"><!-- A0112 -->
+<entry id="sadar">
   <form type="regular">
     <form>
       <orth>sadar</orth><usg type="lang" norm="S."/>
@@ -46723,7 +47011,7 @@
   <xr type="analogy"><ptr target="sadron"/></xr>
 </entry>
 
-<entry id="sador"><!-- A0112 -->
+<entry id="sador">
   <form type="regular">
     <form>
       <orth>sador</orth><usg type="lang" norm="S."/>
@@ -46760,7 +47048,7 @@
   </note>
 </entry>
 
-<entry id="sadron"><!-- A0112 -->
+<entry id="sadron">
   <form type="regular">
   <form>
     <orth>sadron</orth><usg type="lang" norm="S."/>
@@ -47010,10 +47298,11 @@
   </sense>
   <note type="source,deduced"><mentioned>Sammath</mentioned> LotR/VI:III, S/435</note>
   <etym>Q sambe</etym>
-  <re>
+  <re corresp="sammath">
     <form>
       <orth>sammath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -47066,10 +47355,11 @@
     </trans>
   </sense>
   <etym>"one who dwells beside" = OE. <hi>neah</hi>+<hi>gebur</hi></etym>
-  <re>
+  <re corresp="samarad">
     <form>
       <orth>samarad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>dual pl.</number>
     </gramGrp>
   </re>
@@ -47179,23 +47469,26 @@
   <note type="comment" lang="fr">
     <hi>Sern</hi> dans UT/463 est une coquille d'impression, voir VT/42:11
   </note>
-  <note type="comment" lang="en"><hi>Sern</hi> in UT/463 is a misprint, see VT/42:11</note>
-  <re>
+  <note type="comment" lang="en">
+    <hi>Sern</hi> in UT/463 is a misprint, see VT/42:11
+  </note>
+  <re corresp="harn.1">
     <form type="deduced">
       <orth>harn</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
     </form>
     <note type="source,deduced"><mentioned>Edhelharn</mentioned> SD/129-131</note>
   </re>
-  <re>
+  <re corresp="sarnas">
     <form>
       <orth>sarnas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
 </entry>
 
-<entry id="sarnas"><!-- A0112 -->
+<entry id="sarnas">
   <form type="regular">
     <form>
       <orth>sarnas</orth><usg type="lang" norm="N."/>
@@ -47217,7 +47510,7 @@
   </sense>
 </entry>
 
-<entry id="saur"><!--C0421-->
+<entry id="saur">
   <form type="regular">
     <form>
       <orth>saur</orth><usg type="lang" norm="S."/>
@@ -47261,7 +47554,7 @@
   </sense>
 </entry>
 
-<entry id="sav-"><!-- A0112 -->
+<entry id="sav-">
   <form type="regular">
     <form type="deduced">
       <orth>sav-</orth><usg type="lang" norm="S."/>
@@ -47279,7 +47572,7 @@
       <def>to <index level1="have" lang="en"/>have</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="sevin">
     <form>
       <orth>sevin</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:173</bibl>
@@ -47288,7 +47581,7 @@
       <pos>v.</pos> <tns>aor.</tns> <per>1st</per>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="aw">
     <form>
       <orth>aw</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:173</bibl>
@@ -47299,7 +47592,7 @@
   </re>
 </entry>
 
-<entry id="saw.1" n="1"><!-- A0112 -->
+<entry id="saw.1" n="1">
   <form type="regular">
     <form>
       <orth>saw</orth><usg type="lang" norm="S."/>
@@ -47414,10 +47707,11 @@
       <def><bibl>Ety/385</bibl> <index level1="girl" lang="en"/>girl, <index level1="maid" lang="en"/>maid (<index level1="child" lang="en"/>child)</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="sellath">
     <form>
       <orth>sellath</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
@@ -47488,7 +47782,7 @@
     of <hi>tîw</hi> on the Doors of Durin is <hi>thiw</hi> instead of
     the expected <hi>thîw</hi>, see HL/69
   </note>
-  <re>
+  <re corresp="hen.2">
     <form>
       <orth>hen</orth><usg type="lang" norm="S."/>
       <bibl>PE/17:44, VT/49:34, VT/50:14</bibl>
@@ -47504,7 +47798,7 @@
   </re>
 </entry>
 
-<entry id="send"><!-- A0112 -->
+<entry id="send">
   <form type="regular">
     <form type="deduced">
       <orth>send</orth><usg type="lang" norm="S."/>
@@ -47526,16 +47820,17 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>sennas</mentioned> RC/523</note>
-  <re>
+  <re corresp="sennas">
     <form>
       <orth>sennas</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
 </entry>
 
-<entry id="sennas"><!-- A0112 -->
+<entry id="sennas">
   <form type="regular">
     <form>
       <orth>sennas</orth><usg type="lang" norm="S."/>
@@ -47558,7 +47853,7 @@
   <etym>"resting place", from <hi>*send, *senn</hi> (SED) ?</etym>
 </entry>
 
-<entry id="sennui"><!-- A0112 -->
+<entry id="sennui">
   <form type="regular">
     <form>
       <orth>sennui</orth><usg type="lang" norm="S."/>
@@ -47579,7 +47874,7 @@
   </sense>
 </entry>
 
-<entry id="sereg"><!-- A0112 -->
+<entry id="sereg">
   <form type="regular">
     <form>
       <orth>sereg</orth><usg type="lang" norm="S."/>
@@ -47601,7 +47896,7 @@
   </sense>
 </entry>
 
-<entry id="seregon"><!-- A0112 -->
+<entry id="seregon">
   <form type="regular">
     <form>
       <orth>seregon</orth><usg type="lang" norm="S."/>
@@ -47645,7 +47940,7 @@
   </sense>
 </entry>
 
-<entry id="sevin"><!-- A0112 -->
+<entry id="sevin">
   <form type="regular">
     <form>
       <orth>sevin</orth><usg type="lang" norm="S."/>
@@ -47795,7 +48090,7 @@
   <note type="source,deduced"><mentioned>Sigil Elu-naeth</mentioned> WJ/258</note>
 </entry>
 
-<entry id="síla"><!-- A0112 -->
+<entry id="síla">
   <form type="regular">
     <form>
       <orth>síla</orth><usg type="lang" norm="N."/>
@@ -47817,7 +48112,7 @@
   </sense>
 </entry>
 
-<entry id="síla-"><!-- A0112 -->
+<entry id="síla-">
   <form type="regular">
     <form type="deduced">
       <orth>síla-</orth><usg type="lang" norm="N."/>
@@ -47835,16 +48130,17 @@
       <def>to <index level1="shine" lang="en"/>shine white</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="síla">
     <form>
       <orth>síla</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
 </entry>
 
-<entry id="silef"><!-- A0112 -->
+<entry id="silef">
   <form type="regular">
     <form>
       <orth>silef</orth><usg type="lang" norm="S."/>
@@ -47867,7 +48163,7 @@
   </sense>
 </entry>
 
-<entry id="silevril"><!-- A0112 -->
+<entry id="silevril">
   <form type="regular">
     <form>
       <orth>silevril</orth><usg type="lang" norm="N."/>
@@ -47896,7 +48192,7 @@
   <xr type="analogy"><ptr target="golovir"/>, <ptr target="mirion"/></xr>
 </entry>
 
-<entry id="silivren"><!-- A0112 -->
+<entry id="silivren">
   <form type="regular">
     <form>
       <orth>silivren</orth><usg type="lang" norm="S."/>
@@ -48013,17 +48309,19 @@
     </trans>
   </sense>
   <note type="source">Ety/385, S/437, RC/384, PE/17:37</note>
-  <re>
+  <re corresp="sirion.1">
     <form>
       <orth>sirion</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">augm.</usg>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="sirion.1">
     <form type="deduced">
       <orth>sirion</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -48184,17 +48482,19 @@
     </trans>
   </sense>
   <note type="source">Ety/388, VT/46:16</note>
-  <re>
+  <re corresp="sôg">
     <form>
       <orth>sôg</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="sogannen">
     <form>
       <orth><corr sic="sogennen" resp="ed">sogannen</corr></orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
@@ -48314,10 +48614,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>suilad</mentioned> SD/129-31</note>
-  <re>
+  <re corresp="suilad">
     <form>
       <orth>suilad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -48364,10 +48665,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>suilannad</mentioned> SD/129-31</note>
-  <re>
+  <re corresp="suilannad">
     <form>
       <orth>suilannad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -48420,7 +48722,7 @@
   </sense>
 </entry>
 
-<entry id="sûl.1" n="1"><!-- A0112 -->
+<entry id="sûl.1" n="1">
   <form type="regular">
     <form>
       <orth>sûl</orth><usg type="lang" norm="S."/>
@@ -48465,7 +48767,7 @@
   </sense>
 </entry>
 
-<entry id="tachol"><!-- A0112 -->
+<entry id="tachol">
   <form type="regular">
     <form>
       <orth>tachol</orth><usg type="lang" norm="S, N."/>
@@ -48725,10 +49027,13 @@
   <note type="comment" lang="fr">
     Sous la graphie <hi>tær</hi> (avec ligature) dans les <hi>Etymologies</hi>
   </note>
-  <note type="comment" lang="en">Written <hi>tær</hi> (with ae-ligature) in the <hi>Etymologies</hi>, rectified here according to VT/46:18 (which also lists the ligature)</note>
+  <note type="comment" lang="en">
+    Written <hi>tær</hi> (with ae-ligature) in the <hi>Etymologies</hi>,
+    rectified here according to VT/46:18 (which also lists the ligature)
+  </note>
 </entry>
 
-<entry id="taer.2" n="2"><!-- A0112 -->
+<entry id="taer.2" n="2">
   <form type="regular">
     <form>
       <orth>taer</orth><usg type="lang" norm="S."/>
@@ -48843,7 +49148,9 @@
   <note type="comment" lang="fr">
     Orthographe normalisée en <hi>tafnen</hi>, comme dans <hi>lefnui</hi>
   </note>
-  <note type="comment" lang="en">Orthography normalized to <hi>tafnen</hi>, as in <hi>lefnui</hi></note>
+  <note type="comment" lang="en">
+    Orthography normalized to <hi>tafnen</hi>, as in <hi>lefnui</hi>
+  </note>
 </entry>
 
 <entry id="tagol">
@@ -48888,7 +49195,7 @@
   </sense>
 </entry>
 
- <entry id="taith"><!-- A0112 -->
+ <entry id="taith">
   <form type="regular">
     <form>
       <orth>taith</orth><usg type="lang" norm="S."/>
@@ -49121,7 +49428,7 @@
   </sense>
 </entry>
 
-<entry id="talf.2" n="2"><!-- A0112 -->
+<entry id="talf.2" n="2">
   <form type="regular">
     <form>
       <orth>talf</orth><usg type="lang" norm="S."/>
@@ -49374,7 +49681,7 @@
   <note type="source">Ety/391, VT/46:17</note>
 </entry>
 
-<entry id="tarch"><!-- A0112 -->
+<entry id="tarch">
   <form type="regular">
     <form>
       <orth>tarch</orth><usg type="lang" norm="S."/>
@@ -49463,7 +49770,7 @@
   </sense>
 </entry>
 
-<entry id="tathar"><!-- A0112 -->
+<entry id="tathar">
   <form type="regular">
     <form>
       <orth>tathar</orth><usg type="lang" norm="S."/>
@@ -49489,7 +49796,7 @@
   </sense>
 </entry>
 
-<entry id="tathren"><!-- A0112 -->
+<entry id="tathren">
   <form type="regular">
     <form>
       <orth>tathren</orth><usg type="lang" norm="S., N."/>
@@ -49510,7 +49817,7 @@
   </sense>
 </entry>
 
-<entry id="taug"><!-- A0112 -->
+<entry id="taug">
   <form type="regular">
     <form>
       <orth>taug</orth><usg type="lang" norm="S."/>
@@ -49531,7 +49838,7 @@
   </sense>
 </entry>
 
-<entry id="taur.1" n="1"><!-- A0112 -->
+<entry id="taur.1" n="1">
   <form type="regular">
     <form>
       <orth>taur</orth><usg type="lang" norm="N."/>
@@ -49554,7 +49861,7 @@
   <xr type="analogy"><ptr target="aran"/></xr>
 </entry>
 
-<entry id="taur.2" n="2"><!-- A0112 -->
+<entry id="taur.2" n="2">
   <form type="regular">
     <form>
       <orth>taur</orth><usg type="lang" norm="S., N."/>
@@ -49576,7 +49883,7 @@
   </sense>
 </entry>
 
-<entry id="taur.3" n="3"><!-- A0112 -->
+<entry id="taur.3" n="3">
   <form type="regular">
     <form>
       <orth>taur</orth><usg type="lang" norm="N."/>
@@ -49639,7 +49946,7 @@
   </sense>
 </entry>
 
-<entry id="tavn"><!-- A0112 -->
+<entry id="tavn">
   <form type="regular">
     <form>
       <orth>tavn</orth><usg type="lang" norm="S."/>
@@ -49714,7 +50021,7 @@
   </sense>
 </entry>
 
-<entry id="taw.2" n="2"><!-- A0105 -->
+<entry id="taw.2" n="2">
   <form type="regular">
     <form>
       <orth>taw</orth><usg type="lang" norm="S."/>
@@ -49733,9 +50040,15 @@
       <def><bibl>PE/19:104</bibl> <index level1="thither" lang="en"/>thither</def>
     </trans>
   </sense>
-  <note type="comment" lang="fr">Dérivant de *<hi>tad</hi>, raccourci en *<hi>tō</hi> voir PE/19:52; et apparemment surtout employé sous forme mutée (<hi>daw</hi>, <hi>do</hi>)</note>
-  <note type="comment" lang="en">Etymologically from *<hi>tad</hi>, shortened *<hi>tō</hi> see PE/19:52, and apparently mostly used in mutated form (<hi>daw</hi>, <hi>do</hi>)</note>
-  <re>
+  <note type="comment" lang="fr">
+    Dérivant de *<hi>tad</hi>, raccourci en *<hi>tō</hi> voir PE/19:52; et apparemment
+    surtout employé sous forme mutée (<hi>daw</hi>, <hi>do</hi>)
+  </note>
+  <note type="comment" lang="en">
+    Etymologically from *<hi>tad</hi>, shortened *<hi>tō</hi> see PE/19:52, and apparently
+    mostly used in mutated form (<hi>daw</hi>, <hi>do</hi>)
+  </note>
+  <re corresp="daw">
     <form>
       <orth>daw</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
       <bibl>PE/19:104</bibl>
@@ -49747,7 +50060,7 @@
  </re>
 </entry>
 
-<entry id="taw.3" n="3"><!-- A0112 -->
+<entry id="taw.3" n="3">
   <form type="regular">
     <form>
       <orth>taw</orth><usg type="lang" norm="S."/>
@@ -49801,10 +50114,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Tawar-in-Drúedain</mentioned> UT/467, Ety/391</note>
-  <re>
+  <re corresp="tawarwaith">
     <form>
       <orth>tawarwaith</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -49863,7 +50177,7 @@
   <etym>tawar+gwaith "forest-elves"</etym>
 </entry>
 
-<entry id="tawen"><!-- A0112 -->
+<entry id="tawen">
   <form type="regular">
     <form>
       <orth>tawen</orth><usg type="lang" norm="S."/>
@@ -49937,7 +50251,10 @@
     Forme sindarinisée du quenya <hi>tekil</hi>, object inconnu des Sindar jusqu'à l'arrivée
     des Ñoldor (mais voir néanmoins <ptr target="tegol"/> pour une éventuelle variante
     dialectale)</note>
-  <note type="comment" lang="en">Sindarized form of Quenya <hi>tekil</hi>, not known to the Sindar until the coming of the Ñoldor (but see however <ptr target="tegol"/> for a possible dialectal variant)</note>
+  <note type="comment" lang="en">
+    Sindarized form of Quenya <hi>tekil</hi>, not known to the Sindar until the coming
+    of the Ñoldor (but see however <ptr target="tegol"/> for a possible dialectal variant)
+  </note>
   <etym>Q tekil</etym>
 </entry>
 
@@ -49996,10 +50313,18 @@
     et <ptr target="megil"/> "épée" (il est peu probable que les armes n'aient pas été connues
     des Sindar avant l'arrivée des Ñoldor)
   </note>
-  <note type="comment" lang="en">It is stated in PM/318 that "<ptr target="tegil"/> was a Sindarized form of Quenya <hi>tekil</hi> "pen", not known to the Sindar until the coming of the Ñoldor". It must be assumed therefore that <hi>tegol</hi> was either rejected by Tolkien, or that it may perhaps have been considered as a dialectal variant. For a similar case where both a true Sindarin/Noldorin word and a Sindarized form conceivably coexist, see <ptr target="magol"/> and <ptr target="megil"/> "sword" (it is unlikely that weapons were not known to the Sindar before the coming of the Ñoldor)</note>
+  <note type="comment" lang="en">
+    It is stated in PM/318 that "<ptr target="tegil"/> was a Sindarized form of Quenya
+    <hi>tekil</hi> "pen", not known to the Sindar until the coming of the Ñoldor".
+    It must be assumed therefore that <hi>tegol</hi> was either rejected by Tolkien,
+    or that it may perhaps have been considered as a dialectal variant. For a similar
+    case where both a true Sindarin/Noldorin word and a Sindarized form conceivably coexist,
+    see <ptr target="magol"/> and <ptr target="megil"/> "sword" (it is unlikely that
+    weapons were not known to the Sindar before the coming of the Ñoldor)
+  </note>
 </entry>
 
-<entry id="teitha-"><!-- A0112 -->
+<entry id="teitha-">
   <form type="regular">
     <form>
       <orth>teitha-</orth><usg type="lang" norm="S."/>
@@ -50125,10 +50450,11 @@
       <def><bibl>PM/385</bibl> an <index level1="elf" lang="en"/>Elf, one of the Teleri</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="telerrim">
     <form>
       <orth>telerrim</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
@@ -50288,14 +50614,14 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>caro den</mentioned> VT/44:21,25-6</note>
-  <re>
+  <re corresp="den.1">
     <form>
       <orth>den</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
     </form>
   </re>
 </entry>
 
-<entry id="terch"><!-- A0113 -->
+<entry id="terch">
   <form type="regular">
     <form>
       <orth>terch</orth><usg type="lang" norm="N."/>
@@ -50486,10 +50812,11 @@
       <def><bibl>Ety/387</bibl> <index level1="hall" lang="en"/>hall</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="thamas">
     <form>
      <orth>thamas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -50592,7 +50919,9 @@
     L'erreur de lecture <hi>thenid, thenin</hi> dans les <hi>Etymologies</hi>
     est ici rectifiée conformément à VT/46:16
   </note>
-  <note type="comment" lang="en">Misreading <hi>thenid, thenin</hi> rectified according to VT/46:16</note>
+  <note type="comment" lang="en">
+    Misreading <hi>thenid, thenin</hi> rectified according to VT/46:16
+  </note>
 </entry>
 
 <entry id="thang">
@@ -50682,7 +51011,7 @@
   <note type="source">Ety/388, S/438, PE/17:34</note>
 </entry>
 
-<entry id="tharan"><!-- A0113 -->
+<entry id="tharan">
   <form type="regular">
     <form>
       <orth>tharan</orth><usg type="lang" norm="S."/>
@@ -50947,7 +51276,7 @@
   <xr type="analogy"><ptr target="thent"/>, <ptr target="estent"/></xr>
 </entry>
 
-<entry id="then.2" n="2"><!-- A0127 -->
+<entry id="then.2" n="2">
   <form type="regular">
     <form type="deleted">
       <orth>then</orth><usg type="lang" norm="S."/>
@@ -50999,10 +51328,11 @@
   </sense>
   <note type="source">Ety/388, UT/146, WJ/311, WJ/315, PE/17:141</note>
   <xr type="analogy"><ptr target="then.1"/>, <ptr target="estent"/></xr>
-  <re>
+  <re corresp="thinnas">
     <form>
       <orth>thinnas</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
@@ -51077,10 +51407,11 @@
       <def><bibl>Ety/392</bibl> to <index level1="appear" lang="en"/>appear, <index level1="seem" lang="en"/>seem</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="thia">
     <form>
       <orth>thia</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -51136,7 +51467,7 @@
   <note type="source">Ety/392, VT/46:18</note>
 </entry>
 
-<entry id="thind"><!-- A0113 -->
+<entry id="thind">
   <form type="regular">
     <form>
       <orth>thind</orth><usg type="lang" norm="S., N."/>
@@ -51189,7 +51520,10 @@
     La ponctuation dans les <hi>Etymologies</hi> est a priori incorrecte
     (le point après ce mot devrait vraisemblablement être une virgule)
   </note>
-  <note type="comment" lang="en">The punctuation in <hi>The Etymologies</hi> is considered incorrect (the full dot after this word should conceivably be a comma)</note>
+  <note type="comment" lang="en">
+    The punctuation in <hi>The Etymologies</hi> is considered incorrect
+    (the full dot after this word should conceivably be a comma)
+  </note>
 </entry>
 
 <entry id="thinnas">
@@ -51239,7 +51573,7 @@
   <note type="source">Ety/392, VT/41:10</note>
 </entry>
 
-<entry id="thôl"><!-- C0421 -->
+<entry id="thôl">
   <form type="regular">
     <form>
       <orth>thôl</orth><usg type="lang" norm="S."/>
@@ -51315,10 +51649,11 @@
            <bibl>PE/17:82</bibl> pine</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="thonion">
     <form type="deduced">
       <orth>thonion</orth><usg type="lang" norm="S., N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>der.</pos>
       <number>pl.</number>
     </gramGrp>
@@ -51364,7 +51699,7 @@
   </sense>
 </entry>
 
-<entry id="thoniel"><!-- A0110 -->
+<entry id="thoniel">
   <form type="regular">
     <form>
       <orth>thoniel</orth><usg type="lang" norm="S."/>
@@ -51495,10 +51830,11 @@
       <def><bibl>Ety/393</bibl> to <index level1="fence" lang="en"/>fence</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="thoren">
     <form>
       <orth>thoren</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
@@ -51580,7 +51916,7 @@
     </trans>
   </sense>
   <etym>Back-formed from the plural, see thôr</etym>
-  <re>
+  <re corresp="thoronath">
     <form>
       <orth>thoronath</orth><usg type="lang" norm="S."/>
     </form>
@@ -51612,7 +51948,7 @@
   <note type="source">S/387, S/438</note>
 </entry>
 
-<entry id="thorn"><!--C0421-->
+<entry id="thorn">
   <form type="regular">
     <form>
       <orth>thorn</orth><usg type="lang" norm="S."/>
@@ -51633,7 +51969,7 @@
   </sense>
 </entry>
 
-<entry id="thos"><!--C0421-->
+<entry id="thos">
   <form type="regular">
     <form>
       <orth>thoss</orth><usg type="lang" norm="S."/>
@@ -51869,7 +52205,7 @@
   </sense>
 </entry>
 
-<entry id="till"><!-- A0112 -->
+<entry id="till">
   <form type="regular">
     <form>
       <orth>till</orth><usg type="lang" norm="S, N."/>
@@ -52034,7 +52370,7 @@
     See also <ptr target="dîn.1"/> for a discussion regarding this word
   </note>
   <xr type="analogy"><ptr target="tîn.2"/></xr>
-  <re>
+  <re corresp="dínen">
     <form>
       <orth>dínen</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
       <bibl>LotR/II:IV</bibl>
@@ -52231,17 +52567,19 @@
       <def><bibl>Ety/394</bibl> to <index level1="watch" lang="en"/>watch, to <index level1="gaze" lang="en"/>gaze, <index level1="look" lang="en"/>look at</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="tirnen">
     <form type="deduced">
     <orth>tirnen</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="tiro">
     <form>
       <orth>tiro</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
@@ -52266,10 +52604,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>tírad</mentioned> SD/129-31</note>
-  <re>
+  <re corresp="tírad">
     <form>
       <orth>tírad</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
   </re>
@@ -52331,17 +52670,19 @@
       <def><bibl>Ety/394</bibl> to <index level1="watch" lang="en"/>watch, to <index level1="gaze" lang="en"/>gaze, <index level1="look" lang="en"/>look at</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="tiriel">
     <form>
       <orth>tiriel</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>part.</tns>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="tíriel">
     <form>
       <orth>tíriel</orth><usg type="lang" norm="S."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <tns>perf.</tns>
     </gramGrp>
   </re>
@@ -52593,7 +52934,7 @@
       <def><bibl>Ety/394</bibl> to <index level1="cover" lang="en"/>cover, <index level1="roof" lang="en"/>roof over</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="tobas">
     <form>
       <orth>tobas</orth><usg type="lang" norm="N."/>
     </form>
@@ -52696,10 +53037,11 @@
       <def><bibl>Ety/395</bibl> to <index level1="lead" lang="en"/>lead, <index level1="bring" lang="en"/>bring</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="tôg">
     <form>
       <orth>tôg</orth><usg type="lang" norm="N."/>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -52794,7 +53136,7 @@
       <def><bibl>Ety/395</bibl> to <index level1="come" lang="en"/>come</def>
     </trans>
   </sense>
-  <re>
+  <re corresp="tolo">
     <form>
      <orth>tolo</orth><usg type="lang" norm="S."/>
      <bibl>VT/44:21,25</bibl>
@@ -52812,11 +53154,12 @@
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per>
     </gramGrp>
   </re>
-  <re>
+  <re corresp="tôl">
     <form>
       <orth>tôl</orth><usg type="lang" norm="S., N."/>
       <bibl>Ety/395, WJ/254, PE/17:166</bibl>
-    </form><gramGrp>
+    </form>
+    <gramGrp>
       <pos>v.</pos> <tns>pres.</tns> <per>3rd</per>
     </gramGrp>
   </re>
@@ -52909,7 +53252,7 @@
   </sense>
 </entry>
 
-<entry id="tolod"><!-- A0113 -->
+<entry id="tolod">
   <form type="regular">
     <form>
       <orth>tolod</orth><usg type="lang" norm="S."/>
@@ -53130,7 +53473,7 @@
   </note>
 </entry>
 
-<entry id="torech"><!-- A0113 -->
+<entry id="torech">
   <form type="regular">
     <form>
       <orth>torech</orth><usg type="lang" norm="S."/>
@@ -53178,7 +53521,7 @@
   </sense>
 </entry>
 
-<entry id="torn.1" n="1"><!-- A0113 -->
+<entry id="torn.1" n="1">
   <form type="regular">
     <form>
       <orth>torn</orth><usg type="lang" norm="S."/>
@@ -53211,7 +53554,7 @@
   <note type="comment" lang="en"><hi>Tyrn Gorthad</hi> "the Barrow-downs"</note>
 </entry>
 
-<entry id="torn.2" n="2"><!-- A0113 -->
+<entry id="torn.2" n="2">
   <form type="regular">
     <form>
       <orth>torn</orth><usg type="lang" norm="S."/>
@@ -53885,7 +54228,7 @@
   </sense>
 </entry>
 
-<entry id="ubed"><!-- A0131 -->
+<entry id="ubed">
   <form type="regular">
     <form>
       <orth>ubed</orth><usg type="lang" norm="N."/>
@@ -53906,7 +54249,7 @@
   </sense>
 </entry>
 
-<entry id="úbedui"><!-- A0101 -->
+<entry id="úbedui">
   <form type="regular">
     <form>
       <orth>úbedui</orth><usg type="lang" norm="S."/>
@@ -53948,7 +54291,7 @@
   </sense>
 </entry>
 
-<entry id="úgarol"><!--C0421-->
+<entry id="úgarol">
   <form type="regular">
     <form>
       <orth>úgarol</orth><usg type="lang" norm="S."/>
@@ -54091,7 +54434,9 @@
   <note type="comment" lang="fr">
     Orthographe normalisée en <hi>uidafnen</hi>, comme dans <hi>lefnui</hi>
   </note>
-  <note type="comment" lang="en">Normalized to <hi>uidafnen</hi>, as in <hi>lefnui</hi></note>
+  <note type="comment" lang="en">
+    Normalized to <hi>uidafnen</hi>, as in <hi>lefnui</hi>
+  </note>
   <etym>ui+tafnen "ever-blocked"</etym>
 </entry>
 
@@ -54677,7 +55022,10 @@
     Ce mot est classé comme vieux noldorin (ON) dans les <hi>Etymologies</hi>,
     mais il semble plutôt être noldorin
   </note>
-  <note type="comment" lang="en">The word is classed as Old Noldorin (ON) in the <hi>Etymologies</hi>, but rather seems to be Noldorin</note>
+  <note type="comment" lang="en">
+    The word is classed as Old Noldorin (ON) in the <hi>Etymologies</hi>,
+    but rather seems to be Noldorin
+  </note>
 </entry>
 
 <entry id="ylf.2" n="2">
@@ -54704,13 +55052,11 @@
 <entry id="yneb">
   <form type="regular">
     <form>
-      <orth>yneb</orth>
-      <usg type="lang" norm="S."/>
+      <orth>yneb</orth><usg type="lang" norm="S."/>
       <bibl>VT/48:8</bibl>
     </form>
     <form>
-      <orth>inib</orth>
-      <usg type="lang" norm="S."/>
+      <orth>inib</orth><usg type="lang" norm="S."/>
       <bibl>VT/48:8</bibl>
     </form>
   </form>
@@ -54731,23 +55077,19 @@
 <entry id="ýneg">
   <form type="regular">
     <form>
-      <orth>ýneg</orth>
-      <usg type="lang" norm="S."/>
+      <orth>ýneg</orth><usg type="lang" norm="S."/>
       <bibl>VT/47:41, VT/48:6</bibl>
       <pron>"y:nEg</pron>
     </form>
     <form>
-      <orth>yneg</orth>
-      <usg type="lang" norm="S."/>
+      <orth>yneg</orth><usg type="lang" norm="S."/>
       <bibl>VT/48:8-9</bibl>
     </form>
     <form>
-      <orth>yneb</orth>
-      <usg type="lang" norm="S."/>
+      <orth>yneb</orth><usg type="lang" norm="S."/>
     </form>
     <form>
-      <orth>inib</orth>
-      <usg type="lang" norm="S."/>
+      <orth>inib</orth><usg type="lang" norm="S."/>
       <bibl>VT/48:8</bibl>
     </form>
   </form>

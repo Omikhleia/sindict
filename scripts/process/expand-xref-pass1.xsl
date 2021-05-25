@@ -4,7 +4,7 @@
 
      NEED REVIEW
      This style-sheet is used to expand the cross-references
-     in the dictionary.
+     in the dictionary (step 1 = variants in entries).
 -->
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -26,24 +26,25 @@
   <div0 type="dictionary">
 <!-- An xref entry is created when the following conditions are satisfied:
 
-     The form does not contain other forms + AND IS NOT BELOW A RE (RELATED ENTRY). TODO, COMPLEX EXPANSION HERE*
+     The form does not contain other forms
      (= its not a nesting structure)
      AND
-       The form has preceding siblings
-       (= its not the first form in that nesting structure)
-       OR
-       The parent form has preceding siblings 
-       (= its not the first nesting structure)
-       OR
-       The form itself as a type='inflected' attribute (= loose nesting)
-       
-       *AS RE FORMS SOMETIMES HAVE DIRECT ENTRIES...
+       The form is not below a related entry (processed in another step)
+       AND
+         The form has preceding siblings
+         (= its not the first form in that nesting structure)
+         OR
+         The parent form has preceding siblings
+         (= its not the first nesting structure)
+         OR
+         The form itself as a type='inflected' attribute (= loose nesting)
 -->
     <xsl:for-each select="descendant::form[not(form) and not(ancestor::re)]">
       <xsl:if test="preceding-sibling::form[1] or parent::form[preceding-sibling::form[1]] or (@type='inflected')">
        <entry id="generated-{generate-id()}-{ancestor::entry/@id}" type="xref">
          <form>
           <xsl:apply-templates select="orth|@*"/>
+          <xsl:text> </xsl:text><xsl:apply-templates select="bibl"/>
           <xsl:apply-templates select="usg[@type != 'reg']"/>
           <xsl:apply-templates select="usg[@type = 'reg']"/>
          </form>
@@ -64,19 +65,12 @@
            </gramGrp>
          </xsl:when>
          </xsl:choose>
-         <xr type="see"><ptr target="{ancestor::entry/@id}"/></xr>
+         <xsl:text> </xsl:text><xr type="see"><ptr target="{ancestor::entry/@id}"/></xr>
        </entry>
       </xsl:if>
     </xsl:for-each>
     <xsl:apply-templates/>
   </div0>
 </xsl:template>
-
-<!-- Ignore entries without identifier
-     This was once used to ignore notably existing xref entries,
-     which had no id. The core lexicon should no longer include
-     any manual xref, so this rule could be removed safely...
--->
-<xsl:template match="entry[not(@id)]"/>
 
 </xsl:stylesheet>
