@@ -1,5 +1,22 @@
 # Changes
 
+## Edition 2.0-RC2 (lexicon 1.0-RC) - May 25, 2021
+
+_Release Candidate_
+
+Target: clean-up the toolchain
+
+- Lexicon structure overhaul:
+  - Clean-up and improve source XML readability.
+- Layout:
+  - Styles improvement
+  - Search box
+- Tooling:
+  - Processing scripts clean-up
+  - Oe-ligature sorted as "oe" for convenience
+  - Expansion of related (secondary) entries
+  - Better expansion of cross-reference pointers
+
 ## Edition 2.0-RC (lexicon 1.0-RC) - May 19, 2021
 
 _Release Candidate_
@@ -23,21 +40,22 @@ Target: make it look nice again.
 
 - Lexicon (with apologies to those involved... sometimes years ago):
   - Several bunches of updates from PE/17.
-    For the record, it represents around 60-70% of the old so-called "C0421" notes (with special thanks whom it concerns, efforts from around 2014 or later).
+    For the record, it represents around 60-70% of the old so-called "C0421" notes (with great thanks
+    to whom it concerns - efforts from around 2014 or later).
     Support for PE/17 is still fairly incomplete.
   - Several other fixes and updates (special thanks to Gabor L., feedback from around 2011-2012).
   - And more fixes and updates here and there.
 - The project now has a "live version" via "GitHub Pages".
 - Previous version was mostly focussed on re-assembling a working version, but the generated output was somehow ugly...
-  - Improved HTML5/CSS3 layout
-  - Repaired project information (header, with toggle)
+  - Improved HTML5/CSS3 layout.
+  - Repaired project information (header, with toggle).
   - Clickable words:
     - GitHub integration for easier issue reporting
     - Eldamo integration, just because.
 
-## Edition 2.0-a5x (lexicon 1.0-alpha5) - April 2020 (from 2019 recovery)
+## Edition 2.0-a5x (lexicon 1.0-alpha5) - April, 10 2021
 
-Target: assemble a working lexicon again.
+Target: assemble a working lexicon again (from 2019 source recovery)
 
 - Entries from PE/17 are *very* partially taken into account.
   We have not checked how far we went in the 2011-2014 effort, and how much of this work could be recollected.
