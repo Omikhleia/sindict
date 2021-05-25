@@ -9,10 +9,10 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:variable name="accents" 
-     select="'âàáäêèéëôöóōûüùúîíýabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZÄËÖÜœŷ'" />
+     select="'âàáāäêèéēëôòóōöûùúūüîìíīïŷỳýȳÿœabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZÄËÖÜ'" />
 <xsl:variable name="noaccents" 
-     select="'aaaaeeeeoooouuuuiiyabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzaeouoy'" />
+     select="'aaaaaeeeeeooooouuuuuiiiiiyyyyyoabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzaeou'" />
 <xsl:variable name="noaccentscaps" 
-     select="'AAAAEEEEOOOOUUUUIIYABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZAEOUOY'" />
+     select="'AAAAAEEEEEOOOOOUUUUUIiIIIYYYYYOABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZAEOU'" />
 
 </xsl:stylesheet>

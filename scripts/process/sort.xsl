@@ -46,7 +46,7 @@
 <xsl:template match="div0[@type='dictionary']">
 <div0 type='dictionary'>
 <xsl:apply-templates select="entry">
-  <xsl:sort data-type="text" select="my:ordering(  descendant::form[1]/descendant::orth[1])"/>
+  <xsl:sort data-type="text" select="my:ordering(descendant::form[1]/descendant::orth[1])"/>
 </xsl:apply-templates>
 </div0>
 </xsl:template>

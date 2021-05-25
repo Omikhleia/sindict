@@ -1,3 +1,8 @@
+/*
+  Copyright (c) 2021 Omikhleia
+  License: MIT
+*/
+
 /* Search */
 
 function escapeRegExp(string){
