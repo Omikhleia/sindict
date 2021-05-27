@@ -17,6 +17,4 @@ is certainly what you are looking for.
 
 ## License
 
-Please see the important detailed header information in the source XML file.
-
-
+See [the license](LICENSE.md) for complete details.
