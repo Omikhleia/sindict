@@ -36,7 +36,7 @@ now exists years later, **Eldamo** by Paul Strack, and uses XML as well at its c
 ## Encoding overview
 
 Since this dictionary is based on TEI, we are not going to describe here every feature from the schema, but rather to summarize the
-main elements.
+main elements. In other terms, this is by no mean not exhaustive.
 
 The reader is therefore expected to have a prior knowledge of XML and to refer, if need be, to the TEI specifications for elements
 loosely defined hereafter.
@@ -85,9 +85,10 @@ The general contents of an entry are shown hereafter:
 
 ```xml
 <entry>
-  <!-- Word forms -->
+  <!-- Word forms (possibly nested) -->
+  <!-- Optional grammatical information, usually they are rather provided with the sense -->
   <!-- Sense (glosses or definitions)
-  <!-- Optional etymology -->
+  <!-- Optional etymological notes -->
   <!-- Optional notes (sources, comments) -->
   <!-- Optional related entries (secondary entries)
   <!-- Optional cross-reference links to other entries (analogies or synonyms, etc.) -->
@@ -154,9 +155,8 @@ It may additionally contain:
 
 ```xml
  <sense>
-    <gramGrp>
-      <!-- grammatical information -->
-    </gramGrp>
+    <!-- Grammatical information -->
+    <!-- Other register or category information -->
     <trans lang="fr">
       <!-- Definition (French translation of the definition(s), gloss(es) and usage hint(s)) -->
     </trans>
@@ -166,15 +166,115 @@ It may additionally contain:
   </sense>
 ```
 
-Definitions TBD
+Would there be several meanings for an entry, having several sense elements (numbered with an `n` attribute) is allowes.
 
-### (Optional) Etymology
 
-TBD
+The definitions are normally included in a `<def>` element.
+
+Usage hints are encoded in a `<usg type="hint">...</usg>` group. NOTE: in TEI P4, this group cannot be in a definition, so one
+has to close the definition, add the usage hints, and possibly open a new definition for subsequent information. We might want
+to change this at some stage.
+
+In the English definitions, bibliographic references can be mentioned with the `<bibl>` element. This should only include
+references where the gloss or definition is attested (as compared to the bibliographic information on the orth. form, where
+the word form is actually attested.)
+
+So for instance:
+
+```xml
+    <trans lang="en">
+      <def><bibl><!-- References --></bibl> <!-- some glosses -->,
+        <bibl><!-- Ref. --></bibl> <!-- some other glosses --></def> <usg type="hint"><!-- Some hint --></usg>,
+      </def><bibl><!-- Ref. --></bibl> <!-- another gloss --></def>
+    </trans>
+```
+
+### Grammatical information
+
+Grammatical information are usually provided in a `gramGrp` (grammatical group) element, although this
+is not mandatory.
+
+Here the full range of part-of speech markers, tense specifiers, etc. from TEI P4 may be used.
+Linguistic structures not defined in TEI (e.g. mutations) are encoded with a generic `<itype>` element.
+
+Just immediately after a grammatical group in an inflected entry, one may find a link to a base form
+if needed, as an `<xr>` cross-reference of the following kind:
+
+```xml
+    <xr type="of"><ptr target="..."/></xr>
+```
+
+### Register or category information
+
+Semantic domain:
+
+```xml
+<usg type="dom"><!-- Domain --></usg>
+```
+
+With domains including "Bot.", "Geol.", "Ling.", "Mil.", "Orn.", "Theo.", "Zool.",
+"Astron.", "Biol.", "Phil.", "Geog.", "Cal.", "Pop.", etc. - See abbreviations.
+
+Archaic or poetic word:
+
+```xml
+    <usg type="reg">Arch., Poet.</usg>
+```
+
+(Likewise, only "Arch." or "Poet.", etc.)
+
+Prejorative register:
+
+```xml
+    <usg type="reg">Pej.</usg>
+```
+    
+Category information (semantic field, where the attribute value is Carl Darling Buck's structure numbering for that field):
+
+```xml
+    <usg type="cat" norm="..."/>
+```
+
+### (Optional) Etymological notes
+
+Introduced with the `<etym>` element, containing free text. NOTE: We might want to change this at
+some later stage.
 
 ### (Optional) Notes (sources and comments)
 
-TBD
+The dictionnary currently supports three types of annotations.
+
+#### Sources or quotations
+
+```xml
+  <note type="source,deduced"><mentioned><!-- Partial quotation --></mentioned> 
+     <!-- Free text incl. references --></note>
+```
+
+NOTE: This encoding is somewhat historical and might not imply that the entry is "deduced". We might change to a more
+adequate type at some stage (e.g. "mention").
+
+#### Editorial comments
+
+Editorial comments are formatted as follows:
+
+```xml
+  <note type="comment" lang="...">
+    <!-- Free text with presentation and formatting elements allowed -->
+  </note>
+```
+
+#### Legacy sources indication
+
+Some entries provide bibliographic information as a specific note:
+
+```xml
+  <note type="source"><!-- References --></note>
+``` 
+
+NOTE: This is a legacy usage from earlier versions of the dictionary. This note would
+ideally be split in `<bibl>` elements at the appropriate place (that is, as explained
+above, in orth. forms or in definitions).
 
 ### (Optional) Related entries
 
@@ -186,7 +286,7 @@ Each is introduced with the `<re>` element, which may have the following attribu
   actually used in the post-processing steps, for generating cross-reference entries
   only for related entries that do not have it).
   
-The contents of a related entry can be the same as for an entry. Usually by nature they
+The contents of a related entry can be the same as for an entry. Usually, by nature, they
 are more concise and only contain word forms and grammatical information.
 
 ### (Optional) Cross-reference links
