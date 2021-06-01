@@ -67,13 +67,13 @@ But basically, for the record, the main following steps should be performed:
 
 As an illustration, assuming an original entry:
 
-> **form1** _S._ XX/xxx (**variant1** _S._ YY/yyy, **variant2** _N._ ZZ/zzz), _pl._ **plural1** _S._ TT/ttt (**plvariant** N. UU/uuu) _n._ Some definitions - **subform** _S. MM/mmm _n. abst._
+> **form1** _S._ XX/xxx (**variant1** _S._ YY/yyy, **variant2** _N._ ZZ/zzz), _pl._ **plural1** _S._ TT/ttt (**plvariant** N. UU/uuu) _n._ Some definitions - **subform** _S._ MM/mmm _n. abst._
 
 The expanded post-processed lexicon would yield to something such as:
 
 > **F**
 
-> **form1** _S._ XX/xxx (**variant1** _S._ YY/yyy, **variant2** _N._ ZZ/zzz), _pl._ **plural1** _S._ TT/ttt (**plvariant** N. UU/uuu) _n._ Some definitions - **subform** _S. MM/mmm _n. abst.
+> **form1** _S._ XX/xxx (**variant1** _S._ YY/yyy, **variant2** _N._ ZZ/zzz), _pl._ **plural1** _S._ TT/ttt (**plvariant** N. UU/uuu) _n._ Some definitions - **subform** _S._ MM/mmm _n. abst._
 
 > **P**
 
@@ -83,7 +83,7 @@ The expanded post-processed lexicon would yield to something such as:
 
 > **S**
 
-> **subform** _S. MM/mmm _n. abst._ → **form1**
+> **subform** _S._ MM/mmm _n. abst._ → **form1**
  
 > **V**
 
@@ -91,4 +91,3 @@ The expanded post-processed lexicon would yield to something such as:
 
 > **variant2** _N._ ZZ/zzz → **form1**
 
-  

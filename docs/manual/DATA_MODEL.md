@@ -138,7 +138,7 @@ The form must at least contain an `<orth>` element, with its textual representat
 
 It may additionally contain:
 - A language indication, as `<usg type="lang" norm="..."/>` where the value may be
-  "S." (Sindarin), "N." (Noldorin), "S., N." (both languages apply).
+  "S." (Sindarin), "N." (Noldorin), "S., N." (both languages apply), "*S." (Neo-Sindarin).
 - Bibliographic references (`<bibl>`) where this form is attested, as a comma-separated
   list of book references 
 - Pronunciation (`<pron>`), in X-SAMPA (an ASCII representation format for the IPA)
