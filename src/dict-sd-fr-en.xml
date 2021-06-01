@@ -11916,7 +11916,7 @@
   <form type="regular">
     <form>
       <orth>daur</orth><usg type="lang" norm="S."/>
-      <bibl>Letter/448, LotR/II:VI, PE/17:102</bibl>
+      <bibl>Letters/448, LotR/II:VI, PE/17:102</bibl>
       <pron>d"Aur</pron>
     </form>
   </form>
@@ -21683,7 +21683,7 @@
     </form>
     <form>
       <orth>gœlydh</orth><usg type="lang" norm="S."/>
-      <bibl>WJ/364, WJ/379, PE/139-140,153</bibl>
+      <bibl>WJ/364, WJ/379, PE/17:139-140,153</bibl>
     </form>
     <form>
       <orth>gœlœidh</orth><usg type="lang" norm="N."/>
