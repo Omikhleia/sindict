@@ -7,7 +7,7 @@ new format, the original XML file being converted and split in smaller subsets. 
 robbed in 2014. To keep the story short here, the new tooling and sources were then lost. The project was all broken, in scattered pieces...
 
 This is an attempt started around 2019 to repair and share a somehow working XML/TEI version (it proved to be the easiest path), reassembling what could be
-reconstructed from ealier versions, somehow playing Lego(tm) with e-mails, some manual chirurgical glue and some automated back-conversions and
+reconstructed from earlier versions, somehow playing Lego(tm) with e-mails, some manual chirurgical glue and some automated back-conversions and
 reassembly...
 
 Most people landing on this page might probably rather be looking for the latest [generated build](https://omikhleia.github.io/sindict/).

@@ -3,40 +3,40 @@
 ## General presentation
 
 The core dictionary dictionary consists in a single file encoded in XML (_eXtensible Mark-up Language_) based on the
-TEI (_Text Encoding Initiative_) specifications, more precisely a loose subset of the TEI P4 specifications.
+TEI (_Text Encoding Initiative_) specifications, more precisely a loose subset of the TEI P4 standards.
 
 ### Why XML?
 
-Despite XML was still emering in 1999 when the project was initiated, it was felt suitable both for having a clear
-interchange format and a way to providing a structured high-level representation of the information. One can process
-the XML description to generate readable views of it — e.g. in HTML for the Web — or event to extract selected data
+Although XML was still emerging in 1999 when the project was initiated, it was felt suitable for providing a clear
+interchange format and a structured high-level representation of the information. One can process
+the XML description to generate readable views of it — e.g. in HTML for the Web — or even to extract selected data
 and use them in a different context. It may be achieved programmatically, using standard W3C techniques (for ex.
 XSLT style-sheets) or any other programming language. As part of the Sindarin dictionary project, we wrote several 
 specific XSLT stylesheets for the various tasks we wanted to achieved (pre- or post-processing, conversion, etc.)
 
 ### Why TEI?
 
-The _Text Encoding Initiative_ specifically targeted dictionaries (TEI P4, §12), with various approaches to dictionaries
-being considered and discussed. Being developed by a group of experts, it tried to address a lot of use cases. The
-distinction between a "lexical view" (that is, the way the underlying information structure is to be encoded, without
+The _Text Encoding Initiative_ specifically targets dictionaries (TEI P4, §12), with various approaches being considered
+and discussed. Being developed by a group of experts, it tried to address a lot of use cases. 
+The distinction between a "lexical view" (that is, the way the underlying information structure is to be encoded, without
 concern for its exact textual representation) and the "typographic and editorial" views (focussed on the typesetting and
 the typographic realizations) are enlightening. So the choice was quite obvious: Rather the inventing another specific XML
-"tag-set" (nowadays called a "schema") which would have to be specified and explained, a relavant subset of the TEI proposal
-was felt more than appropriate.
+"tag-set" (nowadays called a "schema"), which would have to be specified and explained, a relevant subset of the TEI
+proposal was felt more than appropriate.
 
 ### Further thought
 
-These choices were not obvious when the project was started in 1999. Some people were only concerned about the final representation.
-In their view, any word-processing software would have been acceptable. Others promoted using a relational database (generally
-SQL-based). We still believe it would have been a poor choice, as an interchange format but also on the structural design (or
-how to design a good database model for such a thing...). Years later (by 2008), some groups of people still criticized the choise of
-XML compared to SQL... Anyhow, it is interesting however to note that another major other similar project (of a much larger scope)
+These choices were not obvious when the project was started in 1999. Some people were only concerned about the final representation. In their view, any word-processing software would have been acceptable.
+Others promoted using a relational database (generally SQL-based).
+We still believe it would have been a poor choice, as an interchange format but also regarding the structural design (or
+how to design a good database model for such a thing...). Years later (by 2008), some groups of people still criticized the choise of XML compared to SQL... 
+Anyhow, it is interesting however to note that another major other similar project (of a much larger scope)
 now exists years later, **Eldamo** by Paul Strack, and uses XML as well at its core. QED.
 
 ## Encoding overview
 
-Since this dictionary is based on TEI, we are not going to describe here every feature from the schema, but rather to summarize the
-main elements. In other terms, this is by no mean not exhaustive.
+Since this dictionary is based on TEI, we are not going to describe here every feature from the schema, but rather
+to summarize the main elements. In other terms, this presentation is not exhaustive.
 
 The reader is therefore expected to have a prior knowledge of XML and to refer, if need be, to the TEI specifications for elements
 loosely defined hereafter.
@@ -191,7 +191,7 @@ So for instance:
 
 ### Grammatical information
 
-Grammatical information are usually provided in a `gramGrp` (grammatical group) element, although this
+Grammatical information are usually provided in a `<gramGrp>` (grammatical group) element, although this
 is not mandatory.
 
 Here the full range of part-of speech markers, tense specifiers, etc. from TEI P4 may be used.
@@ -212,8 +212,8 @@ Semantic domain:
 <usg type="dom"><!-- Domain --></usg>
 ```
 
-With domains including "Bot.", "Geol.", "Ling.", "Mil.", "Orn.", "Theo.", "Zool.",
-"Astron.", "Biol.", "Phil.", "Geog.", "Cal.", "Pop.", etc. - See abbreviations.
+Where domains include: "Bot.", "Geol.", "Ling.", "Mil.", "Orn.", "Theo.", "Zool.",
+"Astron.", "Biol.", "Phil.", "Geog.", "Cal.", "Pop.", etc. - See [abbreviations](ABBREVIATIONS.md).
 
 Archaic or poetic word:
 
@@ -229,7 +229,7 @@ Prejorative register:
     <usg type="reg">Pej.</usg>
 ```
     
-Category information (semantic field, where the attribute value is Carl Darling Buck's structure numbering for that field):
+Category information (semantic field, where the attribute value is Carl Darling Buck's structured numbering for that field):
 
 ```xml
     <usg type="cat" norm="..."/>
@@ -288,6 +288,9 @@ Each is introduced with the `<re>` element, which may have the following attribu
   
 The contents of a related entry can be the same as for an entry. Usually, by nature, they
 are more concise and only contain word forms and grammatical information.
+
+NOTE: There were discussions whether to replace `corresp` by `sameAs` and leave the related
+entry empty, to avoid duplicating information.
 
 ### (Optional) Cross-reference links
 
