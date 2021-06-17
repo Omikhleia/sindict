@@ -83,10 +83,10 @@
     <def id="ord.">ordinal (number)</def>
     <def id="card.">cardinal (number)</def>
     <def id="quant.">quantitative (number)</def>
-    <mark id="*">deduced form</mark>
-    <mark id="&#x2217;">deleted form</mark>
-    <mark id="&#x2020;">normalized or reconstructed form</mark>
-    <mark id="&#x2021;">coined form</mark>  
+    <mark id="#">deduced form</mark>
+    <mark id="&#xD7;">deleted form</mark>
+    <mark id="^">normalized or reconstructed form</mark>
+    <!-- mark id="&#x2021;">coined form</mark -->  
   </defs>	
   <!-- Translations -->
   <list lang="fr" full="Symboles et abréviations">
@@ -180,10 +180,10 @@
     <item id="N." full="noldorin">N.</item>
     <item id="S." full="sindarin">S.</item>
     <item id="*S." full="(néo-)sindarin normalisé">*S.</item>
-    <item id="*" full="forme déduite">*</item>
-    <item id="&#x2217;" full="forme rayée">&#x2217;</item>
-    <item id="&#x2020;" full="forme normalisée ou reconstruite">&#x2020;</item>
-    <item id="&#x2021;" full="forme inventée">&#x2021;</item>
+    <item id="#" full="forme déduite">#</item>
+    <item id="&#xD7;" full="forme rayée">&#xD7;</item>
+    <item id="^" full="forme normalisée ou reconstruite">^</item>
+    <!-- item id="&#x2021;" full="forme inventée">&#x2021;</item -->
     <item id="ord." full="(nombre) ordinal">ord.</item>
     <item id="card." full="(nombre) cardinal">card.</item>
     <item id="quant." full="(nombre) quantitatif">quant.</item>
@@ -278,10 +278,10 @@
     <item id="N." full="Noldorin">N.</item>
     <item id="S." full="Sindarin">S.</item>
     <item id="*S." full="normalisiert (Neo-)Sindarin">*S.</item>
-    <item id="*" full="abgeleitete Form">*</item>
-    <item id="&#x2217;" full="gestrichen Form">&#x2217;</item>
-    <item id="&#x2020;" full="normalisierte oder rekonstruierte Form">&#x2020;</item>
-    <item id="&#x2021;" full="geprägte Form">&#x2021;</item>
+    <item id="#" full="abgeleitete Form">#</item>
+    <item id="&#xD7;" full="gestrichen Form">&#xD7;</item>
+    <item id="^" full="normalisierte oder rekonstruierte Form">^</item>
+    <!-- item id="&#x2021;" full="geprägte Form">&#x2021;</item -->
     <item id="ord." full="Ordinalzahl">ord.</item>
     <item id="card." full="Kardinalzahl">kard.</item>
     <item id="quant." full="quantitative Zahl">quant.</item>

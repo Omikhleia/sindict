@@ -23,15 +23,14 @@
       <publisher>The Sindarin Dictionary Project</publisher>
       <availability status="free">
         <p><hi>License</hi>: This material may be distributed only subject to the terms and
-           conditions set forth in the Creative Commons Attribution, Non-Commercial, Share-Alike License, version 2.0
-           (http://creativecommons.org/licenses/by-nc-sa/2.0/).</p>
-        <p><hi>Additional limitation of scope</hi>: Sindarin, as one of the languages invented by
-           <name>J.R.R. Tolkien</name>, is his artistic and intellectual property.
-           The editors do not claim any intellectual property on the Sindarin language itself
-           and, as a whole, on this dictionary, beyond the editorial annotations, the
-           arrangement of entries and the encyclopaedic discussions or interpretations
-           appended to these entries. The above-mentioned license applies to such elements
-           only.</p>
+           conditions set forth in the Creative Commons Attribution, Non-Commercial, Share-Alike License,
+           version 2.0 (http://creativecommons.org/licenses/by-nc-sa/2.0/).</p>
+        <p><hi>Additional limitation of scope</hi>: Sindarin and Noldorin, as languages invented
+           by <name>J.R.R. Tolkien</name>, are his artistic and intellectual property.
+           The editors do not claim any intellectual property on these languages and, as a whole,
+           on this dictionary, beyond the editorial annotations, the arrangement of entries and
+           the encyclopaedic discussions or interpretations appended to these entries. The
+           above-mentioned license applies to such elements only.</p>
         <p><name>J.R.R. Tolkien's</name> texts and books are copyrighted by the Tolkien
            Estate and/or Tolkien's publishers. As of yet, this material is not approved by
            the Tolkien Estate or Tolkien's publishers, and is henceforth an unauthorized
@@ -11917,7 +11916,7 @@
   <form type="regular">
     <form>
       <orth>daur</orth><usg type="lang" norm="S."/>
-      <bibl>Letter/448, LotR/II:VI, PE/17:102</bibl>
+      <bibl>Letters/448, LotR/II:VI, PE/17:102</bibl>
       <pron>d"Aur</pron>
     </form>
   </form>
@@ -21684,7 +21683,7 @@
     </form>
     <form>
       <orth>gœlydh</orth><usg type="lang" norm="S."/>
-      <bibl>WJ/364, WJ/379, PE/139-140,153</bibl>
+      <bibl>WJ/364, WJ/379, PE/17:139-140,153</bibl>
     </form>
     <form>
       <orth>gœlœidh</orth><usg type="lang" norm="N."/>
@@ -40615,7 +40614,7 @@
       <def><index level1="giver" lang="en"/>giver</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>besoneth</mentioned> PM/404-05</note>
+  <note type="source,deduced"><mentioned>besoneth</mentioned> PM/404-405</note>
 </entry>
 
 <entry id="onna-">
@@ -50041,7 +50040,7 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">
-    Dérivant de *<hi>tad</hi>, raccourci en *<hi>tō</hi> voir PE/19:52; et apparemment
+    Dérivant de *<hi>tad</hi>, raccourci en *<hi>tō</hi> voir PE/19:52, et apparemment
     surtout employé sous forme mutée (<hi>daw</hi>, <hi>do</hi>)
   </note>
   <note type="comment" lang="en">
