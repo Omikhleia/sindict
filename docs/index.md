@@ -15,5 +15,5 @@ is certainly what you are looking for.
 
 #### Technical information
 
-- [Build instructions](docs/manual/BUILDING.md)
-- [Data model](docs/manual/DATA_MODEL.md)
+- [Build instructions](manual/BUILDING.md)
+- [Data model](manual/DATA_MODEL.md)
