@@ -6,3 +6,14 @@ People interested in browsing the source lexicon and scripts (or reporting issue
 
 If you are looking for a more complete comprehensive scholarly dictionary of Tolkien's invented languages, [Eldamo](https://github.com/pfstrack/eldamo)
 is certainly what you are looking for.
+
+#### General information
+
+- [Project overview, scope & motivations](manual/SCOPE_MOTIVATIONS.md)
+- [Symbols and abbreviations](manual/ABBREVIATIONS.md)
+- [References](manual/REFERENCES.md)
+
+#### Technical information
+
+- [Build instructions](docs/manual/BUILDING.md)
+- [Data model](docs/manual/DATA_MODEL.md)
