@@ -1023,12 +1023,6 @@
       <def><index level1="sea" lang="en"/>sea</def>
     </trans>
   </sense>
-  <note type="comment" lang="fr">
-    Tolkien modifia ce mot plusieurs fois, voir <ptr target="gaear"/>
-  </note>
-  <note type="comment" lang="en">
-    Tolkien changed this word several times, see <ptr target="gaear"/>
-  </note>
   <re corresp="aearon">
     <form>
       <orth>aearon</orth><usg type="lang" norm="S."/>
@@ -1037,6 +1031,12 @@
       <pos>n.</pos> <usg type="reg">augm.</usg>
     </gramGrp>
   </re>
+  <note type="comment" lang="fr">
+    Tolkien modifia ce mot plusieurs fois, voir <ptr target="gaear"/>
+  </note>
+  <note type="comment" lang="en">
+    Tolkien changed this word several times, see <ptr target="gaear"/>
+  </note>
 </entry>
 
 <entry id="aearon">
@@ -1086,6 +1086,14 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>aeglir, aeglos</mentioned>, etc.</note>
+  <re corresp="aegas">
+    <form type="normalized">
+      <orth>aegas</orth><usg type="lang" norm="*S."/>
+    </form>
+    <gramGrp>
+      <pos>n.</pos> <usg type="reg">abst.</usg>
+    </gramGrp>
+  </re>
   <note type="comment" lang="fr">
     L’adjectif <hi>oeg</hi> « acéré, pointu, perçant » dans <bibl>Ety/349</bibl>
     est peut-être rejeté: Tolkien décida plus tard qu’aucun équivalent du terme quenya
@@ -1100,14 +1108,6 @@
     if it had occurred” (<bibl>PM/347</bibl>). On the other hand, we have words such
     as <ptr target="aeglos"/> and <ptr target="aeglir"/>, so there must be a noun <hi>aeg</hi> “point”
   </note>
-  <re corresp="aegas">
-    <form type="normalized">
-      <orth>aegas</orth><usg type="lang" norm="*S."/>
-    </form>
-    <gramGrp>
-      <pos>n.</pos> <usg type="reg">abst.</usg>
-    </gramGrp>
-  </re>
 </entry>
 
 <entry id="aegas">
@@ -5314,6 +5314,12 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>besain, besoneth, imbas</mentioned> <bibl>PM/404-405, VT/44:21</bibl></note>
+  <re>
+    <form type="deduced">
+      <orth>mbas</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
+    </form>
+    <note type="source,deduced"><mentioned>imbas</mentioned> <bibl>VT/44:21,27-8</bibl></note>
+  </re>
   <note type="comment" lang="fr">
     Dans les <hi>Etymologies</hi>, le mot pour « pain » est <ptr target="bast"/>, quenya
     <hi>masta</hi>, mais il semble que Tolkien ait plus tard changé d’avis
@@ -5328,12 +5334,6 @@
   <note type="comment" lang="en">
     In the <hi>Etymologies</hi>, the word for “bread” is given as <ptr target="bast"/>, Quenya <hi>masta</hi>, but it seems that Tolkien later changed his mind and updated the word to <hi>bass</hi>, as shown in Quenya <hi>massánie</hi>, Sindarin <hi>besain, besoneth</hi> “bread-giver”, and in the mutated form <hi>(i)mbas</hi> (apparently prefixed with the article). These latter Sindarin forms are however dubious, as we would rather have expected <ptr target="bessain"/> (as a regular cognate of Quenya <hi>massánie</hi>) and <ptr target="bassoneth"/> (without i-affection), and possibly a different mutation pattern after the article
   </note>
-  <re>
-    <form type="deduced">
-      <orth>mbas</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
-    </form>
-    <note type="source,deduced"><mentioned>imbas</mentioned> <bibl>VT/44:21,27-8</bibl></note>
-  </re>
 </entry>
 
 <entry id="bassoneth">
@@ -5388,13 +5388,13 @@
       <def><bibl>Ety/372</bibl> <index level1="bread" lang="en"/>bread</def>
     </trans>
   </sense>
-  <xr type="analogy"><ptr target="bass"/></xr>
   <re>
     <form>
       <orth>vast</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
       <bibl>PE/17:144</bibl>
     </form>
   </re>
+  <xr type="analogy"><ptr target="bass"/></xr>
 </entry>
 
 <entry id="batha-">
@@ -6972,7 +6972,7 @@
   <note type="comment" lang="en">
     Emended by Tolkien from earlier <hi>cabad</hi>. This is our sole late
     example that basic verbs should perhaps form their gerund in <hi>-ed</hi>,
-    whereas derived verbs are well attested to 
+    whereas derived verbs are well attested to
     use <hi>-ad</hi> (cf. <ptr target="aderthad"/>)
   </note>
 </entry>
@@ -11636,12 +11636,6 @@
     </trans>
   </sense>
   <note type="source"><bibl>Ety/354, PE/17:62</bibl></note>
-  <note type="comment" lang="fr">
-    Transcrit <hi>dant-</hi> dans les <hi>Etymologies</hi>
-  </note>
-  <note type="comment" lang="en">
-    Written <hi>dant-</hi> in the <hi>Etymologies</hi>
-  </note>
   <re corresp="dannen.1">
     <form>
       <orth>dannen</orth><usg type="lang" norm="N."/>
@@ -11650,6 +11644,12 @@
       <tns>pp.</tns>
     </gramGrp>
   </re>
+  <note type="comment" lang="fr">
+    Transcrit <hi>dant-</hi> dans les <hi>Etymologies</hi>
+  </note>
+  <note type="comment" lang="en">
+    Written <hi>dant-</hi> in the <hi>Etymologies</hi>
+  </note>
 </entry>
 
 <entry id="dannen.1" n="1">
@@ -12382,7 +12382,6 @@
       <def><bibl>VT/44:29</bibl> to <index level1="forgive" lang="en"/>forgive</def> <usg type="hint">with matter forgiven as object?</usg>
     </trans>
   </sense>
-  <xr type="analogy"><ptr target="gohena-"/></xr>
   <re corresp="díhenam">
     <form type="normalized">
       <orth>díhenam</orth><usg type="lang" norm="*S."/>
@@ -12399,6 +12398,7 @@
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
+  <xr type="analogy"><ptr target="gohena-"/></xr>
 </entry>
 
 <entry id="díhenam">
@@ -13299,14 +13299,6 @@
       <def>to <index level1="flee" lang="en"/>flee</def>
     </trans>
   </sense>
-  <note type="comment" lang="fr">
-    Seul l’impératif <hi>drego</hi> est attesté.
-    Aussi, le verbe pourrait aussi bien être <hi>dreg-</hi> (inf. <hi>dregi</hi>)
-  </note>
-  <note type="comment" lang="en">
-    Only the imperative <hi>drego</hi> is attested.
-    Therefore, the verb may also be <hi>dreg-</hi> (inf. <hi>dregi</hi>)
-  </note>
   <re corresp="drego">
     <form>
       <orth>drego</orth><usg type="lang" norm="S."/>
@@ -13315,6 +13307,14 @@
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
+  <note type="comment" lang="fr">
+    Seul l’impératif <hi>drego</hi> est attesté.
+    Aussi, le verbe pourrait aussi bien être <hi>dreg-</hi> (inf. <hi>dregi</hi>)
+  </note>
+  <note type="comment" lang="en">
+    Only the imperative <hi>drego</hi> is attested.
+    Therefore, the verb may also be <hi>dreg-</hi> (inf. <hi>dregi</hi>)
+  </note>
 </entry>
 
 <entry id="drego">
@@ -13417,6 +13417,22 @@
       <def><bibl>UT/385</bibl> wild <index level1="man" lang="en"/>man, <index level1="wose" lang="en"/>Wose, Púkel-Man</def>
     </trans>
   </sense>
+  <re corresp="drúath">
+    <form>
+      <orth>drúath</orth><usg type="lang" norm="S."/>
+    </form>
+    <gramGrp>
+      <pos>n.</pos> <number>coll.</number>
+    </gramGrp>
+  </re>
+  <re corresp="drúwaith">
+    <form>
+      <orth>drúwaith</orth><usg type="lang" norm="S."/>
+    </form>
+    <gramGrp>
+      <pos>n.</pos> <number>class pl.</number>
+    </gramGrp>
+  </re>
   <note type="comment" lang="fr">
     Dans <bibl>PE/11:31</bibl>, une ancienne forme gnomique <hi>drû, drui</hi> signifie
     « bois, forêt ». Dans <bibl>PE/13:142</bibl>, <hi>drú</hi> en noldorin primitif prenait
@@ -13434,11 +13450,11 @@
     son invention linguistique.
   </note>
   <note type="comment" lang="en">
-    In <bibl>PE/11:31</bibl>, an older Gnomish word <hi>drû, drui</hi> meant “wood, forest”, and in <bibl>PE/13:142</bibl>, 
+    In <bibl>PE/11:31</bibl>, an older Gnomish word <hi>drû, drui</hi> meant “wood, forest”, and in <bibl>PE/13:142</bibl>,
     the early Noldorin word <hi>drú</hi> was assigned the meaning “dark”.
-    <hi>Drû</hi> pl. <hi>Drúin</hi> later came to be used for the name of the Woses, with other 
+    <hi>Drû</hi> pl. <hi>Drúin</hi> later came to be used for the name of the Woses, with other
     derivatives (<hi>Drúadan</hi>, etc.).
-    “Wose” is actually the modernization of an Anglo-Saxon word <hi>wasa</hi> only found in the 
+    “Wose” is actually the modernization of an Anglo-Saxon word <hi>wasa</hi> only found in the
     compound <hi>wudu-wasa</hi> “wild man of the woods”, cf. <bibl>UT/385</bibl> sq.
     In the drafts of the “Ride of the Rohirrim” in <bibl>WR/343-346</bibl>, the Woses first appeared as
     “the dark men of Eilenach”.
@@ -13446,22 +13462,6 @@
     the Sindarin name of the Woses was apparently influenced by earlier meanings assigned to this word.
   </note>
   <etym>MS *druγ, Dr druγu</etym>
-  <re corresp="drúath">
-    <form>
-      <orth>drúath</orth><usg type="lang" norm="S."/>
-    </form>
-    <gramGrp>
-      <pos>n.</pos> <number>coll.</number>
-    </gramGrp>
-  </re>
-  <re corresp="drúwaith">
-    <form>
-      <orth>drúwaith</orth><usg type="lang" norm="S."/>
-    </form>
-    <gramGrp>
-      <pos>n.</pos> <number>class pl.</number>
-    </gramGrp>
-  </re>
 </entry>
 
 <entry id="drúadan">
@@ -14583,13 +14583,6 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>edlothiand</mentioned> <bibl>WR/293</bibl></note>
-  <note type="comment" lang="fr">
-    La phrase de <bibl>WR/293</bibl> est difficile à déchiffrer et n’est pas traduite, mais ce mot
-    pourrait néanmoins être une forme plausible
-  </note>
-  <note type="comment" lang="en">
-    The sentence from <bibl>WR/293</bibl> is hardly legible and is not translated, but this word is however a plausible form
-  </note>
   <re corresp="edlothiad">
     <form type="deduced">
       <orth><corr sic="edlothiand" resp="ed">edlothiad</corr></orth><usg type="lang" norm="S."/>
@@ -14598,6 +14591,13 @@
       <pos>ger.</pos>
     </gramGrp>
   </re>
+  <note type="comment" lang="fr">
+    La phrase de <bibl>WR/293</bibl> est difficile à déchiffrer et n’est pas traduite, mais ce mot
+    pourrait néanmoins être une forme plausible
+  </note>
+  <note type="comment" lang="en">
+    The sentence from <bibl>WR/293</bibl> is hardly legible and is not translated, but this word is however a plausible form
+  </note>
 </entry>
 
 <entry id="edlothiad">
@@ -20040,7 +20040,6 @@
     </trans>
   </sense>
   <note type="source"><bibl>Ety/358, VT/45:15</bibl></note>
-  <xr type="analogy"><ptr target="gil"/></xr>
   <re corresp="giliath">
     <form>
       <orth>giliath</orth><usg type="lang" norm="S., N."/>
@@ -20049,6 +20048,7 @@
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
   </re>
+  <xr type="analogy"><ptr target="gil"/></xr>
 </entry>
 
 <entry id="gelir">
@@ -20302,20 +20302,6 @@
     </trans>
   </sense>
   <note type="source"><bibl>LotR/E, S/431, RGEO/73</bibl></note>
-  <note type="comment" lang="fr">
-    Dans les <hi>Etymologies</hi> (<bibl>Ety/358</bibl>, corrigées par <bibl>VT/45:15</bibl>),
-    ce mot est donné pour <ptr target="geil"/>, pluriel <hi>gîl</hi>.
-    Cependant, plus tard dans <bibl>LotR/E</bibl> et <bibl>RGEO/73</bibl>, Tolkien sembla considérer
-    <hi>gil</hi> comme un singulier (sans indication dans ces sources de ce que
-    le pluriel aurait pu être, hormis le collectif <ptr target="giliath"/>)
-  </note>
-  <note type="comment" lang="en">
-    In <hi>The Etymologies</hi> (<bibl>Ety/358</bibl>, corrected
-    by <bibl>VT/45:15</bibl>), this word was given as <ptr target="geil"/>, plural <hi>gîl</hi>.
-    However, later in <bibl>LotR/E</bibl> and <bibl>RGEO/73</bibl>, Tolkien seems to consider <hi>gil</hi> as a
-    singular (with no hints in the sources of what the plural would be, besides the collective
-    plural <ptr target="giliath"/>)
-  </note>
   <re corresp="giliath">
     <form>
      <orth>giliath</orth><usg type="lang" norm="S., N."/>
@@ -20333,6 +20319,20 @@
       <number>pl.</number>
     </gramGrp>
   </re>
+  <note type="comment" lang="fr">
+    Dans les <hi>Etymologies</hi> (<bibl>Ety/358</bibl>, corrigées par <bibl>VT/45:15</bibl>),
+    ce mot est donné pour <ptr target="geil"/>, pluriel <hi>gîl</hi>.
+    Cependant, plus tard dans <bibl>LotR/E</bibl> et <bibl>RGEO/73</bibl>, Tolkien sembla considérer
+    <hi>gil</hi> comme un singulier (sans indication dans ces sources de ce que
+    le pluriel aurait pu être, hormis le collectif <ptr target="giliath"/>)
+  </note>
+  <note type="comment" lang="en">
+    In <hi>The Etymologies</hi> (<bibl>Ety/358</bibl>, corrected
+    by <bibl>VT/45:15</bibl>), this word was given as <ptr target="geil"/>, plural <hi>gîl</hi>.
+    However, later in <bibl>LotR/E</bibl> and <bibl>RGEO/73</bibl>, Tolkien seems to consider <hi>gil</hi> as a
+    singular (with no hints in the sources of what the plural would be, besides the collective
+    plural <ptr target="giliath"/>)
+  </note>
 </entry>
 
 <entry id="gildin">
@@ -21583,7 +21583,6 @@
       <def><bibl>VT/44:29</bibl> to <index level1="forgive" lang="en"/>forgive</def> <usg type="hint">with person forgiven as object?</usg>
     </trans>
   </sense>
-  <xr type="analogy"><ptr target="díhena-"/></xr>
   <re corresp="gohenam">
     <form>
       <orth>gohenam</orth><usg type="lang" norm="S."/>
@@ -21592,6 +21591,7 @@
       <pos>v.</pos> <tns>pres.</tns> <per>1st</per> <number>pl.</number>
     </gramGrp>
   </re>
+  <xr type="analogy"><ptr target="díhena-"/></xr>
 </entry>
 
 <entry id="gohenam">
@@ -21954,8 +21954,8 @@
       <def><bibl>Ety/354</bibl> hewn <index level1="stone" lang="en"/>stone</def>
     </trans>
   </sense>
-  <xr type="analogy"><ptr target="gondram"/></xr>
   <etym>gond+drafn</etym>
+  <xr type="analogy"><ptr target="gondram"/></xr>
 </entry>
 
 <entry id="gondram">
@@ -21977,8 +21977,8 @@
       <def><bibl>Ety/354</bibl> hewn <index level1="stone" lang="en"/>stone</def>
     </trans>
   </sense>
-  <xr type="analogy"><ptr target="gondrafn"/></xr>
   <etym>gond+drafn</etym>
+  <xr type="analogy"><ptr target="gondrafn"/></xr>
 </entry>
 
 <entry id="gondren">
@@ -24267,6 +24267,15 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Dorwinion</mentioned> <bibl>LotR/Map, LB/11,26,17,112, LR/334,338, H/IX</bibl></note>
+  <re corresp="gwinion">
+    <form type="deduced">
+      <orth>gwinion</orth><usg type="lang" norm="S., N."/>
+    </form>
+    <gramGrp>
+      <pos>der.</pos>
+      <number>pl.</number>
+    </gramGrp>
+  </re>
   <note type="comment" lang="fr">
     Le vin de Dor-Winion fait sa première apparition dans le <hi>Lai des enfants de Húrin</hi>.
     Dans la première version, ce nom est identifié comme celui d’une région
@@ -24315,15 +24324,6 @@
     <hi>gwin</hi> is precisely the Welsh word for “wine”, a loan from the Latin <hi>vinum</hi>,
     as the English “wine” itself.
   </note>
-  <re corresp="gwinion">
-    <form type="deduced">
-      <orth>gwinion</orth><usg type="lang" norm="S., N."/>
-    </form>
-    <gramGrp>
-      <pos>der.</pos>
-      <number>pl.</number>
-    </gramGrp>
-  </re>
 </entry>
 
 <entry id="gwîn.2" n="2">
@@ -25133,13 +25133,6 @@
     </trans>
   </sense>
   <note type="source"><bibl>Ety/363, VT/45:21</bibl></note>
-  <note type="comment" lang="fr">
-    La forme <hi>hamnia-</hi> dans les <hi>Etymologies</hi> est une erreur de
-    lecture, selon <bibl>VT/45:21</bibl>
-  </note>
-  <note type="comment" lang="en">
-    The form <hi>hamnia-</hi> in the <hi>Etymologies</hi> is a misreading according to <bibl>VT/45:21</bibl>
-  </note>
   <re corresp="hammad">
     <form>
       <orth>hammad</orth><usg type="lang" norm="N."/>
@@ -25148,6 +25141,13 @@
       <pos>ger.</pos>
     </gramGrp>
   </re>
+  <note type="comment" lang="fr">
+    La forme <hi>hamnia-</hi> dans les <hi>Etymologies</hi> est une erreur de
+    lecture, selon <bibl>VT/45:21</bibl>
+  </note>
+  <note type="comment" lang="en">
+    The form <hi>hamnia-</hi> in the <hi>Etymologies</hi> is a misreading according to <bibl>VT/45:21</bibl>
+  </note>
 </entry>
 
 <entry id="hammad">
@@ -25803,7 +25803,6 @@
       <def><bibl>VT/47:14</bibl> <index level1="brother" lang="en"/>brother</def>
     </trans>
   </sense>
-  <xr type="analogy"><ptr target="hanar"/></xr>
   <re corresp="honeg">
     <form>
       <orth>honeg</orth><usg type="lang" norm="S."/>
@@ -25812,6 +25811,7 @@
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
   </re>
+  <xr type="analogy"><ptr target="hanar"/></xr>
 </entry>
 
 <entry id="he">
@@ -25898,6 +25898,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>ú-chebin</mentioned> <bibl>LotR/A(v), VT/41:6</bibl></note>
+  <re>
+    <form>
+      <orth>chebin</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
+    </form>
+  </re>
   <note type="comment" lang="fr">
     En raison de la métaphonie provoquée par la terminaison de la première personne
     du singulier, il est impossible de dire si la base non mutée de ce mot
@@ -25911,11 +25916,6 @@
     <hi>*hab-</hi> or <hi>*hob-</hi>. The root <hi>KHEP</hi> listed in <bibl>VT/41:6</bibl>
     apparently implies that <hi>heb-</hi> is the correct form
   </note>
-  <re>
-    <form>
-      <orth>chebin</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
-    </form>
-  </re>
 </entry>
 
 <entry id="helch">
@@ -28628,6 +28628,14 @@
       <def><index level1="scion" lang="en"/>scion, male <index level1="descendant" lang="en"/>descendant</def>
     </trans>
   </sense>
+  <re corresp="ionnath">
+    <form>
+      <orth>ionnath</orth><usg type="lang" norm="S."/>
+    </form>
+    <gramGrp>
+      <pos>n.</pos> <number>coll.</number>
+    </gramGrp>
+  </re>
   <note type="comment" lang="fr">
     Pour le second sens, cf. <hi>Hadorion</hi>, un épithète de Húrin dans <bibl>WJ/294</bibl>,
     tandis que <hi>Hurinionath</hi> s’applique à la maisonnée de Húrin l’Intendant
@@ -28645,14 +28653,6 @@
     suffix in later Quenya names such as <hi>Isildurioni</hi> and <hi>Anárioni</hi>
     “Heirs of Isildur (resp. Anárion)” in <bibl>PM/192,196</bibl>
   </note>
-  <re corresp="ionnath">
-    <form>
-      <orth>ionnath</orth><usg type="lang" norm="S."/>
-    </form>
-    <gramGrp>
-      <pos>n.</pos> <number>coll.</number>
-    </gramGrp>
-  </re>
 </entry>
 
 <entry id="iôn">
@@ -32446,7 +32446,7 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Arthor na Forlonnas, Arthor na Challonnas</mentioned>
-    <bibl>PE/17:28</bibl> (“Realm of the North-harbourage, ~ of the South-harbourage”)
+    <bibl>PE/17:28</bibl> (“Realm of the North-harbourage, Realm of the South-harbourage”)
   </note>
 </entry>
 
@@ -32707,13 +32707,6 @@
     </trans>
   </sense>
   <note type="source"><bibl>Ety/370, LB/354, VT/42:18</bibl></note>
-  <note type="comment" lang="fr">
-    Ce nom a valeur de collectif, une fleur unique étant
-    désignée par <ptr target="lotheg"/>
-  </note>
-  <note type="comment" lang="en">
-    The noun is collective, a single flower being <ptr target="lotheg"/>
-  </note>
   <re corresp="elloth">
     <form>
       <orth>elloth</orth><usg type="lang" norm="S."/>
@@ -32738,6 +32731,13 @@
       <pos>n.</pos> <number>sing.</number>
     </gramGrp>
   </re>
+  <note type="comment" lang="fr">
+    Ce nom a valeur de collectif, une fleur unique étant
+    désignée par <ptr target="lotheg"/>
+  </note>
+  <note type="comment" lang="en">
+    The noun is collective, a single flower being <ptr target="lotheg"/>
+  </note>
 </entry>
 
 <entry id="lotheg">
@@ -32901,14 +32901,6 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>uluithiad</mentioned> <bibl>SD/62</bibl></note>
-  <note type="comment" lang="fr">
-    Peut-être à comparer avec le quenya <hi>luita-</hi> « innonder, détremper » et la
-    racine LUY - Voir <bibl>VT/48:31</bibl>
-  </note>
-  <note type="comment" lang="en">
-    Perhaps compare with Q. <hi>luita-</hi> “to flood, inundate, drench” and the
-    root LUY - See <bibl>VT/48:31</bibl>
-  </note>
   <re corresp="luithiad">
     <form type="deduced">
       <orth>luithiad</orth><usg type="lang" norm="S."/>
@@ -32917,6 +32909,14 @@
       <pos>ger.</pos>
     </gramGrp>
   </re>
+  <note type="comment" lang="fr">
+    Peut-être à comparer avec le quenya <hi>luita-</hi> « innonder, détremper » et la
+    racine LUY - Voir <bibl>VT/48:31</bibl>
+  </note>
+  <note type="comment" lang="en">
+    Perhaps compare with Q. <hi>luita-</hi> “to flood, inundate, drench” and the
+    root LUY - See <bibl>VT/48:31</bibl>
+  </note>
 </entry>
 
 <entry id="luithiad">
@@ -34700,6 +34700,12 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Mornvenniath</mentioned> <bibl>TI/124, Lambengolmor/799</bibl></note>
+  <re>
+    <form type="deduced">
+      <orth>venniath</orth><usg type="lang" norm="N."/><itype type="sm">soft mut.</itype>
+    </form>
+  </re>
+  <note type="source,deduced"><mentioned>Mornvenniath</mentioned> <bibl>TI/124, Lambengolmor/799</bibl></note>
   <note type="comment" lang="fr">
     Les premiers éléments dans Mornvenniath sont très vraisemblablement <hi>morn</hi> et <hi>ment</hi>
     (avec lénition du <hi>m</hi> initial et le <hi>nt</hi> final changé en <hi>nn</hi> en position
@@ -34723,12 +34729,6 @@
     (Dor Iâth) “Land of the Fence” (<bibl>WJ/370</bibl>) and probably Echoriath “the Encircling Mountains” (<bibl>S/138</bibl>).
     Hence, Mornvenniath would then more likely mean “Fence of Black Peaks”
   </note>
-  <re>
-    <form type="deduced">
-      <orth>venniath</orth><usg type="lang" norm="N."/><itype type="sm">soft mut.</itype>
-    </form>
-    <note type="source,deduced"><mentioned>Mornvenniath</mentioned> <bibl>TI/124</bibl></note>
-  </re>
 </entry>
 
 <entry id="ment">
@@ -39870,7 +39870,6 @@
            <index level1="house" lang="en"/>house</def>
     </trans>
   </sense>
-  <xr type="analogy"><ptr target="noss"/></xr>
   <re corresp="nothrim">
     <form>
       <orth>nothrim</orth><usg type="lang" norm="S."/>
@@ -39879,6 +39878,7 @@
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
   </re>
+  <xr type="analogy"><ptr target="noss"/></xr>
 </entry>
 
 <entry id="nothlir">
@@ -41354,7 +41354,6 @@
       <def><bibl>Ety/379</bibl> to <index level1="raise" lang="en"/>raise</def>
     </trans>
   </sense>
-  <xr type="analogy"><ptr target="eria-"/></xr>
   <re corresp="orthad">
     <form>
       <orth>orthad</orth><usg type="lang" norm="S."/>
@@ -41373,6 +41372,7 @@
       <tns>pp.</tns>
     </gramGrp>
   </re>
+  <xr type="analogy"><ptr target="eria-"/></xr>
 </entry>
 
 <entry id="orthad">
@@ -42264,6 +42264,12 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>mhellyn în phain</mentioned> <bibl>SD/129-31</bibl></note>
+  <re>
+    <form>
+      <orth>phain</orth><usg type="lang" norm="S."/><itype type="nm">nasal mut.</itype>
+      <bibl>SD/129-31</bibl>
+    </form>
+  </re>
   <note type="comment" lang="fr">
     Etant donné qu’aucun autre mot commençant par <hi>ph-</hi> n’est attesté,
     il est raisonnable de de penser que le pronom <ptr target="în.1"/> déclenche
@@ -42275,12 +42281,6 @@
     mutation is triggered by the pronoun <ptr target="în.1"/>, hence the form observed
     in the “King’s Letter”
   </note>
-  <re>
-    <form>
-      <orth>phain</orth><usg type="lang" norm="S."/><itype type="nm">nasal mut.</itype>
-      <bibl>SD/129-31</bibl>
-    </form>
-  </re>
 </entry>
 
 <entry id="panas">
@@ -43015,17 +43015,17 @@
       <def><bibl>WJ/376</bibl> <index level1="one" lang="en"/>one, <index level1="somebody" lang="en"/>somebody, <index level1="anybody" lang="en"/>anybody</def>
     </trans>
   </sense>
+  <re corresp="ben">
+    <form>
+      <orth>ben</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
+    </form>
+  </re>
   <note type="comment" lang="fr">
     Généralement enclitique, sous forme mutée <hi>ben</hi>.
   </note>
   <note type="comment" lang="en">
     Usually enclitic and mutated as <hi>ben</hi>.
   </note>
-  <re corresp="ben">
-    <form>
-      <orth>ben</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
-    </form>
-  </re>
 </entry>
 
 <entry id="pen-bed">
@@ -43647,6 +43647,12 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Cûl Bîn</mentioned> <bibl>RC/536</bibl></note>
+  <re>
+    <form>
+      <orth>bîn</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
+      <bibl>RC/536</bibl>
+   </form>
+  </re>
   <note type="comment" lang="fr">
     Des mots similaires existaient en gnomique (<hi>pinig</hi> « minuscule, petit »,
     <bibl>PE/11:64</bibl>) et en qenya (<hi>pinea</hi> « petit » etc., <bibl>PE/12:73</bibl>)
@@ -43655,12 +43661,6 @@
     Similar words occur in Gnomish (<hi>pinig</hi> “tiny, little”, <bibl>PE/11:64</bibl>) and
     in Qenya (<hi>pinea</hi> “small” etc., <bibl>PE/12:73</bibl>)
   </note>
-  <re>
-    <form>
-      <orth>bîn</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
-      <bibl>RC/536</bibl>
-   </form>
- </re>
 </entry>
 
 <entry id="pinnath">
@@ -46960,6 +46960,11 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Nornhabar, Anghabar</mentioned> <bibl>WJ/209, WJ/419, S/380</bibl></note>
+  <re>
+    <form>
+      <orth>habar</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
+    </form>
+  </re>
   <note type="comment" lang="fr">
     Ce mot est déduit du toponyme <hi>Nornhabar</hi>,
     en supposant que le second terme de ce composé apparaît sous
@@ -46976,11 +46981,6 @@
     it seems most likely that Tolkien re-used this old base, and
     that the underlying form in those names would indeed be <hi>sabar</hi>
   </note>
-  <re>
-    <form>
-      <orth>habar</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
-    </form>
-  </re>
 </entry>
 
 <entry id="sad">
@@ -47517,12 +47517,6 @@
     </trans>
   </sense>
   <note type="source"><bibl>Ety/385, S/437, UT/463, VT/42:11, RC/327</bibl></note>
-  <note type="comment" lang="fr">
-    <hi>Sern</hi> dans <bibl>UT/463</bibl> est une coquille d’impression, voir <bibl>VT/42:11</bibl>
-  </note>
-  <note type="comment" lang="en">
-    <hi>Sern</hi> in <bibl>UT/463</bibl> is a misprint, see <bibl>VT/42:11</bibl>
-  </note>
   <re corresp="harn.1">
     <form type="deduced">
       <orth>harn</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
@@ -47537,6 +47531,12 @@
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
+  <note type="comment" lang="fr">
+    <hi>Sern</hi> dans <bibl>UT/463</bibl> est une coquille d’impression, voir <bibl>VT/42:11</bibl>
+  </note>
+  <note type="comment" lang="en">
+    <hi>Sern</hi> in <bibl>UT/463</bibl> is a misprint, see <bibl>VT/42:11</bibl>
+  </note>
 </entry>
 
 <entry id="sarnas">
@@ -47821,18 +47821,6 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>i thiw hin</mentioned> <bibl>LotR/II:IV, PE/17:44</bibl></note>
-  <note type="comment" lang="fr">
-    Cet adjectif démonstratif est probablement enclitique.
-    Nous avons suggéré que cela pourrait expliquer pourquoi la forme
-    mutée de <hi>tîw</hi> sur les Portes de Durin est <hi>thiw</hi>
-    au lieu de <hi>thîw</hi> que nous aurions attendu, voir <bibl>HL/69</bibl>
-  </note>
-  <note type="comment" lang="en">
-    This demonstrative adjective is probably enclitic. We have suggested
-    that this possibility could perhaps explain why the mutated form 
-    of <hi>tîw</hi> on the Doors of Durin is <hi>thiw</hi> instead of
-    the expected <hi>thîw</hi>, see <bibl>HL/69</bibl>
-  </note>
   <re corresp="hen.2">
     <form>
       <orth>hen</orth><usg type="lang" norm="S."/>
@@ -47847,6 +47835,18 @@
      <number>pl.</number> <itype type="sm">soft mut.</itype>
     </form>
   </re>
+  <note type="comment" lang="fr">
+    Cet adjectif démonstratif est probablement enclitique.
+    Nous avons suggéré que cela pourrait expliquer pourquoi la forme
+    mutée de <hi>tîw</hi> sur les Portes de Durin est <hi>thiw</hi>
+    au lieu de <hi>thîw</hi> que nous aurions attendu, voir <bibl>HL/69</bibl>
+  </note>
+  <note type="comment" lang="en">
+    This demonstrative adjective is probably enclitic. We have suggested
+    that this possibility could perhaps explain why the mutated form
+    of <hi>tîw</hi> on the Doors of Durin is <hi>thiw</hi> instead of
+    the expected <hi>thîw</hi>, see <bibl>HL/69</bibl>
+  </note>
 </entry>
 
 <entry id="send">
@@ -50091,6 +50091,16 @@
       <def><bibl>PE/19:104</bibl> <index level1="thither" lang="en"/>thither</def>
     </trans>
   </sense>
+  <re corresp="daw">
+    <form>
+      <orth>daw</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
+      <bibl>PE/19:104</bibl>
+    </form>
+    <form>
+      <orth>do</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
+      <bibl>PE/19:104</bibl>
+    </form>
+  </re>
   <note type="comment" lang="fr">
     Dérivant de *<hi>tad</hi>, raccourci en *<hi>tō</hi> voir <bibl>PE/19:52</bibl>, et apparemment
     surtout employé sous forme mutée (<hi>daw</hi>, <hi>do</hi>)
@@ -50099,16 +50109,6 @@
     Etymologically from *<hi>tad</hi>, shortened *<hi>tō</hi> see <bibl>PE/19:52</bibl>, and apparently
     mostly used in mutated form (<hi>daw</hi>, <hi>do</hi>)
   </note>
-  <re corresp="daw">
-    <form>
-      <orth>daw</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
-      <bibl>PE/19:104</bibl>
-   </form>
-    <form>
-      <orth>do</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
-      <bibl>PE/19:104</bibl>
-   </form>
- </re>
 </entry>
 
 <entry id="taw.3" n="3">
@@ -50753,21 +50753,21 @@
       <orth>thiw</orth><usg type="lang" norm="S."/><itype type="nm">nasal mut.</itype>
       <bibl>LotR/II:IV</bibl>
     </form>
-    <note type="comment" lang="fr">
-      La forme mutée de <hi>tîw</hi> sur les Portes de Durin est <hi>thiw</hi>, au lieu de <hi>thîw</hi>
-      que l’on aurait pu attendre. Voir <ptr target="sen"/> pour une discussion de cette forme
-    </note>
-    <note type="comment" lang="en">
-      The mutated form of <hi>tîw</hi> on the Doors of Durin is <hi>thiw</hi> instead
-      of the expected <hi>thîw</hi>. See <ptr target="sen"/> for a discussion of this form
-    </note>
   </re>
   <re>
     <form>
       <orth>thîw</orth><usg type="lang" norm="S."/><itype type="nm">nasal mut.</itype>
       <bibl>Letters/347</bibl>
     </form>
- </re>
+  </re>
+  <note type="comment" lang="fr">
+    La forme mutée de <hi>tîw</hi> sur les Portes de Durin est <hi>thiw</hi>, au lieu de <hi>thîw</hi>
+    que l’on aurait pu attendre. Voir <ptr target="sen"/> pour une discussion de cette forme
+  </note>
+  <note type="comment" lang="en">
+    The mutated form of <hi>tîw</hi> on the Doors of Durin is <hi>thiw</hi> instead
+    of the expected <hi>thîw</hi>. See <ptr target="sen"/> for a discussion of this form
+  </note>
 </entry>
 
 <entry id="thafn">
@@ -51378,7 +51378,6 @@
     </trans>
   </sense>
   <note type="source"><bibl>Ety/388, UT/146, WJ/311, WJ/315, PE/17:141</bibl></note>
-  <xr type="analogy"><ptr target="then.1"/>, <ptr target="estent"/></xr>
   <re corresp="thinnas">
     <form>
       <orth>thinnas</orth><usg type="lang" norm="N."/>
@@ -51387,6 +51386,7 @@
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
+  <xr type="analogy"><ptr target="then.1"/>, <ptr target="estent"/></xr>
 </entry>
 
  <entry id="theria-">
@@ -52331,6 +52331,12 @@
       <def><bibl>RC/551</bibl> <index level1="silent" lang="en"/>silent, <index level1="quiet" lang="en"/>quiet</def>
     </trans>
   </sense>
+  <re>
+    <form>
+      <orth>dîn</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
+      <bibl>RC/551</bibl>
+    </form>
+  </re>
   <note type="comment" lang="fr">
     Voir aussi <ptr target="dîn.1"/> pour une discussion de ce mot
   </note>
@@ -52338,12 +52344,6 @@
     See also <ptr target="dîn.1"/> for a discussion regarding this word
   </note>
   <xr type="analogy"><ptr target="tínen"/></xr>
-  <re>
-    <form>
-      <orth>dîn</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
-      <bibl>RC/551</bibl>
-    </form>
-  </re>
 </entry>
 
 <entry id="tîn.3" n="3">
@@ -52414,6 +52414,12 @@
       <def><bibl>RC/551</bibl> <index level1="silent" lang="en"/>silent</def>
     </trans>
   </sense>
+  <re corresp="dínen">
+    <form>
+      <orth>dínen</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
+      <bibl>LotR/II:IV</bibl>
+    </form>
+  </re>
   <note type="comment" lang="fr">
     Voir aussi <ptr target="dîn.1"/> pour une discussion de ce mot
   </note>
@@ -52421,12 +52427,6 @@
     See also <ptr target="dîn.1"/> for a discussion regarding this word
   </note>
   <xr type="analogy"><ptr target="tîn.2"/></xr>
-  <re corresp="dínen">
-    <form>
-      <orth>dínen</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
-      <bibl>LotR/II:IV</bibl>
-    </form>
-  </re>
 </entry>
 
 <entry id="tinna-">
@@ -53400,7 +53400,6 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>erin dolothen Ethuil</mentioned> <bibl>SD/129-31</bibl></note>
-  <xr type="analogy"><ptr target="tollui"/></xr>
   <re>
     <form>
       <orth>dolothen</orth><usg type="lang" norm="S."/>
@@ -53408,6 +53407,7 @@
       <itype type="sm">soft mut.</itype>
     </form>
   </re>
+  <xr type="analogy"><ptr target="tollui"/></xr>
 </entry>
 
 <entry id="toltha-">
@@ -54547,8 +54547,8 @@
     </trans>
   </sense>
   <note type="source"><bibl>RGEO/74, Letters/278, UT/55</bibl></note>
-  <xr type="analogy"><ptr target="alfirin"/></xr>
   <etym>ui- + loss “everlasting snow, ever (white as) snow</etym>
+  <xr type="analogy"><ptr target="alfirin"/></xr>
 </entry>
 
 <entry id="uin">
