@@ -22,10 +22,10 @@
     <publicationStmt>
       <publisher>The Sindarin Dictionary Project</publisher>
       <availability status="free">
-        <p><hi>License</hi>: This material may be distributed only subject to the terms and
+        <p><hi>License</hi>. This material may be distributed only subject to the terms and
            conditions set forth in the Creative Commons Attribution, Non-Commercial, Share-Alike License,
            version 2.0 (http://creativecommons.org/licenses/by-nc-sa/2.0/).</p>
-        <p><hi>Additional limitation of scope</hi>: Sindarin and Noldorin, as languages invented
+        <p><hi>Additional limitation of scope</hi>. Sindarin and Noldorin, as languages invented
            by <name>J .R. R. Tolkien</name>, are his artistic and intellectual property.
            The editors do not claim any intellectual property on these languages and, as a whole,
            on this dictionary, beyond the editorial annotations, the arrangement of entries and
@@ -61,8 +61,7 @@
     </publicationStmt>
 
     <notesStmt>
-      <note>The original Sindarin dictionary project
-        (a.k.a. <hi>Hiswelokë’s Sindarin Dictionary</hi>)
+      <note>The original Sindarin dictionary project, a.k.a. <hi>Hiswelokë’s Sindarin Dictionary</hi>,
         began on Oct. 23, 1999 and was never completed.
         After 2008, the project went on hiatus. It was kind of resumed later, so there might
         perhaps be new editions from time to time.</note>
