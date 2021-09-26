@@ -3497,6 +3497,35 @@
   </sense>
 </entry>
 
+<entry id="arahadhw">
+  <form type="regular">
+    <form>
+      <orth>arahadhw</orth><usg type="lang" norm="S."/>
+      <bibl>PE/22:148</bibl>
+    </form>
+    <form>
+      <orth>arahadhm</orth><usg type="lang" norm="S."/>
+      <bibl>PE/22:148</bibl>
+    </form>
+    <form>
+      <orth>archaf</orth><usg type="lang" norm="S."/>
+      <bibl>PE/22:148</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>trône (lit. « haut siège »)</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/22:148</bibl> throne (lit. “high seat”)</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="hadhw"/>, <ptr target="hadhwa-"/></xr>
+</entry>
+
 <entry id="aran">
   <form type="regular">
     <form>
@@ -4239,7 +4268,7 @@
   </note>
 </entry>
 
-<entry type="affix" id="athra-">
+<entry type="affix" id="athra-.1" n="1">
   <form type="regular">
     <form>
       <orth>athra-</orth><usg type="lang" norm="S."/>
@@ -4258,6 +4287,33 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Athrabeth</mentioned> <bibl>MR/329</bibl></note>
+</entry>
+
+<entry id="athra-.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>athra-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/22:166</bibl>
+      <pron>ATrA</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>soigner, traiter médicalement</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/22:166</bibl> to treat medically</def>
+    </trans>
+  </sense>
+  <note type="comment" lang="fr">
+    Replaçant une forme antérieure <hi>gathra-</hi> dans la note fortement révisée où ce mot apparaît.
+  </note>
+  <note type="comment" lang="en">
+    Replacing an earlier form <hi>gathra-</hi> in the heavily revised note where this word is given.
+  </note>
 </entry>
 
 <entry id="athrabeth">
@@ -24652,6 +24708,40 @@
   </sense>
 </entry>
 
+<entry id="hadhwa-">
+  <form type="regular">
+    <form>
+      <orth>hadhwa-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/22:148</bibl>
+      <pron>h"ADwA</pron>
+    </form>
+    <form>
+      <orth>hadhma-</orth><usg type="lang" norm="S."/>
+      <bibl>PE/22:148</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def><index lang="fr" level1="asseoir"/>siéger</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/22:148</bibl> to <index level1="sit" lang="en"/>seat</def>
+    </trans>
+  </sense>
+  <note type="comment" lang="fr">
+    Suivi dans le texte source de plusieurs formes non glosées : <hi>hadhwad, arhadhwad</hi> et <hi>archath</hi> (?).
+    Les deux premières semblent être des gérondifs, voir aussi <ptr target="arahadhw"/> et <ptr target="hadhw"/>.
+  </note>
+  <note type="comment" lang="en">
+    Followed in the source text by other unglossed forms: <hi>hadhwad, arhadhwad</hi> and <hi>archath</hi> (?).
+    The two first seem to be gerunds, see also <ptr target="arahadhw"/> and <ptr target="hadhw"/>.
+  </note>
+  <xr type="analogy"><ptr target="haf-"/></xr>
+</entry>
+
 <entry id="hadhod">
   <form type="regular">
     <form>
@@ -24705,6 +24795,45 @@
     </trans>
   </sense>
   <etym>hadhod+rim</etym>
+</entry>
+
+<entry id="hadhw">
+  <form type="regular">
+    <form type="normalized">
+      <orth>hadhu</orth><usg type="lang" norm="*S."/>
+      <bibl>X/W</bibl>
+      <pron>h"ADu</pron>
+    </form>
+    <form>
+      <orth>hadhw</orth><usg type="lang" norm="S."/>
+      <bibl>PE/22:148</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>*siège</def>
+    </trans>
+    <trans lang="en">
+      <def>*seat</def>
+    </trans>
+  </sense>
+  <re>
+    <form>
+      <orth>chadhw</orth><usg type="lang" norm="S."/>
+      <bibl>PE/22:148</bibl>
+      <itype type="sm">soft mut.</itype>
+    </form>
+  </re>
+  <note type="comment" lang="fr">
+    La forme <hi>chadhw</hi> n’est pas expliquée, mais semblerait être la forme mutée de ce mot.
+  </note>
+  <note type="comment" lang="en">
+    The form <hi>chadhw</hi> is not explained, but could be the mutated form of this word.
+  </note>
+  <xr type="analogy"><ptr target="arahadhw"/></xr>
 </entry>
 
 <entry id="hadlath">
@@ -24937,6 +25066,7 @@
       <def><bibl>VT/45:20</bibl> to <index level1="sit" lang="en"/>sit</def>
     </trans>
   </sense>
+  <xr type="analogy"><ptr target="hadhwa-"/></xr>
 </entry>
 
 <entry id="hair">
