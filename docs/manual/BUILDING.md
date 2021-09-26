@@ -1,6 +1,6 @@
 # (Re-)Building the dictionary
 
-These procedures describe how to build an HTML version of the dictionary from the core source XML lexicon.
+These procedures describe how to build an HTML or PDF version of the dictionary from the core source XML lexicon.
 
 ## Prerequisites
 
@@ -22,11 +22,17 @@ You will need the following command-line tools on your system:
   It is needed in order to use the provided shell scripts described below. You can do without it, but
   you will then need to adapt the commands to your operating system.
 
+- **[sile](https://sile-typesetter.org/)** - The SILE typesetter
+
+  Version 0.12 (at the time of writing) was used to generate a PDF version of the lexicon, along
+  with a set of specialized classes and packages from the
+  [Omikhleia SILE packages](https://github.com/Omikhleia/omikhleia-sile-packages) repository.
+
 ### Principles
 
 The core source lexicon in XML is `src/dict-sd-fr-en.xml`
 
-#### Quick conversion
+#### Quick conversion to HTML
 
 To just convert the core source lexicon to HTML, the steps are the following:
 1. Apply to the lexicon the `scripts/tei2html/tei-lite.xsl` XSLT style-sheet, to generate a raw HTML file.
@@ -37,7 +43,7 @@ To just convert the core source lexicon to HTML, the steps are the following:
 The provided `convert.sh` script applies these two steps in a row, and puts the converted
 HTML in `docs/dict-sd.html`
 
-#### Complete (post-processed) conversion
+#### Complete (post-processed) conversion to HTML
 
 To produce a much better version of the lexicon, several additional tasks are performed.
 1. Apply the (post-)processing XSLT style-sheets in order (see below), each using as input the output of
@@ -91,3 +97,23 @@ The expanded post-processed lexicon would yield to something such as:
 
 > **variant2** _N._ ZZ/zzz → **form1**
 
+#### Complete (post-processed) conversion to PDF
+
+To start with, we need the post-processed version of the lexicon in XML.
+The initial steps are therefore the same as for the HTML output, without the final
+(HTML-only) steps.
+
+The provided `process-to-xml-only.sh` script applies all the necessary steps in a row,
+and puts the converted (expanded) XML in `docs/dict-sd.xml`
+
+As noted above, PDF generation requires:
+- The SILE Typesetter
+- Specialized classes and packages from
+  [Omikhleia SILE packages](https://github.com/Omikhleia/omikhleia-sile-packages) repository.
+
+Installing SILE and our custom classes and packages is an exercise left to the reader. When
+properly set up:
+
+```
+sile -I preambles/dict-sd-en-preamble.sil docs/dict-sd.xml
+```
