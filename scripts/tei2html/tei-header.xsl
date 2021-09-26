@@ -103,9 +103,10 @@
     (<xsl:value-of select="count(//entry[descendant::form[1]/@type = 'deduced' or descendant::form[1]/form[1]/@type = 'deduced'])"/> deduced,
     <xsl:value-of select="count(//entry[descendant::form[1]/@type = 'normalized' or descendant::form[1]/form[1]/@type = 'normalized'])"/> normalized).</p>
   <!-- Omikhleia fix: same but withount counting the cross references -->
-  <p><xsl:value-of select="count(//entry[@type != 'xref'])"/> main headwords
+  <!-- REMOVED, seems too fragile -->
+  <!-- <p><xsl:value-of select="count(//entry[@type != 'xref'])"/> main headwords
      (<xsl:value-of select="count(//entry[@type != 'xref'][descendant::form[1]/@type = 'deduced' or descendant::form[1]/form[1]/@type = 'deduced'])"/> deduced,
-    <xsl:value-of select="count(//entry[@type != 'xref'][descendant::form[1]/@type = 'normalized' or descendant::form[1]/form[1]/@type = 'normalized'])"/> normalized).</p>
+    <xsl:value-of select="count(//entry[@type != 'xref'][descendant::form[1]/@type = 'normalized' or descendant::form[1]/form[1]/@type = 'normalized'])"/> normalized).</p> -->
   <!-- Omikhleia fix: Earlier word form counters where somehow broken (not counting re tags, failing to properly count
        alternatives at the top form level...)
        Fixed by using a Muenchian method (http://www.jenitennison.com/xslt/grouping/muenchian.html)
