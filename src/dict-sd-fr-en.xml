@@ -42989,7 +42989,7 @@
     </trans>
   </sense>
   <note type="source,deduced"><mentioned>Iarwain ben-adar</mentioned> <bibl>LotR/II:II, PE/17:144-145</bibl></note>
-  <re corresp="ben">
+  <re>
     <form>
       <orth>ben</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
     </form>
@@ -43015,7 +43015,7 @@
       <def><bibl>WJ/376</bibl> <index level1="one" lang="en"/>one, <index level1="somebody" lang="en"/>somebody, <index level1="anybody" lang="en"/>anybody</def>
     </trans>
   </sense>
-  <re corresp="ben">
+  <re>
     <form>
       <orth>ben</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
     </form>
