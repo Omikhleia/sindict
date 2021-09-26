@@ -1,5 +1,24 @@
 # Changes
 
+## Edition 2.0 (lexicon 1.0) - Sept. 26, 2021
+
+_Release_
+
+The dictionary had not seen a nice PDF version since the early 2000s... It was more
+than time to fix that, and roll out a final 2.0 release, don't you think?
+
+Target: make it typographically sound
+
+- Lexicon:
+  - Several fixes for issues reported on 2.0-RC2.
+- Lexicon structure overhaul:
+  - Several typographical improvements (spacing, typographical apostrophes and quote marks)
+  - More consistency regarding element ordering in entries
+  - More consistency regarding bibliographic references (all marked as "bibl" tags in the XML, even in notes, etc.)
+- Tooling:
+  - Better expansion of cross-reference pointers
+  - PDF generation (in a dedicated repository, see build instructions)
+
 ## Edition 2.0-RC2 (lexicon 1.0-RC) - May 25, 2021
 
 _Release Candidate_
