@@ -55155,13 +55155,6 @@
       <orth>yneg</orth><usg type="lang" norm="S."/>
       <bibl>VT/48:8-9</bibl>
     </form>
-    <form>
-      <orth>yneb</orth><usg type="lang" norm="S."/>
-    </form>
-    <form>
-      <orth>inib</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:8</bibl>
-    </form>
   </form>
   <sense>
     <gramGrp>
@@ -55175,6 +55168,7 @@
     </trans>
   </sense>
   <etym>Dual of *enek “six”, CE yûneke, Q. yunke, T. yûnece</etym>
+  <xr type="see"><ptr target="yneb"/>, <ptr target="imp"/></xr>
 </entry>
 
 <entry id="ŷr">
