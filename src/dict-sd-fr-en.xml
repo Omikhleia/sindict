@@ -2466,6 +2466,10 @@
       <pron>"AndrAnn</pron>
     </form>
     <form>
+      <orth>andrand</orth><usg type="lang" norm="N."/>
+      <bibl>PE/22:41</bibl>
+    </form>
+    <form>
       <orth>anrand</orth><usg type="lang" norm="N."/>
       <bibl>Ety/382</bibl>
     </form>
@@ -3552,7 +3556,7 @@
       <def><index level1="king" lang="en"/>king</def> <usg type="hint">used of a lord or king of a specified region</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/360, S/428, LotR/II:IV, LotR/VI:VII, SD/129-31, Letters/426</bibl></note>
+  <note type="source"><bibl>Ety/360, S/428, LotR/II:IV, LotR/VI:VII, SD/129-31, Letters/426, PE/22:33, PE/22:41</bibl></note>
   <xr type="analogy"><ptr target="âr"/>, <ptr target="taur.1"/></xr>
 </entry>
 
@@ -3758,7 +3762,7 @@
       <def><index level1="innumerable" lang="en"/>innumerable, <index level1="countless" lang="en"/>countless, <index level1="endless" lang="en"/>endless, without reckoning, <index level1="numberless" lang="en"/>numberless</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/349, Ety/378, S/428, VT/46:6</bibl></note>
+  <note type="source"><bibl>Ety/349, Ety/378, S/428, VT/46:6, PE/22:41</bibl></note>
   <etym>ar-+nediad</etym>
 </entry>
 
@@ -9416,7 +9420,7 @@
       <def><index level1="rune" lang="en"/>rune</def>
     </trans>
   </sense>
-  <note type="source"><bibl>WJ/396, LotR/E</bibl></note>
+  <note type="source"><bibl>WJ/396, LotR/E, PE/22:149,150</bibl></note>
   <etym>Etym. “cutting”</etym>
   <re corresp="certhas">
     <form>
@@ -9432,7 +9436,7 @@
   <form type="regular">
     <form>
       <orth>certhas</orth><usg type="lang" norm="S."/>
-      <bibl>LotR/E</bibl>
+      <bibl>LotR/E, PE/22:150</bibl>
       <pron>k"ErTAs</pron>
     </form>
   </form>
@@ -10826,7 +10830,7 @@
 <entry id="curu">
   <form type="regular">
     <form>
-      <orth>curu</orth><usg type="lang" norm="N."/>
+      <orth>curu</orth><usg type="lang" norm="S., N."/>
       <bibl>Ety/366, VT/41:8,10, PE/17:83, PE/22:151</bibl>
       <pron>k"uru</pron>
     </form>
@@ -10891,7 +10895,7 @@
       <def>man of craft, <index level1="wizard" lang="en"/>wizard</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/366, LotR/III:VIII, LotR/B, VT/45:24</bibl></note>
+  <note type="source"><bibl>Ety/366, LotR/III:VIII, LotR/B, VT/45:24, PE/22:151</bibl></note>
   <etym>curu+dîr “man of skill”</etym>
 </entry>
 
@@ -11091,7 +11095,7 @@
       <def><index level1="shadow" lang="en"/>shadow</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/354, S/430</bibl></note>
+  <note type="source"><bibl>Ety/354, S/430, PE/22:34</bibl></note>
 </entry>
 
 <entry id="daebeth">
@@ -15383,7 +15387,7 @@
       <def><index level1="star" lang="en"/>star</def> <usg type="hint">little used except in verses</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>WJ/363, MR/373, RGEO/73, Letters/281</bibl></note>
+  <note type="source"><bibl>WJ/363, MR/373, RGEO/73, Letters/281, PE/22:150</bibl></note>
   <re corresp="elenath">
     <form>
       <orth>elenath</orth><usg type="lang" norm="S."/>
@@ -19303,7 +19307,7 @@
       <def><index level1="tree" lang="en"/>tree</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/357, S/427, LotR/E, LB/354, RGEO/73, Letters/426, SD/302</bibl></note>
+  <note type="source"><bibl>Ety/357, S/427, LotR/E, LB/354, RGEO/73, Letters/426, SD/302, PE/22:47</bibl></note>
   <re corresp="galadhad">
     <form type="deduced">
       <orth>galadhad</orth><usg type="lang" norm="S."/>
@@ -24251,6 +24255,14 @@
     <xr type="of"><ptr target="gwath"/></xr>
   </sense>
   <note type="source,deduced"><mentioned>Eredwethion</mentioned> <bibl>TI/345, Ety/379, Ety/397</bibl></note>
+  <re>
+    <form type="deduced">
+      <orth>wethion</orth><usg type="lang" norm="S."/>
+      <bibl>PE/22:41</bibl>
+      <itype type="sm">soft mut.</itype>
+    </form>
+    <note type="source,deduced"><mentioned>Ered-wethion, œrœid-wethion</mentioned> <bibl>PE/22:41</bibl></note>
+  </re>
 </entry>
 
 <entry id="gwî">
@@ -24725,10 +24737,10 @@
       <pos>v.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="asseoir"/>siéger</def>
+      <def><index lang="fr" level1="siéger"/>siéger</def>
     </trans>
     <trans lang="en">
-      <def><bibl>PE/22:148</bibl> to <index level1="sit" lang="en"/>seat</def>
+      <def><bibl>PE/22:148</bibl> to <index level1="seat" lang="en"/>seat</def>
     </trans>
   </sense>
   <note type="comment" lang="fr">
@@ -27616,7 +27628,7 @@
       <def><index level1="who" lang="en"/>who, that</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/361, SD/129-31, Letters/308, Letters/417, VT/50:12,17, VT/50:15,17-18</bibl></note>
+  <note type="source"><bibl>Ety/361, SD/129-31, Letters/308, Letters/417, VT/50:12,17, VT/50:15,17-18, PE/22:33</bibl></note>
 </entry>
 
 <entry id="iâ">
@@ -29524,8 +29536,8 @@
 <entry id="laden">
   <form type="regular">
     <form type="normalized">
-      <orth>laden</orth><usg type="lang" norm="*S."/>
-      <bibl>X/LH</bibl>
+      <orth>laden</orth><usg type="lang" norm="S."/>
+      <bibl>PE/22:126</bibl>
       <pron>l"AdEn</pron>
     </form>
     <form>
@@ -29550,10 +29562,11 @@
       <pos>adj.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="ouvert"/>ouvert, <index lang="fr" level1="dégagé"/>dégagé</def>
+      <def><index lang="fr" level1="ouvert"/>ouvert, <index lang="fr" level1="dégagé"/>dégagé, plat (et large)</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/368</bibl> <index level1="open" lang="en"/>open, <index level1="cleared" lang="en"/>cleared</def>
+      <def><bibl>Ety/368</bibl> <index level1="open" lang="en"/>open, <index level1="cleared" lang="en"/>cleared,
+           <bibl>PE/22:126</bibl> flat (and wide)</def>
     </trans>
   </sense>
 </entry>
@@ -37727,7 +37740,7 @@
       <def><index level1="fire" lang="en"/>fire</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/374, S/435, LotR/II:IV, PE/17:38</bibl></note>
+  <note type="source"><bibl>Ety/374, S/435, LotR/II:IV, PE/17:38, PE/22:34</bibl></note>
 </entry>
 
 <entry id="nauth">
@@ -41070,7 +41083,7 @@
       <def><index level1="goblin" lang="en"/>Goblin, <index level1="orc" lang="en"/>Orc</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/379, LR/406, WJ/390, LotR/II:VI, LotR/F, Letters/178</bibl></note>
+  <note type="source"><bibl>Ety/379, LR/406, WJ/390, LotR/II:VI, LotR/F, Letters/178, PE/22:41</bibl></note>
   <re corresp="erchion">
     <form type="deduced">
       <orth>erchion</orth><usg type="lang" norm="N."/>
@@ -41367,6 +41380,9 @@
     <form>
       <orth>ereid</orth><usg type="lang" norm="N."/>
     </form>
+    <form>
+      <orth>œrœid</orth><usg type="lang" norm="N."/>
+    </form>
   </form>
   <sense>
     <gramGrp>
@@ -41380,7 +41396,7 @@
       <def><index level1="mountain" lang="en"/>mountain</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/379, S/435, Letters/263, TC/178, RC/621</bibl></note>
+  <note type="source"><bibl>Ety/379, S/435, Letters/263, TC/178, RC/621, PE/22:41</bibl></note>
   <re corresp="orodrim">
     <form>
       <orth>orodrim</orth><usg type="lang" norm="N."/>
@@ -43387,7 +43403,7 @@
       <def><index level1="history" lang="en"/>history, historical <index level1="account" lang="en"/>account</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/366, WJ/192, WJ/206</bibl></note>
+  <note type="source"><bibl>Ety/366, WJ/192, WJ/206, PE/22:41</bibl></note>
 </entry>
 
 <entry id="penneth">
@@ -49825,7 +49841,7 @@
   <form type="regular">
     <form>
       <orth>tara</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/390</bibl>
+      <bibl>Ety/390, PE/22:34</bibl>
       <pron>t"ArA</pron>
     </form>
     <form>
@@ -49840,7 +49856,8 @@
       <def><index lang="fr" level1="dur"/>dur, <index lang="fr" level1="rigide"/>rigide</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/390</bibl> <index level1="tough" lang="en"/>tough, <index level1="stiff" lang="en"/>stiff</def>
+      <def><bibl>Ety/390, PE/22:34</bibl> <index level1="tough" lang="en"/>tough,
+        <bibl>Ety/390</bibl> <index level1="stiff" lang="en"/>stiff</def>
     </trans>
   </sense>
 </entry>
@@ -54381,7 +54398,15 @@
       <def><index level1="no" lang="en"/>no, <index level1="not" lang="en"/>not</def> <usg type="hint">negative prefix or particle</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>WJ/369, LotR/A(v)</bibl></note>
+  <note type="source"><bibl>WJ/369, LotR/A(v), PE/22:160</bibl></note>
+  <note type="comment" lang="fr">
+    Dans <bibl>PE/22:160</bibl>, Tolkien semble hésiter quant au sens de <hi>úchebin</hi> (cf. <ptr target="heb-"/>), « je ne peux garder »
+    plutôt que « je ne garde pas »
+  </note>
+  <note type="comment" lang="en">
+    In <bibl>PE/22:160</bibl>, Tolkien seem to hesitate whether <hi>úchebin</hi> (cf. <ptr target="heb-"/>) means “I cannot keep” rather
+    than “I do not keep”.
+  </note>
 </entry>
 
 <entry id="úan">
