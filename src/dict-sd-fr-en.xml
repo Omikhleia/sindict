@@ -10,6 +10,7 @@
   <fileDesc>
     <titleStmt>
       <title>A Sindarin and Noldorin dictionary</title>
+      <title>A Sindarin and Noldorin dictionary</title>
       <respStmt>
       <resp>Compiled, edited and annotated by The Sindarin Dictionary Project</resp>
       </respStmt>
@@ -357,7 +358,7 @@
     </gramGrp>
     <usg type="dom">Biol.</usg><usg type="cat" norm="4.28"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="cou"/>cou</def> <usg type="hint">s’appliquant strictement au haut de la colonne vertébrale, sans inclure la gorge</usg> <def>, <index lang="fr" level1="nuque"/>nuque</def>
+      <def><index lang="fr" level1="cou"/>cou</def> <usg type="hint">s’appliquant strictement au haut de la colonne vertébrale, sans inclure la gorge</usg>, <def><index lang="fr" level1="nuque"/>nuque</def>
     </trans>
     <trans lang="en">
       <def><bibl>RC/537</bibl> <index level1="neck" lang="en"/>neck</def> <usg type="hint">properly referring only to the bony vertebral part not including the throat</usg>
@@ -43964,7 +43965,7 @@
     </gramGrp>
     <trans lang="fr">
       <def><index lang="fr" level1="pause"/>pause,
-           halte <index lang="fr" level1="halte"/>,
+           <index lang="fr" level1="halte"/>halte,
            <index lang="fr" level1="repos"/>repos,
            <index lang="fr" level1="arrêt"/>arrêt,
            <index lang="fr" level1="répit"/>répit</def>
@@ -53594,7 +53595,7 @@
       <pos>v.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def>quérir <index lang="fr" level1="quérir"/>, <index lang="fr" level1="invoquer"/>invoquer, faire venir</def>
+      <def><index lang="fr" level1="quérir"/>quérir, <index lang="fr" level1="invoquer"/>invoquer, faire venir</def>
     </trans>
     <trans lang="en">
       <def><bibl>Ety/395</bibl> to <index level1="fetch" lang="en"/>fetch, <index level1="summon" lang="en"/>summon, make come</def>
