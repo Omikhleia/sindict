@@ -31,9 +31,9 @@ And this is what guided this project...
 #### Reception
 
 When it was initiated, this work aimed at:
-> ... being a complete Sindarin dictionary, addressing not only Tolkien’s fans wishing to  understand the elvish sentences from _The Lord of the Rings_ or to build simple sentences  in Sindarin, but also scholars wanting to study Sindarin for what it is: the complex linguistic invention of a philology professor, and also a beautiful piece of art.
+> ... being a complete Sindarin dictionary, addressing not only Tolkien fans wishing to  understand the elvish sentences from _The Lord of the Rings_ or to build simple sentences  in Sindarin, but also scholars wanting to study Sindarin for what it is: the complex linguistic invention of a philology professor, and also a beautiful piece of art.
 
-Out of these two aims, the first (addressing Tolkien’s fans) was largely successful. The first public PDF version of the dictionary, in February 2001, had more than 18400 unique downloads (based on registration e-mails, for a total of more than 30000 download attempts). Between the theatrical release of Peter Jackson’s movie adaptation in Dec. 2001 and mid-2002, 
+Out of these two aims, the first (addressing Tolkien fans) was largely successful. The first public PDF version of the dictionary, in February 2001, had more than 18400 unique downloads (based on registration e-mails, for a total of more than 30000 download attempts). Between the theatrical release of Peter Jackson’s movie adaptation in Dec. 2001 and mid-2002, 
 it had a daily average of 50-100 unique downloads, and the downloads remained fairly high (up to 25-50 daily) until the first quarter of 2003.
 The subsequent on-line search engine, the Dragon Flame and Hesperides applications (2003-2004) and finally the full lexicon on the web also had their huge momentum. All in all, the dictionary certainly contributed to foster interest in Tolkien’s linguistic invention, on grounds that were seldom achieved by other lexicons on the Internet at that time.
 

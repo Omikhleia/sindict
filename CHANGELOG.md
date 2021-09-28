@@ -9,14 +9,13 @@ than time to fix that, and roll out a final 2.0 release, don't you think?
 
 Target: make it typographically sound
 
-- Lexicon:
+- Lexicon content update:
   - Several fixes for issues reported on 2.0-RC2.
 - Lexicon structure overhaul:
   - Several typographical improvements (spacing, typographical apostrophes and quote marks)
   - More consistency regarding element ordering in entries
   - More consistency regarding bibliographic references (all marked as "bibl" tags in the XML, even in notes, etc.)
 - Tooling:
-  - Better expansion of cross-reference pointers
   - PDF generation (in a dedicated repository, see build instructions)
 
 ## Edition 2.0-RC2 (lexicon 1.0-RC) - May 25, 2021
@@ -55,17 +54,20 @@ Target: repair the post-processing steps.
 
 ## Edition 2.0-a6 (lexicon 1.0-alpha9) - May 16, 2021
 
+_Pre-Release_
+
 Target: make it look nice again.
 
-- Lexicon (with apologies to those involved... sometimes years ago):
+Additionally, the project now has a "live version" via "GitHub Pages".
+
+- Lexicon content updates (with apologies to those involved... sometimes years ago):
   - Several bunches of updates from PE/17.
     For the record, it represents around 60-70% of the old so-called "C0421" notes (with great thanks
     to whom it concerns - efforts from around 2014 or later).
     Support for PE/17 is still fairly incomplete.
   - Several other fixes and updates (special thanks to Gabor L., feedback from around 2011-2012).
   - And more fixes and updates here and there.
-- The project now has a "live version" via "GitHub Pages".
-- Previous version was mostly focussed on re-assembling a working version, but the generated output was somehow ugly...
+- Layout: previous version was mostly focussed on re-assembling a working version, but the generated output was somehow ugly...
   - Improved HTML5/CSS3 layout.
   - Repaired project information (header, with toggle).
   - Clickable words:
@@ -73,6 +75,8 @@ Target: make it look nice again.
     - Eldamo integration, just because.
 
 ## Edition 2.0-a5x (lexicon 1.0-alpha5) - April, 10 2021
+
+_Pre-Release_
 
 Target: assemble a working lexicon again (from 2019 source recovery)
 
@@ -102,6 +106,6 @@ Older revisions history:
 - June 2002 (edition 1.5, lexicon 0.98).
 - May 2002 (edition 1.4, lexicon 0.97) - XML TEI P3 format.
 - August? 2001 (edition 1.3, lexicon 0.96) - perhaps unreleased.
-- February 2001 (edition 1.2, lexicon 0.95) - First public PDF version (a.k.a "Cabor" release).
+- February 2001 (edition 1.2, lexicon 0.95) - first public PDF version (a.k.a "Cabor" release).
 - January 2001 - Preliminary PDF version (a.k.a. "Mellon" release)
-- Earlier history from Oct. 1999 to Dec. 2000: details not recovered.
+- Earlier history from Oct. 1999 to Dec. 2000 - details not recovered.
