@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <!--
-     Copyright (c) 2001-2011 HSD, 2019 Omikhleia
+     Copyright (c) 2001-2011, HSD. 2019, 2021, Omikhleia.
      License: MIT
 -->
 <xsl:stylesheet version="1.0"
@@ -31,14 +31,12 @@
 </xsl:template>
 
 <xsl:template match="milestone">
-<xsl:if test="$print = 'yes'">
 <p class="milestone {@unit}"><xsl:value-of select="@n"/></p>
-</xsl:if>
 </xsl:template>
 
 <xsl:template match="entry">
 <xsl:choose>
-<xsl:when test="not(@type) or (@type != 'xref')">  
+<xsl:when test="not(@type) or (@type != 'xref')">
     <p id="{@id}" class="sindict"><xsl:apply-templates/>
     </p><xsl:text>
 </xsl:text>
@@ -91,13 +89,13 @@
   <!-- Handle punctuations arround variant forms -->
   <xsl:choose>
     <xsl:when test="preceding-sibling::form[2]">,</xsl:when>
-    <xsl:when test="preceding-sibling::form[1]">(</xsl:when>  
+    <xsl:when test="preceding-sibling::form[1]">(</xsl:when>
   </xsl:choose>
   <xsl:apply-templates/>
   <xsl:if test="not(following-sibling::form) and preceding-sibling::form[1]">)</xsl:if>
  </xsl:when>
  <xsl:otherwise>
-  <xsl:apply-templates/> 
+  <xsl:apply-templates/>
  </xsl:otherwise>
 </xsl:choose>
 </xsl:template>
@@ -127,7 +125,7 @@
 </xsl:variable>
 <!-- Initial letter in full, encoded with @norm -->
 <!-- EXPERIMENTAL xsl:if test="@norm"><sup>(<xsl:value-of select="@norm"/>)</sup></xsl:if> -->
-<!-- Trick for style handling: 
+<!-- Trick for style handling:
      Main entries will therefore be labeled with 'entry'
      and secondary entries as 'form'. This will allow to set different
      properties for main headwords (line breaking, etc.) and secondary
@@ -159,8 +157,8 @@
 <xsl:text> </xsl:text>
 </xsl:template>
 
-<!-- WARNING: The following rules for the <usg> tag are not general 
-     and only handles some of the TEI structures as used in the 
+<!-- WARNING: The following rules for the <usg> tag are not general
+     and only handles some of the TEI structures as used in the
      Sindarin dictionary (i.e. <usg type='gram'>as a noun</usg> some text).
   -->
 <xsl:template match="usg[@type = 'gram']">
@@ -247,7 +245,7 @@
   <!-- Ooops, we failed find an orth form for expanding the pointer reference -->
   <xsl:message>WARNING: Unexpected exception handling reference <xsl:value-of select="@target"/></xsl:message>
   <b style="color:red">{UNRESOLVED PTR}</b>
- </xsl:when>  
+ </xsl:when>
  <xsl:otherwise>
   <!-- Ooops, unresolved pointer -->
   <xsl:message>WARNING: Unresolved reference <xsl:value-of select="@target"/></xsl:message>
@@ -271,7 +269,7 @@
 <xsl:template match="re">&#x25C8; <xsl:apply-templates/></xsl:template>
 
 <!-- Support for multilingual dictionaries -->
-<xsl:variable name="abbreviations" 
+<xsl:variable name="abbreviations"
               select="document('abbr-def.xml')/abbr/list[@lang=$language]/item"/>
 
 <xsl:template name="translate-abbr">

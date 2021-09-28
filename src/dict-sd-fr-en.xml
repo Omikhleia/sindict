@@ -4,25 +4,27 @@
      1999-2011 The Sindarin Dictionary Project.
      2014, 2017, 2019, 2021 Omikhleia et al.
      For the full copyright information and details, refer to the TEI header below.
+     In case of doubt, the English version of the TEI header applies.
 -->
 
 <teiHeader>
   <fileDesc>
-    <titleStmt>
-      <title>A Sindarin and Noldorin dictionary</title>
-      <title>A Sindarin and Noldorin dictionary</title>
+    <titleStmt lang="en">
+      <title lang="en">A Sindarin and Noldorin dictionary</title>
+      <title lang="fr">Un dictionnaire sindarin et noldorin</title>
       <respStmt>
-      <resp>Compiled, edited and annotated by The Sindarin Dictionary Project</resp>
+        <resp lang="en">Compiled, edited and annotated by The Sindarin Dictionary Project</resp>
+        <resp lang="fr">Compilé, édité, annoté et traduit par The Sindarin Dictionary Project</resp>
       </respStmt>
     </titleStmt>
 
     <editionStmt>
-      <edition n="2.0">Lexicon 1.0</edition>
+      <edition n="2.0"/>
     </editionStmt>
 
     <publicationStmt>
       <publisher>The Sindarin Dictionary Project</publisher>
-      <availability status="free">
+      <availability lang="en" status="free">
         <p><hi>License</hi>. This material may be distributed only subject to the terms and
            conditions set forth in the Creative Commons Attribution, Non-Commercial, Share-Alike License,
            version 2.0 (http://creativecommons.org/licenses/by-nc-sa/2.0/).</p>
@@ -58,66 +60,170 @@
            direct attestations or based on deductions and conclusions drawn from these texts
            by careful comparisons.</p>
       </availability>
+      <availability lang="fr" status="free">
+        <p><hi>Licence</hi>. Ce matériel ne peut être distribué que selon les termes et
+           conditions énoncés dans la licence Creative Commons Attribution, Non-Commercial,
+           Share-Alike, version 2.0 (http://creativecommons.org/licenses/by-nc-sa/2.0/).</p>
+        <p><hi>Limitation supplémentaire du champ d’application.</hi>
+           Le sindarin et le noldorin, en tant que langues inventées par <name>J .R. R. Tolkien</name>,
+           sont sa propriété artistique et intellectuelle.
+           Les éditeurs ne revendiquent aucune propriété intellectuelle sur ces langues et, dans leur
+           ensemble, sur ce dictionnaire, au-delà des annotations éditoriales, de la disposition des
+           entrées et des discussions ou interprétations encyclopédiques annexées à ces entrées.
+           La licence susmentionnée s’applique uniquement à ces éléments.</p>
+        <p>Les textes et livres de <name>J. R. R. Tolkien</name> sont protégés par le droit d’auteur,
+           détenu par le Tolkien Estate et/ou les éditeurs de Tolkien. En l’état, ce matériel n’est
+           pas approuvé par le Tolkien Estate ou les éditeurs de Tolkien, et constitue par conséquent
+           un dictionnaire sindarin non autorisé. Ce matériel est cependant fourni sous l’hypothèse
+           des éditeurs que compiler, organiser, analyser, normaliser et annoter des entrées afin de
+           produire un dictionnaire pour une langue, même inventée, ne viole pas le droit d’auteur
+           de l’inventeur.</p>
+        <p>Si un tiers inclut ce matériel dans une œuvre dérivée, sous la licence susmentionnée ou
+           sous toute autre licence applicable, les éditeurs ne seront pas responsables d’une
+           éventuelle violation du droit d’auteur sur l’œuvre dérivée.
+           Toute utilisation dérivée de ce matériel est laissée sous la seule responsabilité du tiers
+           en question.</p>
+        <p>Néanmoins, ce matériel n’est ni une reproduction textuelle d’informations provenant des
+           œuvres publiées de Tolkien, ni un simple réarrangement de ces informations dans un ordre
+           différent. De nombreuses entrées sont déduites d’évidences indirectes (telles que des
+           composés, des formes fléchies, etc.) ou sont normalisées selon nos connaissances actuelles
+           de la phonologie et de la morphologie Sindarin. En conséquence, certaines déductions,
+           telles que présentées par les éditeurs ou par d’autres contributeurs au dictionnaire,
+           pourraient en fait s’avérer incorrectes ou inexactes si de nouvelles informations
+           viennent à paraître.</p>
+        <p>Toute violation du droit d’auteur concernant des textes encore non publiés de
+           <name>J. R. R. Tolkien</name> est involontaire. Le compilateur n’a pas accès à des
+           textes jusqu’ici inédits. Si cela était le cas, de tels textes ne seraient pas utilisés
+           dans le dictionnaire. Par conséquent, ce dictionnaire ne contient que des entrées
+           basées sur des textes publiés, soit à partir d’attestations directes, soit sur la base
+           de déductions et de conclusions tirées de ces textes par des comparaisons minutieuses.</p>
+      </availability>
       <date>1999-2008, 2010-2011, 2014, 2019, 2021</date>
     </publicationStmt>
 
     <notesStmt>
-      <note>The original Sindarin dictionary project, a.k.a. <hi>Hiswelokë’s Sindarin Dictionary</hi>,
-        began on Oct. 23, 1999 and was never completed.
-        After 2008, the project went on hiatus. It was kind of resumed later, so there might
-        perhaps be new editions from time to time.</note>
-      <note>This work is dedicated to <name>Christopher Tolkien</name> and
-        to the <hi>Vinyar Tengwar</hi> &amp; <hi>Parma Eldalamberon</hi>
-        editorial staffs, whose efforts to publish
-        <name>J. R. R. Tolkien</name>’s linguistic papers have made such a dictionary
-        possible.</note>
-      <note>The editors address their thanks to:
-        <name>Jim Allan</name>,
-        <name>Benjamin Babut</name>,
-        <name>Bertrand Bellet</name>,
-        <name>Christian Buzek</name>,
-        <name>Thomas Deniau</name>,
-        <name>Ryszard Derdzinski</name>,
-        <name>Florian Dombach</name>,
-        <name>Helge Kåre Fauskanger</name>,
-        <name>Cédric Fockeu</name>,
-        <name>David Giraudeau</name>,
-        <name>Carl Hostetter</name>,
-        <name>B. Philip Jonsson</name>,
-        <name>Stéphane Landais</name>,
-        <name>Per Lindberg</name>,
-        <name>Elena Liria</name>,
-        <name>Javier Lorenzo</name>,
-        <name>Gábor Lorinczi</name>,
-        <name>Sébastien Mallet</name>,
-        <name>David Salo</name>,
-        <name>Dorothea Salo</name>,
-        <name>Lisa Star</name>,
-        <name>Sylvain Veyrié</name>,
-        <name>Emanuele Vicentini</name>,
-        <name>Didier Willis</name>,
-        <name>Patrick Wynne</name>,
-        the members of the ELFLING mailing-list,
-        the members of the Sindarin dictionary discussion group,
-        the girl who did not want her name to be mentioned,
-        and all the other contributors we may have forgotten.</note>
+      <note lang="en">
+        <p>The original Sindarin dictionary project, a.k.a. <hi>Hiswelokë’s Sindarin Dictionary</hi>,
+          began on Oct. 23, 1999 and was never completed.
+          After 2008, the project went on hiatus. It was resumed later, so new editions might appear
+          from time to time.</p>
+        <p>This work is dedicated to <name>Christopher Tolkien</name> and
+          to the <hi>Vinyar Tengwar</hi> &amp; <hi>Parma Eldalamberon</hi>
+          editorial staffs, whose efforts to publish
+          <name>J. R. R. Tolkien</name>’s linguistic papers have made such a dictionary
+          possible.</p>
+        <p>The editors address their thanks to:
+          <name>Jim Allan</name>,
+          <name>Benjamin Babut</name>,
+          <name>Bertrand Bellet</name>,
+          <name>Christian Buzek</name>,
+          <name>Thomas Deniau</name>,
+          <name>Ryszard Derdzinski</name>,
+          <name>Florian Dombach</name>,
+          <name>Helge Kåre Fauskanger</name>,
+          <name>Cédric Fockeu</name>,
+          <name>David Giraudeau</name>,
+          <name>Carl Hostetter</name>,
+          <name>B. Philip Jonsson</name>,
+          <name>Stéphane Landais</name>,
+          <name>Per Lindberg</name>,
+          <name>Elena Liria</name>,
+          <name>Javier Lorenzo</name>,
+          <name>Gábor Lorinczi</name>,
+          <name>Sébastien Mallet</name>,
+          <name>David Salo</name>,
+          <name>Dorothea Salo</name>,
+          <name>Lisa Star</name>,
+          <name>Sylvain Veyrié</name>,
+          <name>Emanuele Vicentini</name>,
+          <name>Didier Willis</name>,
+          <name>Patrick Wynne</name>,
+          the members of the ELFLING mailing-list,
+          the members of the Sindarin dictionary discussion group,
+          the girl who did not want her name to be mentioned,
+          and all the other contributors we may have forgotten.</p>
+      </note>
+      <note lang="en">
+        <p>This dictionary is based on <name>J. R. R. Tolkien</name>’s works, extended
+          with etymological notes, phonetics and other information.</p>
+        <p>Sindarin is the language of the Grey Elves, invented by <name>J. R. R. Tolkien</name>
+          and exemplified in his masterful epic story <hi>The Lord of the Rings</hi>.</p>
+        <p>This work aims at being a Sindarin and Noldorin dictionary, addressing not only
+          Tolkien fans wishing to understand the elvish sentences from <hi>The Lord of the
+          Rings</hi> or to build simple sentences in Sindarin, but also scholars wanting to
+          study Sindarin for what it is: the complex linguistic invention of a philology
+          professor, and also a beautiful piece of art.</p>
+        <p>By no mean shall this version be regarded as definitive. The editors are all too well aware
+          that the dictionary is not as perfect or complete as it might be. Nevertheless, it seems
+          better to encourage the study of Sindarin by the provision of a working dictionary rather
+          than delay the publication perhaps for years, until the editors’ ideals are satisfied
+          — a condition which might never be attained.</p>
+      </note>
+      <note lang="fr">
+        <p>Le projet à l’origine de ce dictionnaire sindarin, <hi>Hiswelokë’s Sindarin Dictionary</hi>,
+          a commencé le 23 octobre 1999 et n’a jamais été achevé.
+          Après 2008, le projet a été interrompu pour une durée indéterminée.
+          Il a été repris plus tard, de sorte que de nouvelles éditions peuvent paraître
+          de temps en temps.</p>
+        <p>Ce travail est dédié à <name>Christopher Tolkien</name> et aux équipes
+          éditoriales de <hi>Vinyar Tengwar</hi> &amp; <hi>Parma Eldalamberon</hi>,
+          dont les efforts pour publier les textes linguistiques de <name>J. R. R. Tolkien</name>
+          ont rendu un tel dictionnaire possible.</p>
+        <p>Les éditeurs addressent tous leurs remerciements à :
+          <name>Jim Allan</name>,
+          <name>Benjamin Babut</name>,
+          <name>Bertrand Bellet</name>,
+          <name>Christian Buzek</name>,
+          <name>Thomas Deniau</name>,
+          <name>Ryszard Derdzinski</name>,
+          <name>Florian Dombach</name>,
+          <name>Helge Kåre Fauskanger</name>,
+          <name>Cédric Fockeu</name>,
+          <name>David Giraudeau</name>,
+          <name>Carl Hostetter</name>,
+          <name>B. Philip Jonsson</name>,
+          <name>Stéphane Landais</name>,
+          <name>Per Lindberg</name>,
+          <name>Elena Liria</name>,
+          <name>Javier Lorenzo</name>,
+          <name>Gábor Lorinczi</name>,
+          <name>Sébastien Mallet</name>,
+          <name>David Salo</name>,
+          <name>Dorothea Salo</name>,
+          <name>Lisa Star</name>,
+          <name>Sylvain Veyrié</name>,
+          <name>Emanuele Vicentini</name>,
+          <name>Didier Willis</name>,
+          <name>Patrick Wynne</name>,
+          les membres de la liste de diffusion ELFLING,
+          les membres du groupe de discussion du dictionnaire sindarin,
+          la demoiselle qui ne voulait pas que son nom soit mentionné,
+          et tous les autres contributeurs que nous aurions pu oublier.</p>
+      </note>
+      <note lang="fr">
+        <p>Ce dictionnaire s’appuie sur les travaux de <name>J. R. R. Tolkien</name>, complétés
+          par des notes étymologiques, phonétiques et d’autres informations.</p>
+        <p>Le sindarin est la langue des Elfes Gris, inventée par <name>J. R. R. Tolkien</name>
+          et illustrée dans son magistral roman épique, <hi>le Seigneur des Anneaux</hi>.</p>
+        <p>Ce travail vise à être un dictionnaire sindarin et noldorin s’adressant non seulement
+          aux fans de Tolkien souhaitant comprendre les phrases elfiques du <hi>Seigneur des
+          Rings</hi> ou construire des phrases simples en sindarin, mais aussi aux érudits désireux
+          d’étudier le sindarin pour ce qu’il est : l’invention linguistique complexe d’un
+          professeur de philologie, et tout autant une belle œuvre d’art.</p>
+        <p>Cette version ne doit en aucun cas être considérée comme définitive.
+          Les éditeurs ne sont que trop conscients que le dictionnaire n’est pas aussi parfait
+          ou complet qu’il pourrait l’être.
+          Néanmoins, il semble préférable d’encourager l’étude du sindarin en fournissant un
+          dictionnaire de travail plutôt que de retarder la publication peut-être pendant des années,
+          jusqu’à ce que les idéaux des éditeurs soient satisfaits — une condition qui pourrait ne
+          jamais être atteinte.</p>
+      </note>
     </notesStmt>
 
     <sourceDesc>
-      <p>This dictionary is based on <name>J. R. R. Tolkien</name>’s works, extended
-         with etymological notes, phonetics and other information.</p>
-      <p>Sindarin is the language of the Grey Elves, invented by <name>J. R. R. Tolkien</name>
-         and exemplified in his masterful epic story <hi>The Lord of the Rings</hi>.</p>
-      <p>This work aims at being a Sindarin and Noldorin dictionary, addressing not only
-         Tolkien fans wishing to understand the elvish sentences from <hi>The Lord of the
-         Rings</hi> or to build simple sentences in Sindarin, but also scholars wanting to
-         study Sindarin for what it is: the complex linguistic invention of a philology
-         professor, and also a beautiful piece of art.</p>
-      <p>By no mean shall this version be regarded as definitive. The editors are all too well aware
-         that the dictionary is not as perfect or complete as it might be. Nevertheless, it seems
-         better to encourage the study of Sindarin by the provision of a working dictionary rather
-         than delay the publication perhaps for years, until the editors’ ideals are satisfied
-         — a condition which might never be attained.</p>
+      <!-- TEI P4 wants it present and non empty, though stating a file "may also have no source"
+        -->
+      <bibl></bibl>
     </sourceDesc>
   </fileDesc>
 

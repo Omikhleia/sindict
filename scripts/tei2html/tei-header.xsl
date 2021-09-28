@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <!--
-     Copyright (c) 2001-2019 HSD, Omikhleia
+     Copyright (c) 2001-2011, HSD. 2019, 2021, Omikhleia.
      License: MIT
 -->
 <xsl:stylesheet version="1.0"
@@ -14,8 +14,8 @@
   <span id="forkongithub"><a href="https://github.com/Omikhleia/sindict" target="_blank">Fork me on GitHub</a><br/></span>
   <input type="checkbox" id="switch" />
   <label for="switch"></label>
-  <span class="show-hide"><b><i><xsl:value-of select="//titleStmt/title"/></i></b> -
-    <xsl:value-of select="//editionStmt/edition/text()"/></span>
+  <span class="show-hide"><b><i><xsl:value-of select="//titleStmt/title[@lang = $language]"/></i></b> -
+    <xsl:value-of select="//editionStmt/edition/@n"/></span>
   <div class="hide-show" >
     <xsl:apply-templates/>
   </div>
@@ -49,7 +49,9 @@
 </xsl:template>
 
 <xsl:template match="title">
-  <p><b><em><xsl:apply-templates/></em></b></p>
+  <xsl:if test="not(@lang) or @lang = $language">
+    <p><b><em><xsl:apply-templates/></em></b></p>
+  </xsl:if>
 </xsl:template>
 
 <xsl:template match="respStmt">
@@ -57,23 +59,27 @@
 </xsl:template>
 
 <xsl:template match="resp">
-  <p><xsl:apply-templates/></p>
+  <xsl:if test="not(@lang) or @lang = $language">
+    <p><xsl:apply-templates/></p>
+  </xsl:if>
 </xsl:template>
 
 <xsl:template match="publicationStmt">
   <fieldset class="boxed">
     <legend>Publication</legend>
     <p><xsl:value-of select="date"/>, <xsl:value-of select="publisher"/></p>
-  </fieldset>    
+  </fieldset>
   <xsl:apply-templates select="availability"/>
 </xsl:template>
 
 <xsl:template match="availability">
-  <fieldset class="boxed">
-    <legend>Availability</legend>
-    <p><b>Status: </b><xsl:value-of select="@status"/>.</p>
-    <xsl:apply-templates/>
-  </fieldset>
+  <xsl:if test="not(@lang) or @lang = $language">
+    <fieldset class="boxed">
+      <legend>Availability</legend>
+      <p><b>Status: </b><xsl:value-of select="@status"/>.</p>
+      <xsl:apply-templates/>
+    </fieldset>
+  </xsl:if>
 </xsl:template>
 
 <xsl:template match="editionStmt">
@@ -93,7 +99,7 @@
   <p><xsl:apply-templates/></p>
 
   <!-- Better counters
-    headwords = entry count, including cross-references to alternative forms (variants, etc.)   
+    headwords = entry count, including cross-references to alternative forms (variants, etc.)
     main headwords = same but without the cross-references
     word forms = orth count, so all reference words incl. variants, etc.
   -->
@@ -120,16 +126,13 @@
 </xsl:template>
 
 <xsl:template match="sourceDesc">
-  <fieldset class="boxed">
-    <legend>Source</legend>
-    <xsl:apply-templates/>
-  </fieldset>
+<!-- IGNORE -->
 </xsl:template>
 
 <xsl:template match="notesStmt">
   <fieldset class="boxed">
     <legend>Notes</legend>
-    <xsl:for-each select="note">
+    <xsl:for-each select="note[not(@lang) or @lang = $language]">
       <p><xsl:apply-templates/></p>
     </xsl:for-each>
   </fieldset>

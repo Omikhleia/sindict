@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <!--
-     Copyright (c) 2001-2019 HSD, Omikhleia
+     Copyright (c) 2001-2011, HSD. 2019, 2021, Omikhleia.
      License: MIT
 -->
 <xsl:stylesheet version="1.0"
@@ -17,22 +17,22 @@
 />
 
 <!-- PARAMETERS
- "print" can be set to 'yes' for printable quality,
  "header" can be set to 'yes' to generate the TEI header,
- "body" can be set to 'no' to disable the dictionary (and just generate the 
+ "body" can be set to 'no' to disable the dictionary (and just generate the
         header, for instance)
- "search" can be set to some 'entry id' to output a single entry 
+ "search" can be set to some 'entry id' to output a single entry
  "language" sets the language for abbreviations, parts of speech etc. ('en', 'fr' or 'de')
- "translations" is a list of included languages. Defaults to 'fr,en' with 'de' left out.
+            as well as, overall, the main language (for selecting headers and content
+            to include outside the dictionary body)
+ "translations" is a list of included languages in the dictionary body. Defaults to 'fr,en'.
 -->
-<xsl:param name="print">yes</xsl:param>
 <xsl:param name="header">yes</xsl:param>
 <xsl:param name="body">yes</xsl:param>
 <xsl:param name="search"/>
 <xsl:param name="language">en</xsl:param>
 <xsl:param name="translations">fr,en</xsl:param>
 
-<!-- SPACES 
+<!-- SPACES
      Handling correct spacing can't be done easily in XSLT, as the
      input XML file was entered manually. We will need an extra pass
      on the document to fix the spacing after the conversion. For some
