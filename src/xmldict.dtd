@@ -7,6 +7,15 @@
      - Removed +(anchor) in <entry>
      - Replaced <entryFree> by an empty definition
      - Replaced <eg> by an empty definition
+	 modified in sept. 2021
+	 - Restored a minimal subset of <eg> (unusure why it was even removed
+	   some 20 years ago)
+
+	Note: This was based on the TEI P3 recommendation, but the subset
+	here, for the tags and attributes pertaining to dictionary needs
+	at least, should be close to TEI P4.
+	There is no plan to migrate to TEI P5, which introduces several
+	breaking changes.
 -->
 
 <!ELEMENT TEI.2 
@@ -5695,7 +5704,9 @@
 
 
 <!-- DW 07/02/01 Replaced eg by an empty definition -->
-<!ELEMENT eg EMPTY >
+<!-- DW 30/09/21 Dunno why we did this. Restore a bit of it at least -->
+<!ELEMENT eg 
+	(q | trans)* >
 
 
 <!ELEMENT usg 

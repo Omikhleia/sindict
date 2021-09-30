@@ -19,7 +19,7 @@
     </titleStmt>
 
     <editionStmt>
-      <edition n="2.0"/>
+      <edition n="2.0.1"/>
     </editionStmt>
 
     <publicationStmt>
@@ -27,7 +27,7 @@
       <availability lang="en" status="free">
         <p><hi>License</hi>. This material may be distributed only subject to the terms and
            conditions set forth in the Creative Commons Attribution, Non-Commercial, Share-Alike License,
-           version 2.0 (http://creativecommons.org/licenses/by-nc-sa/2.0/).</p>
+           version 2.0 (<xref>http://creativecommons.org/licenses/by-nc-sa/2.0/</xref>).</p>
         <p><hi>Additional limitation of scope</hi>. Sindarin and Noldorin, as languages invented
            by <name>J .R. R. Tolkien</name>, are his artistic and intellectual property.
            The editors do not claim any intellectual property on these languages and, as a whole,
@@ -63,7 +63,7 @@
       <availability lang="fr" status="free">
         <p><hi>Licence</hi>. Ce matériel ne peut être distribué que selon les termes et
            conditions énoncés dans la licence Creative Commons Attribution, Non-Commercial,
-           Share-Alike, version 2.0 (http://creativecommons.org/licenses/by-nc-sa/2.0/).</p>
+           Share-Alike, version 2.0 (<xref>http://creativecommons.org/licenses/by-nc-sa/2.0/</xref>).</p>
         <p><hi>Limitation supplémentaire du champ d’application.</hi>
            Le sindarin et le noldorin, en tant que langues inventées par <name>J .R. R. Tolkien</name>,
            sont sa propriété artistique et intellectuelle.
@@ -207,7 +207,7 @@
           et illustrée dans son magistral roman épique, <hi>le Seigneur des Anneaux</hi>.</p>
         <p>Ce travail vise à être un dictionnaire sindarin et noldorin s’adressant non seulement
           aux fans de Tolkien souhaitant comprendre les phrases elfiques du <hi>Seigneur des
-          Rings</hi> ou construire des phrases simples en sindarin, mais aussi aux érudits désireux
+          Anneaux</hi> ou construire des phrases simples en sindarin, mais aussi aux érudits désireux
           d’étudier le sindarin pour ce qu’il est : l’invention linguistique complexe d’un
           professeur de philologie, et tout autant une belle œuvre d’art.</p>
         <p>Cette version ne doit en aucun cas être considérée comme définitive.
@@ -221,8 +221,7 @@
     </notesStmt>
 
     <sourceDesc>
-      <!-- TEI P4 wants it present and non empty, though stating a file "may also have no source"
-        -->
+      <!-- TEI P4 wants it present and non empty, though stating a file "may also have no source" -->
       <bibl></bibl>
     </sourceDesc>
   </fileDesc>
@@ -253,7 +252,6 @@
     <langUsage>
       <language id="fr">French</language>
       <language id="en">English</language>
-      <language id="de">German</language>
     </langUsage>
   </profileDesc>
 </teiHeader>

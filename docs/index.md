@@ -2,7 +2,8 @@
 
 Most people landing on this page are probably interested in the latest [generated build](dict-sd.html) from the sources.
 
-Or maybe, they will find an interest in the (experimental) [PDF version](sile-sd-en.pdf).
+Or maybe, they will find an interest in the (experimental) PDF versions, in [English](sile-sd-en.pdf)
+or in [French](sile-sd-fr.pdf).
 
 People interested in browsing the source lexicon and scripts (or reporting issues etc.) may want to check the [GitHub repository](https://github.com/Omikhleia/sindict).
 
