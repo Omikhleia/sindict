@@ -11,7 +11,7 @@ If it is not already the case, you need to [create a GitHub account](https://git
 ## Reporting simple errors or missing references
 
 An easy way to report simple errors (e.g. typos, missing references or mistake in an existing entry)
-is to open the [live Web version]([generated build](../dict-sd.html) of the dictionary.
+is to open the [live Web version](../dict-sd.html) of the dictionary.
 
 Then just click on an entry at the apppropriate place (i.e. where you think the error should best
 be reported), so as to select it.
