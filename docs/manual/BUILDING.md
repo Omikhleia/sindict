@@ -28,11 +28,11 @@ You will need the following command-line tools on your system:
   with a set of specialized classes and packages from the
   [Omikhleia SILE packages](https://github.com/Omikhleia/omikhleia-sile-packages) repository.
 
-### Principles
+## Principles
 
 The core source lexicon in XML is `src/dict-sd-fr-en.xml`
 
-#### Quick conversion to HTML
+### Quick conversion to HTML
 
 To just convert the core source lexicon to HTML, the steps are the following:
 1. Apply to the lexicon the `scripts/tei2html/tei-lite.xsl` XSLT style-sheet, to generate a raw HTML file.
@@ -43,7 +43,7 @@ To just convert the core source lexicon to HTML, the steps are the following:
 The provided `convert.sh` script applies these two steps in a row, and puts the converted
 HTML in `docs/dict-sd.html`
 
-#### Complete (post-processed) conversion to HTML
+### Complete (post-processed) conversion to HTML
 
 To produce a much better version of the lexicon, several additional tasks are performed.
 1. Apply the (post-)processing XSLT style-sheets in order (see below), each using as input the output of
@@ -97,7 +97,7 @@ The expanded post-processed lexicon would yield to something such as:
 
 > **variant2** _N._ ZZ/zzz → **form1**
 
-#### Complete (post-processed) conversion to PDF
+### Complete (post-processed) conversion to PDF
 
 To start with, we need the post-processed version of the lexicon in XML.
 The initial steps are therefore the same as for the HTML output, without the final
@@ -114,6 +114,14 @@ As noted above, PDF generation requires:
 Installing SILE and our custom classes and packages is an exercise left to the reader. When
 properly set up:
 
-```
-sile -I preambles/dict-sd-en-preamble.sil docs/dict-sd.xml
-```
+- For the English PDF:
+
+  ```
+  sile -I preambles/dict-sd-en-preamble.sil docs/dict-sd.xml
+  ```
+
+- For the French PDF
+
+  ```
+  sile -I preambles/dict-sd-fr-preamble.sil docs/dict-sd.xml
+  ```

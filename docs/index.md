@@ -18,5 +18,6 @@ is certainly what you are looking for.
 
 #### Technical information
 
+- [How to contribute](manual/CONTRIBUTING.md)
 - [Build instructions](manual/BUILDING.md)
 - [Data model](manual/DATA_MODEL.md)
