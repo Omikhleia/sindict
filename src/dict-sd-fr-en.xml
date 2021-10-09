@@ -98,7 +98,7 @@
            basées sur des textes publiés, soit à partir d’attestations directes, soit sur la base
            de déductions et de conclusions tirées de ces textes par des comparaisons minutieuses.</p>
       </availability>
-      <date>1999-2008, 2010-2011, 2014, 2019, 2021</date>
+      <date>1999–2008, 2010–2011, 2014, 2019, 2021</date>
     </publicationStmt>
 
     <notesStmt>
@@ -221,8 +221,38 @@
     </notesStmt>
 
     <sourceDesc>
-      <!-- TEI P4 wants it present and non empty, though stating a file "may also have no source" -->
-      <bibl></bibl>
+      <listBibl>
+        <bibl n="Ety"><hi>The Etymologies</hi> in <hi>The Lost Road and Other Writings</hi>, 1987.</bibl>
+        <bibl n="H"><hi>The Hobbit</hi>.</bibl>
+        <bibl n="HL"><hi>Hiswelókë</hi> (fanzine), 1999–2001.</bibl>
+        <bibl n="LB"><hi>The Lays of Beleriand</hi>, 1985.</bibl>
+        <bibl n="LR"><hi>The Lost Road and Other Writings</hi>, 1987.</bibl>
+        <bibl n="Lamb">Lambengolmor mailing-list, 2002–2020.</bibl>
+        <bibl n="Letters"><hi>The Letters of J.R.R. Tolkien</hi>, 1981.</bibl>
+        <bibl n="LotR"><hi>The Lord of the Rings</hi>.</bibl>
+        <bibl n="MC"><hi>The Monsters and the Critics</hi>, 1983.</bibl>
+        <bibl n="MR"><hi>Morgoth’s Ring</hi>, 1993.</bibl>
+        <bibl n="NM"><hi>The Nature of Middle-earth</hi>, 2021.</bibl>
+        <bibl n="PE"><hi>Parma Eldalamberon</hi> (series).</bibl>
+        <bibl n="PM"><hi>The Peoples of Middle-earth</hi>, 1996.</bibl>
+        <bibl n="RC"><hi>The Lord of the Rings: a Reader’s Companion</hi>, 2005.</bibl>
+        <bibl n="RGEO"><hi>The Road Goes Ever On</hi>, 1967.</bibl>
+        <bibl n="RS"><hi>The Return of the Shadow</hi>, 1988.</bibl>
+        <bibl n="S"><hi>The Silmarillion</hi>, 1977.</bibl>
+        <bibl n="SD"><hi>Sauron Defeated</hi>, 1992.</bibl>
+        <bibl n="Sindict">Sindict mailing-list, 2002–2011.</bibl>
+        <bibl n="TAI"><hi>J.R.R. Tolkien: Artist and Illustrator</hi>, 1995.</bibl>
+        <bibl n="TC"><hi>A Tolkien Compass</hi> (first ed.), 1975.</bibl>
+        <bibl n="TI"><hi>The Treason of Isengard</hi>, 1989.</bibl>
+        <bibl n="TS"><hi>Tolkien Studies</hi> (series).</bibl>
+        <bibl n="TT"><hi>Tyalië Tyelelliéva</hi> (fanzine), 1994–2001.</bibl>
+        <bibl n="Tengwestie"><hi>Tengwestië</hi> (online journal).</bibl>
+        <bibl n="UT"><hi>Unfinished Tales of Númenor and Middle-earth</hi>, 1980.</bibl>
+        <bibl n="VT"><hi>Vinyar Tengwar</hi> (fanzine).</bibl>
+        <bibl n="WJ"><hi>The War of the Jewels</hi>, 1994.</bibl>
+        <bibl n="WR"><hi>The War of the Ring</hi>, 1990.</bibl>
+        <bibl n="X">Normalization rules.</bibl>
+      </listBibl>
     </sourceDesc>
   </fileDesc>
 
@@ -12124,7 +12154,7 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">
-     Dans le SdA (IV:IV), Frodo est appelé <hi>Daur</hi>, peut-être un
+     Dans <bibl>LotR/IV:IV</bibl>, Frodo est appelé <hi>Daur</hi>, peut-être un
      dérivé de l’elfique primitif <hi>*dāra</hi> « sage » (<bibl>PE/17:102</bibl>),
      cf. son autre nom <hi>Iorhael</hi> dans <bibl>SD/129</bibl>, signifiant
      vraisemblablement « vieux-sage »
@@ -14167,14 +14197,14 @@
   <note type="comment" lang="fr">
     Le sens « il » est déduit de la fonction apparente de ce mot dans
     la « Lettre du Roi », mais il serait tout aussi possible de l’interpréter
-    par « en effet » (comme pour le quenya <hi>e</hi>, LR/63, VT/45:11),
+    par « en effet » (comme pour le quenya <hi>e</hi>, <bibl>LR/63, VT/45:11</bibl>),
     employé ici, par usage formel, pour exprimer les souhaits ou la
     volonté du Roi
   </note>
   <note type="comment" lang="en">
     The meaning “he” is deduced from the apparent function
     of this word in the so-called “King’s Letter”, but it also seems possible to
-    interpret it as “indeed” (as in Q. <hi>e</hi>, LR/63, VT/45:11), used here in
+    interpret it as “indeed” (as in Q. <hi>e</hi>, <bibl>LR/63, VT/45:11</bibl>), used here in
     a way of formal address expressing the wishes or the will of the King
   </note>
 </entry>
@@ -24755,13 +24785,13 @@
   </sense>
   <note type="comment" lang="fr">
     Le sens de <hi>shore</hi> (« rivage ») dans <bibl>Ety/386</bibl> est une erreur de
-    lecture pour <hi>shoe</hi> (« chaussure »), voir <bibl>VT/Errata</bibl> et <bibl>Lambengolmor/735</bibl>.
+    lecture pour <hi>shoe</hi> (« chaussure »), voir <bibl>VT/Errata</bibl> et <bibl>Lamb/735</bibl>.
     Comparer aussi avec le qenya <hi>hyapa</hi> (<bibl>PE/13:41</bibl>) et le gnomique
     <hi>habin</hi> (<bibl>PE/11:47</bibl>), de même sens.
   </note>
   <note type="comment" lang="en">
     The meaning “shore” in <bibl>Ety/386</bibl> is a misreading for “shoe”,
-    see <bibl>VT/Errata</bibl> and <bibl>Lambengolmor/735</bibl>.
+    see <bibl>VT/Errata</bibl> and <bibl>Lamb/735</bibl>.
     Compare also with Early Qenya <hi>hyapa</hi> (<bibl>PE/13:41</bibl>) and Gnomish
     <hi>habin</hi> (<bibl>PE/11:47</bibl>), both glossed as “shoe”.
   </note>
@@ -27967,7 +27997,7 @@
     candidat pour une construction superlative (de toute évidence construite à partir
     du préfixe intensif <hi>an-</hi> et de <hi>iaur</hi>, abrégé en position finale).
     En outre, la comparaison de <hi>iarwain</hi> avec <ptr target="narwain"/>
-    a fait noter à Bertrand Bellet (dans son message <bibl>Lambengolmor/642</bibl>) que <hi>iarwain</hi>
+    a fait noter à Bertrand Bellet (dans son message <bibl>Lamb/642</bibl>) que <hi>iarwain</hi>
     pourrait être interprêté comme un vieux composé, de l’elfique primitif <hi>*jâra</hi>
     (Q. <hi>yára</hi>, S. <ptr target="iaur"/>) et <hi>*winjâ</hi> (Q. <hi>vinya</hi>,
     S. <ptr target="gwain"/>).
@@ -27984,7 +28014,7 @@
     as “eldest”), makes a much better candidate for a superlative construct
     (conceivably built from the intensive prefix <hi>an-</hi> and <hi>iaur</hi> shortened
     in final position). Moreover, comparing <hi>iarwain</hi> to <ptr target="narwain"/>,
-    Bertrand Bellet noted in <bibl>Lambengolmor/642</bibl> that <hi>iarwain</hi> could as well be
+    Bertrand Bellet noted in <bibl>Lamb/642</bibl> that <hi>iarwain</hi> could as well be
     interpreted as an old compound construct, of the primitive <hi>*jâra</hi> (Q. <hi>yára</hi>,
     S. <ptr target="iaur"/>) and <hi>*winjâ</hi> (Q. <hi>vinya</hi>, S. <ptr target="gwain"/>).
     He thus suggested that <hi>iarwain</hi> could actually mean “old-new”. This analysis
@@ -34964,13 +34994,13 @@
       <def>range of <index level1="mountain" lang="en"/>mountains</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>Mornvenniath</mentioned> <bibl>TI/124, Lambengolmor/799</bibl></note>
+  <note type="source,deduced"><mentioned>Mornvenniath</mentioned> <bibl>TI/124, Lamb/799</bibl></note>
   <re>
     <form type="deduced">
       <orth>venniath</orth><usg type="lang" norm="N."/><itype type="sm">soft mut.</itype>
     </form>
   </re>
-  <note type="source,deduced"><mentioned>Mornvenniath</mentioned> <bibl>TI/124, Lambengolmor/799</bibl></note>
+  <note type="source,deduced"><mentioned>Mornvenniath</mentioned> <bibl>TI/124, Lamb/799</bibl></note>
   <note type="comment" lang="fr">
     Les premiers éléments dans Mornvenniath sont très vraisemblablement <hi>morn</hi> et <hi>ment</hi>
     (avec lénition du <hi>m</hi> initial et le <hi>nt</hi> final changé en <hi>nn</hi> en position
@@ -34978,7 +35008,7 @@
     un nom collectif reste quelque peu douteux et ne fournit pas d’explication à l’insertion d’un
     -<hi>i</hi> avant la terminaison collective, étant donné que <hi>-iath</hi> n’est jusqu’ici
     attesté que dans des noms ayant un <hi>i</hi> dans leur racine (dans des formes telles que
-    <hi>giliath</hi>). Patrick Wynne a suggéré sur <bibl>Lambengolmor/799</bibl> que l’élément <hi>-iath</hi>
+    <hi>giliath</hi>). Patrick Wynne a suggéré sur <bibl>Lamb/799</bibl> que l’élément <hi>-iath</hi>
     pourrait peut-être plutôt correspondre au sindarin tardif <hi>iâth</hi> « barrière »
     (angl. <hi>fence</hi>), comme dans Doriath (Dor Iâth) « Contrée de la Barrière » (<bibl>WJ/370</bibl>)
     et probablement Echoriath « les Montagnes Encerclantes » (<bibl>S/138</bibl>). Si tel est le cas,
@@ -34990,7 +35020,7 @@
     reading this word as a collective noun is probably quite dubious and does not provide an
     explanation to the insertion of an -<hi>i</hi> before the collective ending, as <hi>-iath</hi> is
     only attested so far in nouns having <hi>i</hi> as the original stem vowel (in such forms as
-    <hi>giliath</hi>). Patrick Wynne suggested in <bibl>Lambengolmor/799</bibl> that the final element <hi>-iath</hi> can perhaps be rather identified with later Sindarin <hi>iâth</hi> “fence”, as in Doriath
+    <hi>giliath</hi>). Patrick Wynne suggested in <bibl>Lamb/799</bibl> that the final element <hi>-iath</hi> can perhaps be rather identified with later Sindarin <hi>iâth</hi> “fence”, as in Doriath
     (Dor Iâth) “Land of the Fence” (<bibl>WJ/370</bibl>) and probably Echoriath “the Encircling Mountains” (<bibl>S/138</bibl>).
     Hence, Mornvenniath would then more likely mean “Fence of Black Peaks”
   </note>
@@ -39974,7 +40004,7 @@
     dans <bibl>RS/196</bibl> (bien que cette traduction ne soit visiblement pas littérale),
     puis plus tard par « run swift » dans <bibl>RC/195</bibl> et <bibl>PE/17:18</bibl>.
     Un verbe <ptr target="nor-"/> est attesté dans le vieux <hi>Gnomish
-    lexicon</hi>, PE/11:61, avec pour signification « courir, rouler »
+    lexicon</hi>, <bibl>PE/11:61</bibl>, avec pour signification « courir, rouler »
   </note>
   <note type="comment" lang="en">
     Untranslated in LotR, but written <hi>nora-lim</hi> and rendered as
@@ -40371,7 +40401,7 @@
     « Eaux Tristes » est apparemment « triste » dans le sens de « geignant, se lamentant,
     se plaignant, maugréant », fort probablement en référence au sentiment général des
     travailleurs désespérées qui oeuvraient dans les « grands terrains cultivés par des
-    esclaves » près du lac. (See <bibl>Lambengolmor/856-860</bibl>)
+    esclaves » près du lac. (See <bibl>Lamb/856-860</bibl>)
   </note>
   <note type="comment" lang="en">For an earlier discussion, see Klockzo, 4th volume, p. 160 §147: The meaning of
     <hi>Núrnen</hi> long remained highly hypothetical. The current definition is based on Christopher
@@ -40385,7 +40415,7 @@
     Patrick Wynne therefore noted: S. *<hi>nûr</hi> in <hi>Núrnen</hi> “Sad Water”
     is apparently “sad” in the sense “bewailing, lamenting, complaining, grumbling”,
     no doubt a reference to the general mood of the hapless laborers in “the great slave-worked
-    fields” beside the lake. (See <bibl>Lambengolmor/856-860</bibl>)
+    fields” beside the lake. (See <bibl>Lamb/856-860</bibl>)
   </note>
 </entry>
 
@@ -46039,7 +46069,7 @@
       <def><index lang="fr" level1="couler"/>couler comme un (torrent?)</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/384</bibl> to <index level1="flow" lang="en"/>flow like a (torrent ?)</def>
+      <def><bibl>Ety/384</bibl> to <index level1="flow" lang="en"/>flow like a (torrent?)</def>
     </trans>
   </sense>
   <note type="comment" lang="fr">
