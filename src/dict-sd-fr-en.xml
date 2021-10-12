@@ -411,7 +411,7 @@
       <pron>Eb"Ennin</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -422,7 +422,7 @@
       <def>born later, born after</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -488,7 +488,7 @@
       <pron>"AxAd</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -500,7 +500,7 @@
       <def><bibl>RC/537</bibl> <index level1="neck" lang="en"/>neck</def> <usg type="hint">properly referring only to the bony vertebral part not including the throat</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -1320,7 +1320,7 @@
       <pron>"AEglOs</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -1332,7 +1332,7 @@
       <def><index level1="snowthorn" lang="en"/>snowthorn, a <index level1="plant" lang="en"/>plant like furze (gorse), but larger and with white flowers</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -2014,7 +2014,7 @@
       <pron>"Alfirin</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -2025,7 +2025,7 @@
       <def><index level1="immortal" lang="en"/>immortal</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -2037,7 +2037,7 @@
       <def>name of a <index level1="flower" lang="en"/>flower, bell-like and running through many soft and gentle colours</def>
     </trans>
   </sense>
-  <sense n="3">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -3471,7 +3471,7 @@
       <pron>"EffEdyn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -3482,7 +3482,7 @@
       <def><bibl>WJ/387</bibl> <index level1="follower" lang="en"/>follower</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -3608,7 +3608,7 @@
       <pron>Ar</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>pref.</pos>
     </gramGrp>
@@ -3621,7 +3621,7 @@
       <def><bibl>Ety/349</bibl> <index level1="beside" lang="en"/>beside</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>pref.</pos>
     </gramGrp>
@@ -3851,7 +3851,7 @@
       <pron>"ArDOn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">augm.</usg>
     </gramGrp>
@@ -3864,7 +3864,7 @@
       <def>great <index level1="region" lang="en"/>region, <index level1="province" lang="en"/>province</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -4320,7 +4320,7 @@
       <pron>"ATEg</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -4332,7 +4332,7 @@
       <def><bibl>VT/48:6,17, NM/184</bibl> “litte <index level1="father" lang="en"/>father”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -4789,7 +4789,7 @@
       <pron>"EvAjr</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -4800,7 +4800,7 @@
       <def><index level1="refuser" lang="en"/>refuser</def>
     </trans>
   </sense>
-    <sense n="2">
+    <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -5314,7 +5314,7 @@
       <pron>b"Ajr</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -5329,7 +5329,7 @@
       <index level1="dwelling" lang="en"/>dwelling, <index level1="home" lang="en"/>home</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -5363,7 +5363,7 @@
       <pron>b"ArA</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -5374,7 +5374,7 @@
       <def><bibl>Ety/351</bibl> <index level1="fiery" lang="en"/>fiery</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -6188,7 +6188,7 @@
       <pron>b"Ess</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -6200,7 +6200,7 @@
       <def>(young) <index level1="woman" lang="en"/>woman</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -6553,7 +6553,7 @@
       <orth>brann</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -6564,7 +6564,7 @@
       <def><index level1="lofty" lang="en"/>lofty, <index level1="noble" lang="en"/>noble, <index level1="fine" lang="en"/>fine</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -7149,7 +7149,7 @@
       <bibl>Ety/372</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -7161,7 +7161,7 @@
       <def><bibl>Ety/372</bibl> <index level1="snout" lang="en"/>snout, <index level1="nose" lang="en"/>nose</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -7241,7 +7241,7 @@
       <pron>k"AbEd</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
@@ -7253,7 +7253,7 @@
       <def><index level1="leap" lang="en"/>leap</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
@@ -7808,7 +7808,7 @@
       <pron>k"El,bin</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -7820,7 +7820,7 @@
       <def><index level1="elf" lang="en"/>Elf of the Great Journey (lit. “light person”)</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -8620,7 +8620,7 @@
       <pron>k"ArAs</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -8631,7 +8631,7 @@
       <def>circular earthwall with dike</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -8642,7 +8642,7 @@
       <def><index level1="city" lang="en"/>city</def> <usg type="hint">built above ground</usg>
     </trans>
   </sense>
-  <sense n="3">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -9309,7 +9309,7 @@
       <pron>k"El,l</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -9320,7 +9320,7 @@
       <def><index level1="running" lang="en"/>running</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -9585,7 +9585,7 @@
   </form>
   </form>
 
-  <sense n="1">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -9596,7 +9596,7 @@
       <def>circular <index level1="enclosure" lang="en"/>enclosure</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -9989,7 +9989,7 @@
       <pron>kl"Aur</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -10001,7 +10001,7 @@
      <def><bibl>Ety/362</bibl> <index level1="splendour" lang="en"/>splendour, <index level1="glory" lang="en"/>glory</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -10157,7 +10157,7 @@
       <pron>k"OnAT</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
@@ -10169,7 +10169,7 @@
       <def>many <index level1="voice" lang="en"/>voices</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
@@ -10300,7 +10300,7 @@
       <pron>k"OrOn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -10311,7 +10311,7 @@
       <def><index level1="globe" lang="en"/>globe, <index level1="ball" lang="en"/>ball</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -10382,7 +10382,7 @@
       <pron>k"OT</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -10393,7 +10393,7 @@
       <def><bibl>Ety/365</bibl> <index level1="enmity" lang="en"/>enmity</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -10722,7 +10722,7 @@
       <pron>k"u:</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -10733,7 +10733,7 @@
       <def><index level1="arch" lang="en"/>arch, <index level1="crescent" lang="en"/>crescent</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -11270,7 +11270,7 @@
       <orth>dadben</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adv.</pos>
     </gramGrp>
@@ -11281,7 +11281,7 @@
       <def><index level1="downhill" lang="en"/>downhill, <index level1="inclined" lang="en"/>inclined</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adv.</pos>
     </gramGrp>
@@ -11580,7 +11580,7 @@
       <pron>d"Agnir</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -11591,7 +11591,7 @@
       <def><bibl>PE/17:97</bibl> <index level1="slayer" lang="en"/>slayer</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -11758,7 +11758,7 @@
       <pron>dAn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>prep.</pos>
     </gramGrp>
@@ -11769,7 +11769,7 @@
       <def><index level1="against" lang="en"/>against</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>prep.</pos>
     </gramGrp>
@@ -12229,7 +12229,7 @@
       <pron>d"Aur</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -12241,7 +12241,7 @@
       <def><bibl>UT/279, UT/285</bibl> <index level1="pause" lang="en"/>pause, <index level1="stop" lang="en"/>stop</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -13094,7 +13094,7 @@
       <orth>dol</orth><usg type="lang" norm="S."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -13106,7 +13106,7 @@
       <def><index level1="head" lang="en"/>head</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -13565,7 +13565,7 @@
       <pron>dr"Am.bOr</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -13576,7 +13576,7 @@
       <def><bibl>Ety/354</bibl> clenched <index level1="fist" lang="en"/>fist</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -13936,7 +13936,7 @@
       <orth>dúwath</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
@@ -13949,7 +13949,7 @@
       <def><index level1="darkness" lang="en"/>darkness, <index level1="shadow" lang="en"/>shadow</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
@@ -14274,7 +14274,7 @@
       <pron>d"y:gAr</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -14285,7 +14285,7 @@
       <def><bibl>PE/17:151</bibl> a mistaken act</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -14518,7 +14518,7 @@
       <pron>"Exil,</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -14529,7 +14529,7 @@
       <def><index level1="follower" lang="en"/>follower</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -15230,7 +15230,7 @@
       <pron>"EglAjn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -15241,7 +15241,7 @@
       <def><index level1="forsaken" lang="en"/>forsaken</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -15346,7 +15346,7 @@
       <pron>"EgnAs</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -15357,7 +15357,7 @@
       <def><bibl>VT/45:12</bibl> sharp <index level1="point" lang="en"/>point</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -15531,7 +15531,7 @@
       <pron>"EjTA</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -15542,7 +15542,7 @@
       <def><bibl>WJ/365</bibl> to <index level1="prick" lang="en"/>prick with a sharp point, to <index level1="stab" lang="en"/>stab</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -15968,7 +15968,7 @@
       <pron>"Emig</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -15980,7 +15980,7 @@
       <def><bibl>VT/48:6,17, NM/184</bibl> “litte <index level1="mother" lang="en"/>mother”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -16950,7 +16950,7 @@
       <pron>"Eruj</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -16962,7 +16962,7 @@
       <def><index level1="single" lang="en"/>single, <index level1="alone" lang="en"/>alone</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -17582,7 +17582,7 @@
       <orth>feles</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -17594,7 +17594,7 @@
       <def><index level1="beach" lang="en"/>beach, wave-beaten <index level1="shore" lang="en"/>shore, line of surf</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -17625,7 +17625,7 @@
       <pron>fAl"ATrEn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -17636,7 +17636,7 @@
       <def>of the <index level1="shore" lang="en"/>shore</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -18486,7 +18486,7 @@
       <pron>f"irn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -18499,7 +18499,7 @@
       <def><bibl>Ety/381</bibl> <index level1="dead" lang="en"/>dead</def> <usg type="hint">of mortals</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -19062,7 +19062,7 @@
       <bibl>Ety/398</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
@@ -19075,7 +19075,7 @@
       <def><bibl>Ety/382, Ety/398</bibl> <index level1="man" lang="en"/>Northmen</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
@@ -19120,7 +19120,7 @@
       <pron>f"OrvO</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -19132,7 +19132,7 @@
       <def><bibl>VT/47:6</bibl> <index level1="right" lang="en"/>right <index level1="hand" lang="en"/>hand</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -20187,7 +20187,7 @@
       <pron>g"ArD</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -20199,7 +20199,7 @@
       <def><bibl>WJ/402</bibl> bounded or defined <index level1="region" lang="en"/>region</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -20767,7 +20767,7 @@
       <pron>gEn"Edi.Ad</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
@@ -20779,7 +20779,7 @@
       <def><bibl>SD/129-31</bibl> <index level1="reckoning" lang="en"/>reckoning</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
@@ -21221,7 +21221,7 @@
       <orth>glamb</orth><usg type="lang" norm="S., N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -21233,7 +21233,7 @@
       <def>barbarous <index level1="speech" lang="en"/>speech, <index level1="shouting" lang="en"/>shouting, confused <index level1="noise" lang="en"/>noise</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -21244,7 +21244,7 @@
       <def><index level1="din" lang="en"/>din, <index level1="uproar" lang="en"/>uproar, the confused <index level1="yelling" lang="en"/>yelling and <index level1="bellowing" lang="en"/>bellowing of beasts</def>
     </trans>
   </sense>
-  <sense n="3">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23360,7 +23360,7 @@
       <pron>gr"OT</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23372,7 +23372,7 @@
       <def><index level1="cave" lang="en"/>cave, <index level1="tunnel" lang="en"/>tunnel, large <index level1="excavation" lang="en"/>excavation</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23455,7 +23455,7 @@
       <pron>g"u:l</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23466,7 +23466,7 @@
       <def><index level1="magic" lang="en"/>magic lore, long <index level1="study" lang="en"/>study</def> <usg type="hint">being used mostly of secret knowledge, especially such as possessed by artificers who made wonderful things</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23971,7 +23971,7 @@
       <orth>gweith</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23982,7 +23982,7 @@
       <def><index level1="manhood" lang="en"/>manhood</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23994,7 +23994,7 @@
       <def>man power, <index level1="troop" lang="en"/>troop of able-bodied men, <index level1="host" lang="en"/>host, <index level1="regiment" lang="en"/>regiment, <index level1="people" lang="en"/>people</def>
     </trans>
   </sense>
-  <sense n="3">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -24223,7 +24223,7 @@
       <pron>gw"Anur</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -24234,7 +24234,7 @@
       <def>a pair of <index level1="twin" lang="en"/>twins</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -24319,7 +24319,7 @@
       <pron>gw"AT</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -24331,7 +24331,7 @@
       <def><index level1="shade" lang="en"/>shade, <index level1="shadow" lang="en"/>shadow, dim light</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -25087,7 +25087,7 @@
       <pron>gw"iN</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -25098,7 +25098,7 @@
       <def><index level1="spindrift" lang="en"/>spindrift, flying <index level1="spray" lang="en"/>spray</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -25120,7 +25120,7 @@
       <pron>gw"inig</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -25131,7 +25131,7 @@
       <def><bibl>VT/48:6,16-17, NM/184</bibl> “litte one, <index level1="baby" lang="en"/>baby”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -26377,7 +26377,7 @@
       <pron>h"ArvO</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -26389,7 +26389,7 @@
       <def><bibl>VT/47:6</bibl> <index level1="left" lang="en"/>left <index level1="hand" lang="en"/>hand</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -26488,7 +26488,7 @@
       <orth>hathal</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -26500,7 +26500,7 @@
       <def><index level1="broadsword" lang="en"/>broadsword-<index level1="blade" lang="en"/>blade, axe-blade</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -27372,7 +27372,7 @@
       <pron>h"im</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -27384,7 +27384,7 @@
            <index level1="abiding" lang="en"/>abiding</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -27570,7 +27570,7 @@
       <pron>h"iTuj</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -27581,7 +27581,7 @@
       <def>foggy, misty</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -27743,7 +27743,7 @@
       <pron>h"OnEg</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -27755,7 +27755,7 @@
       <def><bibl>VT/48:6,16-17, NM/184</bibl> “litte <index level1="brother" lang="en"/>brother”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -28233,7 +28233,7 @@
       <pron>in</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>art.</pos>
     </gramGrp>
@@ -28244,7 +28244,7 @@
       <def><index level1="the" lang="en"/>the</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>pron.</pos> <subc>rel.</subc>
     </gramGrp>
@@ -28268,7 +28268,7 @@
       <orth>ia</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -28279,7 +28279,7 @@
       <def><index level1="gulf" lang="en"/>gulf</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -28663,7 +28663,7 @@
       <pron>j"Aur</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -28675,7 +28675,7 @@
       <def><index level1="ancient" lang="en"/>ancient, <index level1="old" lang="en"/>old, original</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -28820,7 +28820,7 @@
       <pron>j"El,l</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -28832,7 +28832,7 @@
       <def><index level1="daughter" lang="en"/>daughter</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -29391,7 +29391,7 @@
       <bibl>Ety/400</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen>
     </gramGrp>
@@ -29403,7 +29403,7 @@
       <def><bibl>Ety/400</bibl> <index level1="son" lang="en"/>son</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen>
     </gramGrp>
@@ -29521,7 +29521,7 @@
       <pron>"ir</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>conj.</pos>
     </gramGrp>
@@ -29532,7 +29532,7 @@
       <def><index level1="when" lang="en"/>(?) when</def>
     </trans>
   </sense>
-    <sense n="2">
+    <sense>
     <gramGrp>
       <pos>art.</pos>
     </gramGrp>
@@ -32750,7 +32750,7 @@
       <orth>lhinn</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -32761,7 +32761,7 @@
       <def><index level1="air" lang="en"/>air, <index level1="tune" lang="en"/>tune</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -32867,7 +32867,7 @@
       <pron>l"innOd</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -32878,7 +32878,7 @@
       <def>(?) a single <index level1="verse" lang="en"/>verse used as a <index level1="maxim" lang="en"/>maxim</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -33308,7 +33308,7 @@
       <orth>lhonn</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -33320,7 +33320,7 @@
       <def>narrow <index level1="path" lang="en"/>path or <index level1="strait" lang="en"/>strait</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -33381,7 +33381,7 @@
       <bibl>VT/45:29</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -33392,7 +33392,7 @@
       <def><bibl>VT/45:29</bibl> quiet <index level1="water" lang="en"/>water</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -34135,7 +34135,7 @@
       <bibl>Ety/386</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -34146,7 +34146,7 @@
       <def><bibl>Ety/386</bibl> <index level1="stain" lang="en"/>stain</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -34857,7 +34857,7 @@
       <pron>m"AnAD</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -34870,7 +34870,7 @@
            <index level1="fortune" lang="en"/>fortune</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -35502,7 +35502,7 @@
       <pron>m"Enni.AT</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
@@ -35514,7 +35514,7 @@
       <def>many points</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
@@ -36076,7 +36076,7 @@
       <bibl>Ety/373</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
@@ -36088,7 +36088,7 @@
       <def><bibl>Ety/373, S/434</bibl> <index level1="tower" lang="en"/>tower</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
@@ -36112,7 +36112,7 @@
       <pron>m"indOn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -36125,7 +36125,7 @@
            especially a hill with a watch tower</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37147,7 +37147,7 @@
       <pron>nA</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>prep.</pos>
     </gramGrp>
@@ -37158,7 +37158,7 @@
       <def><index level1="with" lang="en"/>with, <index level1="by" lang="en"/>by</def> <usg type="hint">also used as a genitive sign</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>prep.</pos>
     </gramGrp>
@@ -37491,7 +37491,7 @@
       <pron>n"AET</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37502,7 +37502,7 @@
       <def><index level1="biting" lang="en"/>biting</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37754,7 +37754,7 @@
       <orth>nann</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37767,7 +37767,7 @@
         with many streams</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -38104,7 +38104,7 @@
       <pron>n"Ass</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -38115,7 +38115,7 @@
       <def><index level1="point" lang="en"/>point, (sharp) end</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -38276,7 +38276,7 @@
       <pron>n"OEg</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -38287,7 +38287,7 @@
       <def><index level1="stunted" lang="en"/>stunted, dwarf</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -38383,7 +38383,7 @@
       <pron>n"Aur</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -38395,7 +38395,7 @@
       <def><index level1="flame" lang="en"/>flame</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -38774,7 +38774,7 @@
       <pron>n"EjTAn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -39103,7 +39103,7 @@
       <pron>n"i:n</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -39115,7 +39115,7 @@
       <def><index level1="water" lang="en"/>water</def> <usg type="hint">used of a <index level1="lake" lang="en"/>lake, <index level1="pool" lang="en"/>pool or lesser <index level1="river" lang="en"/>river</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -39328,7 +39328,7 @@
       <pron>n"ET</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -39342,7 +39342,7 @@
       <def><index level1="sister" lang="en"/>sister</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -39372,7 +39372,7 @@
       <pron>n"ETig</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -39384,7 +39384,7 @@
       <def>“litte <index level1="sister" lang="en"/>sister”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -39423,7 +39423,7 @@
       <pron>n"ibin</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -39434,7 +39434,7 @@
       <def><index level1="small" lang="en"/>small, <index level1="petty" lang="en"/>petty</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -39527,7 +39527,7 @@
       <pron>n"i:D</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -39538,7 +39538,7 @@
       <def><bibl>PE/19:91</bibl> <index level1="juice" lang="en"/>juice</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -40004,7 +40004,7 @@
       <pron>n"i:nuj</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -40015,7 +40015,7 @@
       <def><index level1="watery" lang="en"/>watery</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -40496,7 +40496,7 @@
       <pron>n"yrn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -40513,7 +40513,7 @@
            <index level1="contorted" lang="en"/>contorted</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -40671,7 +40671,7 @@
       <pron>n"O:ruj</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -40682,7 +40682,7 @@
       <def><index level1="sunny" lang="en"/>sunny, <index level1="fiery" lang="en"/>fiery</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -41350,7 +41350,7 @@
       <bibl>PE/17:149</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -41364,7 +41364,7 @@
            <bibl>PE/17:170</bibl> <index level1="evil" lang="en"/>evil, <index level1="wrong" lang="en"/>wrong</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n. and adj.</pos>
     </gramGrp>
@@ -41839,7 +41839,7 @@
       <orth>orchel</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -41850,7 +41850,7 @@
       <def><index level1="superior" lang="en"/>superior, <index level1="lofty" lang="en"/>lofty, <index level1="eminent" lang="en"/>eminent</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -42528,7 +42528,7 @@
       <pron>"Ost</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -42540,7 +42540,7 @@
       <def><index level1="city" lang="en"/>city, <index level1="town" lang="en"/>town with wall round</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -44749,7 +44749,7 @@
       <pron>prEst"AnnEn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
@@ -44761,7 +44761,7 @@
       <def><bibl>Ety/380</bibl> <index level1="affected" lang="en"/>affected</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
@@ -45379,7 +45379,7 @@
       <pron>r"Ant</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -45390,7 +45390,7 @@
       <def><index level1="lode" lang="en"/>lode, <index level1="vein" lang="en"/>vein</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -46036,7 +46036,7 @@
       <def><bibl>PE/17:182</bibl> to remain</def> <usg type="hint">in same place</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -46072,7 +46072,7 @@
       <bibl>Ety/382</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -46083,7 +46083,7 @@
       <def><bibl>Ety/382</bibl> to <index level1="fly" lang="en"/>fly, <index level1="sail" lang="en"/>sail</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -46836,7 +46836,7 @@
       <bibl>Ety/389</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -46847,7 +46847,7 @@
       <def><bibl>Ety/383</bibl> <index level1="crowned" lang="en"/>crowned</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -47070,7 +47070,7 @@
       <bibl>Ety/384</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -47081,7 +47081,7 @@
       <def><bibl>Ety/384</bibl> to <index level1="cut" lang="en"/>cut</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -48436,7 +48436,7 @@
       <pron>s"Arn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -48447,7 +48447,7 @@
       <def><index level1="stone" lang="en"/>stone</def> <usg type="hint">as a material</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -48677,7 +48677,7 @@
       <pron>s"El,</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -48689,7 +48689,7 @@
       <def><bibl>Ety/385</bibl> <index level1="daughter" lang="en"/>daughter</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -50398,7 +50398,7 @@
       <orth>dalath</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -50409,7 +50409,7 @@
       <def>flat <index level1="surface" lang="en"/>surface, <index level1="plane" lang="en"/>plane</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
   <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -50677,7 +50677,7 @@
       <pron>t"ArAg</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -50689,7 +50689,7 @@
       <def><index level1="horn" lang="en"/>horn</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -51111,7 +51111,7 @@
       <pron>t"AwAr</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -51123,7 +51123,7 @@
       <def>wood</def> <usg type="hint">as a material</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -52697,7 +52697,7 @@
       <pron>T"Onn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -52709,7 +52709,7 @@
       </def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -53476,7 +53476,7 @@
       <orth>tindu</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -53491,7 +53491,7 @@
            early <index level1="night" lang="en"/>night</def> <usg type="hint">without Moon</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -54245,7 +54245,7 @@
       <bibl>VT/48:6,16-17, NM/184</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -54256,7 +54256,7 @@
       <def>(?) “litte prominent one”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -55012,7 +55012,7 @@
       <pron>t"uj.O</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -55023,7 +55023,7 @@
       <def><bibl>Ety/394-395</bibl> to <index level1="sprout" lang="en"/>sprout, <index level1="spring" lang="en"/>spring</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -55547,7 +55547,7 @@
       <pron>"ujlOs</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -55558,7 +55558,7 @@
       <def>always <index level1="white" lang="en"/>white, ever white as snow</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -55921,7 +55921,7 @@
       <pron>"urug</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -55932,7 +55932,7 @@
       <def><bibl>WJ/390</bibl> <index level1="orc" lang="en"/>Orc</def> <usg type="hint">rarely used</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -55955,7 +55955,7 @@
       <pron>"uruj</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -55966,7 +55966,7 @@
       <def><index level1="hot" lang="en"/>hot</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
