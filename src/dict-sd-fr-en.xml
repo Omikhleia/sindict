@@ -9674,6 +9674,12 @@
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
+  <note type="comment" lang="fr">
+    Sous la graphie <hi>i Cirdh Daeron</hi> « les Runes de Daeron » dans <bibl>NM/164</bibl>. 
+  </note>
+  <note type="comment" lang="en">
+    Under the spelling <hi>i Cirdh Daeron</hi> “the Runes of Daeron” in <bibl>NM/164</bibl>. 
+  </note>
 </entry>
 
 <entry id="certhas">
@@ -11453,7 +11459,7 @@
   <re>
     <form>
       <orth>dhaer</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:14, WJ/187, WJ/335</bibl>
+      <bibl>VT/42:14, NM/385, WJ/187, WJ/335</bibl>
     </form>
     <gramGrp>
       <itype type="sm">soft mut.</itype>
@@ -12486,7 +12492,7 @@
      Ce mot est donné sans indication de langue dans les <hi>Etymologies</hi>,
      mais il pourrait être noldorin, tant par le contexte (l’élément <hi>dimb</hi> est
      indiqué comme étant ilkorin) que par raisonnement phonologique
-     (une racine *<hi>dimba</hi> donnerait <hi>dem</hi> en noldorin). Paul Stark (Eldamo)
+     (une racine *<hi>dimba</hi> donnerait <hi>dem</hi> en noldorin). Paul Strack (Eldamo)
      note cependant que ce mot peut aussi être ilkorin, les mêmes changements phologiques
      clefs aboutissant aussi à <hi>dem</hi> dans cette langue.
    </note>
@@ -12494,7 +12500,7 @@
     There is no language indication in the <hi>Etymologies</hi>, but it could be Noldorin
     from context (the element <hi>dimb</hi> “sad” is marked as Ilkorin)
     and phonological evidence (a primitive *<hi>dimba</hi> would develop into
-    Noldorin <hi>dem</hi>). Paul Stark (Eldamo) however notes
+    Noldorin <hi>dem</hi>). Paul Strack (Eldamo) however notes
     that the word could rather be Ilkorin, as the same key phonological changes would also yield
     <hi>dem</hi> in that language.
   </note>
@@ -13877,7 +13883,7 @@
   <form type="regular">
     <form>
       <orth>drúwaith</orth><usg type="lang" norm="S."/>
-      <bibl>UT/385</bibl>
+      <bibl>UT/385, VT/41:14, NM/385-386</bibl>
       <pron>dr"u:wAjT</pron>
     </form>
   </form>
@@ -13887,12 +13893,13 @@
     </gramGrp>
     <xr type="of"><ptr target="drû"/></xr>
     <trans lang="fr">
-      <def>les terres sauvages des hommes-Drû (q.v.)</def>
+      <def>les terres sauvages du peuple-Drû</def>
     </trans>
     <trans lang="en">
-      <def><bibl>UT/385</bibl> the wilderness of the Drû-men (q.v.)</def>
+      <def><bibl>UT/385</bibl> the wilderness of the Drû-folk</def>
     </trans>
   </sense>
+  <note type="source,deduced"><mentioned>Drúwaith Iaur</mentioned> “Old Púkel-Land” <bibl>VT/42:14, NM/385-386</bibl></note>
   <etym>drû+gwaith</etym>
 </entry>
 
@@ -13900,6 +13907,7 @@
   <form type="regular">
     <form>
       <orth>dû</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/354, VT/45:9, S/430, SD/302, PE/17:37, PE/17:87, NM/283</bibl>
       <pron>d"u:</pron>
     </form>
   </form>
@@ -13909,13 +13917,17 @@
     </gramGrp>
     <usg type="cat" norm="14.46"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="tombée"/>tombée de la <index lang="fr" level1="nuit"/>nuit, heure tardive du <index lang="fr" level1="soir"/>soir, <index lang="fr" level1="nuit"/>nuit, <index lang="fr" level1="obscurité"/>obscurité</def>
+      <def>nuit, tombée de la nuit, heure tardive du soir,
+          obscurité, pâle, sombre</def>
     </trans>
     <trans lang="en">
-      <def><index level1="nightfall" lang="en"/>nightfall, late <index level1="evening" lang="en"/>evening, <index level1="night" lang="en"/>night, <index level1="dimness" lang="en"/>dimness</def>
+      <def><bibl>Ety/354, S/430, SD/302</bibl> night,
+           <bibl>Ety/354, VT/45:9</bibl> nightfall, late evening,
+           <bibl>S/430, PE/17:37</bibl> dimness,
+           <bibl>RC/269</bibl> dim,
+           <bibl>RC/269, NM/283</bibl> dark</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/354, S/430, VT/45:9, SD/302</bibl></note>
   <re corresp="dúath">
     <form>
       <orth>dúath</orth><usg type="lang" norm="S., N."/>
@@ -13930,10 +13942,20 @@
   <form type="regular">
     <form>
       <orth>dúath</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/354, S/430, PE/17:87</bibl>
       <pron>d"u:AT</pron>
     </form>
     <form>
-      <orth>dúwath</orth><usg type="lang" norm="N."/>
+      <orth>duath</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:152</bibl>
+    </form>
+    <form>
+      <orth>dúwath</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/354, NM/283</bibl>
+    </form>
+    <form>
+      <orth>duwath</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:152</bibl>
     </form>
   </form>
   <sense>
@@ -13943,24 +13965,14 @@
     <xr type="of"><ptr target="dû"/></xr>
     <usg type="cat" norm="1.62"/> <usg type="cat" norm="1.622"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="pénombre"/>pénombre, <index lang="fr" level1="ombre"/>ombre</def>
+      <def>pénombre, ombre ténébreuse et noire, ombre nocturne</def>
     </trans>
     <trans lang="en">
-      <def><index level1="darkness" lang="en"/>darkness, <index level1="shadow" lang="en"/>shadow</def>
+      <def><bibl>Ety/354</bibl> night-shade,
+          <bibl>PE:17/87</bibl> dark, black shadow,
+          <bibl>PE:17:152</bibl> night shadow</def>
     </trans>
   </sense>
-  <sense>
-    <gramGrp>
-      <pos>n.</pos> <number>coll.</number>
-    </gramGrp>
-    <trans lang="fr">
-      <def>ombre <index lang="fr" level1="nocturne"/>nocturne</def>
-    </trans>
-    <trans lang="en">
-      <def>nightshade</def>
-    </trans>
-  </sense>
-  <note type="source"><bibl>Ety/354, S/430</bibl></note>
   <etym>Either the collective plural of <hi>dû</hi>, or a compound <hi>dû+gwath</hi> “night shade” (hence <hi>dúwath</hi>)</etym>
 </entry>
 
@@ -16844,7 +16856,7 @@
       <def><index level1="prince" lang="en"/>prince</def>
     </trans>
   </sense>
-  <note type="source"><bibl>LotR/VI:IV, Letters/308, UT/428, RGEO/75</bibl></note>
+  <note type="source"><bibl>LotR/VI:IV, Letters/308, UT/428, RGEO/75, VT/42:12, NM/386</bibl></note>
 </entry>
 
 <entry id="ero">
@@ -17488,7 +17500,7 @@
         ou des textures qui voilaient mais ne dissimulaient qu’à moitié une forme</usg>
     </trans>
     <trans lang="en">
-      <def><bibl>PE/17:174, NM/241-242</bibl>dim, dimmed</def> <usg type="hint">applied to dimmed or
+      <def><bibl>PE/17:174, NM/241-242</bibl> dim, dimmed</def> <usg type="hint">applied to dimmed or
         fading lights or to things seen in them</usg>,
       <def>filmy, fine-woven, etc.</def> <usg type="hint">applied to things that only partially
         screened light, such as a canopy of young still half-transparent leaves, or textures that
@@ -17568,6 +17580,7 @@
   <form type="regular">
     <form>
       <orth>falas</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/381, S/421, RC/18, VT/42:15, NM/386, PE/17:62, PE/17:73,97</bibl>
       <pron>f"AlAs</pron>
     </form>
   </form>
@@ -17580,6 +17593,7 @@
     </form>
     <form>
       <orth>feles</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/381</bibl>
     </form>
   </form>
   <sense>
@@ -17588,10 +17602,19 @@
     </gramGrp>
     <usg type="dom">Geog.</usg><usg type="cat" norm="1.27"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="plage"/>plage, <index lang="fr" level1="rivage"/>rivage battu par les eaux, ligne de ressac</def>
+      <def>plage, rivage, ligne de ressac, rivage battu par les vagues,
+           grève, plage ou rivage</def> <usg type="hint">en particulier, exposé aux
+           vagues déferlantes et aux brisants</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="beach" lang="en"/>beach, wave-beaten <index level1="shore" lang="en"/>shore, line of surf</def>
+      <def><bibl>Ety/381</bibl> beach,
+           <bibl>Ety/381, S/431</bibl> shore</def>,
+           <bibl>S/431</bibl> line of surf,
+           <bibl>RC/18</bibl> surf, wave-beaten shore,
+           <bibl>PE/17:62</bibl> surfline, sea-shore,
+           <bibl>PE/17:73,97</bibl> beach, strand,
+           <bibl>VT/42:15, NM/386</bibl> beach, shore <usg type="hint">especially one exposed to
+             great waves and breakers</usg>
     </trans>
   </sense>
   <sense>
@@ -17601,13 +17624,12 @@
     <usg type="dom">Geog.</usg>
     <usg type="gram">as a proper noun</usg>
     <trans lang="fr">
-      <def>la côte occidentale du Beleriand</def>
+      <def>Côte Occidentale</def> <usg type="hint">du Beleriand</usg>
     </trans>
     <trans lang="en">
-      <def>the western coast of Beleriand</def>
+      <def><bibl>Ety/381, S/421, VT/42:15, NM/386</bibl> Western Shore, Coast</def> <usg type="hint">of Beleriand</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/381, S/431, RC/18</bibl></note>
   <re corresp="falathrim">
     <form>
       <orth>falathrim</orth><usg type="lang" norm="S."/>
@@ -17622,6 +17644,7 @@
   <form type="regular">
     <form>
       <orth>falathren</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/381, PM/32, PM/55</bibl>
       <pron>fAl"ATrEn</pron>
     </form>
   </form>
@@ -17633,7 +17656,7 @@
       <def>du <index lang="fr" level1="rivage"/>rivage</def>
     </trans>
     <trans lang="en">
-      <def>of the <index level1="shore" lang="en"/>shore</def>
+      <def><bibl>Ety/381</bibl> of the <index level1="shore" lang="en"/>shore</def>
     </trans>
   </sense>
   <sense>
@@ -17645,10 +17668,9 @@
       <def><index lang="fr" level1="langage"/>Langue de la Côte</def> <usg type="hint">un des noms de la langue commune</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="language" lang="en"/>Shore-language</def> <usg type="hint">one of the names for Common Speech</usg>
+      <def><bibl>PM/32, PM/55</bibl> <index level1="language" lang="en"/>Shore-language</def> <usg type="hint">one of the names for Common Speech</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/381, PM/32, PM/55</bibl></note>
   <etym>falas+-ren</etym>
   <xr type="analogy"><ptr target="annúnaid"/></xr>
 </entry>
@@ -17785,7 +17807,7 @@
       <def><bibl>RGEO/74</bibl> <index level1="veil" lang="en"/>veil</def>,
       <def><bibl>PE/17:173-174, NM/241,243</bibl> veil</def> <usg type="hint">frequently used of clouds in the sky;
         seldom applied to any but things
-        of soft textures, such as woven veils, mantles, or curtains ; and the like, of white or pale colours</usg>
+        of soft textures, such as woven veils, mantles, or curtains; and the like, of white or pale colours</usg>
     </trans>
   </sense>
   <sense>
@@ -18214,7 +18236,7 @@
     en sindarin ultérieur. Comme l’ont noté d’autres chercheurs (Salo, Strack), ce mot dérive vraisemblablement de <hi>*pʰorja</hi>,
     (d’où la forme archaïque <hi>fœir</hi>), ce qui conduirait probablement à <ptr target= "fuir"/>.
   </note>
-  <note type="comment" lang="fr">
+  <note type="comment" lang="en">
     In an earlier version of this dictionary, we suggested <hi>fair</hi> as normalized form of this Noldorin word in
     later Sindarin. As noted by others scholars (Salo, Strack), this word conceivably derives from <hi>*pʰorja</hi>,
     (hence the archaic form <hi>fœir</hi>), which would likely lead to <ptr target="fuir"/>.
@@ -19203,6 +19225,7 @@
   <form type="regular">
     <form>
       <orth>fuin</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/354, Ety/382, S/431, RC/727, PE/17:120, VT/41:8, NM/279, NM/283</bibl>
       <pron>f"ujn</pron>
     </form>
   </form>
@@ -19212,13 +19235,18 @@
     </gramGrp>
     <usg type="cat" norm="1.62"/> <usg type="cat" norm="14.42"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="nuit"/>nuit, cœur de la nuit, <index lang="fr" level1="ténèbres"/>ténèbres, <index lang="fr" level1="obscurité"/>obscurité</def>
+      <def><index lang="fr" level1="nuit"/>nuit, cœur de la nuit,
+        <index lang="fr" level1="ténèbres"/>ténèbres, <index lang="fr" level1="obscurité"/>obscurité
+          période de la nuit, entre les crépuscules mais incluant la partie la plus
+          sombre de ceux-ci</def>
     </trans>
     <trans lang="en">
-      <def><index level1="night" lang="en"/>night, dead of night, <index level1="gloom" lang="en"/>gloom, <index level1="darkness" lang="en"/>darkness</def>
+      <def><bibl>Ety/354, Ety/382, RC/727, VT/41:8, NM/279</bibl> night,
+           <bibl>Ety/354</bibl> dead of night,
+           <bibl>S/431</bibl> gloom, darkness,
+           <bibl>NM/283</bibl> night, between the twilights but including the darker part of these</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/354, Ety/382, S/431</bibl></note>
 </entry>
 
 <entry id="fuir">
@@ -19731,7 +19759,7 @@
   </re>
 </entry>
 
-<entry id="galad">
+<entry id="galad.1" n="1">
   <form type="regular">
     <form>
       <orth>galad</orth><usg type="lang" norm="S."/>
@@ -19753,6 +19781,27 @@
   <note type="source"><bibl>VT/45:13, PM/347, Letters/425</bibl></note>
 </entry>
 
+<entry id="galad.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>galad</orth><usg type="lang" norm="S."/>
+      <bibl>NM/346</bibl>
+      <pron>g"AlAd</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>félicité</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/346</bibl> bliss</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="galadh">
   <form type="regular">
     <form>
@@ -19772,7 +19821,7 @@
       <def><index level1="tree" lang="en"/>tree</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/357, S/427, LotR/E, LB/354, RGEO/73, Letters/426, SD/302, PE/22:47</bibl></note>
+  <note type="source"><bibl>Ety/357, S/427, LotR/E, LB/354, RGEO/73, Letters/426, SD/302, PE/22:47, NM/346</bibl></note>
   <re corresp="galadhad">
     <form type="deduced">
       <orth>galadhad</orth><usg type="lang" norm="S."/>
@@ -21530,11 +21579,14 @@
     </gramGrp>
     <trans lang="fr">
       <def>Dispositif eldarin pour échanger des signaux à distance</def> <usg type="hint">comme un héliographe,
-         bien que aussi utilisable par une lune claire</usg>
+        bien qu’aussi utilisable par une lune claire ; évidemment petit, pouvant être glissé dans une poche, 
+        et le flash qu’il produisait n’aurait pas été visible pour un observateur humain, en tout cas pas à distance</usg>
     </trans>
     <trans lang="en">
       <def><bibl>NM/354</bibl> Eldarin device for signaling from afar</def> <usg type="hint">like a heliograph,
-        though […] also usable in a clear moon</usg>,
+        though […] also usable in a clear moon; evidently small, able to be slipped into a slender pouch
+        or pocket, and the flash that it gave would not have been visible by human eyes, at any rate not
+        at a distance</usg>,
         <def>lit. “flashing glass/crystal”</def>
     </trans>
   </sense>
@@ -24342,7 +24394,7 @@
       <def><index level1="stain" lang="en"/>stain</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/397, VT/42:9, S/432</bibl></note>
+  <note type="source"><bibl>Ety/397, VT/42:9, S/432, NM/381, PE/17:41</bibl></note>
   <re corresp="gwethion">
     <form type="deduced">
       <orth>gwethion</orth><usg type="lang" norm="N."/>
@@ -27773,7 +27825,8 @@
     des formes diminutives en sindarin.
   </note>
   <note type="comment" lang="en">
-    Given as <hi>honig</hi> in <bibl>VT/47:14</bibl>, but see <bibl>VT/48:17</bibl> n. 13 for discussion.
+    The initial manuscript in <bibl>VT/47:14</bibl> gave <hi>honig</hi>, but see especially <bibl>VT/48:17</bibl>
+    n. 13 for a discussion on diminutive forms in Sindarin.
   </note>
   <xr type="analogy"><ptr target="toleg"/></xr>
 </entry>
@@ -31216,7 +31269,7 @@
       <def><index level1="leaf" lang="en"/>leaf</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/367, Letters/282, TC/169</bibl></note>
+  <note type="source"><bibl>Ety/367, Letters/282, TC/169, RC/760, PE/17:49,62, PE/22:166, VT/42:19, NM/391</bibl></note>
 </entry>
 
 <entry id="lasta-">
@@ -32195,6 +32248,43 @@
     </trans>
   </sense>
   <note type="source"><bibl>Ety/368, PE/17:62</bibl></note>
+</entry>
+
+<entry id="lhim">
+  <form type="regular">
+    <form>
+      <orth>lhim</orth><usg type="lang" norm="S."/>
+      <bibl>NM/284</bibl>
+      <pron>K"im</pron>
+    </form>
+    <form type="deleted">
+      <orth>limb</orth><usg type="lang" norm="S."/>
+      <bibl>NM/285</bibl>
+    </form>
+      <form type="deleted">
+      <orth>limm</orth><usg type="lang" norm="S."/>
+      <bibl>NM/285</bibl>
+    </form>
+        <form type="deleted">
+      <orth>lim</orth><usg type="lang" norm="S."/>
+      <bibl>NM/285</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>glissant, lisse</def>
+        <usg type="hint">à propos d’une surface brillante, du mouvement de choses rapides ou fluides ;
+          par ex. de poissons, serpents, bateaux légers ; d’un tirant d’eau ou d’un écoulement de liquide</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/284-285</bibl> sliding, gliding, slippery, sleek</def>
+        <usg type="hint">of shiny or gleaming surface, quick movement of swiftly moving or flowing things;
+          e.g. of fish, snake, light boats; shallow draught, waters or flowing liquid</usg>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="lhind">
@@ -34732,7 +34822,7 @@
       <def>golden <index level1="tree" lang="en"/>tree of Lothlórien</def>
     </trans>
   </sense>
-  <note type="source"><bibl>S/435, LotR/II:IV, VT/42:27, Tengwestie/20031207</bibl></note>
+  <note type="source"><bibl>S/435, LotR/II:IV, VT/42:27, NM/362, Tengwestie/20031207</bibl></note>
   <etym>malt+orn “tree of gold”</etym>
 </entry>
 
@@ -36772,22 +36862,27 @@
   <form type="regular">
     <form>
       <orth>môr</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/373, Letters/382, NM/279</bibl>
       <pron>m"O:r</pron>
     </form>
   </form>
   <sense>
     <gramGrp>
-      <pos>n.</pos>
+      <pos>n. and adj.</pos>
     </gramGrp>
+    <usg type="reg">Arch.</usg>
     <usg type="cat" norm="1.62"/> <usg type="cat" norm="14.42"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="obscurité"/>obscurité, <index lang="fr" level1="noirceur"/>noirceur, <index lang="fr" level1="nuit"/>nuit</def>
+      <def><index lang="fr" level1="obscurité"/>obscurité, <index lang="fr" level1="noirceur"/>noirceur, 
+        <index lang="fr" level1="nuit"/>noir, milieu de la nuit</def>
     </trans>
     <trans lang="en">
-      <def><index level1="darkness" lang="en"/>darkness, <index level1="dark" lang="en"/>dark, <index level1="night" lang="en"/>night</def>
+      <def><bibl>Letters/382</bibl> <index level1="darkness" lang="en"/>darkness,
+             <index level1="dark" lang="en"/>dark,
+           <bibl>Ety/373</bibl> black,
+           <bibl>NM/279</bibl> middle night</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/373, Letters/382</bibl></note>
 </entry>
 
 <entry id="morben">
@@ -37780,7 +37875,7 @@
       <def><index level1="valley" lang="en"/>valley</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/374, S/435, Letters/308, VT/45:36</bibl></note>
+  <note type="source"><bibl>Ety/374, S/435, Letters/308, VT/45:36, NM/351</bibl></note>
 </entry>
 
 <entry id="nana">
@@ -38541,7 +38636,7 @@
   <re corresp="nobad">
     <form>
       <orth>nobad</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:5,16</bibl>
+      <bibl>VT/48:5,16,20, NM/183</bibl>
     </form>
     <gramGrp>
       <pos>n.</pos> <number>dual</number>
@@ -39354,7 +39449,7 @@
       <def><index level1="girl" lang="en"/>girl</def> <usg type="hint">in her teens, approaching the adult</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>VT/47:14-16,33, VT/48:6</bibl></note>
+  <note type="source"><bibl>VT/47:14-16,33, VT/48:6, NM/184</bibl></note>
   <re corresp="nethig">
     <form>
       <orth>nethig</orth><usg type="lang" norm="S."/>
@@ -39396,7 +39491,7 @@
       <def>ring <index level1="finger" lang="en"/>finger</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>VT/47:14, VT/47:38-39, VT/48:6,17</bibl></note>
+  <note type="source"><bibl>VT/47:14, VT/47:38-39, VT/48:6,17, NM/181, NM/184</bibl></note>
   <note type="comment" lang="fr">
     Le manuscrit initial dans <bibl>VT/47:14-15</bibl> donnait <hi>netheg</hi>,
     mais se référer tout particulièrement à <bibl>VT/48:17, NM/181</bibl> n. 13 pour une discussion
@@ -39634,9 +39729,13 @@
   </gramGrp>
     <trans lang="fr">
       <def>fantôme, apparition n’ayant pas d’existence dans le monde <hi>physique</hi>, lit. « un semblant »</def>
+        <usg type="hint">existant seulement comme une conception, un souvenir ou une image dans un esprit,
+          et plus ou moins précisément transféré directement à un autre</usg>
     </trans>
     <trans lang="en">
       <def><bibl>NM/238</bibl> phantom, appearance having no existence in the <hi>physical</hi> world, lit. ‘a seeming’</def>
+        <usg type="hint">existing only as a conception, memory or picture in one mind, and more or less accurately
+          transferred direct to another</usg>
     </trans>
   </sense>
   <xr type="analogy"><ptr target="nivol"/></xr>
@@ -40188,9 +40287,13 @@
   </gramGrp>
     <trans lang="fr">
       <def>fantôme, apparition n’ayant pas d’existence dans le monde <hi>physique</hi>, lit. « un semblant »</def>
+        <usg type="hint">existant seulement comme une conception, un souvenir ou une image dans un esprit,
+          et plus ou moins précisément transféré directement à un autre</usg>
     </trans>
     <trans lang="en">
       <def><bibl>NM/238</bibl> phantom, appearance having no existence in the <hi>physical</hi> world, lit. ‘a seeming’</def>
+        <usg type="hint">existing only as a conception, memory or picture in one mind, and more or less accurately
+          transferred direct to another</usg>
     </trans>
   </sense>
   <xr type="analogy"><ptr target="nîf.2"/></xr>
@@ -40222,7 +40325,7 @@
   <form type="regular">
     <form>
       <orth>nobad</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:5,16, NM/183</bibl>
+      <bibl>VT/48:5,16,20, NM/183</bibl>
       <pron>n"ObAd</pron>
     </form>
   </form>
@@ -42076,12 +42179,16 @@
     <usg type="dom">Bot.</usg><usg type="cat" norm="1.42"/>
     <trans lang="fr">
       <def>(n’importe quel grand) <index lang="fr" level1="arbre"/>arbre</def>
+        <usg type="hint"><bibl>NM/349</bibl> généralement appliqué aux arbres les plus hauts,
+         les plus droits et les plus élancés</usg>
     </trans>
     <trans lang="en">
       <def>(any large) <index level1="tree" lang="en"/>tree</def>
+        <usg type="hint"><bibl>NM/349</bibl> usually applied to the taller,
+          straighter and more slender trees</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/379, S/435, Letters/426, SD/302</bibl></note>
+  <note type="source"><bibl>Ety/379, S/435, Letters/426, SD/302, NM/349</bibl></note>
 </entry>
 
 <entry id="orod">
@@ -42525,6 +42632,7 @@
   <form type="regular">
     <form>
       <orth>ost</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/370, Ety/379, S/435, WJ/414, RC/232, RC/774, NM/228, PE/17:32</bibl>
       <pron>"Ost</pron>
     </form>
   </form>
@@ -42534,10 +42642,18 @@
     </gramGrp>
     <usg type="cat" norm="19.15"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="cité"/>cité, <index lang="fr" level1="ville"/>ville entourée de murs</def>
+      <def><index lang="fr" level1="cité"/>cité,
+           <index lang="fr" level1="ville"/>ville entourée d’un mur,
+           ville fortifiée,
+           « enclos »</def> <usg type="hint">un lieu ou une habitation
+              entouré d’une clôture ou d’un mur</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="city" lang="en"/>city, <index level1="town" lang="en"/>town with wall round</def>
+      <def><bibl>Ety/370, Ety/379</bibl> city,
+           <bibl>Ety/379</bibl> town with wall round,
+           <bibl>RC/774</bibl> fortified town,
+           <bibl>PE/17:32</bibl> “enclosure”</def>
+              <usg type="hint">a space or dwelling surrounded by a fence or wall</usg>
     </trans>
   </sense>
   <sense>
@@ -42546,13 +42662,20 @@
     </gramGrp>
     <usg type="cat" norm="20.35"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="citadelle"/>citadelle, <index lang="fr" level1="forteresse"/>forteresse ou fortin, construit ou renforcé avec science et technique</def>
+      <def>citadelle, fortin, forteresse, place forte,
+           fortification, défense</def>
+        <usg type="hint">pas nécessairement très grande ou permanente, par ex. un camp
+          défensif avec des murs de terre et un fossé</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="citadel" lang="en"/>citadel, <index level1="fortress" lang="en"/>fortress or <index level1="stronghold" lang="en"/>stronghold, made or strenghtened by art</def>
+      <def><bibl>RC/232</bibl> citadel, fort,
+           <bibl>S/435, WJ/414</bibl> fortress,
+           <bibl>WJ/414</bibl> stronghold,
+           <bibl>NM/228</bibl> fortification, defence</def>
+              <usg type="hint">not necessarily very large or permanent, e.g.
+                a defensive camp with walls of earth and a ditch</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/379, S/435, WJ/414, RC/232</bibl></note>
 </entry>
 
 <entry id="othrad">
@@ -43536,13 +43659,17 @@
     </gramGrp>
     <usg type="dom">Biol.</usg><usg type="cat" norm="4.33"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="poing"/>poing</def> <usg type="hint">souvent employé pour désigner la <index lang="fr" level1="main"/>main, en référence à une main fermement serrée pour manier un outil plutôt qu’en référence au poing fermé pour boxer</usg>
+      <def><index lang="fr" level1="poing"/>poing</def> <usg type="hint">souvent employé pour
+        désigner la <index lang="fr" level1="main"/>main, en référence à une main fermement
+        serrée pour manier un outil plutôt qu’en référence au poing fermé pour boxer</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="fist" lang="en"/>fist</def> <usg type="hint">often used to mean “<index level1="hand" lang="en"/>hand”, its chief use was in reference of the tighly closed hand, as in using an implement or a craft-tool, rather than to the fist used in punching</usg>
+      <def><index level1="fist" lang="en"/>fist</def> <usg type="hint">often used to mean
+        “<index level1="hand" lang="en"/>hand”, its chief use was in reference of the tighly closed hand,
+        as in using an implement or a craft-tool, rather than to the fist used in punching</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/366, S/429, PM/179, PM/318, VT/47:8</bibl></note>
+  <note type="source"><bibl>Ety/366, S/429, PM/179, PM/318, VT/47:8, NM/178</bibl></note>
 </entry>
 
 <entry id="paw">
@@ -49742,8 +49869,16 @@
   <form type="regular">
     <form>
       <orth>sûl</orth><usg type="lang" norm="S."/>
-      <bibl>S/437, PE/17:124</bibl>
+      <bibl>S/437</bibl>
       <pron>s"u:l</pron>
+    </form>
+    <form>
+      <orth>sūl</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:15, PE/17:124, NM/236</bibl>
+    </form>
+    <form>
+      <orth>súl</orth><usg type="lang" norm="S."/>
+      <bibl>NM/237</bibl>
     </form>
   </form>
   <sense>
@@ -49755,7 +49890,7 @@
       <def><index lang="fr" level1="vent"/>vent</def>
     </trans>
     <trans lang="en">
-      <def><bibl>S/437</bibl> <index level1="wind" lang="en"/>wind</def>
+      <def><bibl>S/437, PE/17:15, NM/236-237</bibl> <index level1="wind" lang="en"/>wind</def>
     </trans>
   </sense>
   <etym>Q súlë</etym>
@@ -53093,7 +53228,7 @@
   <form type="regular">
     <form>
       <orth>thû</orth><usg type="lang" norm="S."/>
-      <bibl>PE/17:393</bibl>
+      <bibl>PE/17:183</bibl>
       <pron>T"u:</pron>
     </form>
   </form>
@@ -53105,9 +53240,39 @@
       <def>horrible obscurité, brume noire</def>
     </trans>
     <trans lang="en">
-      <def><bibl>PE/17:393</bibl> horrible darkness, black mist</def>
+      <def><bibl>PE/17:183</bibl> horrible darkness, black mist</def>
     </trans>
   </sense>
+</entry>
+
+ <entry id="thû.3" n="3">
+  <form type="regular">
+    <form>
+      <orth>thû</orth><usg type="lang" norm="S."/>
+      <bibl>NM/236-237</bibl>
+      <pron>T"u:</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def> mouvement de l’esprit</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/236-236</bibl> movement of spirit</def>
+    </trans>
+  </sense>
+  <note type="comment" lang="en">
+    De « souffler », d’où « esprit » : « dans ce sens particulier : l’émission de puissance (de volonté
+    ou de désir) d’un esprit » (<bibl>NM/236</bibl>, voir aussi <bibl>PE/17:124</bibl>).
+  </note>
+  <note type="comment" lang="en">
+    From ‘blowing forth’, hence ‘spirit’:
+    “in this special sense: the emission of power (of will or desire) from a spirit”
+    (<bibl>NM/236</bibl>, see also <bibl>PE/17:124</bibl>).
+  </note>
 </entry>
 
 <entry id="thuia-">
