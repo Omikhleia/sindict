@@ -87,10 +87,10 @@ The general contents of an entry are shown hereafter:
 <entry>
   <!-- Word forms (possibly nested) -->
   <!-- Optional grammatical information, usually they are rather provided with the sense -->
-  <!-- Sense (glosses or definitions)
+  <!-- Sense (glosses or definitions) -->
   <!-- Optional etymological notes -->
   <!-- Optional notes (sources, comments) -->
-  <!-- Optional related entries (secondary entries)
+  <!-- Optional related entries (secondary entries) -->
   <!-- Optional cross-reference links to other entries (analogies or synonyms, etc.) -->
 </entry>
 ```
@@ -166,7 +166,7 @@ It may additionally contain:
   </sense>
 ```
 
-Would there be several meanings for an entry, having several sense elements (numbered with an `n` attribute) is allowes.
+Would there be several meanings for an entry, having several sense elements is allowed.
 
 
 The definitions are normally included in a `<def>` element.

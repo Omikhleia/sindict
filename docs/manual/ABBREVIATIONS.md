@@ -84,6 +84,7 @@
 | _pron._ | pronoun |
 | _quant._ | quantitative (number) |
 | _rel._ | relative (pronoun) |
+| _sg._ | singular |
 | _sing._ | singulative |
 | _soft mut._ | soft mutation (lenition) |
 | _unkn._ | unknown part of speech |

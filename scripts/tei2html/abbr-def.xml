@@ -16,6 +16,7 @@
     <def id="pa. t.">past tense</def>
     <def id="irreg. pa. t.">irregular past tense</def>
     <def id="pl.">plural</def>
+    <def id="sg.">singular</def>
     <def id="fut.">future tense</def>
     <def id="pres.">present tense</def>
     <def id="aor.">aorist</def>
@@ -115,6 +116,7 @@
     <item id="aor." full="aoriste">aor.</item>
     <item id="irreg. pa. t." full="passé de forme irrégulière">pas. irrég.</item>
     <item id="pl." full="pluriel">pl.</item>
+    <item id="sg." full="singulier">pl.</item>
     <item id="class pl." full="pluriel de classe">pl. de classe</item>
     <item id="coll." full="pluriel collectif">coll.</item>
     <item id="dual pl." full="duel">pl. duel</item>

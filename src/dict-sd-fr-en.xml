@@ -19,7 +19,7 @@
     </titleStmt>
 
     <editionStmt>
-      <edition n="2.0.1"/>
+      <edition n="2.1"/>
     </editionStmt>
 
     <publicationStmt>
@@ -98,7 +98,7 @@
            basées sur des textes publiés, soit à partir d’attestations directes, soit sur la base
            de déductions et de conclusions tirées de ces textes par des comparaisons minutieuses.</p>
       </availability>
-      <date>1999-2008, 2010-2011, 2014, 2019, 2021</date>
+      <date>1999–2008, 2010–2011, 2014, 2019, 2021</date>
     </publicationStmt>
 
     <notesStmt>
@@ -115,6 +115,7 @@
         <p>The editors address their thanks to:
           <name>Jim Allan</name>,
           <name>Benjamin Babut</name>,
+          <name>Damien Bador</name>,
           <name>Bertrand Bellet</name>,
           <name>Christian Buzek</name>,
           <name>Thomas Deniau</name>,
@@ -172,6 +173,7 @@
         <p>Les éditeurs addressent tous leurs remerciements à :
           <name>Jim Allan</name>,
           <name>Benjamin Babut</name>,
+          <name>Damien Bador</name>,
           <name>Bertrand Bellet</name>,
           <name>Christian Buzek</name>,
           <name>Thomas Deniau</name>,
@@ -221,8 +223,38 @@
     </notesStmt>
 
     <sourceDesc>
-      <!-- TEI P4 wants it present and non empty, though stating a file "may also have no source" -->
-      <bibl></bibl>
+      <listBibl>
+        <bibl n="Ety"><hi>The Etymologies</hi> in <hi>The Lost Road and Other Writings</hi>, 1987.</bibl>
+        <bibl n="H"><hi>The Hobbit</hi>.</bibl>
+        <bibl n="HL"><hi>Hiswelókë</hi> (fanzine), 1999–2001.</bibl>
+        <bibl n="LB"><hi>The Lays of Beleriand</hi>, 1985.</bibl>
+        <bibl n="LR"><hi>The Lost Road and Other Writings</hi>, 1987.</bibl>
+        <bibl n="Lamb">Lambengolmor mailing-list, 2002–2020.</bibl>
+        <bibl n="Letters"><hi>The Letters of J.R.R. Tolkien</hi>, 1981.</bibl>
+        <bibl n="LotR"><hi>The Lord of the Rings</hi>.</bibl>
+        <bibl n="MC"><hi>The Monsters and the Critics</hi>, 1983.</bibl>
+        <bibl n="MR"><hi>Morgoth’s Ring</hi>, 1993.</bibl>
+        <bibl n="NM"><hi>The Nature of Middle-earth</hi>, 2021.</bibl>
+        <bibl n="PE"><hi>Parma Eldalamberon</hi> (series).</bibl>
+        <bibl n="PM"><hi>The Peoples of Middle-earth</hi>, 1996.</bibl>
+        <bibl n="RC"><hi>The Lord of the Rings: a Reader’s Companion</hi>, 2005.</bibl>
+        <bibl n="RGEO"><hi>The Road Goes Ever On</hi>, 1967.</bibl>
+        <bibl n="RS"><hi>The Return of the Shadow</hi>, 1988.</bibl>
+        <bibl n="S"><hi>The Silmarillion</hi>, 1977.</bibl>
+        <bibl n="SD"><hi>Sauron Defeated</hi>, 1992.</bibl>
+        <bibl n="Sindict">Sindict mailing-list, 2002–2011.</bibl>
+        <bibl n="TAI"><hi>J.R.R. Tolkien: Artist and Illustrator</hi>, 1995.</bibl>
+        <bibl n="TC"><hi>A Tolkien Compass</hi> (first ed.), 1975.</bibl>
+        <bibl n="TI"><hi>The Treason of Isengard</hi>, 1989.</bibl>
+        <bibl n="TS"><hi>Tolkien Studies</hi> (series).</bibl>
+        <bibl n="TT"><hi>Tyalië Tyelelliéva</hi> (fanzine), 1994–2001.</bibl>
+        <bibl n="Tengwestie"><hi>Tengwestië</hi> (online journal).</bibl>
+        <bibl n="UT"><hi>Unfinished Tales of Númenor and Middle-earth</hi>, 1980.</bibl>
+        <bibl n="VT"><hi>Vinyar Tengwar</hi> (fanzine).</bibl>
+        <bibl n="WJ"><hi>The War of the Jewels</hi>, 1994.</bibl>
+        <bibl n="WR"><hi>The War of the Ring</hi>, 1990.</bibl>
+        <bibl n="X">Normalization rules.</bibl>
+      </listBibl>
     </sourceDesc>
   </fileDesc>
 
@@ -379,7 +411,7 @@
       <pron>Eb"Ennin</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -390,7 +422,7 @@
       <def>born later, born after</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -456,7 +488,7 @@
       <pron>"AxAd</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -468,7 +500,7 @@
       <def><bibl>RC/537</bibl> <index level1="neck" lang="en"/>neck</def> <usg type="hint">properly referring only to the bony vertebral part not including the throat</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -1288,7 +1320,7 @@
       <pron>"AEglOs</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -1300,7 +1332,7 @@
       <def><index level1="snowthorn" lang="en"/>snowthorn, a <index level1="plant" lang="en"/>plant like furze (gorse), but larger and with white flowers</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -1982,7 +2014,7 @@
       <pron>"Alfirin</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -1993,7 +2025,7 @@
       <def><index level1="immortal" lang="en"/>immortal</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -2005,7 +2037,7 @@
       <def>name of a <index level1="flower" lang="en"/>flower, bell-like and running through many soft and gentle colours</def>
     </trans>
   </sense>
-  <sense n="3">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -2025,17 +2057,24 @@
   <form type="regular">
     <form>
       <orth>alph</orth><usg type="lang" norm="S."/>
+      <bibl>LotR/E, S/427, UT/265, VT/42:7, PE/17:100, NM/378</bibl>
       <pron>"Alf</pron>
     </form>
     <form>
       <orth>alf</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/348, VT/42:7</bibl>
     </form>
   </form>
   <form type="inflected">
     <number>pl.</number>
     <form>
       <orth>eilph</orth><usg type="lang" norm="S."/>
+      <bibl>UT/265, UT/457, NM/378</bibl>
       <pron>"Ejlf</pron>
+    </form>
+      <form>
+      <orth>elf</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/364</bibl>
     </form>
   </form>
   <sense>
@@ -2047,10 +2086,11 @@
       <def><index lang="fr" level1="cygne"/>cygne</def>
     </trans>
     <trans lang="en">
-      <def><index level1="swan" lang="en"/>swan</def>
+      <def><bibl>Ety/348, S/427, UT/265, LotR/E, VT/42:6-7, PE/17:100, NM/378</bibl> <index level1="swan" lang="en"/>swan</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/348, S/427, LotR/E, VT/42:6-7</bibl></note>
+  <note type="source,deduced"><mentioned>Nîn-in-Eilph</mentioned> “Swanfleet, Waterlands of the Swans” <bibl>VT42/7</bibl>,
+    “Waterlands of the Swans” <bibl>VT42/7, NM/378, UT/265</bibl>, <mentioned>Hobas in Elf</mentioned> <bibl>Ety/364</bibl></note>
 </entry>
 
 <entry id="alu">
@@ -2136,8 +2176,8 @@
 <entry id="amar">
   <form type="regular">
     <form>
-      <orth>amar</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/372</bibl>
+      <orth>amar</orth><usg type="lang" norm="S.,N."/>
+      <bibl>Ety/372, TS6/183, NM/226-227, NM/300-301</bibl>
       <pron>"AmAr</pron>
     </form>
     <form>
@@ -2151,10 +2191,20 @@
     </gramGrp>
     <usg type="cat" norm="1.21"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="terre"/>terre</def>
+      <def><index lang="fr" level1="terre"/>terre, monde</def>
+           <usg type="hint">dérivé de « habitat », la grande demeure (οἰκουμένη) comme
+            « demeure des créatures douées de parole » etc.
+             et approchant par conséquent, dans certains usages, le sens de « Destin »</usg>,
+      <def>habitat, place désignée, la Terre comme la demeure désignée des Elfes (et des
+           Hommes), ce monde-ci, la Terre</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/372</bibl> <index level1="earth" lang="en"/>earth</def>
+      <def><bibl>Ety/372</bibl> <index level1="earth" lang="en"/>earth,
+           <bibl>TS6/183, NM/226-227</bibl> world</def> <usg type="hint">derived
+             from ‘settlement’, the great habitation (οἰκουμένη) as ‘home of speaking creatures’ etc.
+             so approaching in some uses the sense ‘Fate’</usg>,
+      <def><bibl>NM/300-301</bibl> settlement, appointed place, the Earth as the appointed dwelling
+                 place or home of Elves (and Men), this world the Earth</def>
     </trans>
   </sense>
 </entry>
@@ -2180,14 +2230,14 @@
       <def><index level1="fate" lang="en"/>fate, <index level1="doom" lang="en"/>doom</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/372, S/427, LotR/A(i), TC/183</bibl></note>
+  <note type="source"><bibl>Ety/372, S/427, LotR/A(i), TC/183, TS6/184, NM/227-228</bibl></note>
 </entry>
 
 <entry id="amartha-">
   <form type="regular">
     <form>
       <orth>amartha-</orth><usg type="lang" norm="S."/>
-      <bibl>PE/17:104-105</bibl>
+      <bibl>PE/17:104-105, NM/301</bibl>
       <pron>Am"ArTa</pron>
     </form>
   </form>
@@ -2199,9 +2249,11 @@
       <def>définir, décréter, destiner</def>
     </trans>
     <trans lang="en">
-      <def><bibl>PE/17:104</bibl> to define, decree, destine</def>
+      <def><bibl>PE/17:104</bibl> to define, decree, destine,
+           <bibl>PE/17:105, NM/301</bibl> fate</def>
     </trans>
   </sense>
+  <xr type="analogy"><ptr target="bartha-"/></xr>
 </entry>
 
 <entry id="amarthan">
@@ -2254,13 +2306,16 @@
   <form type="regular">
     <form>
       <orth>ambenn</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/380</bibl>
       <pron>"AmbEnn</pron>
     </form>
     <form>
       <orth>ambend</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/348</bibl>
     </form>
     <form>
       <orth>amben</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/348</bibl>
     </form>
   </form>
   <sense>
@@ -2274,7 +2329,6 @@
       <def><index level1="uphill" lang="en"/>uphill, sloping <index level1="upwards" lang="en"/>upwards</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/348, Ety/380</bibl></note>
   <etym>am+pend</etym>
 </entry>
 
@@ -2327,6 +2381,7 @@
   <form type="regular">
     <form>
       <orth>amlug</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/349, Ety/370</bibl>
       <pron>"Amlug</pron>
     </form>
   </form>
@@ -2338,10 +2393,9 @@
       <def><index lang="fr" level1="dragon"/>dragon</def>
     </trans>
     <trans lang="en">
-      <def><index level1="dragon" lang="en"/>dragon</def>
+      <def><bibl>Ety/349</bibl><index level1="dragon" lang="en"/>dragon</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/349, Ety/370</bibl></note>
 </entry>
 
  <entry id="ammen">
@@ -2395,7 +2449,7 @@
       <def><index level1="hill" lang="en"/>hill, steep-sided <index level1="mount" lang="en"/>mount</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/348, LotR/E, RC/334, PE/17:61</bibl></note>
+  <note type="source"><bibl>Ety/348, LotR/E, RC/334, PE/17:61, NM/389</bibl></note>
 </entry>
 
 <entry id="amrûn">
@@ -2494,6 +2548,7 @@
   <form type="regular">
     <form>
       <orth>anc</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/348, Ety/374</bibl>
       <pron>"ANk</pron>
     </form>
   </form>
@@ -2506,7 +2561,8 @@
       <def><index lang="fr" level1="mâchoire"/>mâchoire, rangée de <index lang="fr" level1="dent"/>dents</def>
     </trans>
     <trans lang="en">
-      <def><index level1="jaw" lang="en"/>jaw, row of <index level1="tooth" lang="en"/>teeth</def>
+      <def><bibl>Ety/348</bibl> <index level1="jaw" lang="en"/>jaw,
+           <bibl>Ety/374</bibl> row of <index level1="tooth" lang="en"/>teeth</def>
     </trans>
   </sense>
   <note type="source"><bibl>Ety/348, Ety/374</bibl></note>
@@ -3237,6 +3293,27 @@
   <note type="source"><bibl>Ety/348, RC/232, PE/17:38</bibl></note>
 </entry>
 
+<entry id="anrad-">
+  <form type="regular">
+    <form>
+      <orth>anrad-</orth><usg type="lang" norm="S."/>
+      <bibl>NM/367</bibl>
+      <pron>"AnrAd</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>trouver un moyen de monter, grimper</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/367</bibl> to find a way up, climb</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="ant">
   <form type="regular">
     <form>
@@ -3394,7 +3471,7 @@
       <pron>"EffEdyn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -3405,7 +3482,7 @@
       <def><bibl>WJ/387</bibl> <index level1="follower" lang="en"/>follower</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -3531,7 +3608,7 @@
       <pron>Ar</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>pref.</pos>
     </gramGrp>
@@ -3544,7 +3621,7 @@
       <def><bibl>Ety/349</bibl> <index level1="beside" lang="en"/>beside</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>pref.</pos>
     </gramGrp>
@@ -3774,7 +3851,7 @@
       <pron>"ArDOn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">augm.</usg>
     </gramGrp>
@@ -3787,7 +3864,7 @@
       <def>great <index level1="region" lang="en"/>region, <index level1="province" lang="en"/>province</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -4184,10 +4261,12 @@
   <form type="regular">
     <form>
       <orth>athae</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:49, PE/17:148</bibl>
       <pron>"ATAE</pron>
     </form>
     <form>
       <orth>athe</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:49</bibl>
     </form>
   </form>
   <sense>
@@ -4202,7 +4281,6 @@
       <def>a plant with comforting, healing properties</def>
     </trans>
   </sense>
-  <note type="source"><bibl>PE/17:49, PE/17:148</bibl></note>
   <re corresp="athelas">
     <form>
       <orth>athelas</orth><usg type="lang" norm="S."/>
@@ -4238,11 +4316,11 @@
   <form type="regular">
     <form>
       <orth>atheg</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:6,17</bibl>
+      <bibl>VT/48:6,17, NM/184</bibl>
       <pron>"ATEg</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -4251,10 +4329,10 @@
       <def>« petit <index lang="fr" level1="père"/>père »</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:6,17</bibl> “litte <index level1="father" lang="en"/>father”</def>
+      <def><bibl>VT/48:6,17, NM/184</bibl> “litte <index level1="father" lang="en"/>father”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -4263,7 +4341,7 @@
       <def><index lang="fr" level1="pouce"/>pouce</def> <usg type="hint">dans le vocabulaire enfantin</usg>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:6,17</bibl> <index level1="thumb" lang="en"/>thumb</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
+      <def><bibl>VT/48:6,17, NM/184</bibl> <index level1="thumb" lang="en"/>thumb</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
     </trans>
   </sense>
 </entry>
@@ -4643,7 +4721,7 @@
       <pos>v.</pos> <mood>imp.</mood>
     </gramGrp>
   </re>
-  <re corresp="avon">
+  <re corresp="avon.2">
     <form>
       <orth>avon</orth><usg type="lang" norm="S."/>
     </form>
@@ -4711,7 +4789,7 @@
       <pron>"EvAjr</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -4722,7 +4800,7 @@
       <def><index level1="refuser" lang="en"/>refuser</def>
     </trans>
   </sense>
-    <sense n="2">
+    <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -4776,7 +4854,31 @@
   </note>
 </entry>
 
-<entry id="avon">
+<entry id="avon.1" n="1">
+  <form type="regular">
+    <form>
+      <orth>Avon</orth><usg type="lang" norm="S."/>
+      <bibl>NM/173</bibl>
+      <pron>"AvOn</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n. pr.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>« État Non-Marri »</def> <usg type="hint">en particulier employé
+        pour les régions occidentales non « marries » dont Valinor (demeure des Valar)
+        faisait partie</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/173</bibl> ‘Unmarred State’</def> <usg type="hint">especially applied to the “unmarred” western
+         regions, of which Valinor (abode of the Valar) was part</usg>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="avon.2" n="2">
   <form type="regular">
     <form>
       <orth>avon</orth><usg type="lang" norm="S."/>
@@ -5029,7 +5131,7 @@
   <form type="regular">
     <form>
       <orth>bain</orth><usg type="lang" norm="S."/>
-      <bibl>PE/17:149,150,165,191</bibl>
+      <bibl>PE/17:149,150,165,191, NM/173</bibl>
       <pron>b"Ajn</pron>
     </form>
     <form>
@@ -5046,21 +5148,25 @@
            <index lang="fr" level1="splendide"/>splendide,
            <index lang="fr" level1="bon"/>bon,
            <index lang="fr" level1="sain"/>sain,
-           <index lang="fr" level1="saint"/>saint</def>
-           <usg type="hint">c-à-d. beau avec l’implication que cela est dû à une absence de
+           <index lang="fr" level1="favorable"/>favorable</def>
+             <usg type="hint">n’étant pas dangereux, mauvais ou hostile</usg>,
+      <def><index lang="fr" level1="saint"/>saint</def>
+             <usg type="hint">c-à-d. beau avec l’implication que cela est dû à une absence de
            faute ou de souillure</usg>
     </trans>
     <trans lang="en">
       <def><bibl>Ety/351, PE/17:149,150,165,191</bibl> <index level1="beautiful" lang="en"/>beautiful,
-           <bibl>Ety/359, PE/17:191</bibl> <index level1="fair" lang="en"/>fair,
-           <bibl>PE/17:149,150</bibl> <index level1="good" lang="en"/>good,
+           <bibl>Ety/359, PE/17:150,191</bibl> <index level1="fair" lang="en"/>fair,
+           <bibl>PE/17:149,150, NM/173</bibl> <index level1="good" lang="en"/>good,
            <index level1="wholesome" lang="en"/>wholesome,
-           <bibl>PE/17:150</bibl> <index level1="favorable" lang="en"/>favorable,
-           <bibl>PE/17:149</bibl> <index level1="blessed" lang="en"/>blessed</def>
-           <usg type="hint">sc. beautiful with implication that is is due to lack of fault
+           <bibl>PE/17:150, NM/173</bibl> <index level1="favorable" lang="en"/>favourable</def>
+             <usg type="hint">not dangerous, evil or hostile</usg>,
+      <def><bibl>PE/17:149</bibl> <index level1="blessed" lang="en"/>blessed</def>
+             <usg type="hint">sc. beautiful with implication that is is due to lack of fault
            or blemish</usg>
     </trans>
   </sense>
+  <xr type="analogy"><ptr target="bân"/></xr>
 </entry>
 
 <entry id="balan">
@@ -5117,6 +5223,33 @@
       <def><bibl>Ety/377</bibl> <index level1="cruel" lang="en"/>cruel</def>
     </trans>
   </sense>
+</entry>
+
+<entry id="bân">
+  <form type="regular">
+    <form>
+      <orth>bân</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:150, NM/173</bibl>
+      <pron>b"A:n</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def><index lang="fr" level1="beau"/>beau,
+           <index lang="fr" level1="splendide"/>bon,
+           <index lang="fr" level1="sain"/>sain,
+           <index lang="fr" level1="saint"/>favorable</def>
+              <usg type="hint">n’étant pas dangereux, mauvais ou hostile</usg>,
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:150, NM/173</bibl> fair, good, wholesome, favourable</def>
+           <usg type="hint">not dangerous, evil or hostile</usg>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="bain"/></xr>
 </entry>
 
 <entry id="band">
@@ -5181,7 +5314,7 @@
       <pron>b"Ajr</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -5196,7 +5329,7 @@
       <index level1="dwelling" lang="en"/>dwelling, <index level1="home" lang="en"/>home</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -5230,7 +5363,7 @@
       <pron>b"ArA</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -5241,7 +5374,7 @@
       <def><bibl>Ety/351</bibl> <index level1="fiery" lang="en"/>fiery</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -5295,13 +5428,18 @@
     </gramGrp>
     <usg type="cat" norm="20.36"/> <usg type="cat" norm="20.35"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="tour"/>tour, <index lang="fr" level1="forteresse"/>forteresse</def>
+      <def><index lang="fr" level1="tour"/>tour, <index lang="fr" level1="forteresse"/>forteresse</def>,
+      <def><bibl>NM/228</bibl> tour</def> <usg type="hint">ne se dit pas d’une grande et haute
+        construction, mais dans le sens de la tour de Londres, grande construction fortifiée
+        permanente de nature défensive</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="tower" lang="en"/>tower, <index level1="fortress" lang="en"/>fortress</def>
+      <def><index level1="tower" lang="en"/>tower, <index level1="fortress" lang="en"/>fortress</def>,
+      <def><bibl>NM/228</bibl> tower</def> <usg type="hint">not of a tall slender building, but in
+         the sense of the Tower of London, great permanent building of defensive strength</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/351, S/428, LotR/B</bibl></note>
+  <note type="source"><bibl>Ety/351, S/428, LotR/B, NM/228</bibl></note>
 </entry>
 
 <entry id="baradh">
@@ -5414,6 +5552,7 @@
       <def><bibl>Ety/372</bibl> to <index level1="doom" lang="en"/>doom</def>
     </trans>
   </sense>
+  <xr type="analogy"><ptr target="amartha-"/></xr>
 </entry>
 
 <entry id="barthan">
@@ -6049,7 +6188,7 @@
       <pron>b"Ess</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -6061,7 +6200,7 @@
       <def>(young) <index level1="woman" lang="en"/>woman</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -6414,7 +6553,7 @@
       <orth>brann</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -6425,7 +6564,7 @@
       <def><index level1="lofty" lang="en"/>lofty, <index level1="noble" lang="en"/>noble, <index level1="fine" lang="en"/>fine</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -6701,7 +6840,7 @@
   </sense>
   <note type="source"><bibl>Ety/353, VT/45:7</bibl></note>
   <note type="comment" lang="fr">
-    La forme <hi>brenio</hi> dans les <hi>Etymologies</hi> est une erreur de
+    La forme <hi>bronio</hi> dans les <hi>Etymologies</hi> est une erreur de
     lecture, selon <bibl>VT/45:7</bibl>
   </note>
   <note type="comment" lang="en">
@@ -7010,7 +7149,7 @@
       <bibl>Ety/372</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -7022,7 +7161,7 @@
       <def><bibl>Ety/372</bibl> <index level1="snout" lang="en"/>snout, <index level1="nose" lang="en"/>nose</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -7102,7 +7241,7 @@
       <pron>k"AbEd</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
@@ -7114,7 +7253,7 @@
       <def><index level1="leap" lang="en"/>leap</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
@@ -7669,7 +7808,7 @@
       <pron>k"El,bin</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -7681,7 +7820,7 @@
       <def><index level1="elf" lang="en"/>Elf of the Great Journey (lit. “light person”)</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -7722,7 +7861,7 @@
       <def><index level1="green" lang="en"/>green</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/362, S/429, Letters/282, RC/349, VT/42:19</bibl></note>
+  <note type="source"><bibl>Ety/362, S/429, Letters/282, RC/349, VT/42:19, NM/391</bibl></note>
   <etym>Etym. “bright-coloured”</etym>
 </entry>
 
@@ -7967,7 +8106,7 @@
       <def><index level1="outline" lang="en"/>outline, <index level1="shape" lang="en"/>shape</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>morchaint</mentioned> <bibl>S/432, Ety/362, VT/42:28</bibl></note>
+  <note type="source,deduced"><mentioned>morchaint</mentioned> <bibl>S/432, Ety/362, VT/42:9, NM/381</bibl></note>
   <re corresp="cannas">
     <form type="deduced">
       <orth>cannas</orth><usg type="lang" norm="N."/>
@@ -8481,7 +8620,7 @@
       <pron>k"ArAs</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -8492,7 +8631,7 @@
       <def>circular earthwall with dike</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -8503,7 +8642,7 @@
       <def><index level1="city" lang="en"/>city</def> <usg type="hint">built above ground</usg>
     </trans>
   </sense>
-  <sense n="3">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -9064,7 +9203,7 @@
       <def><index level1="silver" lang="en"/>silver</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/367, S/429, LotR/E, Letters/426</bibl></note>
+  <note type="source"><bibl>Ety/367, S/429, LotR/E, Letters/426, NM/349</bibl></note>
 </entry>
 
 <entry id="celebren">
@@ -9170,7 +9309,7 @@
       <pron>k"El,l</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -9181,7 +9320,7 @@
       <def><index level1="running" lang="en"/>running</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -9446,7 +9585,7 @@
   </form>
   </form>
 
-  <sense n="1">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -9457,7 +9596,7 @@
       <def>circular <index level1="enclosure" lang="en"/>enclosure</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -9535,6 +9674,12 @@
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
   </re>
+  <note type="comment" lang="fr">
+    Sous la graphie <hi>i Cirdh Daeron</hi> « les Runes de Daeron » dans <bibl>NM/164</bibl>. 
+  </note>
+  <note type="comment" lang="en">
+    Under the spelling <hi>i Cirdh Daeron</hi> “the Runes of Daeron” in <bibl>NM/164</bibl>. 
+  </note>
 </entry>
 
 <entry id="certhas">
@@ -9850,7 +9995,7 @@
       <pron>kl"Aur</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -9862,7 +10007,7 @@
      <def><bibl>Ety/362</bibl> <index level1="splendour" lang="en"/>splendour, <index level1="glory" lang="en"/>glory</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -9879,7 +10024,7 @@
   <form type="regular">
     <form>
       <orth>côf</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:15</bibl>
+      <bibl>VT/42:15, NM/386</bibl>
       <pron>k"O:v</pron>
     </form>
   </form>
@@ -9892,9 +10037,11 @@
       <def><index lang="fr" level1="baie"/>baie</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/42:15</bibl> <index level1="bay" lang="en"/>bay</def>
+      <def><bibl>VT/42:15, NM/386</bibl> <index level1="bay" lang="en"/>bay</def>
     </trans>
   </sense>
+  <note type="source,deduced"><mentioned>Côf Belfalas</mentioned> ‘Bay of Belfalas’,
+    <mentioned>Côf gwaeren Bel</mentioned> ‘the windy Bay of Bêl’ <bibl>VT/45:15, NM/386</bibl></note>
 </entry>
 
 <entry id="cofn">
@@ -10016,7 +10163,7 @@
       <pron>k"OnAT</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
@@ -10028,7 +10175,7 @@
       <def>many <index level1="voice" lang="en"/>voices</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
@@ -10159,7 +10306,7 @@
       <pron>k"OrOn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -10170,7 +10317,7 @@
       <def><index level1="globe" lang="en"/>globe, <index level1="ball" lang="en"/>ball</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -10241,7 +10388,7 @@
       <pron>k"OT</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -10252,7 +10399,7 @@
       <def><bibl>Ety/365</bibl> <index level1="enmity" lang="en"/>enmity</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -10581,7 +10728,7 @@
       <pron>k"u:</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -10592,7 +10739,7 @@
       <def><index level1="arch" lang="en"/>arch, <index level1="crescent" lang="en"/>crescent</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -11129,7 +11276,7 @@
       <orth>dadben</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adv.</pos>
     </gramGrp>
@@ -11140,7 +11287,7 @@
       <def><index level1="downhill" lang="en"/>downhill, <index level1="inclined" lang="en"/>inclined</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adv.</pos>
     </gramGrp>
@@ -11293,6 +11440,7 @@
   <form type="regular">
     <form>
       <orth>daer</orth><usg type="lang" norm="S."/>
+      <bibl>UT/450, VT/42:11, NM/382</bibl>
       <pron>d"AEr</pron>
     </form>
   </form>
@@ -11304,10 +11452,19 @@
       <def><index lang="fr" level1="grand"/>grand, <index lang="fr" level1="imposant"/>imposant</def>
     </trans>
     <trans lang="en">
-      <def><index level1="great" lang="en"/>great</def>
+      <def><bibl>VT/42:11, NM/382</bibl> large,
+           <bibl>UT/450, WJ/335, VT/42:11, NM/382</bibl> <index level1="great" lang="en"/>great</def>
     </trans>
   </sense>
-  <note type="source"><bibl>UT/450, WJ/187, WJ/335, VT/42:11</bibl></note>
+  <re>
+    <form>
+      <orth>dhaer</orth><usg type="lang" norm="S."/>
+      <bibl>VT/42:14, NM/385, WJ/187, WJ/335</bibl>
+    </form>
+    <gramGrp>
+      <itype type="sm">soft mut.</itype>
+    </gramGrp>
+  </re>
 </entry>
 
 <entry id="daer.2" n="2">
@@ -11429,7 +11586,7 @@
       <pron>d"Agnir</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -11440,7 +11597,7 @@
       <def><bibl>PE/17:97</bibl> <index level1="slayer" lang="en"/>slayer</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -11607,7 +11764,7 @@
       <pron>dAn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>prep.</pos>
     </gramGrp>
@@ -11618,7 +11775,7 @@
       <def><index level1="against" lang="en"/>against</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>prep.</pos>
     </gramGrp>
@@ -12043,7 +12200,7 @@
     </trans>
     <trans lang="en">
       <def><bibl>Ety/354</bibl> <index level1="hole" lang="en"/>hole, <index level1="pit" lang="en"/>pit,
-        <bibl>VT/45:8</bibl>steep <index level1="fall" lang="en"/>fall, <index level1="abyss" lang="en"/>abyss</def>
+           <bibl>VT/45:8</bibl> steep <index level1="fall" lang="en"/>fall, <index level1="abyss" lang="en"/>abyss</def>
     </trans>
   </sense>
 </entry>
@@ -12078,7 +12235,7 @@
       <pron>d"Aur</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -12090,7 +12247,7 @@
       <def><bibl>UT/279, UT/285</bibl> <index level1="pause" lang="en"/>pause, <index level1="stop" lang="en"/>stop</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -12124,7 +12281,7 @@
     </trans>
   </sense>
   <note type="comment" lang="fr">
-     Dans le SdA (IV:IV), Frodo est appelé <hi>Daur</hi>, peut-être un
+     Dans <bibl>LotR/IV:IV</bibl>, Frodo est appelé <hi>Daur</hi>, peut-être un
      dérivé de l’elfique primitif <hi>*dāra</hi> « sage » (<bibl>PE/17:102</bibl>),
      cf. son autre nom <hi>Iorhael</hi> dans <bibl>SD/129</bibl>, signifiant
      vraisemblablement « vieux-sage »
@@ -12335,7 +12492,7 @@
      Ce mot est donné sans indication de langue dans les <hi>Etymologies</hi>,
      mais il pourrait être noldorin, tant par le contexte (l’élément <hi>dimb</hi> est
      indiqué comme étant ilkorin) que par raisonnement phonologique
-     (une racine *<hi>dimba</hi> donnerait <hi>dem</hi> en noldorin). Paul Stark (Eldamo)
+     (une racine *<hi>dimba</hi> donnerait <hi>dem</hi> en noldorin). Paul Strack (Eldamo)
      note cependant que ce mot peut aussi être ilkorin, les mêmes changements phologiques
      clefs aboutissant aussi à <hi>dem</hi> dans cette langue.
    </note>
@@ -12343,7 +12500,7 @@
     There is no language indication in the <hi>Etymologies</hi>, but it could be Noldorin
     from context (the element <hi>dimb</hi> “sad” is marked as Ilkorin)
     and phonological evidence (a primitive *<hi>dimba</hi> would develop into
-    Noldorin <hi>dem</hi>). Paul Stark (Eldamo) however notes
+    Noldorin <hi>dem</hi>). Paul Strack (Eldamo) however notes
     that the word could rather be Ilkorin, as the same key phonological changes would also yield
     <hi>dem</hi> in that language.
   </note>
@@ -12793,7 +12950,7 @@
       <def><index level1="silent" lang="en"/>silent</def>
     </trans>
   </sense>
-  <note type="source"><bibl>S/430, WJ/194</bibl></note>
+  <note type="source"><bibl>S/430, WJ/194, NM/364,367</bibl></note>
   <note type="comment" lang="fr">
     Voir aussi <ptr target="dîn.1"/> pour une discussion de ce mot
   </note>
@@ -12943,7 +13100,7 @@
       <orth>dol</orth><usg type="lang" norm="S."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -12955,7 +13112,7 @@
       <def><index level1="head" lang="en"/>head</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -13414,7 +13571,7 @@
       <pron>dr"Am.bOr</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -13425,7 +13582,7 @@
       <def><bibl>Ety/354</bibl> clenched <index level1="fist" lang="en"/>fist</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -13726,7 +13883,7 @@
   <form type="regular">
     <form>
       <orth>drúwaith</orth><usg type="lang" norm="S."/>
-      <bibl>UT/385</bibl>
+      <bibl>UT/385, VT/41:14, NM/385-386</bibl>
       <pron>dr"u:wAjT</pron>
     </form>
   </form>
@@ -13736,12 +13893,13 @@
     </gramGrp>
     <xr type="of"><ptr target="drû"/></xr>
     <trans lang="fr">
-      <def>les terres sauvages des hommes-Drû (q.v.)</def>
+      <def>les terres sauvages du peuple-Drû</def>
     </trans>
     <trans lang="en">
-      <def><bibl>UT/385</bibl> the wilderness of the Drû-men (q.v.)</def>
+      <def><bibl>UT/385</bibl> the wilderness of the Drû-folk</def>
     </trans>
   </sense>
+  <note type="source,deduced"><mentioned>Drúwaith Iaur</mentioned> “Old Púkel-Land” <bibl>VT/42:14, NM/385-386</bibl></note>
   <etym>drû+gwaith</etym>
 </entry>
 
@@ -13749,6 +13907,7 @@
   <form type="regular">
     <form>
       <orth>dû</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/354, VT/45:9, S/430, SD/302, PE/17:37, PE/17:87, NM/283</bibl>
       <pron>d"u:</pron>
     </form>
   </form>
@@ -13758,13 +13917,17 @@
     </gramGrp>
     <usg type="cat" norm="14.46"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="tombée"/>tombée de la <index lang="fr" level1="nuit"/>nuit, heure tardive du <index lang="fr" level1="soir"/>soir, <index lang="fr" level1="nuit"/>nuit, <index lang="fr" level1="obscurité"/>obscurité</def>
+      <def>nuit, tombée de la nuit, heure tardive du soir,
+          obscurité, pâle, sombre</def>
     </trans>
     <trans lang="en">
-      <def><index level1="nightfall" lang="en"/>nightfall, late <index level1="evening" lang="en"/>evening, <index level1="night" lang="en"/>night, <index level1="dimness" lang="en"/>dimness</def>
+      <def><bibl>Ety/354, S/430, SD/302</bibl> night,
+           <bibl>Ety/354, VT/45:9</bibl> nightfall, late evening,
+           <bibl>S/430, PE/17:37</bibl> dimness,
+           <bibl>RC/269</bibl> dim,
+           <bibl>RC/269, NM/283</bibl> dark</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/354, S/430, VT/45:9, SD/302</bibl></note>
   <re corresp="dúath">
     <form>
       <orth>dúath</orth><usg type="lang" norm="S., N."/>
@@ -13779,37 +13942,37 @@
   <form type="regular">
     <form>
       <orth>dúath</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/354, S/430, PE/17:87</bibl>
       <pron>d"u:AT</pron>
     </form>
     <form>
-      <orth>dúwath</orth><usg type="lang" norm="N."/>
+      <orth>duath</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:152</bibl>
+    </form>
+    <form>
+      <orth>dúwath</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/354, NM/283</bibl>
+    </form>
+    <form>
+      <orth>duwath</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:152</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
     <xr type="of"><ptr target="dû"/></xr>
     <usg type="cat" norm="1.62"/> <usg type="cat" norm="1.622"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="pénombre"/>pénombre, <index lang="fr" level1="ombre"/>ombre</def>
+      <def>pénombre, ombre ténébreuse et noire, ombre nocturne</def>
     </trans>
     <trans lang="en">
-      <def><index level1="darkness" lang="en"/>darkness, <index level1="shadow" lang="en"/>shadow</def>
+      <def><bibl>Ety/354</bibl> night-shade,
+          <bibl>PE:17/87</bibl> dark, black shadow,
+          <bibl>PE:17:152</bibl> night shadow</def>
     </trans>
   </sense>
-  <sense n="2">
-    <gramGrp>
-      <pos>n.</pos> <number>coll.</number>
-    </gramGrp>
-    <trans lang="fr">
-      <def>ombre <index lang="fr" level1="nocturne"/>nocturne</def>
-    </trans>
-    <trans lang="en">
-      <def>nightshade</def>
-    </trans>
-  </sense>
-  <note type="source"><bibl>Ety/354, S/430</bibl></note>
   <etym>Either the collective plural of <hi>dû</hi>, or a compound <hi>dû+gwath</hi> “night shade” (hence <hi>dúwath</hi>)</etym>
 </entry>
 
@@ -13927,6 +14090,50 @@
     </trans>
   </sense>
   <note type="source"><bibl>Ety/376, S/428, LotR/E-F</bibl></note>
+</entry>
+
+<entry id="dúna-">
+  <form type="regular">
+    <form type="deduced">
+      <orth>dúna-</orth><usg type="lang" norm="*S."/>
+      <pron>d"u:nA</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>descendre</def>
+    </trans>
+    <trans lang="en">
+      <def>to descend</def>
+    </trans>
+  </sense>
+  <note type="source,deduced"><mentioned>Dúnad in Gyrth</mentioned> “Descent of the Dead” <bibl>NM/364</bibl></note>
+</entry>
+
+<entry id="dúnad">
+  <form type="regular">
+    <form>
+      <orth>dúnad</orth><usg type="lang" norm="S."/>
+      <bibl>NM/364</bibl>
+      <pron>d"u:nAd</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>ger.</pos>
+    </gramGrp>
+    <xr type="of"><ptr target="dúna-"/></xr>
+    <trans lang="fr">
+      <def>descente</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/364</bibl> descent</def>
+    </trans>
+  </sense>
+  <note type="source,deduced"><mentioned>Dúnad in Gyrth</mentioned> “Descent of the Dead” <bibl>NM/364</bibl></note>
 </entry>
 
 <entry id="dúnadan">
@@ -14079,7 +14286,7 @@
       <pron>d"y:gAr</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -14090,7 +14297,7 @@
       <def><bibl>PE/17:151</bibl> a mistaken act</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -14167,14 +14374,14 @@
   <note type="comment" lang="fr">
     Le sens « il » est déduit de la fonction apparente de ce mot dans
     la « Lettre du Roi », mais il serait tout aussi possible de l’interpréter
-    par « en effet » (comme pour le quenya <hi>e</hi>, LR/63, VT/45:11),
+    par « en effet » (comme pour le quenya <hi>e</hi>, <bibl>LR/63, VT/45:11</bibl>),
     employé ici, par usage formel, pour exprimer les souhaits ou la
     volonté du Roi
   </note>
   <note type="comment" lang="en">
     The meaning “he” is deduced from the apparent function
     of this word in the so-called “King’s Letter”, but it also seems possible to
-    interpret it as “indeed” (as in Q. <hi>e</hi>, LR/63, VT/45:11), used here in
+    interpret it as “indeed” (as in Q. <hi>e</hi>, <bibl>LR/63, VT/45:11</bibl>), used here in
     a way of formal address expressing the wishes or the will of the King
   </note>
 </entry>
@@ -14323,7 +14530,7 @@
       <pron>"Exil,</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -14334,7 +14541,7 @@
       <def><index level1="follower" lang="en"/>follower</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -15035,7 +15242,7 @@
       <pron>"EglAjn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -15046,7 +15253,7 @@
       <def><index level1="forsaken" lang="en"/>forsaken</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -15151,7 +15358,7 @@
       <pron>"EgnAs</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -15162,7 +15369,7 @@
       <def><bibl>VT/45:12</bibl> sharp <index level1="point" lang="en"/>point</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -15336,7 +15543,7 @@
       <pron>"EjTA</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -15347,7 +15554,7 @@
       <def><bibl>WJ/365</bibl> to <index level1="prick" lang="en"/>prick with a sharp point, to <index level1="stab" lang="en"/>stab</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -15636,7 +15843,7 @@
   <form type="regular">
     <form>
       <orth>elloth</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:18</bibl>
+      <bibl>VT/42:18, NM/390</bibl>
       <pron>"El,lOT</pron>
     </form>
   </form>
@@ -15650,7 +15857,7 @@
       <def><index lang="fr" level1="fleur"/>fleur (unique)</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/42:18</bibl> (single) <index level1="flower" lang="en"/>flower</def>
+      <def><bibl>VT/42:18, NM/390</bibl> (single) <index level1="flower" lang="en"/>flower</def>
     </trans>
   </sense>
   <etym>er- + loth</etym>
@@ -15769,11 +15976,11 @@
   <form type="regular">
     <form>
       <orth>emig</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:6,17</bibl>
+      <bibl>VT/48:6,17, NM/184</bibl>
       <pron>"Emig</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -15782,10 +15989,10 @@
       <def>« petite <index lang="fr" level1="mère"/>mère »</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:6,17</bibl> “litte <index level1="mother" lang="en"/>mother”</def>
+      <def><bibl>VT/48:6,17, NM/184</bibl> “litte <index level1="mother" lang="en"/>mother”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -15794,7 +16001,7 @@
       <def><index lang="fr" level1="index"/>index</def> <usg type="hint">dans le vocabulaire enfantin</usg>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:6,17</bibl> <index level1="index" lang="en"/>index <index level1="finger" lang="en"/>finger</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
+      <def><bibl>VT/48:6,17, NM/184</bibl> forefinger, <index level1="index" lang="en"/>index <index level1="finger" lang="en"/>finger</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
     </trans>
   </sense>
 </entry>
@@ -16232,7 +16439,7 @@
   <form type="regular">
     <form>
       <orth>er</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:6</bibl>
+      <bibl>VT/48:6, NM/391</bibl>
       <pron>Er</pron>
     </form>
   </form>
@@ -16244,7 +16451,7 @@
       <def><index lang="fr" level1="seul"/>seul</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:6</bibl> <index level1="single" lang="en"/>single</def>
+      <def><bibl>VT/48:6, NM/391</bibl> <index level1="single" lang="en"/>single</def>
     </trans>
   </sense>
 </entry>
@@ -16411,6 +16618,7 @@
   <form type="regular">
     <form>
       <orth>ereb</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/356, S/431, VT/42:10, NM/381</bibl>
       <pron>"ErEb</pron>
     </form>
   </form>
@@ -16418,6 +16626,7 @@
     <number>pl.</number>
     <form>
       <orth>erib</orth><usg type="lang" norm="S."/>
+      <bibl>UT/422</bibl>
       <pron>"Erib</pron>
     </form>
   </form>
@@ -16426,13 +16635,14 @@
       <pos>adj.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="isolé"/>isolé, <index lang="fr" level1="solitaire"/>solitaire</def>
+      <def><index lang="fr" level1="isolé"/>isolé, <index lang="fr" level1="solitaire"/>solitaire</def>, seul
     </trans>
     <trans lang="en">
-      <def><index level1="isolated" lang="en"/>isolated, <index level1="lonely" lang="en"/>lonely</def>
+      <def><index level1="lonely" lang="en"/>lonely
+        <bibl>Ety/356</bibl> <index level1="isolated" lang="en"/>isolated,
+        <bibl>VT/42:10, NM/381</bibl> single, alone</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/356, S/431, UT/422, VT/42:10</bibl></note>
 </entry>
 
 <entry id="eredh">
@@ -16646,7 +16856,7 @@
       <def><index level1="prince" lang="en"/>prince</def>
     </trans>
   </sense>
-  <note type="source"><bibl>LotR/VI:IV, Letters/308, UT/428, RGEO/75</bibl></note>
+  <note type="source"><bibl>LotR/VI:IV, Letters/308, UT/428, RGEO/75, VT/42:12, NM/386</bibl></note>
 </entry>
 
 <entry id="ero">
@@ -16752,7 +16962,7 @@
       <pron>"Eruj</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -16764,7 +16974,7 @@
       <def><index level1="single" lang="en"/>single, <index level1="alone" lang="en"/>alone</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -16791,7 +17001,20 @@
   <form type="regular">
     <form>
       <orth>eryn</orth><usg type="lang" norm="S."/>
+      <bibl>UT/436, LotR/B, VT/42:20, NM/392, PE/17:33,119,153</bibl>
       <pron>"Eryn</pron>
+    </form>
+    <form>
+      <orth>œryn</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:153</bibl>
+    </form>
+  </form>
+  <form type="inflected">
+    <number>sg.</number>
+    <usg type="reg">Arch.</usg>
+    <form>
+      <orth>oron</orth> <usg type="lang" norm="S"/>
+      <bibl>PE/17:153</bibl>
     </form>
   </form>
   <sense>
@@ -16803,11 +17026,15 @@
       <def><index lang="fr" level1="bois"/>bois, <index lang="fr" level1="forêt"/>forêt</def>
     </trans>
     <trans lang="en">
-      <def><index level1="wood" lang="en"/>wood</def>
+      <def><bibl>UT/436, LotR/B, VT/42:20, NM/392</bibl><index level1="wood" lang="en"/>wood,
+           <bibl>PE/17:33</bibl> forest,
+           <bibl>PE/17:119</bibl> wood of trees,
+           <bibl>PE/17:153</bibl> forest of trees</def>
     </trans>
   </sense>
-  <note type="source"><bibl>UT/436, LotR/B</bibl></note>
-  <etym>OS *oroni- (?), “trees”, plural noun, used as a singular.</etym>
+  <etym><bibl>PE/17:119</bibl> <hi>*oronyē</hi>, “of trees”, <bibl>PE/17:33</bibl> <hi>*oronī</hi> originally plural,
+    <bibl>PE/17:119</bibl> plural noun, but used as “of trees”.</etym>
+  <xr type="analogy"><ptr target="orn"/></xr>
 </entry>
 
 <entry id="esbin">
@@ -17148,7 +17375,7 @@
   <note type="source,deduced"><mentioned>Faelivrin</mentioned> <bibl>LB/376, S/209-210</bibl></note>
 </entry>
 
-<entry id="faen">
+<entry id="faen.1" n ="1">
   <form type="regular">
     <form type="normalized">
       <orth>faen</orth><usg type="lang" norm="*S."/>
@@ -17169,6 +17396,37 @@
     </trans>
     <trans lang="en">
       <def><bibl>Ety/381</bibl> <index level1="radiant" lang="en"/>radiant, <index level1="white" lang="en"/>white</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="faen.2" n ="2">
+  <form type="regular">
+    <form>
+      <orth>faen</orth><usg type="lang" norm="S."/>
+      <bibl>NM/237</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>vapeur</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/237</bibl> vapour</def>
+    </trans>
+  </sense>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>esprit ou présence incorporelle et ses effets</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/237</bibl> spirit or incorporeal presence and operation</def>
     </trans>
   </sense>
 </entry>
@@ -17198,24 +17456,58 @@
   <form type="regular">
     <form>
       <orth>fain</orth><usg type="lang" norm="S."/>
+      <bibl>RC/268, PE/17:26,36, PE/17:174, NM/237, NM/241-242</bibl>
       <pron>f"Ajn</pron>
     </form>
     <form>
-      <orth>fein</orth><usg type="lang" norm="N."/>
+      <orth>fein</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/387, VT/46:15, NM/237</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="blanc"/>blanc</def>
+      <def><index lang="fr" level1="blanc"/>blanc, étincellant, brillant</def>
     </trans>
     <trans lang="en">
-      <def><index level1="white" lang="en"/>white</def>
+      <def><bibl>Ety/387, VT/46:15, PE/17:26, PE/17:36</bibl> <index level1="white" lang="en"/>white,
+           <bibl>PE/17:36</bibl> shimmering,
+           <bibl>PE/17:26</bibl> shining</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>pâle, blanc, diaphane </def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/237</bibl> pallid, white, diaphanous</def>
+    </trans>
+  </sense>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>estompé, attenué</def> <usg type="hint">appliqué aux lumières tamisées ou
+        s’estompant ou aux choses qu’on y voit</usg>,
+      <def>vaporeux, tissé fin, etc.</def> <usg type="hint">appliqué à des choses qui ne masquaient que partiellement
+        la lumière, comme une canopée de jeunes feuilles encore à moitié transparentes,
+        ou des textures qui voilaient mais ne dissimulaient qu’à moitié une forme</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:174, NM/241-242</bibl> dim, dimmed</def> <usg type="hint">applied to dimmed or
+        fading lights or to things seen in them</usg>,
+      <def>filmy, fine-woven, etc.</def> <usg type="hint">applied to things that only partially
+        screened light, such as a canopy of young still half-transparent leaves, or textures that
+        veiled but only half-concealed a form</usg>
+    </trans>
+  </sense>
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -17224,14 +17516,26 @@
       <def><index lang="fr" level1="nuage"/>nuage</def>
     </trans>
     <trans lang="en">
-      <def><index level1="cloud" lang="en"/>cloud</def>
+      <def><bibl>RC/268</bibl> <index level1="cloud" lang="en"/>cloud</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/387, WR/288, RC/268, VT/46:15</bibl></note>
-  <xr type="analogy"><ptr target="faun"/>, <ptr target="fân"/></xr>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>formes vagues ou aperçus fugaces</def> <usg type="hint">en particulier des « apparitions »
+        ou des figures fugaces vues dans les rêves</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>PE/17:174</bibl> vague shapes or fleeting glimpses</def> <usg type="hint">especially of “apparitions” or
+        figures seen in dreams</usg>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="faen.1"/>, <ptr target="faun"/>, <ptr target="fân"/></xr>
 </entry>
 
-<entry id="fair.1" n="1">
+<entry id="fair">
   <form type="regular">
     <form type="normalized">
       <orth>fair</orth><usg type="lang" norm="*S."/>
@@ -17272,38 +17576,11 @@
   </re>
 </entry>
 
-<entry id="fair.2" n="2">
-  <form type="regular">
-    <form type="normalized">
-      <orth>fair</orth><usg type="lang" norm="*S."/>
-      <pron>f"Ajr</pron>
-    </form>
-    <form>
-      <orth>feir</orth><usg type="lang" norm="N."/>
-    </form>
-    <form>
-      <orth>fœir</orth><usg type="lang" norm="N."/>
-    </form>
-  </form>
-  <sense>
-    <gramGrp>
-      <pos>n.</pos>
-    </gramGrp>
-    <usg type="cat" norm="4.33"/>
-    <trans lang="fr">
-      <def>(<index lang="fr" level1="main"/>main) <index lang="fr" level1="droite"/>droite</def>
-    </trans>
-    <trans lang="en">
-      <def><index level1="right" lang="en"/>right (<index level1="hand" lang="en"/>hand)</def>
-    </trans>
-  </sense>
-  <note type="source"><bibl>Ety/382, VT/46:10</bibl></note>
-</entry>
-
 <entry id="falas">
   <form type="regular">
     <form>
       <orth>falas</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/381, S/421, RC/18, VT/42:15, NM/386, PE/17:62, PE/17:73,97</bibl>
       <pron>f"AlAs</pron>
     </form>
   </form>
@@ -17316,34 +17593,43 @@
     </form>
     <form>
       <orth>feles</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/381</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
     <usg type="dom">Geog.</usg><usg type="cat" norm="1.27"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="plage"/>plage, <index lang="fr" level1="rivage"/>rivage battu par les eaux, ligne de ressac</def>
+      <def>plage, rivage, ligne de ressac, rivage battu par les vagues,
+           grève, plage ou rivage</def> <usg type="hint">en particulier, exposé aux
+           vagues déferlantes et aux brisants</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="beach" lang="en"/>beach, wave-beaten <index level1="shore" lang="en"/>shore, line of surf</def>
+      <def><bibl>Ety/381</bibl> beach,
+           <bibl>Ety/381, S/431</bibl> shore</def>,
+           <bibl>S/431</bibl> line of surf,
+           <bibl>RC/18</bibl> surf, wave-beaten shore,
+           <bibl>PE/17:62</bibl> surfline, sea-shore,
+           <bibl>PE/17:73,97</bibl> beach, strand,
+           <bibl>VT/42:15, NM/386</bibl> beach, shore <usg type="hint">especially one exposed to
+             great waves and breakers</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
     <usg type="dom">Geog.</usg>
     <usg type="gram">as a proper noun</usg>
     <trans lang="fr">
-      <def>la côte occidentale du Beleriand</def>
+      <def>Côte Occidentale</def> <usg type="hint">du Beleriand</usg>
     </trans>
     <trans lang="en">
-      <def>the western coast of Beleriand</def>
+      <def><bibl>Ety/381, S/421, VT/42:15, NM/386</bibl> Western Shore, Coast</def> <usg type="hint">of Beleriand</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/381, S/431, RC/18</bibl></note>
   <re corresp="falathrim">
     <form>
       <orth>falathrim</orth><usg type="lang" norm="S."/>
@@ -17358,10 +17644,11 @@
   <form type="regular">
     <form>
       <orth>falathren</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/381, PM/32, PM/55</bibl>
       <pron>fAl"ATrEn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -17369,10 +17656,10 @@
       <def>du <index lang="fr" level1="rivage"/>rivage</def>
     </trans>
     <trans lang="en">
-      <def>of the <index level1="shore" lang="en"/>shore</def>
+      <def><bibl>Ety/381</bibl> of the <index level1="shore" lang="en"/>shore</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -17381,10 +17668,9 @@
       <def><index lang="fr" level1="langage"/>Langue de la Côte</def> <usg type="hint">un des noms de la langue commune</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="language" lang="en"/>Shore-language</def> <usg type="hint">one of the names for Common Speech</usg>
+      <def><bibl>PM/32, PM/55</bibl> <index level1="language" lang="en"/>Shore-language</def> <usg type="hint">one of the names for Common Speech</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/381, PM/32, PM/55</bibl></note>
   <etym>falas+-ren</etym>
   <xr type="analogy"><ptr target="annúnaid"/></xr>
 </entry>
@@ -17488,35 +17774,76 @@
   <form type="regular">
     <form>
       <orth>fân</orth><usg type="lang" norm="S."/>
+      <bibl>RGEO/74, PE/17:37,173-174,176,180, NM/237, NM/241,243</bibl>
       <pron>f"A:n</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
     <usg type="cat" norm="6.59"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="voile"/>voile</def>
+      <def>forme</def> <usg type="hint">avec en plus une idée de lumière et de blancheur</usg>,
+        <def>vision</def> <usg type="hint">de quelque chose de beau ou de sublime</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="veil" lang="en"/>veil</def>
+      <def><bibl>PE/17:26</bibl> shape</def> <usg type="hint">with the added notion of light and whiteness</usg>,
+        <def>vision</def> <usg type="hint">of something beautiful or sublime</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <usg type="cat" norm="6.59"/>
+    <trans lang="fr">
+      <def><index lang="fr" level1="voile"/>voile</def> <usg type="hint">fréquemment
+        employé à propose de nuages dans le ciel ; rarement appliqué à
+        autre chose que des choses de textures douces, telles que des voiles tissés, des manteaux
+        ou des rideaux ; et autres choses semblables, de couleurs blanches ou pâles</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>RGEO/74</bibl> <index level1="veil" lang="en"/>veil</def>,
+      <def><bibl>PE/17:173-174, NM/241,243</bibl> veil</def> <usg type="hint">frequently used of clouds in the sky;
+        seldom applied to any but things
+        of soft textures, such as woven veils, mantles, or curtains; and the like, of white or pale colours</usg>
+    </trans>
+  </sense>
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
     <usg type="cat" norm="1.73"/>
     <usg type="ext">by ext.</usg>
     <trans lang="fr">
-      <def><index lang="fr" level1="nuage"/>nuage</def> <usg type="hint">appliqué aux nuages, flottant comme des voiles au-dessus du ciel bleu ou du soleil ou de la lune, ou demeurant sur les collines</usg>
+      <def><index lang="fr" level1="nuage"/>nuage</def> <usg type="hint">appliqué aux nuages,
+        flottant comme des voiles au-dessus du ciel bleu ou du soleil ou de la lune, ou demeurant
+        sur les collines</usg>,
+      <def>nuage blanc, nuages flottants</def> <usg type="hint">tels que ceux se reposant un moment ou s’enroulant
+        autour des collines et du sommet des montagnes</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="cloud" lang="en"/>cloud</def> <usg type="hint">applied to clouds, floating as veils over the blue sky or the sun or moon, or resting on hills</usg>
+      <def><bibl>RGEO/74</bibl> <index level1="cloud" lang="en"/>cloud</def> <usg type="hint">applied
+        to clouds, floating as veils over the blue sky or the sun or moon, or resting on hills</usg>,
+      <def><bibl>PE/17:37</bibl> white cloud</def>,
+      <def><bibl>PE/17:174, NM/241,243</bibl> floating clouds</def> <usg type="hint">or those for a while resting upon or wreathing hills
+        and mountain-top</usg>,
+      <def><bibl>PE/17:180</bibl> nuage</def>
     </trans>
   </sense>
-  <note type="source"><bibl>RGEO/74</bibl></note>
+    <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <usg type="ext">by ext.</usg>
+    <trans lang="fr">
+      <def>l’esprit particulier qui habite un corps donné </def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/237</bibl> the particular spirit indwelling in a given body</def>
+    </trans>
+  </sense>
   <etym>Q fana</etym>
   <xr type="analogy"><ptr target="faun"/>, <ptr target="fain"/></xr>
 </entry>
@@ -17840,6 +18167,7 @@
   <form type="regular">
     <form>
       <orth>faun</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/387, VT/46:15</bibl>
       <pron>f"Aun</pron>
     </form>
   </form>
@@ -17852,10 +18180,9 @@
       <def><index lang="fr" level1="nuage"/>nuage</def>
     </trans>
     <trans lang="en">
-      <def><index level1="cloud" lang="en"/>cloud</def>
+      <def><bibl>Ety/387, VT/46:15</bibl> <index level1="cloud" lang="en"/>cloud</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/387, VT/46:15</bibl></note>
   <xr type="analogy"><ptr target="fain"/>, <ptr target="fân"/></xr>
 </entry>
 
@@ -17879,6 +18206,41 @@
       <def><bibl>VT/46:15</bibl> <index level1="beach" lang="en"/>beach, <index level1="shore" lang="en"/>shore</def>
     </trans>
   </sense>
+</entry>
+
+<entry id="feir">
+  <form type="regular">
+    <form>
+      <orth>feir</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/382, VT/46:10</bibl>
+    </form>
+    <form>
+      <orth>fœir</orth><usg type="lang" norm="N."/>
+      <bibl>VT/46:10</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <usg type="cat" norm="4.33"/>
+    <trans lang="fr">
+      <def>(<index lang="fr" level1="main"/>main) <index lang="fr" level1="droite"/>droite</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>Ety/382, VT/46:10</bibl> <index level1="right" lang="en"/>right (<index level1="hand" lang="en"/>hand)</def>
+    </trans>
+  </sense>
+  <note type="comment" lang="fr">
+    Dans une version antérieure de ce dictionnaire, nous suggérions <hi>fair</hi> comme forme normalisée de ce mot noldorin
+    en sindarin ultérieur. Comme l’ont noté d’autres chercheurs (Salo, Strack), ce mot dérive vraisemblablement de <hi>*pʰorja</hi>,
+    (d’où la forme archaïque <hi>fœir</hi>), ce qui conduirait probablement à <ptr target= "fuir"/>.
+  </note>
+  <note type="comment" lang="en">
+    In an earlier version of this dictionary, we suggested <hi>fair</hi> as normalized form of this Noldorin word in
+    later Sindarin. As noted by others scholars (Salo, Strack), this word conceivably derives from <hi>*pʰorja</hi>,
+    (hence the archaic form <hi>fœir</hi>), which would likely lead to <ptr target="fuir"/>.
+  </note>
 </entry>
 
 <entry id="feira-">
@@ -17905,16 +18267,16 @@
 <entry id="fela">
   <form type="regular">
     <form>
-      <orth>fela</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/381</bibl>
+      <orth>fela</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/381, NM/304</bibl>
       <pron>f"ElA</pron>
     </form>
   </form>
   <form type="inflected">
     <number>pl.</number>
     <form>
-      <orth>fili</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/381</bibl>
+      <orth>fili</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/381, NM/304</bibl>
       <pron>f"ili</pron>
     </form>
   </form>
@@ -17924,10 +18286,26 @@
     </gramGrp>
     <usg type="cat" norm="1.46"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="caverne"/>caverne</def>
+      <def><index lang="fr" level1="caverne"/>caverne</def>,
+      <def>excavations mineures faites par des animaux sauvages</def> <usg type="hint">souvent utilisées comme tanières ou terriers</usg>,
+      <def>terrier</def> <usg type="hint">de blaireaux</usg>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/381</bibl> <index level1="cave" lang="en"/>cave</def>
+      <def><bibl>Ety/381</bibl> <index level1="cave" lang="en"/>cave</def>,
+      <def><bibl>NM/304</bibl> minor excavations made by wild animals</def> <usg type="hint">often used as lairs or setts</usg>,
+           <def>sett</def> <usg type="hint">of badgers</usg>
+    </trans>
+  </sense>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <usg type="ext">by ext.</usg>
+    <trans lang="fr">
+      <def>habitation temporaire de gens errants</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/304</bibl> temporary dwelling by wandering folk</def>
     </trans>
   </sense>
 </entry>
@@ -17995,6 +18373,7 @@
   <form type="regular">
     <form>
       <orth>fêr</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/352, Ety/381</bibl>
       <pron>f"E:r</pron>
     </form>
   </form>
@@ -18002,6 +18381,7 @@
     <number>pl.</number>
     <form>
       <orth>ferin</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/352</bibl>
       <pron>f"Erin</pron>
     </form>
   </form>
@@ -18014,10 +18394,9 @@
       <def><index lang="fr" level1="hêtre"/>hêtre</def>
     </trans>
     <trans lang="en">
-      <def><index level1="beech" lang="en"/>beech-<index level1="tree" lang="en"/>tree</def>
+      <def><bibl>Ety/352, Ety/381</bibl> <index level1="beech" lang="en"/>beech-<index level1="tree" lang="en"/>tree</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/352, Ety/381</bibl></note>
 </entry>
 
 <entry id="feredir">
@@ -18083,7 +18462,7 @@
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
-    <trans lang="en">
+    <trans lang="fr">
       <def>qui est prompt à voir ou percevoir qqch., clairvoyant (ou à l’esprit vif)</def>
     </trans>
     <trans lang="en">
@@ -18129,7 +18508,7 @@
       <pron>f"irn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -18142,7 +18521,7 @@
       <def><bibl>Ety/381</bibl> <index level1="dead" lang="en"/>dead</def> <usg type="hint">of mortals</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -18419,7 +18798,7 @@
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
-        <xr type="of"><ptr target="fair.1"/></xr>
+        <xr type="of"><ptr target="fair"/></xr>
     <trans lang="fr">
       <def><index lang="fr" level1="mortel"/>mortels, tous les humains (le genre humain)</def>
     </trans>
@@ -18697,13 +19076,15 @@
   <form type="regular">
     <form>
       <orth>forodwaith</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/382</bibl>
       <pron>fOr"OdwAjT</pron>
     </form>
     <form>
       <orth>forodweith</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/398</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
@@ -18713,10 +19094,10 @@
       <def><index lang="fr" level1="Homme"/>hommes du nord</def>
     </trans>
     <trans lang="en">
-      <def><index level1="man" lang="en"/>Northmen</def>
+      <def><bibl>Ety/382, Ety/398</bibl> <index level1="man" lang="en"/>Northmen</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>class pl.</number>
     </gramGrp>
@@ -18725,10 +19106,9 @@
       <def>terres du nord</def>
     </trans>
     <trans lang="en">
-      <def>the lands of the North</def>
+      <def><bibl>Ety/382</bibl> the lands of the North</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/382, Ety/398</bibl></note>
   <etym>forod+gwaith</etym>
 </entry>
 
@@ -18762,7 +19142,7 @@
       <pron>f"OrvO</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -18774,7 +19154,7 @@
       <def><bibl>VT/47:6</bibl> <index level1="right" lang="en"/>right <index level1="hand" lang="en"/>hand</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -18845,6 +19225,7 @@
   <form type="regular">
     <form>
       <orth>fuin</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/354, Ety/382, S/431, RC/727, PE/17:120, VT/41:8, NM/279, NM/283</bibl>
       <pron>f"ujn</pron>
     </form>
   </form>
@@ -18854,20 +19235,25 @@
     </gramGrp>
     <usg type="cat" norm="1.62"/> <usg type="cat" norm="14.42"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="nuit"/>nuit, cœur de la nuit, <index lang="fr" level1="ténèbres"/>ténèbres, <index lang="fr" level1="obscurité"/>obscurité</def>
+      <def><index lang="fr" level1="nuit"/>nuit, cœur de la nuit,
+        <index lang="fr" level1="ténèbres"/>ténèbres, <index lang="fr" level1="obscurité"/>obscurité
+          période de la nuit, entre les crépuscules mais incluant la partie la plus
+          sombre de ceux-ci</def>
     </trans>
     <trans lang="en">
-      <def><index level1="night" lang="en"/>night, dead of night, <index level1="gloom" lang="en"/>gloom, <index level1="darkness" lang="en"/>darkness</def>
+      <def><bibl>Ety/354, Ety/382, RC/727, VT/41:8, NM/279</bibl> night,
+           <bibl>Ety/354</bibl> dead of night,
+           <bibl>S/431</bibl> gloom, darkness,
+           <bibl>NM/283</bibl> night, between the twilights but including the darker part of these</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/354, Ety/382, S/431</bibl></note>
 </entry>
 
 <entry id="fuir">
   <form type="regular">
     <form>
       <orth>fuir</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:20</bibl>
+      <bibl>VT/42:20, NM/392</bibl>
       <pron>f"ujr</pron>
     </form>
   </form>
@@ -18879,9 +19265,11 @@
       <def><index lang="fr" level1="nord"/>nord</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/42:20</bibl> <index level1="north" lang="en"/>north</def>
+      <def><bibl>VT/42:20, NM/392</bibl> <index level1="north" lang="en"/>north</def>
     </trans>
   </sense>
+  <note type="source,deduced"><mentioned>Eryn Fuir</mentioned> North Wood” <bibl>VT/42:20, NM/392</bibl></note>
+  <xr type="analogy"><ptr target="feir"/></xr>
 </entry>
 
 <entry id="gad-">
@@ -19371,7 +19759,7 @@
   </re>
 </entry>
 
-<entry id="galad">
+<entry id="galad.1" n="1">
   <form type="regular">
     <form>
       <orth>galad</orth><usg type="lang" norm="S."/>
@@ -19393,6 +19781,27 @@
   <note type="source"><bibl>VT/45:13, PM/347, Letters/425</bibl></note>
 </entry>
 
+<entry id="galad.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>galad</orth><usg type="lang" norm="S."/>
+      <bibl>NM/346</bibl>
+      <pron>g"AlAd</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>félicité</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/346</bibl> bliss</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="galadh">
   <form type="regular">
     <form>
@@ -19412,13 +19821,13 @@
       <def><index level1="tree" lang="en"/>tree</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/357, S/427, LotR/E, LB/354, RGEO/73, Letters/426, SD/302, PE/22:47</bibl></note>
+  <note type="source"><bibl>Ety/357, S/427, LotR/E, LB/354, RGEO/73, Letters/426, SD/302, PE/22:47, NM/346</bibl></note>
   <re corresp="galadhad">
     <form type="deduced">
       <orth>galadhad</orth><usg type="lang" norm="S."/>
     </form>
     <gramGrp>
-      <pos>n.</pos> <number>dual pl.</number>
+      <pos>n.</pos> <number>dual</number>
     </gramGrp>
   </re>
   <re corresp="galadhon">
@@ -19449,7 +19858,7 @@
   </form>
   <sense>
     <gramGrp>
-      <pos>n.</pos> <number>dual pl.</number>
+      <pos>n.</pos> <number>dual</number>
     </gramGrp>
     <xr type="of"><ptr target="galadh"/></xr>
     <usg type="dom">Theo.</usg>
@@ -19827,7 +20236,7 @@
       <pron>g"ArD</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -19839,7 +20248,7 @@
       <def><bibl>WJ/402</bibl> bounded or defined <index level1="region" lang="en"/>region</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -20039,6 +20448,7 @@
   <form type="regular">
     <form>
       <orth>gaur</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/377, PE/17:39, PE/19:107</bibl>
       <pron>g"Aur</pron>
     </form>
   </form>
@@ -20050,10 +20460,16 @@
       <def><index lang="fr" level1="loup"/>loup-garou, lycanthrope</def>
     </trans>
     <trans lang="en">
-      <def><index level1="werewolf" lang="en"/>werewolf</def>
+      <def><bibl>Ety/377, PE/19:107</bibl> <index level1="werewolf" lang="en"/>werewolf
+           <bibl>PE/17:39</bibl> were-wolf</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/377, PE/19:107</bibl></note>
+  <re>
+    <form>
+      <orth>ngaur</orth><usg type="lang" norm="S."/><itype type="nm">nasal mut.</itype>
+      <bibl>PE/17:39</bibl>
+    </form>
+  </re>
   <re corresp="gaurhoth">
     <form>
       <orth>gaurhoth</orth><usg type="lang" norm="S."/>
@@ -20089,14 +20505,15 @@
       <def>meute de <index lang="fr" level1="loup"/>loups-garous, de lycanthropes</def>
     </trans>
     <trans lang="en">
-      <def>group of <index level1="werewolf" lang="en"/>werewolves</def>
+      <def>group of <index level1="werewolf" lang="en"/>werewolves,
+           <bibl>PE/17:39</bibl> wolf-horde</def>
     </trans>
   </sense>
   <etym>gaur+hoth “wolf-host”</etym>
   <re>
     <form>
       <orth>ngaurhoth</orth><usg type="lang" norm="S."/><itype type="nm">nasal mut.</itype>
-      <bibl>LotR/II:IV</bibl>
+      <bibl>LotR/II:IV, PE/17:39</bibl>
     </form>
   </re>
 </entry>
@@ -20105,6 +20522,7 @@
   <form type="regular">
     <form>
       <orth>gaurwaith</orth><usg type="lang" norm="S."/>
+      <bibl>UT/85, UT/90</bibl>
       <pron>g"Aur.wAjT</pron>
     </form>
   </form>
@@ -20117,10 +20535,9 @@
       <def>hommes <index lang="fr" level1="loup"/>loups</def>
     </trans>
     <trans lang="en">
-      <def><index level1="wolf" lang="en"/>wolf-men</def>
+      <def><bibl>UT/85</bibl> <index level1="wolf" lang="en"/>wolf-men</def>
     </trans>
   </sense>
-  <note type="source"><bibl>UT/85, UT/90</bibl></note>
   <etym>gaur+gwaith</etym>
 </entry>
 
@@ -20200,6 +20617,7 @@
   <form type="regular">
     <form>
       <orth>geil</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/358</bibl>
       <pron>g"Ejl</pron>
     </form>
   </form>
@@ -20207,6 +20625,11 @@
     <number>pl.</number>
     <form>
       <orth>gîl</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/358</bibl>
+    </form>
+    <form>
+      <orth>gíl</orth><usg type="lang" norm="N."/>
+      <bibl>VT/45:15</bibl>
     </form>
   </form>
   <sense>
@@ -20218,10 +20641,9 @@
       <def><index lang="fr" level1="étoile"/>étoile, vive <index lang="fr" level1="étincelle"/>étincelle</def>
     </trans>
     <trans lang="en">
-      <def><index level1="star" lang="en"/>star, bright <index level1="spark" lang="en"/>spark</def>
+      <def><bibl>Ety/358</bibl> <index level1="star" lang="en"/>star, bright <index level1="spark" lang="en"/>spark</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/358, VT/45:15</bibl></note>
   <re corresp="giliath">
     <form>
       <orth>giliath</orth><usg type="lang" norm="S., N."/>
@@ -20394,7 +20816,7 @@
       <pron>gEn"Edi.Ad</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
@@ -20406,7 +20828,7 @@
       <def><bibl>SD/129-31</bibl> <index level1="reckoning" lang="en"/>reckoning</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>ger.</pos>
     </gramGrp>
@@ -20416,6 +20838,30 @@
     </trans>
     <trans lang="en">
       <def><index level1="calendar" lang="en"/>calendar</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="geria-">
+  <form type="regular">
+    <form type="normalized">
+      <orth>geria-</orth><usg type="lang" norm="S."/>
+      <pron>g"Eri.A</pron>
+    </form>
+    <form>
+      <orth>gœria-</orth><usg type="lang" norm="S."/>
+      <bibl>NM/176</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>réfléchir, méditer</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/176</bibl> to ponder</def>
     </trans>
   </sense>
 </entry>
@@ -20471,19 +20917,21 @@
   <form type="regular">
     <form>
       <orth>gil</orth><usg type="lang" norm="S."/>
+      <bibl>LotR/E, S/431, RGEO/73, VT/42:11, NM/382</bibl>
       <pron>g"il</pron>
     </form>
   </form>
   <sense>
     <usg type="dom">Astron.</usg><usg type="cat" norm="1.54"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="étoile"/>étoile, vive <index lang="fr" level1="étincelle"/>étincelle</def>
+      <def><index lang="fr" level1="étoile"/>étoile, vive <index lang="fr" level1="étincelle"/>étincelle,
+        scintillement de lumière</def>
     </trans>
     <trans lang="en">
-      <def><index level1="star" lang="en"/>star, bright <index level1="spark" lang="en"/>spark</def>
+      <def><index level1="star" lang="en"/>star, bright <index level1="spark" lang="en"/>spark,
+        <bibl>VT/42:11, NM/382</bibl> spark, twinkle of light, star</def>
     </trans>
   </sense>
-  <note type="source"><bibl>LotR/E, S/431, RGEO/73</bibl></note>
   <re corresp="giliath">
     <form>
      <orth>giliath</orth><usg type="lang" norm="S., N."/>
@@ -20712,6 +21160,48 @@
   <note type="source,deduced"><mentioned>gladh-</mentioned> <bibl>PM/359</bibl></note>
 </entry>
 
+<entry id="glae">
+  <form type="regular">
+    <form>
+      <orth>glae</orth><usg type="lang" norm="S."/>
+      <bibl>NM/283</bibl>
+      <pron>gl"AE</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>lumière</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/283</bibl> light</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="glaegal">
+  <form type="regular">
+    <form>
+      <orth>glaegal</orth><usg type="lang" norm="S."/>
+      <bibl>NM/283</bibl>
+      <pron>gl"AEgAl</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>lumière</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/283</bibl> light</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="glaer">
   <form type="regular">
     <form>
@@ -20780,7 +21270,7 @@
       <orth>glamb</orth><usg type="lang" norm="S., N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -20792,7 +21282,7 @@
       <def>barbarous <index level1="speech" lang="en"/>speech, <index level1="shouting" lang="en"/>shouting, confused <index level1="noise" lang="en"/>noise</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -20803,7 +21293,7 @@
       <def><index level1="din" lang="en"/>din, <index level1="uproar" lang="en"/>uproar, the confused <index level1="yelling" lang="en"/>yelling and <index level1="bellowing" lang="en"/>bellowing of beasts</def>
     </trans>
   </sense>
-  <sense n="3">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -21025,7 +21515,7 @@
       <def><index level1="boundary" lang="en"/>boundary</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>Glanduin, Glanhír</mentioned> <bibl>UT/264, UT/318, UT/441, VT/42:8</bibl></note>
+  <note type="source,deduced"><mentioned>Glanduin, Glanhír</mentioned> <bibl>UT/264, UT/318, UT/441, VT/42:8, NM/378</bibl></note>
 </entry>
 
 <entry id="glandagol">
@@ -21076,14 +21566,42 @@
   </sense>
 </entry>
 
+<entry id="glathralvas">
+  <form type="regular">
+    <form>
+      <orth>glathralvas</orth><usg type="lang" norm="S."/>
+      <bibl>NM/354</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>Dispositif eldarin pour échanger des signaux à distance</def> <usg type="hint">comme un héliographe,
+        bien qu’aussi utilisable par une lune claire ; évidemment petit, pouvant être glissé dans une poche, 
+        et le flash qu’il produisait n’aurait pas été visible pour un observateur humain, en tout cas pas à distance</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/354</bibl> Eldarin device for signaling from afar</def> <usg type="hint">like a heliograph,
+        though […] also usable in a clear moon; evidently small, able to be slipped into a slender pouch
+        or pocket, and the flash that it gave would not have been visible by human eyes, at any rate not
+        at a distance</usg>,
+        <def>lit. “flashing glass/crystal”</def>
+    </trans>
+  </sense>
+</entry>
+
 <entry id="glaur">
   <form type="regular">
     <form>
       <orth>glaur</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/358, Ety/368</bibl>
       <pron>gl"Aur</pron>
     </form>
     <form>
       <orth>glor-</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/358, Ety/368</bibl>
     </form>
   </form>
   <sense>
@@ -21095,10 +21613,9 @@
       <def><index lang="fr" level1="lumière"/>lumière dorée</def> <usg type="hint">de l’arbre doré Laurelin</usg>
     </trans>
     <trans lang="en">
-      <def>golden <index level1="light" lang="en"/>light</def> <usg type="hint">of the golden tree Laurelin</usg>
+      <def><bibl>Ety/358, Ety/368</bibl> golden <index level1="light" lang="en"/>light</def> <usg type="hint">of the golden tree Laurelin</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/358, Ety/368</bibl></note>
 </entry>
 
 <entry id="glavra-">
@@ -21183,7 +21700,8 @@
 <entry id="glawar">
   <form type="regular">
     <form>
-      <orth>glawar</orth><usg type="lang" norm="N."/>
+      <orth>glawar</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/368, VT/45:15, PE/17:159, PE/17:17,48,61, VT/41:10, NM/351</bibl>
       <pron>gl"AwAr</pron>
     </form>
   </form>
@@ -21196,10 +21714,13 @@
       <def><index lang="fr" level1="lumière"/>lumière du soleil, <index lang="fr" level1="éclat"/>éclat</def> <usg type="hint">de l’arbre doré Laurelin</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="sunlight" lang="en"/>sunlight, <index level1="radiance" lang="en"/>radiance</def> <usg type="hint">of the golden tree Laurelin</usg>
+      <def><bibl>Ety/368, VT/45:15</bibl> <index level1="sunlight" lang="en"/>sunlight,
+                 <index level1="radiance" lang="en"/>radiance</def>
+                <usg type="hint">of the golden tree Laurelin</usg>,
+      <def><bibl>PE/17:61, NM/351</bibl> golden light,
+           <bibl>PE/17:159</bibl> golden colour of sunshine or golden flowers</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/368, VT/45:15</bibl></note>
 </entry>
 
 <entry id="gleina-">
@@ -21942,7 +22463,7 @@
   <form type="regular">
     <form>
       <orth>goloth</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:18</bibl>
+      <bibl>VT/42:18, NM/390</bibl>
       <pron>g"OlOT</pron>
     </form>
   </form>
@@ -21955,7 +22476,7 @@
       <def><index lang="fr" level1="inflorescence"/>inflorescence, un bouquet de petites <index lang="fr" level1="fleur"/>fleurs</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/42:18</bibl> <index level1="inflorescence" lang="en"/>inflorescence, a head of small <index level1="flower" lang="en"/>flowers</def>
+      <def><bibl>VT/42:18, NM/390</bibl> <index level1="inflorescence" lang="en"/>inflorescence, a head of small <index level1="flower" lang="en"/>flowers</def>
     </trans>
   </sense>
   <xr type="analogy"><ptr target="gwaloth"/></xr>
@@ -22205,6 +22726,35 @@
   <note type="source"><bibl>Ety/378, Ety/399, VT/46:6</bibl></note>
 </entry>
 
+<entry id="gor-">
+  <form type="regular">
+    <form>
+      <orth>gor-</orth><usg type="lang" norm="S."/>
+      <bibl>VT/41:11, NM/219</bibl>
+      <pron>g"Or</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>avertir</def> <usg type="hint">ne faisant pas uniquement référence aux dangers, maux ou
+           difficultés à venir ; pouvant être utilisé à propos de l’influence d’une personne sur une autre
+          par des signes visibles ou audibles, mots ou gestes</usg>,
+       <def>conseiller</def> <usg type="hint">de sens plus proche, mais pas son utilisation
+          principale</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>VT/41:11, NM/219</bibl> to warn</def> <usg type="hint">not only to
+        dangers, evils, or difficulties ahead; could be used of the influence of one
+        person upon another by visible or audible signs, words or signs</usg>,
+      <def>counsel</def> <usg type="hint">of nearer sense, but this was not its chief use</usg>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="gûr.1"/></xr>
+</entry>
+
 <entry id="gorbedui">
   <form type="regular">
     <form>
@@ -22227,7 +22777,7 @@
   <xr type="analogy"><ptr target="dirbedui"/></xr>
 </entry>
 
-<entry id="gordh">
+<entry id="gordh.1" n="1">
   <form type="regular">
     <form>
       <orth>gordh</orth><usg type="lang" norm="S."/>
@@ -22244,6 +22794,27 @@
     </trans>
     <trans lang="en">
       <def><bibl>PE/17:154</bibl> difficult, laborious</def>
+    </trans>
+  </sense>
+</entry>
+
+<entry id="gordh.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>gordh</orth><usg type="lang" norm="S."/>
+      <bibl>NM/176</bibl>
+      <pron>g"OrD</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>pensée profonde</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/176</bibl> deep thought</def>
     </trans>
   </sense>
 </entry>
@@ -22841,7 +23412,7 @@
       <pron>gr"OT</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -22853,7 +23424,7 @@
       <def><index level1="cave" lang="en"/>cave, <index level1="tunnel" lang="en"/>tunnel, large <index level1="excavation" lang="en"/>excavation</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -22936,7 +23507,7 @@
       <pron>g"u:l</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -22947,7 +23518,7 @@
       <def><index level1="magic" lang="en"/>magic lore, long <index level1="study" lang="en"/>study</def> <usg type="hint">being used mostly of secret knowledge, especially such as possessed by artificers who made wonderful things</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -22987,7 +23558,7 @@
   <form type="regular">
     <form>
       <orth>gûr</orth><usg type="lang" norm="S."/>
-      <bibl>VT/41:11,15</bibl>
+      <bibl>VT/41:11,15, NM/219-220</bibl>
       <pron>g"u:r</pron>
     </form>
   </form>
@@ -23000,7 +23571,7 @@
       <def>fort intérieur, conseil</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/41:11,15</bibl> <index level1="heart" lang="en"/>heart</def> <usg type="hint">in the moral sense</usg>, <def>inner mind, <index level1="counsel" lang="en"/>counsel</def>
+      <def><bibl>VT/41:11,15, NM/129-220</bibl> <index level1="heart" lang="en"/>heart</def> <usg type="hint">in the moral sense</usg>, <def>inner mind, <index level1="counsel" lang="en"/>counsel</def>
     </trans>
   </sense>
 </entry>
@@ -23226,7 +23797,7 @@
   <form type="regular">
     <form>
       <orth>gwae</orth><usg type="lang" norm="S."/>
-      <bibl>PE/17:189</bibl>
+      <bibl>PE/17:189, NM/237</bibl>
       <pron>gw"AE</pron>
     </form>
   </form>
@@ -23236,10 +23807,11 @@
     </gramGrp>
     <usg type="cat" norm="1.72"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="vent"/>vent</def>
+      <def><index lang="fr" level1="vent"/>vent, vent violent</def>
     </trans>
     <trans lang="en">
-      <def><bibl>PE/17:189</bibl> <index level1="wind" lang="en"/>wind</def>
+      <def><bibl>PE/17:189</bibl> <index level1="wind" lang="en"/>wind,
+           <bibl>NM/237</bibl> violent wind</def>
     </trans>
   </sense>
 </entry>
@@ -23348,7 +23920,7 @@
   <form type="regular">
     <form>
       <orth>gwaeren</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:15</bibl>
+      <bibl>VT/42:15, NM/386</bibl>
       <pron>gw"AErEn</pron>
     </form>
   </form>
@@ -23360,9 +23932,10 @@
       <def><index lang="fr" level1="venteux"/>venteux</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/42:15</bibl> <index level1="windy" lang="en"/>windy</def>
+      <def><bibl>VT/42:15, NM/386</bibl> <index level1="windy" lang="en"/>windy</def>
     </trans>
   </sense>
+  <note type="source,deduced"><mentioned>Côf gwaeren Bel</mentioned> ‘the windy Bay of Bêl’ <bibl>VT/45:15, NM/386</bibl></note>
 </entry>
 
 <entry id="gwaeron">
@@ -23391,8 +23964,8 @@
 <entry id="gwaew">
   <form type="regular">
     <form>
-      <orth>gwaew</orth><usg type="lang" norm="N."/>
-      <bibl>Ety/397</bibl>
+      <orth>gwaew</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/397, NM/237</bibl>
       <pron>gw"AEw</pron>
     </form>
   </form>
@@ -23402,10 +23975,11 @@
     </gramGrp>
     <usg type="cat" norm="1.72"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="vent"/>vent</def>
+      <def><index lang="fr" level1="vent"/>vent, tempête</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/397</bibl> <index level1="wind" lang="en"/>wind</def>
+      <def><bibl>Ety/397</bibl> <index level1="wind" lang="en"/>wind,
+           <bibl>NM/237</bibl> storm</def>
     </trans>
   </sense>
 </entry>
@@ -23449,7 +24023,7 @@
       <orth>gweith</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23460,7 +24034,7 @@
       <def><index level1="manhood" lang="en"/>manhood</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23472,7 +24046,7 @@
       <def>man power, <index level1="troop" lang="en"/>troop of able-bodied men, <index level1="host" lang="en"/>host, <index level1="regiment" lang="en"/>regiment, <index level1="people" lang="en"/>people</def>
     </trans>
   </sense>
-  <sense n="3">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23701,7 +24275,7 @@
       <pron>gw"Anur</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23712,7 +24286,7 @@
       <def>a pair of <index level1="twin" lang="en"/>twins</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -23797,7 +24371,7 @@
       <pron>gw"AT</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -23809,7 +24383,7 @@
       <def><index level1="shade" lang="en"/>shade, <index level1="shadow" lang="en"/>shadow, dim light</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -23820,7 +24394,7 @@
       <def><index level1="stain" lang="en"/>stain</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/397, VT/42:9, S/432</bibl></note>
+  <note type="source"><bibl>Ety/397, VT/42:9, S/432, NM/381, PE/17:41</bibl></note>
   <re corresp="gwethion">
     <form type="deduced">
       <orth>gwethion</orth><usg type="lang" norm="N."/>
@@ -24565,7 +25139,7 @@
       <pron>gw"iN</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -24576,7 +25150,7 @@
       <def><index level1="spindrift" lang="en"/>spindrift, flying <index level1="spray" lang="en"/>spray</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -24594,10 +25168,11 @@
   <form type="regular">
     <form>
       <orth>gwinig</orth><usg type="lang" norm="S."/>
+      <bibl>VT/48:6,16-17, NM/184</bibl>
       <pron>gw"inig</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -24605,10 +25180,10 @@
       <def>« petit <index lang="fr" level1="bébé"/>bébé »</def>
     </trans>
     <trans lang="en">
-      <def>“litte <index level1="baby" lang="en"/>baby”</def>
+      <def><bibl>VT/48:6,16-17, NM/184</bibl> “litte one, <index level1="baby" lang="en"/>baby”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -24617,10 +25192,9 @@
       <def><index lang="fr" level1="auriculaire"/>auriculaire</def> <usg type="hint">dans le vocabulaire enfantin</usg>
     </trans>
     <trans lang="en">
-      <def>little <index level1="finger" lang="en"/>finger</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
+      <def><bibl>VT/48:6,16-17, NM/184</bibl> little <index level1="finger" lang="en"/>finger</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>VT/48:6,16-17</bibl></note>
 </entry>
 
 <entry id="gwinion">
@@ -24755,13 +25329,13 @@
   </sense>
   <note type="comment" lang="fr">
     Le sens de <hi>shore</hi> (« rivage ») dans <bibl>Ety/386</bibl> est une erreur de
-    lecture pour <hi>shoe</hi> (« chaussure »), voir <bibl>VT/Errata</bibl> et <bibl>Lambengolmor/735</bibl>.
+    lecture pour <hi>shoe</hi> (« chaussure »), voir <bibl>VT/Errata</bibl> et <bibl>Lamb/735</bibl>.
     Comparer aussi avec le qenya <hi>hyapa</hi> (<bibl>PE/13:41</bibl>) et le gnomique
     <hi>habin</hi> (<bibl>PE/11:47</bibl>), de même sens.
   </note>
   <note type="comment" lang="en">
     The meaning “shore” in <bibl>Ety/386</bibl> is a misreading for “shoe”,
-    see <bibl>VT/Errata</bibl> and <bibl>Lambengolmor/735</bibl>.
+    see <bibl>VT/Errata</bibl> and <bibl>Lamb/735</bibl>.
     Compare also with Early Qenya <hi>hyapa</hi> (<bibl>PE/13:41</bibl>) and Gnomish
     <hi>habin</hi> (<bibl>PE/11:47</bibl>), both glossed as “shoe”.
   </note>
@@ -25855,7 +26429,7 @@
       <pron>h"ArvO</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -25867,7 +26441,7 @@
       <def><bibl>VT/47:6</bibl> <index level1="left" lang="en"/>left <index level1="hand" lang="en"/>hand</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -25966,7 +26540,7 @@
       <orth>hathal</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -25978,7 +26552,7 @@
       <def><index level1="broadsword" lang="en"/>broadsword-<index level1="blade" lang="en"/>blade, axe-blade</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -26415,7 +26989,7 @@
       <orth>hent</orth><usg type="lang" norm="N."/>
     </form>
     <gramGrp>
-      <pos>n.</pos> <number>dual pl.</number>
+      <pos>n.</pos> <number>dual</number>
     </gramGrp>
   </re>
 </entry>
@@ -26570,7 +27144,7 @@
   </form>
   <sense>
     <gramGrp>
-      <pos>n.</pos> <number>dual pl.</number>
+      <pos>n.</pos> <number>dual</number>
     </gramGrp>
     <xr type="of"><ptr target="hen.2"/></xr>
     <usg type="dom">Biol.</usg>
@@ -26850,7 +27424,7 @@
       <pron>h"im</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -26862,7 +27436,7 @@
            <index level1="abiding" lang="en"/>abiding</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -27048,7 +27622,7 @@
       <pron>h"iTuj</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -27059,7 +27633,7 @@
       <def>foggy, misty</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -27217,10 +27791,11 @@
   <form type="regular">
     <form>
       <orth>honeg</orth><usg type="lang" norm="S."/>
+      <bibl>VT/48:6,16-17, NM/184</bibl>
       <pron>h"OnEg</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -27229,10 +27804,10 @@
       <def>« petit <index lang="fr" level1="frère"/>frère »</def>
     </trans>
     <trans lang="en">
-      <def>“litte <index level1="brother" lang="en"/>brother”</def>
+      <def><bibl>VT/48:6,16-17, NM/184</bibl> “litte <index level1="brother" lang="en"/>brother”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -27241,17 +27816,17 @@
       <def><index lang="fr" level1="majeur"/>majeur</def> <usg type="hint">dans le vocabulaire enfantin</usg>
     </trans>
     <trans lang="en">
-      <def>middle <index level1="finger" lang="en"/>finger</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
+      <def><bibl>VT/48:6,16-1, NM/184</bibl> middle <index level1="finger" lang="en"/>finger</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>VT/48:6,16-17</bibl></note>
   <note type="comment" lang="fr">
     Le manuscrit initial dans <bibl>VT/47:14</bibl> donnait <hi>honig</hi>,
     mais se référer tout particulièrement à <bibl>VT/48:17</bibl> n. 13 pour une discussion
     des formes diminutives en sindarin.
   </note>
   <note type="comment" lang="en">
-    Given as <hi>honig</hi> in <bibl>VT/47:14</bibl>, but see <bibl>VT/48:17</bibl> n. 13 for discussion.
+    The initial manuscript in <bibl>VT/47:14</bibl> gave <hi>honig</hi>, but see especially <bibl>VT/48:17</bibl>
+    n. 13 for a discussion on diminutive forms in Sindarin.
   </note>
   <xr type="analogy"><ptr target="toleg"/></xr>
 </entry>
@@ -27711,7 +28286,7 @@
       <pron>in</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>art.</pos>
     </gramGrp>
@@ -27722,7 +28297,7 @@
       <def><index level1="the" lang="en"/>the</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>pron.</pos> <subc>rel.</subc>
     </gramGrp>
@@ -27746,7 +28321,7 @@
       <orth>ia</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -27757,7 +28332,7 @@
       <def><index level1="gulf" lang="en"/>gulf</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -27967,7 +28542,7 @@
     candidat pour une construction superlative (de toute évidence construite à partir
     du préfixe intensif <hi>an-</hi> et de <hi>iaur</hi>, abrégé en position finale).
     En outre, la comparaison de <hi>iarwain</hi> avec <ptr target="narwain"/>
-    a fait noter à Bertrand Bellet (dans son message <bibl>Lambengolmor/642</bibl>) que <hi>iarwain</hi>
+    a fait noter à Bertrand Bellet (dans son message <bibl>Lamb/642</bibl>) que <hi>iarwain</hi>
     pourrait être interprêté comme un vieux composé, de l’elfique primitif <hi>*jâra</hi>
     (Q. <hi>yára</hi>, S. <ptr target="iaur"/>) et <hi>*winjâ</hi> (Q. <hi>vinya</hi>,
     S. <ptr target="gwain"/>).
@@ -27984,7 +28559,7 @@
     as “eldest”), makes a much better candidate for a superlative construct
     (conceivably built from the intensive prefix <hi>an-</hi> and <hi>iaur</hi> shortened
     in final position). Moreover, comparing <hi>iarwain</hi> to <ptr target="narwain"/>,
-    Bertrand Bellet noted in <bibl>Lambengolmor/642</bibl> that <hi>iarwain</hi> could as well be
+    Bertrand Bellet noted in <bibl>Lamb/642</bibl> that <hi>iarwain</hi> could as well be
     interpreted as an old compound construct, of the primitive <hi>*jâra</hi> (Q. <hi>yára</hi>,
     S. <ptr target="iaur"/>) and <hi>*winjâ</hi> (Q. <hi>vinya</hi>, S. <ptr target="gwain"/>).
     He thus suggested that <hi>iarwain</hi> could actually mean “old-new”. This analysis
@@ -28141,7 +28716,7 @@
       <pron>j"Aur</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -28153,7 +28728,7 @@
       <def><index level1="ancient" lang="en"/>ancient, <index level1="old" lang="en"/>old, original</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -28298,7 +28873,7 @@
       <pron>j"El,l</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -28310,7 +28885,7 @@
       <def><index level1="daughter" lang="en"/>daughter</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -28483,9 +29058,10 @@
     <trans lang="en">
       <def>deep valley, narrow <index level1="valley" lang="en"/>valley with steep sides</def>
       <usg type="hint">but a flat habitable bottom</usg>
+      <def><bibl>NM/365</bibl> cleft of great length in mountains between very high walls</def>
     </trans>
   </sense>
-  <note type="source"><bibl>S/433, LotR/Index, VT/45:18, VT/47:14, RC/234,482</bibl></note>
+  <note type="source"><bibl>S/433, LotR/Index, VT/45:18, VT/47:14, RC/234,482, NM/365</bibl></note>
   <etym>im+lad</etym>
 </entry>
 
@@ -28508,13 +29084,13 @@
       <def>flower-<index level1="valley" lang="en"/>valley, flowery vale</def>
     </trans>
   </sense>
-  <note type="source"><bibl>LotR/V:VIII, VT/42:18, RC/582</bibl></note>
+  <note type="source"><bibl>LotR/V:VIII, VT/42:18, NM/390, RC/582</bibl></note>
   <note type="comment" lang="fr">
     Ce mot apparaît uniquement dans le toponyme <hi>Imloth Melui</hi>,
-    une vallée où poussaient des roses
+    une vallée où poussaient des roses.
   </note>
   <note type="comment" lang="en">
-    This word only occurs in the place name <hi>Imloth Melui</hi>, a vale where roses grew
+    This word only occurs in the place name <hi>Imloth Melui</hi>, a vale where roses grew.
   </note>
   <etym>im+loth</etym>
 </entry>
@@ -28868,7 +29444,7 @@
       <bibl>Ety/400</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen>
     </gramGrp>
@@ -28880,7 +29456,7 @@
       <def><bibl>Ety/400</bibl> <index level1="son" lang="en"/>son</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>m.</gen>
     </gramGrp>
@@ -28998,7 +29574,7 @@
       <pron>"ir</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>conj.</pos>
     </gramGrp>
@@ -29009,7 +29585,7 @@
       <def><index level1="when" lang="en"/>(?) when</def>
     </trans>
   </sense>
-    <sense n="2">
+    <sense>
     <gramGrp>
       <pos>art.</pos>
     </gramGrp>
@@ -29838,7 +30414,7 @@
   <form type="regular">
     <form>
       <orth>laegrim</orth><usg type="lang" norm="S."/>
-      <bibl>WJ/385</bibl>
+      <bibl>WJ/385, NM/364</bibl>
       <pron>l"AEgrim</pron>
     </form>
     <form>
@@ -29853,10 +30429,11 @@
     <xr type="of"><ptr target="laegel"/></xr>
     <usg type="dom">Pop.</usg>
     <trans lang="fr">
-      <def>le peuple des <index lang="fr" level1="Elfe"/>Elfes Verts</def>
+      <def>(le peuple des) <index lang="fr" level1="Elfe"/>Elfes Verts</def>
     </trans>
     <trans lang="en">
-      <def><bibl>WJ/385</bibl> the people of the Green <index level1="elf" lang="en"/>Elves</def>
+      <def><bibl>WJ/385</bibl> (the people of the) Green <index level1="elf" lang="en"/>Elves,
+           <bibl>NM/364</bibl> Green-elves</def>
     </trans>
   </sense>
   <etym>laegel+rim</etym>
@@ -30692,7 +31269,7 @@
       <def><index level1="leaf" lang="en"/>leaf</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/367, Letters/282, TC/169</bibl></note>
+  <note type="source"><bibl>Ety/367, Letters/282, TC/169, RC/760, PE/17:49,62, PE/22:166, VT/42:19, NM/391</bibl></note>
 </entry>
 
 <entry id="lasta-">
@@ -31034,12 +31611,12 @@
   <form type="regular">
     <form>
       <orth>lebdas</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:5</bibl>
+      <bibl>VT/48:5, NM/183</bibl>
       <pron>l"EbdAs</pron>
     </form>
     <form>
       <orth>tas</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:5</bibl>
+      <bibl>VT/48:5, NM/183</bibl>
     </form>
   </form>
   <sense>
@@ -31051,7 +31628,7 @@
       <def><index lang="fr" level1="index"/>index</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:5</bibl> <index level1="index" lang="en"/>index <index level1="finger" lang="en"/>finger</def>
+      <def><bibl>VT/48:5, NM/183</bibl> forefinger, <index level1="index" lang="en"/>index <index level1="finger" lang="en"/>finger</def>
     </trans>
   </sense>
   <xr type="analogy"><ptr target="nobad"/></xr>
@@ -31125,7 +31702,7 @@
   <form type="regular">
     <form>
       <orth>lebenedh</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:5</bibl>
+      <bibl>VT/48:5, NM/183</bibl>
       <pron>l"EbEnED</pron>
     </form>
   </form>
@@ -31139,7 +31716,7 @@
            « <index lang="fr" level1="doigt"/>doigt du milieu »</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:5</bibl> middle <index level1="finger" lang="en"/>finger</def>
+      <def><bibl>VT/48:5, NM/183</bibl> middle <index level1="finger" lang="en"/>finger</def>
     </trans>
   </sense>
 </entry>
@@ -31148,7 +31725,7 @@
   <form type="regular">
     <form>
       <orth>lebent</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:5</bibl>
+      <bibl>VT/48:5, NM/183</bibl>
       <pron>l"EbEnt</pron>
     </form>
   </form>
@@ -31161,7 +31738,7 @@
       <def><index lang="fr" level1="annulaire"/>annulaire, « <index lang="fr" level1="doigt"/>doigt qui porte l’anneau »</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:5</bibl> ring <index level1="finger" lang="en"/>finger</def>
+      <def><bibl>VT/48:5, NM/183</bibl> ring <index level1="finger" lang="en"/>finger</def>
     </trans>
   </sense>
 </entry>
@@ -31170,7 +31747,7 @@
   <form type="regular">
     <form>
       <orth>leber</orth><usg type="lang" norm="S."/>
-      <bibl>VT/47:10,23-24, VT/48:5</bibl>
+      <bibl>VT/47:10,23-24, VT/48:5, NM/183</bibl>
       <pron>l"EbEr</pron>
     </form>
   </form>
@@ -31178,7 +31755,7 @@
     <number>pl.</number>
     <form>
       <orth>lebir</orth><usg type="lang" norm="S."/>
-      <bibl>VT/47:10,23-24, VT/48:5</bibl>
+      <bibl>VT/47:10,23-24, VT/48:5, NM/183</bibl>
       <pron>l"Ebir</pron>
     </form>
   </form>
@@ -31191,7 +31768,7 @@
       <def><index lang="fr" level1="doigt"/>doigt</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/47:10,23-24, VT/48:5</bibl> <index level1="finger" lang="en"/>finger</def>
+      <def><bibl>VT/47:10,23-24, VT/48:5, NM/183</bibl> <index level1="finger" lang="en"/>finger</def>
     </trans>
   </sense>
 </entry>
@@ -31233,7 +31810,7 @@
   <form type="regular">
     <form>
       <orth>lebig</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:5,15</bibl>
+      <bibl>VT/48:5,15, NM/183</bibl>
       <pron>l"Ebig</pron>
     </form>
   </form>
@@ -31247,7 +31824,7 @@
            petit <index lang="fr" level1="doigt"/>doigt</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:5,15</bibl> little <index level1="finger" lang="en"/>finger</def>
+      <def><bibl>VT/48:5,15, NM/183</bibl> little <index level1="finger" lang="en"/>finger</def>
     </trans>
   </sense>
   <xr type="analogy"><ptr target="niged"/></xr>
@@ -31594,7 +32171,7 @@
   </form>
   <sense>
     <gramGrp>
-      <pos>n.</pos> <number>dual pl.</number>
+      <pos>n.</pos> <number>dual</number>
     </gramGrp>
     <usg type="dom">Biol.</usg><usg type="cat" norm="4.22"/>
     <trans lang="fr">
@@ -31671,6 +32248,43 @@
     </trans>
   </sense>
   <note type="source"><bibl>Ety/368, PE/17:62</bibl></note>
+</entry>
+
+<entry id="lhim">
+  <form type="regular">
+    <form>
+      <orth>lhim</orth><usg type="lang" norm="S."/>
+      <bibl>NM/284</bibl>
+      <pron>K"im</pron>
+    </form>
+    <form type="deleted">
+      <orth>limb</orth><usg type="lang" norm="S."/>
+      <bibl>NM/285</bibl>
+    </form>
+      <form type="deleted">
+      <orth>limm</orth><usg type="lang" norm="S."/>
+      <bibl>NM/285</bibl>
+    </form>
+        <form type="deleted">
+      <orth>lim</orth><usg type="lang" norm="S."/>
+      <bibl>NM/285</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>adj.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>glissant, lisse</def>
+        <usg type="hint">à propos d’une surface brillante, du mouvement de choses rapides ou fluides ;
+          par ex. de poissons, serpents, bateaux légers ; d’un tirant d’eau ou d’un écoulement de liquide</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/284-285</bibl> sliding, gliding, slippery, sleek</def>
+        <usg type="hint">of shiny or gleaming surface, quick movement of swiftly moving or flowing things;
+          e.g. of fish, snake, light boats; shallow draught, waters or flowing liquid</usg>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="lhind">
@@ -32093,7 +32707,7 @@
   </sense>
 </entry>
 
-<entry id="limp">
+<entry id="limp.1" n="1">
   <form type="regular">
     <form type="normalized">
       <orth>limp</orth><usg type="lang" norm="*S."/>
@@ -32116,6 +32730,40 @@
       <def><bibl>Ety/369</bibl> <index level1="wet" lang="en"/>wet</def>
     </trans>
   </sense>
+</entry>
+
+<entry id="limp.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>limp</orth><usg type="lang" norm="S."/>
+      <bibl>NM/284</bibl>
+      <pron>l"imp</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>liquide (clair ou brillant)</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/284</bibl> (bright, clear, gleaming) liquid</def>
+    </trans>
+  </sense>
+  <sense>
+    <usg type="ext">by ext.</usg>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>étang ou ruisseau d’eau claire et propre</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/284</bibl> pool or rill of clear clean water</def>
+    </trans>
+  </sense>
+  <etym><hi>*limpi</hi> &lt; C.E. n. <hi>*liŋkwi</hi> <bibl>NM/284</bibl></etym>
 </entry>
 
 <entry id="lín">
@@ -32192,7 +32840,7 @@
       <orth>lhinn</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -32203,7 +32851,7 @@
       <def><index level1="air" lang="en"/>air, <index level1="tune" lang="en"/>tune</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -32309,7 +32957,7 @@
       <pron>l"innOd</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -32320,7 +32968,7 @@
       <def>(?) a single <index level1="verse" lang="en"/>verse used as a <index level1="maxim" lang="en"/>maxim</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -32510,10 +33158,10 @@
       <def><index lang="fr" level1="lac"/>lac peu profond, <index lang="fr" level1="marais"/>marais</def>
     </trans>
     <trans lang="en">
-      <def>shallow <index level1="lake" lang="en"/>lake, <index level1="fenland" lang="en"/>fenland</def>
+      <def>shallow <index level1="lake" lang="en"/>lake, <index level1="fenland" lang="en"/>fenland, fen</def>
     </trans>
   </sense>
-  <note type="source"><bibl>UT/263, VT/42:8-10</bibl></note>
+  <note type="source"><bibl>UT/263, VT/42:8-10, NM/385</bibl></note>
 </entry>
 
 <entry id="lobor">
@@ -32750,7 +33398,7 @@
       <orth>lhonn</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -32762,7 +33410,7 @@
       <def>narrow <index level1="path" lang="en"/>path or <index level1="strait" lang="en"/>strait</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -32823,7 +33471,7 @@
       <bibl>VT/45:29</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -32834,7 +33482,7 @@
       <def><bibl>VT/45:29</bibl> quiet <index level1="water" lang="en"/>water</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -32868,7 +33516,7 @@
       <def><index level1="snow" lang="en"/>snow</def> <usg type="hint">especially fallen or long-lying snow</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>S/434, VT/42:18, RGEO/70</bibl></note>
+  <note type="source"><bibl>S/434, VT/42:18, NM/389, RGEO/70</bibl></note>
   <re corresp="Lossoth">
     <form>
       <orth>Lossoth</orth><usg type="lang" norm="S."/>
@@ -33009,7 +33657,7 @@
   <form type="regular">
     <form>
       <orth>lotheg</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:18</bibl>
+      <bibl>VT/42:18, NM/390</bibl>
       <pron>l"OTEg</pron>
     </form>
   </form>
@@ -33023,7 +33671,7 @@
       <def><index lang="fr" level1="fleur"/>fleur (unique)</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/42:18</bibl> (single) <index level1="flower" lang="en"/>flower</def>
+      <def><bibl>VT/42:18, NM/390</bibl> (single) <index level1="flower" lang="en"/>flower</def>
     </trans>
   </sense>
   <etym>loth + -eg</etym>
@@ -33577,7 +34225,7 @@
       <bibl>Ety/386</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -33588,7 +34236,7 @@
       <def><bibl>Ety/386</bibl> <index level1="stain" lang="en"/>stain</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -34174,7 +34822,7 @@
       <def>golden <index level1="tree" lang="en"/>tree of Lothlórien</def>
     </trans>
   </sense>
-  <note type="source"><bibl>S/435, LotR/II:IV, VT/42:27, Tengwestie/20031207</bibl></note>
+  <note type="source"><bibl>S/435, LotR/II:IV, VT/42:27, NM/362, Tengwestie/20031207</bibl></note>
   <etym>malt+orn “tree of gold”</etym>
 </entry>
 
@@ -34299,7 +34947,7 @@
       <pron>m"AnAD</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -34312,7 +34960,7 @@
            <index level1="fortune" lang="en"/>fortune</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -34802,14 +35450,14 @@
       <def><index level1="lovely" lang="en"/>lovely, <index level1="sweet" lang="en"/>sweet</def>
     </trans>
   </sense>
-  <note type="source"><bibl>LotR/V:VIII, VT/42:18, RC/582</bibl></note>
+  <note type="source"><bibl>LotR/V:VIII, VT/42:18, NM/390, RC/582</bibl></note>
   <note type="comment" lang="fr">
     Ce mot apparaît uniquement dans le toponyme <hi>Imloth Melui</hi>,
-    une vallée où poussaient des roses
+    une vallée où poussaient des roses.
   </note>
   <note type="comment" lang="en">
     This word only occurs in the place name <hi>Imloth Melui</hi>,
-    a vale where roses grew
+    a vale where roses grew.
   </note>
 </entry>
 
@@ -34873,6 +35521,10 @@
       <bibl>UT/280</bibl>
       <pron>m"En</pron>
     </form>
+    <form>
+      <orth>menn</orth><usg type="lang" norm="S."/>
+      <bibl>NM/372-373</bibl>
+    </form>
   </form>
   <sense>
     <gramGrp>
@@ -34883,7 +35535,8 @@
       <def><index lang="fr" level1="voie"/>voie, <index lang="fr" level1="route"/>route</def>
     </trans>
     <trans lang="en">
-      <def><index level1="way" lang="en"/>way, <index level1="road" lang="en"/>road</def>
+      <def><bibl>UT/280</bibl> <index level1="way" lang="en"/>way,
+           <bibl>UT/280, NM/372</bibl> <index level1="road" lang="en"/>road</def>
     </trans>
   </sense>
 </entry>
@@ -34939,7 +35592,7 @@
       <pron>m"Enni.AT</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
@@ -34951,7 +35604,7 @@
       <def>many points</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <number>coll.</number>
     </gramGrp>
@@ -34964,13 +35617,13 @@
       <def>range of <index level1="mountain" lang="en"/>mountains</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>Mornvenniath</mentioned> <bibl>TI/124, Lambengolmor/799</bibl></note>
+  <note type="source,deduced"><mentioned>Mornvenniath</mentioned> <bibl>TI/124, Lamb/799</bibl></note>
   <re>
     <form type="deduced">
       <orth>venniath</orth><usg type="lang" norm="N."/><itype type="sm">soft mut.</itype>
     </form>
   </re>
-  <note type="source,deduced"><mentioned>Mornvenniath</mentioned> <bibl>TI/124, Lambengolmor/799</bibl></note>
+  <note type="source,deduced"><mentioned>Mornvenniath</mentioned> <bibl>TI/124, Lamb/799</bibl></note>
   <note type="comment" lang="fr">
     Les premiers éléments dans Mornvenniath sont très vraisemblablement <hi>morn</hi> et <hi>ment</hi>
     (avec lénition du <hi>m</hi> initial et le <hi>nt</hi> final changé en <hi>nn</hi> en position
@@ -34978,7 +35631,7 @@
     un nom collectif reste quelque peu douteux et ne fournit pas d’explication à l’insertion d’un
     -<hi>i</hi> avant la terminaison collective, étant donné que <hi>-iath</hi> n’est jusqu’ici
     attesté que dans des noms ayant un <hi>i</hi> dans leur racine (dans des formes telles que
-    <hi>giliath</hi>). Patrick Wynne a suggéré sur <bibl>Lambengolmor/799</bibl> que l’élément <hi>-iath</hi>
+    <hi>giliath</hi>). Patrick Wynne a suggéré sur <bibl>Lamb/799</bibl> que l’élément <hi>-iath</hi>
     pourrait peut-être plutôt correspondre au sindarin tardif <hi>iâth</hi> « barrière »
     (angl. <hi>fence</hi>), comme dans Doriath (Dor Iâth) « Contrée de la Barrière » (<bibl>WJ/370</bibl>)
     et probablement Echoriath « les Montagnes Encerclantes » (<bibl>S/138</bibl>). Si tel est le cas,
@@ -34990,7 +35643,7 @@
     reading this word as a collective noun is probably quite dubious and does not provide an
     explanation to the insertion of an -<hi>i</hi> before the collective ending, as <hi>-iath</hi> is
     only attested so far in nouns having <hi>i</hi> as the original stem vowel (in such forms as
-    <hi>giliath</hi>). Patrick Wynne suggested in <bibl>Lambengolmor/799</bibl> that the final element <hi>-iath</hi> can perhaps be rather identified with later Sindarin <hi>iâth</hi> “fence”, as in Doriath
+    <hi>giliath</hi>). Patrick Wynne suggested in <bibl>Lamb/799</bibl> that the final element <hi>-iath</hi> can perhaps be rather identified with later Sindarin <hi>iâth</hi> “fence”, as in Doriath
     (Dor Iâth) “Land of the Fence” (<bibl>WJ/370</bibl>) and probably Echoriath “the Encircling Mountains” (<bibl>S/138</bibl>).
     Hence, Mornvenniath would then more likely mean “Fence of Black Peaks”
   </note>
@@ -35513,7 +36166,7 @@
       <bibl>Ety/373</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
@@ -35525,7 +36178,7 @@
       <def><bibl>Ety/373, S/434</bibl> <index level1="tower" lang="en"/>tower</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">abst.</usg>
     </gramGrp>
@@ -35549,7 +36202,7 @@
       <pron>m"indOn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -35562,7 +36215,7 @@
            especially a hill with a watch tower</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -36209,22 +36862,27 @@
   <form type="regular">
     <form>
       <orth>môr</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/373, Letters/382, NM/279</bibl>
       <pron>m"O:r</pron>
     </form>
   </form>
   <sense>
     <gramGrp>
-      <pos>n.</pos>
+      <pos>n. and adj.</pos>
     </gramGrp>
+    <usg type="reg">Arch.</usg>
     <usg type="cat" norm="1.62"/> <usg type="cat" norm="14.42"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="obscurité"/>obscurité, <index lang="fr" level1="noirceur"/>noirceur, <index lang="fr" level1="nuit"/>nuit</def>
+      <def><index lang="fr" level1="obscurité"/>obscurité, <index lang="fr" level1="noirceur"/>noirceur, 
+        <index lang="fr" level1="nuit"/>noir, milieu de la nuit</def>
     </trans>
     <trans lang="en">
-      <def><index level1="darkness" lang="en"/>darkness, <index level1="dark" lang="en"/>dark, <index level1="night" lang="en"/>night</def>
+      <def><bibl>Letters/382</bibl> <index level1="darkness" lang="en"/>darkness,
+             <index level1="dark" lang="en"/>dark,
+           <bibl>Ety/373</bibl> black,
+           <bibl>NM/279</bibl> middle night</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/373, Letters/382</bibl></note>
 </entry>
 
 <entry id="morben">
@@ -36273,7 +36931,7 @@
     <number>pl.</number>
     <form>
       <orth>morchaint</orth><usg type="lang" norm="S."/>
-      <bibl>S/432, VT/42:9</bibl>
+      <bibl>S/432, VT/42:9, NM/381</bibl>
       <pron>m"OrxAjnt</pron>
     </form>
   </form>
@@ -36283,14 +36941,13 @@
     </gramGrp>
     <usg type="cat" norm="1.63"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="ombre"/>ombre</def>
-           <usg type="hint">d’objets, projetée par la lumière</usg><def>,
-           forme sombre</def>
-    </trans>
+      <def><index lang="fr" level1="ombre"/>ombre</def> <usg type="hint">d’objets, projetée par la lumière</usg>,
+      <def>forme sombre, ombres</def> <usg type="hint">d’objets ou de personnes réels projetés par le soleil, la lune ou d’autres lumières</usg>
+     </trans>
     <trans lang="en">
-      <def><bibl>S/432</bibl> <index level1="shadow" lang="en"/>shadow</def>
-           <usg type="hint">of objects, cast by light</usg>,
-           <bibl>S/432, VT/42:9</bibl> <def>dark shape</def>
+      <def><bibl>S/432</bibl> <index level1="shadow" lang="en"/>shadow</def> <usg type="hint">of objects, cast by light</usg>,
+      <def><bibl>S/432, VT/42:9, NM/381</bibl> dark shape,
+           <bibl>NM/381</bibl> shadows</def> <usg type="hint">of actual objects or persons cast by sun or moon or other lights</usg>
     </trans>
   </sense>
   <etym>morn+cant “dark shape”</etym>
@@ -36585,7 +37242,7 @@
       <pron>nA</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>prep.</pos>
     </gramGrp>
@@ -36596,7 +37253,7 @@
       <def><index level1="with" lang="en"/>with, <index level1="by" lang="en"/>by</def> <usg type="hint">also used as a genitive sign</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>prep.</pos>
     </gramGrp>
@@ -36929,7 +37586,7 @@
       <pron>n"AET</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -36940,7 +37597,7 @@
       <def><index level1="biting" lang="en"/>biting</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37192,7 +37849,7 @@
       <orth>nann</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37205,7 +37862,7 @@
         with many streams</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37218,7 +37875,7 @@
       <def><index level1="valley" lang="en"/>valley</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/374, S/435, Letters/308, VT/45:36</bibl></note>
+  <note type="source"><bibl>Ety/374, S/435, Letters/308, VT/45:36, NM/351</bibl></note>
 </entry>
 
 <entry id="nana">
@@ -37484,7 +38141,7 @@
       <def><index level1="beacon" lang="en"/>beacon, signal fire to notify of the approach of an enemy</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>Fornarthan</mentioned> <bibl>VT/42:30</bibl></note>
+  <note type="source,deduced"><mentioned>Fornarthan</mentioned> ‘North Beacon’ <bibl>VT/42:30, NM/392</bibl></note>
 </entry>
 
 <entry id="naru">
@@ -37542,7 +38199,7 @@
       <pron>n"Ass</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37553,7 +38210,7 @@
       <def><index level1="point" lang="en"/>point, (sharp) end</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37714,7 +38371,7 @@
       <pron>n"OEg</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -37725,7 +38382,7 @@
       <def><index level1="stunted" lang="en"/>stunted, dwarf</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37821,7 +38478,7 @@
       <pron>n"Aur</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37833,7 +38490,7 @@
       <def><index level1="flame" lang="en"/>flame</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -37960,7 +38617,7 @@
   <form type="regular">
     <form>
       <orth>nawb</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:5</bibl>
+      <bibl>VT/48:5, NM/183</bibl>
       <pron>n"Awb</pron>
     </form>
   </form>
@@ -37973,15 +38630,16 @@
       <def><index lang="fr" level1="pouce"/>pouce</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:5</bibl> <index level1="thumb" lang="en"/>thumb</def>
+      <def><bibl>VT/48:5, NM/183</bibl> <index level1="thumb" lang="en"/>thumb</def>
     </trans>
   </sense>
   <re corresp="nobad">
     <form>
       <orth>nobad</orth><usg type="lang" norm="S."/>
+      <bibl>VT/48:5,16,20, NM/183</bibl>
     </form>
     <gramGrp>
-      <pos>n.</pos> <number>dual pl.</number>
+      <pos>n.</pos> <number>dual</number>
     </gramGrp>
   </re>
 </entry>
@@ -38211,7 +38869,7 @@
       <pron>n"EjTAn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -38540,7 +39198,7 @@
       <pron>n"i:n</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -38552,7 +39210,7 @@
       <def><index level1="water" lang="en"/>water</def> <usg type="hint">used of a <index level1="lake" lang="en"/>lake, <index level1="pool" lang="en"/>pool or lesser <index level1="river" lang="en"/>river</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -38765,7 +39423,7 @@
       <pron>n"ET</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -38779,7 +39437,7 @@
       <def><index level1="sister" lang="en"/>sister</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -38791,7 +39449,7 @@
       <def><index level1="girl" lang="en"/>girl</def> <usg type="hint">in her teens, approaching the adult</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>VT/47:14-16,33, VT/48:6</bibl></note>
+  <note type="source"><bibl>VT/47:14-16,33, VT/48:6, NM/184</bibl></note>
   <re corresp="nethig">
     <form>
       <orth>nethig</orth><usg type="lang" norm="S."/>
@@ -38809,7 +39467,7 @@
       <pron>n"ETig</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -38821,7 +39479,7 @@
       <def>“litte <index level1="sister" lang="en"/>sister”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -38833,14 +39491,14 @@
       <def>ring <index level1="finger" lang="en"/>finger</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>VT/47:14, VT/47:38-39, VT/48:6,17</bibl></note>
+  <note type="source"><bibl>VT/47:14, VT/47:38-39, VT/48:6,17, NM/181, NM/184</bibl></note>
   <note type="comment" lang="fr">
     Le manuscrit initial dans <bibl>VT/47:14-15</bibl> donnait <hi>netheg</hi>,
-    mais se référer tout particulièrement à <bibl>VT/48:17</bibl> n. 13 pour une discussion
+    mais se référer tout particulièrement à <bibl>VT/48:17, NM/181</bibl> n. 13 pour une discussion
     des formes diminutives en sindarin.
   </note>
   <note type="comment" lang="en">
-    First given in the manuscript as <hi>netheg</hi> in <bibl>VT/47:14-15</bibl>,
+    First given in the manuscript as <hi>netheg</hi> in <bibl>VT/47:14-15, NM/181</bibl>,
     but see especially <bibl>VT/48:17</bibl> n. 13 for discussion on diminutive forms
     in sindarin.
   </note>
@@ -38860,7 +39518,7 @@
       <pron>n"ibin</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -38871,7 +39529,7 @@
       <def><index level1="small" lang="en"/>small, <index level1="petty" lang="en"/>petty</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -38883,7 +39541,7 @@
       <def>little <index level1="finger" lang="en"/>finger</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>S/435, WJ/388, WJ/408, VT/48:6, PE/17:46</bibl></note>
+  <note type="source"><bibl>S/435, WJ/388, WJ/408, VT/48:6, PE/17:46, NM/184</bibl></note>
 </entry>
 
 <entry id="nîd">
@@ -38964,7 +39622,7 @@
       <pron>n"i:D</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -38975,7 +39633,7 @@
       <def><bibl>PE/19:91</bibl> <index level1="juice" lang="en"/>juice</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -39036,7 +39694,7 @@
   </sense>
 </entry>
 
-<entry id="nîf">
+<entry id="nîf.1" n="1">
   <form type="regular">
     <form>
       <orth>nîf</orth><usg type="lang" norm="N."/>
@@ -39057,11 +39715,37 @@
   </sense>
 </entry>
 
+<entry id="nîf.2" n="2">
+  <form type="regular">
+    <form>
+      <orth>nîf</orth><usg type="lang" norm="N."/>
+      <bibl>NM/238</bibl>
+      <pron>n"i:v</pron>
+    </form>
+  </form>
+  <sense>
+  <gramGrp>
+    <pos>n.</pos>
+  </gramGrp>
+    <trans lang="fr">
+      <def>fantôme, apparition n’ayant pas d’existence dans le monde <hi>physique</hi>, lit. « un semblant »</def>
+        <usg type="hint">existant seulement comme une conception, un souvenir ou une image dans un esprit,
+          et plus ou moins précisément transféré directement à un autre</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/238</bibl> phantom, appearance having no existence in the <hi>physical</hi> world, lit. ‘a seeming’</def>
+        <usg type="hint">existing only as a conception, memory or picture in one mind, and more or less accurately
+          transferred direct to another</usg>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="nivol"/></xr>
+</entry>
+
 <entry id="niged">
   <form type="regular">
     <form>
       <orth>niged</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:5</bibl>
+      <bibl>VT/48:5, NM/183</bibl>
       <pron>n"igEd</pron>
     </form>
   </form>
@@ -39074,7 +39758,7 @@
       <def><index lang="fr" level1="auriculaire"/>auriculaire</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:5</bibl> little <index level1="finger" lang="en"/>finger</def>
+      <def><bibl>VT/48:5, NM/183</bibl> little <index level1="finger" lang="en"/>finger</def>
     </trans>
   </sense>
   <xr type="analogy"><ptr target="lebig"/></xr>
@@ -39166,6 +39850,7 @@
   <form type="regular">
     <form>
       <orth>nin</orth><usg type="lang" norm="S."/>
+      <bibl>LotR/IV:X, RGEO/72, PE/17:95</bibl>
       <pron>nin</pron>
     </form>
   </form>
@@ -39177,16 +39862,16 @@
       <def><index lang="fr" level1="moi"/>moi, me</def>
     </trans>
     <trans lang="en">
-      <def><index level1="me" lang="en"/>me</def>
+      <def><bibl>RGEO/72, PE/17:95</bibl> <index level1="me" lang="en"/>me</def>
     </trans>
   </sense>
-  <note type="source"><bibl>LotR/IV:X, RGEO/72</bibl></note>
 </entry>
 
 <entry id="nín">
   <form type="regular">
     <form>
       <orth>nín</orth><usg type="lang" norm="S."/>
+      <bibl>UT/40,54, VT/44:22</bibl>
       <pron>n"i:n</pron>
     </form>
   </form>
@@ -39198,10 +39883,9 @@
       <def><index lang="fr" level1="mon"/>mon, <index lang="fr" level1="ma"/>ma</def>
     </trans>
     <trans lang="en">
-      <def><index level1="my" lang="en"/>my</def>
+      <def><bibl>UT/54</bibl> <index level1="my" lang="en"/>my</def>
     </trans>
   </sense>
-  <note type="source"><bibl>UT/40, VT/44:22</bibl></note>
   <note type="comment" lang="fr">
     L’accent aigu dans de <hi>nín</hi> a parfois été considéré
     comme une erreur de lecture, en supposant un <hi>macron</hi> un peu
@@ -39211,7 +39895,8 @@
     Nous avons cependant noté que si l’accent aigu était confirmé,
     alors ce mot serait probablement enclitique, cf. <bibl>HL/73</bibl> pour le
     détail du raisonnement. L’accent aigu a depuis été confirmé dans
-    <bibl>VT/44:22</bibl>
+    <bibl>VT/44:22</bibl> (qui discute aussi son usage particulier dans
+    <hi>Ae Adar Nín</hi>, « Notre Père »).
   </note>
   <note type="comment" lang="en">
     The acute accent in <hi>nín</hi> has sometimes been regarded as an error for
@@ -39219,7 +39904,8 @@
     personal adjectives from <hi>Sauron defeated</hi> all have a circumflex accent.
     It was however noted that if the acute accent is confirmed, then this word is
     probably an enclitic, see <bibl>HL/73</bibl>. The acute accent is now confirmed
-    by <bibl>VT/44:22</bibl>
+    by <bibl>VT/44:22</bibl> (which also discusses its peculiar use in <hi>Ae Adar Nín</hi>,
+    ‘Our Father’).
   </note>
 </entry>
 
@@ -39248,6 +39934,7 @@
   <form type="regular">
     <form>
       <orth>nîn</orth><usg type="lang" norm="S."/>
+      <bibl>TC/195, S/435, RC/789, PE/17:52,61</bibl>
       <pron>n"i:n</pron>
     </form>
   </form>
@@ -39259,10 +39946,10 @@
       <def><index lang="fr" level1="humide"/>humide, plein d’eau, <index lang="fr" level1="détrempé"/>détrempé</def>
     </trans>
     <trans lang="en">
-      <def><index level1="wet" lang="en"/>wet, <index level1="watery" lang="en"/>watery</def>
+      <def><bibl>TC/195, S/435, RC/789, PE/17:52,61</bibl> <index level1="wet" lang="en"/>wet</def>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>Nindalf</mentioned> <bibl>TC/195, S/435</bibl></note>
+  <note type="source,deduced"><mentioned>Nindalf</mentioned> <bibl>TC/195, S/435, PE/17:52,61</bibl></note>
 </entry>
 
 <entry id="nind">
@@ -39294,6 +39981,7 @@
   <form type="regular">
     <form>
       <orth>ninglor</orth><usg type="lang" norm="S."/>
+      <bibl>UT/280-81, UT/450</bibl>
       <pron>n"iNglOr</pron>
     </form>
   </form>
@@ -39306,10 +39994,10 @@
       <def><index lang="fr" level1="fleur"/>fleur d’eau dorée, <index lang="fr" level1="iris"/>iris d’eau (dit aussi iris des marais, iris jaune, etc.)</def>
     </trans>
     <trans lang="en">
-      <def>golden water-<index level1="flower" lang="en"/>flower, <index level1="gladden" lang="en"/>gladden</def>
+      <def><bibl>UT/450</bibl> golden water-<index level1="flower" lang="en"/>flower,
+           <bibl>UT/280-81</bibl> <index level1="gladden" lang="en"/>gladden</def>
     </trans>
   </sense>
-  <note type="source"><bibl>UT/280-81, UT/450</bibl></note>
   <etym>nîn+glaur “water gold”</etym>
   <re corresp="ningloron">
     <form type="deduced">
@@ -39415,7 +40103,7 @@
       <pron>n"i:nuj</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -39426,7 +40114,7 @@
       <def><index level1="watery" lang="en"/>watery</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -39585,6 +40273,32 @@
   </re>
 </entry>
 
+<entry id="nivol">
+  <form type="regular">
+    <form>
+      <orth>nivol</orth><usg type="lang" norm="N."/>
+      <bibl>NM/238</bibl>
+      <pron>n"ivl=</pron>
+    </form>
+  </form>
+  <sense>
+  <gramGrp>
+    <pos>n.</pos>
+  </gramGrp>
+    <trans lang="fr">
+      <def>fantôme, apparition n’ayant pas d’existence dans le monde <hi>physique</hi>, lit. « un semblant »</def>
+        <usg type="hint">existant seulement comme une conception, un souvenir ou une image dans un esprit,
+          et plus ou moins précisément transféré directement à un autre</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/238</bibl> phantom, appearance having no existence in the <hi>physical</hi> world, lit. ‘a seeming’</def>
+        <usg type="hint">existing only as a conception, memory or picture in one mind, and more or less accurately
+          transferred direct to another</usg>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="nîf.2"/></xr>
+</entry>
+
 <entry id="no">
   <form type="regular">
     <form>
@@ -39611,13 +40325,13 @@
   <form type="regular">
     <form>
       <orth>nobad</orth><usg type="lang" norm="S."/>
-      <bibl>VT/48:5,16</bibl>
+      <bibl>VT/48:5,16,20, NM/183</bibl>
       <pron>n"ObAd</pron>
     </form>
   </form>
   <sense>
     <gramGrp>
-      <pos>n.</pos> <number>dual pl.</number>
+      <pos>n.</pos> <number>dual</number>
     </gramGrp>
     <xr type="of"><ptr target="nawb"/></xr>
     <usg type="dom">Biol.</usg>
@@ -39625,7 +40339,7 @@
       <def>la paire de <index lang="fr" level1="doigt"/>doigts composée du pouce et de l’index</def> <usg type="hint">considérés ensemble, dans le geste de saisir ou pincer quelque chose</usg>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/48:5,16</bibl> the pair of <index level1="finger" lang="en"/>fingers composed of the <index level1="thumb" lang="en"/>thumb and the <index level1="index" lang="en"/>index</def> <usg type="hint">grouped together as in the act of picking something</usg>
+      <def><bibl>VT/48:5,16, NM/183</bibl> the pair of <index level1="finger" lang="en"/>fingers composed of the <index level1="thumb" lang="en"/>thumb and the <index level1="index" lang="en"/>index</def> <usg type="hint">grouped together as in the act of picking something</usg>
     </trans>
   </sense>
   <xr type="analogy"><ptr target="nawb"/>, <ptr target="lebdas"/></xr>
@@ -39885,7 +40599,7 @@
       <pron>n"yrn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -39902,7 +40616,7 @@
            <index level1="contorted" lang="en"/>contorted</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -39974,7 +40688,7 @@
     dans <bibl>RS/196</bibl> (bien que cette traduction ne soit visiblement pas littérale),
     puis plus tard par « run swift » dans <bibl>RC/195</bibl> et <bibl>PE/17:18</bibl>.
     Un verbe <ptr target="nor-"/> est attesté dans le vieux <hi>Gnomish
-    lexicon</hi>, PE/11:61, avec pour signification « courir, rouler »
+    lexicon</hi>, <bibl>PE/11:61</bibl>, avec pour signification « courir, rouler »
   </note>
   <note type="comment" lang="en">
     Untranslated in LotR, but written <hi>nora-lim</hi> and rendered as
@@ -40001,7 +40715,7 @@
       <def>géant</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/46:6</bibl> géant</def>
+      <def><bibl>VT/46:6</bibl> giant</def>
     </trans>
   </sense>
 </entry>
@@ -40060,7 +40774,7 @@
       <pron>n"O:ruj</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -40071,7 +40785,7 @@
       <def><index level1="sunny" lang="en"/>sunny, <index level1="fiery" lang="en"/>fiery</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -40090,10 +40804,12 @@
   <form type="regular">
     <form>
       <orth>noss</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/378, PE/17:169</bibl>
       <pron>n"Oss</pron>
     </form>
     <form>
-      <orth>nos</orth><usg type="lang" norm="N."/>
+      <orth>nos</orth><usg type="lang" norm="S., N."/>
+      <bibl>PM/320, PE/17:169</bibl>
     </form>
   </form>
   <sense>
@@ -40105,10 +40821,12 @@
       <def><index lang="fr" level1="maisonnée"/>maisonnée, <index lang="fr" level1="famille"/>famille, <index lang="fr" level1="clan"/>clan</def>
     </trans>
     <trans lang="en">
-      <def><index level1="kindred" lang="en"/>kindred, <index level1="family" lang="en"/>family, <index level1="clan" lang="en"/>clan</def>
+      <def><bibl>Ety/378</bibl> clan, house,
+           <bibl>Ety/378, PM/320</bibl> family,
+           <bibl>PM/320</bibl> kindred,
+           <bibl>PE/17:169</bibl> race, tribe, people</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/378, PM/320</bibl></note>
 </entry>
 
 <entry id="nost">
@@ -40150,6 +40868,7 @@
   <form type="regular">
     <form>
       <orth>nothlir</orth><usg type="lang" norm="N."/>
+      <bibl>WR/234, WR/237, WR/309</bibl>
       <pron>n"OTlir</pron>
     </form>
   </form>
@@ -40159,13 +40878,15 @@
     </gramGrp>
     <usg type="cat" norm="2.82"/>
     <trans lang="fr">
-      <def>lignée <index lang="fr" level1="famille"/>familiale</def> <usg type="hint">en particulier, arbre généalogique</usg>
+      <def>lignée <index lang="fr" level1="famille"/>familiale</def> <usg type="hint">en particulier,
+         arbre généalogique</usg>, peuple
     </trans>
     <trans lang="en">
-      <def><index level1="family" lang="en"/>family line</def> <usg type="hint">esp. as family tree, genealogical tree</usg>
+      <def><index level1="family" lang="en"/>family line</def> <usg type="hint">esp. as family tree,
+        genealogical tree</usg>,
+      <def><bibl>WR/309</bibl> family, <bibl>WR/234, WR/237</bibl> people</def>
     </trans>
   </sense>
-  <note type="source"><bibl>WR/234, WR/237, WR/309</bibl></note>
   <etym>nost, *noth + lîr “family line”</etym>
 </entry>
 
@@ -40371,7 +41092,7 @@
     « Eaux Tristes » est apparemment « triste » dans le sens de « geignant, se lamentant,
     se plaignant, maugréant », fort probablement en référence au sentiment général des
     travailleurs désespérées qui oeuvraient dans les « grands terrains cultivés par des
-    esclaves » près du lac. (See <bibl>Lambengolmor/856-860</bibl>)
+    esclaves » près du lac. (See <bibl>Lamb/856-860</bibl>)
   </note>
   <note type="comment" lang="en">For an earlier discussion, see Klockzo, 4th volume, p. 160 §147: The meaning of
     <hi>Núrnen</hi> long remained highly hypothetical. The current definition is based on Christopher
@@ -40385,7 +41106,7 @@
     Patrick Wynne therefore noted: S. *<hi>nûr</hi> in <hi>Núrnen</hi> “Sad Water”
     is apparently “sad” in the sense “bewailing, lamenting, complaining, grumbling”,
     no doubt a reference to the general mood of the hapless laborers in “the great slave-worked
-    fields” beside the lake. (See <bibl>Lambengolmor/856-860</bibl>)
+    fields” beside the lake. (See <bibl>Lamb/856-860</bibl>)
   </note>
 </entry>
 
@@ -40732,7 +41453,7 @@
       <bibl>PE/17:149</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -40746,7 +41467,7 @@
            <bibl>PE/17:170</bibl> <index level1="evil" lang="en"/>evil, <index level1="wrong" lang="en"/>wrong</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n. and adj.</pos>
     </gramGrp>
@@ -41221,7 +41942,7 @@
       <orth>orchel</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -41232,7 +41953,7 @@
       <def><index level1="superior" lang="en"/>superior, <index level1="lofty" lang="en"/>lofty, <index level1="eminent" lang="en"/>eminent</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -41458,12 +42179,16 @@
     <usg type="dom">Bot.</usg><usg type="cat" norm="1.42"/>
     <trans lang="fr">
       <def>(n’importe quel grand) <index lang="fr" level1="arbre"/>arbre</def>
+        <usg type="hint"><bibl>NM/349</bibl> généralement appliqué aux arbres les plus hauts,
+         les plus droits et les plus élancés</usg>
     </trans>
     <trans lang="en">
       <def>(any large) <index level1="tree" lang="en"/>tree</def>
+        <usg type="hint"><bibl>NM/349</bibl> usually applied to the taller,
+          straighter and more slender trees</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/379, S/435, Letters/426, SD/302</bibl></note>
+  <note type="source"><bibl>Ety/379, S/435, Letters/426, SD/302, NM/349</bibl></note>
 </entry>
 
 <entry id="orod">
@@ -41907,34 +42632,50 @@
   <form type="regular">
     <form>
       <orth>ost</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/370, Ety/379, S/435, WJ/414, RC/232, RC/774, NM/228, PE/17:32</bibl>
       <pron>"Ost</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
     <usg type="cat" norm="19.15"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="cité"/>cité, <index lang="fr" level1="ville"/>ville entourée de murs</def>
+      <def><index lang="fr" level1="cité"/>cité,
+           <index lang="fr" level1="ville"/>ville entourée d’un mur,
+           ville fortifiée,
+           « enclos »</def> <usg type="hint">un lieu ou une habitation
+              entouré d’une clôture ou d’un mur</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="city" lang="en"/>city, <index level1="town" lang="en"/>town with wall round</def>
+      <def><bibl>Ety/370, Ety/379</bibl> city,
+           <bibl>Ety/379</bibl> town with wall round,
+           <bibl>RC/774</bibl> fortified town,
+           <bibl>PE/17:32</bibl> “enclosure”</def>
+              <usg type="hint">a space or dwelling surrounded by a fence or wall</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
     <usg type="cat" norm="20.35"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="citadelle"/>citadelle, <index lang="fr" level1="forteresse"/>forteresse ou fortin, construit ou renforcé avec science et technique</def>
+      <def>citadelle, fortin, forteresse, place forte,
+           fortification, défense</def>
+        <usg type="hint">pas nécessairement très grande ou permanente, par ex. un camp
+          défensif avec des murs de terre et un fossé</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="citadel" lang="en"/>citadel, <index level1="fortress" lang="en"/>fortress or <index level1="stronghold" lang="en"/>stronghold, made or strenghtened by art</def>
+      <def><bibl>RC/232</bibl> citadel, fort,
+           <bibl>S/435, WJ/414</bibl> fortress,
+           <bibl>WJ/414</bibl> stronghold,
+           <bibl>NM/228</bibl> fortification, defence</def>
+              <usg type="hint">not necessarily very large or permanent, e.g.
+                a defensive camp with walls of earth and a ditch</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/379, S/435, WJ/414, RC/232</bibl></note>
 </entry>
 
 <entry id="othrad">
@@ -42918,13 +43659,17 @@
     </gramGrp>
     <usg type="dom">Biol.</usg><usg type="cat" norm="4.33"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="poing"/>poing</def> <usg type="hint">souvent employé pour désigner la <index lang="fr" level1="main"/>main, en référence à une main fermement serrée pour manier un outil plutôt qu’en référence au poing fermé pour boxer</usg>
+      <def><index lang="fr" level1="poing"/>poing</def> <usg type="hint">souvent employé pour
+        désigner la <index lang="fr" level1="main"/>main, en référence à une main fermement
+        serrée pour manier un outil plutôt qu’en référence au poing fermé pour boxer</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="fist" lang="en"/>fist</def> <usg type="hint">often used to mean “<index level1="hand" lang="en"/>hand”, its chief use was in reference of the tighly closed hand, as in using an implement or a craft-tool, rather than to the fist used in punching</usg>
+      <def><index level1="fist" lang="en"/>fist</def> <usg type="hint">often used to mean
+        “<index level1="hand" lang="en"/>hand”, its chief use was in reference of the tighly closed hand,
+        as in using an implement or a craft-tool, rather than to the fist used in punching</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/366, S/429, PM/179, PM/318, VT/47:8</bibl></note>
+  <note type="source"><bibl>Ety/366, S/429, PM/179, PM/318, VT/47:8, NM/178</bibl></note>
 </entry>
 
 <entry id="paw">
@@ -43744,7 +44489,7 @@
       <def>the <index level1="hobbit" lang="en"/>Hobbits, <index level1="halfling" lang="en"/>Halflings</def>
     </trans>
   </sense>
-  <note type="source"><bibl>LotR/VI:IV, LotR/E-F, RGEO/75, Letters/308</bibl></note>
+  <note type="source"><bibl>LotR/VI:IV, LotR/E-F, RGEO/75, Letters/308, NM/194</bibl></note>
   <re>
     <form>
       <orth>pheriannath</orth><usg type="lang" norm="S."/><itype type="nm">nasal mut.</itype>
@@ -43980,7 +44725,7 @@
   <form type="regular">
     <form>
       <orth>plad</orth><usg type="lang" norm="S."/>
-      <bibl>VT/47:9</bibl>
+      <bibl>VT/47:9, NM/178</bibl>
       <pron>pl"Ad</pron>
     </form>
   </form>
@@ -43995,7 +44740,7 @@
            main levée</def> <usg type="hint">en avant ou en arrière, à plat et tendue, avec les doigts et le pouce fermés ou ouverts</usg>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/47:9</bibl> <index level1="palm" lang="en"/>palm,
+      <def><bibl>VT/47:9, NM/178</bibl> <index level1="palm" lang="en"/>palm,
            flat of the <index level1="hand" lang="en"/>hand,
            hand held upwards or forwards, flat and tensed (with fingers and thumb closed or spread)</def>
     </trans>
@@ -44131,7 +44876,7 @@
       <pron>prEst"AnnEn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
@@ -44143,7 +44888,7 @@
       <def><bibl>Ety/380</bibl> <index level1="affected" lang="en"/>affected</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <tns>pp.</tns>
     </gramGrp>
@@ -44422,7 +45167,7 @@
   <form type="regular">
     <form>
       <orth>raen</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:11</bibl>
+      <bibl>VT/42:11, NM/382-383</bibl>
       <pron>r"AEn</pron>
     </form>
   </form>
@@ -44434,7 +45179,7 @@
       <def><index lang="fr" level1="enlacé"/>enlacé, pris dans un filet</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/42:11</bibl> <index level1="nettled" lang="en"/>nettled,
+      <def><bibl>VT/42:11, NM/382-383</bibl> <index level1="nettled" lang="en"/>nettled,
            <index level1="enlaced" lang="en"/>enlaced</def>
     </trans>
   </sense>
@@ -44523,12 +45268,12 @@
   <form type="regular">
     <form>
       <orth>rain</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:13</bibl>
+      <bibl>VT/42:13, NM/384</bibl>
       <pron>r"Ajn</pron>
     </form>
     <form>
       <orth>rein</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:13</bibl>
+      <bibl>VT/42:13, NM/384</bibl>
     </form>
   </form>
   <sense>
@@ -44539,7 +45284,7 @@
       <def><index lang="fr" level1="errance"/>errance hasardeuse</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/42:13</bibl> erratic <index level1="wandering" lang="en"/>wandering</def>
+      <def><bibl>VT/42:13, NM/384</bibl> erratic <index level1="wandering" lang="en"/>wandering</def>
     </trans>
   </sense>
 </entry>
@@ -44727,7 +45472,7 @@
   <form type="regular">
     <form>
       <orth>randír</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:13</bibl>
+      <bibl>VT/42:13, NM/384</bibl>
       <pron>r"Andi:r</pron>
     </form>
     <form>
@@ -44747,7 +45492,7 @@
       <def><index lang="fr" level1="errant"/>errant, <index lang="fr" level1="pélerin"/>pélerin</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/383, VT/42:13</bibl> <index level1="wanderer" lang="en"/>wanderer,
+      <def><bibl>Ety/383, VT/42:13, NM/384</bibl> <index level1="wanderer" lang="en"/>wanderer,
            <bibl>PE/17:60</bibl> wandering man,
            <bibl>Ety/383, PE/17:60</bibl> <index level1="pilgrim" lang="en"/>pilgrim</def>
     </trans>
@@ -44761,7 +45506,7 @@
       <pron>r"Ant</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -44772,7 +45517,7 @@
       <def><index level1="lode" lang="en"/>lode, <index level1="vein" lang="en"/>vein</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -44878,10 +45623,11 @@
   <form type="regular">
     <form>
       <orth>rath</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/383, LotR/Index, RC/523,551, PE/17:96,98, NM/363-364,367</bibl>
       <pron>r"AT</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -44889,22 +45635,43 @@
       <def><index lang="fr" level1="cours"/>cours, <index lang="fr" level1="lit"/>lit de rivière</def>
     </trans>
     <trans lang="en">
-      <def><index level1="course" lang="en"/>course, <index level1="riverbed" lang="en"/>riverbed</def>
+      <def><bibl>Ety/383</bibl> <index level1="course" lang="en"/>course, <index level1="riverbed" lang="en"/>riverbed</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>piste</def> <usg type="hint">souvent appliquée aux voies connues des montagnards, aux cols dans les
+        montagnes et aux sentiers qui y grimpent, aux pistes à travers un marais ou aux sentiers en
+        forêt</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/363-364</bibl> track</def> <usg type="hint">often applied to ways known to mountaineers, to
+        passes in the mountains and the climbing ways to them, to tracks across a marshland or trails
+        in forest</usg>
+    </trans>
+  </sense>
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
     <usg type="cat" norm="10.73"/>
     <trans lang="fr">
-      <def><index lang="fr" level1="rue"/>rue</def> <usg type="hint">d’une ville</usg>
+      <def><index lang="fr" level1="rue"/>rue</def> <usg type="hint">d’une ville, en part.
+        à Minas Tirith, dans les noms de lieu au Gondor</usg>,
+      <def>longue rue, avenue</def>
     </trans>
     <trans lang="en">
-      <def><index level1="street" lang="en"/>street</def> <usg type="hint">in a city</usg>
+      <def><bibl>PE/17:96,98</bibl> street,
+           <bibl>RC/523,551</bibl> <index level1="street" lang="en"/>street</def>
+              <usg type="hint">in a city</usg>,
+      <def><bibl>NM/363-364</bibl> street</def> <usg type="hint">in Minas Tirith, in nomenclature
+        of places in Gondor</usg>,
+      <def><bibl>NM/367</bibl> longer roadway and street</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/383, LotR/Index, RC/523,551, PE/17:96,98</bibl></note>
 </entry>
 
 <entry id="raud.1" n="1">
@@ -45396,7 +46163,7 @@
       <def><bibl>PE/17:182</bibl> to remain</def> <usg type="hint">in same place</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -45432,7 +46199,7 @@
       <bibl>Ety/382</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -45443,7 +46210,7 @@
       <def><bibl>Ety/382</bibl> to <index level1="fly" lang="en"/>fly, <index level1="sail" lang="en"/>sail</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -45673,6 +46440,7 @@
     </trans>
   </sense>
   <note type="source"><bibl>MR/350, VT/47:12</bibl></note>
+  <xr type="analogy"><ptr target="rhond"/></xr>
 </entry>
 
 <entry id="rhib-">
@@ -45754,6 +46522,32 @@
       <def><bibl>LotR/D</bibl> <index level1="winter" lang="en"/>winter <index level1="season" lang="en"/>season</def>
     </trans>
   </sense>
+</entry>
+
+<entry id="rhond">
+  <form type="regular">
+    <form>
+      <orth>rhond</orth><usg type="lang" norm="S."/>
+      <bibl>NM/237</bibl>
+      <pron>r\_0Ond</pron>
+    </form>
+    <form>
+      <orth>rhonn</orth><usg type="lang" norm="S."/>
+      <bibl>NM/237</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>corps</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/237</bibl> body</def>
+    </trans>
+  </sense>
+  <xr type="analogy"><ptr target="rhaw.2"/></xr>
 </entry>
 
 <entry id="rhosg">
@@ -46039,7 +46833,7 @@
       <def><index lang="fr" level1="couler"/>couler comme un (torrent?)</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/384</bibl> to <index level1="flow" lang="en"/>flow like a (torrent ?)</def>
+      <def><bibl>Ety/384</bibl> to <index level1="flow" lang="en"/>flow like a (torrent?)</def>
     </trans>
   </sense>
   <note type="comment" lang="fr">
@@ -46169,7 +46963,7 @@
       <bibl>Ety/389</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -46180,7 +46974,7 @@
       <def><bibl>Ety/383</bibl> <index level1="crowned" lang="en"/>crowned</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -46278,10 +47072,12 @@
   <form type="regular">
     <form>
       <orth>ring</orth><usg type="lang" norm="S."/>
+      <bibl>S/436, VT/42:13-14, NM/384</bibl>
       <pron>r"iN</pron>
     </form>
     <form>
       <orth>rhing</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/383</bibl>
     </form>
   </form>
   <sense>
@@ -46292,10 +47088,10 @@
       <def><index lang="fr" level1="froid"/>froid</def>
     </trans>
     <trans lang="en">
-      <def><index level1="cold" lang="en"/>cold</def>
+      <def><bibl>Ety/383, S/436, VT/42:13, NM/384</bibl> <index level1="cold" lang="en"/>cold,
+           <bibl>VT/42:13-14, NM/384</bibl> chill</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/383, S/436, VT/42:13</bibl></note>
 </entry>
 
 <entry id="ringorn">
@@ -46401,7 +47197,7 @@
       <bibl>Ety/384</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -46412,7 +47208,7 @@
       <def><bibl>Ety/384</bibl> to <index level1="cut" lang="en"/>cut</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -46918,10 +47714,12 @@
   <form type="regular">
     <form>
       <orth>roval</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:63</bibl>
       <pron>r"OvAl</pron>
     </form>
     <form>
       <orth>rhofal</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/382</bibl>
     </form>
   </form>
   <form type="inflected">
@@ -46932,6 +47730,7 @@
     </form>
     <form>
       <orth>rhofel</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/382</bibl>
     </form>
   </form>
 
@@ -46944,10 +47743,10 @@
       <def>grande <index lang="fr" level1="aile"/>aile</def> <usg type="hint">d’un aigle</usg>
     </trans>
     <trans lang="en">
-      <def><index level1="pinion" lang="en"/>pinion, broad or great <index level1="wing" lang="en"/>wing</def> <usg type="hint">of eagle</usg>
+      <def><bibl>Ety/382</bibl> <index level1="pinion" lang="en"/>pinion, broad or great <index level1="wing" lang="en"/>wing</def> <usg type="hint">of eagle</usg>
     </trans>
   </sense>
-  <note type="source,deduced"><mentioned>Landroval</mentioned> <bibl>LotR/VI:IV, Ety/382, PE/17:62</bibl></note>
+  <note type="source,deduced"><mentioned>Landroval</mentioned> <bibl>LotR/VI:IV, Ety/382, PE/17:63</bibl></note>
 </entry>
 
 <entry id="rû">
@@ -47255,6 +48054,7 @@
   <form type="regular">
     <form>
       <orth>sad</orth><usg type="lang" norm="S."/>
+      <bibl>UT/425, VT/42:19-20, NM/391</bibl>
       <pron>s"Ad</pron>
     </form>
   </form>
@@ -47263,21 +48063,23 @@
       <pos>n.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="région"/>région délimitée naturellement ou artificiellement, <index lang="fr" level1="lieu"/>lieu, <index lang="fr" level1="endroit"/>endroit</def>
+      <def><index lang="fr" level1="région"/>région délimitée naturellement ou artificiellement,
+       <index lang="fr" level1="lieu"/>lieu, <index lang="fr" level1="endroit"/>endroit</def>
     </trans>
     <trans lang="en">
-      <def>limited <index level1="area" lang="en"/>area naturally or artificially defined,
-      a <index level1="place" lang="en"/>place, <index level1="spot" lang="en"/>spot</def>
+      <def><bibl>VT/42:20, NM/391</bibl> limited <index level1="area" lang="en"/>area naturally or artificially
+        defined,
+        <bibl>UT/425, VT/42:19-20, NM/391</bibl> a <index level1="place" lang="en"/>place,
+          <index level1="spot" lang="en"/>spot</def>
     </trans>
   </sense>
-  <note type="source"><bibl>UT/425, VT/42:19-20</bibl></note>
 </entry>
 
 <entry id="sâdh">
   <form type="regular">
     <form>
       <orth>sâdh</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:20</bibl>
+      <bibl>VT/42:20, NM/391</bibl>
       <pron>s"A:D</pron>
     </form>
   </form>
@@ -47290,7 +48092,7 @@
       <def><index lang="fr" level1="herbe"/>herbe, <index lang="fr" level1="prairie"/>prairie, <index lang="fr" level1="gazon"/>gazon, <index lang="fr" level1="pelouse"/>pelouse</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/42:20</bibl> <index level1="sward" lang="en"/>sward, <index level1="turf" lang="en"/>turf</def>
+      <def><bibl>VT/42:20, NM/391</bibl> <index level1="sward" lang="en"/>sward, <index level1="turf" lang="en"/>turf</def>
     </trans>
   </sense>
 </entry>
@@ -47637,7 +48439,7 @@
   </form>
   <sense>
     <gramGrp>
-      <pos>n.</pos> <number>dual pl.</number>
+      <pos>n.</pos> <number>dual</number>
     </gramGrp>
     <xr type="of"><ptr target="sammar"/></xr>
     <trans lang="fr">
@@ -47679,7 +48481,7 @@
       <orth>samarad</orth><usg type="lang" norm="S."/>
     </form>
     <gramGrp>
-      <pos>n.</pos> <number>dual pl.</number>
+      <pos>n.</pos> <number>dual</number>
     </gramGrp>
   </re>
 </entry>
@@ -47710,7 +48512,7 @@
   <form type="regular">
     <form>
       <orth>sant</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:20</bibl>
+      <bibl>VT/42:20, NM/391</bibl>
       <pron>s"Ant</pron>
     </form>
   </form>
@@ -47723,7 +48525,7 @@
       <def><index lang="fr" level1="jardin"/>jardin, <index lang="fr" level1="pré"/>pré</def> <usg type="hint">ou toute autre propriété privée, qu’elle constitue un espace clos ou non</usg>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/42:20</bibl> <index level1="garden" lang="en"/>garden,
+      <def><bibl>VT/42:20, NM/391</bibl> <index level1="garden" lang="en"/>garden,
            <index level1="field" lang="en"/>field,
             <index level1="yard" lang="en"/>yard</def>
             <usg type="hint">or other place in private ownership whether enclosed
@@ -47761,7 +48563,7 @@
       <pron>s"Arn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -47772,7 +48574,7 @@
       <def><index level1="stone" lang="en"/>stone</def> <usg type="hint">as a material</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -47784,7 +48586,7 @@
       <def>small stone</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/385, S/437, UT/463, VT/42:11, RC/327</bibl></note>
+  <note type="source"><bibl>Ety/385, S/437, UT/463, VT/42:11, NM/381, RC/327</bibl></note>
   <re corresp="harn.1">
     <form type="deduced">
       <orth>harn</orth><usg type="lang" norm="S."/><itype type="sm">soft mut.</itype>
@@ -48002,7 +48804,7 @@
       <pron>s"El,</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -48014,7 +48816,7 @@
       <def><bibl>Ety/385</bibl> <index level1="daughter" lang="en"/>daughter</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <gen>f.</gen>
     </gramGrp>
@@ -48236,6 +49038,28 @@
     </trans>
   </sense>
   <etym>sereg+gond</etym>
+</entry>
+
+<entry id="serni">
+  <form type="regular">
+    <form>
+      <orth>serni</orth><usg type="lang" norm="S."/>
+      <bibl>UT/463, NM/381</bibl>
+      <pron>s"Erni</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n. and adj.</pos> <number>coll.</number>
+    </gramGrp>
+    <xr type="of"><ptr target="sarn"/></xr>
+    <trans lang="fr">
+      <def>galets, banc de galets</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>UT/463, NM/381</bibl> shingle, pebble-bank</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="seron">
@@ -48611,6 +49435,7 @@
   <form type="regular">
     <form>
       <orth>sîr</orth><usg type="lang" norm="S., N."/>
+      <bibl>Ety/385, S/437, UT/263-264, RC/269, RC/384, PE/17:37</bibl>
       <pron>s"i:r</pron>
     </form>
   </form>
@@ -48623,11 +49448,10 @@
       <def><index lang="fr" level1="rivière"/>rivière, cours d’eau</def>
     </trans>
     <trans lang="en">
-      <def><index level1="river" lang="en"/>river,
-           <bibl>PE/17:37</bibl> <index level1="stream" lang="en"/>stream</def>
+      <def><bibl>Ety/385, S/437, UT/263-264, RC/384</bibl> <index level1="river" lang="en"/>river,
+           <bibl>RC/269, PE/17:37</bibl> <index level1="stream" lang="en"/>stream</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/385, S/437, RC/384, PE/17:37</bibl></note>
   <re corresp="sirion.1">
     <form>
       <orth>sirion</orth><usg type="lang" norm="N."/>
@@ -48725,6 +49549,7 @@
   <form type="regular">
     <form>
       <orth>sirith</orth><usg type="lang" norm="S."/>
+      <bibl>S/437, VT/42:11, NM/381</bibl>
       <pron>s"iriT</pron>
     </form>
   </form>
@@ -48736,10 +49561,9 @@
       <def><index lang="fr" level1="écoulement"/>écoulement</def>
     </trans>
     <trans lang="en">
-      <def>flowing</def>
+      <def><bibl>S/437, VT/42:11, NM/381</bibl> flowing</def>
     </trans>
   </sense>
-  <note type="source"><bibl>S/437, VT/42:11</bibl></note>
 </entry>
 
 <entry id="sôg">
@@ -49045,8 +49869,16 @@
   <form type="regular">
     <form>
       <orth>sûl</orth><usg type="lang" norm="S."/>
-      <bibl>S/437, PE/17:124</bibl>
+      <bibl>S/437</bibl>
       <pron>s"u:l</pron>
+    </form>
+    <form>
+      <orth>sūl</orth><usg type="lang" norm="S."/>
+      <bibl>PE/17:15, PE/17:124, NM/236</bibl>
+    </form>
+    <form>
+      <orth>súl</orth><usg type="lang" norm="S."/>
+      <bibl>NM/237</bibl>
     </form>
   </form>
   <sense>
@@ -49058,7 +49890,7 @@
       <def><index lang="fr" level1="vent"/>vent</def>
     </trans>
     <trans lang="en">
-      <def><bibl>S/437</bibl> <index level1="wind" lang="en"/>wind</def>
+      <def><bibl>S/437, PE/17:15, NM/236-237</bibl> <index level1="wind" lang="en"/>wind</def>
     </trans>
   </sense>
   <etym>Q súlë</etym>
@@ -49661,6 +50493,7 @@
   <form type="regular">
     <form>
       <orth>talan</orth><usg type="lang" norm="S."/>
+      <bibl>LotR/II:VI, UT/245-246, UT/465, PE/17:52, NM/362-363</bibl>
       <pron>t"AlAn</pron>
     </form>
   </form>
@@ -49668,6 +50501,7 @@
     <number>pl.</number>
     <form>
       <orth>telain</orth><usg type="lang" norm="S."/>
+      <bibl>UT/245-246, UT/465, PE/17:52, NM/362-363</bibl>
       <pron>t"ElAjn</pron>
     </form>
   </form>
@@ -49676,13 +50510,17 @@
       <pos>n.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def>plate-forme en bois, <index lang="fr" level1="plancher"/>plancher surélevé</def> <usg type="hint">dans les arbres de Lóthlorien où vivaient les Galadhrim</usg>
+      <def>plate-forme en bois, <index lang="fr" level1="plancher"/>plancher surélevé</def>
+        <usg type="hint">dans des arbres, en part. dans les arbres de Lóthlorien où vivaient
+          les Galadhrim</usg>,
+      <def>espace plat, plate-forme</def>
     </trans>
     <trans lang="en">
-      <def>wooden <index level1="platform" lang="en"/>platform</def> <usg type="hint">in the trees of Lothlórien where the Galadhrim dwelt</usg>
+      <def><bibl>LotR/II:VI, UT/245-246, UT/465</bibl> wooden <index level1="platform" lang="en"/>platform</def>
+         <usg type="hint">in trees, sp. in the trees of Lothlórien where the Galadhrim dwelt</usg>,
+      <def><bibl>PE/17:52</bibl> flat space, platform</def>
     </trans>
   </sense>
-  <note type="source"><bibl>UT/465, LotR/II:VI, PE/17:52</bibl></note>
 </entry>
 
 <entry id="talath">
@@ -49695,7 +50533,7 @@
       <orth>dalath</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -49706,7 +50544,7 @@
       <def>flat <index level1="surface" lang="en"/>surface, <index level1="plane" lang="en"/>plane</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
   <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -49974,7 +50812,7 @@
       <pron>t"ArAg</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -49986,7 +50824,7 @@
       <def><index level1="horn" lang="en"/>horn</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -50270,7 +51108,7 @@
   <form type="regular">
     <form>
       <orth>tavn</orth><usg type="lang" norm="S."/>
-      <bibl>PE/17:107</bibl>
+      <bibl>PE/17:107, NM/302</bibl>
       <pron>t"Avn</pron>
     </form>
   </form>
@@ -50283,7 +51121,7 @@
            <usg type="hint">fabriquée artisanalement</usg>
     </trans>
     <trans lang="en">
-      <def><bibl>PE/17:107</bibl> a <index level1="thin" lang="en"/>thing</def>
+      <def><bibl>PE/17:107, NM/302</bibl> a <index level1="thin" lang="en"/>thing</def>
            <usg type="hint">made by handicraft</usg>
     </trans>
   </sense>
@@ -50408,7 +51246,7 @@
       <pron>t"AwAr</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -50420,7 +51258,7 @@
       <def>wood</def> <usg type="hint">as a material</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -50551,7 +51389,7 @@
   <form type="regular">
     <form>
       <orth>tegil</orth><usg type="lang" norm="S."/>
-      <bibl>PM/318</bibl>
+      <bibl>PM/318, VT47/8, NM/178</bibl>
       <pron>t"Egil,</pron>
     </form>
   </form>
@@ -50564,7 +51402,7 @@
       <def><index lang="fr" level1="stylet"/>stylet</def>
     </trans>
     <trans lang="en">
-      <def><bibl>PM/318</bibl> <index level1="pen" lang="en"/>pen</def>
+      <def><bibl>PM/318, VT47/8, NM/178</bibl> <index level1="pen" lang="en"/>pen</def>
     </trans>
   </sense>
   <note type="comment" lang="fr">
@@ -50596,7 +51434,7 @@
       <def>one skilled in calligraphy, a <index level1="calligrapher" lang="en"/>calligrapher</def>
     </trans>
   </sense>
-  <note type="source"><bibl>PM/318, VT/47:8</bibl></note>
+  <note type="source"><bibl>PM/318, VT/47:8, NM/178</bibl></note>
   <etym>tegil+paur</etym>
 </entry>
 
@@ -51578,7 +52416,7 @@
   <form type="regular">
     <form>
       <orth>then</orth><usg type="lang" norm="S."/>
-      <bibl>VT/42:29</bibl>
+      <bibl>VT/42:29, NM/386</bibl>
       <pron>T"En</pron>
     </form>
   </form>
@@ -51590,9 +52428,10 @@
       <def><index lang="fr" level1="court"/>court, <index lang="fr" level1="bref"/>bref</def>
     </trans>
     <trans lang="en">
-      <def><bibl>VT/42:29</bibl> <index level1="short" lang="en"/>short</def>
+      <def><bibl>VT/42:29, NM/386</bibl> <index level1="short" lang="en"/>short</def>
     </trans>
   </sense>
+  <note type="source,deduced"><mentioned>Then-Falas</mentioned> ‘short beach’ <bibl>VT/42:29, NM/386</bibl></note>
   <xr type="analogy"><ptr target="thent"/>, <ptr target="estent"/></xr>
 </entry>
 
@@ -51993,7 +52832,7 @@
       <pron>T"Onn</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -52005,7 +52844,7 @@
       </def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -52389,7 +53228,7 @@
   <form type="regular">
     <form>
       <orth>thû</orth><usg type="lang" norm="S."/>
-      <bibl>PE/17:393</bibl>
+      <bibl>PE/17:183</bibl>
       <pron>T"u:</pron>
     </form>
   </form>
@@ -52401,9 +53240,39 @@
       <def>horrible obscurité, brume noire</def>
     </trans>
     <trans lang="en">
-      <def><bibl>PE/17:393</bibl> horrible darkness, black mist</def>
+      <def><bibl>PE/17:183</bibl> horrible darkness, black mist</def>
     </trans>
   </sense>
+</entry>
+
+ <entry id="thû.3" n="3">
+  <form type="regular">
+    <form>
+      <orth>thû</orth><usg type="lang" norm="S."/>
+      <bibl>NM/236-237</bibl>
+      <pron>T"u:</pron>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def> mouvement de l’esprit</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/236-236</bibl> movement of spirit</def>
+    </trans>
+  </sense>
+  <note type="comment" lang="en">
+    De « souffler », d’où « esprit » : « dans ce sens particulier : l’émission de puissance (de volonté
+    ou de désir) d’un esprit » (<bibl>NM/236</bibl>, voir aussi <bibl>PE/17:124</bibl>).
+  </note>
+  <note type="comment" lang="en">
+    From ‘blowing forth’, hence ‘spirit’:
+    “in this special sense: the emission of power (of will or desire) from a spirit”
+    (<bibl>NM/236</bibl>, see also <bibl>PE/17:124</bibl>).
+  </note>
 </entry>
 
 <entry id="thuia-">
@@ -52476,6 +53345,42 @@
     </trans>
   </sense>
   <note type="source"><bibl>LB/304, Ety/394</bibl></note>
+</entry>
+
+<entry id="thus">
+  <form type="regular">
+    <form>
+      <orth>thus</orth><usg type="lang" norm="S."/>
+      <bibl>NM/237</bibl>
+      <pron>T"us</pron>
+    </form>
+    <form>
+      <orth>thos</orth><usg type="lang" norm="S."/>
+      <bibl>NM/237</bibl>
+    </form>
+  </form>
+  <sense>
+    <gramGrp>
+      <pos>n.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>bouffée</def> <usg type="hint">d’air</usg>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/237</bibl> puff</def> <usg type="hint">of air</usg>
+    </trans>
+  </sense>
+  <sense>
+    <gramGrp>
+      <pos>v.</pos>
+    </gramGrp>
+    <trans lang="fr">
+      <def>souffler, provoquer un mouvement d’air</def>
+    </trans>
+    <trans lang="en">
+      <def><bibl>NM/237</bibl> blow, cause an air movement</def>
+    </trans>
+  </sense>
 </entry>
 
 <entry id="ti">
@@ -52736,7 +53641,7 @@
       <orth>tindu</orth><usg type="lang" norm="N."/>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -52751,7 +53656,7 @@
            early <index level1="night" lang="en"/>night</def> <usg type="hint">without Moon</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -52865,6 +53770,7 @@
   <form type="regular">
     <form type="deduced">
       <orth>tir-</orth><usg type="lang" norm="N."/>
+      <bibl>Ety/394, VT/42:11, NM/381</bibl>
       <pron>t"ir</pron>
     </form>
   </form>
@@ -52884,7 +53790,8 @@
       <def><index lang="fr" level1="observer"/>observer, <index lang="fr" level1="contempler"/>contempler, <index lang="fr" level1="regarder"/>regarder</def>
     </trans>
     <trans lang="en">
-      <def><bibl>Ety/394</bibl> to <index level1="watch" lang="en"/>watch, to <index level1="gaze" lang="en"/>gaze, <index level1="look" lang="en"/>look at</def>
+      <def><bibl>Ety/394, VT/42:11, NM/381</bibl> to <index level1="watch" lang="en"/>watch,
+           <bibl>RGEO/65</bibl> to watch over, look at, gaze at</def>
     </trans>
   </sense>
   <re corresp="tirnen">
@@ -53066,6 +53973,7 @@
   <form type="regular">
     <form>
       <orth>tirith</orth><usg type="lang" norm="S., N."/>
+      <bibl>Letters/158, Ety/394, PE/22:125, S/437, VT/42:11, NM/381, PE/17:31, RC/772</bibl>
       <pron>t"iriT</pron>
     </form>
   </form>
@@ -53074,13 +53982,18 @@
       <pos>n.</pos>
     </gramGrp>
     <trans lang="fr">
-      <def><index lang="fr" level1="surveillance"/>surveillance, <index lang="fr" level1="garde"/>garde</def> <usg type="hint">nom abstrait</usg><def>, <index lang="fr" level1="vigilance"/>vigilance</def>
+      <def><index lang="fr" level1="surveillance"/>surveillance,
+           <index lang="fr" level1="garde"/>garde,
+           <index lang="fr" level1="vigilance"/>vigilance</def>
     </trans>
     <trans lang="en">
-      <def><index level1="watch" lang="en"/>watch, <index level1="guard" lang="en"/>guard</def> <usg type="hint">abstract noun</usg>, <def><index level1="vigilance" lang="en"/>vigilance</def>
+      <def><bibl>Ety/394, PE/17:31</bibl> watch,
+           <bibl>PE/17:31</bibl> ward,
+           <bibl>Ety/394, PE/22:125, PE/17:31, RC/772</bibl> guard,
+           <bibl>VT/42:11, NM/381</bibl> watching,
+           <bibl>VT/42:11, NM/381, S/437</bibl> guarding</def>
     </trans>
   </sense>
-  <note type="source"><bibl>Ety/394, S/437, Letters/158, VT/42:11</bibl></note>
 </entry>
 
 <entry id="tirn">
@@ -53489,13 +54402,15 @@
   <form type="regular">
     <form>
       <orth>toleg</orth><usg type="lang" norm="S."/>
+      <bibl>VT/48:6,16-17, NM/184</bibl>
       <pron>t"OlEg</pron>
     </form>
     <form>
       <orth>tolch</orth><usg type="lang" norm="S."/>
+      <bibl>VT/48:6,16-17, NM/184</bibl>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -53506,7 +54421,7 @@
       <def>(?) “litte prominent one”</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos> <usg type="reg">dim.</usg>
     </gramGrp>
@@ -53515,10 +54430,9 @@
       <def><index lang="fr" level1="majeur"/>majeur</def> <usg type="hint">dans le vocabulaire enfantin</usg>
     </trans>
     <trans lang="en">
-      <def>middle <index level1="finger" lang="en"/>finger</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
+      <def><bibl>VT/48:6,16-17, NM/184</bibl> middle <index level1="finger" lang="en"/>finger</def> <usg type="hint">Elvish play-name used by and taught to children</usg>
     </trans>
   </sense>
-  <note type="source"><bibl>VT/48:6,16-17</bibl></note>
   <xr type="analogy"><ptr target="honeg"/></xr>
 </entry>
 
@@ -54263,7 +55177,7 @@
       <pron>t"uj.O</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -54274,7 +55188,7 @@
       <def><bibl>Ety/394-395</bibl> to <index level1="sprout" lang="en"/>sprout, <index level1="spring" lang="en"/>spring</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>v.</pos>
     </gramGrp>
@@ -54798,7 +55712,7 @@
       <pron>"ujlOs</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -54809,7 +55723,7 @@
       <def>always <index level1="white" lang="en"/>white, ever white as snow</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -55172,7 +56086,7 @@
       <pron>"urug</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
   <gramGrp>
     <pos>n.</pos>
   </gramGrp>
@@ -55183,7 +56097,7 @@
       <def><bibl>WJ/390</bibl> <index level1="orc" lang="en"/>Orc</def> <usg type="hint">rarely used</usg>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>
@@ -55206,7 +56120,7 @@
       <pron>"uruj</pron>
     </form>
   </form>
-  <sense n="1">
+  <sense>
     <gramGrp>
       <pos>adj.</pos>
     </gramGrp>
@@ -55217,7 +56131,7 @@
       <def><index level1="hot" lang="en"/>hot</def>
     </trans>
   </sense>
-  <sense n="2">
+  <sense>
     <gramGrp>
       <pos>n.</pos>
     </gramGrp>

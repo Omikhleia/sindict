@@ -52,7 +52,7 @@
 <xsl:template match="sense">
   <xsl:text> </xsl:text>
   <xsl:choose>
-   <xsl:when test="following-sibling::sense"><b>1.</b> </xsl:when>
+   <xsl:when test="following-sibling::sense and not(preceding-sibling::sense)"><b>1.</b> </xsl:when>
    <xsl:when test="preceding-sibling::sense">&#x25CB; <b><xsl:value-of select="count(preceding-sibling::sense) + 1"/>.</b> </xsl:when>
   </xsl:choose><xsl:apply-templates/>
 </xsl:template>

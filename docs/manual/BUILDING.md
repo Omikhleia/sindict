@@ -54,7 +54,7 @@ To produce a much better version of the lexicon, several additional tasks are pe
 The provided `process.sh` script applies all the necessary steps in a row, and puts the converted
 HTML in `docs/dict-sd.html`
 
-The post-processing taks may be updated and the list below may become outdate, please check the script
+The post-processing tasks may be updated and the list below may become outdated, please check the script
 in case of doubts.
 
 But basically, for the record, the main following steps should be performed:
