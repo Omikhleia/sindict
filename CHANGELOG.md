@@ -1,5 +1,21 @@
 # Changes
 
+## Edition 2.1 - Oct. 16, 2021
+
+_Release_ 
+
+Target: take into account _the Nature of Middle-earth_
+
+- Lexicon content update:
+  - Added entries from NM
+  - Fixed some more PE/17 and Ety entries on the way
+- Lexicon structure overhaul:
+  - Removed numbering on sense tags (useless, as it is generated in the ouput)
+- Tooling:
+  - PDF output improvements:
+    - The list of abbreviations and references are now included.
+    - The document layout has been improved (better margins, culs-de-lampe, etc.)
+
 ## Edition 2.0 (lexicon 1.0) - Sept. 26, 2021
 
 _Release_
